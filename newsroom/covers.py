@@ -219,3 +219,19 @@ def cover_svg(story, with_text=True):
                 parts.append(f'<text x="{_f(pad)}" y="{_f(ly + H*.1 + i*H*.065)}" font-family="{BODY}" font-weight="500" font-size="{_f(H*.055)}" fill="{DIM}">{escape(l)}</text>')
     parts.append('</svg>')
     return "".join(parts)
+
+
+def plate_svg(story, w=1200, h=800):
+    """Fallback lead image: flat #1a1a1b, mono section label, one huge figure, a 2px lime bar. Nothing else."""
+    v = story.get("visual") or {}
+    big = escape(str(v.get("big", "")))
+    label = escape(str(v.get("label", "")))
+    cat = escape(story.get("cat", "").upper())
+    fs = min(h * .34, (w * .82) / max(1, len(str(v.get("big", "")))) / .62)
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" role="img" aria-label="{big} {label}">'
+            f'<rect width="{w}" height="{h}" fill="#1a1a1b"/>'
+            f'<text x="{w*.06:.0f}" y="{h*.12:.0f}" font-family="JetBrains Mono, IBM Plex Mono, monospace" font-size="{h*.035:.0f}" letter-spacing="3" fill="#8a8a8a">{cat}</text>'
+            f'<text x="{w*.06:.0f}" y="{h*.62:.0f}" font-family="Inter Tight, Inter, Helvetica, sans-serif" font-weight="700" font-size="{fs:.0f}" letter-spacing="-2" fill="#f2f2f2">{big}</text>'
+            f'<rect x="{w*.06:.0f}" y="{h*.62 + h*.05:.0f}" width="{w*.12:.0f}" height="3" fill="#a3e635"/>'
+            f'<text x="{w*.06:.0f}" y="{h*.62 + h*.14:.0f}" font-family="Inter Tight, Inter, Helvetica, sans-serif" font-weight="500" font-size="{h*.045:.0f}" fill="#b5b5b5">{label}</text>'
+            '</svg>')

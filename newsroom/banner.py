@@ -158,9 +158,7 @@ def scene_image(a, photo):
     if photo:
         im = Image.open(photo).convert("RGB")
     else:
-        svg = cover_svg(a, with_text=False)
-        out = subprocess.run(["rsvg-convert", "-w", "1600"], input=svg.encode(), capture_output=True, check=True).stdout
-        im = Image.open(io.BytesIO(out)).convert("RGB")
+        return Image.new("RGBA", (W, H), (14, 12, 20, 255))
     # cover-fit, biased so the subject sits right of centre
     s = max(W / im.width, H / im.height)
     im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)

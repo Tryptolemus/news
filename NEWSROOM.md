@@ -59,7 +59,8 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
     "points": [{"icon": "shield", "text": "7 states approved"}, {"icon": "handshake", "text": "Registered-only supply chain"}, {"icon": "coin", "text": "Tax relief ahead"}],
     "corner": ["FEDERAL", "MEDICAL", "ACCESS", "COMPLIANCE"] // optional: 4 single words, bottom-right
   },
-  "image_prompt": "…",                            // scene for the AI banner (see below)
+  "watch": [{"date": "2026-11-12", "text": "…"}],  // dated upcoming events from the story (front page "What to watch")
+  "image_prompt": "…",                            // scene for the AI photo (see below)
   "image_alt": "…",                               // short description of that image for screen readers
   "x_post": "…"                                   // ranks 1–3: the post for X, ≤220 chars, no link (added automatically)
 }
@@ -98,21 +99,20 @@ MetaFlora News runs long, useful stories, not briefs.
 
 ## Banner text (`banner`)
 
-The banner is the story's main image, social card and reel shot: AI scene on the right, MetaFlora logo, "MetaFlora News" pill, a huge two-tone headline, a sub line, a divider and a three-point icon strip.
+The banner is the story's **X / social card and reel shot only** (never shown on the website): AI photo on the right, MetaFlora logo, "MetaFlora News" pill, a huge two-tone headline, a sub line, a divider and a three-point icon strip. On the website the same AI photo appears clean, with no text, captioned "Photo illustration: AI-generated".
 - `title` is NOT the headline: 3–6 punchy words in title case. `highlight` = 1–2 words of it.
 - `points`: three short facts (≤ 28 characters each) with icons from: shield, leaf, chart, gavel, flask, pin, ballot, coin, globe, doc, handshake, chip, megaphone, drop, cube.
 - Names of real people may appear in `sub` (e.g. "Gov. Gavin Newsom signs AB 2250"); their likeness never appears in the image.
 
 ## AI banner images (`image_prompt`)
 
-On every push, GitHub Actions sends each new story's `image_prompt` to the image model (OpenAI `gpt-image-1` by default) with MetaFlora's fixed art direction: epic cinematic key art, violet and emerald smoke and glow, subject on the right, empty dark space on the left for the headline, no text. The scene is saved to `content/images/<id>.jpg`, and `newsroom/banner.py` composes the final banner on top of it. If generation fails or no key is set, the designed motif is used as the scene.
+On every push, GitHub Actions sends each new story's `image_prompt` to the image model (OpenAI `gpt-image-1` by default) with a fixed documentary-photo art direction: shot like a photojournalist on 35mm, available light, muted grade with a faint green cast, subject off-centre, no text, no neon, no smoke, no CGI look. The photo is saved to `content/images/<id>.jpg`. The site shows it clean; `newsroom/banner.py` composes the loud social banner on top of it. Without a photo the site shows a typographic plate (the story's key figure).
 
-Write the scene, not the style (the style is added automatically):
-- One dramatic, symbolic scene a reader connects to the story in a second: a capitol dome under storm light, a glowing seal over pharmacy shelves, two greenhouse complexes joined by a bridge of light. Big, cinematic, metaphorical. 1–2 sentences.
-- Never ask for text, numbers, logos, flags, brand names or signage.
-- Never depict real, identifiable people. People only as anonymous hands, silhouettes or from behind.
-- No minors, no consumption close-ups, no weapons, nothing graphic.
-- Vary scenes across the edition (lab, greenhouse, storefront, courtroom, landscape, product still life).
+Write a real, specific place or object, not a metaphor:
+- Good: "A dispensary counter at closing time, sealed medical jars on the shelf behind, a hand turning the sign." "Long greenhouse rows at dawn in the Canadian prairie." "Ballot counting table, hands sorting envelopes under fluorescent light."
+- Bad: glowing seals, holograms, neon leaves, epic skylines, anything "cinematic".
+- Never request text, logos, flags or signage. Never depict real, identifiable people: hands, backs and out-of-focus figures only.
+- No minors, no consumption close-ups, no weapons, nothing graphic. Vary scenes across the edition.
 
 ## Posting to X
 

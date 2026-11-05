@@ -51,21 +51,18 @@ def pick(inv, key, slot, cat=None, exclude=()):
 
 
 def render(ad, placement="article"):
+    """Flat, clearly labelled ad unit: hairline rules, ADVERTISEMENT label, one creative block."""
     if not ad:
         return ""
     house = ad.get("advertiser") in ("MetaFlora", "MetaFlora News")
-    label = "From MetaFlora" if house else f"Advertisement · {escape(ad['advertiser'])}"
+    who = "MetaFlora" if house else escape(ad["advertiser"])
     ext = ad["url"].startswith("http")
-    rel = ' target="_blank" rel="noopener sponsored"' if ext and not house else (' target="_blank" rel="noopener"' if ext else "")
+    rel = ' target="_blank" rel="noopener' + ("" if house else " sponsored") + '"' if ext else ""
     img = f'<img src="/assets/{escape(ad["image"])}" alt="" loading="lazy">' if ad.get("image") else ""
-    return f"""<aside class="ad ad-{placement} ad-{escape(ad.get('theme', 'purple'))}" aria-label="Advertisement" data-ad="{escape(ad['id'])}">
-  <span class="ad-label">{label}</span>
-  <div class="ad-body">
-    <div class="ad-copy">
-      <h3>{escape(ad['title'])}</h3>
-      <p>{escape(ad['body'])}</p>
-      <a class="btn" href="{escape(ad['url'])}"{rel}>{escape(ad['cta'])}</a>
-    </div>
-    <div class="ad-art">{img}</div>
-  </div>
+    return f"""<aside class="ad ad-{placement}" aria-label="Advertisement" data-ad="{escape(ad['id'])}">
+  <div class="ad-label">Advertisement · {who}</div>
+  <a class="ad-unit" href="{escape(ad['url'])}"{rel}>
+    <span class="ad-copy"><span class="ad-title">{escape(ad['title'])}</span><span class="ad-text">{escape(ad['body'])}</span><span class="ad-cta">{escape(ad['cta'])}</span></span>
+    <span class="ad-art">{img}</span>
+  </a>
 </aside>"""

@@ -27,13 +27,12 @@ ARTICLES = ROOT / "content" / "articles"
 IMAGES = ROOT / "content" / "images"
 
 STYLE = (
-    "Epic cinematic key art for MetaFlora News, a premium cannabis and Web3 newsroom. "
-    "Hyper-detailed digital artwork, dramatic volumetric lighting, swirling violet (#8b5cf6) and emerald-lime (#7cd470) smoke and glow, "
-    "deep black background, glossy reflections, particles and light rays, blockbuster movie-poster atmosphere, 8k detail. "
-    "Composition: the subject sits in the RIGHT half of the frame; the LEFT 45% is dark, calm atmosphere with no objects, reserved for headline text. "
-    "Strictly no text, letters, numbers, signage, logos, brand marks or watermarks anywhere. "
-    "No identifiable real people and no public figures; people only as anonymous silhouettes, hands or from behind. "
-    "Scene: "
+    "Documentary news photograph for a serious business publication, as if shot by a photojournalist on a 35mm lens "
+    "with available light. Natural grain, slightly underexposed, muted desaturated grade, cool shadows, a faint green cast in the highlights. "
+    "Subject off-centre with generous negative space, shallow depth of field, real places and real materials. 3:2 landscape. "
+    "Strictly no text, letters, numbers, signage, logos or watermarks. No neon, no smoke effects, no purple lighting, no glowing leaves, "
+    "no holograms, no symmetry, no illustration or CGI look. No identifiable real people and no public figures: "
+    "people only as hands, backs or out-of-focus figures. Scene: "
 )
 
 

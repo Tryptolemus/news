@@ -37,10 +37,13 @@
       "body": "Join the MetaFlora Node Network and earn $FLORA for powering data and transactions across the cannabis platform.",
       "cta": "Buy a Node",
       "url": "https://metaflora.xyz",
-      "image": "metaflora-hero.jpg",
+      "image": "metaflora-cube.png",
       "theme": "purple",
       "weight": 2,
-      "categories": ["Markets", "Tech"],
+      "categories": [
+        "Markets",
+        "Tech"
+      ],
       "start": null,
       "end": null
     },
@@ -51,7 +54,7 @@
       "body": "Strain profiles, lab reports and verified genetics in one platform. Built for growers, retailers and connoisseurs.",
       "cta": "Launch App",
       "url": "https://platform.metaflora.xyz",
-      "image": "metaflora-hero.jpg",
+      "image": "metaflora-cube.png",
       "theme": "green",
       "weight": 2,
       "categories": [],

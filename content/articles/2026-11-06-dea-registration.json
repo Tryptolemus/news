@@ -55,7 +55,7 @@
   "rank": 2,
   "published": "2026-11-06T00:32:00+02:00",
   "x_post": "The DEA has federally registered 900+ medical dispensaries. The catch: they can now only trade with other registered businesses, and states with dual medical and adult-use licenses are shut out.",
-  "image_prompt": "An imposing federal agency building at night, its columns lit in violet, a glowing emerald seal of approval hovering above rows of sealed medical cannabis jars on pharmacy shelves in the foreground, volumetric smoke.",
+  "image_prompt": "A licensed medical cannabis dispensary counter at opening time, sealed jars with blank labels on shelves behind, a compliance binder and a scanner on the counter.",
   "image_alt": "Federal building at night above rows of medical cannabis jars",
   "key_points": [
     "The DEA has registered more than 900 state-licensed medical dispensaries in seven states, the first federal registrations of their kind.",
@@ -91,5 +91,11 @@
       "ACCESS",
       "COMPLIANCE"
     ]
-  }
+  },
+  "watch": [
+    {
+      "date": "2026-11-30",
+      "text": "Late November: DEA deadline for registered businesses to rework supply chains"
+    }
+  ]
 }

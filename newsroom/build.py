@@ -23,7 +23,7 @@ CONTENT = ROOT / "content" / "articles"
 OUT = ROOT / "docs"
 SITE = "https://news.metaflora.xyz"
 NAME = "MetaFlora News"
-TAGLINE = "Cannabis news, every morning and every evening. Written by the MetaFlora AI newsroom."
+TAGLINE = "Cannabis industry news: policy, markets, science and the business of cannabis. Morning and evening editions."
 CATS = ["Policy", "Federal", "Hemp", "Markets", "Europe", "States", "Science", "Tech"]
 REQUIRED = ["id", "edition", "published", "cat", "headline", "dek", "body", "sources", "visual"]
 
@@ -44,8 +44,8 @@ def load_articles():
             continue
         if a["cat"] not in CATS:
             errors.append(f"{p.name}: unknown cat {a['cat']}")
-        if a["visual"].get("motif") not in MOTIFS:
-            errors.append(f"{p.name}: unknown motif {a['visual'].get('motif')}")
+        if not a["visual"].get("big") or not a["visual"].get("label"):
+            errors.append(f"{p.name}: visual needs big and label")
         bn = a.get("banner")
         if bn is not None and (not bn.get("title") or len(bn.get("points", [])) > 3):
             errors.append(f"{p.name}: banner needs a title and at most 3 points")
@@ -83,73 +83,9 @@ def edition_label(ed):
     return f"{dt:%A} {dt.day} {dt:%B %Y} · {'Morning' if half == 'am' else 'Evening'} edition"
 
 
-# ---------- layout ----------
+# ---------- pages (see templates.py) ----------
 
-LOGO = '<img src="/assets/metaflora-white-logo-no-icon.png" alt="MetaFlora" width="218" height="65">'
-X_HANDLE = "MetaFloraLabs"
-SOCIAL = [("x", "https://twitter.com/MetaFloraLabs", "X"), ("telegram", "https://t.me/MetaFloraLabs", "Telegram"),
-          ("discord", "https://discord.com/invite/BvsTfQZNzn", "Discord"), ("medium", "https://meta-flora.medium.com/", "Medium"),
-          ("youtube", "https://www.youtube.com/@metafloralabs", "YouTube")]
-
-
-def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head=""):
-    full = f"{title} · {NAME}" if title != NAME else NAME
-    img = og_image or f"{SITE}/assets/og-default.png"
-    nav = "".join(f'<a href="/section/{c.lower()}/">{c}</a>' for c in CATS)
-    social = "".join(f'<a href="{u}" target="_blank" rel="noopener" aria-label="{n}"><img src="/assets/{i}.png" alt=""></a>' for i, u, n in SOCIAL)
-    return f"""<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{escape(full)}</title>
-<meta name="description" content="{escape(desc)}">
-<link rel="canonical" href="{SITE}{path}">
-<meta property="og:site_name" content="{NAME}">
-<meta property="og:type" content="{kind}">
-<meta property="og:title" content="{escape(title)}">
-<meta property="og:description" content="{escape(desc)}">
-<meta property="og:url" content="{SITE}{path}">
-<meta property="og:image" content="{img}">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@{X_HANDLE}">
-<meta name="twitter:title" content="{escape(title)}">
-<meta name="twitter:description" content="{escape(desc)}">
-<meta name="twitter:image" content="{img}">
-<meta name="theme-color" content="#131313">
-<link rel="icon" href="/assets/metaflora-white-logo-just-icon.png" type="image/png">
-<link rel="alternate" type="application/rss+xml" title="{NAME}" href="/feed.xml">
-<link rel="preload" href="/assets/fonts/CasanovaScotia.otf" as="font" type="font/otf" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="/assets/site.css">
-{extra_head}
-</head>
-<body>
-<header class="top"><div class="wrap">
-  <a class="brand" href="/">{LOGO}<span class="tag">NEWS</span></a>
-  <nav class="sections" aria-label="Sections">{nav}</nav>
-</div></header>
-<main class="wrap">
-{body}
-</main>
-<footer class="foot"><div class="wrap foot-grid">
-  <div>
-    <a class="brand" href="/">{LOGO}<span class="tag">NEWS</span></a>
-    <p>The MetaFlora AI newsroom files a morning and an evening edition every day. Every story is our own summary of public reporting and links its sources.</p>
-    <p>News and commentary only. Not legal, medical or financial advice.</p>
-    <div class="social">{social}</div>
-  </div>
-  <nav class="foot-links" aria-label="More">
-    <a href="/archive/">Archive</a><a href="/advertise/">Advertise</a><a href="/feed.xml">RSS feed</a>
-    <a href="https://metaflora.xyz">metaflora.xyz</a><a href="https://platform.metaflora.xyz">Launch App</a>
-    <span class="dim">From Seed to Greatness.</span>
-  </nav>
-</div></footer>
-</body>
-</html>
-"""
-
+import templates as T  # noqa: E402
 
 IMAGES = ROOT / "content" / "images"
 
@@ -159,233 +95,7 @@ def photo_path(a):
     return p if p.exists() else None
 
 
-def visual(a, eager=False):
-    """The article banner (AI scene + MetaFlora typography), built by banner.py."""
-    lazy = "" if eager else ' loading="lazy"'
-    return (f'<img class="banner" src="/banners/{a["id"]}.jpg" width="1672" height="941" '
-            f'alt="{escape(a.get("image_alt") or a["headline"])}"{lazy}>')
-
-
-def chip(cat):
-    return f'<a class="chip" href="/section/{cat.lower()}/" style="--c:{color_for(cat)}">{escape(cat)}</a>'
-
-
-def stamp(a):
-    return f"{a['_dt']:%-d %b %Y · %H:%M}"
-
-
-def card(a, size="m"):
-    return f"""<article class="card {' '.join('card-' + x for x in size.split())}">
-  <a class="cover" href="{a['_path']}" tabindex="-1" aria-hidden="true">{visual(a)}</a>
-  <div class="card-meta">{chip(a['cat'])}<span class="mono dim">{stamp(a)}</span></div>
-  <h3><a href="{a['_path']}">{escape(a['headline'])}</a></h3>
-  <p class="dek">{escape(a['dek'])}</p>
-</article>"""
-
-
-def grid_cards(items, cols=3):
-    """Widen card(s) so every row of the 3-column grid is full: a wide card plus a normal one fills a row."""
-    gap = (-len(items)) % cols
-    wide = set()
-    if len(items) > cols and gap >= 1:
-        wide.add(0)
-    if len(items) > cols and gap == 2:
-        wide.add(len(items) - 2)
-    return "".join(card(a, "m wide" if i in wide else "m") for i, a in enumerate(items))
-
-
-def wire_row(a):
-    return f"""<li><span class="mono dim">{a['_dt']:%d %b %H:%M}</span>{chip(a['cat'])}<a href="{a['_path']}">{escape(a['headline'])}</a></li>"""
-
-
-# ---------- pages ----------
-
-def front_ad():
-    import ads
-    inv = ads.load()
-    return ads.render(ads.pick(inv, "front", datetime.now().strftime("%Y%m%d%H")), "band")
-
-
-def build_advertise(arts, eds):
-    import ads
-    inv = ads.load()
-    contact = inv.get("advertise_contact", "https://metaflora.xyz")
-    sample = ads.render(next((x for x in inv["ads"] if x["id"] == "home-grow-node"), None), "article")
-    body = f"""
-<div class="page-h"><h1>Advertise</h1></div>
-<section class="adv">
-  <p class="dek big">MetaFlora News reaches cannabis operators, investors and connoisseurs with a morning and an evening edition every day, and pushes every lead story to X.</p>
-  <div class="stats">
-    <div class="stat"><b>2×</b><span>Editions every day</span></div>
-    <div class="stat"><b>{len(arts):,}+</b><span>Stories published</span></div>
-    <div class="stat"><b>X</b><span>Lead stories posted to @{X_HANDLE}</span></div>
-  </div>
-  <div class="sec-h"><h2>Placements</h2></div>
-  <div class="adv-grid">
-    <div class="adv-card"><h3>Article ad break</h3><p>A full-width break inside long-form stories, between sections. Your image, headline, copy and button. Can target a section such as Markets or Science.</p></div>
-    <div class="adv-card"><h3>Front page band</h3><p>The ad band on the front page between the edition reel and the story grid. Seen by every visitor to the homepage.</p></div>
-    <div class="adv-card"><h3>Sponsored edition</h3><p>Your brand on a full morning or evening edition: the front page band plus every ad break in that edition's stories.</p></div>
-  </div>
-  <div class="sec-h"><h2>What an ad break looks like</h2></div>
-  {sample}
-  <div class="adv-cta"><a class="btn" href="{escape(contact)}" target="_blank" rel="noopener">Become a partner</a><span class="dim">Tell us your brand, dates and target sections. We'll come back with availability and rates.</span></div>
-</section>"""
-    write("advertise/index.html", page("Advertise", body, path="/advertise/"))
-
-
-def build_front(arts, eds):
-    latest_ed, latest = next(iter(eds.items()))
-    lead, rest = latest[0], latest[1:]
-    top = rest[:4]
-    updated = max(a["_dt"] for a in latest)
-    reel = f"/reels/{latest_ed}.mp4"
-    has_reel = (OUT / reel.lstrip("/")).exists()
-    reel_html = ""
-    if has_reel:
-        reel_html = f"""<section class="reel" aria-label="Edition reel">
-  <video src="{reel}" poster="/og/{lead['id']}.png" controls muted autoplay loop playsinline preload="metadata"></video>
-  <div class="reel-copy">
-    <span class="kicker">The edition in motion</span>
-    <h2>Every headline from the {('morning' if latest_ed.endswith('am') else 'evening')} edition, cut as a briefing reel.</h2>
-    <p class="dim">Rendered by the newsroom with each edition.</p>
-    <a class="btn" href="https://twitter.com/{X_HANDLE}" target="_blank" rel="noopener">Follow on X</a>
-  </div>
-</section>"""
-    body = f"""
-<div class="edbar">
-  <span class="live"><i></i>Live newsroom</span>
-  <span class="mono" style="color:#fff">{escape(edition_label(latest_ed))}</span>
-  <span class="mono dim">Updated {updated:%H:%M} EET</span>
-</div>
-<section class="lead">
-  <article class="lead-story">
-    <a class="cover" href="{lead['_path']}" tabindex="-1" aria-hidden="true">{visual(lead, eager=True)}</a>
-    <div class="lead-copy">
-      <div class="card-meta">{chip(lead['cat'])}<span class="mono dim">{stamp(lead)}</span></div>
-      <h1><a href="{lead['_path']}">{escape(lead['headline'])}</a></h1>
-      <p class="dek big">{escape(lead['dek'])}</p>
-      <a class="btn readmore" href="{lead['_path']}">Read the story</a>
-    </div>
-  </article>
-  <aside class="topstories" aria-label="Top stories">
-    <h2>Top stories</h2>
-    <ol>{''.join(f'<li>{chip(a["cat"])}<a href="{a["_path"]}">{escape(a["headline"])}</a></li>' for a in top)}</ol>
-  </aside>
-</section>
-<section class="stats" aria-label="Newsroom numbers">
-  <div class="stat"><b>{len(arts):,}+</b><span>Stories filed</span></div>
-  <div class="stat"><b>{len(eds):,}</b><span>Editions published</span></div>
-  <div class="stat"><b>{len({s["url"] for a in arts for s in a["sources"]}):,}+</b><span>Sources linked</span></div>
-</section>
-{reel_html}
-{front_ad()}
-<div class="sec-h"><h2>This edition</h2><span class="mono dim">{len(latest)} stories</span></div>
-<section class="grid">{grid_cards(rest)}</section>
-<div class="sec-h"><h2>The wire</h2><a class="mono" href="/archive/">Full archive →</a></div>
-<ul class="wire">{''.join(wire_row(a) for a in arts[:40])}</ul>
-"""
-    write("index.html", page(NAME, body, og_image=f"{SITE}/og/{lead['id']}.png"))
-
-
-AD_INV = None
-
-
-def render_body(a):
-    """Paragraphs, '## ' subheads and '> ' pull quotes, with an ad break before every 2nd subhead
-    (or every 4 paragraphs when a story has no subheads). Never before the first block or after the last."""
-    import ads
-    global AD_INV
-    if AD_INV is None:
-        AD_INV = ads.load()
-    blocks = a["body"]
-    has_heads = any(b.startswith("## ") for b in blocks)
-    out, paras_since, heads_seen, used, slot = [], 0, 0, [], 0
-    for i, b in enumerate(blocks):
-        is_head = b.startswith("## ")
-        want_ad = False
-        if 0 < i < len(blocks) - 1:
-            if has_heads and is_head:
-                heads_seen += 1
-                want_ad = heads_seen % 2 == 0
-            elif not has_heads and paras_since >= 4:
-                want_ad = True
-        if want_ad:
-            ad = ads.pick(AD_INV, a["id"], slot, a["cat"], exclude=used)
-            if ad:
-                used.append(ad["id"])
-                out.append(ads.render(ad))
-                slot += 1
-            paras_since = 0
-        if is_head:
-            out.append(f"<h2>{escape(b[3:])}</h2>")
-        elif b.startswith("> "):
-            out.append(f'<blockquote class="pull">{escape(b[2:])}</blockquote>')
-        else:
-            out.append(f"<p>{escape(b)}</p>")
-            paras_since += 1
-    return "".join(out)
-
-
-def build_article(a, arts):
-    related = [x for x in arts if x["id"] != a["id"] and x["cat"] == a["cat"]][:2]
-    related += [x for x in arts if x["id"] != a["id"] and x not in related][: 4 - len(related)]
-    paras = render_body(a)
-    words = sum(len(x.split()) for x in a["body"])
-    minutes = max(1, round(words / 230))
-    kp = ""
-    if a.get("key_points"):
-        kp = '<aside class="keypoints"><h2>The short version</h2><ul>' + "".join(f"<li>{escape(k)}</li>" for k in a["key_points"]) + "</ul></aside>"
-    srcs = "".join(f'<li><a href="{escape(s["url"])}" rel="noopener" target="_blank">{escape(s["name"])}</a></li>' for s in a["sources"])
-    ld = {
-        "@context": "https://schema.org", "@type": "NewsArticle", "headline": a["headline"],
-        "description": a["dek"], "datePublished": a["published"], "image": [f"{SITE}/og/{a['id']}.png"],
-        "author": {"@type": "Organization", "name": "MetaFlora AI Newsroom"},
-        "publisher": {"@type": "Organization", "name": NAME},
-        "mainEntityOfPage": f"{SITE}{a['_path']}",
-    }
-    body = f"""
-<article class="story">
-  <div class="story-head">
-    <div class="card-meta">{chip(a['cat'])}<span class="mono dim">{escape(edition_label(a['edition']))}</span></div>
-    <h1>{escape(a['headline'])}</h1>
-    <p class="dek big">{escape(a['dek'])}</p>
-    <p class="byline mono">MetaFlora AI Newsroom · {stamp(a)} · {minutes} min read</p>
-  </div>
-  <figure class="story-cover">{visual(a, eager=True)}</figure>
-  {kp}
-  <div class="story-body">{paras}</div>
-  <aside class="sources">
-    <h2>Sources</h2>
-    <ul>{srcs}</ul>
-    <p class="dim">This story is MetaFlora's own summary of the reporting above. Read the originals for full detail.</p>
-  </aside>
-  <div class="share"><a class="btn" href="https://twitter.com/intent/tweet?text={quote(a['headline'])}&url={quote(SITE + a['_path'])}&via={X_HANDLE}" target="_blank" rel="noopener">Share on X</a><a class="dim" href="/">More news →</a></div>
-</article>
-<div class="sec-h"><h2>More from the wire</h2></div>
-<section class="grid grid-4">{''.join(card(x, 's') for x in related)}</section>
-"""
-    extra = f'<script type="application/ld+json">{json.dumps(ld)}</script>'
-    write(a["_path"].strip("/") + "/index.html",
-          page(a["headline"], body, desc=a["dek"], path=a["_path"], og_image=f"{SITE}/og/{a['id']}.png", kind="article", extra_head=extra))
-
-
-def build_sections(arts):
-    for c in CATS:
-        items = [a for a in arts if a["cat"] == c]
-        if items:
-            inner = f'<section class="grid">{grid_cards(items[:30])}</section>'
-        else:
-            inner = '<p class="empty">No stories in this section yet. The newsroom files new stories every morning and evening.</p>'
-        body = f'<div class="sec-h page-h"><h1>{c}</h1><span class="mono dim">{len(items)} stories</span></div>{inner}'
-        write(f"section/{c.lower()}/index.html", page(c, body, path=f"/section/{c.lower()}/"))
-
-
-def build_archive(eds):
-    blocks = []
-    for ed, items in eds.items():
-        blocks.append(f'<div class="arch-ed"><h2 class="mono">{escape(edition_label(ed))}</h2><ul class="wire">{"".join(wire_row(a) for a in items)}</ul></div>')
-    body = f'<div class="sec-h page-h"><h1>Archive</h1><span class="mono dim">{len(eds)} editions</span></div>{"".join(blocks)}'
-    write("archive/index.html", page("Archive", body, path="/archive/"))
+page = T.page
 
 
 def build_feeds(arts):
@@ -397,13 +107,13 @@ def build_feeds(arts):
     write("feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>{NAME}</title><link>{SITE}/</link><description>{escape(TAGLINE)}</description>
 <lastBuildDate>{now}</lastBuildDate>{''.join(items)}</channel></rss>""")
-    urls = [f"{SITE}/", f"{SITE}/archive/", f"{SITE}/advertise/"] + [f"{SITE}/section/{c.lower()}/" for c in CATS] + [f"{SITE}{a['_path']}" for a in arts]
+    urls = [f"{SITE}/", f"{SITE}/archive/", f"{SITE}/advertise/", f"{SITE}/how-we-report/"] + [f"{SITE}/section/{c.lower()}/" for c in CATS] + [f"{SITE}{a['_path']}" for a in arts]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
           + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     write("CNAME", "news.metaflora.xyz\n")
     write(".nojekyll", "")
-    write("404.html", page("Page not found", '<div class="page-h"><h1>That page moved or never existed.</h1><p><a href="/">Back to the front page →</a></p></div>', path="/404.html"))
+    write("404.html", page("Page not found", '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html"))
 
 
 def write(rel, text):
@@ -447,6 +157,8 @@ def build_media(arts, eds):
         from reel import render_reel
         render_reel(latest_ed, edition_label(latest_ed), eds[latest_ed], OUT / "og", reel,
                     lambda a: OUT / "banners" / f"{a['id']}.jpg", full_banner=True)
+        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "3.8", "-i", str(reel), "-frames:v", "1", "-q:v", "3",
+                        str(reel.with_suffix(".jpg"))], check=False)
 
 
 def install_fonts():
@@ -466,7 +178,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -477,14 +189,21 @@ def main():
     if IMAGES.exists():
         shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
     install_fonts()
+    T.ctx.update(photo_path=photo_path, write=write, out=OUT, edition_label=edition_label)
     if media:
         build_media(arts, eds)
-    build_front(arts, eds)
+        try:
+            import market
+            T.ctx["market"] = market.fetch()
+        except Exception:  # noqa: BLE001
+            T.ctx["market"] = None
+    T.build_front(arts, eds)
     for a in arts:
-        build_article(a, arts)
-    build_sections(arts)
-    build_archive(eds)
-    build_advertise(arts, eds)
+        T.build_article(a, arts)
+    T.build_sections(arts)
+    T.build_archive(eds)
+    T.build_how()
+    T.build_advertise()
     build_feeds(arts)
     print(f"Built {len(arts)} articles across {len(eds)} editions -> {OUT}")
 
