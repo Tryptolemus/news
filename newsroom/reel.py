@@ -14,11 +14,11 @@ from covers import color_for, cover_svg
 
 VW, VH, FPS = 1280, 720, 30
 INTRO, SHOT, OUTRO = 3.0, 4.2, 3.0
-INK = (18, 15, 25)
-PAPER = (244, 238, 248)
-DIM = (201, 191, 214)
+INK = (19, 19, 19)
+PAPER = (255, 255, 255)
+DIM = (208, 208, 208)
 
-FONT_DIRS = [Path("/usr/share/fonts/opentype/inter"), Path("/usr/share/fonts/truetype/dejavu")]
+FONT_DIRS = [Path(__file__).parent / "assets" / "fonts", Path("/usr/share/fonts/opentype/inter"), Path("/usr/share/fonts/truetype/dejavu")]
 
 
 def _font(names, size):
@@ -32,6 +32,10 @@ def _font(names, size):
 
 def F_DISPLAY(s):
     return _font(["InterDisplay-ExtraBold.otf", "InterDisplay-Bold.otf", "Inter-ExtraBold.otf", "DejaVuSans-Bold.ttf"], s)
+
+
+def F_BRAND(s):
+    return _font(["CasanovaScotia.otf", "InterDisplay-ExtraBold.otf"], s)
 
 
 def F_MONO(s):
@@ -71,6 +75,19 @@ def cube(draw, x, y, s):
     draw.polygon(P([(36, 12), (20, 21), (20, 38), (36, 29)]), fill=g)
 
 
+_LOGO = None
+
+
+def _logo():
+    global _LOGO
+    if _LOGO is None:
+        p = Path(__file__).parent / "assets" / "metaflora-white-logo-no-icon.png"
+        if p.exists():
+            im = Image.open(p).convert("RGBA")
+            _LOGO = im.resize((int(im.width * 90 / im.height), 90), Image.LANCZOS)
+    return _LOGO
+
+
 def title_card(t, dur, top, bottom, sub):
     im = Image.new("RGB", (VW, VH), INK)
     d = ImageDraw.Draw(im)
@@ -78,11 +95,15 @@ def title_card(t, dur, top, bottom, sub):
     fade = min(1.0, (dur - t) / 0.5)
     alpha = max(0.0, min(e, fade))
     col = lambda c: tuple(int(INK[i] + (c[i] - INK[i]) * alpha) for i in range(3))  # noqa: E731
-    cube(d, 96, 230 - (1 - e) * 20, 72)
-    d.text((96, 330 + (1 - e) * 30), top, font=F_DISPLAY(88), fill=col((240, 166, 74)))
+    logo = _logo()
+    if logo is not None:
+        lg = logo.copy()
+        lg.putalpha(lg.getchannel("A").point(lambda v: int(v * alpha)))
+        im.paste(lg, (96, int(200 - (1 - e) * 20)), lg)
+    d.text((96, 330 + (1 - e) * 30), top, font=F_BRAND(84), fill=col((163, 230, 53)))
     d.text((96, 440 + (1 - e) * 30), bottom, font=F_DISPLAY(44), fill=col(PAPER))
     d.text((96, 520), sub, font=F_MONO(22), fill=col(DIM))
-    d.rectangle([96, 600, 96 + int(500 * e), 604], fill=col((240, 166, 74)))
+    d.rectangle([96, 600, 96 + int(500 * e), 604], fill=col((124, 212, 112)))
     return im
 
 
@@ -120,16 +141,17 @@ def story_shot(t, cover, story, idx, total):
     ab = max(0.0, min(eb, fade))
     mixb = lambda col: tuple(int(INK[i] + (col[i] - INK[i]) * ab) for i in range(3))  # noqa: E731
     if v.get("big"):
-        fb = F_DISPLAY(132)
-        while d.textlength(v["big"], font=fb) > VW * 0.5 and fb.size > 60:
-            fb = F_DISPLAY(fb.size - 8)
-        d.text((96 - (1 - eb) * 40, 70), v["big"], font=fb, fill=mixb(PAPER))
+        fb = F_BRAND(120)
+        bigtxt = v["big"].upper()
+        while d.textlength(bigtxt, font=fb) > VW * 0.5 and fb.size > 56:
+            fb = F_BRAND(fb.size - 8)
+        d.text((96 - (1 - eb) * 40, 70), bigtxt, font=fb, fill=mixb(PAPER))
         if v.get("label"):
             d.text((100, 80 + fb.size * 1.12), v["label"], font=F_MONO(24), fill=mixb(DIM))
     f = F_DISPLAY(44)
     lines = wrap(d, story["headline"], f, VW - 200)[:3]
     base = VH - 70 - len(lines) * 56
-    d.text((96, base - 46 + (1 - e) * 30), f"{story['cat'].upper()}  ·  {idx}/{total}", font=F_MONO(22), fill=mix(c))
+    d.text((96, base - 46 + (1 - e) * 30), f"{story['cat'].upper()}  /  {idx} OF {total}", font=F_BRAND(24), fill=mix(c))
     for i, ln in enumerate(lines):
         d.text((96, base + i * 56 + (1 - e) * 30), ln, font=f, fill=mix(PAPER))
     d.rectangle([96, VH - 34, 96 + int((VW - 192) * (t / SHOT)), VH - 30], fill=c)
@@ -151,12 +173,12 @@ def render_reel(edition, label, stories, og_dir, out_path):
         stdin=subprocess.PIPE)
     day, half = label.split(" · ")
     for n in range(int(INTRO * FPS)):
-        proc.stdin.write(title_card(n / FPS, INTRO, "METAFLORA NEWS", day, half.upper() + f"  ·  {len(stories)} STORIES").tobytes())
+        proc.stdin.write(title_card(n / FPS, INTRO, "NEWS", day, half.upper() + f"  /  {len(stories)} STORIES").tobytes())
     for i, (s, cv) in enumerate(zip(stories, covers), 1):
         for n in range(int(SHOT * FPS)):
             proc.stdin.write(story_shot(n / FPS, cv, s, i, len(stories)).tobytes())
     for n in range(int(OUTRO * FPS)):
-        proc.stdin.write(title_card(n / FPS, OUTRO, "METAFLORA NEWS", "news.metaflora.xyz", "EVERY MORNING. EVERY EVENING.").tobytes())
+        proc.stdin.write(title_card(n / FPS, OUTRO, "NEWS", "news.metaflora.xyz", "EVERY MORNING. EVERY EVENING.").tobytes())
     proc.stdin.close()
     if proc.wait() != 0:
         raise RuntimeError("ffmpeg failed")

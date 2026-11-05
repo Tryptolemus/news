@@ -9,21 +9,22 @@ import random
 from html import escape
 
 W, H = 1200, 630
-INK = "#120f19"
-PAPER = "#f4eef8"
-DIM = "#c9bfd6"
+INK = "#131313"
+PAPER = "#ffffff"
+DIM = "#d0d0d0"
 CAT_COLORS = {
-    "Policy": "#f0a64a",
+    "Policy": "#a3e635",
     "Federal": "#a78bfa",
-    "Hemp": "#8fc4a4",
-    "Markets": "#f08a8a",
-    "Europe": "#a78bfa",
-    "States": "#f0a64a",
-    "Science": "#8fc4a4",
-    "Tech": "#7cc7e8",
+    "Hemp": "#7cd470",
+    "Markets": "#f1c40f",
+    "Europe": "#b89cf0",
+    "States": "#a3e635",
+    "Science": "#7cd470",
+    "Tech": "#5ac8fa",
 }
 MOTIFS = ["ballot", "seal", "calendar", "merge", "gavel", "pins", "molecule", "chart", "leaf"]
-DISPLAY = "Unbounded, 'Inter Display', 'Inter', sans-serif"
+DISPLAY = "'Casanova Scotia', 'Inter Display', sans-serif"
+BODY = "'Visby CF', Urbanist, 'Inter Display', sans-serif"
 MONO = "'IBM Plex Mono', 'DejaVu Sans Mono', monospace"
 
 
@@ -189,10 +190,12 @@ def cover_svg(story, with_text=True):
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="{escape(v.get("big", "") + " " + v.get("label", ""))}">',
              '<defs>',
              f'<radialGradient id="g-{uid}" cx="{_f(mx)}" cy="{_f(my)}" r="{_f(R*2.2)}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="{c}" stop-opacity=".35"/><stop offset=".6" stop-color="{c}" stop-opacity=".08"/><stop offset="1" stop-color="{c}" stop-opacity="0"/></radialGradient>',
+             f'<radialGradient id="p-{uid}" cx="0" cy="0" r="{W*.75}" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3b2a5a" stop-opacity=".85"/><stop offset=".55" stop-color="#22182c" stop-opacity=".5"/><stop offset="1" stop-color="#131313" stop-opacity="0"/></radialGradient>',
              f'<filter id="glow-{uid}" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceGraphic" stdDeviation="{_f(R*.08)}" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .55 0" result="b2"/><feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
              f'<filter id="grain-{uid}"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="{rnd.randint(1, 999)}"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .06 0"/></filter>',
              '</defs>',
              f'<rect width="{W}" height="{H}" fill="{INK}"/>',
+             f'<rect width="{W}" height="{H}" fill="url(#p-{uid})"/>',
              f'<rect width="{W}" height="{H}" fill="url(#g-{uid})"/>']
     lines = "".join(f'<line x1="{i}" y1="{H}" x2="{i+H}" y2="0"/>' for i in range(-H, W, 26))
     parts.append(f'<g stroke="{PAPER}" stroke-opacity=".045" stroke-width="1">{lines}</g>')
@@ -200,19 +203,19 @@ def cover_svg(story, with_text=True):
     parts.append(f'<g filter="url(#glow-{uid})">{motif_svg(v, mx, my, R, c, uid)}</g>')
     if with_text:
         pad = W * .045
-        parts.append(f'<text x="{_f(pad)}" y="{_f(pad + H*.045)}" font-family="{MONO}" font-weight="500" font-size="{_f(H*.042)}" letter-spacing="2" fill="{c}">{escape(("METAFLORA NEWS · " + cat).upper())}</text>')
+        parts.append(f'<text x="{_f(pad)}" y="{_f(pad + H*.045)}" font-family="{DISPLAY}" font-size="{_f(H*.045)}" letter-spacing="3" fill="{c}">{escape(("METAFLORA NEWS · " + cat).upper())}</text>')
         big = str(v.get("big", ""))
         if big:
             fs = H * .3
             max_w = W * .52
-            est = len(big) * fs * .74
+            est = len(big) * fs * .8
             if est > max_w:
                 fs *= max_w / est
             label_lines = _wrap(str(v.get("label", "")), 30)[:2]
             ly = H - pad - (H*.1 + (len(label_lines)-1)*H*.065 if label_lines else 0)
-            parts.append(f'<text x="{_f(pad)}" y="{_f(ly)}" font-family="{DISPLAY}" font-weight="800" font-size="{_f(fs)}" fill="{PAPER}">{escape(big)}</text>')
+            parts.append(f'<text x="{_f(pad)}" y="{_f(ly)}" font-family="{DISPLAY}" font-size="{_f(fs)}" fill="{PAPER}">{escape(big.upper())}</text>')
             parts.append(f'<rect x="{_f(pad)}" y="{_f(ly + H*.022)}" width="{_f(min(len(big)*fs*.7, W*.3))}" height="5" fill="{c}"/>')
             for i, l in enumerate(label_lines):
-                parts.append(f'<text x="{_f(pad)}" y="{_f(ly + H*.1 + i*H*.065)}" font-family="{MONO}" font-weight="500" font-size="{_f(H*.05)}" fill="{DIM}">{escape(l)}</text>')
+                parts.append(f'<text x="{_f(pad)}" y="{_f(ly + H*.1 + i*H*.065)}" font-family="{BODY}" font-weight="500" font-size="{_f(H*.055)}" fill="{DIM}">{escape(l)}</text>')
     parts.append('</svg>')
     return "".join(parts)

@@ -49,7 +49,8 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
     "motif": "seal",
     "big": "900+",
     "label": "medical dispensaries federally registered"
-  }
+  },
+  "x_post": "…"                                   // ranks 1–3: the post for X, ≤220 chars, no link (added automatically)
 }
 ```
 
@@ -72,6 +73,12 @@ Every story's cover image, social card and reel shot are generated from `visual`
 - `big`: the one striking figure from the story, ≤7 characters ("C$561M", "-27%", "6 days", "65K"). It must be a fact from the sources.
 - `label`: under 50 characters, explains the figure in plain words.
 - Vary motifs across an edition where the stories allow.
+
+## Posting to X
+
+Every push of new articles triggers `.github/workflows/post-to-x.yml`, which waits for each page to go live and then posts the edition's top 3 stories (by rank) to @MetaFloraLabs, each with a link to its article so X shows the cover card.
+
+Write an `x_post` for ranks 1–3: a sharp, factual hook in MetaFlora's voice, ≤220 characters, no link and no hashtags (the script adds the link and #cannabis). No hype, no advice, no claims beyond the article. If `x_post` is missing the script falls back to headline + dek.
 
 ## Local preview
 

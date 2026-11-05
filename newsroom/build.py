@@ -12,6 +12,7 @@ import sys
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from html import escape
+from urllib.parse import quote
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -45,6 +46,8 @@ def load_articles():
             errors.append(f"{p.name}: unknown cat {a['cat']}")
         if a["visual"].get("motif") not in MOTIFS:
             errors.append(f"{p.name}: unknown motif {a['visual'].get('motif')}")
+        if len(a.get("x_post") or "") > 220:
+            errors.append(f"{p.name}: x_post over 220 characters")
         if not all(s.get("url", "").startswith("http") for s in a["sources"]):
             errors.append(f"{p.name}: every source needs a url")
         a["_dt"] = datetime.fromisoformat(a["published"])
@@ -78,14 +81,18 @@ def edition_label(ed):
 
 # ---------- layout ----------
 
-CUBE = ('<svg class="cube" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 36 12 20 21 4 12Z" fill="var(--accent)"/>'
-        '<path d="M4 12 20 21V38L4 29Z" fill="var(--violet)"/><path d="M36 12 20 21V38L36 29Z" fill="var(--sage)"/></svg>')
+LOGO = '<img src="/assets/metaflora-white-logo-no-icon.png" alt="MetaFlora" width="218" height="65">'
+X_HANDLE = "MetaFloraLabs"
+SOCIAL = [("x", "https://twitter.com/MetaFloraLabs", "X"), ("telegram", "https://t.me/MetaFloraLabs", "Telegram"),
+          ("discord", "https://discord.com/invite/BvsTfQZNzn", "Discord"), ("medium", "https://meta-flora.medium.com/", "Medium"),
+          ("youtube", "https://www.youtube.com/@metafloralabs", "YouTube")]
 
 
 def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head=""):
     full = f"{title} · {NAME}" if title != NAME else NAME
     img = og_image or f"{SITE}/assets/og-default.png"
     nav = "".join(f'<a href="/section/{c.lower()}/">{c}</a>' for c in CATS)
+    social = "".join(f'<a href="{u}" target="_blank" rel="noopener" aria-label="{n}"><img src="/assets/{i}.png" alt=""></a>' for i, u, n in SOCIAL)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -101,29 +108,39 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <meta property="og:url" content="{SITE}{path}">
 <meta property="og:image" content="{img}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{X_HANDLE}">
+<meta name="twitter:title" content="{escape(title)}">
+<meta name="twitter:description" content="{escape(desc)}">
 <meta name="twitter:image" content="{img}">
-<meta name="theme-color" content="#15121c">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#131313">
+<link rel="icon" href="/assets/metaflora-white-logo-just-icon.png" type="image/png">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="/feed.xml">
+<link rel="preload" href="/assets/fonts/CasanovaScotia.otf" as="font" type="font/otf" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="/assets/site.css">
 {extra_head}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/">{CUBE}<span>METAFLORA <b>NEWS</b></span></a>
+  <a class="brand" href="/">{LOGO}<span class="tag">NEWS</span></a>
   <nav class="sections" aria-label="Sections">{nav}</nav>
 </div></header>
 <main class="wrap">
 {body}
 </main>
-<footer class="foot"><div class="wrap">
-  <div class="foot-brand">{CUBE}<span>METAFLORA <b>NEWS</b></span></div>
-  <p>Original reporting summaries written by the MetaFlora AI newsroom from public sources. Every story links the reporting it draws on.</p>
-  <p>News and commentary only. Not legal, medical or financial advice.</p>
-  <p class="mono"><a href="/archive/">Archive</a> · <a href="/feed.xml">RSS</a> · <a href="https://metaflora.xyz">metaflora.xyz</a></p>
-  <p class="mono dim">Your world. Your genetics. Your taste. Your AI.</p>
+<footer class="foot"><div class="wrap foot-grid">
+  <div>
+    <a class="brand" href="/">{LOGO}<span class="tag">NEWS</span></a>
+    <p>The MetaFlora AI newsroom files a morning and an evening edition every day. Every story is our own summary of public reporting and links its sources.</p>
+    <p>News and commentary only. Not legal, medical or financial advice.</p>
+    <div class="social">{social}</div>
+  </div>
+  <nav class="foot-links" aria-label="More">
+    <a href="/archive/">Archive</a><a href="/feed.xml">RSS feed</a>
+    <a href="https://metaflora.xyz">metaflora.xyz</a><a href="https://platform.metaflora.xyz">Launch App</a>
+    <span class="dim">From Seed to Greatness.</span>
+  </nav>
 </div></footer>
 </body>
 </html>
@@ -179,12 +196,13 @@ def build_front(arts, eds):
     <span class="kicker">The edition in motion</span>
     <h2>Every headline from the {('morning' if latest_ed.endswith('am') else 'evening')} edition, cut as a briefing reel.</h2>
     <p class="dim">Rendered by the newsroom with each edition.</p>
+    <a class="btn" href="https://twitter.com/{X_HANDLE}" target="_blank" rel="noopener">Follow on X</a>
   </div>
 </section>"""
     body = f"""
 <div class="edbar">
   <span class="live"><i></i>Live newsroom</span>
-  <span class="mono">{escape(edition_label(latest_ed))}</span>
+  <span class="mono" style="color:#fff">{escape(edition_label(latest_ed))}</span>
   <span class="mono dim">Updated {updated:%H:%M} EET</span>
 </div>
 <section class="lead">
@@ -194,13 +212,18 @@ def build_front(arts, eds):
       <div class="card-meta">{chip(lead['cat'])}<span class="mono dim">{stamp(lead)}</span></div>
       <h1><a href="{lead['_path']}">{escape(lead['headline'])}</a></h1>
       <p class="dek big">{escape(lead['dek'])}</p>
-      <a class="readmore" href="{lead['_path']}">Read the story →</a>
+      <a class="btn readmore" href="{lead['_path']}">Read the story</a>
     </div>
   </article>
   <aside class="topstories" aria-label="Top stories">
-    <span class="kicker">Top stories</span>
+    <h2>Top stories</h2>
     <ol>{''.join(f'<li>{chip(a["cat"])}<a href="{a["_path"]}">{escape(a["headline"])}</a></li>' for a in top)}</ol>
   </aside>
+</section>
+<section class="stats" aria-label="Newsroom numbers">
+  <div class="stat"><b>{len(arts):,}+</b><span>Stories filed</span></div>
+  <div class="stat"><b>{len(eds):,}</b><span>Editions published</span></div>
+  <div class="stat"><b>{len({s["url"] for a in arts for s in a["sources"]}):,}+</b><span>Sources linked</span></div>
 </section>
 {reel_html}
 <div class="sec-h"><h2>This edition</h2><span class="mono dim">{len(latest)} stories</span></div>
@@ -234,10 +257,11 @@ def build_article(a, arts):
   <figure class="story-cover">{cover_svg(a)}</figure>
   <div class="story-body">{paras}</div>
   <aside class="sources">
-    <span class="kicker">Sources</span>
+    <h2>Sources</h2>
     <ul>{srcs}</ul>
     <p class="dim">This story is MetaFlora's own summary of the reporting above. Read the originals for full detail.</p>
   </aside>
+  <div class="share"><a class="btn" href="https://twitter.com/intent/tweet?text={quote(a['headline'])}&url={quote(SITE + a['_path'])}&via={X_HANDLE}" target="_blank" rel="noopener">Share on X</a><a class="dim" href="/">More news →</a></div>
 </article>
 <div class="sec-h"><h2>More from the wire</h2></div>
 <section class="grid grid-4">{''.join(card(x, 's') for x in related)}</section>
@@ -315,6 +339,16 @@ def build_media(arts, eds):
         render_reel(latest_ed, edition_label(latest_ed), eds[latest_ed], OUT / "og", reel)
 
 
+def install_fonts():
+    """rsvg-convert and the reel need Casanova Scotia available to fontconfig."""
+    dest = Path.home() / ".local/share/fonts"
+    src = ROOT / "newsroom" / "assets" / "fonts" / "CasanovaScotia.otf"
+    if not (dest / src.name).exists():
+        dest.mkdir(parents=True, exist_ok=True)
+        shutil.copy(src, dest / src.name)
+        subprocess.run(["fc-cache", "-f"], check=False)
+
+
 def main():
     media = "--no-media" not in sys.argv
     arts = load_articles()
@@ -329,8 +363,8 @@ def main():
     assets = OUT / "assets"
     assets.mkdir(exist_ok=True)
     shutil.copy(ROOT / "newsroom" / "site.css", assets / "site.css")
-    (assets / "favicon.svg").write_text(CUBE.replace('class="cube" ', 'xmlns="http://www.w3.org/2000/svg" ')
-                                        .replace("var(--accent)", "#f0a64a").replace("var(--violet)", "#a78bfa").replace("var(--sage)", "#8fc4a4"))
+    shutil.copytree(ROOT / "newsroom" / "assets", assets, dirs_exist_ok=True)
+    install_fonts()
     if media:
         build_media(arts, eds)
     build_front(arts, eds)
