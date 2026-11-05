@@ -147,6 +147,26 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 """
 
 
+IMAGES = ROOT / "content" / "images"
+
+
+def photo_path(a):
+    p = IMAGES / f"{a['id']}.jpg"
+    return p if p.exists() else None
+
+
+def visual(a, eager=False):
+    """AI banner photo when one exists, otherwise the designed SVG cover."""
+    if not photo_path(a):
+        return cover_svg(a)
+    v = a.get("visual") or {}
+    fig = ""
+    if v.get("big"):
+        fig = f'<span class="fig" style="--c:{color_for(a["cat"])}"><b>{escape(v["big"])}</b><small>{escape(v.get("label", ""))}</small></span>'
+    return (f'<span class="photo"><img src="/img/{a["id"]}.jpg" width="1600" height="1067" alt="{escape(a.get("image_alt") or a["headline"])}"'
+            f'{"" if eager else " loading=" + chr(34) + "lazy" + chr(34)}>{fig}</span>')
+
+
 def chip(cat):
     return f'<a class="chip" href="/section/{cat.lower()}/" style="--c:{color_for(cat)}">{escape(cat)}</a>'
 
@@ -157,7 +177,7 @@ def stamp(a):
 
 def card(a, size="m"):
     return f"""<article class="card {' '.join('card-' + x for x in size.split())}">
-  <a class="cover" href="{a['_path']}" tabindex="-1" aria-hidden="true">{cover_svg(a)}</a>
+  <a class="cover" href="{a['_path']}" tabindex="-1" aria-hidden="true">{visual(a)}</a>
   <div class="card-meta">{chip(a['cat'])}<span class="mono dim">{stamp(a)}</span></div>
   <h3><a href="{a['_path']}">{escape(a['headline'])}</a></h3>
   <p class="dek">{escape(a['dek'])}</p>
@@ -207,7 +227,7 @@ def build_front(arts, eds):
 </div>
 <section class="lead">
   <article class="lead-story">
-    <a class="cover" href="{lead['_path']}" tabindex="-1" aria-hidden="true">{cover_svg(lead)}</a>
+    <a class="cover" href="{lead['_path']}" tabindex="-1" aria-hidden="true">{visual(lead, eager=True)}</a>
     <div class="lead-copy">
       <div class="card-meta">{chip(lead['cat'])}<span class="mono dim">{stamp(lead)}</span></div>
       <h1><a href="{lead['_path']}">{escape(lead['headline'])}</a></h1>
@@ -254,7 +274,7 @@ def build_article(a, arts):
     <p class="dek big">{escape(a['dek'])}</p>
     <p class="byline mono">MetaFlora AI Newsroom · {stamp(a)}</p>
   </div>
-  <figure class="story-cover">{cover_svg(a)}</figure>
+  <figure class="story-cover">{visual(a, eager=True)}</figure>
   <div class="story-body">{paras}</div>
   <aside class="sources">
     <h2>Sources</h2>
@@ -325,9 +345,13 @@ def render_png(svg_text, out_path, width=1200):
 
 
 def build_media(arts, eds):
+    from og import photo_card
     for a in arts:
         png = OUT / "og" / f"{a['id']}.png"
-        if not png.exists():
+        photo = photo_path(a)
+        if photo and (not png.exists() or png.stat().st_mtime < photo.stat().st_mtime):
+            photo_card(a, photo, png)
+        elif not png.exists():
             render_png(cover_svg(a), png)
     default = OUT / "assets" / "og-default.png"
     if not default.exists():
@@ -336,7 +360,7 @@ def build_media(arts, eds):
     reel = OUT / "reels" / f"{latest_ed}.mp4"
     if not reel.exists():
         from reel import render_reel
-        render_reel(latest_ed, edition_label(latest_ed), eds[latest_ed], OUT / "og", reel)
+        render_reel(latest_ed, edition_label(latest_ed), eds[latest_ed], OUT / "og", reel, photo_path)
 
 
 def install_fonts():
@@ -364,6 +388,8 @@ def main():
     assets.mkdir(exist_ok=True)
     shutil.copy(ROOT / "newsroom" / "site.css", assets / "site.css")
     shutil.copytree(ROOT / "newsroom" / "assets", assets, dirs_exist_ok=True)
+    if IMAGES.exists():
+        shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
     install_fonts()
     if media:
         build_media(arts, eds)

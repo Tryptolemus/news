@@ -33,5 +33,7 @@
   },
   "edition": "2026-11-06-am",
   "rank": 6,
-  "published": "2026-11-06T00:36:00+02:00"
+  "published": "2026-11-06T00:36:00+02:00",
+  "image_prompt": "A dark topographic map of the United States table model with small glowing green markers on several states, hands of an anonymous planner placing one more marker.",
+  "image_alt": "Planner placing glowing markers on a US map model"
 }

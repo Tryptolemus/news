@@ -121,6 +121,23 @@ def _scrim():
     return _SCRIM
 
 
+_LEFT = None
+
+
+def _left():
+    """Darken the top-left so the big figure reads on busy photos."""
+    global _LEFT
+    if _LEFT is None:
+        g = Image.new("L", (VW, VH))
+        px = g.load()
+        for x in range(VW):
+            for y in range(0, VH // 2):
+                t = max(0.0, 1 - x / (VW * 0.62)) * max(0.0, 1 - y / (VH * 0.5))
+                px[x, y] = int(200 * t ** 0.8)
+        _LEFT = g
+    return _LEFT
+
+
 def story_shot(t, cover, story, idx, total):
     # slow push-in on the cover
     z = 1.0 + 0.06 * (t / SHOT)
@@ -130,6 +147,7 @@ def story_shot(t, cover, story, idx, total):
     frame = Image.new("RGB", (VW, VH), INK)
     frame.paste(big.crop((ox, oy, ox + VW, oy + min(VH, ch - oy))), (0, 0))
     frame.paste(_INKFRAME, (0, 0), _scrim())
+    frame.paste(_INKFRAME, (0, 0), _left())
     d = ImageDraw.Draw(frame)
     c = hex2rgb(color_for(story["cat"]))
     e = ease((t - 0.25) / 0.7)
@@ -158,11 +176,16 @@ def story_shot(t, cover, story, idx, total):
     return frame
 
 
-def render_reel(edition, label, stories, og_dir, out_path):
+def render_reel(edition, label, stories, og_dir, out_path, photo_path=lambda a: None):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     covers = []
     with tempfile.TemporaryDirectory() as td:
         for s in stories:
+            ph = photo_path(s)
+            if ph:
+                im = Image.open(ph).convert("RGB")
+                covers.append(im.resize((1280, round(1280 * im.height / im.width)), Image.LANCZOS))
+                continue
             svg, png = Path(td) / "c.svg", Path(td) / f"{s['id']}.png"
             svg.write_text(cover_svg(s, with_text=False))
             subprocess.run(["rsvg-convert", "-w", "1280", "-o", str(png), str(svg)], check=True)

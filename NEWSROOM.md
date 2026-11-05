@@ -18,9 +18,9 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
    Prefer original reporting: Marijuana Moment, MJBizDaily, Cannabis Business Times, Marijuana Herald, Reuters, Business of Cannabis, regulators' own releases. Open (fetch) the key articles; don't write from snippets alone.
 4. **Write 6–9 stories** for the edition. Rank 1 is the lead: the story with the most consequence for operators and investors.
 5. **Save one JSON file per story** at `content/articles/YYYY-MM-DD-<id>.json` (schema below).
-6. **Build:** `python3 newsroom/build.py`. It validates every file and fails loudly on a bad one. It renders HTML, social cards (`docs/og/`) and the edition's video reel (`docs/reels/<edition>.mp4`).
-7. **Check** the build output: the front page lead is today's rank-1 story, the reel file exists and is non-empty.
-8. **Commit and push** to `main` with a message like `Morning edition 2026-11-07: <lead headline>`. GitHub Pages deploys in a minute or two.
+6. **Validate:** `python3 newsroom/build.py --no-media`. It checks every file and fails loudly on a bad one. Fix and re-run until it passes.
+7. **Commit and push** only `content/articles/` to `main` with a message like `Morning edition 2026-11-07: <lead headline>`. (`docs/` is build output and is not committed.)
+8. **GitHub Actions takes over** (`.github/workflows/publish.yml`): generates the AI banners, builds the site, social cards and video reel, deploys to news.metaflora.xyz, then posts the top 3 stories to X.
 9. **Report** in two lines: edition, story count, lead headline. If research, build or push fails, push nothing and say what failed.
 
 ## Writing rules (non-negotiable)
@@ -50,6 +50,8 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
     "big": "900+",
     "label": "medical dispensaries federally registered"
   },
+  "image_prompt": "…",                            // scene for the AI banner (see below)
+  "image_alt": "…",                               // short description of that image for screen readers
   "x_post": "…"                                   // ranks 1–3: the post for X, ≤220 chars, no link (added automatically)
 }
 ```
@@ -74,9 +76,20 @@ Every story's cover image, social card and reel shot are generated from `visual`
 - `label`: under 50 characters, explains the figure in plain words.
 - Vary motifs across an edition where the stories allow.
 
+## AI banner images (`image_prompt`)
+
+On every push, GitHub Actions sends each new story's `image_prompt` to the image model (OpenAI `gpt-image-1` by default) with MetaFlora's fixed art direction: dark #131313 ground, lime and violet light, cinematic editorial photo, no text. The result is saved to `content/images/<id>.jpg` and becomes the story's banner, social card and reel shot. If generation fails or no key is set, the designed cover is used.
+
+Write the scene, not the style (the style is added automatically):
+- One concrete, visual scene that a reader connects to the story in a second: objects, places, materials, light. 1–2 sentences.
+- Never ask for text, numbers, logos, flags, brand names or signage.
+- Never depict real, identifiable people. People only as anonymous hands, silhouettes or from behind.
+- No minors, no consumption close-ups, no weapons, nothing graphic.
+- Vary scenes across the edition (lab, greenhouse, storefront, courtroom, landscape, product still life).
+
 ## Posting to X
 
-Every push of new articles triggers `.github/workflows/post-to-x.yml`, which waits for each page to go live and then posts the edition's top 3 stories (by rank) to @MetaFloraLabs, each with a link to its article so X shows the cover card.
+After each deploy the publish workflow waits for each page to go live and then posts the edition's top 3 stories (by rank) to @MetaFloraLabs, each with a link to its article so X shows the cover card.
 
 Write an `x_post` for ranks 1–3: a sharp, factual hook in MetaFlora's voice, ≤220 characters, no link and no hashtags (the script adds the link and #cannabis). No hype, no advice, no claims beyond the article. If `x_post` is missing the script falls back to headline + dek.
 

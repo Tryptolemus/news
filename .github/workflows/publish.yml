@@ -1,0 +1,97 @@
+name: Publish edition
+
+# Runs when the newsroom pushes new articles (or by hand):
+# AI banners -> build site, social cards and reel -> deploy to news.metaflora.xyz -> post top stories to X.
+on:
+  push:
+    branches: [main]
+    paths: ["content/**", "newsroom/**", ".github/workflows/publish.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    outputs:
+      new_articles: ${{ steps.new.outputs.files }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq librsvg2-bin ffmpeg fonts-inter fontconfig
+          pip install -q pillow requests-oauthlib
+      - name: Find new articles
+        id: new
+        run: |
+          before="${{ github.event.before }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
+            files=$(ls content/articles/*.json | tail -n 9 | tr '\n' ' ')
+          else
+            files=$(git diff --name-only --diff-filter=A "$before" "${{ github.sha }}" -- content/articles | tr '\n' ' ')
+          fi
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+      - name: Generate AI banners
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          IMAGE_MODEL: ${{ vars.IMAGE_MODEL }}
+          IMAGE_QUALITY: ${{ vars.IMAGE_QUALITY }}
+        run: python3 newsroom/gen_images.py
+      - name: Keep generated banners in the repo
+        run: |
+          git config user.name "MetaFlora Newsroom"
+          git config user.email "newsroom@metaflora.xyz"
+          git add content/images
+          if ! git diff --cached --quiet; then
+            git commit -m "Add AI banners [skip ci]"
+            git pull --rebase -q origin main && git push -q origin HEAD:main
+          fi
+      - name: Build site
+        run: python3 newsroom/build.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  post-to-x:
+    needs: [build, deploy]
+    if: needs.build.outputs.new_articles != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests-oauthlib
+      - name: Post top stories to X
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          X_POSTS_PER_EDITION: ${{ vars.X_POSTS_PER_EDITION }}
+        run: python3 newsroom/post_to_x.py ${{ needs.build.outputs.new_articles }}

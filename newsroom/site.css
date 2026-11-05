@@ -133,3 +133,15 @@ img,svg,video{max-width:100%}
   .brand .tag{font-size:15px}
 }
 @media (prefers-reduced-motion: reduce){.live i{animation:none}.cover svg{transition:none}}
+
+/* AI banner photos */
+.photo{position:relative;display:block;aspect-ratio:1200/630;overflow:hidden;background:#131313}
+.photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.cover:hover .photo img{transform:scale(1.03)}
+.photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,#131313e6 100%),linear-gradient(90deg,#22182c99,transparent 55%);pointer-events:none}
+.photo .fig{position:absolute;left:4.5%;bottom:7%;z-index:1;display:grid;gap:2px;max-width:70%}
+.photo .fig b{font-family:var(--f-display);font-weight:400;font-size:clamp(26px,6vw,64px);line-height:1;color:#fff;text-transform:uppercase;border-bottom:4px solid var(--c);padding-bottom:6px;justify-self:start}
+.photo .fig small{font-size:clamp(11px,1.3vw,15px);color:#d0d0d0;font-weight:500;margin-top:6px}
+.card:not(.card-wide) .photo .fig b{font-size:clamp(22px,2.6vw,34px)}
+.card:not(.card-wide) .photo .fig small{display:none}
+@media (prefers-reduced-motion: reduce){.photo img{transition:none}}
