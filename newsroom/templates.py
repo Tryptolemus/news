@@ -64,7 +64,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
   <div class="wrap mast-row">
     <span class="mast-date">{dateline}</span>
     {WORDMARK}
-    <span class="mast-cta"><a class="btn btn-sm" href="{X_URL}" target="_blank" rel="noopener">Follow on X</a></span>
+    <span class="mast-cta"><a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt=""><span>Follow</span></a></span>
   </div>
   <nav class="nav" aria-label="Sections"><div class="wrap nav-row">{nav}</div></nav>
 </header>
@@ -92,20 +92,20 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 
 # ---------- pieces ----------
 
-def image(a, eager=False):
-    """Clean lead image, never with text: the AI photo when there is one, else the typographic plate."""
-    if ctx["photo_path"](a):
+def has_photo(a):
+    return bool(ctx["photo_path"](a))
+
+
+def image(a, eager=False, plate=True):
+    """Clean lead image, never with text: the AI photo when there is one, else (optionally) the typographic plate."""
+    if has_photo(a):
         lazy = "" if eager else ' loading="lazy"'
         return f'<img src="/img/{a["id"]}.jpg" width="1600" height="1067" alt="{escape(a.get("image_alt") or "")}"{lazy}>'
-    return plate_svg(a)
+    return plate_svg(a) if plate else ""
 
 
 def caption(a):
-    if ctx["photo_path"](a):
-        return f'{escape(a.get("image_alt") or "")} <span class="credit">Photo illustration: AI-generated</span>'
-    v = a.get("visual") or {}
-    src = a["sources"][0]["name"] if a.get("sources") else ""
-    return f'{escape(str(v.get("big", "")))}: {escape(str(v.get("label", "")))}. <span class="credit">Source: {escape(src)}</span>'
+    return f'{escape(a.get("image_alt") or "")} <span class="credit">Photo illustration: AI-generated</span>'
 
 
 def kicker(cat):
@@ -113,7 +113,7 @@ def kicker(cat):
 
 
 def minutes(a):
-    return max(1, round(sum(len(x.split()) for x in a["body"]) / 230))
+    return max(2, round(sum(len(x.split()) for x in a["body"]) / 230))
 
 
 def t_long(a):
@@ -121,14 +121,19 @@ def t_long(a):
 
 
 def card(a, kind="std", img=True):
-    pic = f'<a class="pic" href="{a["_path"]}" tabindex="-1" aria-hidden="true">{image(a)}</a>' if img else ""
+    cls = "pic" if has_photo(a) else "pic plate"
+    pic = f'<a class="{cls}" href="{a["_path"]}" tabindex="-1" aria-hidden="true">{image(a)}</a>' if img else ""
     return (f'<article class="card card-{kind}">{pic}<div class="card-txt">{kicker(a["cat"])}'
             f'<h3><a href="{a["_path"]}">{escape(a["headline"])}</a></h3>'
             f'<p class="dek">{escape(a["dek"])}</p><p class="meta">{minutes(a)} min read</p></div></article>')
 
 
+def ed_short(a):
+    return f'{a["_dt"]:%-d %b} · {"Morning" if a["edition"].endswith("am") else "Evening"}'
+
+
 def list_item(a, with_time=True):
-    t = f'<time>{a["_dt"]:%-d %b · %H:%M}</time>' if with_time else ""
+    t = f'<time>{ed_short(a)}</time>' if with_time else ""
     return f'<li>{t}{kicker(a["cat"])}<a class="li-title" href="{a["_path"]}">{escape(a["headline"])}</a></li>'
 
 
@@ -166,7 +171,7 @@ def dateline_for(ed, latest):
 def front_ad():
     import ads
     inv = ads.load()
-    return ads.render(ads.pick(inv, "front", datetime.now().strftime("%Y%m%d")), "band")
+    return ads.render(ads.pick(inv, "front", datetime.now().strftime("%Y%m%d"), placement="front"), "band")
 
 
 def build_front(arts, eds):
@@ -185,7 +190,7 @@ def build_front(arts, eds):
     parts.append(f"""<section class="front-top">
   <div class="col-left">{''.join(card(a, 'side', img=False) for a in left)}</div>
   <article class="lead">
-    <a class="pic" href="{lead['_path']}" tabindex="-1" aria-hidden="true">{image(lead, eager=True)}</a>
+    <a class="{'pic' if has_photo(lead) else 'pic plate'}" href="{lead['_path']}" tabindex="-1" aria-hidden="true">{image(lead, eager=True)}</a>
     {kicker(lead['cat'])}
     <h1><a href="{lead['_path']}">{escape(lead['headline'])}</a></h1>
     <p class="dek">{escape(lead['dek'])}</p>
@@ -197,19 +202,21 @@ def build_front(arts, eds):
         rows = "".join(f'<li><time>{datetime.fromisoformat(d):%-d %b}</time><a href="{a["_path"]}">{escape(t)}</a></li>' for d, t, a in watch)
         parts.append(f'<section class="watch"><h2 class="sec-label">What to watch</h2><ol>{rows}</ol></section>')
     now = datetime.now(arts[0]["_dt"].tzinfo)
-    week = [a for a in arts if (now - a["_dt"]).days < 7]
+    week = [a for a in arts if (now - a["_dt"]).days < 7 and a["id"] not in shown]
     for c in ["Markets", "Policy", "Federal", "States", "Science", "Europe", "Hemp", "Tech"]:
         items = [a for a in week if a["cat"] == c]
-        if len(items) >= 2:
+        if len(items) >= 3:
+            shown |= {a["id"] for a in items[:5]}
             parts.append(f'<section class="desk"><h2 class="sec-label"><a href="/section/{c.lower()}/">{c}</a></h2>'
                          f'<div class="desk-row">{card(items[0], "wide")}<ol class="desk-list">{"".join(list_item(a, False) for a in items[1:5])}</ol></div></section>')
+    more = [a for a in more if a["id"] not in shown]
     if more:
         parts.append(f'<section class="block"><h2 class="sec-label">More news</h2><div class="grid4">{"".join(card(a) for a in more[:8])}</div></section>')
     parts.append(front_ad())
     if has_reel:
         half = "morning" if latest_ed.endswith("am") else "evening"
         parts.append(f'''<section class="briefing"><h2 class="sec-label">Video briefing</h2>
-<div class="brief-row"><video src="/{reel}" poster="/reels/{latest_ed}.jpg" controls muted playsinline preload="none"></video>
+<div class="brief-row"><video src="/{reel}" poster="/reels/{latest_ed}-poster.jpg" controls muted playsinline preload="none"></video>
 <div><p class="brief-t">The {half} edition in {len(latest)} headlines.</p>
 <p class="meta">Each edition is also posted to <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></div></div></section>''')
     parts.append(f'<section class="block"><h2 class="sec-label">All stories</h2><ol class="latest-list">{"".join(list_item(a) for a in arts[:15])}</ol>'
@@ -234,7 +241,7 @@ def render_body(a):
     for i, b in enumerate(blocks):
         is_head = b.startswith("## ")
         if budget and is_head and paras >= 4 and since >= 280 and i < len(blocks) - 3:
-            ad = ads.pick(AD_INV, a["id"], slot, a["cat"], exclude=used)
+            ad = ads.pick(AD_INV, a["id"], slot, a["cat"], exclude=used, placement="article")
             if ad:
                 out.append(ads.render(ad))
                 used.append(ad["id"])
@@ -257,7 +264,9 @@ def build_article(a, arts):
     latest = [x for x in arts if x["id"] != a["id"] and x not in same][:5]
     kp = ""
     if a.get("key_points"):
-        kp = '<aside class="keypoints"><h2>Key points</h2><ul>' + "".join(f"<li>{escape(k)}</li>" for k in a["key_points"]) + "</ul></aside>"
+        v = a.get("visual") or {}
+        stat = f'<p class="kp-stat"><b>{escape(str(v.get("big", "")))}</b><span>{escape(str(v.get("label", "")))}</span></p>' if v.get("big") else ""
+        kp = '<aside class="keypoints"><h2>Key points</h2>' + stat + '<ul>' + "".join(f"<li>{escape(k)}</li>" for k in a["key_points"]) + "</ul></aside>"
     srcs = "".join(f'<li><a href="{escape(s["url"])}" rel="noopener" target="_blank">{escape(s["name"])}</a>'
                    f'{(" · " + escape(s["title"])) if s.get("title") else ""}{(" · " + escape(s["date"])) if s.get("date") else ""}</li>'
                    for s in a["sources"])
@@ -275,7 +284,12 @@ def build_article(a, arts):
           "datePublished": a["published"], "dateModified": a.get("updated", a["published"]), "image": [f"{SITE}/og/{a['id']}.png"],
           "author": {"@type": "Organization", "name": "MetaFlora News Desk", "url": f"{SITE}/how-we-report/"},
           "publisher": {"@type": "Organization", "name": NAME}, "mainEntityOfPage": url}
-    more_same = "".join(list_item(x) for x in same) or '<li class="dim">More stories in this section soon.</li>'
+    fig = ""
+    if has_photo(a):
+        fig = f'<figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>'
+    after_same = ""
+    if len(same) >= 2:
+        after_same = f'<div><h2 class="sec-label">More on {escape(a["cat"])}</h2><ol class="latest-list">{"".join(list_item(x) for x in same)}</ol></div>'
     body = f"""
 <article class="story">
   <header class="story-head">
@@ -283,12 +297,12 @@ def build_article(a, arts):
     <h1>{escape(a['headline'])}</h1>
     <p class="dek">{escape(a['dek'])}</p>
     <div class="byline">
-      <p><span class="by">By <a href="/how-we-report/">MetaFlora News Desk</a></span> · <time datetime="{a['published']}">{t_long(a)}</time>{updated} · {minutes(a)} min read</p>
+      <p><span class="by">By <a href="/how-we-report/">MetaFlora News Desk</a></span> · <time datetime="{a['published']}">{t_long(a)}</time>{updated} · <span class="nowrap">{minutes(a)} min read</span></p>
       <p class="share">{share}</p>
     </div>
     <p class="disclosure">Produced by MetaFlora's AI newsroom from the sources listed at the end of this article. <a href="/how-we-report/">How we report</a></p>
   </header>
-  <figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>
+  {fig}
   <div class="story-col">
     {kp}
     <div class="story-body">{render_body(a)}</div>
@@ -297,8 +311,8 @@ def build_article(a, arts):
     {corr}
   </div>
 </article>
-<section class="after">
-  <div><h2 class="sec-label">More on {escape(a['cat'])}</h2><ol class="latest-list">{more_same}</ol></div>
+<section class="after{'' if after_same else ' after-one'}">
+  {after_same}
   <div><h2 class="sec-label">Latest</h2><ol class="latest-list">{''.join(list_item(x) for x in latest)}</ol></div>
 </section>
 """

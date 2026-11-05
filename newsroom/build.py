@@ -157,8 +157,34 @@ def build_media(arts, eds):
         from reel import render_reel
         render_reel(latest_ed, edition_label(latest_ed), eds[latest_ed], OUT / "og", reel,
                     lambda a: OUT / "banners" / f"{a['id']}.jpg", full_banner=True)
-        subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-ss", "3.8", "-i", str(reel), "-frames:v", "1", "-q:v", "3",
-                        str(reel.with_suffix(".jpg"))], check=False)
+    poster = OUT / "reels" / f"{latest_ed}-poster.jpg"
+    if not poster.exists():
+        flat_poster(latest_ed, len(eds[latest_ed]), poster)
+
+
+def flat_poster(ed, n, out):
+    """Quiet video poster: flat ground, mono label, a white play glyph. No banner type."""
+    from PIL import Image, ImageDraw, ImageFont
+    W, H = 1280, 720
+    im = Image.new("RGB", (W, H), (26, 26, 27))
+    d = ImageDraw.Draw(im)
+    def f(names, size):
+        for n_ in names:
+            if Path(n_).exists():
+                return ImageFont.truetype(n_, size)
+        return ImageFont.load_default()
+    mono = f(["/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"], 26)
+    serif = f(["/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf"], 46)
+    day, half = ed.rsplit("-", 1)
+    dt = datetime.fromisoformat(day)
+    d.text((80, 80), f"{'MORNING' if half == 'am' else 'EVENING'} BRIEFING  ·  {dt.day} {dt:%b %Y}".upper(), font=mono, fill=(154, 154, 154))
+    d.text((80, H - 150), f"The {'morning' if half == 'am' else 'evening'} edition in {n} headlines", font=serif, fill=(242, 242, 242))
+    d.rectangle([80, H - 80, 176, H - 77], fill=(163, 230, 53))
+    cx, cy, r = W // 2, H // 2 - 20, 54
+    d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(242, 242, 242), width=3)
+    d.polygon([(cx - 16, cy - 24), (cx - 16, cy + 24), (cx + 26, cy)], fill=(242, 242, 242))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    im.save(out, quality=88)
 
 
 def install_fonts():

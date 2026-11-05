@@ -29,7 +29,7 @@ IMAGES = ROOT / "content" / "images"
 STYLE = (
     "Documentary news photograph for a serious business publication, as if shot by a photojournalist on a 35mm lens "
     "with available light. Natural grain, slightly underexposed, muted desaturated grade, cool shadows, a faint green cast in the highlights. "
-    "Subject off-centre with generous negative space, shallow depth of field, real places and real materials. 3:2 landscape. "
+    "Subject off-centre to the right with calm negative space in the left third, shallow depth of field, real places and real materials. 3:2 landscape. "
     "Strictly no text, letters, numbers, signage, logos or watermarks. No neon, no smoke effects, no purple lighting, no glowing leaves, "
     "no holograms, no symmetry, no illustration or CGI look. No identifiable real people and no public figures: "
     "people only as hands, backs or out-of-focus figures. Scene: "

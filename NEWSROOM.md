@@ -39,7 +39,7 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
   "id": "dea-registration",                       // url slug: lowercase, hyphens, unique forever
   "edition": "2026-11-07-am",                     // YYYY-MM-DD-am | YYYY-MM-DD-pm
   "rank": 1,                                      // 1 = lead
-  "published": "2026-11-07T06:02:00+02:00",       // ISO, Europe/Bucharest offset
+  "published": "2026-11-07T06:00:00+02:00",       // the EDITION time, same for every story: 06:00 (am) or 18:00 (pm), Europe/Bucharest offset
   "cat": "Federal",                               // Policy | Federal | Hemp | Markets | Europe | States | Science | Tech
   "headline": "…",                                // under ~90 characters
   "dek": "…",                                     // one sentence

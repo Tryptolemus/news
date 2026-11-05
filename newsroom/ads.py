@@ -20,7 +20,7 @@ def load():
     return json.loads(INVENTORY.read_text())
 
 
-def active(inv, cat=None, today=None):
+def active(inv, cat=None, today=None, placement=None):
     today = today or date.today().isoformat()
     out = []
     for ad in inv.get("ads", []):
@@ -30,12 +30,15 @@ def active(inv, cat=None, today=None):
             continue
         if cat and ad.get("categories") and cat not in ad["categories"]:
             continue
+        if placement and ad.get("placements") and placement not in ad["placements"]:
+            continue
         out.append(ad)
     return out
 
 
-def pick(inv, key, slot, cat=None, exclude=()):
-    pool = [a for a in active(inv, cat) if a["id"] not in exclude] or active(inv, cat) or active(inv)
+def pick(inv, key, slot, cat=None, exclude=(), placement=None):
+    pool = ([a for a in active(inv, cat, placement=placement) if a["id"] not in exclude]
+            or active(inv, cat, placement=placement) or active(inv, placement=placement))
     if not pool:
         return None
     # paid (non-MetaFlora) ads win their slots before house ads
