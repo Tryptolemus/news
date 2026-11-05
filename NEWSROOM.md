@@ -1,0 +1,84 @@
+# MetaFlora News — Newsroom runbook
+
+This repo is news.metaflora.xyz. The site is static: `content/articles/*.json` is the source of truth, `newsroom/build.py` renders everything into `docs/`, and GitHub Pages serves `docs/` on the custom domain.
+
+The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and the **evening edition** (`pm`, ~18:00 EET). Publishing is fully automatic. Greg approved automatic publishing for this site.
+
+## One run, step by step
+
+1. **Pull** the latest `main`.
+2. **Check what's already covered.** Read the headlines of the last ~30 files in `content/articles/` (newest by filename). Do not repeat a story unless there is a real new development; then write it as a new story that leads with what changed.
+3. **Report.** Search the last 12–24 hours of cannabis news, with several searches sent together:
+   - US federal: DEA, rescheduling, registration, hemp/total-THC, banking, Congress
+   - US states: licensing windows, rule changes, ballot measures, enforcement, market data
+   - Europe: Germany, Romania, UK, Czechia, Switzerland, Netherlands, EU-level
+   - Global companies: M&A, earnings, listings, bankruptcies (Canada, US MSOs, EU-GMP producers)
+   - Science and medicine: trials, reviews, public-health data
+   - Tech: cannabis + AI, blockchain, track-and-trace, payments (only real news)
+   Prefer original reporting: Marijuana Moment, MJBizDaily, Cannabis Business Times, Marijuana Herald, Reuters, Business of Cannabis, regulators' own releases. Open (fetch) the key articles; don't write from snippets alone.
+4. **Write 6–9 stories** for the edition. Rank 1 is the lead: the story with the most consequence for operators and investors.
+5. **Save one JSON file per story** at `content/articles/YYYY-MM-DD-<id>.json` (schema below).
+6. **Build:** `python3 newsroom/build.py`. It validates every file and fails loudly on a bad one. It renders HTML, social cards (`docs/og/`) and the edition's video reel (`docs/reels/<edition>.mp4`).
+7. **Check** the build output: the front page lead is today's rank-1 story, the reel file exists and is non-empty.
+8. **Commit and push** to `main` with a message like `Morning edition 2026-11-07: <lead headline>`. GitHub Pages deploys in a minute or two.
+9. **Report** in two lines: edition, story count, lead headline. If research, build or push fails, push nothing and say what failed.
+
+## Writing rules (non-negotiable)
+
+- **Own words only.** Every headline, dek and paragraph is MetaFlora's own writing. No copied sentences, no lightly reworded sentences, no mirroring an article's structure.
+- **Quotes:** at most one short quote per source, under 15 words, and only when the exact words matter.
+- **Facts only from sources you actually opened.** Never invent figures, names, dates or URLs. If unsure, leave it out.
+- **Link every source** you drew on, at least one per story.
+- **Tone:** sharp, plain, useful to operators and investors. No hype, no puns in headlines, no advice ("buy", "you should").
+- **No photos of real people**, no other outlets' images or logos.
+
+## Article schema
+
+```json
+{
+  "id": "dea-registration",                       // url slug: lowercase, hyphens, unique forever
+  "edition": "2026-11-07-am",                     // YYYY-MM-DD-am | YYYY-MM-DD-pm
+  "rank": 1,                                      // 1 = lead
+  "published": "2026-11-07T06:02:00+02:00",       // ISO, Europe/Bucharest offset
+  "cat": "Federal",                               // Policy | Federal | Hemp | Markets | Europe | States | Science | Tech
+  "headline": "…",                                // under ~90 characters
+  "dek": "…",                                     // one sentence
+  "body": ["paragraph", "paragraph", "paragraph"],// 2–4 short paragraphs
+  "sources": [{"name": "Marijuana Moment", "url": "https://…"}],
+  "visual": {
+    "motif": "seal",
+    "big": "900+",
+    "label": "medical dispensaries federally registered"
+  }
+}
+```
+
+### The cover graphic (`visual`)
+
+Every story's cover image, social card and reel shot are generated from `visual`.
+
+| motif | use for | extra fields |
+|---|---|---|
+| `ballot` | elections, votes, ballot measures | – |
+| `seal` | federal agencies, registrations, approvals | `word` (e.g. "DEA"), `sub` (e.g. "REGISTERED") |
+| `calendar` | deadlines, effective dates | `mon` ("NOV"), `day` ("12") |
+| `merge` | M&A, partnerships | `a`, `b`: 2–4 letter tickers or short names |
+| `gavel` | courts, rulings, enforcement | – |
+| `pins` | state/regional roundups, licensing, store counts | – |
+| `molecule` | science, medicine, research | – |
+| `chart` | earnings, prices, sales | `vals`: 5–9 numbers 0–1 tracing the trend |
+| `leaf` | anything else | – |
+
+- `big`: the one striking figure from the story, ≤7 characters ("C$561M", "-27%", "6 days", "65K"). It must be a fact from the sources.
+- `label`: under 50 characters, explains the figure in plain words.
+- Vary motifs across an edition where the stories allow.
+
+## Local preview
+
+```
+python3 newsroom/build.py            # full build with media
+python3 newsroom/build.py --no-media # HTML only, fast
+cd docs && python3 -m http.server 8000
+```
+
+Requirements: Python 3.10+, Pillow, `rsvg-convert` (librsvg), `ffmpeg`.

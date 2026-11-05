@@ -1,0 +1,35 @@
+{
+  "id": "aurora-deal",
+  "cat": "Markets",
+  "headline": "Organigram moves to buy Aurora for C$561M as Curaleaf keeps its hostile bid alive",
+  "dek": "A friendly Canadian deal now competes with a US operator's months-long takeover campaign.",
+  "body": [
+    "Organigram has agreed to acquire Aurora Cannabis in a deal valued around C$561 million, topping the unsolicited offer Curaleaf has pressed since August.",
+    "Curaleaf's proposal valued Aurora at about US$4 a share in cash and stock, which it pitched as a 45% premium. Aurora's board repeatedly told shareholders to ignore it, arguing it undervalued the company's EU-GMP facilities and international medical business.",
+    "Curaleaf has criticised Aurora's board over the Organigram agreement and says its own bid is still on the table. Europe's medical supply capacity is the prize."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-3-2026/"
+    },
+    {
+      "name": "Hartford Business",
+      "url": "https://hartfordbusiness.com/article/ct-based-curaleaf-pursues-hostile-takeover-of-cannabis-competitor/"
+    },
+    {
+      "name": "Cannabis Business Times",
+      "url": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/mergers-and-acquisitions/news/15832884/aurora-cannabis-urges-shareholders-to-take-no-action-on-curaleafs-unsolicited-takeover-bid"
+    }
+  ],
+  "visual": {
+    "motif": "merge",
+    "a": "OGI",
+    "b": "ACB",
+    "big": "C$561M",
+    "label": "Organigram–Aurora deal value"
+  },
+  "edition": "2026-11-06-am",
+  "rank": 4,
+  "published": "2026-11-06T00:34:00+02:00"
+}

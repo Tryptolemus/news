@@ -1,0 +1,33 @@
+{
+  "id": "sndl",
+  "cat": "Markets",
+  "headline": "SNDL books record free cash flow while it reviews its grow business",
+  "dek": "Retail held up; production shrank after the company quit unprofitable domestic flower.",
+  "body": [
+    "SNDL reported third-quarter revenue of C$238 million, 2.5% lower than a year earlier, and an operating loss of C$48.3 million that includes a C$52 million noncash goodwill write-down on cannabis operations.",
+    "Retail revenue edged up 0.7% at a record margin, while cannabis operations revenue fell 27.7%. Free cash flow reached a quarterly record of C$20 million, and the production arm is now under strategic review."
+  ],
+  "sources": [
+    {
+      "name": "Cannabis Newsletter",
+      "url": "https://cannabisinsight420.substack.com/p/cannabis-newsletter-daily-roundup-67d"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.4,
+      0.55,
+      0.5,
+      0.66,
+      0.6,
+      0.78,
+      1
+    ],
+    "big": "C$20M",
+    "label": "record quarterly free cash flow at SNDL"
+  },
+  "edition": "2026-11-06-am",
+  "rank": 8,
+  "published": "2026-11-06T00:38:00+02:00"
+}

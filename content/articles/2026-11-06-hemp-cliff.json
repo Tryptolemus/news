@@ -1,0 +1,31 @@
+{
+  "id": "hemp-cliff",
+  "cat": "Hemp",
+  "headline": "Hemp THC cliff hits next Thursday",
+  "dek": "Federal total-THC rules take full effect on 12 November, and Illinois is enforcing its own hemp law the same day.",
+  "body": [
+    "Federal legislation signed in November 2025 closed the so-called hemp loophole by moving to a total-THC standard, with a one-year runway that ends on 12 November 2026.",
+    "Illinois regulators say hemp products that stay on shelves outside licensed dispensaries must meet new testing, labeling, packaging and ingredient rules, and the state will start enforcing on 12 November whatever the federal timeline does.",
+    "Intoxicating hemp brands have days, not weeks, to reformulate, relabel or move into the licensed channel."
+  ],
+  "sources": [
+    {
+      "name": "Wikipedia: Hemp loophole",
+      "url": "https://en.wikipedia.org/wiki/Hemp_loophole"
+    },
+    {
+      "name": "Dentons",
+      "url": "https://www.dentons.com/en/insights/newsletters/2026/november/4/us-cannabis-newsletter/cannabis-client-alert-week-of-november-2-2026"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "NOV",
+    "day": "12",
+    "big": "6 days",
+    "label": "until the federal total-THC rule bites"
+  },
+  "edition": "2026-11-06-am",
+  "rank": 3,
+  "published": "2026-11-06T00:33:00+02:00"
+}

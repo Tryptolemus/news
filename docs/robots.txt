@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://news.metaflora.xyz/sitemap.xml

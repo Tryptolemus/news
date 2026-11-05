@@ -1,0 +1,35 @@
+{
+  "id": "dea-registration",
+  "cat": "Federal",
+  "headline": "DEA registers 900+ medical dispensaries, then limits who they can trade with",
+  "dek": "Federal protection arrives for a fraction of applicants, with a supply-chain rule that could split state markets in two.",
+  "body": [
+    "The DEA has granted federal registration to more than 900 of roughly 7,000 priority applicants under the new medical rescheduling framework. Jushi Holdings is among the companies confirming registrations.",
+    "The catch: registered businesses may only buy from and sell to other registered or timely-applied companies, and have until late November to rework their sourcing. The agency also says it cannot register operators in states with dual medical and adult-use licenses, or in states that let patients self-certify.",
+    "Expect a scramble for compliant supply partners this month, and a widening gap between medical-only states and mature adult-use markets."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/feds-grant-protections-to-900-cannabis-businesses-with-major-exceptions-newsletter-november-2-2026/"
+    },
+    {
+      "name": "Cannabis Newsletter",
+      "url": "https://cannabisinsight420.substack.com/p/cannabis-newsletter-daily-roundup-67d"
+    },
+    {
+      "name": "Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-3-2026/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "big": "900+",
+    "label": "medical dispensaries federally registered",
+    "word": "FEDERAL",
+    "sub": "REGISTERED"
+  },
+  "edition": "2026-11-06-am",
+  "rank": 2,
+  "published": "2026-11-06T00:32:00+02:00"
+}

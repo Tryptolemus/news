@@ -1,0 +1,29 @@
+{
+  "id": "ballot-rejects",
+  "cat": "Policy",
+  "headline": "Voters keep legal cannabis as repeal pushes fail in Massachusetts and Idaho",
+  "dek": "A midterm night that favored Democrats also turned back the two biggest attempts to roll back or restrict marijuana laws.",
+  "body": [
+    "Massachusetts voters defeated Question 8 by a wide margin. The measure would have ended legal adult-use sales and tightened rules on possession and home growing, ten years after the state first legalized.",
+    "In Idaho, a proposed amendment aimed at blocking future legalization also failed. The results came on a night when Democrats picked up Senate seats in several states they had not won in decades.",
+    "Advocates are already turning to 2027, with commentators naming the next states most likely to put adult-use legalization on the table. For operators, the takeaway is simple: the voter base for legal cannabis held firm under direct pressure."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-4-2026/"
+    },
+    {
+      "name": "Dentons",
+      "url": "https://www.dentons.com/en/insights/newsletters/2026/november/4/us-cannabis-newsletter/cannabis-client-alert-week-of-november-2-2026"
+    }
+  ],
+  "visual": {
+    "motif": "ballot",
+    "big": "0 for 2",
+    "label": "anti-cannabis ballot measures, MA and ID"
+  },
+  "edition": "2026-11-06-am",
+  "rank": 1,
+  "published": "2026-11-06T00:31:00+02:00"
+}

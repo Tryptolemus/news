@@ -1,0 +1,33 @@
+{
+  "id": "science",
+  "cat": "Science",
+  "headline": "Pain relief, better sleep and less drinking: this week's research",
+  "dek": "Three studies that land on the medical and public-health side of the debate.",
+  "body": [
+    "A review of 13 randomized clinical trials found inhaled cannabis made meaningful pain relief more likely. A separate study tied medical cannabis to sleep improvements that held for two years.",
+    "From Germany, new data shows alcohol use and alcohol-related hospital stays kept falling after legalization, while cannabis offenses dropped 53%.",
+    "On the other side, medical professionals report gaps in their cannabis training that leave them unsure how to advise athletes using it for pain, sleep and recovery."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Herald 11/2",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-2-2026/"
+    },
+    {
+      "name": "Marijuana Herald 11/3",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-3-2026/"
+    },
+    {
+      "name": "Dentons",
+      "url": "https://www.dentons.com/en/insights/newsletters/2026/november/4/us-cannabis-newsletter/cannabis-client-alert-week-of-november-2-2026"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "13",
+    "label": "clinical trials reviewed on pain relief"
+  },
+  "edition": "2026-11-06-am",
+  "rank": 7,
+  "published": "2026-11-06T00:37:00+02:00"
+}
