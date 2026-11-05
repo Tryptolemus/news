@@ -16,7 +16,7 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
    - Science and medicine: trials, reviews, public-health data
    - Tech: cannabis + AI, blockchain, track-and-trace, payments (only real news)
    Prefer original reporting: Marijuana Moment, MJBizDaily, Cannabis Business Times, Marijuana Herald, Reuters, Business of Cannabis, regulators' own releases. Open (fetch) the key articles; don't write from snippets alone.
-4. **Write 6–9 stories** for the edition. Rank 1 is the lead: the story with the most consequence for operators and investors.
+4. **Write 6–9 stories** for the edition. Rank 1 is the lead: the story with the most consequence for operators and investors. Every story is **long-form** (see "Long-form standard"). Fetch the full source articles plus at least one extra source for context before writing.
 5. **Save one JSON file per story** at `content/articles/YYYY-MM-DD-<id>.json` (schema below).
 6. **Validate:** `python3 newsroom/build.py --no-media`. It checks every file and fails loudly on a bad one. Fix and re-run until it passes.
 7. **Commit and push** only `content/articles/` to `main` with a message like `Morning edition 2026-11-07: <lead headline>`. (`docs/` is build output and is not committed.)
@@ -43,12 +43,21 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
   "cat": "Federal",                               // Policy | Federal | Hemp | Markets | Europe | States | Science | Tech
   "headline": "…",                                // under ~90 characters
   "dek": "…",                                     // one sentence
-  "body": ["paragraph", "paragraph", "paragraph"],// 2–4 short paragraphs
+  "key_points": ["…", "…", "…"],                 // 3–4 one-sentence takeaways ("The short version")
+  "body": ["paragraph", "## Subhead", "paragraph", "> Pull quote", "…"], // long-form, see below
   "sources": [{"name": "Marijuana Moment", "url": "https://…"}],
   "visual": {
     "motif": "seal",
     "big": "900+",
     "label": "medical dispensaries federally registered"
+  },
+  "banner": {                                     // the text on the banner image (house style)
+    "title": "DEA Registers 900+ Dispensaries",   // 3–6 words, punchy, ≤ 34 characters
+    "highlight": ["900+", "DISPENSARIES"],       // 1–2 words of the title in the violet→green gradient
+    "sub": "First federal registrations, with strings attached", // ≤ 60 characters; names allowed
+    "divider": "Federal desk",                    // short spaced-caps label under the sub line
+    "points": [{"icon": "shield", "text": "7 states approved"}, {"icon": "handshake", "text": "Registered-only supply chain"}, {"icon": "coin", "text": "Tax relief ahead"}],
+    "corner": ["FEDERAL", "MEDICAL", "ACCESS", "COMPLIANCE"] // optional: 4 single words, bottom-right
   },
   "image_prompt": "…",                            // scene for the AI banner (see below)
   "image_alt": "…",                               // short description of that image for screen readers
@@ -76,12 +85,30 @@ Every story's cover image, social card and reel shot are generated from `visual`
 - `label`: under 50 characters, explains the figure in plain words.
 - Vary motifs across an edition where the stories allow.
 
+## Long-form standard
+
+MetaFlora News runs long, useful stories, not briefs.
+
+- **Length:** 700–1,200 words in `body` (ranks 1–3 aim for 1,000+). Never pad: depth comes from reporting, context and consequences, not repetition. If the sources can't support 700 words of facts, combine related developments into one story.
+- **Structure:** an opening that states the news in two paragraphs, then 4–6 sections each starting with a `## Subhead` (plain, descriptive: "Who got in, and who is waiting", "The tax prize", "What to watch"). End with a "What to watch" section: dates, decisions and signals ahead.
+- **One pull quote** (`> …`) per story: MetaFlora's own one-line insight, never a quote from a source.
+- **Key points:** 3–4 one-sentence takeaways in `key_points`.
+- **Ad breaks are automatic:** the site inserts a MetaFlora ad (or a paid partner ad) before every second subhead. Don't write ads into the story.
+- **Every fact traceable** to a source you opened. Paraphrase. Attribute claims ("the DEA said", "according to AP").
+
+## Banner text (`banner`)
+
+The banner is the story's main image, social card and reel shot: AI scene on the right, MetaFlora logo, "MetaFlora News" pill, a huge two-tone headline, a sub line, a divider and a three-point icon strip.
+- `title` is NOT the headline: 3–6 punchy words in title case. `highlight` = 1–2 words of it.
+- `points`: three short facts (≤ 28 characters each) with icons from: shield, leaf, chart, gavel, flask, pin, ballot, coin, globe, doc, handshake, chip, megaphone, drop, cube.
+- Names of real people may appear in `sub` (e.g. "Gov. Gavin Newsom signs AB 2250"); their likeness never appears in the image.
+
 ## AI banner images (`image_prompt`)
 
-On every push, GitHub Actions sends each new story's `image_prompt` to the image model (OpenAI `gpt-image-1` by default) with MetaFlora's fixed art direction: dark #131313 ground, lime and violet light, cinematic editorial photo, no text. The result is saved to `content/images/<id>.jpg` and becomes the story's banner, social card and reel shot. If generation fails or no key is set, the designed cover is used.
+On every push, GitHub Actions sends each new story's `image_prompt` to the image model (OpenAI `gpt-image-1` by default) with MetaFlora's fixed art direction: epic cinematic key art, violet and emerald smoke and glow, subject on the right, empty dark space on the left for the headline, no text. The scene is saved to `content/images/<id>.jpg`, and `newsroom/banner.py` composes the final banner on top of it. If generation fails or no key is set, the designed motif is used as the scene.
 
 Write the scene, not the style (the style is added automatically):
-- One concrete, visual scene that a reader connects to the story in a second: objects, places, materials, light. 1–2 sentences.
+- One dramatic, symbolic scene a reader connects to the story in a second: a capitol dome under storm light, a glowing seal over pharmacy shelves, two greenhouse complexes joined by a bridge of light. Big, cinematic, metaphorical. 1–2 sentences.
 - Never ask for text, numbers, logos, flags, brand names or signage.
 - Never depict real, identifiable people. People only as anonymous hands, silhouettes or from behind.
 - No minors, no consumption close-ups, no weapons, nothing graphic.

@@ -31,5 +31,28 @@
   "rank": 7,
   "published": "2026-11-06T00:37:00+02:00",
   "image_prompt": "A laboratory bench with a glass vial of golden cannabis oil, a microscope and a single cannabis leaf under soft green backlight, scientific and calm.",
-  "image_alt": "Cannabis oil vial and microscope on a lab bench"
+  "image_alt": "Cannabis oil vial and microscope on a lab bench",
+  "banner": {
+    "title": "Pain, Sleep And Less Drinking",
+    "highlight": [
+      "LESS",
+      "DRINKING"
+    ],
+    "sub": "Three studies on the medical and public-health side",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "13 trials on pain relief"
+      },
+      {
+        "icon": "chart",
+        "text": "Sleep gains over 2 years"
+      },
+      {
+        "icon": "globe",
+        "text": "Germany: offenses -53%"
+      }
+    ]
+  }
 }

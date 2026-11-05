@@ -22,5 +22,27 @@
   "rank": 5,
   "published": "2026-11-06T00:35:00+02:00",
   "image_prompt": "An empty wooden European courtroom bench with a gavel resting on it, a concert stage light and haze spilling in through tall windows.",
-  "image_alt": "Empty courtroom with concert light through the windows"
+  "image_alt": "Empty courtroom with concert light through the windows",
+  "banner": {
+    "title": "Romania Overturns Festival Sentence",
+    "highlight": [
+      "OVERTURNS"
+    ],
+    "sub": "Nine-month term from 2024 festival cancelled",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Conviction cancelled"
+      },
+      {
+        "icon": "globe",
+        "text": "Strict EU jurisdiction"
+      },
+      {
+        "icon": "leaf",
+        "text": "Signal for the region"
+      }
+    ]
+  }
 }

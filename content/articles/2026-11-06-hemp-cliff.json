@@ -30,5 +30,28 @@
   "published": "2026-11-06T00:33:00+02:00",
   "x_post": "Six days until the federal total-THC rule takes full effect. Illinois starts enforcing its own hemp law the same day. Intoxicating hemp brands are out of runway.",
   "image_prompt": "Rows of colourful hemp gummy and beverage products on a store shelf, half of the shelf in shadow as if the lights are switching off, a wall clock blurred in the background.",
-  "image_alt": "Hemp product shelf half in shadow"
+  "image_alt": "Hemp product shelf half in shadow",
+  "banner": {
+    "title": "Hemp THC Cliff Hits 12 Nov",
+    "highlight": [
+      "12",
+      "NOV"
+    ],
+    "sub": "Federal total-THC rule and Illinois enforcement land the same day",
+    "divider": "Hemp desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Total-THC standard"
+      },
+      {
+        "icon": "pin",
+        "text": "Illinois enforces too"
+      },
+      {
+        "icon": "leaf",
+        "text": "Brands must reformulate"
+      }
+    ]
+  }
 }

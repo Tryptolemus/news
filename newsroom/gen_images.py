@@ -27,11 +27,11 @@ ARTICLES = ROOT / "content" / "articles"
 IMAGES = ROOT / "content" / "images"
 
 STYLE = (
-    "Cinematic editorial photograph for MetaFlora News, a premium cannabis-industry newsroom. "
-    "Dark and moody: near-black background (#131313), lime-green (#a3e635) and deep violet (#3b2a5a) rim light and glow, "
-    "high contrast, shallow depth of field, 35mm film look, rich texture and fine detail, magazine-cover quality, "
-    "wide 3:2 composition with the subject right of centre and calm negative space on the left. "
-    "Strictly no text, letters, numbers, signage, logos, brand marks, flags or watermarks. "
+    "Epic cinematic key art for MetaFlora News, a premium cannabis and Web3 newsroom. "
+    "Hyper-detailed digital artwork, dramatic volumetric lighting, swirling violet (#8b5cf6) and emerald-lime (#7cd470) smoke and glow, "
+    "deep black background, glossy reflections, particles and light rays, blockbuster movie-poster atmosphere, 8k detail. "
+    "Composition: the subject sits in the RIGHT half of the frame; the LEFT 45% is dark, calm atmosphere with no objects, reserved for headline text. "
+    "Strictly no text, letters, numbers, signage, logos, brand marks or watermarks anywhere. "
     "No identifiable real people and no public figures; people only as anonymous silhouettes, hands or from behind. "
     "Scene: "
 )

@@ -176,7 +176,23 @@ def story_shot(t, cover, story, idx, total):
     return frame
 
 
-def render_reel(edition, label, stories, og_dir, out_path, photo_path=lambda a: None):
+def banner_shot(t, banner, story):
+    """Slow push-in on the finished banner, fade in/out, progress bar in the story's colour."""
+    z = 1.0 + 0.05 * (t / SHOT)
+    bw = int(VW * z)
+    bh = round(bw * banner.height / banner.width)
+    big = banner.resize((bw, bh), Image.BILINEAR)
+    ox, oy = (bw - VW) // 2, max(0, (bh - VH) // 2)
+    frame = big.crop((ox, oy, ox + VW, oy + VH))
+    a = max(0.0, min(1.0, t / 0.35, (SHOT - t) / 0.35))
+    if a < 1:
+        frame = Image.blend(Image.new("RGB", (VW, VH), INK), frame, a)
+    d = ImageDraw.Draw(frame)
+    d.rectangle([0, VH - 5, int(VW * (t / SHOT)), VH], fill=hex2rgb(color_for(story["cat"])))
+    return frame
+
+
+def render_reel(edition, label, stories, og_dir, out_path, photo_path=lambda a: None, full_banner=False):
     out_path.parent.mkdir(parents=True, exist_ok=True)
     covers = []
     with tempfile.TemporaryDirectory() as td:
@@ -199,7 +215,8 @@ def render_reel(edition, label, stories, og_dir, out_path, photo_path=lambda a: 
         proc.stdin.write(title_card(n / FPS, INTRO, "NEWS", day, half.upper() + f"  /  {len(stories)} STORIES").tobytes())
     for i, (s, cv) in enumerate(zip(stories, covers), 1):
         for n in range(int(SHOT * FPS)):
-            proc.stdin.write(story_shot(n / FPS, cv, s, i, len(stories)).tobytes())
+            shot = banner_shot(n / FPS, cv, s) if full_banner else story_shot(n / FPS, cv, s, i, len(stories))
+            proc.stdin.write(shot.tobytes())
     for n in range(int(OUTRO * FPS)):
         proc.stdin.write(title_card(n / FPS, OUTRO, "NEWS", "news.metaflora.xyz", "EVERY MORNING. EVERY EVENING.").tobytes())
     proc.stdin.close()

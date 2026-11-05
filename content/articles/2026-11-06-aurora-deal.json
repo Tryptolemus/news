@@ -33,5 +33,27 @@
   "rank": 4,
   "published": "2026-11-06T00:34:00+02:00",
   "image_prompt": "Two large industrial greenhouse complexes at dusk connected by a glowing bridge of light, aerial view, Canadian prairie, lime and violet sky.",
-  "image_alt": "Two greenhouse complexes joined by a bridge of light at dusk"
+  "image_alt": "Two greenhouse complexes joined by a bridge of light at dusk",
+  "banner": {
+    "title": "Organigram Moves On Aurora",
+    "highlight": [
+      "AURORA"
+    ],
+    "sub": "C$561M deal tops Curaleaf's hostile bid",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "handshake",
+        "text": "C$561M agreement"
+      },
+      {
+        "icon": "chart",
+        "text": "Curaleaf bid still live"
+      },
+      {
+        "icon": "globe",
+        "text": "EU medical supply at stake"
+      }
+    ]
+  }
 }

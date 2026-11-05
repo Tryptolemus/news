@@ -1,0 +1,76 @@
+{
+  "_readme": "Ad inventory for MetaFlora News. House ads run by default. To sell a slot, add an entry with the advertiser's name, creative and a start/end date; set weight higher to show it more often. categories limits it to sections (empty = everywhere).",
+  "advertise_contact": "https://form.typeform.com/to/eDHgRwn9",
+  "ads": [
+    {
+      "id": "home-grow-node",
+      "advertiser": "MetaFlora",
+      "title": "Power your home grow",
+      "body": "The Home Grow Node box pairs verified seeds with Terra, an AI grow companion that coaches feeding, drybacks and harvest timing from your grow journal.",
+      "cta": "Learn more",
+      "url": "https://metaflora.xyz",
+      "image": "metaflora-guide.png",
+      "theme": "purple",
+      "weight": 3,
+      "categories": [],
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "connoisseur",
+      "advertiser": "MetaFlora",
+      "title": "Meet Terp, your AI budtender",
+      "body": "The Connoisseur Box learns your potency, terpene and cannabinoid preferences and helps you find the right product in any store.",
+      "cta": "Learn more",
+      "url": "https://metaflora.xyz",
+      "image": "metaflora-guide.png",
+      "theme": "green",
+      "weight": 3,
+      "categories": [],
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "node-network",
+      "advertiser": "MetaFlora",
+      "title": "Become a node owner",
+      "body": "Join the MetaFlora Node Network and earn $FLORA for powering data and transactions across the cannabis platform.",
+      "cta": "Buy a Node",
+      "url": "https://metaflora.xyz",
+      "image": "metaflora-hero.jpg",
+      "theme": "purple",
+      "weight": 2,
+      "categories": ["Markets", "Tech"],
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "platform",
+      "advertiser": "MetaFlora",
+      "title": "From seed to greatness",
+      "body": "Strain profiles, lab reports and verified genetics in one platform. Built for growers, retailers and connoisseurs.",
+      "cta": "Launch App",
+      "url": "https://platform.metaflora.xyz",
+      "image": "metaflora-hero.jpg",
+      "theme": "green",
+      "weight": 2,
+      "categories": [],
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "advertise-here",
+      "advertiser": "MetaFlora News",
+      "title": "Put your brand in front of the cannabis industry",
+      "body": "MetaFlora News publishes a morning and an evening edition every day and pushes every lead story to X. Ad breaks like this one are open to partners.",
+      "cta": "Advertise with us",
+      "url": "/advertise/",
+      "image": "metaflora-guide.png",
+      "theme": "green",
+      "weight": 1,
+      "categories": [],
+      "start": null,
+      "end": null
+    }
+  ]
+}

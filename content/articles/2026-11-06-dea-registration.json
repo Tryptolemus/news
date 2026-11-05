@@ -4,22 +4,44 @@
   "headline": "DEA registers 900+ medical dispensaries, then limits who they can trade with",
   "dek": "Federal protection arrives for a fraction of applicants, with a supply-chain rule that could split state markets in two.",
   "body": [
-    "The DEA has granted federal registration to more than 900 of roughly 7,000 priority applicants under the new medical rescheduling framework. Jushi Holdings is among the companies confirming registrations.",
-    "The catch: registered businesses may only buy from and sell to other registered or timely-applied companies, and have until late November to rework their sourcing. The agency also says it cannot register operators in states with dual medical and adult-use licenses, or in states that let patients self-certify.",
-    "Expect a scramble for compliant supply partners this month, and a widening gap between medical-only states and mature adult-use markets."
+    "For the first time, the federal government has formally registered state-licensed medical cannabis dispensaries. The Justice Department said on 30 October that the DEA had granted registration to more than 900 dispensaries operating in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia.",
+    "The approvals are the first concrete result of the rescheduling order Attorney General Todd Blanche signed in April, which moved state-licensed medical marijuana from Schedule I to Schedule III and created a fast-track registration process for producers, manufacturers and distributors. The department did not immediately publish the names of the businesses that were approved.",
+    "## Who got in, and who is waiting",
+    "The 900-plus registrations are a fraction of the queue. A list published by the DEA the same day shows close to 7,000 dispensaries, manufacturers and distributors have applied. Jushi Holdings is among the multi-state operators that have confirmed receiving registrations for some of their medical operations.",
+    "To qualify, applicants must clear a pre-registration investigation and meet the agency's standards for security, recordkeeping, inventory controls and the other safeguards that apply to any controlled substance. For an industry built under state rules, that is a new layer of compliance.",
+    "## The supply-chain catch",
+    "Registration comes with a condition that could reshape trading relationships quickly. Under DEA guidance, registered medical businesses may only buy from and sell to companies that have also been registered or that applied on time. They have until late November to bring their sourcing into line.",
+    "In practice, that pushes registered operators to cut ties with unregistered growers, processors and brands, and gives early approvals a commercial edge. Smaller suppliers that have not applied, or that sit in the back of the queue, risk losing customers in the weeks ahead.",
+    "## Adult-use states are largely shut out",
+    "The DEA has also drawn a hard line around which programs it can work with. It says it cannot register medical businesses in states that issue dual licenses covering both medical and recreational sales, or in states that let patients qualify through self-certification.",
+    "That excludes a large part of the market. Two dozen states and Washington, D.C. allow adult-use cannabis, and many of them run medical and recreational sales through the same licensed businesses. For now, the federal benefits of rescheduling flow mainly to medical-only programs.",
+    "> The first federal registrations favour medical-only states. Operators in mature adult-use markets are, for now, watching from the sidelines.",
+    "## The tax prize",
+    "The biggest financial change is on the tax side. While marijuana sat in Schedule I, state-licensed businesses could not deduct ordinary costs such as rent, advertising and sales staff on their federal returns, a burden rooted in Section 280E of the tax code. Registration under Schedule III is expected to remove that barrier for qualifying medical businesses.",
+    "How quickly the savings arrive is less clear. Regulators in some states have not yet published guidance, and operators in Missouri have described confusion over how and when the tax relief applies.",
+    "## Reaction and open questions",
+    "Patient advocates welcomed the move. Americans for Safe Access founder Steph Sherer described the registrations as a major win for patient access, noting they landed days before the 30th anniversary of California's medical marijuana law. Chris Lindsey of the American Trade Association for Cannabis and Hemp called it a positive step, while saying the industry is watching closely what registered companies will be required to do.",
+    "Several questions remain unanswered. Schedule III businesses are normally regulated very differently from state cannabis licensees, and it is not yet clear which federal requirements will apply day to day. Many states have allowed people with certain criminal records to own or work in licensed businesses, and it is unclear whether the DEA will accept that. And the agency has not explained how it will treat companies that run both medical and recreational operations.",
+    "The rescheduling itself is also still in court. In a recent brief, the government asked a judge to disregard a GAO report that identified gaps in how controlled substances are evaluated, arguing it should not undermine the rescheduling decision.",
+    "## What to watch",
+    "Three dates and decisions will shape the next month: the late-November deadline for registered businesses to rework their supply chains, the pace at which the DEA clears the remaining applications, and formal tax guidance that tells operators how to claim deductions. Watch, too, for pressure from adult-use states that want a path into the federal system."
   ],
   "sources": [
+    {
+      "name": "Associated Press via KTAR",
+      "url": "https://ktar.com/national-news/dea-approvals-could-bring-big-tax-benefits-for-medical-marijuana-businesses"
+    },
     {
       "name": "Marijuana Moment",
       "url": "https://www.marijuanamoment.net/feds-grant-protections-to-900-cannabis-businesses-with-major-exceptions-newsletter-november-2-2026/"
     },
     {
-      "name": "Cannabis Newsletter",
-      "url": "https://cannabisinsight420.substack.com/p/cannabis-newsletter-daily-roundup-67d"
-    },
-    {
       "name": "Marijuana Herald",
       "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-3-2026/"
+    },
+    {
+      "name": "Cannabis Newsletter",
+      "url": "https://cannabisinsight420.substack.com/p/cannabis-newsletter-daily-roundup-67d"
     }
   ],
   "visual": {
@@ -33,6 +55,41 @@
   "rank": 2,
   "published": "2026-11-06T00:32:00+02:00",
   "x_post": "The DEA has federally registered 900+ medical dispensaries. The catch: they can now only trade with other registered businesses, and states with dual medical and adult-use licenses are shut out.",
-  "image_prompt": "A heavy official metal stamp pressing onto a document beside neat rows of sealed medical cannabis jars on a pharmacy shelf, cool clinical light with violet glow.",
-  "image_alt": "Official stamp over medical cannabis jars on a pharmacy shelf"
+  "image_prompt": "An imposing federal agency building at night, its columns lit in violet, a glowing emerald seal of approval hovering above rows of sealed medical cannabis jars on pharmacy shelves in the foreground, volumetric smoke.",
+  "image_alt": "Federal building at night above rows of medical cannabis jars",
+  "key_points": [
+    "The DEA has registered more than 900 state-licensed medical dispensaries in seven states, the first federal registrations of their kind.",
+    "Registered businesses must source from and sell to other registered or timely-applied companies, with a late-November deadline to rework supply chains.",
+    "Operators in states with combined medical and adult-use licenses, or with patient self-certification, cannot be registered under the current rules.",
+    "Registration is expected to let businesses deduct ordinary expenses on federal taxes for the first time, though formal guidance is still missing."
+  ],
+  "banner": {
+    "title": "DEA Registers 900+ Dispensaries",
+    "highlight": [
+      "900+",
+      "DISPENSARIES"
+    ],
+    "sub": "First federal registrations, with strings attached",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "shield",
+        "text": "7 states approved"
+      },
+      {
+        "icon": "handshake",
+        "text": "Registered-only supply chain"
+      },
+      {
+        "icon": "coin",
+        "text": "Tax relief ahead"
+      }
+    ],
+    "corner": [
+      "FEDERAL",
+      "MEDICAL",
+      "ACCESS",
+      "COMPLIANCE"
+    ]
+  }
 }

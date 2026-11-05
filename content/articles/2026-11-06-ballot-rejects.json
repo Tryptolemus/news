@@ -28,5 +28,28 @@
   "published": "2026-11-06T00:31:00+02:00",
   "x_post": "Voters in Massachusetts and Idaho just turned back the two biggest attempts to roll back legal cannabis. The voter base held under direct pressure.",
   "image_prompt": "A single paper ballot dropping into a translucent ballot box on a dark polling-station table, a small potted cannabis plant beside it catching lime-green light, autumn evening atmosphere.",
-  "image_alt": "Ballot dropping into a ballot box next to a cannabis plant"
+  "image_alt": "Ballot dropping into a ballot box next to a cannabis plant",
+  "banner": {
+    "title": "Voters Keep Legal Cannabis",
+    "highlight": [
+      "LEGAL",
+      "CANNABIS"
+    ],
+    "sub": "Repeal measures fail in Massachusetts and Idaho",
+    "divider": "Midterms 2026",
+    "points": [
+      {
+        "icon": "ballot",
+        "text": "Question 8 defeated"
+      },
+      {
+        "icon": "shield",
+        "text": "Idaho amendment fails"
+      },
+      {
+        "icon": "leaf",
+        "text": "Legal markets hold"
+      }
+    ]
+  }
 }
