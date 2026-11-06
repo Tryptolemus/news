@@ -1,0 +1,13 @@
+{
+  "_readme": "Public Firebase web config for push alerts (safe to commit: these identify the project, they are not secrets). The bell appears on the site only when enabled is true and every field is filled. See NOTIFICATIONS.md.",
+  "enabled": false,
+  "sdk": "12.6.0",
+  "firebase": {
+    "apiKey": "",
+    "authDomain": "",
+    "projectId": "",
+    "messagingSenderId": "",
+    "appId": ""
+  },
+  "vapidKey": ""
+}

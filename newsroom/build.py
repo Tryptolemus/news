@@ -53,10 +53,15 @@ def load_articles():
             errors.append(f"{p.name}: banner needs a title and at most 3 points")
         if not (2 <= len(a.get("tags") or []) <= 8):
             errors.append(f"{p.name}: needs 2-8 tags")
+        for flag in ("breaking", "push", "draft"):
+            if flag in a and not isinstance(a[flag], bool):
+                errors.append(f"{p.name}: {flag} must be true or false")
         if len(a.get("x_post") or "") > 220:
             errors.append(f"{p.name}: x_post over 220 characters")
         if not all(s.get("url", "").startswith("http") for s in a["sources"]):
             errors.append(f"{p.name}: every source needs a url")
+        if a.get("draft"):
+            continue  # drafts are never published (and never alerted)
         a["_file"] = p.name
         a["_dt"] = datetime.fromisoformat(a["published"])
         a["_path"] = f"/{a['_dt']:%Y/%m/%d}/{a['id']}/"
@@ -148,7 +153,7 @@ def build_feeds(arts):
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
           + "".join(f"<sitemap><loc>{SITE}/{m}</loc><lastmod>{newest}</lastmod></sitemap>" for m in maps) + "</sitemapindex>")
     write(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
-    write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
+    write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /admin/\nSitemap: {SITE}/sitemap.xml\n")
     write("CNAME", "news.metaflora.xyz\n")
     write(".nojekyll", "")
     write("404.html", page("Page not found", robots="noindex", desc="This page moved or never existed. Go to the MetaFlora News front page for the latest cannabis news.", body= '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html"))
@@ -263,7 +268,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -294,6 +299,10 @@ def main():
     T.build_how()
     T.build_advertise()
     build_feeds(arts)
+    import notify_site
+    notify_site.write_static(OUT, write)
+    import notify_admin
+    notify_admin.build(arts, write)
     relativize()
     print(f"Built {len(arts)} articles across {len(eds)} editions -> {OUT}")
 

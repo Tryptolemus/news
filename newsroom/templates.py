@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 from covers import plate_svg
+import notify_site
 
 # Content hash of the stylesheet: the link changes whenever the CSS does, so browsers never mix new pages with old styles.
 CSS_VERSION = hashlib.sha256((Path(__file__).parent / "site.css").read_bytes()).hexdigest()[:10]
@@ -93,6 +94,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="/assets/site.css?v={CSS_VERSION}">
+{notify_site.head_tags(CSS_VERSION)}
 {extra_head}
 </head>
 <body>
@@ -100,7 +102,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
   <div class="wrap mast-row">
     <span class="mast-date">{dateline}</span>
     {WORDMARK}
-    <span class="mast-cta"><a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt="" width="47" height="44"><span>Follow</span></a></span>
+    <span class="mast-cta">{notify_site.bell()}<a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt="" width="47" height="44"><span>Follow</span></a></span>
   </div>
   <nav class="nav" aria-label="Sections"><div class="wrap nav-row">{nav}</div></nav>
 </header>
@@ -493,6 +495,9 @@ def build_how():
 <p>Advertising is always labelled and kept separate from reporting. Advertisers, including MetaFlora, have no say over what we cover. See <a href="/advertise/">Advertise</a>.</p>
 <h2 id="contact">Contact</h2>
 <p>Email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> for corrections, tips, rights questions and anything else. You can also reach us at <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p>
+<h2 id="alerts">News alerts and your privacy</h2>
+<p>News alerts are optional and free. Your browser asks for permission only after you choose to turn them on with the bell. To give each browser a private ID without an account, we use Firebase anonymous sign-in; we store that ID, the browser's push address, the topics and frequency you chose, when you subscribed, and which alerts were delivered or opened. We never store your name, email address or browsing history, and we don't sell or share this data.</p>
+<p>Alerts are delivered through Google's Firebase Cloud Messaging, which processes the push address to deliver them. Turn alerts off with the bell (or block notifications in your browser) and we delete this browser's record and stop sending immediately; push addresses that stop working are deleted automatically. The legal basis is your consent, which you can withdraw at any time. Questions or deletion requests: <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a>.</p>
 <h2>Not advice</h2>
 <p>MetaFlora News is news and commentary. Nothing here is legal, medical or financial advice.</p>
 </div></div></article>"""

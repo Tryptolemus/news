@@ -1,0 +1,62 @@
+rules_version = '2';
+
+// MetaFlora News push notifications.
+// Readers sign in anonymously (no account, no email). Each browser owns one devices/{uid} record.
+// Only the server (Admin SDK in GitHub Actions) sends, writes delivery logs and reads all devices;
+// admins listed in admins/{uid} can read stats from the dashboard. Everything else is denied.
+service cloud.firestore {
+  match /databases/{db}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isAdmin() { return signedIn() && exists(/databases/$(db)/documents/admins/$(request.auth.uid)); }
+
+    function validDevice(uid) {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['uid', 'token', 'topics', 'freq', 'enabled', 'platform', 'created', 'updated'])
+        && d.keys().hasAll(['uid', 'token', 'topics', 'freq', 'enabled', 'platform', 'created', 'updated'])
+        && d.uid == uid
+        && d.token is string && d.token.size() > 20 && d.token.size() < 600
+        && d.topics is list && d.topics.size() <= 7
+        && d.topics.hasOnly(['breaking', 'policy', 'hemp', 'markets', 'science', 'tech', 'international'])
+        && d.freq in ['breaking', 'all', 'digest']
+        && d.enabled is bool
+        && d.platform is string && d.platform.size() <= 40
+        && d.updated == request.time;
+    }
+
+    match /devices/{uid} {
+      allow read: if signedIn() && (request.auth.uid == uid || isAdmin());
+      allow create: if signedIn() && request.auth.uid == uid && validDevice(uid)
+        && request.resource.data.created == request.time;
+      // throttle: one change every 3 seconds per device; created never changes
+      allow update: if signedIn() && request.auth.uid == uid && validDevice(uid)
+        && request.resource.data.created == resource.data.created
+        && request.time > resource.data.updated + duration.value(3, 's');
+      allow delete: if signedIn() && request.auth.uid == uid;
+    }
+
+    // one click record per reader per notification (counts click-through without tracking people)
+    match /clicks/{id} {
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['key', 'uid', 'at'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.key is string && request.resource.data.key.size() <= 120
+        && id == request.resource.data.key + '__' + request.auth.uid
+        && request.resource.data.at == request.time;
+      allow read: if isAdmin();
+    }
+
+    match /sends/{key} { allow read: if isAdmin(); }
+    match /tests/{id} { allow read: if isAdmin(); }
+    // admins/{googleUid} is created by hand in the Firebase console (see NOTIFICATIONS.md). An admin may
+    // only edit the list of their own test devices (anonymous device IDs of browsers they use).
+    match /admins/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow update: if signedIn() && request.auth.uid == uid
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['devices'])
+        && request.resource.data.devices is list && request.resource.data.devices.size() <= 10;
+    }
+
+    match /{document=**} { allow read, write: if false; }
+  }
+}
