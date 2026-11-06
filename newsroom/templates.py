@@ -17,7 +17,8 @@ SOCIAL = [("x", X_URL, "X"), ("telegram", "https://t.me/MetaFloraLabs", "Telegra
           ("discord", "https://discord.com/invite/BvsTfQZNzn", "Discord"), ("medium", "https://meta-flora.medium.com/", "Medium"),
           ("youtube", "https://www.youtube.com/@metafloralabs", "YouTube")]
 WORDMARK = ('<a class="wordmark" href="/" aria-label="MetaFlora News home">'
-            '<img src="/assets/metaflora-white-logo-no-icon.png" alt="MetaFlora" width="218" height="65"><span>NEWS</span></a>')
+            '<img src="/assets/metaflora-cube-mark.png" alt="" width="111" height="120">'
+            '<span class="wm-text">METAFLORA <span class="wm-news">NEWS</span></span></a>')
 
 ctx = {"market": None, "photo_path": lambda a: None, "write": None, "out": None, "edition_label": None}
 
