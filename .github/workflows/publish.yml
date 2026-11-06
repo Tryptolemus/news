@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0  # full history so multi-commit pushes diff against the real previous head
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -44,8 +44,10 @@ jobs:
           before="${{ github.event.before }}"
           if [ "${{ github.event_name }}" = "schedule" ]; then
             files=""
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             files=$(ls content/articles/*.json | tail -n 9 | tr '\n' ' ')
+          elif [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
+            files=""  # unknown previous head: never re-post old stories
           else
             files=$(git diff --name-only --diff-filter=A "$before" "${{ github.sha }}" -- content/articles | tr '\n' ' ')
           fi
