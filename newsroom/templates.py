@@ -177,12 +177,18 @@ def market_strip():
     m = ctx["market"]
     if not m:
         return ""
-    cells = "".join(
-        f'<li><a href="/stocks/{r["sym"].lower()}/" title="{escape(r["full"])} stock: chart and news"><span class="sym">{r["sym"]}</span><span class="px">{r["price"]:.2f}</span>'
-        f'<span class="chg {"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></a></li>' for r in m["rows"])
+    def cells(hidden):
+        tab = ' tabindex="-1"' if hidden else ""
+        return "".join(
+            f'<li><a href="/stocks/{r["sym"].lower()}/"{tab} title="{escape(r["full"])} stock: chart and news"><span class="sym">{r["sym"]}</span>'
+            f'<span class="px">{r["price"]:.2f}</span><span class="chg {"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></a></li>'
+            for r in m["rows"])
     asof = f'{m["asof"].day} {m["asof"]:%b}'
-    return (f'<section class="market" aria-label="Cannabis stocks"><a class="mk-label" href="/stocks/">Cannabis stocks · close {asof} · delayed</a>'
-            f'<ul>{cells}</ul></section>')
+    # endless tape: each run holds the list twice so it is always wider than the screen; the second run
+    # is a visual copy (hidden from screen readers and the tab order) that makes the loop seamless
+    run = cells(False) + cells(True)
+    return (f'<section class="market" aria-label="Cannabis stocks"><a class="mk-label" href="/stocks/">Cannabis stocks · close {asof}</a>'
+            f'<div class="mk-track"><ul class="mk-run">{run}</ul><ul class="mk-run" aria-hidden="true">{cells(True) + cells(True)}</ul></div></section>')
 
 
 def watch_items(arts, today):
@@ -334,7 +340,7 @@ def build_article(a, arts):
     ticks = tickers_for(a.get("tags", []))
     if ticks:
         tags_html += ('<nav class="tags tickers" aria-label="Stocks in this story"><span class="tk-label">Stocks in this story</span>'
-                      + "".join(f'<a href="/stocks/{r["sym"].lower()}/" title="Close {r["date"]}, delayed">{escape(r["name"])} <span class="tk">{r["sym"]}</span> '
+                      + "".join(f'<a href="/stocks/{r["sym"].lower()}/" title="Close {r["date"]}">{escape(r["name"])} <span class="tk">{r["sym"]}</span> '
                                 f'<span class="{"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></a>' for r in ticks) + "</nav>")
     fig = ""
     if has_photo(a):

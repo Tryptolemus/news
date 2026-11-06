@@ -141,7 +141,7 @@ def table(rows, current=None):
             f'<th scope="col">1M</th><th scope="col">YTD</th><th scope="col" class="sp">3M</th></tr></thead><tbody>{body}</tbody></table></div>')
 
 
-SOURCE = ('<p class="stk-src">End-of-day closes from Yahoo Finance; prices are delayed and in US dollars. '
+SOURCE = ('<p class="stk-src">End-of-day closing prices from Yahoo Finance, in US dollars. '
           'This page is generated automatically from market data every trading day. It is not investment advice. '
           '<a href="/how-we-report/">How we report</a></p>')
 
@@ -176,7 +176,7 @@ def build_stocks(arts, m):
     <p class="kicker"><a href="/stocks/">Cannabis stocks</a></p>
     <h1>{escape(r["full"])} <span class="tk">{r["sym"]}</span></h1>
     <p class="stk-price"><b>{money(r["price"])}</b> <span class="{cls(r["chg"])}">{pct(r["chg"])}</span>
-      <span class="meta">Close, {day(r["date"], True)} · delayed</span></p>
+      <span class="meta">Close, {day(r["date"], True)}</span></p>
   </header>
   {chart(r)}
   <div class="stk-cols">
@@ -211,7 +211,7 @@ def build_stocks(arts, m):
     lead = (f'<p>{ups} of {len(ranked)} cannabis stocks closed higher on {day(asof)}. '
             f'{escape(ranked[0]["name"])} led ({pct(ranked[0]["chg"])}) and {escape(ranked[-1]["name"])} lagged ({pct(ranked[-1]["chg"])}).'
             + (f' MSOS, the US cannabis ETF, {moved(etf["chg"])}.' if etf else "") + "</p>")
-    body = (f'<div class="page-h"><h1>Cannabis stocks today</h1><p class="meta">Close {day(asof, True)} · delayed · updated every trading day</p></div>'
+    body = (f'<div class="page-h"><h1>Cannabis stocks today</h1><p class="meta">Close {day(asof, True)} · updated every trading day</p></div>'
             f'<div class="story-body stk-lead">{lead}</div>{table(rows)}{ads.slot("stocks-index", 0, "list")}{SOURCE}')
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis stocks today", "url": T.SITE + "/stocks/", "dateModified": asof,
           "hasPart": [{"@type": "WebPage", "url": f'{T.SITE}/stocks/{r["sym"].lower()}/', "name": f'{r["name"]} ({r["sym"]})'} for r in rows]}

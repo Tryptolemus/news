@@ -61,7 +61,7 @@ time{font-family:var(--mono);font-size:12px;color:var(--meta)}
 .pic img,.pic svg{width:100%;aspect-ratio:3/2;object-fit:cover;height:auto}
 
 /* market strip */
-.market{display:flex;align-items:center;gap:18px;border-bottom:1px solid var(--rule);padding-block:10px;overflow-x:auto;scrollbar-width:none}
+.market{display:flex;align-items:center;gap:18px;border-bottom:1px solid var(--rule);padding-block:10px;overflow:hidden}
 .market::-webkit-scrollbar{display:none}
 .mk-label{font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);white-space:nowrap}
 .market ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
@@ -71,6 +71,16 @@ time{font-family:var(--mono);font-size:12px;color:var(--meta)}
 .market li a{display:flex;gap:7px;color:inherit;padding-block:4px}
 .market li a:hover{text-decoration:none} .market li a:hover .sym{color:var(--green);text-decoration:underline;text-underline-offset:3px}
 a.mk-label:hover{color:var(--dek);text-decoration:none}
+.mk-label{flex:none}
+.mk-track{display:flex;flex:1;min-width:0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent);mask-image:linear-gradient(90deg,transparent,#000 3%,#000 97%,transparent)}
+.market .mk-run{flex:none;padding-right:22px;animation:mk-tape 70s linear infinite;will-change:transform}
+.mk-track:hover .mk-run,.mk-track:focus-within .mk-run{animation-play-state:paused}
+@keyframes mk-tape{from{transform:translateX(0)}to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){
+  .market .mk-run{animation:none}
+  .mk-track{overflow-x:auto;scrollbar-width:none}
+  .mk-run[aria-hidden]{display:none}
+}
 
 /* front: above the fold */
 .front-top{display:grid;grid-template-columns:3fr 6fr 3fr;margin-top:28px;border-bottom:1px solid var(--rule);padding-bottom:32px}
@@ -257,8 +267,9 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 @media (max-width:760px){
   .btn-outline span{display:none}
   .btn-outline{padding:7px 9px}
-  .market{flex-direction:column;align-items:flex-start;gap:6px;-webkit-mask-image:linear-gradient(90deg,#000 88%,transparent);mask-image:linear-gradient(90deg,#000 88%,transparent)}
-  .market ul{overflow-x:auto;max-width:100%;scrollbar-width:none}
+  .market{flex-direction:column;align-items:stretch;gap:6px}
+  .mk-track{width:100%}
+  .market .mk-run{animation-duration:55s}
   .pic.plate svg{aspect-ratio:16/9}
   .kp-stat b{font-size:40px}
 }
