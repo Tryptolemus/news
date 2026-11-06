@@ -53,10 +53,10 @@
   "banner": {
     "title": "Trump Open To Descheduling",
     "highlight": ["DESCHEDULING"],
-    "sub": "Adviser: clean bill signed, MORE Act likely vetoed",
+    "sub": "Adviser: he would sign a clean bill, likely veto MORE",
     "divider": "Federal desk",
     "points": [
-      {"icon": "doc", "text": "Clean bill: yes"},
+      {"icon": "doc", "text": "Would sign clean bill"},
       {"icon": "gavel", "text": "MORE Act: likely veto"},
       {"icon": "ballot", "text": "Democrats take Congress"}
     ],

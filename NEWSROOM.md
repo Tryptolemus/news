@@ -105,6 +105,7 @@ The build publishes a sitemap index (pages, a Google News sitemap for the last 4
 ### SEO rules for every edition (from the SEO board, 6 Nov 2026)
 - **Company tags use the stock-page names** so stories link to `/stocks/<sym>/` automatically: Curaleaf, Green Thumb, Verano, Tilray, Canopy Growth, SNDL, Organigram, Aurora Cannabis, MSOS. `TAG_ALIASES` in `newsroom/templates.py` maps known variants; add a line there rather than inventing a new spelling.
 - **Topic hubs index at 3 stories.** Hubs with fewer are `noindex, follow` and stay out of the sitemap, so tag the recurring entities (states, regulators, companies) consistently and the hubs graduate on their own.
+- **Banner text keeps the story's tense and certainty.** Promises, plans and predictions stay "would", "plans to", "likely"; never shorten them into done deeds ("would sign" must not become "signed"). The banner and its points are what most people see on X.
 - **Absolute dates in headlines and deks.** Write "12 November", never "next Thursday" or "tomorrow": stories stay up forever and are read days later.
 - **Headline under 70 characters, dek 120–160.** Lead with the name people search ("Curaleaf", "Ohio", "DEA"), then what happened.
 - **`published` is the real publish time** of the edition (the time you commit), not a nominal slot. When a running story changes, set `updated` and add the new facts; don't publish a near-duplicate story.
