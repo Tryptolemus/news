@@ -23,8 +23,11 @@ def build(arts, write):
     recent = [dict(L.payload(a), cat=a["cat"], breaking=bool(a.get("breaking")), push=a.get("push", True),
                    topic=L.topic_for(a), published=a["published"]) for a in arts[:24]]
     cfg = {"sdk": c["sdk"], "firebase": c["firebase"], "topics": [[t, lbl] for t, lbl, _ in L.TOPICS],
-           "freqs": [list(f) for f in L.FREQUENCIES], "recent": recent, "actions": REPO_ACTIONS}
+           "freqs": [list(f) for f in L.FREQUENCIES], "recent": recent, "actions": REPO_ACTIONS, "xready": L.x_ready(arts)}
     body = f"""<div class="page-h adm-h"><h1>News alerts</h1><p class="dek">Subscribers, deliveries and clicks. Sending happens in GitHub Actions; this page only reads.</p></div>
+<section class="block adm-x" id="x" aria-labelledby="x-h"><h2 class="sec-label" id="x-h">Ready for X</h2>
+  <p class="mfn-note">The latest edition's top stories, written for @MetaFloraLabs. Tap <b>Post on X</b>: X opens with the text and link filled in (the story card appears automatically), then press Post. Free, from your own account.</p>
+  <ol class="adm-xlist" id="adm-xlist"></ol></section>
 <div id="adm" class="adm">
   <section class="adm-auth"><button type="button" class="mfn-primary" id="adm-signin">Sign in with Google</button>
     <p class="mfn-note" id="adm-who"></p></section>

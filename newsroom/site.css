@@ -518,3 +518,14 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
   .node-act{grid-column:1/-1;flex-direction:row;align-items:center;gap:18px}
   .node-cta h2{font-size:22px}
 }
+
+/* alerts admin: Ready for X */
+.adm-x{margin-top:8px}
+.adm-xlist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:14px}
+.adm-xlist li{border:1px solid var(--rule);border-radius:6px;padding:14px 16px;background:var(--surface)}
+.adm-xlist li.is-done{opacity:.55}
+.adm-xmeta{font-family:var(--mono);font-size:11.5px;color:var(--faint)}
+.adm-xtext{font-family:var(--sans);font-size:15px;color:var(--fg);white-space:pre-line;margin:6px 0 4px}
+.adm-xurl{font-family:var(--mono);font-size:12px;color:var(--meta);word-break:break-all}
+.adm-xbtns{display:flex;gap:10px;align-items:center;margin-top:10px}
+.adm-xbtns .mfn-primary{text-decoration:none!important;color:#0d0d0d!important}

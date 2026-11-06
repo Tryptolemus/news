@@ -165,6 +165,10 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           PUSH_LIVE: ${{ vars.PUSH_LIVE }}
         run: python3 newsroom/push.py articles ${{ needs.build.outputs.new_articles }}
+      - name: Tell admins the X posts are ready
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: python3 newsroom/push.py xready ${{ needs.build.outputs.new_articles }}
 
   post-to-x:
     needs: [build, deploy]

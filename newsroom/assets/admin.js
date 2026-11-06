@@ -83,6 +83,27 @@ async function load(user, me) {
   });
 }
 
+// Ready for X: one-tap compose links for the latest edition's top stories ("posted" is remembered on this device)
+{
+  const KEY = "mfn-x-posted";
+  const done = (() => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } })();
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(done)); } catch {} };
+  const list = $("adm-xlist");
+  const draw = () => {
+    list.innerHTML = (CFG.xready || []).map((x) => `<li class="${done[x.key] ? "is-done" : ""}">
+      <p class="adm-xmeta">${esc(x.edition)} · rank ${x.rank}${done[x.key] ? " · <b>posted</b>" : ""}</p>
+      <p class="adm-xtext">${esc(x.text)}</p><p class="adm-xurl">${esc(x.url)}</p>
+      <p class="adm-xbtns"><a class="mfn-primary" href="${esc(x.intent)}" target="_blank" rel="noopener" data-k="${esc(x.key)}">Post on X</a>
+      <button type="button" class="mfn-ghost" data-mark="${esc(x.key)}">${done[x.key] ? "Undo" : "Mark posted"}</button></p></li>`).join("")
+      || "<li>No stories yet.</li>";
+  };
+  list.addEventListener("click", (e) => {
+    const m = e.target.closest("[data-mark]");
+    if (m) { const k = m.dataset.mark; if (done[k]) delete done[k]; else done[k] = Date.now(); save(); draw(); }
+  });
+  draw();
+}
+
 // preview: what readers would see for a recent story (built from the real headline and dek)
 const pick = $("adm-article");
 pick.innerHTML = CFG.recent.map((a, i) => `<option value="${i}">${esc(a.key)}${a.breaking ? " · BREAKING" : ""}${a.push === false ? " · alerts off" : ""}</option>`).join("");

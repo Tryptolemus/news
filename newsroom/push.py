@@ -218,6 +218,35 @@ def send_one(fb, a, targets, dry, manual=False):
     return True
 
 
+def cmd_xready(fb, files):
+    """Tell admins the edition's X posts are ready (admin test devices only, once per edition)."""
+    arts = []
+    for f in files:
+        try:
+            arts.append(load_article(f))
+        except Exception as e:  # noqa: BLE001
+            log("skip", f, e)
+    items = L.x_ready(arts)
+    if not items:
+        log("xready: no new stories")
+        return
+    ed = items[0]["edition"]
+    targets = [d for d in devices(fb, admin_only=True) if d.get("token")]
+    key = f"xready-{ed}"
+    if not targets:
+        log("xready: no admin devices registered")
+        return
+    if not claim(fb, key, {"kind": "xready", "title": f"X posts ready {ed}", "audience": len(targets), "live": True, "manual": False}):
+        log(f"{key}: already sent")
+        return
+    p = {"title": f"{len(items)} post{'s' if len(items) > 1 else ''} ready for X",
+         "body": L.clip(f"Lead: {items[0]['headline']}", 160), "link": f"{L.SITE}/admin/notifications/#x",
+         "tag": key, "key": key, "image": f"{L.SITE}/og/{items[0]['id']}.jpg"}
+    out = deliver(fb, targets, p, dry=False)
+    fb["db"].collection("sends").document(key).update(out | {"status": "sent", "finished": fb["fs"].SERVER_TIMESTAMP})
+    log(f"{key}: told {len(targets)} admin device(s):", out)
+
+
 def cmd_preview(fb, key):
     a = load_article(key)
     p = L.payload(a)
@@ -303,6 +332,8 @@ def main(argv):
             return
         if cmd == "articles":
             cmd_articles(fb, rest)
+        elif cmd == "xready":
+            cmd_xready(fb, rest)
         elif cmd == "test":
             cmd_test(fb, rest[0] if rest else "latest")
         elif cmd == "send":

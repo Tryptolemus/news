@@ -90,6 +90,17 @@ class Logic(unittest.TestCase):
         self.assertEqual(b[0]["title"], "4 new stories in your topics")
         self.assertEqual(len(b[0]["keys"]), 4)
 
+    def test_x_ready(self):
+        arts = [art("a", rank=2, x_post="Hook A"), art("b", rank=1), art("c", rank=3), art("d", rank=4)]
+        arts.append(dict(art("old", rank=1), edition="2026-11-05-pm"))
+        xs = L.x_ready(arts)
+        self.assertEqual([x["id"] for x in xs], ["b", "a", "c"])          # latest edition, by rank, top 3
+        self.assertEqual(xs[1]["text"], "Hook A #cannabis")
+        self.assertTrue(xs[0]["intent"].startswith("https://x.com/intent/post?text="))
+        self.assertIn("url=https%3A%2F%2Fnews.metaflora.xyz", xs[0]["intent"])
+        long = L.x_text(art("z", x_post="word " * 100))
+        self.assertLessEqual(len(long) + 23 + 2, 280)
+
     def test_digest(self):
         arts = [art("p1", "Policy"), art("h1", "Hemp"), art("old", "Policy", hours_ago=30)]
         today = L.digest_articles(arts, NOW)
@@ -303,6 +314,18 @@ class Dispatcher(unittest.TestCase):
         with redirect_stdout(buf):
             self.push.main(["articles", "x.json"])
         self.assertIn("ERROR (ignored", buf.getvalue())
+
+    def test_xready_tells_admins_once(self):
+        self.add_dev(dev(1, ["policy"]))
+        self.add_dev(dev(2, ["policy"]))
+        self.db.store["admins"]["google-admin"] = {"devices": ["u2"]}
+        files = [self.write(self.fresh(f"x{i}", rank=i + 1)) for i in range(4)]
+        self.run_cmd("xready", *files)
+        self.run_cmd("xready", *files)
+        self.assertEqual(len(self.msg.calls), 1)
+        self.assertEqual(len(self.msg.calls[0]["tokens"]), 1)            # admin device only
+        self.assertEqual(self.msg.calls[0]["title"], "3 posts ready for X")
+        self.assertTrue(self.msg.calls[0]["link"].endswith("/admin/notifications/#x"))
 
     def test_digest_once_per_day(self):
         self.add_dev(dev(1, ["policy"], freq="digest"))

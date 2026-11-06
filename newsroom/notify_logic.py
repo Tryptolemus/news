@@ -174,3 +174,34 @@ def edition_payloads(items, max_single=2):
              "image": f"{SITE}/og/{first['id']}.jpg",
              "link": f"{SITE}/?utm_source=push&utm_medium=web-push&utm_campaign={key}",
              "tag": key, "key": key, "keys": [send_key(a) for a in items]}]
+
+
+# ---------- X: one-tap posting (no API) ----------
+X_LIMIT, X_URL_LEN, X_TAGS = 280, 23, " #cannabis"
+
+
+def x_text(article):
+    """Post text for X, same rules as newsroom/post_to_x.py: the story's x_post (or headline + dek),
+    trimmed so text + #cannabis + the link fit in 280 characters."""
+    text = (article.get("x_post") or "").strip() or f"{article['headline']}\n\n{article['dek']}"
+    budget = X_LIMIT - X_URL_LEN - 2 - len(X_TAGS)
+    if len(text) > budget:
+        text = text[: budget - 1].rstrip() + "…"
+    return text + X_TAGS
+
+
+def x_ready(articles, n=3):
+    """The latest edition's top n stories (by the editor's rank), each with an X compose link that
+    opens x.com pre-filled; the reader of the dashboard taps Post. Nothing is posted automatically."""
+    from urllib.parse import urlencode
+    if not articles:
+        return []
+    ed = max(a["edition"] for a in articles)
+    top = sorted([a for a in articles if a["edition"] == ed and not a.get("draft")], key=lambda a: a.get("rank", 99))[:n]
+    out = []
+    for a in top:
+        url = article_url(a)
+        text = x_text(a)
+        out.append({"key": send_key(a), "id": a["id"], "edition": ed, "rank": a.get("rank", 99), "headline": a["headline"], "text": text, "url": url,
+                    "intent": "https://x.com/intent/post?" + urlencode({"text": text, "url": url})})
+    return out
