@@ -13,23 +13,23 @@ CACHE = Path(__file__).resolve().parent.parent / "content" / "market.json"
 
 # sym, short name, full name, tags that link our coverage, one-line profile
 TICKERS = [
-    ("MSOS", "MSOS", "AdvisorShares Pure US Cannabis ETF", ["MSOS", "Cannabis stocks"],
+    ("MSOS", "MSOS", "AdvisorShares Pure US Cannabis ETF", ["MSOS"],
      "An exchange-traded fund that holds US cannabis operators. Its daily move is the market's shorthand for how US cannabis stocks are trading."),
     ("CURLF", "Curaleaf", "Curaleaf Holdings", ["Curaleaf"],
      "A US multi-state cannabis operator with retail, cultivation and manufacturing across many states and international operations."),
-    ("GTBIF", "Green Thumb", "Green Thumb Industries", ["Green Thumb", "Green Thumb Industries"],
+    ("GTBIF", "Green Thumb", "Green Thumb Industries", ["Green Thumb"],
      "A US multi-state cannabis operator that makes branded cannabis products and runs its own dispensaries."),
-    ("VRNO", "Verano", "Verano Holdings", ["Verano", "Verano Holdings"],
+    ("VRNO", "Verano", "Verano Holdings", ["Verano"],
      "A US multi-state cannabis operator with cultivation, consumer brands and its own dispensaries."),
-    ("TLRY", "Tilray", "Tilray Brands", ["Tilray", "Tilray Brands"],
+    ("TLRY", "Tilray", "Tilray Brands", ["Tilray"],
      "A cannabis and consumer-products company with medical cannabis operations in Europe and a beverage business."),
-    ("CGC", "Canopy", "Canopy Growth", ["Canopy Growth", "Canopy"],
+    ("CGC", "Canopy", "Canopy Growth", ["Canopy Growth"],
      "A Canadian cannabis producer with consumer brands sold in Canada and abroad."),
     ("SNDL", "SNDL", "SNDL Inc.", ["SNDL"],
      "A Canadian cannabis producer and retailer that also runs a large liquor retail business."),
     ("OGI", "Organigram", "Organigram Global", ["Organigram"],
      "A Canadian licensed producer of cannabis flower, vapes, pre-rolls and edibles."),
-    ("ACB", "Aurora", "Aurora Cannabis", ["Aurora Cannabis", "Aurora"],
+    ("ACB", "Aurora", "Aurora Cannabis", ["Aurora Cannabis"],
      "A Canadian cannabis company focused on medical cannabis in Canada and international markets."),
 ]
 META = {t[0]: {"name": t[1], "full": t[2], "tags": t[3], "about": t[4]} for t in TICKERS}
@@ -63,10 +63,16 @@ def _shape(raw):
         hi = max(pts, key=lambda p: p["c"])
         lo = min(pts, key=lambda p: p["c"])
         vols = [p["v"] for p in pts[-20:] if p.get("v")]
+        peak, mdd = closes[0], 0.0
+        for c in closes:
+            peak = max(peak, c)
+            mdd = min(mdd, (c / peak - 1) * 100)
         rows.append({"sym": sym, **META[sym], "price": last, "chg": (last / prev - 1) * 100,
                      "w1": back(5), "m1": back(21), "m3": back(63), "y1": (last / closes[0] - 1) * 100,
                      "ytd": (last / ytd_base - 1) * 100, "hi": hi, "lo": lo,
                      "vol": pts[-1].get("v"), "avgvol": sum(vols) / len(vols) if vols else None,
+                     "ma50": sum(closes[-50:]) / 50 if len(closes) >= 50 else None,
+                     "ma200": sum(closes[-200:]) / 200 if len(closes) >= 200 else None, "mdd": mdd,
                      "date": pts[-1]["t"], "points": pts})
     return rows
 

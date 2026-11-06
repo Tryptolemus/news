@@ -88,6 +88,18 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
 
+  indexnow:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Ping IndexNow with changed URLs
+        run: python3 newsroom/indexnow.py ${{ needs.build.outputs.new_articles }}
+
   post-to-x:
     needs: [build, deploy]
     if: needs.build.outputs.new_articles != ''

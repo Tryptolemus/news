@@ -99,6 +99,16 @@ Every story is permanent: it keeps its dated URL forever and is never deleted or
 
 The build publishes a sitemap index (pages, a Google News sitemap for the last 48 hours, and every article ever published), per-section RSS feeds, NewsArticle and Breadcrumb schema on every story, and a monthly archive.
 
+### SEO rules for every edition (from the SEO board, 6 Nov 2026)
+- **Company tags use the stock-page names** so stories link to `/stocks/<sym>/` automatically: Curaleaf, Green Thumb, Verano, Tilray, Canopy Growth, SNDL, Organigram, Aurora Cannabis, MSOS. `TAG_ALIASES` in `newsroom/templates.py` maps known variants; add a line there rather than inventing a new spelling.
+- **Topic hubs index at 3 stories.** Hubs with fewer are `noindex, follow` and stay out of the sitemap, so tag the recurring entities (states, regulators, companies) consistently and the hubs graduate on their own.
+- **Absolute dates in headlines and deks.** Write "12 November", never "next Thursday" or "tomorrow": stories stay up forever and are read days later.
+- **Headline under 70 characters, dek 120–160.** Lead with the name people search ("Curaleaf", "Ohio", "DEA"), then what happened.
+- **`published` is the real publish time** of the edition (the time you commit), not a nominal slot. When a running story changes, set `updated` and add the new facts; don't publish a near-duplicate story.
+- **Link our own coverage in the body** when a story continues an earlier one ("as we reported on 6 November") and add the earlier story to `sources` with its full URL (`https://news.metaflora.xyz/2026/11/06/<id>/`, name "MetaFlora News"); the build rejects relative paths.
+- **Standing explainers.** When a week is quiet, write one evergreen explainer per week tagged to its hub: what rescheduling to Schedule III changes; how Section 280E works; hemp-derived THC and the federal Total THC rule; how cannabis stocks trade (OTC vs Nasdaq vs Canadian listings); state-by-state legal status. Update the same explainer (`updated`) instead of writing a new one.
+- **Stock pages are automatic.** Never write a story whose only content is a price move; the daily stock note covers that. Write a story when there is news (earnings, deals, regulation) and tag the company.
+
 ## Long-form standard
 
 MetaFlora News runs long, useful stories, not briefs.

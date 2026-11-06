@@ -25,6 +25,32 @@ WORDMARK = ('<a class="wordmark" href="/" aria-label="MetaFlora News home">'
             '<span class="wm-top"><img src="/assets/metaflora-cube-mark.png" alt="" width="111" height="120">'
             '<span class="wm-text">METAFLORA</span></span><span class="wm-news">NEWS</span></a>')
 
+LOGO = f"{SITE}/assets/metaflora-news-logo.png"
+ORG = {"@type": "NewsMediaOrganization", "@id": f"{SITE}/#org", "name": NAME, "url": SITE + "/",
+       "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512},
+       "email": "support@metaflora.xyz",
+       "parentOrganization": {"@type": "Organization", "name": "MetaFlora", "url": "https://metaflora.xyz"},
+       "sameAs": [X_URL, "https://t.me/MetaFloraLabs", "https://www.youtube.com/@metafloralabs", "https://meta-flora.medium.com/"],
+       "publishingPrinciples": f"{SITE}/how-we-report/", "correctionsPolicy": f"{SITE}/how-we-report/#corrections",
+       "ownershipFundingInfo": f"{SITE}/how-we-report/#ownership", "actionableFeedbackPolicy": f"{SITE}/how-we-report/#contact"}
+PUBLISHER = {"@type": "NewsMediaOrganization", "@id": f"{SITE}/#org", "name": NAME,
+             "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}}
+ROBOTS = "max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+# one entity = one tag: variants found in content map to the canonical hub name
+TAG_ALIASES = {"Green Thumb Industries": "Green Thumb", "Verano Holdings": "Verano", "Tilray Brands": "Tilray",
+               "Canopy": "Canopy Growth", "Aurora": "Aurora Cannabis", "Curaleaf Holdings": "Curaleaf",
+               "Drug Enforcement Administration": "DEA", "280E": "Section 280E"}
+SECTION_DESC = {
+    "Policy": "Cannabis policy news: legalization votes, ballot measures, regulation and the politics of cannabis.",
+    "Federal": "Federal cannabis news: DEA rescheduling, Congress, banking, Section 280E and federal enforcement.",
+    "Hemp": "Hemp and hemp-derived THC news: federal and state rules, testing limits and the hemp market.",
+    "Markets": "Cannabis business and markets news: earnings, deals, cannabis stocks and the companies behind them.",
+    "Europe": "European cannabis news: Germany, the Czech Republic, medical cannabis markets and court rulings.",
+    "States": "State cannabis news: licensing, new markets, rules and enforcement across the United States.",
+    "Science": "Cannabis science news: clinical research, health studies and what the evidence says.",
+    "Tech": "Cannabis technology news: software, payments, tracking and the tools the industry runs on.",
+}
+
 ctx = {"market": None, "photo_path": lambda a: None, "write": None, "out": None, "edition_label": None}
 
 FONTS = ("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400"
@@ -34,11 +60,13 @@ COPY_JS = ("<script>document.querySelectorAll('[data-copy]').forEach(function(b)
            "try{navigator.clipboard.writeText(b.dataset.copy).then(function(){b.textContent='Link copied'},function(){})}catch(e){}})});</script>")
 
 
-def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head="", active=None, dateline=""):
-    full = f"{title} · {NAME}" if title != NAME else f"{NAME} · Cannabis industry news"
+def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head="", active=None, dateline="", robots=ROBOTS):
+    # brand suffix only where it fits in ~60 characters of search-result title
+    full = f"{NAME} · Cannabis industry news" if title == NAME else (f"{title} · {NAME}" if len(title) <= 44 else title)
     img = og_image or f"{SITE}/assets/og-default.png"
     nav = "".join(f'<a href="/section/{c.lower()}/"{" aria-current=page" if c == active else ""}>{c}</a>' for c in CATS)
-    social = "".join(f'<a href="{u}" target="_blank" rel="noopener" aria-label="{n}"><img src="/assets/{i}.png" alt=""></a>' for i, u, n in SOCIAL)
+    nav += f'<a href="/stocks/"{" aria-current=page" if active == "Stocks" else ""}>Stocks</a>'
+    social = "".join(f'<a href="{u}" target="_blank" rel="noopener" aria-label="{n}"><img src="/assets/{i}.png" alt="" width="47" height="44"></a>' for i, u, n in SOCIAL)
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -46,6 +74,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{escape(full)}</title>
 <meta name="description" content="{escape(desc)}">
+<meta name="robots" content="{robots}">
 <link rel="canonical" href="{SITE}{path}">
 <meta property="og:site_name" content="{NAME}">
 <meta property="og:type" content="{kind}">
@@ -71,7 +100,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
   <div class="wrap mast-row">
     <span class="mast-date">{dateline}</span>
     {WORDMARK}
-    <span class="mast-cta"><a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt=""><span>Follow</span></a></span>
+    <span class="mast-cta"><a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt="" width="47" height="44"><span>Follow</span></a></span>
   </div>
   <nav class="nav" aria-label="Sections"><div class="wrap nav-row">{nav}</div></nav>
 </header>
@@ -231,10 +260,8 @@ def build_front(arts, eds):
 <p class="meta">Each edition is also posted to <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></div></div></section>''')
     parts.append(f'<section class="block"><h2 class="sec-label">All stories</h2><ol class="latest-list">{"".join(list_item(a) for a in arts[:15])}</ol>'
                  f'<p class="more-link"><a href="/archive/">Full archive</a></p></section>')
-    org = {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": NAME, "url": SITE + "/",
-           "logo": SITE + "/assets/metaflora-white-logo-just-icon.png", "parentOrganization": {"@type": "Organization", "name": "MetaFlora", "url": "https://metaflora.xyz"},
-           "sameAs": [X_URL, "https://t.me/MetaFloraLabs", "https://www.youtube.com/@metafloralabs"],
-           "publishingPrinciples": SITE + "/how-we-report/", "correctionsPolicy": SITE + "/how-we-report/#corrections"}
+    org = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": f"{SITE}/#website", "name": NAME, "url": SITE + "/",
+                                                            "description": TAGLINE, "publisher": {"@id": f"{SITE}/#org"}, "inLanguage": "en"}]}
     ctx["write"]("index.html", page(NAME, "".join(parts), og_image=f"{SITE}/og/{lead['id']}.png", dateline=dateline_for(latest_ed, latest),
                                     extra_head=f'<script type="application/ld+json">{json.dumps(org)}</script>'))
 
@@ -296,12 +323,19 @@ def build_article(a, arts):
     if a.get("updated"):
         updated = f' · Updated {datetime.fromisoformat(a["updated"]).day} {datetime.fromisoformat(a["updated"]):%b, %H:%M} EET'
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": a["headline"], "description": a["dek"],
-          "datePublished": a["published"], "dateModified": a.get("updated", a["published"]), "image": [f"{SITE}/og/{a['id']}.png"],
+          "datePublished": a["published"], "dateModified": a.get("updated", a["published"]),
+          "image": ([f"{SITE}/img/{a['id']}.jpg"] if has_photo(a) else [])
+                   + [{"@type": "ImageObject", "url": f"{SITE}/og/{a['id']}.png", "width": 1200, "height": 630}],
           "author": {"@type": "Organization", "name": "MetaFlora News Desk", "url": f"{SITE}/how-we-report/"},
-          "publisher": {"@type": "Organization", "name": NAME}, "mainEntityOfPage": url}
+          "publisher": PUBLISHER, "mainEntityOfPage": url, "isAccessibleForFree": True}
     tags_html = ""
     if a.get("tags"):
         tags_html = '<nav class="tags" aria-label="Topics">' + "".join(f'<a href="/topic/{slug(t)}/">{escape(t)}</a>' for t in a["tags"]) + "</nav>"
+    ticks = tickers_for(a.get("tags", []))
+    if ticks:
+        tags_html += ('<nav class="tags tickers" aria-label="Stocks in this story"><span class="tk-label">Stocks in this story</span>'
+                      + "".join(f'<a href="/stocks/{r["sym"].lower()}/" title="Close {r["date"]}, delayed">{escape(r["name"])} <span class="tk">{r["sym"]}</span> '
+                                f'<span class="{"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></a>' for r in ticks) + "</nav>")
     fig = ""
     if has_photo(a):
         fig = f'<figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>'
@@ -327,7 +361,7 @@ def build_article(a, arts):
     {kp}
     <div class="story-body">{render_body(a)}</div>
     <section class="sources"><h2>Sources</h2><ol>{srcs}</ol>
-      <p>This article summarises and links the original reporting. Spotted an error? Message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></section>
+      <p>This article summarises and links the original reporting. Spotted an error? Email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> or message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></section>
     {tags_html}
     {corr}
     {end_ad}
@@ -363,7 +397,7 @@ def build_sections(arts):
         else:
             inner = '<p class="empty">No stories in this section yet. New editions publish every morning and evening.</p>'
         body = f'<div class="page-h"><h1>{c}</h1><p class="meta">{len(items)} stories</p></div>{inner}'
-        ctx["write"](f"section/{c.lower()}/index.html", page(c, body, path=f"/section/{c.lower()}/", active=c))
+        ctx["write"](f"section/{c.lower()}/index.html", page(f"{c} cannabis news", body, desc=SECTION_DESC.get(c, TAGLINE), path=f"/section/{c.lower()}/", active=c))
 
 
 def build_archive(eds):
@@ -380,13 +414,26 @@ def build_archive(eds):
                          f'<ol class="latest-list">{"".join(list_item(a) for a in items)}</ol></section>' for ed, items in sorted(med.items(), reverse=True))
         title = f"{dt:%B %Y} archive"
         body = f'<div class="page-h"><h1>{dt:%B %Y}</h1><p class="meta"><a href="/archive/">All months</a></p></div>{blocks}'
-        ctx["write"](f"archive/{dt:%Y/%m}/index.html", page(title, body, desc=f"Every MetaFlora News story from {dt:%B %Y}.", path=f"/archive/{dt:%Y/%m}/"))
+        ctx["write"](f"archive/{dt:%Y/%m}/index.html", page(title, body, desc=f"Every MetaFlora News story from {dt:%B %Y}: {n} cannabis news stories across {len(med)} morning and evening editions.", path=f"/archive/{dt:%Y/%m}/"))
     body = f'<div class="page-h"><h1>Archive</h1><p class="meta">{len(eds)} editions</p></div><ol class="month-list">{"".join(rows)}</ol>'
-    ctx["write"]("archive/index.html", page("Archive", body, desc="Every MetaFlora News edition, by month.", path="/archive/"))
+    ctx["write"]("archive/index.html", page("Archive", body, desc="Every MetaFlora News edition by month: morning and evening cannabis news since November 2026, each story with its sources.", path="/archive/"))
 
 
 def slug(t):
     return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+
+
+HUB_MIN = 3  # topic hubs index (and enter the sitemap) once they hold this many stories
+
+
+def tickers_for(tags):
+    """Market rows for tickers whose company matches any of these tags (only tickers with a stock page)."""
+    m = ctx.get("market")
+    if not m:
+        return []
+    aliases = {k.lower(): v for k, v in TAG_ALIASES.items()}
+    want = {aliases.get(t.lower(), t).lower() for t in tags}
+    return [r for r in m["rows"] if r["sym"] != "MSOS" and want & {x.lower() for x in r["tags"]}]
 
 
 def build_topics(arts):
@@ -403,13 +450,20 @@ def build_topics(arts):
         inner = f'<div class="sec-lead">{card(lead, "wide")}</div>{ads.slot("topic-" + t, 0, "list", lead["cat"])}'
         if len(items) > 1:
             inner += f'<ol class="latest-list">{"".join(list_item(a) for a in items[1:])}</ol>'
-        desc = f"MetaFlora News coverage of {t}: every story, newest first."
-        body = f'<div class="page-h"><h1>{escape(t)}</h1><p class="meta">{len(items)} {"story" if len(items) == 1 else "stories"}</p></div>{inner}'
-        ctx["write"](f"topic/{slug(t)}/index.html", page(t, body, desc=desc, path=f"/topic/{slug(t)}/"))
+        n = len(items)
+        desc = f"{t} news from MetaFlora News: {n} {'story' if n == 1 else 'stories'}, newest first. Latest: {lead['headline']}"
+        if len(desc) > 160:
+            desc = desc[:157].rsplit(" ", 1)[0] + "..."
+        stock = "".join(f'<p class="hub-stock"><a href="/stocks/{r["sym"].lower()}/">{escape(r["full"])} stock ({r["sym"]}): price, chart and daily market note</a></p>'
+                        for r in tickers_for([t]))
+        intro = f'<p class="dek">Every MetaFlora News story about {escape(t)}, newest first, with links to the original reporting.</p>'
+        body = f'<div class="page-h"><h1>{escape(t)} news</h1><p class="meta">{n} {"story" if n == 1 else "stories"}</p>{intro}{stock}</div>{inner}'
+        ctx["write"](f"topic/{slug(t)}/index.html", page(f"{t} news", body, desc=desc, path=f"/topic/{slug(t)}/",
+                                                        robots=ROBOTS if n >= HUB_MIN else "noindex, follow"))
     rows = "".join(f'<li><a class="li-title" href="/topic/{slug(t)}/">{escape(t)}</a><span class="meta">{len(v)}</span></li>'
                    for t, v in sorted(topics.items(), key=lambda kv: (-len(kv[1]), kv[0])))
     ctx["write"]("topic/index.html", page("Topics", f'<div class="page-h"><h1>Topics</h1></div><ol class="month-list">{rows}</ol>',
-                                          desc="Every company, state, regulator and theme MetaFlora News covers.", path="/topic/"))
+                                          desc="Every company, state, regulator and theme MetaFlora News covers, from Curaleaf and the DEA to Ohio and hemp, with each topic's stories newest first.", path="/topic/"))
     return topics
 
 
@@ -422,13 +476,18 @@ def build_how():
 <h2>Our rules</h2>
 <p>We do not publish anonymous claims, invent quotes or report a fact we cannot attribute to a source. Figures come from the sources we link. Images marked "Photo illustration: AI-generated" are created for illustration and never depict real, identifiable people.</p>
 <h2 id="corrections">Corrections</h2>
-<p>When we get something wrong we fix it and add a dated correction note to the article. To report an error, message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X with the article link.</p>
+<p>When we get something wrong we fix it and add a dated correction note to the article. To report an error, email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> or message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X with the article link.</p>
+<h2 id="ownership">Ownership and conflicts of interest</h2>
+<p>MetaFlora News is owned and published by <a href="https://metaflora.xyz" target="_blank" rel="noopener">MetaFlora</a>, which builds a cannabis platform, a seller marketplace and dispensary loyalty tools. Many ads on this site are MetaFlora's own; they are always labelled "Advertisement · MetaFlora". When a story covers a company or market where MetaFlora does business, that commercial interest does not decide whether or how we cover it, and we say so in the story when it is directly relevant.</p>
 <h2>Advertising</h2>
-<p>Advertising is always labelled and kept separate from reporting. Advertisers have no say over what we cover. See <a href="/advertise/">Advertise</a>.</p>
+<p>Advertising is always labelled and kept separate from reporting. Advertisers, including MetaFlora, have no say over what we cover. See <a href="/advertise/">Advertise</a>.</p>
+<h2 id="contact">Contact</h2>
+<p>Email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> for corrections, tips, rights questions and anything else. You can also reach us at <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p>
 <h2>Not advice</h2>
 <p>MetaFlora News is news and commentary. Nothing here is legal, medical or financial advice.</p>
 </div></div></article>"""
-    ctx["write"]("how-we-report/index.html", page("How we report", body, path="/how-we-report/"))
+    ctx["write"]("how-we-report/index.html", page("How we report", body, path="/how-we-report/",
+                                                  desc="How MetaFlora News works: an AI newsroom with named sources, labelled ads, corrections, ownership disclosure and contact details."))
 
 
 def build_advertise():
@@ -450,4 +509,5 @@ def build_advertise():
 <p class="adv-cta"><a class="btn" href="{escape(contact)}" target="_blank" rel="noopener">Become a partner</a></p>
 <p class="meta">Tell us your brand, dates and target sections. We will come back with availability and rates.</p>
 </div></article>"""
-    ctx["write"]("advertise/index.html", page("Advertise", body, path="/advertise/"))
+    ctx["write"]("advertise/index.html", page("Advertise", body, path="/advertise/",
+                                              desc="Advertise on MetaFlora News: labelled ad breaks in long-form cannabis news, end-of-article cards, front-page bands and daily cannabis stock pages."))

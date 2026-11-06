@@ -109,20 +109,23 @@ def spark(r, w=120, h=32):
 
 
 def coverage(r, arts):
-    keys = {t.lower() for t in r["tags"]} | {r["name"].lower(), r["full"].lower()}
-    out = []
-    for a in arts:
-        tags = {t.lower() for t in a.get("tags", [])}
-        text = (a["headline"] + " " + a["dek"]).lower()
-        if tags & keys or any(k in text for k in keys if len(k) > 4):
-            out.append(a)
-    return out
+    """Stories tagged with this company (tags are canonical names, so no loose word matching)."""
+    keys = {t.lower() for t in r["tags"]}
+    return [a for a in arts if keys & {t.lower() for t in a.get("tags", [])}]
 
 
 def stats(r):
     cells = [("Close", money(r["price"]), ""), ("Day", pct(r["chg"]), cls(r["chg"])), ("1 week", pct(r["w1"]), cls(r["w1"])),
              ("1 month", pct(r["m1"]), cls(r["m1"])), ("3 months", pct(r["m3"]), cls(r["m3"])), ("Year to date", pct(r["ytd"]), cls(r["ytd"])),
              ("1 year", pct(r["y1"]), cls(r["y1"])), ("52-week high", money(r["hi"]["c"]), ""), ("52-week low", money(r["lo"]["c"]), "")]
+    if r.get("ma50"):
+        cells.append(("50-day average", money(r["ma50"]), ""))
+    if r.get("ma200"):
+        cells.append(("200-day average", money(r["ma200"]), ""))
+    if r.get("mdd") is not None:
+        cells.append(("Max drawdown (1y)", pct(r["mdd"]), "down" if r["mdd"] < 0 else ""))
+    if r.get("vs_msos") is not None:
+        cells.append(("1y vs MSOS", f'{r["vs_msos"]:+.1f} pts', cls(r["vs_msos"])))
     if r.get("avgvol"):
         cells.append(("Avg volume (20d)", f'{r["avgvol"]:,.0f}', ""))
     return '<dl class="stk-stats">' + "".join(f'<div><dt>{k}</dt><dd class="{c}">{v}</dd></div>' for k, v, c in cells) + "</dl>"
@@ -148,13 +151,22 @@ def build_stocks(arts, m):
     if not m:
         return []
     rows = m["rows"]
+    etf = next((x for x in rows if x["sym"] == "MSOS"), None)
+    for r in rows:
+        r["vs_msos"] = (r["y1"] - etf["y1"]) if etf and r["sym"] != "MSOS" else None
     out = []
     for r in rows:
         sym = r["sym"].lower()
         path = f"/stocks/{sym}/"
         cov = coverage(r, arts)
-        cov_html = (f'<section class="block"><h2 class="sec-label">MetaFlora News on {escape(r["name"])}</h2>'
-                    f'<ol class="latest-list">{"".join(T.list_item(a) for a in cov[:12])}</ol></section>') if cov else ""
+        if cov:
+            cov_html = (f'<section class="block"><h2 class="sec-label">MetaFlora News on {escape(r["name"])}</h2>'
+                        f'<ol class="latest-list">{"".join(T.list_item(a) for a in cov[:12])}</ol>'
+                        f'<p class="more-link"><a href="/topic/{T.slug(r["tags"][0])}/">All {escape(r["tags"][0])} coverage</a></p></section>')
+        else:
+            mk = [a for a in arts if a["cat"] == "Markets"][:6] or arts[:6]
+            cov_html = (f'<section class="block"><h2 class="sec-label">Latest cannabis markets news</h2>'
+                        f'<ol class="latest-list">{"".join(T.list_item(a) for a in mk)}</ol></section>')
         peers = [x for x in rows if x["sym"] != r["sym"]]
         title = f'{r["name"]} stock ({r["sym"]}) today: price, chart and news'
         desc = (f'{r["full"]} ({r["sym"]}) {moved(r["chg"])} to {money(r["price"])} on {short(r["date"])}. '
@@ -181,7 +193,7 @@ def build_stocks(arts, m):
   <section class="block"><h2 class="sec-label">Other cannabis stocks</h2>{table(peers)}</section>
 </article>"""
         ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc, "url": T.SITE + path,
-              "dateModified": r["date"], "isPartOf": {"@type": "WebSite", "name": T.NAME, "url": T.SITE + "/"},
+              "dateModified": r["date"], "isPartOf": {"@id": T.SITE + "/#website"}, "publisher": {"@id": T.SITE + "/#org"},
               "about": {"@type": "Corporation", "name": r["full"], "tickerSymbol": r["sym"]} if r["sym"] != "MSOS"
               else {"@type": "FinancialProduct", "name": r["full"], "category": "Exchange-traded fund"}}
         crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -189,7 +201,7 @@ def build_stocks(arts, m):
             {"@type": "ListItem", "position": 2, "name": "Cannabis stocks", "item": T.SITE + "/stocks/"},
             {"@type": "ListItem", "position": 3, "name": f'{r["name"]} ({r["sym"]})', "item": T.SITE + path}]}
         extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
-        T.ctx["write"](f"stocks/{sym}/index.html", T.page(title, body, desc=desc, path=path, extra_head=extra, active=None,
+        T.ctx["write"](f"stocks/{sym}/index.html", T.page(title, body, desc=desc, path=path, extra_head=extra, active="Stocks",
                                                          dateline=f"Cannabis stocks · close {short(r['date'])}"))
         out.append((path, r["date"]))
     asof = max(r["date"] for r in rows)
@@ -203,8 +215,8 @@ def build_stocks(arts, m):
             f'<div class="story-body stk-lead">{lead}</div>{table(rows)}{ads.slot("stocks-index", 0, "list")}{SOURCE}')
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis stocks today", "url": T.SITE + "/stocks/", "dateModified": asof,
           "hasPart": [{"@type": "WebPage", "url": f'{T.SITE}/stocks/{r["sym"].lower()}/', "name": f'{r["name"]} ({r["sym"]})'} for r in rows]}
-    T.ctx["write"]("stocks/index.html", T.page("Cannabis stocks today", body, path="/stocks/",
-                                               desc=f"Prices, one-day and year-to-date moves for {len(rows)} cannabis stocks and the MSOS ETF, with charts and news. Updated every trading day.",
+    T.ctx["write"]("stocks/index.html", T.page("Cannabis stocks today", body, path="/stocks/", active="Stocks",
+                                               desc=f"Cannabis stocks today: closing prices, daily and year-to-date moves for {len(ranked)} cannabis companies and the MSOS ETF, with charts and news.",
                                                extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>',
                                                dateline=f"Cannabis stocks · close {short(asof)}"))
     out.insert(0, ("/stocks/", asof))

@@ -274,6 +274,13 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .month-list li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-block:14px;border-bottom:1px solid var(--rule)}
 .month-list .li-title{font-family:var(--serif);font-weight:500;font-size:20px;color:var(--fg)}
 
+/* stock links in articles and hubs */
+.tickers{margin-top:10px;border-top:0;padding-top:0} .tickers a::before{content:none!important}
+.tk-label{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);align-self:center;margin-right:4px}
+.tickers a .tk{font-size:11px;margin-left:2px} .tickers a .up,.tickers a .down{font-family:var(--mono);font-size:12px}
+.hub-stock{margin-top:10px;font-family:var(--sans);font-weight:600}
+.hub-stock a{color:var(--green)}
+
 /* stock pages */
 .stock{margin-top:28px}
 .stk-head h1{font-size:40px;line-height:1.1;margin:6px 0 10px}

@@ -38,6 +38,8 @@ def load_articles():
         except Exception as e:  # noqa: BLE001
             errors.append(f"{p.name}: invalid JSON ({e})")
             continue
+        aliases = {k.lower(): v for k, v in T.TAG_ALIASES.items()}
+        a["tags"] = list(dict.fromkeys(aliases.get(t.lower(), t) for t in a.get("tags") or []))
         missing = [k for k in REQUIRED if not a.get(k)]
         if missing:
             errors.append(f"{p.name}: missing {missing}")
@@ -99,6 +101,7 @@ def photo_path(a):
 
 page = T.page
 TOPICS = {}
+INDEXNOW_KEY = "6f1c2b9e8a4d4f0b9c7e3a5d1b2f8e40"  # public by design: IndexNow verifies site ownership with this file
 STOCKS = []
 
 
@@ -122,7 +125,7 @@ def build_feeds(arts):
     pages = [u(f"{SITE}/", newest), u(f"{SITE}/archive/", newest), u(f"{SITE}/topic/", newest),
              u(f"{SITE}/how-we-report/", newest), u(f"{SITE}/advertise/", newest)]
     pages += [u(f"{SITE}/section/{c.lower()}/", newest) for c in CATS]
-    pages += [u(f"{SITE}/topic/{T.slug(t)}/", max(a["_dt"] for a in v).isoformat()) for t, v in TOPICS.items()]
+    pages += [u(f"{SITE}/topic/{T.slug(t)}/", max(a["_dt"] for a in v).isoformat()) for t, v in TOPICS.items() if len(v) >= T.HUB_MIN]
     pages += [u(f"{SITE}{p}", mod) for p, mod in STOCKS]
     months = sorted({a["edition"][:7] for a in arts})
     pages += [u(f"{SITE}/archive/{m.replace('-', '/')}/", newest) for m in months]
@@ -144,10 +147,11 @@ def build_feeds(arts):
     maps = ["sitemap-pages.xml", "sitemap-news.xml"] + [f"sitemap-articles-{i}.xml" for i in range(1, len(parts) + 1)]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
           + "".join(f"<sitemap><loc>{SITE}/{m}</loc><lastmod>{newest}</lastmod></sitemap>" for m in maps) + "</sitemapindex>")
+    write(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     write("CNAME", "news.metaflora.xyz\n")
     write(".nojekyll", "")
-    write("404.html", page("Page not found", '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html"))
+    write("404.html", page("Page not found", robots="noindex", desc="This page moved or never existed. Go to the MetaFlora News front page for the latest cannabis news.", body= '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html"))
 
 
 def relativize():
@@ -156,15 +160,16 @@ def relativize():
     import re
     for f in OUT.rglob("*.html"):
         rel = f.relative_to(OUT)
+        if rel.as_posix() == "404.html":
+            continue  # served at any path depth: keep root-absolute links
         up = "../" * (len(rel.parts) - 1) or "./"
         def fix(m):
             t, frag = (m.group(2).split("#", 1) + [""])[:2]
             t, q = (t.split("?", 1) + [""])[:2]
-            if t == "" or t.endswith("/"):
-                t += "index.html"
+            if t == "":
+                return f'{m.group(1)}="{up}{"?" + q if q else ""}{"#" + frag if frag else ""}"'
             return f'{m.group(1)}="{up}{t}{"?" + q if q else ""}{"#" + frag if frag else ""}"'
         s = re.sub(r'(href|src|poster)="/(?!/)([^"]*)"', fix, f.read_text())
-        s = s.replace('href="./index.html"', 'href="./"')
         f.write_text(s)
     css = OUT / "assets" / "site.css"
     css.write_text(css.read_text().replace("url(/assets/fonts/", "url(fonts/"))
