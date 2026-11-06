@@ -2,11 +2,14 @@ name: Publish edition
 
 # Runs when the newsroom pushes new articles (or by hand):
 # AI banners -> build site, social cards and reel -> deploy to news.metaflora.xyz -> post top stories to X.
+# Also runs every weekday after the US close to refresh the cannabis stock pages (no X posts on that run).
 on:
   push:
     branches: [main]
     paths: ["content/**", "newsroom/**", ".github/workflows/publish.yml"]
   workflow_dispatch:
+  schedule:
+    - cron: "20 22 * * 1-5"
 
 permissions:
   contents: write
@@ -39,7 +42,9 @@ jobs:
         id: new
         run: |
           before="${{ github.event.before }}"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            files=""
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
             files=$(ls content/articles/*.json | tail -n 9 | tr '\n' ' ')
           else
             files=$(git diff --name-only --diff-filter=A "$before" "${{ github.sha }}" -- content/articles | tr '\n' ' ')
@@ -62,6 +67,13 @@ jobs:
           fi
       - name: Build site
         run: python3 newsroom/build.py
+      - name: Keep the market data cache in the repo
+        run: |
+          git add content/market.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update market data [skip ci]"
+            git pull --rebase -q origin main && git push -q origin HEAD:main || echo "market cache push skipped"
+          fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs

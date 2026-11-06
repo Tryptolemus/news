@@ -68,6 +68,9 @@ time{font-family:var(--mono);font-size:12px;color:var(--meta)}
 .market li{display:flex;gap:7px;font-family:var(--mono);font-size:12px;white-space:nowrap;color:var(--body)}
 .market .sym{color:var(--fg)}
 .market .up{color:var(--up)} .market .down{color:var(--down)}
+.market li a{display:flex;gap:7px;color:inherit;padding-block:4px}
+.market li a:hover{text-decoration:none} .market li a:hover .sym{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+a.mk-label:hover{color:var(--dek);text-decoration:none}
 
 /* front: above the fold */
 .front-top{display:grid;grid-template-columns:3fr 6fr 3fr;margin-top:28px;border-bottom:1px solid var(--rule);padding-bottom:32px}
@@ -135,6 +138,14 @@ time{font-family:var(--mono);font-size:12px;color:var(--meta)}
 .ad-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center}
 .ad-art img[src$="cube.png"]{object-fit:contain;padding:28px}
 .ad-band{margin-top:48px}
+.ad-front{margin:44px 0}
+.ad-creative{display:block;margin:0 auto;line-height:0}
+.ad-creative img{width:100%;height:auto;border-radius:4px}
+.ad-creative:hover img{outline:1px solid var(--green);outline-offset:2px}
+.ad-card .ad-creative{max-width:min(100%,440px)}
+.ad-card .ad-creative img{max-height:560px;width:auto;max-width:100%;margin-inline:auto}
+.ad-stock{margin:28px 0 0}
+.ad-stock.ad-card .ad-creative{max-width:100%}
 
 /* article */
 .story{margin:40px auto 0}
@@ -262,3 +273,45 @@ time{font-family:var(--mono);font-size:12px;color:var(--meta)}
 .month-list{list-style:none;margin:0;padding:0}
 .month-list li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-block:14px;border-bottom:1px solid var(--rule)}
 .month-list .li-title{font-family:var(--serif);font-weight:500;font-size:20px;color:var(--fg)}
+
+/* stock pages */
+.stock{margin-top:28px}
+.stk-head h1{font-size:40px;line-height:1.1;margin:6px 0 10px}
+.tk{font-family:var(--mono);font-size:.5em;color:var(--meta);vertical-align:middle;margin-left:8px;letter-spacing:.02em}
+.stk-price{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;font-family:var(--sans)}
+.stk-price b{font-family:var(--mono);font-size:30px;color:var(--fg);font-weight:500}
+.stk-price>span:not(.meta){font-family:var(--mono);font-size:18px}
+.up{color:var(--up)} .down{color:var(--down)}
+.stk-chart{margin:22px 0 8px}
+.stk-chart svg{display:block;width:100%;height:260px}
+.stk-chart .g{stroke:var(--rule);stroke-width:1;vector-effect:non-scaling-stroke}
+.stk-chart .a{opacity:.08;stroke:none}
+.stk-chart .l{fill:none;stroke-width:2;vector-effect:non-scaling-stroke}
+.stk-chart figcaption{display:flex;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:11px;color:var(--faint);margin-top:6px}
+.stk-cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;margin-top:28px}
+.stk-main .sec-label{margin-top:8px}
+.stk-main .story-body p{margin-bottom:14px}
+.stk-stats{display:grid;grid-template-columns:1fr 1fr;margin:0;border-top:1px solid var(--rule)}
+.stk-stats div{padding:10px 0;border-bottom:1px solid var(--rule)}
+.stk-stats dt{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+.stk-stats dd{margin:3px 0 0;font-family:var(--mono);font-size:15px;color:var(--fg)}
+.stk-stats dd.up{color:var(--up)} .stk-stats dd.down{color:var(--down)}
+.stk-src{font-family:var(--sans);font-size:13px;color:var(--meta);margin-top:18px;max-width:70ch}
+.stk-lead{margin:6px 0 18px}
+.stk-table-wrap{overflow-x:auto}
+.stk-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:14px}
+.stk-table th,.stk-table td{padding:11px 10px;border-bottom:1px solid var(--rule);text-align:right;white-space:nowrap}
+.stk-table thead th{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+.stk-table th[scope=row],.stk-table thead th:first-child{text-align:left;font-family:var(--sans);font-size:15px;font-weight:600;color:var(--fg)}
+.stk-table thead th:first-child{font-size:11px;color:var(--faint)}
+.stk-table th[scope=row] .tk{font-size:11px}
+.stk-table tr[aria-current] th{color:var(--lime)}
+.stk-table .sp{width:130px}
+.spark{width:120px;height:32px;display:block;margin-left:auto}
+.spark polyline{fill:none;stroke-width:1.5}
+@media (max-width:760px){
+  .stk-head h1{font-size:30px}
+  .stk-cols{grid-template-columns:1fr;gap:20px}
+  .stk-chart svg{height:180px}
+  .stk-table .sp{display:none}
+}

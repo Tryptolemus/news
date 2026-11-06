@@ -99,6 +99,7 @@ def photo_path(a):
 
 page = T.page
 TOPICS = {}
+STOCKS = []
 
 
 def build_feeds(arts):
@@ -122,6 +123,7 @@ def build_feeds(arts):
              u(f"{SITE}/how-we-report/", newest), u(f"{SITE}/advertise/", newest)]
     pages += [u(f"{SITE}/section/{c.lower()}/", newest) for c in CATS]
     pages += [u(f"{SITE}/topic/{T.slug(t)}/", max(a["_dt"] for a in v).isoformat()) for t, v in TOPICS.items()]
+    pages += [u(f"{SITE}{p}", mod) for p, mod in STOCKS]
     months = sorted({a["edition"][:7] for a in arts})
     pages += [u(f"{SITE}/archive/{m.replace('-', '/')}/", newest) for m in months]
     ns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
@@ -157,10 +159,11 @@ def relativize():
         up = "../" * (len(rel.parts) - 1) or "./"
         def fix(m):
             t, frag = (m.group(2).split("#", 1) + [""])[:2]
+            t, q = (t.split("?", 1) + [""])[:2]
             if t == "" or t.endswith("/"):
                 t += "index.html"
-            return f'{m.group(1)}="{up}{t}{"#" + frag if frag else ""}"'
-        s = re.sub(r'(href|src|poster)="/(?!/)([^"?]*)"', fix, f.read_text())
+            return f'{m.group(1)}="{up}{t}{"?" + q if q else ""}{"#" + frag if frag else ""}"'
+        s = re.sub(r'(href|src|poster)="/(?!/)([^"]*)"', fix, f.read_text())
         s = s.replace('href="./index.html"', 'href="./"')
         f.write_text(s)
     css = OUT / "assets" / "site.css"
@@ -255,7 +258,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -267,13 +270,13 @@ def main():
         shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
     install_fonts()
     T.ctx.update(photo_path=photo_path, write=write, out=OUT, edition_label=edition_label)
+    import market
     if media:
         build_media(arts, eds)
-        try:
-            import market
-            T.ctx["market"] = market.fetch()
-        except Exception:  # noqa: BLE001
-            T.ctx["market"] = None
+    try:
+        T.ctx["market"] = market.fetch() if media else market.cached()
+    except Exception:  # noqa: BLE001
+        T.ctx["market"] = None
     T.build_front(arts, eds)
     for a in arts:
         T.build_article(a, arts)
@@ -281,6 +284,8 @@ def main():
     T.build_archive(eds)
     global TOPICS
     TOPICS = T.build_topics(arts)
+    import stocks
+    STOCKS[:] = stocks.build_stocks(arts, T.ctx["market"])
     T.build_how()
     T.build_advertise()
     build_feeds(arts)

@@ -83,7 +83,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
       <a href="/how-we-report/">How we report</a><a href="/how-we-report/#corrections">Corrections</a><a href="/advertise/">Advertise</a>
-      <a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
+      <a href="/stocks/">Cannabis stocks</a><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
   <div class="foot-bottom">
@@ -124,7 +124,7 @@ def minutes(a):
 
 
 def t_long(a):
-    return f"{a['_dt']:%-d %b %Y}, {a['_dt']:%H:%M} EET"
+    return f"{a['_dt'].day} {a['_dt']:%b %Y}, {a['_dt']:%H:%M} EET"
 
 
 def card(a, kind="std", img=True):
@@ -136,7 +136,7 @@ def card(a, kind="std", img=True):
 
 
 def ed_short(a):
-    return f'{a["_dt"]:%-d %b} · {"Morning" if a["edition"].endswith("am") else "Evening"}'
+    return f'{a["_dt"].day} {a["_dt"]:%b} · {"Morning" if a["edition"].endswith("am") else "Evening"}'
 
 
 def list_item(a, with_time=True):
@@ -149,10 +149,10 @@ def market_strip():
     if not m:
         return ""
     cells = "".join(
-        f'<li><span class="sym">{r["sym"]}</span><span class="px">{r["price"]:.2f}</span>'
-        f'<span class="chg {"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></li>' for r in m["rows"])
-    asof = f'{m["asof"]:%-d %b}'
-    return (f'<section class="market" aria-label="Cannabis stocks"><span class="mk-label">Cannabis stocks · close {asof} · delayed</span>'
+        f'<li><a href="/stocks/{r["sym"].lower()}/" title="{escape(r["full"])} stock: chart and news"><span class="sym">{r["sym"]}</span><span class="px">{r["price"]:.2f}</span>'
+        f'<span class="chg {"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></a></li>' for r in m["rows"])
+    asof = f'{m["asof"].day} {m["asof"]:%b}'
+    return (f'<section class="market" aria-label="Cannabis stocks"><a class="mk-label" href="/stocks/">Cannabis stocks · close {asof} · delayed</a>'
             f'<ul>{cells}</ul></section>')
 
 
@@ -175,10 +175,11 @@ def dateline_for(ed, latest):
 
 # ---------- pages ----------
 
-def front_ad():
+def front_ad(n=0, exclude=()):
     import ads
     inv = ads.load()
-    return ads.render(ads.pick(inv, "front", datetime.now().strftime("%Y%m%d"), placement="front"), "band")
+    ad = ads.pick(inv, "front" + datetime.now().strftime("%Y%m%d"), n, exclude=exclude, placement="front")
+    return ads.render(ad, "front"), (ad["id"] if ad else None)
 
 
 def build_front(arts, eds):
@@ -206,8 +207,10 @@ def build_front(arts, eds):
   <aside class="col-right"><h2 class="rail-h">Latest</h2><ol class="rail">{''.join(list_item(a) for a in latest_rail)}</ol></aside>
 </section>""")
     if watch:
-        rows = "".join(f'<li><time>{datetime.fromisoformat(d):%-d %b}</time><a href="{a["_path"]}">{escape(t)}</a></li>' for d, t, a in watch)
+        rows = "".join(f'<li><time>{datetime.fromisoformat(d).day} {datetime.fromisoformat(d):%b}</time><a href="{a["_path"]}">{escape(t)}</a></li>' for d, t, a in watch)
         parts.append(f'<section class="watch"><h2 class="sec-label">What to watch</h2><ol>{rows}</ol></section>')
+    first_ad, first_id = front_ad(0)
+    parts.append(first_ad)
     now = datetime.now(arts[0]["_dt"].tzinfo)
     week = [a for a in arts if (now - a["_dt"]).days < 7 and a["id"] not in shown]
     for c in ["Markets", "Policy", "Federal", "States", "Science", "Europe", "Hemp", "Tech"]:
@@ -219,7 +222,7 @@ def build_front(arts, eds):
     more = [a for a in more if a["id"] not in shown]
     if more:
         parts.append(f'<section class="block"><h2 class="sec-label">More news</h2><div class="grid4">{"".join(card(a) for a in more[:8])}</div></section>')
-    parts.append(front_ad())
+    parts.append(front_ad(1, exclude=(first_id,))[0])
     if has_reel:
         half = "morning" if latest_ed.endswith("am") else "evening"
         parts.append(f'''<section class="briefing"><h2 class="sec-label">Video briefing</h2>
@@ -291,7 +294,7 @@ def build_article(a, arts):
              f'<button type="button" data-copy="{escape(url)}">Copy link</button>')
     updated = ""
     if a.get("updated"):
-        updated = f' · Updated {datetime.fromisoformat(a["updated"]):%-d %b, %H:%M} EET'
+        updated = f' · Updated {datetime.fromisoformat(a["updated"]).day} {datetime.fromisoformat(a["updated"]):%b, %H:%M} EET'
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": a["headline"], "description": a["dek"],
           "datePublished": a["published"], "dateModified": a.get("updated", a["published"]), "image": [f"{SITE}/og/{a['id']}.png"],
           "author": {"@type": "Organization", "name": "MetaFlora News Desk", "url": f"{SITE}/how-we-report/"},
@@ -302,6 +305,8 @@ def build_article(a, arts):
     fig = ""
     if has_photo(a):
         fig = f'<figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>'
+    import ads
+    end_ad = ads.slot(a["id"], "end", "end", a["cat"])
     after_same = ""
     if len(same) >= 2:
         after_same = f'<div><h2 class="sec-label">More on {escape(a["cat"])}</h2><ol class="latest-list">{"".join(list_item(x) for x in same)}</ol></div>'
@@ -325,6 +330,7 @@ def build_article(a, arts):
       <p>This article summarises and links the original reporting. Spotted an error? Message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></section>
     {tags_html}
     {corr}
+    {end_ad}
   </div>
 </article>
 <section class="after{'' if after_same else ' after-one'}">
@@ -349,7 +355,9 @@ def build_sections(arts):
     for c in CATS:
         items = [a for a in arts if a["cat"] == c]
         if items:
-            inner = f'<div class="sec-lead">{card(items[0], "wide")}</div><div class="grid4">{"".join(card(a) for a in items[1:13])}</div>'
+            import ads
+            inner = (f'<div class="sec-lead">{card(items[0], "wide")}</div>{ads.slot("section-" + c, 0, "list", c)}'
+                     f'<div class="grid4">{"".join(card(a) for a in items[1:13])}</div>')
             if len(items) > 13:
                 inner += f'<ol class="latest-list">{"".join(list_item(a) for a in items[13:40])}</ol>'
         else:
@@ -391,7 +399,8 @@ def build_topics(arts):
     for t, items in topics.items():
         items = sorted(items, key=lambda a: a["_dt"], reverse=True)
         lead = items[0]
-        inner = f'<div class="sec-lead">{card(lead, "wide")}</div>'
+        import ads
+        inner = f'<div class="sec-lead">{card(lead, "wide")}</div>{ads.slot("topic-" + t, 0, "list", lead["cat"])}'
         if len(items) > 1:
             inner += f'<ol class="latest-list">{"".join(list_item(a) for a in items[1:])}</ol>'
         desc = f"MetaFlora News coverage of {t}: every story, newest first."
@@ -426,13 +435,15 @@ def build_advertise():
     import ads
     inv = ads.load()
     contact = inv.get("advertise_contact", "https://metaflora.xyz")
-    sample = ads.render(next((x for x in inv["ads"] if x["id"] == "home-grow-node"), None), "article")
+    sample = ads.render(next((x for x in inv["ads"] if x["id"] == "deals"), None), "article")
     body = f"""<article class="story static">
 <header class="story-head"><h1>Advertise</h1><p class="dek">MetaFlora News publishes a morning and an evening edition every day for cannabis operators, investors and connoisseurs, and posts every lead story to X.</p></header>
 <div class="story-col"><div class="story-body">
 <h2>Placements</h2>
 <p><b>Article break.</b> One clearly labelled unit inside long-form stories, placed between sections. Can target a section such as Markets or Science.</p>
-<p><b>Front page.</b> The labelled unit on the front page, seen by every homepage visitor.</p>
+<p><b>End of article.</b> A card-sized unit after the sources, where readers finish the story.</p>
+<p><b>Front page.</b> Two labelled bands on the front page, seen by every homepage visitor.</p>
+<p><b>Sections, topics and stocks.</b> One unit on each section, topic and cannabis stock page. Stock pages update every trading day.</p>
 <p><b>Sponsored edition.</b> The front page unit plus every article break in one morning or evening edition.</p>
 <h2>What it looks like</h2></div>
 {sample}

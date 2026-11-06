@@ -1,0 +1,211 @@
+"""Cannabis stock pages: /stocks/ and /stocks/<sym>/.
+
+Each page carries a daily market note written from the closing data (no opinions, no forecasts),
+a one-year chart, the key numbers, MetaFlora News coverage of the company and links to its peers.
+Rebuilt on every publish and by the weekday after-close run, so the note is new each trading day.
+"""
+import json
+from datetime import datetime
+from html import escape
+
+import ads
+import templates as T
+
+
+def money(x):
+    return f"${x:,.2f}" if x >= 1 else f"${x:,.3f}"
+
+
+def pct(x, signed=True):
+    if x is None:
+        return "n/a"
+    return f"{x:+.1f}%" if signed else f"{abs(x):.1f}%"
+
+
+def cls(x):
+    return "" if x is None else ("up" if x >= 0 else "down")
+
+
+def day(iso, year=False):
+    d = datetime.fromisoformat(iso)
+    return f"{d:%A} {d.day} {d:%B}" + (f" {d.year}" if year else "")
+
+
+def short(iso):
+    d = datetime.fromisoformat(iso)
+    return f"{d.day} {d:%b %Y}"
+
+
+def ordinal(n):
+    return f"{n}{'th' if 10 <= n % 100 <= 20 else {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')}"
+
+
+def moved(x):
+    return f"rose {abs(x):.1f}%" if x > 0.05 else (f"fell {abs(x):.1f}%" if x < -0.05 else "was flat")
+
+
+def trend(x):
+    return "n/a" if x is None else (f"up {abs(x):.1f}%" if x >= 0 else f"down {abs(x):.1f}%")
+
+
+def note(r, rows):
+    """The daily market note: plain sentences built only from the numbers."""
+    ranked = sorted(rows, key=lambda x: x["chg"], reverse=True)
+    pos = next(i for i, x in enumerate(ranked, 1) if x["sym"] == r["sym"])
+    etf = next((x for x in rows if x["sym"] == "MSOS"), None)
+    p = [f'{escape(r["full"])} ({r["sym"]}) {moved(r["chg"])} to {money(r["price"])} on {day(r["date"])}, its latest close.']
+    if r["sym"] == "MSOS":
+        ups = sum(1 for x in rows if x["chg"] > 0 and x["sym"] != "MSOS")
+        p.append(f'Of the {len(rows) - 1} cannabis companies we track, {ups} closed higher. '
+                 f'The best move was {escape(ranked[0]["name"])} ({pct(ranked[0]["chg"])}); the weakest was {escape(ranked[-1]["name"])} ({pct(ranked[-1]["chg"])}).')
+    else:
+        rank = "the best" if pos == 1 else ("the weakest" if pos == len(rows) else f"the {ordinal(pos)}-best")
+        line = f"That was {rank} move of the {len(rows)} cannabis stocks we track."
+        if etf:
+            line += f' MSOS, the US cannabis ETF, {moved(etf["chg"])}.'
+        p.append(line)
+    p.append(f'Over the past week the stock is {trend(r["w1"])}, over a month {trend(r["m1"])} and over three months {trend(r["m3"])}. '
+             f'Since the start of {r["date"][:4]} it is {trend(r["ytd"])}.')
+    below = (1 - r["price"] / r["hi"]["c"]) * 100
+    above = (r["price"] / r["lo"]["c"] - 1) * 100
+    p.append(f'It closed {below:.1f}% below its 52-week high of {money(r["hi"]["c"])} ({short(r["hi"]["t"])}) '
+             f'and {above:.1f}% above its 52-week low of {money(r["lo"]["c"])} ({short(r["lo"]["t"])}).')
+    if r.get("vol") and r.get("avgvol"):
+        ratio = r["vol"] / r["avgvol"]
+        word = "well above" if ratio >= 1.5 else ("below" if ratio < 0.75 else "close to")
+        p.append(f'Volume was {r["vol"]:,.0f} shares, {word} its 20-day average of {r["avgvol"]:,.0f}.')
+    return "".join(f"<p>{x}</p>" for x in p)
+
+
+def chart(r, w=760, h=260):
+    pts = r["points"]
+    cs = [p["c"] for p in pts]
+    lo, hi = min(cs), max(cs)
+    pad = (hi - lo) * 0.08 or 1
+    lo, hi = lo - pad, hi + pad
+    def x(i):
+        return round(i * w / (len(pts) - 1), 1)
+    def y(c):
+        return round(h - (c - lo) / (hi - lo) * h, 1)
+    line = " ".join(f"{x(i)},{y(c)}" for i, c in enumerate(cs))
+    up = cs[-1] >= cs[0]
+    col = "var(--up)" if up else "var(--down)"
+    grid = "".join(f'<line x1="0" x2="{w}" y1="{h * k / 4}" y2="{h * k / 4}" class="g"/>' for k in (1, 2, 3))
+    first, last = short(pts[0]["t"]), short(pts[-1]["t"])
+    return (f'<figure class="stk-chart"><svg viewBox="0 0 {w} {h}" preserveAspectRatio="none" role="img" '
+            f'aria-label="{escape(r["full"])} one-year price chart, from {money(cs[0])} on {first} to {money(cs[-1])} on {last}">'
+            f'{grid}<polyline points="0,{h} {line} {w},{h}" class="a" style="fill:{col}"/>'
+            f'<polyline points="{line}" class="l" style="stroke:{col}"/></svg>'
+            f'<figcaption><span>{first}</span><span>One year · daily closes · high {money(r["hi"]["c"])} · low {money(r["lo"]["c"])}</span><span>{last}</span></figcaption></figure>')
+
+
+def spark(r, w=120, h=32):
+    cs = [p["c"] for p in r["points"][-63:]]
+    lo, hi = min(cs), max(cs)
+    rng = (hi - lo) or 1
+    line = " ".join(f"{round(i * w / (len(cs) - 1), 1)},{round(h - (c - lo) / rng * h, 1)}" for i, c in enumerate(cs))
+    col = "var(--up)" if cs[-1] >= cs[0] else "var(--down)"
+    return f'<svg class="spark" viewBox="0 0 {w} {h}" aria-hidden="true"><polyline points="{line}" style="stroke:{col}"/></svg>'
+
+
+def coverage(r, arts):
+    keys = {t.lower() for t in r["tags"]} | {r["name"].lower(), r["full"].lower()}
+    out = []
+    for a in arts:
+        tags = {t.lower() for t in a.get("tags", [])}
+        text = (a["headline"] + " " + a["dek"]).lower()
+        if tags & keys or any(k in text for k in keys if len(k) > 4):
+            out.append(a)
+    return out
+
+
+def stats(r):
+    cells = [("Close", money(r["price"]), ""), ("Day", pct(r["chg"]), cls(r["chg"])), ("1 week", pct(r["w1"]), cls(r["w1"])),
+             ("1 month", pct(r["m1"]), cls(r["m1"])), ("3 months", pct(r["m3"]), cls(r["m3"])), ("Year to date", pct(r["ytd"]), cls(r["ytd"])),
+             ("1 year", pct(r["y1"]), cls(r["y1"])), ("52-week high", money(r["hi"]["c"]), ""), ("52-week low", money(r["lo"]["c"]), "")]
+    if r.get("avgvol"):
+        cells.append(("Avg volume (20d)", f'{r["avgvol"]:,.0f}', ""))
+    return '<dl class="stk-stats">' + "".join(f'<div><dt>{k}</dt><dd class="{c}">{v}</dd></div>' for k, v, c in cells) + "</dl>"
+
+
+def table(rows, current=None):
+    body = "".join(
+        f'<tr{" aria-current=true" if r["sym"] == current else ""}><th scope="row"><a href="/stocks/{r["sym"].lower()}/">{escape(r["name"])}</a>'
+        f'<span class="tk">{r["sym"]}</span></th><td>{money(r["price"])}</td><td class="{cls(r["chg"])}">{pct(r["chg"])}</td>'
+        f'<td class="{cls(r["m1"])}">{pct(r["m1"])}</td><td class="{cls(r["ytd"])}">{pct(r["ytd"])}</td><td class="sp">{spark(r)}</td></tr>'
+        for r in rows)
+    return ('<div class="stk-table-wrap"><table class="stk-table"><thead><tr><th scope="col">Company</th><th scope="col">Close</th><th scope="col">Day</th>'
+            f'<th scope="col">1M</th><th scope="col">YTD</th><th scope="col" class="sp">3M</th></tr></thead><tbody>{body}</tbody></table></div>')
+
+
+SOURCE = ('<p class="stk-src">End-of-day closes from Yahoo Finance; prices are delayed and in US dollars. '
+          'This page is generated automatically from market data every trading day. It is not investment advice. '
+          '<a href="/how-we-report/">How we report</a></p>')
+
+
+def build_stocks(arts, m):
+    """Returns [(path, lastmod)] for the sitemap."""
+    if not m:
+        return []
+    rows = m["rows"]
+    out = []
+    for r in rows:
+        sym = r["sym"].lower()
+        path = f"/stocks/{sym}/"
+        cov = coverage(r, arts)
+        cov_html = (f'<section class="block"><h2 class="sec-label">MetaFlora News on {escape(r["name"])}</h2>'
+                    f'<ol class="latest-list">{"".join(T.list_item(a) for a in cov[:12])}</ol></section>') if cov else ""
+        peers = [x for x in rows if x["sym"] != r["sym"]]
+        title = f'{r["name"]} stock ({r["sym"]}) today: price, chart and news'
+        desc = (f'{r["full"]} ({r["sym"]}) {moved(r["chg"])} to {money(r["price"])} on {short(r["date"])}. '
+                f'One-year chart, 52-week range and cannabis industry news, updated every trading day.')
+        body = f"""<article class="stock">
+  <header class="stk-head">
+    <p class="kicker"><a href="/stocks/">Cannabis stocks</a></p>
+    <h1>{escape(r["full"])} <span class="tk">{r["sym"]}</span></h1>
+    <p class="stk-price"><b>{money(r["price"])}</b> <span class="{cls(r["chg"])}">{pct(r["chg"])}</span>
+      <span class="meta">Close, {day(r["date"], True)} · delayed</span></p>
+  </header>
+  {chart(r)}
+  <div class="stk-cols">
+    <div class="stk-main">
+      <h2 class="sec-label">Market note · {day(r["date"])}</h2>
+      <div class="story-body">{note(r, rows)}</div>
+      <h2 class="sec-label">About</h2>
+      <div class="story-body"><p>{escape(r["about"])}</p></div>
+      {SOURCE}
+    </div>
+    <aside class="stk-side">{stats(r)}{ads.slot("stock-" + sym, 0, "stock")}</aside>
+  </div>
+  {cov_html}
+  <section class="block"><h2 class="sec-label">Other cannabis stocks</h2>{table(peers)}</section>
+</article>"""
+        ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc, "url": T.SITE + path,
+              "dateModified": r["date"], "isPartOf": {"@type": "WebSite", "name": T.NAME, "url": T.SITE + "/"},
+              "about": {"@type": "Corporation", "name": r["full"], "tickerSymbol": r["sym"]} if r["sym"] != "MSOS"
+              else {"@type": "FinancialProduct", "name": r["full"], "category": "Exchange-traded fund"}}
+        crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": T.NAME, "item": T.SITE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Cannabis stocks", "item": T.SITE + "/stocks/"},
+            {"@type": "ListItem", "position": 3, "name": f'{r["name"]} ({r["sym"]})', "item": T.SITE + path}]}
+        extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
+        T.ctx["write"](f"stocks/{sym}/index.html", T.page(title, body, desc=desc, path=path, extra_head=extra, active=None,
+                                                         dateline=f"Cannabis stocks · close {short(r['date'])}"))
+        out.append((path, r["date"]))
+    asof = max(r["date"] for r in rows)
+    ranked = sorted([x for x in rows if x["sym"] != "MSOS"], key=lambda x: x["chg"], reverse=True)
+    ups = sum(1 for x in ranked if x["chg"] > 0)
+    etf = next((x for x in rows if x["sym"] == "MSOS"), None)
+    lead = (f'<p>{ups} of {len(ranked)} cannabis stocks closed higher on {day(asof)}. '
+            f'{escape(ranked[0]["name"])} led ({pct(ranked[0]["chg"])}) and {escape(ranked[-1]["name"])} lagged ({pct(ranked[-1]["chg"])}).'
+            + (f' MSOS, the US cannabis ETF, {moved(etf["chg"])}.' if etf else "") + "</p>")
+    body = (f'<div class="page-h"><h1>Cannabis stocks today</h1><p class="meta">Close {day(asof, True)} · delayed · updated every trading day</p></div>'
+            f'<div class="story-body stk-lead">{lead}</div>{table(rows)}{ads.slot("stocks-index", 0, "list")}{SOURCE}')
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis stocks today", "url": T.SITE + "/stocks/", "dateModified": asof,
+          "hasPart": [{"@type": "WebPage", "url": f'{T.SITE}/stocks/{r["sym"].lower()}/', "name": f'{r["name"]} ({r["sym"]})'} for r in rows]}
+    T.ctx["write"]("stocks/index.html", T.page("Cannabis stocks today", body, path="/stocks/",
+                                               desc=f"Prices, one-day and year-to-date moves for {len(rows)} cannabis stocks and the MSOS ETF, with charts and news. Updated every trading day.",
+                                               extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>',
+                                               dateline=f"Cannabis stocks · close {short(asof)}"))
+    out.insert(0, ("/stocks/", asof))
+    return out
