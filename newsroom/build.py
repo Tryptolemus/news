@@ -116,6 +116,25 @@ def build_feeds(arts):
     write("404.html", page("Page not found", '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html"))
 
 
+def relativize():
+    """Rewrite root-absolute links ("/x/") to relative ones so the site works at any base path:
+    news.metaflora.xyz, tryptolemus.github.io/news/, or opened from disk."""
+    import re
+    for f in OUT.rglob("*.html"):
+        rel = f.relative_to(OUT)
+        up = "../" * (len(rel.parts) - 1) or "./"
+        def fix(m):
+            t = m.group(2)
+            if t == "" or t.endswith("/"):
+                t += "index.html"
+            return f'{m.group(1)}="{up}{t}"'
+        s = re.sub(r'(href|src|poster)="/(?!/)([^"#?]*)"', fix, f.read_text())
+        s = s.replace('href="./index.html"', 'href="./"')
+        f.write_text(s)
+    css = OUT / "assets" / "site.css"
+    css.write_text(css.read_text().replace("url(/assets/fonts/", "url(fonts/"))
+
+
 def write(rel, text):
     p = OUT / rel
     p.parent.mkdir(parents=True, exist_ok=True)
@@ -231,6 +250,7 @@ def main():
     T.build_how()
     T.build_advertise()
     build_feeds(arts)
+    relativize()
     print(f"Built {len(arts)} articles across {len(eds)} editions -> {OUT}")
 
 
