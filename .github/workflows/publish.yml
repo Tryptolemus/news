@@ -34,9 +34,26 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install tools
+        # This step hung for 30+ minutes twice on 6 Nov 2026. Skip apt when the runner already has
+        # the tools, skip the slow man-db trigger, and time-box each apt call with retries.
+        timeout-minutes: 12
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq librsvg2-bin ffmpeg fonts-inter fontconfig
+          need() { command -v rsvg-convert >/dev/null && command -v ffmpeg >/dev/null && fc-list | grep -qi "inter"; }
+          if need; then
+            echo "rsvg-convert, ffmpeg and Inter already present; skipping apt"
+          else
+            sudo rm -f /var/lib/man-db/auto-update
+            APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 -o DPkg::Lock::Timeout=60"
+            for i in 1 2 3; do
+              if timeout 180 sudo apt-get update -qq $APT && \
+                 timeout 300 sudo apt-get install -y -qq --no-install-recommends $APT librsvg2-bin ffmpeg fonts-inter fontconfig; then
+                break
+              fi
+              echo "apt attempt $i failed or timed out"
+              [ "$i" = 3 ] && exit 1
+              sleep 15
+            done
+          fi
           pip install -q pillow requests-oauthlib
       - name: Find new articles
         id: new
