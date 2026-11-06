@@ -2,11 +2,34 @@
   "id": "science",
   "cat": "Science",
   "headline": "Pain relief, better sleep and less drinking: this week's research",
-  "dek": "Three studies that land on the medical and public-health side of the debate.",
+  "dek": "Four new papers on pain, sleep, alcohol and sport, and what each one can and cannot prove.",
+  "key_points": [
+    "A meta-analysis of 13 placebo-controlled trials found inhaled cannabis probably gives clinically important short-term pain relief to about one patient in five, with little effect on function or sleep.",
+    "UK registry data on 211 insomnia patients showed sleep scores still well above baseline after two years, but the study had no control group and lost most patients to follow-up.",
+    "German alcohol use and alcohol-related hospital stays kept falling after the 2024 reform while recorded cannabis offenses dropped 53%, though researchers say the data cannot show cause.",
+    "Two Sports Health papers find team doctors and trainers report little formal cannabis education, even as most surveyed elite contact-sport athletes use cannabinoids."
+  ],
   "body": [
-    "A review of 13 randomized clinical trials found inhaled cannabis made meaningful pain relief more likely. A separate study tied medical cannabis to sleep improvements that held for two years.",
-    "From Germany, new data shows alcohol use and alcohol-related hospital stays kept falling after legalization, while cannabis offenses dropped 53%.",
-    "On the other side, medical professionals report gaps in their cannabis training that leave them unsure how to advise athletes using it for pain, sleep and recovery."
+    "A review of 13 randomized clinical trials presented at the World Congress on Pain found that inhaled cannabis made meaningful relief from chronic non-cancer pain more likely than placebo. Separately, a UK study tied medical cannabis to sleep improvements that were still visible two years after patients started treatment.",
+    "From Germany, a new paper reports that alcohol consumption and alcohol-related hospital stays kept falling after the country's 2024 cannabis reform, while police-recorded cannabis offenses dropped 53%. And two studies in the journal Sports Health show that the doctors and trainers who look after elite athletes say they were barely taught about cannabis, even though many of their athletes use it.",
+    "## Inhaled cannabis and chronic pain: modest, real, short-term",
+    "The pain review is a systematic review and meta-analysis led by Jason Busse of McMaster University, with co-authors including researchers from the University of British Columbia and Cornell University, according to the conference abstract and The Marijuana Herald. The team searched medical databases and trial registries through October 2025 and pooled 13 placebo-controlled trials covering 395 adults with chronic pain not caused by cancer. Both smoked and vaporized cannabis were included, and evidence quality was graded with the standard GRADE system.",
+    "On a 10-point pain scale, inhaled cannabis lowered pain by an average of 0.74 points more than placebo. Patients were 60% more likely to reach at least a 30% reduction in pain, the threshold usually treated as clinically meaningful. The authors rated that finding moderate to high certainty and estimated that roughly one patient in five gets important relief.",
+    "The limits are just as clear. Eleven of the 13 trials lasted five days or less, and the median follow-up was about 1.6 days, so the review says nothing about months of use. Physical and emotional functioning and sleep quality showed little or no improvement. Dizziness was about 10 percentage points more common than on placebo and cough about 13 points more common. The work was presented as a poster on 29 October and has not yet appeared as a peer-reviewed paper, and the authors note that comparisons with opioids and other active treatments remain uncertain.",
+    "## Sleep gains in UK patients held for two years",
+    "The sleep study, published on 26 October in Neuropsychopharmacology Reports by researchers from Imperial College London, King's College London and Curaleaf Clinic, followed 211 people with insomnia who were prescribed cannabis products and enrolled in the UK Medical Cannabis Registry. Patients rated their sleep quality on a 10-point scale at baseline and at one, three, six, 12, 18 and 24 months.",
+    "Average scores rose from 2.46 at the start to 5.79 after one month and 6.23 at 12 months, then eased to 5.14 at 24 months, still significantly above baseline at every check. Patients who started with the worst sleep were far more likely to see a clinically significant gain. Those prescribed dried flower alone had nearly five times the odds of meaningful improvement compared with those on oil alone, after adjustment. Anxiety scores also fell. About 8% of patients reported adverse events, most often insomnia, fatigue and dry mouth, with none life-threatening.",
+    "The design cannot prove cannabis caused the gains. There was no placebo group, about 60% of participants were already using cannabis before enrolling, and roughly 64% of 24-month data were missing and filled in by statistical imputation.",
+    "> Every finding this week is an association or a short-term effect. The long, controlled trials that would settle the medical case still have not been run.",
+    "## Germany: less drinking after legalization, far fewer offenses",
+    "The German paper, published in Nordic Studies on Alcohol and Drugs by researchers at University Medical Center Hamburg-Eppendorf and Heinrich Heine University Düsseldorf, looks at national trends around the April 2024 law that allowed adult possession, home growing and nonprofit cultivation clubs. Two of the authors are part of the government-backed evaluation of the law, whose final report is due in 2028, according to The Marijuana Herald.",
+    "Per-capita consumption of pure alcohol among people aged 15 and over fell to a record low of 10.5 liters in 2024, from 11.3 liters in 2022 and 12.2 liters in 2010, and preliminary figures point to a further decline in 2025. Hospital stays with a primary diagnosis of alcohol use disorder or alcoholic liver cirrhosis fell from 270,743 in 2023 to 266,783 in 2024. Police-recorded cannabis offenses, mostly small-quantity possession, fell 53% between 2023 and 2024. The authors cite surveys showing adult cannabis use has not risen substantially compared with before the reform.",
+    "The caveat matters. German drinking was falling long before legalization: federal statistics office data reported by Deutsches Ärzteblatt showed hospital treatments for acute alcohol poisoning dropped 46.5% between 2013 and 2023. The researchers say only that the figures do not suggest legalization pushed alcohol use up, and that fuller analysis is needed to judge whether it helped bring it down. The drop in offenses is largely mechanical, since possession that was illegal became legal.",
+    "## Team doctors say they were never taught about cannabis",
+    "Two papers in Sports Health, both from Canadian researchers, point to a training gap in sports medicine. The first, covered by Marijuana Moment, is a qualitative study of interviews with 10 medical staff working in the NFL, NBA, MLB, NHL and NCAA, partly funded by the pain management committee run by the NFL and its players' union. Most said limited education and experience left them feeling unqualified to advise athletes, and confusion over league rules and legal status led many to avoid the subject. One described their cannabis training as \"pretty much nothing.\"",
+    "The second, a survey summarized by NORML, covered 166 professional contact-sport athletes in Australia, Canada and the United States and 64 members of their medical and training staff. Some 56% of the athletes said they currently use cannabis products, and two-thirds said they would consider cannabis in place of prescription or over-the-counter drugs if it were effective and permitted. Staff reported very limited formal cannabis education, and athletes described stigma and difficulty raising the topic with team clinicians. The interview study is small by design, so it shows how staff think, not how common the gap is.",
+    "## What to watch",
+    "Watch for the inhaled-cannabis review to move from poster to peer-reviewed journal, and for any longer trials that test whether pain relief lasts beyond a few days. In Germany, the authors plan to look next at smoking and vaping, and the official evaluation of the cannabis law runs to 2028. In sport, the question is whether leagues and medical schools respond to the training gap their own clinicians describe."
   ],
   "sources": [
     {
@@ -14,12 +37,32 @@
       "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-2-2026/"
     },
     {
-      "name": "Marijuana Herald 11/3",
-      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-3-2026/"
+      "name": "Marijuana Herald: inhaled cannabis pain review",
+      "url": "https://themarijuanaherald.com/2026/11/review-of-13-randomized-clinical-trials-finds-inhaled-marijuana-increases-likelihood-of-meaningful-pain-relief/"
     },
     {
-      "name": "Dentons",
-      "url": "https://www.dentons.com/en/insights/newsletters/2026/november/4/us-cannabis-newsletter/cannabis-client-alert-week-of-november-2-2026"
+      "name": "World Congress on Pain abstract (Busse et al.)",
+      "url": "https://worldcongressonpain.secure-platform.com/a/solicitations/103001/sessiongallery/95124/application/8804"
+    },
+    {
+      "name": "Marijuana Herald: two-year sleep study",
+      "url": "https://themarijuanaherald.com/2026/10/study-finds-medical-cannabis-associated-with-sustained-sleep-improvements-over-two-years/"
+    },
+    {
+      "name": "Marijuana Herald: Germany alcohol and offenses study",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-alcohol-consumption-and-hospitalizations-continue-to-decline-following-germanys-marijuana-legalization-as-cannabis-offenses-fall-53/"
+    },
+    {
+      "name": "Deutsches Ärzteblatt (Destatis data)",
+      "url": "https://www.aerzteblatt.de/news/deutlich-weniger-krankenhausaufenthalte-wegen-alkoholmissbrauch-38ae4026-198b-4259-8cb7-04e003be7070"
+    },
+    {
+      "name": "Marijuana Moment: sports medical staff study",
+      "url": "https://www.marijuanamoment.net/anti-marijuana-attitudes-in-sports-are-easing-up-but-ongoing-stigma-makes-athletic-trainers-jobs-harder-nfl-funded-study-shows/"
+    },
+    {
+      "name": "NORML: pro athletes and trainers survey",
+      "url": "https://norml.org/news/2026/10/29/pro-athletes-and-their-trainers-view-cannabis-products-as-supplements-support-updating-league-policies-to-permit-therapeutic-use/"
     }
   ],
   "visual": {
