@@ -1,0 +1,63 @@
+name: Notifications
+
+# Admin controls for MetaFlora News web push alerts (newsroom/push.py).
+# Run from the Actions tab: Run workflow, pick an action.
+#   preview  payload + current audience for an article; FCM dry run, nothing delivered
+#   test     send the article (or the latest one) only to admin test devices, marked [TEST]
+#   send     manual send to everyone whose preferences match; type the article key again in "confirm"
+#   status   delivery log for one article, or the last 20 alerts
+#   digest   send today's digest now (it also runs every morning on its own)
+# Article key = the content file name without .json, e.g. 2026-11-06-aurora-deal.
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What to do"
+        type: choice
+        options: [preview, test, send, status, digest]
+        default: preview
+      article:
+        description: "Article key (e.g. 2026-11-06-aurora-deal); for test, blank = latest"
+        required: false
+        default: ""
+      confirm:
+        description: "For send only: type the article key again to confirm"
+        required: false
+        default: ""
+  schedule:
+    - cron: "0 6 * * *"   # daily digest, 08:00 in Bucharest (winter time)
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q "firebase-admin>=6.5,<8"
+      - name: Run
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          PUSH_LIVE: ${{ vars.PUSH_LIVE }}
+          ACTION: ${{ github.event_name == 'schedule' && 'digest' || inputs.action }}
+          ARTICLE: ${{ inputs.article }}
+          CONFIRM: ${{ inputs.confirm }}
+        run: |
+          # inputs are passed through env, never pasted into the shell, so they can't inject commands
+          case "$ACTION" in
+            preview) python3 newsroom/push.py preview "$ARTICLE" ;;
+            test)    python3 newsroom/push.py test "${ARTICLE:-latest}" ;;
+            send)    python3 newsroom/push.py send "$ARTICLE" --confirm "$CONFIRM" ;;
+            status)  if [ -n "$ARTICLE" ]; then python3 newsroom/push.py status "$ARTICLE"; else python3 newsroom/push.py status; fi ;;
+            digest)  python3 newsroom/push.py digest ;;
+            *) echo "unknown action"; exit 1 ;;
+          esac

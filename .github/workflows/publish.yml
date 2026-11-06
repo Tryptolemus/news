@@ -146,6 +146,26 @@ jobs:
       - name: Ping IndexNow with changed URLs
         run: python3 newsroom/indexnow.py ${{ needs.build.outputs.new_articles }}
 
+  push-alerts:
+    # Web push alerts for new stories (newsroom/push.py). Dry run unless the repo variable PUSH_LIVE is 1.
+    # Skips itself when Firebase isn't configured; never fails the publish.
+    needs: [build, deploy]
+    if: needs.build.outputs.new_articles != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q "firebase-admin>=6.5,<8"
+      - name: Send alerts for new stories
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          PUSH_LIVE: ${{ vars.PUSH_LIVE }}
+        run: python3 newsroom/push.py articles ${{ needs.build.outputs.new_articles }}
+
   post-to-x:
     needs: [build, deploy]
     if: needs.build.outputs.new_articles != ''

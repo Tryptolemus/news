@@ -63,7 +63,10 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
   "tags": ["DEA", "Rescheduling", "Florida"],     // 2–8 topic tags (see "SEO and topic tags")
   "image_prompt": "…",                            // scene for the AI photo (see below)
   "image_alt": "…",                               // short description of that image for screen readers
-  "x_post": "…"                                   // ranks 1–3: the post for X, ≤220 chars, no link (added automatically)
+  "x_post": "…",                                  // ranks 1–3: the post for X, ≤220 chars, no link (added automatically)
+  "breaking": false,                              // optional: true = breaking news, alerts go out at once to breaking-news subscribers
+  "push": true,                                   // optional: false = no automatic web push alert for this story
+  "draft": false                                  // optional: true = not published at all (and never alerted)
 }
 ```
 
@@ -152,3 +155,10 @@ cd docs && python3 -m http.server 8000
 ```
 
 Requirements: Python 3.10+, Pillow, `rsvg-convert` (librsvg), `ffmpeg`.
+
+## Web push alerts
+
+Readers can subscribe with the bell. After each publish, `newsroom/push.py` alerts subscribers whose topics match each new story; full setup and admin controls are in `NOTIFICATIONS.md`.
+- Mark a story `"breaking": true` only for genuinely urgent news (a federal ruling, a market-moving deal). It is alerted on its own, immediately. Use it rarely: at most one or two a week.
+- The alert is the story's real headline and dek, so both must read well on a lock screen: name first, no teasers.
+- `"push": false` keeps a story out of automatic alerts (corrections, minor updates). Editing or re-committing a story never re-alerts it.

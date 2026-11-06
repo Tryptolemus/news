@@ -56,7 +56,8 @@ def eligible(article, now=None):
     pub = datetime.fromisoformat(article["published"])
     if pub.tzinfo is None:
         pub = pub.replace(tzinfo=timezone.utc)
-    if pub > now + timedelta(minutes=10):
+    # stories go live on commit; "published" is the nominal edition time, which can be a little ahead
+    if pub > now + timedelta(hours=2):
         return False, "scheduled for later"
     if pub < now - timedelta(days=2):
         return False, "older than 48 hours"
