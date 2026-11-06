@@ -33,28 +33,55 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      # The Ubuntu package mirror stalled repeatedly on 6 Nov 2026 and blocked deploys. The .deb files are
+      # cached with GitHub's own cache (keyed to the runner image), so normal runs never touch the mirror.
+      - name: Tool cache key
+        id: debkey
+        run: echo "key=tool-debs-v1-${ImageOS:-unknown}-${ImageVersion:-unknown}" >> "$GITHUB_OUTPUT"
+      - name: Restore cached tool packages
+        id: debcache
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/tool-debs
+          key: ${{ steps.debkey.outputs.key }}
       - name: Install tools
-        # This step hung for 30+ minutes twice on 6 Nov 2026. Skip apt when the runner already has
-        # the tools, skip the slow man-db trigger, and time-box each apt call with retries.
-        timeout-minutes: 12
+        id: tools
+        timeout-minutes: 14
         run: |
           need() { command -v rsvg-convert >/dev/null && command -v ffmpeg >/dev/null && fc-list | grep -qi "inter"; }
+          PKGS="librsvg2-bin ffmpeg fonts-inter fontconfig"
+          sudo rm -f /var/lib/man-db/auto-update
           if need; then
-            echo "rsvg-convert, ffmpeg and Inter already present; skipping apt"
+            echo "tools already present"
+          elif ls ~/tool-debs/*.deb >/dev/null 2>&1 && timeout 180 sudo dpkg -i --force-confdef ~/tool-debs/*.deb >/dev/null && need; then
+            echo "installed $(ls ~/tool-debs/*.deb | wc -l) packages from the cache, no mirror needed"
           else
-            sudo rm -f /var/lib/man-db/auto-update
-            APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 -o DPkg::Lock::Timeout=60"
+            APT="-o Acquire::Retries=3 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 -o DPkg::Lock::Timeout=60 -o APT::Keep-Downloaded-Packages=true"
             for i in 1 2 3; do
-              if timeout 180 sudo apt-get update -qq $APT && \
-                 timeout 300 sudo apt-get install -y -qq --no-install-recommends $APT librsvg2-bin ffmpeg fonts-inter fontconfig; then
+              if [ "$i" -ge 2 ]; then  # second try: the main Ubuntu archive instead of the Azure mirror
+                sudo sed -i 's#http://azure.archive.ubuntu.com/ubuntu#http://archive.ubuntu.com/ubuntu#g' /etc/apt/sources.list.d/*.sources /etc/apt/sources.list 2>/dev/null || true
+              fi
+              if timeout 180 sudo apt-get update -q $APT && \
+                 timeout 300 sudo apt-get install -y -q -f --no-install-recommends $APT $PKGS; then
                 break
               fi
               echo "apt attempt $i failed or timed out"
               [ "$i" = 3 ] && exit 1
-              sleep 15
+              sleep 10
             done
+            mkdir -p ~/tool-debs && cp /var/cache/apt/archives/*.deb ~/tool-debs/ 2>/dev/null || true
+            n=$(ls ~/tool-debs/*.deb 2>/dev/null | wc -l)
+            echo "cached $n packages for the next run"
+            [ "$n" -gt 0 ] && echo "fresh=1" >> "$GITHUB_OUTPUT"
           fi
+          need
           pip install -q pillow requests-oauthlib
+      - name: Save tool packages for next time
+        if: steps.debcache.outputs.cache-hit != 'true' && steps.tools.outputs.fresh == '1'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/tool-debs
+          key: ${{ steps.debkey.outputs.key }}
       - name: Find new articles
         id: new
         run: |
