@@ -494,7 +494,7 @@ def build_advertise():
     import ads
     inv = ads.load()
     contact = inv.get("advertise_contact", "https://metaflora.xyz")
-    sample = ads.render(next((x for x in inv["ads"] if x["id"] == "deals"), None), "article")
+    sample = ads.render(next((x for x in inv["ads"] if x["id"] == "sell"), None), "article")
     body = f"""<article class="story static">
 <header class="story-head"><h1>Advertise</h1><p class="dek">MetaFlora News publishes a morning and an evening edition every day for cannabis operators, investors and connoisseurs, and posts every lead story to X.</p></header>
 <div class="story-col"><div class="story-body">

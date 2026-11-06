@@ -139,13 +139,9 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .ad-art img[src$="cube.png"]{object-fit:contain;padding:28px}
 .ad-band{margin-top:48px}
 .ad-front{margin:44px 0}
-.ad-creative{display:block;margin:0 auto;line-height:0}
-.ad-creative img{width:100%;height:auto;border-radius:4px}
-.ad-creative:hover img{outline:1px solid var(--green);outline-offset:2px}
-.ad-card .ad-creative{max-width:min(100%,440px)}
-.ad-card .ad-creative img{max-height:560px;width:auto;max-width:100%;margin-inline:auto}
 .ad-stock{margin:28px 0 0}
-.ad-stock.ad-card .ad-creative{max-width:100%}
+.ad-stock .nad-card{max-width:100%}
+
 
 /* article */
 .story{margin:40px auto 0}
@@ -321,4 +317,63 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
   .stk-cols{grid-template-columns:1fr;gap:20px}
   .stk-chart svg{height:180px}
   .stk-table .sp{display:none}
+}
+
+/* Native MetaFlora ads, in the paper's own type system.
+   Flat surface, hairline rule, serif headline, one lime button. The art is drawn in HTML, never a raster. */
+.nad{display:grid;background:var(--surface);border:1px solid var(--rule);border-radius:4px;color:var(--body);text-decoration:none!important;overflow:hidden}
+.nad *{text-decoration:none!important}
+.nad:hover{border-color:#3a3a3a}
+.nad:hover .nad-cta{filter:brightness(1.08)}
+.nad-copy{display:grid;align-content:center;gap:12px;padding:28px 30px}
+.nad-brand{display:flex;align-items:center;gap:8px}
+.nad-brand img{height:20px;width:auto}
+.nad-brand span{font-family:"Casanova Scotia",var(--sans);font-size:15px;letter-spacing:.06em;color:var(--fg);padding-top:2px}
+.nad-h{font-family:var(--serif);font-weight:500;font-size:29px;line-height:1.12;color:var(--fg);letter-spacing:-.005em;text-wrap:balance}
+.nad-b{font-family:var(--sans);font-weight:500;font-size:15px;line-height:1.5;color:var(--dek);max-width:46ch}
+.nad-cta{justify-self:start;margin-top:4px;font-family:var(--sans);font-weight:700;font-size:14px;color:#0d0d0d;background:var(--lime);padding:9px 16px;border-radius:4px}
+.nad-art{display:grid;align-content:center;padding:26px 28px;border-left:1px solid var(--rule);background:#161617}
+.nad-k{font-family:var(--sans);font-weight:600;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.nad-mono{font-family:var(--mono);font-size:12.5px;color:var(--body)}
+
+/* wide: copy left, art right (in-article breaks, front bands, list pages) */
+.nad-wide{grid-template-columns:minmax(0,1fr) 248px}
+
+/* card: art on top (end of article, stock sidebar) */
+.nad-card{grid-template-columns:1fr;max-width:400px;margin-inline:auto}
+.nad-card .nad-art{border-left:0;border-bottom:1px solid var(--rule);order:-1;padding:24px 26px}
+.nad-card .nad-copy{padding:24px 26px 26px;gap:10px}
+.nad-card .nad-h{font-size:25px}
+
+/* art: Sell (two big numbers) */
+.fig2{display:grid;gap:16px}
+.fig2>span{display:grid;gap:2px}
+.fig2 b{font-family:var(--serif);font-weight:500;font-size:52px;line-height:1;color:var(--fg)}
+.fig2>span+span{border-top:1px solid var(--rule);padding-top:14px}
+.nad-card .fig2{grid-template-columns:1fr 1fr;gap:0}
+.nad-card .fig2>span+span{border-top:0;border-left:1px solid var(--rule);padding:0 0 0 18px}
+
+/* art: Platform (strain record) */
+.rec{display:grid;gap:0}
+.rec .nad-k{margin-bottom:8px}
+.rec-name{font-family:var(--serif);font-size:22px;color:var(--fg);margin-bottom:6px}
+.rec dl{margin:0;display:grid}
+.rec dl div{display:flex;justify-content:space-between;gap:12px;padding:6px 0;border-top:1px solid var(--rule)}
+.rec dt{font-family:var(--sans);font-size:12px;color:var(--meta)}
+.rec dd{margin:0;font-family:var(--mono);font-size:12px;color:var(--fg);text-align:right}
+.rec .ok{color:var(--green)}
+
+/* art: Loyalty (rewards card) */
+.pts{display:grid;gap:10px}
+.pts-store{font-family:var(--serif);font-size:19px;color:var(--fg)}
+.pts-bal{display:flex;align-items:baseline;gap:8px}
+.pts-bal b{font-family:var(--serif);font-weight:500;font-size:46px;line-height:1;color:var(--fg)}
+.pts-bar{height:4px;background:var(--rule);border-radius:2px;overflow:hidden}
+.pts-bar i{display:block;height:100%;width:83%;background:var(--green)}
+
+@media (max-width:760px){
+  .nad-wide{grid-template-columns:1fr}
+  .nad-wide .nad-art{border-left:0;border-bottom:1px solid var(--rule);order:-1}
+  .nad-copy{padding:22px}
+  .nad-h{font-size:24px}
 }
