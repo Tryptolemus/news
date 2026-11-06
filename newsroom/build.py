@@ -198,25 +198,22 @@ def render_png(svg_text, out_path, width=1200):
 
 def build_media(arts, eds):
     from banner import render_banner
+    from card import render_card
     from PIL import Image
     for a in arts:
+        # social card (og:image, X, LinkedIn, push alerts): the editorial card, design board pick A
+        og = OUT / "og" / f"{a['id']}.png"
+        render_card(a, og, og.with_suffix(".jpg"))
         src = CONTENT / a["_file"]
         ban = OUT / "banners" / f"{a['id']}.jpg"
         photo = photo_path(a)
         newest = max(src.stat().st_mtime, photo.stat().st_mtime if photo else 0, Path(__file__).with_name("banner.py").stat().st_mtime)
         if not ban.exists() or ban.stat().st_mtime < newest:
-            render_banner(a, photo, ban, edition_label(a["edition"]).split(" · ")[1])
-            og = OUT / "og" / f"{a['id']}.png"
-            og.parent.mkdir(parents=True, exist_ok=True)
-            im = Image.open(ban)
-            im = im.resize((1200, round(1200 * im.height / im.width)), Image.LANCZOS)
-            top = (im.height - 630) // 2
-            card = im.crop((0, top, 1200, top + 630))
-            card.save(og, optimize=True)
-            card.convert("RGB").save(og.with_suffix(".jpg"), quality=80, optimize=True, progressive=True)  # light image for push alerts
+            render_banner(a, photo, ban, edition_label(a["edition"]).split(" · ")[1])  # used by the video reel
     default = OUT / "assets" / "og-default.png"
-    if not default.exists():
-        render_png(cover_svg({"id": "default", "cat": "Policy", "visual": {"motif": "leaf", "big": "NEWS", "label": "Cannabis news every morning and evening"}}), default)
+    render_card({"cat": "MetaFlora News", "headline": "Cannabis industry news, every morning and evening",
+                 "dek": "Policy, markets, science and the business of cannabis, with every source linked.",
+                 "published": arts[0]["published"]}, default, default.with_suffix(".jpg"))
     if not default.with_suffix(".jpg").exists():
         Image.open(default).convert("RGB").save(default.with_suffix(".jpg"), quality=80, optimize=True, progressive=True)
     latest_ed = next(iter(eds))
