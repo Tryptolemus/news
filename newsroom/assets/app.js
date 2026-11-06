@@ -75,3 +75,35 @@
   }
   if (new URLSearchParams(location.search).get("source") === "qr-app" && mobile) setTimeout(open, 600);  // arrived from the QR code
 })();
+
+// Rotating ad slots: random first ad on every page load, crossfade every 8 s while the slot is on
+// screen, pause on hover or keyboard focus, dots to switch by hand. Reduced motion: no auto-rotation.
+(() => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.querySelectorAll("[data-rotate]").forEach((slot) => {
+    const slides = [...slot.querySelectorAll(".mfp-slide")];
+    const dots = [...slot.querySelectorAll(".mfp-dot")];
+    if (slides.length < 2) return;
+    let i = 0, timer = null, visible = false, held = false;
+    function go(n) {
+      i = (n + slides.length) % slides.length;
+      slides.forEach((s, k) => {
+        const on = k === i;
+        s.classList.toggle("is-on", on);
+        if (on) s.removeAttribute("aria-hidden"); else s.setAttribute("aria-hidden", "true");
+        s.querySelectorAll("a").forEach((a) => (on ? a.removeAttribute("tabindex") : a.setAttribute("tabindex", "-1")));
+      });
+      dots.forEach((d, k) => (k === i ? d.setAttribute("aria-current", "true") : d.removeAttribute("aria-current")));
+    }
+    function tick() { clearInterval(timer); timer = null; if (!still && visible && !held && !document.hidden) timer = setInterval(() => go(i + 1), 8000); }
+    go(Math.floor(Math.random() * slides.length));      // a new ad on every refresh
+    dots.forEach((d, k) => d.addEventListener("click", () => { go(k); tick(); }));
+    slot.addEventListener("mouseenter", () => { held = true; tick(); });
+    slot.addEventListener("mouseleave", () => { held = false; tick(); });
+    slot.addEventListener("focusin", () => { held = true; tick(); });
+    slot.addEventListener("focusout", () => { held = false; tick(); });
+    document.addEventListener("visibilitychange", tick);
+    if ("IntersectionObserver" in window) new IntersectionObserver((es) => { visible = es[0].isIntersecting; tick(); }, { threshold: 0.4 }).observe(slot);
+    else { visible = true; tick(); }
+  });
+})();

@@ -110,6 +110,18 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 {body}
 </main>
 <footer class="foot"><div class="wrap">
+  <section class="node-cta" aria-labelledby="node-cta-h">
+    <img src="/assets/metaflora-cube.png" alt="" width="337" height="363" loading="lazy">
+    <div class="node-copy">
+      <p class="node-k">The MetaFlora node network</p>
+      <h2 id="node-cta-h">Help decentralize MetaFlora.</h2>
+      <p>Run a MetaFlora node and help power FloraChain, the network behind MetaFlora's data and transactions. Nodes for home growers, connoisseurs and industry.</p>
+    </div>
+    <div class="node-act">
+      <a class="mfn-primary node-btn" href="https://metaflora.xyz/?pricing=true&amp;utm_source=metaflora-news&amp;utm_medium=footer&amp;utm_campaign=node" target="_blank" rel="noopener">Run a node</a>
+      <a class="node-more" href="https://metaflora.xyz/?utm_source=metaflora-news&amp;utm_medium=footer&amp;utm_campaign=node#node" target="_blank" rel="noopener">Learn about the network &rarr;</a>
+    </div>
+  </section>
   <div class="foot-top">
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
@@ -217,11 +229,10 @@ def dateline_for(ed, latest):
 
 # ---------- pages ----------
 
-def front_ad(n=0, exclude=()):
+def front_ad():
+    """The front page's single ad band: one slot that rotates through the house ads."""
     import ads
-    inv = ads.load()
-    ad = ads.pick(inv, "front" + datetime.now().strftime("%Y%m%d"), n, exclude=exclude, placement="front")
-    return ads.render(ad, "front"), (ad["id"] if ad else None)
+    return ads.slot("front" + datetime.now().strftime("%Y%m%d"), 0, "front")
 
 
 def build_front(arts, eds):
@@ -251,8 +262,7 @@ def build_front(arts, eds):
     if watch:
         rows = "".join(f'<li><time>{datetime.fromisoformat(d).day} {datetime.fromisoformat(d):%b}</time><a href="{a["_path"]}">{escape(t)}</a></li>' for d, t, a in watch)
         parts.append(f'<section class="watch"><h2 class="sec-label">What to watch</h2><ol>{rows}</ol></section>')
-    first_ad, first_id = front_ad(0)
-    parts.append(first_ad)
+    parts.append(front_ad())
     now = datetime.now(arts[0]["_dt"].tzinfo)
     week = [a for a in arts if (now - a["_dt"]).days < 7 and a["id"] not in shown]
     for c in ["Markets", "Policy", "Federal", "States", "Science", "Europe", "Hemp", "Tech"]:
@@ -264,7 +274,6 @@ def build_front(arts, eds):
     more = [a for a in more if a["id"] not in shown]
     if more:
         parts.append(f'<section class="block"><h2 class="sec-label">More news</h2><div class="grid4">{"".join(card(a) for a in more[:8])}</div></section>')
-    parts.append(front_ad(1, exclude=(first_id,))[0])
     if has_reel:
         half = "morning" if latest_ed.endswith("am") else "evening"
         parts.append(f'''<section class="briefing"><h2 class="sec-label">Video briefing</h2>
@@ -298,7 +307,7 @@ def render_body(a):
         if budget and is_head and paras >= 4 and since >= 280 and i < len(blocks) - 3:
             ad = ads.pick(AD_INV, a["id"], slot, a["cat"], exclude=used, placement="article")
             if ad:
-                out.append(ads.render(ad))
+                out.append(ads.rotate(a["id"], slot, "article", a["cat"]))
                 used.append(ad["id"])
                 slot += 1
                 budget -= 1
@@ -517,7 +526,7 @@ def build_advertise():
 <h2>Placements</h2>
 <p><b>Article break.</b> One clearly labelled unit inside long-form stories, placed between sections. Can target a section such as Markets or Science.</p>
 <p><b>End of article.</b> A card-sized unit after the sources, where readers finish the story.</p>
-<p><b>Front page.</b> Two labelled bands on the front page, seen by every homepage visitor.</p>
+<p><b>Front page.</b> The labelled band on the front page, seen by every homepage visitor. House ads rotate in each slot; a partner booking takes the slot on its own.</p>
 <p><b>Sections, topics and stocks.</b> One unit on each section, topic and cannabis stock page. Stock pages update every trading day.</p>
 <p><b>Sponsored edition.</b> The front page unit plus every article break in one morning or evening edition.</p>
 <h2>What it looks like</h2></div>

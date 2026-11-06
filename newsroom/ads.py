@@ -100,37 +100,65 @@ def _rel(ad):
     return ' target="_blank" rel="noopener' + ("" if house else " sponsored") + '"'
 
 
-def render(ad, placement="article"):
-    """Flat, clearly labelled ad unit: hairline rules, ADVERTISEMENT label, one creative block."""
-    if not ad:
-        return ""
-    house = ad.get("advertiser") in HOUSE
-    who = "MetaFlora" if house else escape(ad["advertiser"])
-    shape = ad.get("shape", "wide")
-    head = (f'<aside class="mfp mfp-{placement} mfp-{shape}" aria-label="MetaFlora promotion" data-mfp="{escape(ad["id"])}">'
-            f'<div class="mfp-label">Advertisement · {who}</div>')
+def creative(ad, placement):
+    """The clickable creative alone (no label/wrapper), so one slot can hold several."""
     if ad.get("format") == "native":
         card = placement in CARD_SLOTS
         body = ad.get("card_body") if card and ad.get("card_body") else ad["body"]
         copy = (f'<span class="nad-copy">{CUBE}<span class="nad-h">{escape(ad["headline"])}</span>'
                 f'<span class="nad-b">{escape(body)}</span><span class="nad-cta">{escape(ad["cta"])}</span></span>')
         art = f'<span class="nad-art" aria-hidden="true">{native_art(ad, card)}</span>'
-        return (f'{head}<a class="nad {"nad-card" if card else "nad-wide"}" href="{escape(ad["url"])}"{_rel(ad)} '
-                f'data-mfp-id="{escape(ad["id"])}">{copy}{art}</a></aside>')
+        return (f'<a class="nad {"nad-card" if card else "nad-wide"}" href="{escape(ad["url"])}"{_rel(ad)} '
+                f'data-mfp-id="{escape(ad["id"])}">{copy}{art}</a>')
     if ad.get("format") == "creative":
         size = f' width="{int(ad["width"])}" height="{int(ad["height"])}"' if ad.get("width") and ad.get("height") else ""
-        return (f'{head}<a class="mfp-creative" href="{escape(ad["url"])}"{_rel(ad)} data-mfp-id="{escape(ad["id"])}">'
-                f'<img src="/assets/{escape(ad["image"])}" alt="{escape(ad.get("alt", ""))}"{size} loading="lazy" decoding="async"></a></aside>')
+        return (f'<a class="mfp-creative" href="{escape(ad["url"])}"{_rel(ad)} data-mfp-id="{escape(ad["id"])}">'
+                f'<img src="/assets/{escape(ad["image"])}" alt="{escape(ad.get("alt", ""))}"{size} loading="lazy" decoding="async"></a>')
     img = f'<img src="/assets/{escape(ad["image"])}" alt="" width="440" height="340" loading="lazy">' if ad.get("image") else ""
-    return f"""{head}
-  <a class="mfp-unit" href="{escape(ad['url'])}"{_rel(ad)} data-mfp-id="{escape(ad['id'])}">
-    <span class="mfp-copy"><span class="mfp-title">{escape(ad['title'])}</span><span class="mfp-text">{escape(ad['body'])}</span><span class="mfp-cta">{escape(ad['cta'])}</span></span>
-    <span class="mfp-art">{img}</span>
-  </a>
-</aside>"""
+    return (f'<a class="mfp-unit" href="{escape(ad["url"])}"{_rel(ad)} data-mfp-id="{escape(ad["id"])}">'
+            f'<span class="mfp-copy"><span class="mfp-title">{escape(ad["title"])}</span><span class="mfp-text">{escape(ad["body"])}</span>'
+            f'<span class="mfp-cta">{escape(ad["cta"])}</span></span><span class="mfp-art">{img}</span></a>')
+
+
+def _who(ads):
+    paid = [a for a in ads if a.get("advertiser") not in HOUSE]
+    return escape(paid[0]["advertiser"]) if len(paid) == 1 and len(ads) == 1 else "MetaFlora"
+
+
+def render(ad, placement="article"):
+    """Flat, clearly labelled ad unit: hairline rules, ADVERTISEMENT label, one creative block."""
+    if not ad:
+        return ""
+    shape = ad.get("shape", "wide")
+    return (f'<aside class="mfp mfp-{placement} mfp-{shape}" aria-label="MetaFlora promotion" data-mfp="{escape(ad["id"])}">'
+            f'<div class="mfp-label">Advertisement · {_who([ad])}</div>{creative(ad, placement)}</aside>')
+
+
+def rotate(key, n, placement, cat=None, exclude=()):
+    """One slot that rotates through every ad that fits it. The build's pick goes first (so pages
+    without JavaScript still show a sensible ad); the browser starts on a random one and crossfades
+    every few seconds (static/assets/app.js). Paid ads, when present, take the slot on their own."""
+    inv = load()
+    first = pick(inv, key, n, cat, exclude=exclude, placement=placement)
+    if not first:
+        return ""
+    pool = [a for a in active(inv, cat, placement=placement) if a["id"] not in exclude] or [first]
+    paid = [a for a in pool if a.get("advertiser") not in HOUSE]
+    if paid:
+        return render(first, placement)
+    ads = [first] + [a for a in pool if a["id"] != first["id"]]
+    if len(ads) == 1:
+        return render(first, placement)
+    slides = "".join(f'<div class="mfp-slide{" is-on" if i == 0 else ""}"{"" if i == 0 else " aria-hidden=\"true\""}>{creative(a, placement)}</div>'
+                     for i, a in enumerate(ads))
+    dots = "".join(f'<button type="button" class="mfp-dot" aria-label="Show ad {i + 1} of {len(ads)}"{" aria-current=\"true\"" if i == 0 else ""}></button>'
+                   for i in range(len(ads)))
+    shape = first.get("shape", "wide")
+    return (f'<aside class="mfp mfp-{placement} mfp-{shape} mfp-rot" aria-label="MetaFlora promotion" data-rotate>'
+            f'<div class="mfp-label">Advertisement · MetaFlora</div><div class="mfp-slides">{slides}</div>'
+            f'<div class="mfp-dots">{dots}</div></aside>')
 
 
 def slot(key, n, placement, cat=None, exclude=()):
-    """Pick and render in one go (for list, front, end and stock slots)."""
-    inv = load()
-    return render(pick(inv, key, n, cat, exclude=exclude, placement=placement), placement)
+    """Rotating slot (list, front, end, stock and article placements)."""
+    return rotate(key, n, placement, cat, exclude)

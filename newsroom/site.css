@@ -489,3 +489,32 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
   .mfa{top:auto;left:12px;right:12px;bottom:12px;width:auto;max-height:82vh}
   .mfa-qr{grid-template-columns:1fr}
 }
+
+/* rotating ad slot: all creatives share one grid cell (no layout shift), crossfade between them */
+.mfp-slides{display:grid}
+.mfp-slide{grid-area:1/1;opacity:0;visibility:hidden;transition:opacity .7s ease,visibility 0s linear .7s}
+.mfp-slide.is-on{opacity:1;visibility:visible;transition:opacity .7s ease,visibility 0s}
+.mfp-slide>a{height:100%}
+.mfp-dots{display:flex;justify-content:center;gap:8px;margin-top:12px}
+.mfp-dot{width:22px;height:22px;padding:0;border:0;background:none;cursor:pointer;display:grid;place-items:center}
+.mfp-dot::before{content:"";width:7px;height:7px;border-radius:50%;background:#3a3a3a;transition:background .3s,transform .3s}
+.mfp-dot[aria-current="true"]::before{background:var(--lime);transform:scale(1.15)}
+.mfp-dot:hover::before{background:var(--meta)}
+@media (prefers-reduced-motion:reduce){.mfp-slide,.mfp-slide.is-on{transition:none}}
+
+/* footer: MetaFlora node network call to action */
+.node-cta{display:grid;grid-template-columns:64px minmax(0,1fr) auto;align-items:center;gap:22px;padding:26px 0 30px;margin-bottom:24px;border-bottom:1px solid var(--rule)}
+.node-cta img{width:64px;height:auto}
+.node-k{font-family:var(--sans);font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:4px}
+.node-cta h2{font-family:var(--serif);font-weight:500;font-size:26px;line-height:1.15;color:var(--fg);margin-bottom:6px}
+.node-copy p:last-child{font-family:var(--sans);font-size:14.5px;line-height:1.5;color:var(--dek);max-width:62ch}
+.node-act{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.node-btn{display:inline-block;color:#0d0d0d!important;text-decoration:none!important;white-space:nowrap}
+.node-more{font-family:var(--sans);font-size:13.5px;font-weight:600;color:var(--dek)}
+.node-more:hover{color:var(--fg)}
+@media (max-width:760px){
+  .node-cta{grid-template-columns:48px 1fr;gap:14px 16px}
+  .node-cta img{width:48px}
+  .node-act{grid-column:1/-1;flex-direction:row;align-items:center;gap:18px}
+  .node-cta h2{font-size:22px}
+}

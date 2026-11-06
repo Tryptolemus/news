@@ -104,7 +104,7 @@ def deliver(fb, targets, p, dry):
                 headers={"Urgency": "high", "TTL": "86400"},
                 notification=m.WebpushNotification(
                     title=p["title"], body=p["body"], icon=ICON, badge=BADGE, image=p.get("image"),
-                    tag=p["tag"], renotify=False,
+                    tag=p["tag"], renotify=False, require_interaction=bool(p.get("sticky")),
                     actions=[m.WebpushNotificationAction("read", "Read story"),
                              m.WebpushNotificationAction("settings", "Alert settings")]),
                 fcm_options=m.WebpushFCMOptions(link=p["link"])))
@@ -236,6 +236,7 @@ def cmd_test(fb, key):
     a = latest_article() if key in (None, "", "latest") else load_article(key)
     p = L.payload(a, test=True)
     p["tag"] = p["key"] = f"test-{int(time.time())}"
+    p["sticky"] = True  # tests stay on screen until dismissed
     targets = [d for d in devices(fb, admin_only=True) if d.get("token")]
     if not targets:
         log("No admin devices. Turn alerts on in your own browser, then add your device ID to Firestore admins/ (see NOTIFICATIONS.md).")
