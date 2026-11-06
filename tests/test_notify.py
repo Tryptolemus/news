@@ -78,6 +78,7 @@ class Logic(unittest.TestCase):
         self.assertTrue(p["link"].startswith("https://news.metaflora.xyz/2026/11/06/aurora-deal/?utm_source=push"))
         self.assertEqual(L.send_key(dict(a, headline="Edited headline")), p["key"])  # edits keep the key
         self.assertTrue(L.payload(a, test=True)["title"].startswith("[TEST] "))
+        self.assertEqual(p["image"], "https://news.metaflora.xyz/og/aurora-deal.jpg")
         long = L.payload(art("x", dek="word " * 80))
         self.assertLessEqual(len(long["body"]), 160)
 
@@ -175,6 +176,7 @@ class FakeMessaging:
     WebpushConfig = staticmethod(lambda **k: k)
     WebpushNotification = staticmethod(lambda **k: k)
     WebpushFCMOptions = staticmethod(lambda **k: k)
+    WebpushNotificationAction = staticmethod(lambda *a, **k: a)
 
     def send_each_for_multicast(self, msg, dry_run=False):
         self.calls.append({"tokens": list(msg["tokens"]), "dry": dry_run, "title": msg["webpush"]["notification"]["title"],

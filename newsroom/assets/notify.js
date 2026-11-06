@@ -104,12 +104,9 @@ function init(CFG) {
   }
 
   // ---------- actions
-  async function enable() {
-    const { freq, topics } = readForm();
-    if (!topics.length) return say("Choose at least one topic.");
-    const p = await Notification.requestPermission();   // only ever called from a click
-    if (p !== "granted") { render(); return say(p === "denied" ? "Alerts are blocked in this browser's settings." : "Permission was not granted."); }
-    say("Turning on alerts…");
+  // Fresh token + create-or-update this device's record. Self-healing: if the record was removed (for
+  // example the browser replaced its push subscription and the old token was cleaned up), it's recreated.
+  async function register(topics, freq) {
     const fb = await firebase();
     const reg = await swReg();
     const { m, msg } = await messaging(fb.app);
@@ -122,15 +119,23 @@ function init(CFG) {
     if (snap.exists()) await fb.fs.updateDoc(ref, base);
     else await fb.fs.setDoc(ref, { ...base, created: now });
     st = { enabled: true, topics, freq, refreshed: Date.now() };
-    store(st); render();
+    store(st);
+  }
+  async function enable() {
+    const { freq, topics } = readForm();
+    if (!topics.length) return say("Choose at least one topic.");
+    const p = await Notification.requestPermission();   // only ever called from a click
+    if (p !== "granted") { render(); return say(p === "denied" ? "Alerts are blocked in this browser's settings." : "Permission was not granted."); }
+    say("Turning on alerts…");
+    await register(topics, freq);
+    render();
     say("Alerts are on. We'll notify this device when a story matches your choices.");
   }
   async function save() {
     const { freq, topics } = readForm();
     if (!topics.length) return say("Choose at least one topic.");
-    const fb = await firebase();
-    await fb.fs.updateDoc(fb.fs.doc(fb.db, "devices", fb.uid), { topics, freq, platform: platform(), updated: fb.fs.serverTimestamp() });
-    st = { ...st, topics, freq }; store(st); render(); say("Preferences saved.");
+    await register(topics, freq);
+    render(); say("Preferences saved.");
   }
   async function disable(quiet) {
     st = { ...st, enabled: false }; store(st);
@@ -146,7 +151,11 @@ function init(CFG) {
     try { await fn(); }
     catch (e) {
       const msg = String(e && (e.code || e.message || e));
-      say(msg.includes("permission-denied") ? "Please wait a few seconds and try again." :
+      const pushBlocked = (e && e.name === "AbortError") || /push service|messaging\/token-subscribe-failed/i.test(String(e && e.message) + msg);
+      say(pushBlocked ? (navigator.brave
+            ? "Brave is blocking its push service. Turn on Settings › Privacy and security › “Use Google services for push messaging”, relaunch Brave, then try again."
+            : "This browser's push service refused the request. Check that notifications and background sync are allowed, then try again.") :
+          msg.includes("permission-denied") ? "Please wait a few seconds and try again." :
           msg.includes("unsupported") ? "This browser can't receive alerts." :
           "Something went wrong. Please try again in a moment.");
       console.warn("[mfn-push]", e);
@@ -169,16 +178,16 @@ function init(CFG) {
   render();
   if (st.enabled && supported) {
     if (perm() !== "granted") run(() => disable(true));          // permission revoked in browser settings
-    else if (Date.now() - (st.refreshed || 0) > 7 * 864e5) {      // weekly token refresh
-      run(async () => {
-        const fb = await firebase(); const reg = await swReg(); const { m, msg } = await messaging(fb.app);
-        const token = await m.getToken(msg, { vapidKey: CFG.vapidKey, serviceWorkerRegistration: reg });
-        await fb.fs.updateDoc(fb.fs.doc(fb.db, "devices", fb.uid), { token, updated: fb.fs.serverTimestamp() });
-        st.refreshed = Date.now(); store(st);
-      });
+    else if (Date.now() - (st.refreshed || 0) > 864e5) {          // daily: fresh token, record repaired if missing
+      run(() => register(st.topics, st.freq));
     }
   }
   const q = new URLSearchParams(location.search);
+  if (q.get("alerts") === "settings") {          // "Alert settings" button on a notification
+    q.delete("alerts");
+    history.replaceState(null, "", location.pathname + (q.toString() ? `?${q}` : "") + location.hash);
+    open();
+  }
   if (q.get("utm_source") === "push" && q.get("utm_campaign")) {
     const key = q.get("utm_campaign").slice(0, 120);
     ["utm_source", "utm_medium", "utm_campaign"].forEach((k) => q.delete(k));

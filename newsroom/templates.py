@@ -102,7 +102,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
   <div class="wrap mast-row">
     <span class="mast-date">{dateline}</span>
     {WORDMARK}
-    <span class="mast-cta">{notify_site.bell()}<a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt="" width="47" height="44"><span>Follow</span></a></span>
+    <span class="mast-cta">{notify_site.app_button()}{notify_site.bell()}<a class="btn-outline" href="{X_URL}" target="_blank" rel="noopener" aria-label="Follow MetaFlora News on X"><img src="/assets/x.png" alt="" width="47" height="44"><span>Follow</span></a></span>
   </div>
   <nav class="nav" aria-label="Sections"><div class="wrap nav-row">{nav}</div></nav>
 </header>
@@ -114,7 +114,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
       <a href="/how-we-report/">How we report</a><a href="/how-we-report/#corrections">Corrections</a><a href="/advertise/">Advertise</a>
-      <a href="/stocks/">Cannabis stocks</a><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
+      <a href="/stocks/">Cannabis stocks</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
   <div class="foot-bottom">
@@ -122,6 +122,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     <div class="social">{social}</div>
   </div>
 </div></footer>
+{notify_site.app_ui()}
 {COPY_JS}
 </body>
 </html>

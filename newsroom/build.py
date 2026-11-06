@@ -165,7 +165,7 @@ def relativize():
     import re
     for f in OUT.rglob("*.html"):
         rel = f.relative_to(OUT)
-        if rel.as_posix() == "404.html":
+        if rel.as_posix() in ("404.html", "offline/index.html"):
             continue  # served at any path depth: keep root-absolute links
         up = "../" * (len(rel.parts) - 1) or "./"
         def fix(m):
@@ -211,10 +211,14 @@ def build_media(arts, eds):
             im = Image.open(ban)
             im = im.resize((1200, round(1200 * im.height / im.width)), Image.LANCZOS)
             top = (im.height - 630) // 2
-            im.crop((0, top, 1200, top + 630)).save(og, optimize=True)
+            card = im.crop((0, top, 1200, top + 630))
+            card.save(og, optimize=True)
+            card.convert("RGB").save(og.with_suffix(".jpg"), quality=80, optimize=True, progressive=True)  # light image for push alerts
     default = OUT / "assets" / "og-default.png"
     if not default.exists():
         render_png(cover_svg({"id": "default", "cat": "Policy", "visual": {"motif": "leaf", "big": "NEWS", "label": "Cannabis news every morning and evening"}}), default)
+    if not default.with_suffix(".jpg").exists():
+        Image.open(default).convert("RGB").save(default.with_suffix(".jpg"), quality=80, optimize=True, progressive=True)
     latest_ed = next(iter(eds))
     reel = OUT / "reels" / f"{latest_ed}.mp4"
     if not reel.exists():

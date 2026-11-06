@@ -99,6 +99,7 @@ def payload(article, key=None, test=False):
     return {
         "title": clip(title, 110),
         "body": clip(article["dek"], 160),
+        "image": f"{SITE}/og/{article['id']}.jpg",
         "link": f"{article_url(article)}?utm_source=push&utm_medium=web-push&utm_campaign={key}",
         "tag": key,  # same tag = the browser replaces rather than stacks a repeat
         "key": key,
@@ -130,6 +131,7 @@ def digest_for(device, articles, day):
     key = f"digest-{day}"
     return {"title": f"Today in cannabis news: {len(mine)} {'story' if len(mine) == 1 else 'stories'}",
             "body": clip(heads + more, 160),
+            "image": f"{SITE}/og/{mine[0]['id']}.jpg",
             "link": f"{SITE}/?utm_source=push&utm_medium=web-push&utm_campaign={key}",
             "tag": key, "key": key}
 
@@ -169,5 +171,6 @@ def edition_payloads(items, max_single=2):
     heads = "; ".join(clip(a["headline"], 70) for a in items[:2])
     return [{"title": f"{len(items)} new stories in your topics",
              "body": clip(f"{heads} and {len(items) - 2} more", 160),
+             "image": f"{SITE}/og/{first['id']}.jpg",
              "link": f"{SITE}/?utm_source=push&utm_medium=web-push&utm_campaign={key}",
              "tag": key, "key": key, "keys": [send_key(a) for a in items]}]

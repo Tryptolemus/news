@@ -461,3 +461,31 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .adm-meta dt{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
 .adm-meta dd{margin:2px 0 0;color:var(--body)}
 @media (max-width:760px){.adm-kpi{grid-template-columns:1fr 1fr}.adm-two{grid-template-columns:1fr}}
+
+/* get the app: masthead button, install panel, phone install bar */
+.mfa-btn{display:inline-flex;align-items:center;gap:7px;height:34px;padding:0 11px;font-family:var(--sans);font-weight:600;font-size:13px;color:var(--dek);background:none;border:1px solid var(--rule);border-radius:4px;cursor:pointer}
+.mfa-btn:hover,.mfa-btn[aria-expanded="true"]{border-color:var(--faint);color:var(--fg)}
+.foot-app{background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer}
+.foot-app:hover{color:var(--fg);text-decoration:underline;text-decoration-color:var(--green);text-underline-offset:3px}
+.mfa{position:fixed;top:88px;right:max(16px,calc((100vw - 1240px) / 2 + 24px));z-index:45;width:min(400px,calc(100vw - 32px));max-height:calc(100vh - 110px);overflow-y:auto;background:var(--surface);border:1px solid #333;border-radius:6px;box-shadow:0 18px 50px rgba(0,0,0,.55);padding:18px 20px 20px;font-family:var(--sans);color:var(--body)}
+.mfa[hidden],.mfa [hidden]{display:none!important}
+.mfa h2{font-family:var(--serif);font-size:22px;font-weight:500;color:var(--fg);outline:none}
+.mfa p{font-size:14px;line-height:1.5;margin:0 0 10px}
+.mfa-lede{color:var(--dek)}
+.mfa-install{display:inline-flex;align-items:center;gap:8px;margin:4px 0 6px}
+.mfa-qr{display:grid;grid-template-columns:174px 1fr;gap:16px;align-items:center;border-top:1px solid var(--rule);padding-top:14px;margin-top:8px}
+.mfa-qr img{display:block;border-radius:6px;background:#fff}
+.mfa-qr p>b:first-child{display:block;color:var(--fg);margin-bottom:4px}
+.mfa-bar{position:fixed;left:10px;right:10px;bottom:max(10px,env(safe-area-inset-bottom,0px));z-index:44;display:flex;align-items:center;gap:10px;padding:10px 10px 10px 12px;background:#1d1d1e;border:1px solid #333;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.5);font-family:var(--sans)}
+.mfa-bar[hidden]{display:none}
+.mfa-bar img{border-radius:9px;flex:none}
+.mfa-bar p{flex:1;min-width:0;margin:0;line-height:1.25}
+.mfa-bar b{display:block;font-size:14px;color:var(--fg)}
+.mfa-bar span{font-size:12px;color:var(--meta)}
+.mfa-bar .mfn-primary{padding:9px 14px;flex:none}
+.mfa-bar-x{flex:none;width:30px;height:30px;background:none;border:0;color:var(--meta);font-size:22px;line-height:1;cursor:pointer;border-radius:4px}
+@media (max-width:760px){
+  .mast-cta .mfa-btn{display:none}
+  .mfa{top:auto;left:12px;right:12px;bottom:12px;width:auto;max-height:82vh}
+  .mfa-qr{grid-template-columns:1fr}
+}

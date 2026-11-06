@@ -70,7 +70,12 @@ def devices(fb, admin_only=False):
         ids = {i for a in db.collection("admins").stream() for i in (a.to_dict().get("devices") or [])}
         docs = [db.collection("devices").document(i).get() for i in sorted(ids)]
         return [d.to_dict() | {"_id": d.id} for d in docs if d.exists]
-    return [d.to_dict() | {"_id": d.id} for d in db.collection("devices").where("enabled", "==", True).stream()]
+    try:
+        from google.cloud.firestore_v1.base_query import FieldFilter
+        q = db.collection("devices").where(filter=FieldFilter("enabled", "==", True))
+    except ImportError:  # tests use an in-memory fake
+        q = db.collection("devices").where("enabled", "==", True)
+    return [d.to_dict() | {"_id": d.id} for d in q.stream()]
 
 
 def wait_live(url, timeout=600):
@@ -97,8 +102,11 @@ def deliver(fb, targets, p, dry):
             data={"key": p["key"], "link": p["link"]},
             webpush=m.WebpushConfig(
                 headers={"Urgency": "high", "TTL": "86400"},
-                notification=m.WebpushNotification(title=p["title"], body=p["body"], icon=ICON, badge=BADGE,
-                                                   tag=p["tag"], renotify=False),
+                notification=m.WebpushNotification(
+                    title=p["title"], body=p["body"], icon=ICON, badge=BADGE, image=p.get("image"),
+                    tag=p["tag"], renotify=False,
+                    actions=[m.WebpushNotificationAction("read", "Read story"),
+                             m.WebpushNotificationAction("settings", "Alert settings")]),
                 fcm_options=m.WebpushFCMOptions(link=p["link"])))
         res = m.send_each_for_multicast(msg, dry_run=dry)
         for d, r in zip(batch, res.responses):
