@@ -1,13 +1,13 @@
 {
   "_readme": "Public Firebase web config for push alerts (safe to commit: these identify the project, they are not secrets). The bell appears on the site only when enabled is true and every field is filled. See NOTIFICATIONS.md.",
-  "enabled": false,
+  "enabled": true,
   "sdk": "12.6.0",
   "firebase": {
-    "apiKey": "",
-    "authDomain": "",
-    "projectId": "",
-    "messagingSenderId": "",
-    "appId": ""
+    "apiKey": "AIzaSyD3TlwPWc__Do-ZWK4YoesK92yDNzsYWxM",
+    "authDomain": "metaflora-news.firebaseapp.com",
+    "projectId": "metaflora-news",
+    "messagingSenderId": "393596399099",
+    "appId": "1:393596399099:web:24039aced521958745af5e"
   },
-  "vapidKey": ""
+  "vapidKey": "BMQdGPvPFwlM0twEMWga0vqlB_ag2zUAbuXWJR1f6PpV2_bejilcy4W93HdAluvk41TxS0t2Ff5SPX4uI3j7hiw"
 }
