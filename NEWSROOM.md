@@ -60,6 +60,7 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
     "corner": ["FEDERAL", "MEDICAL", "ACCESS", "COMPLIANCE"] // optional: 4 single words, bottom-right
   },
   "watch": [{"date": "2026-11-12", "text": "…"}],  // dated upcoming events from the story (front page "What to watch")
+  "tags": ["DEA", "Rescheduling", "Florida"],     // 2–8 topic tags (see "SEO and topic tags")
   "image_prompt": "…",                            // scene for the AI photo (see below)
   "image_alt": "…",                               // short description of that image for screen readers
   "x_post": "…"                                   // ranks 1–3: the post for X, ≤220 chars, no link (added automatically)
@@ -85,6 +86,18 @@ Every story's cover image, social card and reel shot are generated from `visual`
 - `big`: the one striking figure from the story, ≤7 characters ("C$561M", "-27%", "6 days", "65K"). It must be a fact from the sources.
 - `label`: under 50 characters, explains the figure in plain words.
 - Vary motifs across an edition where the stories allow.
+
+## SEO and topic tags
+
+Every story is permanent: it keeps its dated URL forever and is never deleted or overwritten. Corrections go in a `corrections` note, and later developments are new stories that link back.
+
+`tags` build evergreen topic hub pages (`/topic/<tag>/`), and those hubs compound in search over time. Rules:
+- 2–8 tags per story: the specific companies, states/countries, regulators, laws and themes the story is actually about.
+- **Reuse existing tags exactly.** Before tagging, list the tags already used in `content/articles/` and reuse their exact spelling and case ("DEA", not "Drug Enforcement Administration"; "Curaleaf", not "Curaleaf Holdings"). One entity = one tag forever.
+- Proper names for entities ("Aurora Cannabis", "Illinois", "Section 280E"); short title-case themes for subjects ("Rescheduling", "M&A", "Licensing", "Hemp").
+- Headlines say plainly who did what, using the names people search for. No puns or teasers.
+
+The build publishes a sitemap index (pages, a Google News sitemap for the last 48 hours, and every article ever published), per-section RSS feeds, NewsArticle and Breadcrumb schema on every story, and a monthly archive.
 
 ## Long-form standard
 

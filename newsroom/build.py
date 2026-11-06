@@ -49,6 +49,8 @@ def load_articles():
         bn = a.get("banner")
         if bn is not None and (not bn.get("title") or len(bn.get("points", [])) > 3):
             errors.append(f"{p.name}: banner needs a title and at most 3 points")
+        if not (2 <= len(a.get("tags") or []) <= 8):
+            errors.append(f"{p.name}: needs 2-8 tags")
         if len(a.get("x_post") or "") > 220:
             errors.append(f"{p.name}: x_post over 220 characters")
         if not all(s.get("url", "").startswith("http") for s in a["sources"]):
@@ -96,6 +98,7 @@ def photo_path(a):
 
 
 page = T.page
+TOPICS = {}
 
 
 def build_feeds(arts):
@@ -107,9 +110,38 @@ def build_feeds(arts):
     write("feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>{NAME}</title><link>{SITE}/</link><description>{escape(TAGLINE)}</description>
 <lastBuildDate>{now}</lastBuildDate>{''.join(items)}</channel></rss>""")
-    urls = [f"{SITE}/", f"{SITE}/archive/", f"{SITE}/advertise/", f"{SITE}/how-we-report/"] + [f"{SITE}/section/{c.lower()}/" for c in CATS] + [f"{SITE}{a['_path']}" for a in arts]
-    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-          + "".join(f"<url><loc>{u}</loc></url>" for u in urls) + "</urlset>")
+    for c in CATS:
+        its = [a for a in arts if a["cat"] == c][:40]
+        write(f"section/{c.lower()}/feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>{NAME}: {c}</title><link>{SITE}/section/{c.lower()}/</link><description>{c} news from {NAME}</description>
+<lastBuildDate>{now}</lastBuildDate>{''.join(f"<item><title>{escape(a['headline'])}</title><link>{SITE}{a['_path']}</link><guid>{SITE}{a['_path']}</guid><pubDate>{format_datetime(a['_dt'])}</pubDate><description>{escape(a['dek'])}</description></item>" for a in its)}</channel></rss>""")
+    newest = arts[0]["_dt"].isoformat()
+    def u(loc, mod):
+        return f"<url><loc>{loc}</loc><lastmod>{mod}</lastmod></url>"
+    pages = [u(f"{SITE}/", newest), u(f"{SITE}/archive/", newest), u(f"{SITE}/topic/", newest),
+             u(f"{SITE}/how-we-report/", newest), u(f"{SITE}/advertise/", newest)]
+    pages += [u(f"{SITE}/section/{c.lower()}/", newest) for c in CATS]
+    pages += [u(f"{SITE}/topic/{T.slug(t)}/", max(a["_dt"] for a in v).isoformat()) for t, v in TOPICS.items()]
+    months = sorted({a["edition"][:7] for a in arts})
+    pages += [u(f"{SITE}/archive/{m.replace('-', '/')}/", newest) for m in months]
+    ns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
+    write("sitemap-pages.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns}>{"".join(pages)}</urlset>')
+    # every article ever published, newest first (split at 40k URLs per file)
+    allart = [u(f"{SITE}{a['_path']}", a.get("updated", a["published"])) for a in sorted(arts, key=lambda a: a["_dt"], reverse=True)]
+    parts = [allart[i:i + 40000] for i in range(0, len(allart), 40000)] or [[]]
+    for i, chunk in enumerate(parts, 1):
+        write(f"sitemap-articles-{i}.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns}>{"".join(chunk)}</urlset>')
+    # Google News sitemap: articles from the last 48 hours
+    from datetime import timedelta
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=48)
+    recent = [a for a in arts if a["_dt"] >= cutoff] or arts[:9]
+    news = "".join(f'<url><loc>{SITE}{a["_path"]}</loc><news:news><news:publication><news:name>{NAME}</news:name><news:language>en</news:language>'
+                   f'</news:publication><news:publication_date>{a["published"]}</news:publication_date><news:title>{escape(a["headline"])}</news:title>'
+                   f'</news:news></url>' for a in recent)
+    write("sitemap-news.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns} xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">{news}</urlset>')
+    maps = ["sitemap-pages.xml", "sitemap-news.xml"] + [f"sitemap-articles-{i}.xml" for i in range(1, len(parts) + 1)]
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+          + "".join(f"<sitemap><loc>{SITE}/{m}</loc><lastmod>{newest}</lastmod></sitemap>" for m in maps) + "</sitemapindex>")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     write("CNAME", "news.metaflora.xyz\n")
     write(".nojekyll", "")
@@ -124,11 +156,11 @@ def relativize():
         rel = f.relative_to(OUT)
         up = "../" * (len(rel.parts) - 1) or "./"
         def fix(m):
-            t = m.group(2)
+            t, frag = (m.group(2).split("#", 1) + [""])[:2]
             if t == "" or t.endswith("/"):
                 t += "index.html"
-            return f'{m.group(1)}="{up}{t}"'
-        s = re.sub(r'(href|src|poster)="/(?!/)([^"#?]*)"', fix, f.read_text())
+            return f'{m.group(1)}="{up}{t}{"#" + frag if frag else ""}"'
+        s = re.sub(r'(href|src|poster)="/(?!/)([^"?]*)"', fix, f.read_text())
         s = s.replace('href="./index.html"', 'href="./"')
         f.write_text(s)
     css = OUT / "assets" / "site.css"
@@ -223,7 +255,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -247,6 +279,8 @@ def main():
         T.build_article(a, arts)
     T.build_sections(arts)
     T.build_archive(eds)
+    global TOPICS
+    TOPICS = T.build_topics(arts)
     T.build_how()
     T.build_advertise()
     build_feeds(arts)

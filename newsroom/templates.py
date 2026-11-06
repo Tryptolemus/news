@@ -1,5 +1,6 @@
 """Page templates for MetaFlora News (editorial design: Newsreader + Inter Tight, hairline rules, no boxes)."""
 import json
+import re
 from datetime import datetime
 from html import escape
 from urllib.parse import quote
@@ -76,7 +77,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
       <a href="/how-we-report/">How we report</a><a href="/how-we-report/#corrections">Corrections</a><a href="/advertise/">Advertise</a>
-      <a href="/archive/">Archive</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
+      <a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
   <div class="foot-bottom">
@@ -221,7 +222,12 @@ def build_front(arts, eds):
 <p class="meta">Each edition is also posted to <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></div></div></section>''')
     parts.append(f'<section class="block"><h2 class="sec-label">All stories</h2><ol class="latest-list">{"".join(list_item(a) for a in arts[:15])}</ol>'
                  f'<p class="more-link"><a href="/archive/">Full archive</a></p></section>')
-    ctx["write"]("index.html", page(NAME, "".join(parts), og_image=f"{SITE}/og/{lead['id']}.png", dateline=dateline_for(latest_ed, latest)))
+    org = {"@context": "https://schema.org", "@type": "NewsMediaOrganization", "name": NAME, "url": SITE + "/",
+           "logo": SITE + "/assets/metaflora-white-logo-just-icon.png", "parentOrganization": {"@type": "Organization", "name": "MetaFlora", "url": "https://metaflora.xyz"},
+           "sameAs": [X_URL, "https://t.me/MetaFloraLabs", "https://www.youtube.com/@metafloralabs"],
+           "publishingPrinciples": SITE + "/how-we-report/", "correctionsPolicy": SITE + "/how-we-report/#corrections"}
+    ctx["write"]("index.html", page(NAME, "".join(parts), og_image=f"{SITE}/og/{lead['id']}.png", dateline=dateline_for(latest_ed, latest),
+                                    extra_head=f'<script type="application/ld+json">{json.dumps(org)}</script>'))
 
 
 AD_INV = None
@@ -284,6 +290,9 @@ def build_article(a, arts):
           "datePublished": a["published"], "dateModified": a.get("updated", a["published"]), "image": [f"{SITE}/og/{a['id']}.png"],
           "author": {"@type": "Organization", "name": "MetaFlora News Desk", "url": f"{SITE}/how-we-report/"},
           "publisher": {"@type": "Organization", "name": NAME}, "mainEntityOfPage": url}
+    tags_html = ""
+    if a.get("tags"):
+        tags_html = '<nav class="tags" aria-label="Topics">' + "".join(f'<a href="/topic/{slug(t)}/">{escape(t)}</a>' for t in a["tags"]) + "</nav>"
     fig = ""
     if has_photo(a):
         fig = f'<figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>'
@@ -308,6 +317,7 @@ def build_article(a, arts):
     <div class="story-body">{render_body(a)}</div>
     <section class="sources"><h2>Sources</h2><ol>{srcs}</ol>
       <p>This article summarises and links the original reporting. Spotted an error? Message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></section>
+    {tags_html}
     {corr}
   </div>
 </article>
@@ -316,7 +326,14 @@ def build_article(a, arts):
   <div><h2 class="sec-label">Latest</h2><ol class="latest-list">{''.join(list_item(x) for x in latest)}</ol></div>
 </section>
 """
-    extra = f'<script type="application/ld+json">{json.dumps(ld)}</script>'
+    ld["keywords"] = a.get("tags", [])
+    ld["articleSection"] = a["cat"]
+    ld["wordCount"] = sum(len(x.split()) for x in a["body"])
+    crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": NAME, "item": SITE + "/"},
+        {"@type": "ListItem", "position": 2, "name": a["cat"], "item": f"{SITE}/section/{a['cat'].lower()}/"},
+        {"@type": "ListItem", "position": 3, "name": a["headline"], "item": url}]}
+    extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
     ctx["write"](a["_path"].strip("/") + "/index.html",
                  page(a["headline"], body, desc=a["dek"], path=a["_path"], og_image=f"{SITE}/og/{a['id']}.png", kind="article",
                       extra_head=extra, active=a["cat"], dateline=f'{a["_dt"]:%A} {a["_dt"].day} {a["_dt"]:%B %Y}'))
@@ -336,10 +353,49 @@ def build_sections(arts):
 
 
 def build_archive(eds):
-    blocks = "".join(f'<section class="block"><h2 class="sec-label">{escape(ctx["edition_label"](ed))}</h2>'
-                     f'<ol class="latest-list">{"".join(list_item(a) for a in items)}</ol></section>' for ed, items in eds.items())
-    body = f'<div class="page-h"><h1>Archive</h1><p class="meta">{len(eds)} editions</p></div>{blocks}'
-    ctx["write"]("archive/index.html", page("Archive", body, path="/archive/"))
+    """/archive/ lists months; /archive/YYYY/MM/ lists every edition in that month. Pages stay small as the archive grows."""
+    months = {}
+    for ed, items in eds.items():
+        months.setdefault(ed[:7], {})[ed] = items
+    rows = []
+    for ym, med in sorted(months.items(), reverse=True):
+        dt = datetime.fromisoformat(ym + "-01")
+        n = sum(len(v) for v in med.values())
+        rows.append(f'<li><a class="li-title" href="/archive/{dt:%Y/%m}/">{dt:%B %Y}</a><span class="meta">{len(med)} editions · {n} stories</span></li>')
+        blocks = "".join(f'<section class="block"><h2 class="sec-label">{escape(ctx["edition_label"](ed))}</h2>'
+                         f'<ol class="latest-list">{"".join(list_item(a) for a in items)}</ol></section>' for ed, items in sorted(med.items(), reverse=True))
+        title = f"{dt:%B %Y} archive"
+        body = f'<div class="page-h"><h1>{dt:%B %Y}</h1><p class="meta"><a href="/archive/">All months</a></p></div>{blocks}'
+        ctx["write"](f"archive/{dt:%Y/%m}/index.html", page(title, body, desc=f"Every MetaFlora News story from {dt:%B %Y}.", path=f"/archive/{dt:%Y/%m}/"))
+    body = f'<div class="page-h"><h1>Archive</h1><p class="meta">{len(eds)} editions</p></div><ol class="month-list">{"".join(rows)}</ol>'
+    ctx["write"]("archive/index.html", page("Archive", body, desc="Every MetaFlora News edition, by month.", path="/archive/"))
+
+
+def slug(t):
+    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+
+
+def build_topics(arts):
+    """One evergreen hub page per topic tag (states, companies, regulators, themes).
+    These are the pages that accumulate authority over time."""
+    topics = {}
+    for a in arts:
+        for t in a.get("tags", []):
+            topics.setdefault(t, []).append(a)
+    for t, items in topics.items():
+        items = sorted(items, key=lambda a: a["_dt"], reverse=True)
+        lead = items[0]
+        inner = f'<div class="sec-lead">{card(lead, "wide")}</div>'
+        if len(items) > 1:
+            inner += f'<ol class="latest-list">{"".join(list_item(a) for a in items[1:])}</ol>'
+        desc = f"MetaFlora News coverage of {t}: every story, newest first."
+        body = f'<div class="page-h"><h1>{escape(t)}</h1><p class="meta">{len(items)} {"story" if len(items) == 1 else "stories"}</p></div>{inner}'
+        ctx["write"](f"topic/{slug(t)}/index.html", page(t, body, desc=desc, path=f"/topic/{slug(t)}/"))
+    rows = "".join(f'<li><a class="li-title" href="/topic/{slug(t)}/">{escape(t)}</a><span class="meta">{len(v)}</span></li>'
+                   for t, v in sorted(topics.items(), key=lambda kv: (-len(kv[1]), kv[0])))
+    ctx["write"]("topic/index.html", page("Topics", f'<div class="page-h"><h1>Topics</h1></div><ol class="month-list">{rows}</ol>',
+                                          desc="Every company, state, regulator and theme MetaFlora News covers.", path="/topic/"))
+    return topics
 
 
 def build_how():

@@ -249,3 +249,10 @@ time{font-family:var(--mono);font-size:12px;color:var(--meta)}
   .pic.plate svg{aspect-ratio:16/9}
   .kp-stat b{font-size:40px}
 }
+
+/* topics + archive months */
+.tags{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:28px;padding-top:14px;border-top:1px solid var(--rule);font-family:var(--sans);font-weight:600;font-size:13.5px}
+.tags a{color:var(--dek)} .tags a::before{content:"#";color:var(--faint);margin-right:2px}
+.month-list{list-style:none;margin:0;padding:0}
+.month-list li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding-block:14px;border-bottom:1px solid var(--rule)}
+.month-list .li-title{font-family:var(--serif);font-weight:500;font-size:20px;color:var(--fg)}
