@@ -1,0 +1,101 @@
+{
+  "id": "oregon-health-guidance",
+  "edition": "2026-11-06-pm",
+  "rank": 7,
+  "published": "2026-11-06T17:19:39+02:00",
+  "cat": "Science",
+  "headline": "Oregon updates cannabis health guidance for the first time since 2017",
+  "dek": "The Oregon Health Authority now recognises evidence of benefit for chronic pain and some seizure disorders, and flags heart attack, stroke and psychosis risks.",
+  "key_points": [
+    "The Oregon Health Authority released its 2026 cannabis public health statements this week, its first major revision since 2017.",
+    "It finds moderate or strong evidence of benefit for chronic pain in adults, certain seizure disorders, MS spasticity and chemotherapy nausea, mostly from pharmaceutical cannabinoids.",
+    "It also finds moderate or strong evidence linking cannabis use to heart attack and stroke, and associations with psychosis, especially among young and frequent users of high-THC products.",
+    "Evidence for anxiety, PTSD and neuropathic pain was rated insufficient or conflicting, and findings on sleep were mixed."
+  ],
+  "body": [
+    "Oregon's public health agency has rewritten what the state officially says about cannabis and health. The Oregon Health Authority (OHA) released its 2026 Cannabis Public Health Statements this week, the first major update since 2017, and for the first time the state's approved language recognises evidence of medical benefit alongside evidence of harm.",
+    "The 20-page document rates findings from hundreds of studies and reviews in five evidence categories, from moderate or strong evidence of benefit to moderate or strong evidence of harm. It is meant for clinicians, local health agencies, lawmakers, cannabis businesses and the public.",
+    "## Why it took nine years",
+    "Oregon's first statements were written by a Retail Marijuana Scientific Advisory Committee in 2015, after voters legalized adult-use cannabis with Measure 91 in 2014, and revised in 2017. The Marijuana Herald reported that in 2022 the Oregon Cannabis Commission urged an update, arguing that the existing statements focused on risks and lacked approved language on established medical benefits. The new review began in 2024.",
+    "The 2017 revision leaned on the two big national summaries of that year, the National Academies report on the health effects of cannabis and cannabinoids and federal CDC guidance, and its tables covered seven areas, from mental health and heart effects to motor vehicle crashes and problem use. It said little about therapeutic use. Since then the market has filled with high-THC concentrates, edibles and vapes, which is part of why OHA says new guidance was needed.",
+    "OHA drew on assessments from the National Academies of Sciences, Engineering, and Medicine, Health Canada, the Colorado Department of Public Health and Environment, and a research initiative involving the U.S. Department of Veterans Affairs and Oregon Health & Science University. Dr. Tom Jeanne, deputy state health officer, said the team tried to capture as much recent evidence as possible to give a full picture of potential harms and benefits.",
+    "## Where the evidence shows benefit",
+    "For chronic pain in adults, OHA found moderate or strong evidence that cannabis or cannabinoids provide relief, though the improvement is generally modest. The strongest findings involve oral or under-the-tongue pharmaceutical products such as nabiximols, nabilone and dronabinol.",
+    "It also found moderate or strong evidence that CBD reduces seizures in Dravet syndrome, Lennox-Gastaut syndrome and tuberous sclerosis complex, based mainly on the FDA-approved drug Epidiolex. Oral cannabinoids, particularly nabiximols, were found to ease muscle spasticity in multiple sclerosis, and pharmaceutical THC to reduce chemotherapy-induced nausea and vomiting.",
+    "The agency was careful about what transfers to the shop counter. It notes that research on standardized pharmaceutical cannabinoids may not apply directly to products sold in dispensaries.",
+    "> Oregon now says cannabis medicine works for some conditions. It also says the evidence comes mostly from pharmacy products, not dispensary shelves.",
+    "## Where it shows harm, or nothing clear",
+    "On the risk side, OHA found moderate or strong evidence linking cannabis use to increased risk of heart attack and stroke, and found heavy smoking associated with chronic bronchitis. It identified associations between cannabis use and psychosis, particularly among adolescents, frequent users and people using high-THC products. The statements also cover impaired driving, pregnancy outcomes and accidental exposure in children.",
+    "For anxiety, post-traumatic stress disorder and neuropathic pain, the evidence was rated insufficient or conflicting. Sleep findings were mixed, with some support for short-term improvement and signs that prolonged use may worsen sleep quality.",
+    "OHA stresses that an association is not proof of cause, and it is candid about limits: the review was done by a small team with limited resources and does not match the depth of reviews by the Cochrane Collaboration or the National Academies, according to a summary of the release. Some statements are marked insufficient because they appeared in earlier reviews without new data since.",
+    "## What it means for businesses",
+    "The statements give Oregon retailers and medical programs an official, balanced reference to point to. They do not change the rules on marketing. OHA's own guidance says cannabis products sold at licensed stores or medical dispensaries may not carry labels or advertising claiming curative or therapeutic effects, and CBD hemp products sold elsewhere may not claim to cure, treat or prevent disease.",
+    "## What to watch",
+    "OHA's publications page still listed the 2026 statements as coming soon when we checked, so watch for the full document to be posted. Watch too for whether Oregon regulators or lawmakers use the new benefit findings in medical program rules, and whether other legal states update their own public health messaging."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/oregon-releases-first-major-marijuana-health-guidance-update-in-nine-years-recognizes-medical-benefits/"
+    },
+    {
+      "name": "Hyperlocal Loop",
+      "url": "https://hyperlocalloop.com/oregon-health-authority-releases-updated-public-health-guidance-on-cannabis-risks-and-benefits/"
+    },
+    {
+      "name": "Oregon Health Authority (publications)",
+      "url": "https://www.oregon.gov/oha/ph/preventionwellness/marijuana/pages/publications.aspx"
+    },
+    {
+      "name": "Oregon Health Authority (FAQ)",
+      "url": "https://www.oregon.gov/oha/ph/preventionwellness/marijuana/pages/faq.aspx"
+    },
+    {
+      "name": "Oregon Health Authority (2017 statements)",
+      "url": "https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/MARIJUANA/Documents/RMSAC-Evidence-Reviews-and-Statements-2017.pdf"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "2017",
+    "label": "year of Oregon's last major guidance update"
+  },
+  "banner": {
+    "title": "Oregon Rewrites Cannabis Health",
+    "highlight": [
+      "OREGON"
+    ],
+    "sub": "First major update since 2017 weighs benefits and risks",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Chronic pain: benefit"
+      },
+      {
+        "icon": "shield",
+        "text": "Heart attack, stroke risk"
+      },
+      {
+        "icon": "doc",
+        "text": "20-page review"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "HEALTH",
+      "EVIDENCE",
+      "OREGON"
+    ]
+  },
+  "tags": [
+    "Oregon",
+    "Research",
+    "Medical cannabis",
+    "Pain",
+    "Sleep"
+  ],
+  "image_prompt": "A public health office reading room in Portland on a rainy afternoon, stacks of printed research reports and a highlighter on a wooden table, rain streaks on the window behind.",
+  "image_alt": "Printed research reports on a table by a rainy window",
+  "breaking": false
+}

@@ -1,0 +1,64 @@
+{
+  "id": "pennsylvania-senate",
+  "edition": "2026-11-06-pm",
+  "rank": 2,
+  "published": "2026-11-06T17:19:39+02:00",
+  "cat": "States",
+  "headline": "Pennsylvania Democrats win Senate, opening a path to legal cannabis",
+  "dek": "A projected 26-24 Senate majority gives Gov. Josh Shapiro a trifecta and removes the chamber that blocked adult-use bills, though design fights remain open.",
+  "key_points": [
+    "Democrats flipped four Republican-held Pennsylvania Senate seats on 3 November and are on track for a 26-24 majority, their first Senate majority in 48 years, according to WHYY.",
+    "With Gov. Josh Shapiro re-elected and the House still Democratic, a legalization bill can now reach a governor who has repeatedly budgeted for it.",
+    "The House passed adult-use legalization 102-101 in May 2025, but the Republican Senate's Law and Justice Committee voted it down 7-3.",
+    "Democrats still disagree on private dispensaries versus a state-store model, and on social equity, expungement and tax design."
+  ],
+  "body": [
+    "Pennsylvania, the largest state in the Northeast without legal adult-use cannabis, looks set to get a legislature that will pass it. Democrats flipped the state Senate in the 3 November midterms while holding the House, and Gov. Josh Shapiro won re-election. When the new session opens in January, the party will control the governor's office and both chambers for the first time in decades.",
+    "That matters because the Senate has been the wall. The House passed an adult-use bill in 2025, and Shapiro has written cannabis revenue into his budget proposals, but every bill stalled in a Republican-led Senate. That obstacle is now gone, although the details of a Pennsylvania market are far from settled.",
+    "## How the Senate flipped",
+    "Republicans went into the election holding the Senate 27-23. According to The Marijuana Herald, Democrats flipped four Republican seats, including those held by Sens. Frank Farry, Jarrett Coleman, Tracy Pennycuick and Rosemary Brown, while appearing likely to lose Sen. James Malone's seat in Lancaster County. That would leave a 26-24 Democratic majority. WHYY reported that Eileen Hartnett Albillar beat Farry in the 6th District, one of several suburban Philadelphia contests that decided control.",
+    "WHYY said Republicans had held the Senate since 1978, apart from a brief 25-25 tie in 1993 created by a party switch. Votes were still being counted in some races on 4 November, and Democratic leaders described themselves as confident rather than certain of the final margin. In the House, Democrats entered the election with a 103-100 majority and say they retained it.",
+    "Shapiro beat Republican state Treasurer Stacy Garrity, who had pledged to veto any legalization bill. Her running mate had called legalization potentially catastrophic for the state. Shapiro did not mention cannabis in his victory statement, listing the minimum wage, transit and reproductive rights instead, but he has long backed adult-use sales.",
+    "> Pennsylvania's question has changed from whether to legalize to who gets to sell: private dispensaries, state stores, or some mix.",
+    "## The bills already on the table",
+    "Lawmakers are not starting from scratch. In May 2025 the House approved House Bill 1200 by a single vote, 102-101. It would legalize cannabis for adults 21 and over and set up a state-regulated retail system with licensing, taxes and expungement. The Senate's Law and Justice Committee then rejected it 7-3.",
+    "The leading Senate vehicle is SB 120, a bipartisan bill from Sen. Sharif Street (D) and Sen. Dan Laughlin (R). It would let adults possess up to 30 grams of flower, 1,000 milligrams of THC in edibles and 5 grams of concentrate, create an expungement process and add an 8 percent excise tax on top of the 6 percent state sales tax. Laughlin, who chairs the Law and Justice Committee, never called it up, instead pushing a separate bill to create a Cannabis Control Board for medical marijuana and hemp. That measure failed on the Senate floor in June.",
+    "Current Majority Leader Joe Pittman (R) has argued the state should not legalize without further federal changes. Under the new majority, Democrats will decide which bills get committee hearings and floor votes.",
+    "## The fights that remain",
+    "A trifecta does not make the bill write itself. Writing in The Conversation, political scientist Daniel Mallinson noted that Democrats have sponsored competing proposals on whether sales should run through private dispensaries or through state-run stores modelled on Pennsylvania's liquor system. Social equity licensing, expungement scope and community reinvestment are also unresolved, even among supporters.",
+    "Advocates are setting a deadline anyway. Monica McCafferty of ResponsiblePA told Marijuana Moment that 2027 is the year the state gets it done, and Michael Bronstein, the Pennsylvania-based president of the American Trade Association for Cannabis and Hemp, said legalization has never been closer.",
+    "## Why operators care",
+    "Pennsylvania legalized medical marijuana in 2016, with dispensary sales starting in 2018, so a licensed industry already exists. It is now surrounded by adult-use markets in New York, New Jersey, Maryland, Delaware and Ohio, which collect tax from Pennsylvanians who cross state lines. Large operators are already building there: Green Thumb Industries said in its third-quarter results that it opened RISE dispensaries in Hanover, West Mifflin and Allentown. How the state treats existing medical licensees, and whether a state-store model squeezes them out of retail, will decide who captures the conversion.",
+    "## What to watch",
+    "Watch the final count in the remaining Senate races, Democratic leadership and committee assignments for the January session, and whether Shapiro's next budget proposal again books cannabis revenue. The biggest signal will be which bill the new Senate leadership moves first: SB 120's private-market model or a state-store alternative."
+  ],
+  "sources": [
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/pennsylvania-is-teed-up-to-finally-legalize-marijuana-as-democrats-claim-majority-in-state-senate/"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/pennsylvania-democrats-marijuana-legalization/"},
+    {"name": "WHYY", "url": "https://whyy.org/articles/pennsylvania-democrats-trifecta/"},
+    {"name": "The Conversation", "url": "https://theconversation.com/pennsylvania-democrats-now-have-power-to-push-forward-on-election-reform-marijuana-legalization-and-minimum-wage-increases-295731"},
+    {"name": "Green Thumb Industries Q3 2026 results (via Stock Titan)", "url": "https://www.stocktitan.net/sec-filings/GTBIF/8-k-green-thumb-industries-inc-reports-material-event-46c449b99b8e.html"}
+  ],
+  "visual": {
+    "motif": "ballot",
+    "big": "26-24",
+    "label": "projected Democratic Senate majority"
+  },
+  "banner": {
+    "title": "Pennsylvania Flips The Senate",
+    "highlight": ["PENNSYLVANIA"],
+    "sub": "Gov. Josh Shapiro gets a trifecta; legalization is next",
+    "divider": "State desk",
+    "points": [
+      {"icon": "ballot", "text": "Senate 26-24 projected"},
+      {"icon": "doc", "text": "SB 120 on the table"},
+      {"icon": "coin", "text": "8% excise proposed"}
+    ],
+    "corner": ["STATES", "VOTE", "ADULT-USE", "2027"]
+  },
+  "tags": ["Pennsylvania", "Legalization", "Midterms 2026", "Green Thumb"],
+  "image_prompt": "The steps of a state capitol in Harrisburg-style beaux-arts architecture on a grey November morning, wet stone, a few out-of-focus figures with umbrellas at the bottom of the frame.",
+  "image_alt": "Wet capitol steps on a grey November morning",
+  "x_post": "Pennsylvania Democrats flipped the state Senate and are on track for 26-24. With Gov. Shapiro re-elected, the chamber that blocked adult-use cannabis is gone. The fight now is over how to sell it.",
+  "breaking": false
+}

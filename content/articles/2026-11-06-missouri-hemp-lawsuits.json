@@ -1,0 +1,70 @@
+{
+  "id": "missouri-hemp-lawsuits",
+  "edition": "2026-11-06-pm",
+  "rank": 5,
+  "published": "2026-11-06T17:19:39+02:00",
+  "cat": "Hemp",
+  "headline": "Missouri sues four hemp shops as THC law nears 12 November start",
+  "dek": "Attorney General Catherine Hanaway says the stores sold marijuana labelled as hemp; a federal judge has dismissed the industry's challenge to House Bill 2641.",
+  "key_points": [
+    "Missouri's attorney general sued four retailers on 4 November, alleging they sold marijuana as hemp and posed as licensed dispensaries.",
+    "One product labelled at 0.28% delta-9 THC tested at 4%, according to the state's lawsuit.",
+    "A federal judge dismissed the hemp industry's challenge to House Bill 2641 the same day, finding the law had not yet taken effect; it starts on 12 November.",
+    "The suits land as Illinois leaders and alcohol lobbyists press Congress to let the federal hemp THC ban take effect on 11 December without further delay."
+  ],
+  "body": [
+    "Missouri has opened its campaign against intoxicating hemp a week before its new law takes effect. Attorney General Catherine Hanaway announced civil lawsuits on 4 November against four retailers she accuses of selling marijuana disguised as legal hemp and of presenting themselves as state-licensed dispensaries. On the same day, a federal judge dismissed the hemp industry's lawsuit against House Bill 2641, the state law that closes Missouri's hemp loophole on 12 November.",
+    "Hanaway told the Missouri Independent she did not need the new law to act against shops selling THCA flower, and promised more cases once it is in force, saying the law will be stronger and easier to enforce.",
+    "## The four stores",
+    "The suits target Puffers Choice in Aurora, CBD Kratom Cannabis Dispensary in Des Peres, Herb Depot in Independence and Token THC Dispensary in Rock Port. According to the state, each marketed products as federally legal industrial hemp while lab tests showed THC levels high enough to make them marijuana under state and federal law, which caps hemp at 0.3% delta-9 THC on a dry-weight basis.",
+    "The Des Peres case shows the state's method. The Independent reported that investigators made undercover purchases of two hemp flower products on 8 October and sent them to a state-licensed lab. One package listed delta-9 THC at 0.28%; the lab found 4%, more than ten times the limit. In the Herb Depot case, filed in Jackson County, the state says the shop has no license from the Department of Health and Senior Services but displayed prominent cannabis dispensary signage and ran an online store for pickup orders.",
+    "The state is seeking civil penalties, injunctions and restitution, and in three of the cases it wants the stores declared drug-den public nuisances. The petitions accuse the shops of designing their stores so customers could not tell an unregulated hemp shop from a licensed dispensary. The defendants' responses have not been reported.",
+    "> Missouri is not waiting for Washington. It is using consumer-protection law to treat THCA flower as what lab tests say it is.",
+    "## The challenge that failed, for now",
+    "The federal case was brought in July by the Missouri Hemp Trade Association, St. Louis-based MNG 2005, the parent of 55 CBD Kratom stores nationwide, and Wisconsin hemp company Lifted Liquids. They argued the law creates overlapping definitions under which a product can be legal hemp in one part of state law and illegal marijuana in another, and that it conflicts with federal hemp rules.",
+    "Judge M. Douglas Harpool of the Western District of Missouri dismissed the case on 4 November. The Independent reported that he found the law had not yet taken effect and that its application to the plaintiffs remained uncertain. The attorney general's office described the ruling as a rejection of the preemption and constitutional claims. Because the dismissal rested at least partly on timing, the industry may try again once the law is being enforced.",
+    "## What changes on 12 November",
+    "Under HB 2641, products with more than 0.3% total THC, including THCA, generally fall outside Missouri's definition of hemp. Finished hemp-derived cannabinoid products are limited to 0.4 milligrams of THC per container, and intoxicating products above the limits may only be sold through the state's licensed marijuana system. Until now, smoke shops have sold hemp products with as much as 1,000 milligrams of THC outside that system, the Independent reported. Missouri had debated similar bills since 2023 without passing one.",
+    "## The federal clock",
+    "Missouri's rules mirror the federal change that Congress passed last year. Under a funding bill signed in September, the federal ban on most intoxicating hemp products takes effect on 11 December, while synthetic cannabinoids that the cannabis plant cannot produce naturally lose hemp status on 12 November.",
+    "Pressure to keep that date is building. Illinois Gov. JB Pritzker, Lt. Gov. and Sen.-elect Juliana Stratton and Sen. Tammy Duckworth published a Day One agenda for the new Congress on 4 November that tells lawmakers to let the ban take effect and not to regulate or legalize intoxicating hemp, Marijuana Moment reported. Politico has reported that lobbyists for alcohol companies, including Anheuser-Busch, Molson Coors and Diageo, urged state attorneys general to press Congress not to reverse course, and former DEA Administrator Asa Hutchinson wrote an op-ed against further delay. Illinois's own state-level restrictions, which we covered on 6 November, follow the same 0.4-milligram line.",
+    "## What to watch",
+    "Missouri's law takes effect on 12 November, the same day the federal synthetic-cannabinoid carve-out applies. Watch for the further lawsuits Hanaway has promised, any renewed challenge by the hemp trade association once enforcement begins, and whether the new Congress moves to delay or rewrite the federal ban before 11 December."
+  ],
+  "sources": [
+    {"name": "Missouri Independent", "url": "https://missouriindependent.com/2026/11/06/missouri-ag-promises-more-lawsuits-against-retailers-selling-illegal-marijuana"},
+    {"name": "KCTV5", "url": "https://www.kctv5.com/2026/11/05/missouri-ag-sues-4-retailers-including-independence-shop-over-alleged-marijuana-as-hemp-sales/"},
+    {"name": "KY3", "url": "https://www.ky3.com/2026/11/04/missouri-attorney-general-sues-lawrence-county-retailer-3-others-over-unregulated-thc-products-defeats-federal-court-challenge/"},
+    {"name": "MJBizDaily", "url": "https://mjbizdaily.com/news/missouri-ag-sues-retailers-over-alleged-marijuana-as-hemp-sales/619102/"},
+    {"name": "Marijuana Moment (Illinois agenda)", "url": "https://www.marijuanamoment.net/illinois-governor-and-us-senator-push-for-federal-hemp-thc-product-ban-to-take-effect-without-further-delay/"},
+    {"name": "Marijuana Moment (newsletter, 6 November)", "url": "https://marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/06/hemp-cliff/"}
+  ],
+  "visual": {
+    "motif": "calendar",
+    "big": "4%",
+    "label": "THC found in flower labelled 0.28%",
+    "mon": "NOV",
+    "day": "12"
+  },
+  "banner": {
+    "title": "Missouri Sues Hemp Shops",
+    "highlight": ["MISSOURI"],
+    "sub": "AG Catherine Hanaway targets marijuana sold as hemp",
+    "divider": "Hemp desk",
+    "points": [
+      {"icon": "gavel", "text": "4 retailers sued"},
+      {"icon": "flask", "text": "0.28% label, 4% tested"},
+      {"icon": "doc", "text": "HB 2641 starts 12 Nov"}
+    ],
+    "corner": ["HEMP", "THCA", "ENFORCEMENT", "MISSOURI"]
+  },
+  "watch": [
+    {"date": "2026-11-12", "text": "Missouri's House Bill 2641 takes effect; federal synthetic-cannabinoid carve-out applies"},
+    {"date": "2026-12-11", "text": "Federal ban on most intoxicating hemp THC products takes effect"}
+  ],
+  "tags": ["Missouri", "Hemp", "Hemp-derived THC", "Total THC", "Courts", "Illinois"],
+  "image_prompt": "A small roadside smoke shop at night in a rural Midwestern town, window glass reflecting a parking lot under a sodium streetlight, display shelves blurred inside, no readable signs.",
+  "image_alt": "Roadside shop window at night in a small Midwestern town",
+  "breaking": false
+}

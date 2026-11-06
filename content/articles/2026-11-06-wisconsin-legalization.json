@@ -1,0 +1,66 @@
+{
+  "id": "wisconsin-legalization",
+  "edition": "2026-11-06-pm",
+  "rank": 4,
+  "published": "2026-11-06T17:19:39+02:00",
+  "cat": "States",
+  "headline": "Wisconsin Democrats pledge to legalize cannabis within two years",
+  "dek": "With a new trifecta and Gov.-elect David Crowley, Wisconsin leaders target legal sales, while Iowa's governor-elect and Texas Democrats reopen the debate too.",
+  "key_points": [
+    "Incoming Assembly Speaker Greta Neubauer says Wisconsin will legalize marijuana within one to two years now that Democrats control the legislature and governorship.",
+    "Gov.-elect David Crowley has put potential tax revenue at $80 million to $170 million a year and wants it spent on health care and education.",
+    "Lawmakers say any framework should favour homegrown businesses and include expungement; the session begins on 4 January 2027.",
+    "Iowa Gov.-elect Rob Sand backs legalization to help the state budget, and advocates say Texas results improve the odds for marijuana and hemp reform."
+  ],
+  "body": [
+    "Wisconsin, where neither medical nor adult-use marijuana is legal, now has a government that says it will create one. Democrats won majorities in both chambers of the legislature on 3 November and elected David Crowley as governor, giving the party its first trifecta in the state since Republicans took full control in 2010.",
+    "The incoming leadership did not wait long to name cannabis as a priority. Rep. Greta Neubauer, the Assembly minority leader expected to become speaker, told WKOW-TV that Democrats intend to legalize marijuana in the coming year to two years, and that they hope to raise revenue from it.",
+    "## An island of prohibition",
+    "Wisconsin sits next to three adult-use states: Illinois, Michigan and Minnesota. Sen. Mark Spreitzer, chair of the Senate Democratic Caucus, told WISN-TV he represents Beloit, where Illinois dispensaries operate a few miles from his house, and that Wisconsin tax money is crossing the border. Sen. Chris Larson of Milwaukee put the loss at $40 million.",
+    "The state's own numbers are larger. A legislative analysis estimated that Wisconsin residents spent more than $121 million on cannabis in Illinois alone in 2022, generating $36 million in tax revenue for that state, according to Marijuana Moment. A 2023 Department of Revenue estimate projected that a legalization bill would raise nearly $170 million a year. Crowley said at a debate last month that full legalization could bring in $80 million to $170 million, money he wants for health care and, in other remarks, free pre-kindergarten.",
+    "Public support is not the obstacle. A Marquette Law School poll last year found two in three Wisconsin voters back legalization. The barrier has been the Republican legislature, which blocked outgoing Gov. Tony Evers's repeated proposals for adult-use and medical cannabis. In the 2026 session, a broad legalization bill and a bipartisan decriminalization bill both stalled, and a limited medical bill cleared one committee but went no further.",
+    "> Wisconsin's leaders are promising a market built for local businesses. The neighbours they want to compete with already have years of head start.",
+    "## What kind of market",
+    "Early comments sketch the outline of a bill. Larson said the framework needs clear rules on labelling, age limits and impaired driving, and should favour homegrown businesses rather than operators arriving from states that legalized earlier. He also wants an amnesty provision to clear records for past low-level possession, as Illinois did. Crowley has said he wants guardrails to protect children and ensure accurate labelling.",
+    "There is advice from next door, too. Illinois Rep. Kelly Cassidy, who helped write that state's law, told WISN that overtaxing cannabis could be a mistake and that she would not repeat Illinois's very high tax rates.",
+    "Wisconsin's hemp industry wants to be part of the conversation. Erin Kelly, owner of Wauwatosa-based Kelly's Greens, told WISN that saving hemp businesses from the looming federal ban on intoxicating hemp products must come first, since building a full adult-use program can take years.",
+    "## Not the only priority",
+    "Control of all three branches does not guarantee speed. Marquette pollster Charles Franklin told WKOW that competition among Democratic priorities is likely to be significant, with tax relief, school funding and health care all competing for the budget. Sen. Jamie Wall of Green Bay told WBAY he expects marijuana to be legalized and taxed fairly soon, but said his top priority is the cost of living and property taxes.",
+    "## Iowa and Texas also shift",
+    "The midterms moved the debate in other holdout states. Iowa Gov.-elect Rob Sand, a Democrat, wants to legalize marijuana and use the revenue to address the state's budget problems, arguing reform would also make law enforcement's job easier, Marijuana Moment reported. In Texas, where Democrats won the races for governor and lieutenant governor and a House majority, advocates say the odds for marijuana and hemp THC reform have improved. Sen.-elect James Talarico (D-TX) has also said he agrees with President Trump on the need to legalize marijuana.",
+    "## What to watch",
+    "Wisconsin's new legislative session begins on 4 January 2027. Watch for Democratic leadership elections, which bill becomes the main vehicle, how it treats existing hemp businesses after the federal ban takes effect on 11 December, and whether Crowley books cannabis revenue in his first budget."
+  ],
+  "sources": [
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/top-wisconsin-lawmakers-say-the-state-will-legalize-marijuana-under-new-democratic-control/"},
+    {"name": "WKOW", "url": "https://www.wkow.com/news/state/wisconsin-democrats-win-control-of-legislature-with-plans-to-cut-costs-and-legalize-marijuana/article_03cc3927-976b-485a-b894-499613913e50.html"},
+    {"name": "WISN", "url": "https://www.wisn.com/article/wisconsin-legislature-shift-could-lead-to-marijuana-legalization/74338557"},
+    {"name": "WBAY", "url": "https://www.wbay.com/2026/11/06/democrats-discuss-legislative-agenda-with-first-state-trifecta-since-2010/"},
+    {"name": "Marijuana Moment (newsletter, 5 November)", "url": "https://www.marijuanamoment.net/federal-cannabis-reform-gets-democratic-boost-newsletter-november-5-2026/"},
+    {"name": "Marijuana Moment (newsletter, 6 November)", "url": "https://marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"}
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$170M",
+    "label": "projected yearly tax revenue (2023 estimate)"
+  },
+  "banner": {
+    "title": "Wisconsin Eyes Legal Cannabis",
+    "highlight": ["WISCONSIN"],
+    "sub": "Gov.-elect David Crowley and a new Democratic legislature",
+    "divider": "State desk",
+    "points": [
+      {"icon": "ballot", "text": "Democratic trifecta"},
+      {"icon": "coin", "text": "Up to $170M a year"},
+      {"icon": "pin", "text": "Iowa and Texas shift too"}
+    ],
+    "corner": ["STATES", "MIDWEST", "ADULT-USE", "2027"]
+  },
+  "watch": [
+    {"date": "2027-01-04", "text": "Wisconsin's new legislative session begins under Democratic control"}
+  ],
+  "tags": ["Wisconsin", "Legalization", "Midterms 2026", "Iowa", "Texas", "Illinois"],
+  "image_prompt": "A two-lane rural highway at the Wisconsin-Illinois state line at dusk, flat farmland on both sides, a lone car's tail lights in the distance, no signs readable.",
+  "image_alt": "Rural highway crossing flat farmland at dusk",
+  "breaking": false
+}

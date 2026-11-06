@@ -1,0 +1,99 @@
+{
+  "id": "eu-cbd-organic",
+  "edition": "2026-11-06-pm",
+  "rank": 6,
+  "published": "2026-11-06T17:19:39+02:00",
+  "cat": "Europe",
+  "headline": "EU top court rules CBD foods cannot carry the organic label",
+  "dek": "The Court of Justice says CBD edibles need EU novel-food authorisation before organic certification, a loss for France's hemp trade group and CBD food sellers.",
+  "key_points": [
+    "The Court of Justice of the EU ruled on 5 November that CBD food products cannot be certified organic until CBD is authorised for sale as a novel food.",
+    "The court accepted that CBD counts as a processed agricultural food product, but said organic status cannot be separated from the rules on placing food on the market.",
+    "The ban also covers CBD foods made in the EU for export to non-EU countries.",
+    "No CBD product has full EU novel-food authorisation, so the ruling closes the organic route for CBD edibles for now."
+  ],
+  "body": [
+    "Europe's highest court has shut one of the few marketing routes left to CBD food makers. In a judgment delivered on 5 November in Case C-495/25, the Court of Justice of the European Union ruled that food products containing cannabidiol cannot be certified as organic as long as CBD has not been authorised for sale in the EU as a novel food.",
+    "The case was brought by France's Professional Hemp Trade Association, the Syndicat professionnel du chanvre. It lost on the central point: meeting organic production standards does not make a product eligible for the organic label if the product itself is not cleared for the market.",
+    "## How the case got to Luxembourg",
+    "France's National Institute for Origin and Quality (INAO) told organic certification bodies that products based on natural CBD, apart from hemp oil not enriched with CBD, and foods enriched with CBD could not be certified organic. It added that CBD could not be an ingredient in certified organic food. The hemp association challenged that position before France's Council of State, which asked the Court of Justice to interpret the EU organic production regulation.",
+    "The European Commission treats CBD as a novel food, meaning a food not consumed to a significant degree in the EU before 15 May 1997, and novel foods need authorisation before they can be sold. CBD has not received that authorisation. According to Forbes, no CBD product had full EU novel-food approval as of 2026.",
+    "## What the court decided",
+    "The court gave the hemp sector a partial win on definitions. It found that CBD, extracted from hemp, can fall within the category of processed agricultural products for use as food, and that this category covers any product intended or reasonably likely to be eaten, including novel foods whether or not they are authorised.",
+    "But it then tied organic certification to market access. The organic label promotes a product and, in the court's words, conveys a positive image of quality and approval to consumers. Certifying a product that has not been authorised could therefore undermine the protection of health and consumer interests. Authorisation of a novel food implies that it poses no safety risk on current evidence, that its intended use does not mislead consumers, and that it is not nutritionally worse than what it replaces.",
+    "The court also closed an export route. Its reasoning applies even where unauthorised products are made in the EU for sale in third countries, because such sales could damage the reputation of the certification. DW noted that the court did not say CBD is unsafe; it said only that the label cannot come before the authorisation.",
+    "> For EU CBD food brands, the path to an organic label now runs through the novel-food queue, and nobody has come out the other side yet.",
+    "## The Advocate General's harder line",
+    "The judgment follows the direction of the Advocate General's opinion in the case, which was blunt about the industry. The opinion said authorisation is neither automatic nor just a matter of time, and that certifying products pending a hypothetical approval would be meaningless. It also observed that some CBD food products were not withdrawn after CBD was classified as a novel food, but were relabelled as cosmetics or collectibles, and warned that an organic label would add to the confusion.",
+    "## What it means for the market",
+    "The practical effect is narrow but real. Organic certification is one of the few premium signals available to CBD food brands, which already operate in a grey zone while their core ingredient awaits authorisation. The ruling removes that signal across the EU until authorisation arrives, and it confirms that the novel-food process, rather than national certification bodies, is the gate. Hemp oil that has not been enriched with CBD was outside the dispute and remains eligible under the French approach.",
+    "POLITICO Europe noted that the judgment is consistent with measures already taken at national level, so for many sellers it confirms existing practice rather than changing it overnight. The new element is that the answer now comes from the EU's top court, which leaves little room to argue the point certifier by certifier.",
+    "## What to watch",
+    "The case now returns to France's Council of State, which must decide the dispute in line with the Luxembourg ruling. The bigger signal for the industry will be any progress on CBD novel-food authorisation at EU level. Because the ruling interprets an EU regulation, certification bodies in every member state are bound by the same reading until an authorisation is granted."
+  ],
+  "sources": [
+    {
+      "name": "Court of Justice of the EU (press release 159/26)",
+      "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260159en.pdf"
+    },
+    {
+      "name": "Advocate General's opinion, Case C-495/25 (EUR-Lex)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A62025CC0495"
+    },
+    {
+      "name": "POLITICO Europe",
+      "url": "https://www.politico.eu/article/cbd-edibles-cant-be-labeled-organic-says-eu-court/"
+    },
+    {
+      "name": "DW",
+      "url": "https://www.dw.com/en/eu-court-says-cbd-foods-need-approval-for-sale-before-they-can-be-certified-organic/a-79865773"
+    },
+    {
+      "name": "Forbes",
+      "url": "https://www.forbes.com/sites/dariosabaghi/2026/11/05/eu-court-rules-unauthorized-cbd-foods-cannot-be-certified-organic/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "0",
+    "label": "CBD foods with full EU novel-food approval"
+  },
+  "banner": {
+    "title": "No Organic Label For CBD",
+    "highlight": [
+      "ORGANIC"
+    ],
+    "sub": "EU Court of Justice: novel-food approval comes first",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Case C-495/25"
+      },
+      {
+        "icon": "leaf",
+        "text": "CBD edibles not organic"
+      },
+      {
+        "icon": "globe",
+        "text": "Exports covered too"
+      }
+    ],
+    "corner": [
+      "EUROPE",
+      "CBD",
+      "FOOD",
+      "COURTS"
+    ]
+  },
+  "tags": [
+    "Europe",
+    "CBD",
+    "Courts",
+    "France",
+    "Novel food"
+  ],
+  "image_prompt": "Shelves of an organic grocery shop in a French town, glass jars of hemp seeds and small unlabeled tincture bottles on a wooden shelf, soft daylight from a window.",
+  "image_alt": "Hemp seeds and small bottles on an organic shop shelf",
+  "breaking": false
+}
