@@ -107,8 +107,8 @@ def render(ad, placement="article"):
     house = ad.get("advertiser") in HOUSE
     who = "MetaFlora" if house else escape(ad["advertiser"])
     shape = ad.get("shape", "wide")
-    head = (f'<aside class="ad ad-{placement} ad-{shape}" aria-label="Advertisement" data-ad="{escape(ad["id"])}">'
-            f'<div class="ad-label">Advertisement · {who}</div>')
+    head = (f'<aside class="mfp mfp-{placement} mfp-{shape}" aria-label="MetaFlora promotion" data-mfp="{escape(ad["id"])}">'
+            f'<div class="mfp-label">Advertisement · {who}</div>')
     if ad.get("format") == "native":
         card = placement in CARD_SLOTS
         body = ad.get("card_body") if card and ad.get("card_body") else ad["body"]
@@ -116,16 +116,16 @@ def render(ad, placement="article"):
                 f'<span class="nad-b">{escape(body)}</span><span class="nad-cta">{escape(ad["cta"])}</span></span>')
         art = f'<span class="nad-art" aria-hidden="true">{native_art(ad, card)}</span>'
         return (f'{head}<a class="nad {"nad-card" if card else "nad-wide"}" href="{escape(ad["url"])}"{_rel(ad)} '
-                f'data-ad-click="{escape(ad["id"])}">{copy}{art}</a></aside>')
+                f'data-mfp-id="{escape(ad["id"])}">{copy}{art}</a></aside>')
     if ad.get("format") == "creative":
         size = f' width="{int(ad["width"])}" height="{int(ad["height"])}"' if ad.get("width") and ad.get("height") else ""
-        return (f'{head}<a class="ad-creative" href="{escape(ad["url"])}"{_rel(ad)} data-ad-click="{escape(ad["id"])}">'
+        return (f'{head}<a class="mfp-creative" href="{escape(ad["url"])}"{_rel(ad)} data-mfp-id="{escape(ad["id"])}">'
                 f'<img src="/assets/{escape(ad["image"])}" alt="{escape(ad.get("alt", ""))}"{size} loading="lazy" decoding="async"></a></aside>')
     img = f'<img src="/assets/{escape(ad["image"])}" alt="" width="440" height="340" loading="lazy">' if ad.get("image") else ""
     return f"""{head}
-  <a class="ad-unit" href="{escape(ad['url'])}"{_rel(ad)} data-ad-click="{escape(ad['id'])}">
-    <span class="ad-copy"><span class="ad-title">{escape(ad['title'])}</span><span class="ad-text">{escape(ad['body'])}</span><span class="ad-cta">{escape(ad['cta'])}</span></span>
-    <span class="ad-art">{img}</span>
+  <a class="mfp-unit" href="{escape(ad['url'])}"{_rel(ad)} data-mfp-id="{escape(ad['id'])}">
+    <span class="mfp-copy"><span class="mfp-title">{escape(ad['title'])}</span><span class="mfp-text">{escape(ad['body'])}</span><span class="mfp-cta">{escape(ad['cta'])}</span></span>
+    <span class="mfp-art">{img}</span>
   </a>
 </aside>"""
 
