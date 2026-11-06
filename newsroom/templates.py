@@ -2,10 +2,15 @@
 import json
 import re
 from datetime import datetime
+import hashlib
 from html import escape
+from pathlib import Path
 from urllib.parse import quote
 
 from covers import plate_svg
+
+# Content hash of the stylesheet: the link changes whenever the CSS does, so browsers never mix new pages with old styles.
+CSS_VERSION = hashlib.sha256((Path(__file__).parent / "site.css").read_bytes()).hexdigest()[:10]
 
 SITE = "https://news.metaflora.xyz"
 NAME = "MetaFlora News"
@@ -58,7 +63,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v={CSS_VERSION}">
 {extra_head}
 </head>
 <body>
