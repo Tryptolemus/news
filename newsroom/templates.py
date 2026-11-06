@@ -201,11 +201,15 @@ def watch_items(arts, today):
     return sorted(out, key=lambda x: x[0])[:5]
 
 
+def dl(top, sub=""):
+    """Masthead dateline: a date line, and an optional small-caps line under it."""
+    return f'<span class="dl-top">{escape(top)}</span><span class="dl-sub">{escape(sub)}</span>'
+
+
 def dateline_for(ed, latest):
     d, half = ed.rsplit("-", 1)
     dt = datetime.fromisoformat(d)
-    pub = max(a["_dt"] for a in latest)
-    return f'{dt:%A} {dt.day} {dt:%B %Y} · {"Morning" if half == "am" else "Evening"} Edition · {pub:%H:%M} EET'
+    return dl(f"{dt:%A} {dt.day} {dt:%B %Y}", f'{"Morning" if half == "am" else "Evening"} edition')
 
 
 # ---------- pages ----------
@@ -388,7 +392,7 @@ def build_article(a, arts):
     extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
     ctx["write"](a["_path"].strip("/") + "/index.html",
                  page(a["headline"], body, desc=a["dek"], path=a["_path"], og_image=f"{SITE}/og/{a['id']}.png", kind="article",
-                      extra_head=extra, active=a["cat"], dateline=f'{a["_dt"]:%A} {a["_dt"].day} {a["_dt"]:%B %Y}'))
+                      extra_head=extra, active=a["cat"], dateline=dl(f'{a["_dt"]:%A} {a["_dt"].day} {a["_dt"]:%B %Y}', f'{"Morning" if a["edition"].endswith("am") else "Evening"} edition')))
 
 
 def build_sections(arts):

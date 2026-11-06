@@ -27,7 +27,10 @@ p{margin:0}
 /* masthead */
 .masthead{border-bottom:1px solid var(--rule)}
 .mast-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;padding-block:22px 18px}
-.mast-date{font-family:var(--mono);font-size:11.5px;color:var(--meta);letter-spacing:.02em}
+.mast-date{display:grid;gap:4px;font-family:var(--sans);line-height:1.2}
+.dl-top{font-size:13px;font-weight:600;color:var(--dek)}
+.dl-sub{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
+.dl-sub:empty{display:none}
 .mast-cta{justify-self:end}
 /* nameplate (design board option C): cube + METAFLORA, NEWS on a ruled line beneath */
 .wordmark{display:inline-flex;flex-direction:column;align-items:stretch;gap:8px;min-height:44px;white-space:nowrap}
@@ -222,8 +225,12 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 @media (max-width:760px){
   body{font-size:17px}
   .wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-  .mast-row{grid-template-columns:1fr auto;padding-block:14px 12px}
-  .mast-date{grid-column:1/-1;order:3;font-size:10.5px}
+  .mast-row{grid-template-columns:1fr auto 1fr;padding-block:14px 12px;row-gap:10px}
+  .mast-row .wordmark{grid-column:2;grid-row:1}
+  .mast-cta{grid-column:3;grid-row:1}
+  .mast-date{grid-column:1/-1;grid-row:2;display:flex;justify-content:center;align-items:baseline;gap:8px}
+  .dl-top{font-size:12px}
+  .dl-sub:not(:empty)::before{content:"·";margin-right:8px}
   .wordmark{gap:6px} .wm-top{gap:9px} .wordmark img{height:28px} .wm-text{font-size:26px} .wm-news{font-size:9.5px;gap:10px;margin-inline:0}
   .nav-row{justify-content:flex-start;gap:22px;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}
   .front-top{grid-template-columns:1fr;margin-top:16px}

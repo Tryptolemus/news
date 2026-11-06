@@ -202,7 +202,7 @@ def build_stocks(arts, m):
             {"@type": "ListItem", "position": 3, "name": f'{r["name"]} ({r["sym"]})', "item": T.SITE + path}]}
         extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
         T.ctx["write"](f"stocks/{sym}/index.html", T.page(title, body, desc=desc, path=path, extra_head=extra, active="Stocks",
-                                                         dateline=f"Cannabis stocks · close {short(r['date'])}"))
+                                                         dateline=T.dl("Cannabis stocks", f"Close {short(r['date'])}")))
         out.append((path, r["date"]))
     asof = max(r["date"] for r in rows)
     ranked = sorted([x for x in rows if x["sym"] != "MSOS"], key=lambda x: x["chg"], reverse=True)
@@ -218,6 +218,6 @@ def build_stocks(arts, m):
     T.ctx["write"]("stocks/index.html", T.page("Cannabis stocks today", body, path="/stocks/", active="Stocks",
                                                desc=f"Cannabis stocks today: closing prices, daily and year-to-date moves for {len(ranked)} cannabis companies and the MSOS ETF, with charts and news.",
                                                extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>',
-                                               dateline=f"Cannabis stocks · close {short(asof)}"))
+                                               dateline=T.dl("Cannabis stocks", f"Close {short(asof)}")))
     out.insert(0, ("/stocks/", asof))
     return out
