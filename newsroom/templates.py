@@ -95,7 +95,8 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <meta name="twitter:image" content="{img}">
 <meta name="twitter:image:alt" content="{escape(title)} · MetaFlora News">
 <meta name="theme-color" content="#131313">
-<link rel="icon" href="/assets/metaflora-white-logo-just-icon.png" type="image/png">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/assets/icons/icon-192.png" type="image/png" sizes="192x192">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">

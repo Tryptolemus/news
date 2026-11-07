@@ -112,6 +112,8 @@ def write_static(out, write):
         "prefer_related_applications": False,
     }
     write("manifest.webmanifest", json.dumps(manifest, indent=1))
+    ico = out / "favicon.ico"  # apps (WhatsApp included) often look for /favicon.ico first
+    Image.open(icons / "icon-192.png").convert("RGBA").save(ico, sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
     write("offline/index.html", OFFLINE_HTML)
     # One service worker for the app (offline page) and for alerts. Registered on every page by app.js.
     write("firebase-messaging-sw.js", SW_JS)
