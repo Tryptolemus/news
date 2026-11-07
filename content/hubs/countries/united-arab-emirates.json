@@ -1,0 +1,82 @@
+{
+  "id": "country/united-arab-emirates",
+  "type": "country",
+  "name": "United Arab Emirates",
+  "tags": [
+    "United Arab Emirates"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "none",
+    "decriminalized": "no"
+  },
+  "headline_status": "Cannabis is illegal in the UAE, and personal use can bring prison, heavy fines and deportation for foreigners.",
+  "summary": "The UAE's narcotics law, Federal Decree-Law No. 30 of 2021, punishes unauthorised personal drug use with at least three months in prison or a fine of AED 20,000 to 100,000, with harsher penalties for repeat offences and trafficking. Foreigners convicted must generally be deported. Since 2024 a Cabinet resolution sets administrative fines, and for repeat cases deportation and entry bans, for non-resident visitors caught with small quantities at entry points. Users who seek treatment before an arrest order can avoid prosecution.",
+  "facts": {
+    "penalties": {
+      "value": "Unauthorised personal use of scheduled drugs carries a minimum of three months in prison or a fine of AED 20,000 to 100,000; repeat offences raise the penalty, and trafficking can carry the death penalty in aggravated cases.",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "None.",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount; any unauthorised possession or use is an offence.",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Governed by Federal Decree-Law No. 30 of 2021 on narcotics and psychotropic substances, amended by Federal Decree-Law No. 53 of 2023.",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Cabinet Resolution No. 43 of 2024 lets non-resident visitors caught with small quantities at entry points be fined (from AED 5,000 for a first offence for some substances), with deportation and entry bans for repeat or more serious cases. Foreigners convicted in court must generally be deported.",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2021",
+      "event": "Federal Decree-Law No. 30 of 2021 replaces the 1995 narcotics law",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences"
+    },
+    {
+      "date": "2023",
+      "event": "Federal Decree-Law No. 53 of 2023 amends the narcotics law",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences"
+    },
+    {
+      "date": "2024",
+      "event": "Cabinet Resolution No. 43 sets administrative penalties for non-resident visitors caught with small amounts at entry points",
+      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Dubai or the UAE?",
+      "a": "No. Personal use is punishable by at least three months in prison or a fine of AED 20,000 to 100,000."
+    },
+    {
+      "q": "What happens to tourists caught with cannabis in the UAE?",
+      "a": "Non-resident visitors caught with small amounts at entry points can be fined under a 2024 Cabinet resolution, and repeat or serious cases bring deportation and entry bans. Foreigners convicted in court are generally deported."
+    },
+    {
+      "q": "Can drug users in the UAE avoid prosecution by seeking treatment?",
+      "a": "Yes, if the user, a relative or guardian requests treatment before an arrest order is issued and any drugs are handed over. Treatment lasts up to one year."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Mondaq (Al Khouri)",
+      "url": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "partial"
+}
