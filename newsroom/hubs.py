@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "content" / "hubs"
 SITE = T.SITE
 
-KIND_DIR = {"us_state": "states", "country": "countries", "explainer": "explainers", "glossary": "glossary"}
+KIND_DIR = {"us_state": "states", "country": "countries", "explainer": "explainers", "glossary": "glossary", "company": "companies"}
 FACT_LABELS = [
     ("adult_use_since", "Adult-use legal since"), ("retail_sales", "Retail sales"), ("purchase_age", "Minimum age"),
     ("possession_limit", "Possession limit"), ("home_grow", "Home grow"), ("public_use", "Public use"),
@@ -74,7 +74,7 @@ BY_TAG = {}        # tag (lower) -> hub
 def url_for(h):
     s = h["_slug"]
     return {"us_state": f"/legal/us/{s}/", "country": f"/legal/world/{s}/", "explainer": f"/explainers/{s}/",
-            "glossary": f"/glossary/{s}/"}[h["type"]]
+            "glossary": f"/glossary/{s}/", "company": f"/company/{s}/"}[h["type"]]
 
 
 def complete(h):
@@ -244,7 +244,7 @@ def covered_box(a):
     items = []
     for h in hubs:
         line = h.get("headline_status") or h.get("where_it_stands") or ""
-        kind = {"us_state": "State law", "country": "Country law", "explainer": "Explainer"}[h["type"]]
+        kind = {"us_state": "State law", "country": "Country law", "explainer": "Explainer", "company": "Company"}[h["type"]]
         items.append(f'<li><a href="{h["_url"]}"><span class="cv-k">{kind}</span><span class="cv-n">{escape(h["name"])}</span>'
                      f'<span class="cv-s">{escape(line)}</span></a></li>')
     return f'<aside class="covered"><h2>Covered in this story</h2><ul>{"".join(items)}</ul></aside>'
@@ -480,6 +480,7 @@ def jurisdiction_page(h, arts):
     <section class="hub-sec"><h2>Key facts</h2>{facts_table(h)}</section>
     {pending(h)}
     {related_explainers(h) if is_state else ""}
+    {operators_html(h)}
     {coverage_html(h, arts)}
     {timeline(h)}
     {f_html}
@@ -786,6 +787,8 @@ def build(arts):
             explainer_page(h, arts)
         elif h["type"] == "glossary":
             term_page(h, arts)
+        elif h["type"] == "company":
+            company_page(h, arts)
         else:
             jurisdiction_page(h, arts)
         if complete(h):
@@ -798,6 +801,9 @@ def build(arts):
     e = explainers_index()
     if e:
         urls.append(("/explainers/", e))
+    c = companies_index()
+    if c:
+        urls.append(("/company/", c))
     g = glossary_index()
     if g:
         urls.append(("/glossary/", g))
@@ -805,3 +811,130 @@ def build(arts):
         legal_index()
         urls.append(("/legal/", max(verified(h) for h in HUBS)))
     return urls
+
+
+# ---------- companies ----------
+
+STOCK_PAGES = {"MSOS", "CURLF", "GTBIF", "VRNO", "TLRY", "CGC", "SNDL", "OGI", "ACB"}
+
+
+def companies():
+    return sorted([h for h in HUBS if h["type"] == "company" and complete(h)], key=lambda h: h.get("short_name") or h["name"])
+
+
+def operators_html(h):
+    """On a state or country page: the tracked companies that operate there."""
+    key = "us_states" if h["type"] == "us_state" else "countries"
+    ops = [c for c in companies() if h["name"] in ((c.get("footprint") or {}).get(key) or [])]
+    if not ops:
+        return ""
+    lis = "".join(f'<li><a href="{c["_url"]}">{escape(c.get("short_name") or c["name"])}</a><span>{escape(c.get("segment", ""))}</span></li>' for c in ops)
+    return f'<section class="hub-sec"><h2>Cannabis companies operating in {escape(h["name"])}</h2><ul class="sib">{lis}</ul></section>'
+
+
+def _tickers(h):
+    out = []
+    for t in h.get("tickers") or []:
+        sym = t.get("symbol", "")
+        label = f'{escape(t.get("exchange", ""))}: {escape(sym)}'
+        out.append(f'<a href="/stocks/{sym.lower()}/">{label}</a>' if sym.upper() in STOCK_PAGES else label)
+    return " · ".join(out)
+
+
+def company_page(h, arts):
+    name = h.get("short_name") or h["name"]
+    crumbs = [("MetaFlora News", "/"), ("Cannabis companies", "/company/"), (name, h["_url"])]
+    title = f"{name}: company profile, results and news ({TITLE_YEAR})"
+    if len(title) > 60:
+        title = f"{name}: profile, results and news"
+    desc = clip(h.get("headline_status", ""), 155)
+    lr = h.get("latest_results") or {}
+    res_rows = "".join(f'<tr><th scope="row">{lbl}</th><td>{escape(str(lr[k]))}</td></tr>'
+                       for k, lbl in (("period", "Period"), ("revenue", "Revenue"), ("net_income", "Net income"), ("adj_ebitda", "Adjusted EBITDA")) if lr.get(k))
+    res = (f'<section class="hub-sec"><h2>Latest results</h2><table class="facts">{res_rows}</table>'
+           f'<p class="fact-src">{src_link(lr.get("source"), "Company filing")}{" · reported " + fmt_date(lr["date"]) if lr.get("date") else ""}</p></section>') if res_rows else ""
+    fp = h.get("footprint") or {}
+    st_by = {x["name"]: x for x in HUBS if x["type"] in ("us_state", "country") and complete(x)}
+    def chip(n):
+        x = st_by.get(n)
+        return f'<li><a href="{x["_url"]}">{escape(n)}</a></li>' if x else f"<li>{escape(n)}</li>"
+    foot = ""
+    if fp.get("us_states"):
+        foot += f'<h3 class="sub-h">US states ({len(fp["us_states"])})</h3><ul class="az-list">{"".join(chip(n) for n in fp["us_states"])}</ul>'
+    intl = [n for n in fp.get("countries") or [] if n != "United States"]
+    if intl:
+        foot += f'<h3 class="sub-h">Countries</h3><ul class="az-list">{"".join(chip(n) for n in intl)}</ul>'
+    foot = f'<section class="hub-sec"><h2>Where {escape(name)} operates</h2>{foot}</section>' if foot else ""
+    meta = [("Tickers", _tickers(h)), ("Headquarters", escape(h.get("hq", ""))), ("Founded", escape(str(h.get("founded", "")))),
+            ("Chief executive", escape(h.get("ceo", ""))), ("Website", f'<a href="{escape(h["website"])}" target="_blank" rel="noopener">{escape(h["website"].split("//")[-1].rstrip("/"))}</a>' if h.get("website") else "")]
+    meta_html = "".join(f'<div class="qa"><dt>{k}</dt><dd>{v}</dd></div>' for k, v in meta if v)
+    f_html, f_ld = faq(h)
+    body = f"""
+<article class="story hub">
+  <header class="story-head">
+    {crumbs_html(crumbs)}
+    <h1>{escape(name)}</h1>
+    <p class="dek hub-answer">{escape(h.get("headline_status", ""))}</p>
+    <dl class="quick-answers co-meta">{meta_html}</dl>
+    <p class="hub-by"><span>By <a href="/how-we-report/">MetaFlora News Desk</a></span> · Last verified <time datetime="{verified(h)}">{fmt_date(verified(h))}</time></p>
+  </header>
+  <div class="story-col">
+    <section class="hub-sec"><h2>About {escape(name)}</h2><p class="hub-summary">{escape(h.get("summary", ""))}</p></section>
+    {res}
+    {foot}
+    <section class="hub-sec"><h2>Key facts</h2>{facts_table(h)}</section>
+    {coverage_html(h, arts)}
+    {timeline(h)}
+    {f_html}
+    {company_sibs(h)}
+    {sources(h)}
+    <p class="hub-note">Last verified {fmt_date(verified(h))}. Company profile for news and reference only; not investment advice. Figures come from company filings and releases linked above.</p>
+  </div>
+</article>"""
+    org = {"@context": "https://schema.org", "@type": "Corporation", "name": h["name"], "alternateName": name, "url": h.get("website"),
+           "foundingDate": str(h.get("founded", "")) or None, "address": h.get("hq"),
+           "tickerSymbol": " ".join(f'{t.get("exchange")}: {t.get("symbol")}' for t in h.get("tickers") or []) or None}
+    org = {k: v for k, v in org.items() if v}
+    page_ld = {"@context": "https://schema.org", "@type": "ProfilePage", "name": title, "description": desc, "url": SITE + h["_url"],
+               "dateModified": verified(h), "publisher": T.PUBLISHER, "mainEntity": {k: v for k, v in org.items() if k != "@context"}}
+    extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (page_ld, crumbs_ld(crumbs), f_ld) if x)
+    T.ctx["write"](h["_url"].strip("/") + "/index.html",
+                   T.page(title, body, desc=desc, path=h["_url"], extra_head=extra, active="Stocks",
+                          robots=T.ROBOTS if complete(h) else "noindex, follow"))
+
+
+def company_sibs(h):
+    seg = h.get("segment", "")
+    others = [c for c in companies() if c is not h]
+    others.sort(key=lambda c: (("US" in seg) != ("US" in c.get("segment", "")), c.get("short_name") or c["name"]))
+    lis = "".join(f'<li><a href="{c["_url"]}">{escape(c.get("short_name") or c["name"])}</a><span>{escape(c.get("segment", ""))}</span></li>' for c in others[:8])
+    return f'<section class="hub-sec"><h2>Other cannabis companies</h2><ul class="sib">{lis}</ul><p class="more-link"><a href="/company/">All companies</a></p></section>' if lis else ""
+
+
+def companies_index():
+    cs = companies()
+    if not cs:
+        return None
+    rows = "".join(
+        f'<tr><td class="tr-name" data-label="Company"><a href="{c["_url"]}">{escape(c.get("short_name") or c["name"])}</a></td>'
+        f'<td data-label="Tickers">{_tickers(c)}</td><td data-label="Segment" class="tr-long">{escape(c.get("segment", ""))}</td>'
+        f'<td data-label="US states">{len((c.get("footprint") or {}).get("us_states") or []) or "–"}</td>'
+        f'<td data-label="Latest quarter" class="tr-long">{escape(clip((c.get("latest_results") or {}).get("period", "–"), 40))}</td></tr>'
+        for c in cs)
+    crumbs = [("MetaFlora News", "/"), ("Cannabis companies", "/company/")]
+    title = f"Cannabis companies: profiles, results and footprints ({TITLE_YEAR})"
+    desc = "Profiles of the major cannabis companies and US multi-state operators: tickers, latest results, the states they operate in and our latest coverage."
+    body = f"""
+<article class="story hub hub-wide">
+  <header class="story-head">{crumbs_html(crumbs)}<h1>Cannabis companies</h1>
+  <p class="dek hub-answer">The listed cannabis companies we cover most, with their latest results from filings and where they operate.</p>
+  <p class="hub-by"><span>MetaFlora News Desk</span> · Updated <time>{fmt_date(max(verified(c) for c in cs))}</time> · <a href="/stocks/">Cannabis stock prices</a></p></header>
+  <div class="table-wrap"><table class="tracker"><thead><tr><th>Company</th><th>Tickers</th><th>Segment</th><th>US states</th><th>Latest quarter</th></tr></thead><tbody>{rows}</tbody></table></div>
+  <div class="story-col"><p class="hub-note">News and reference only; not investment advice.</p></div>
+</article>"""
+    il = {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": SITE + "/company/",
+          "mainEntity": {"@type": "ItemList", "numberOfItems": len(cs), "itemListElement": [
+              {"@type": "ListItem", "position": i + 1, "url": SITE + c["_url"], "name": c["name"]} for i, c in enumerate(cs)]}}
+    extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (il, crumbs_ld(crumbs)))
+    T.ctx["write"]("company/index.html", T.page(title, body, desc=desc, path="/company/", extra_head=extra, active="Stocks"))
+    return max(verified(c) for c in cs)

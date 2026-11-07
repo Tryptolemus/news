@@ -1,0 +1,205 @@
+{
+  "id": "curaleaf",
+  "type": "company",
+  "name": "Curaleaf Holdings, Inc.",
+  "short_name": "Curaleaf",
+  "tags": [
+    "Curaleaf"
+  ],
+  "tickers": [
+    {
+      "exchange": "TSX",
+      "symbol": "CURA"
+    },
+    {
+      "exchange": "OTCQX",
+      "symbol": "CURLF"
+    }
+  ],
+  "hq": "Stamford, Connecticut, USA",
+  "founded": "2010",
+  "ceo": "Boris Jordan (since 2024; also Chairman)",
+  "website": "https://www.curaleaf.com",
+  "segment": "US multi-state operator with international medical cannabis operations",
+  "headline_status": "Curaleaf is a U.S. multi-state cannabis operator with a growing European medical business, and as of November 2026 its hostile bid for Aurora Cannabis faces a rival friendly deal from Organigram.",
+  "summary": "Curaleaf grows, processes and sells cannabis in the United States and supplies medical cannabis internationally. Its U.S. business holds licenses in about 15 states and ran 188 owned or managed dispensaries at the end of September 2026, rising to 191 shortly after; Florida is its largest retail market, with 80 stores after the quarter. Outside the U.S., it runs EU-GMP processing sites in Germany, Spain, Portugal, the U.K. and Canada, a U.K. clinic and online pharmacy, and wholesale channels into Germany, Poland, Switzerland, Australia and New Zealand. Third-quarter 2026 revenue reached a record $352.7 million, with international sales growing faster than the U.S. The company exited hemp-derived THC and Missouri at the end of 2025 and completed a 1-for-3 reverse split in June 2026. Its biggest current story is M&A: in August 2026 it launched an unsolicited share-and-cash offer for Aurora Cannabis, raised it in October, and on November 3 Aurora instead agreed to a friendly takeover by Organigram. Curaleaf has said it is weighing its options. It has also begun receiving DEA registrations for medical dispensaries after the April 2026 federal rescheduling of state-licensed medical marijuana.",
+  "footprint": {
+    "us_states": [
+      "Arizona",
+      "Connecticut",
+      "Florida",
+      "Illinois",
+      "Maine",
+      "Maryland",
+      "Massachusetts",
+      "Nevada",
+      "New Jersey",
+      "New York",
+      "North Dakota",
+      "Ohio",
+      "Pennsylvania",
+      "Utah"
+    ],
+    "countries": [
+      "United States",
+      "Canada",
+      "Germany",
+      "Poland",
+      "Portugal",
+      "Spain",
+      "Switzerland",
+      "United Kingdom"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "$352.7 million (up 10.9% year over year)",
+    "net_income": "Net loss attributable to Curaleaf of $32.7 million (continuing operations loss $37.4 million)",
+    "adj_ebitda": "$77.6 million (22.0% margin)",
+    "date": "2026-11-03",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001756770/000162828026069455/q326-exx99xxearningsrelease.htm"
+  },
+  "facts": {
+    "dispensaries": {
+      "value": "188 operated and managed dispensaries at September 30, 2026; 191 after quarter end",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001756770/000162828026069455/q326-exx99xxearningsrelease.htm",
+      "as_of": "2026-11"
+    },
+    "florida_stores": {
+      "value": "80 Florida dispensaries after quarter end (78 at September 30, 2026)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001756770/000162828026069455/q326-exx99xxearningsrelease.htm",
+      "as_of": "2026-11"
+    },
+    "licensed_states": {
+      "value": "Licenses in Arizona, Connecticut, Florida, Illinois, Maine, Maryland, Massachusetts, Missouri, Nevada, New Jersey, New York, North Dakota, Ohio, Pennsylvania and Utah; Missouri is classified as discontinued operations after a December 2025 decision to exit, so it is omitted from the footprint list",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "international_revenue": {
+      "value": "$58.7 million in Q3 2026, up about 28% year over year",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001756770/000162828026069455/q326-exx99xxearningsrelease.htm",
+      "as_of": "2026-11"
+    },
+    "international_operations": {
+      "value": "EU-GMP processing in Canada, Germany, Portugal, Spain and the U.K.; cultivation in Portugal and Canada; wholesale supply to Australia, New Zealand, the U.K. and several European countries",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "us_revenue_share": {
+      "value": "83% of Q3 2026 revenue came directly from U.S. cannabis activities",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "reverse_split": {
+      "value": "1-for-3 reverse split effective June 5, 2026; traded as CURLD for 20 trading days, back to CURLF from July 6, 2026",
+      "source": "https://www.cannabisbusinesstimes.com/finance/news/15829383/curaleaf-resumes-trading-under-curlf-as-temporary-transition-period-concludes",
+      "as_of": "2026-07"
+    },
+    "aurora_offer": {
+      "value": "Amended offer of C$1.00 cash plus 0.4013 Curaleaf share per Aurora share (capped at C$6.00), open until December 4, 2026 unless extended or withdrawn",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm",
+      "as_of": "2026-11"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2024-08-08",
+      "event": "Curaleaf announces Executive Chairman Boris Jordan will take over as CEO from Matt Darin.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000175677024000059/pressrelease080824.htm"
+    },
+    {
+      "date": "2025-12-30",
+      "event": "Board approves exiting the hemp-derived THC business and the Missouri market; both are reported as discontinued operations.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Federal rescheduling of state-licensed medical marijuana to Schedule III takes effect, opening DEA registration for medical operators.",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    },
+    {
+      "date": "2026-06-05",
+      "event": "1-for-3 reverse stock split takes effect; OTCQX symbol temporarily becomes CURLD.",
+      "source": "https://www.cannabisbusinesstimes.com/finance/news/15829383/curaleaf-resumes-trading-under-curlf-as-temporary-transition-period-concludes"
+    },
+    {
+      "date": "2026-07-06",
+      "event": "Shares resume trading under CURLF on the OTCQX after the post-split transition period.",
+      "source": "https://www.cannabisbusinesstimes.com/finance/news/15829383/curaleaf-resumes-trading-under-curlf-as-temporary-transition-period-concludes"
+    },
+    {
+      "date": "2026-08-18",
+      "event": "Curaleaf formally commences an unsolicited takeover offer for Aurora Cannabis, first announced August 11.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm"
+    },
+    {
+      "date": "2026-10-06",
+      "event": "Curaleaf raises its Aurora offer to C$1.00 cash plus 0.4013 of a Curaleaf share per Aurora share.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "Reports record Q3 2026 revenue of $352.7 million; the same day Aurora agrees to a rival friendly takeover by Organigram.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001756770/000162828026069455/q326-exx99xxearningsrelease.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "Curaleaf issues a statement on the alternative Organigram proposal for Aurora and says it is evaluating its options.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026070783/ax11032026curaleafissuesst.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Curaleaf's stock ticker?",
+      "a": "Curaleaf's subordinate voting shares trade on the Toronto Stock Exchange as CURA and are quoted in the U.S. on the OTCQX as CURLF. After the June 2026 reverse split the OTC symbol was briefly CURLD, but it returned to CURLF on July 6, 2026. Curaleaf is not listed on a U.S. national exchange."
+    },
+    {
+      "q": "Is Curaleaf buying Aurora Cannabis?",
+      "a": "Not as of November 7, 2026. Curaleaf made an unsolicited offer in August 2026 and raised it in October, but Aurora's board rejected it and on November 3 signed a friendly deal to be acquired by Organigram. Curaleaf's amended offer remains open until December 4, 2026 unless changed, and the company has said it is evaluating its options."
+    },
+    {
+      "q": "In which states does Curaleaf operate?",
+      "a": "Curaleaf holds cannabis licenses in Arizona, Connecticut, Florida, Illinois, Maine, Maryland, Massachusetts, Nevada, New Jersey, New York, North Dakota, Ohio, Pennsylvania and Utah. It also still lists Missouri but has classified that market as a discontinued operation it is exiting."
+    },
+    {
+      "q": "Does Curaleaf operate outside the United States?",
+      "a": "Yes. It has EU-GMP certified facilities in Germany, Spain, Portugal, the U.K. and Canada, a medical cannabis clinic and online pharmacy in the U.K., and wholesale sales into markets including Germany, Poland, Switzerland, Australia and New Zealand. International revenue was $58.7 million in Q3 2026."
+    },
+    {
+      "q": "Who runs Curaleaf?",
+      "a": "Boris Jordan is Chairman and CEO. He took the CEO role in 2024 when Matt Darin stepped down."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Curaleaf Q3 2026 earnings release (SEC 8-K Ex. 99)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001756770/000162828026069455/q326-exx99xxearningsrelease.htm"
+    },
+    {
+      "name": "Curaleaf Form 10-Q for Q3 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm"
+    },
+    {
+      "name": "Cannabis Business Times: Curaleaf resumes trading under CURLF",
+      "url": "https://www.cannabisbusinesstimes.com/finance/news/15829383/curaleaf-resumes-trading-under-curlf-as-temporary-transition-period-concludes"
+    },
+    {
+      "name": "Curaleaf CEO transition release, Aug 2024 (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756770/000175677024000059/pressrelease080824.htm"
+    },
+    {
+      "name": "Curaleaf statement on Aurora alternative proposal (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026070783/ax11032026curaleafissuesst.htm"
+    },
+    {
+      "name": "Organigram and Aurora joint release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm"
+    },
+    {
+      "name": "Foley Hoag: rescheduling updates since the April 23 order",
+      "url": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

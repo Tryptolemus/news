@@ -1,0 +1,156 @@
+{
+  "id": "aurora-cannabis",
+  "type": "company",
+  "name": "Aurora Cannabis Inc.",
+  "short_name": "Aurora",
+  "tags": [
+    "Aurora Cannabis"
+  ],
+  "tickers": [
+    {
+      "exchange": "Nasdaq",
+      "symbol": "ACB"
+    },
+    {
+      "exchange": "TSX",
+      "symbol": "ACB"
+    }
+  ],
+  "hq": "Edmonton, Alberta, Canada",
+  "founded": "2013",
+  "ceo": "Miguel Martin (since 2022; also Executive Chairman)",
+  "website": "https://www.auroramj.com",
+  "segment": "Canadian LP / global medical cannabis",
+  "headline_status": "Aurora is a Canadian-based global medical cannabis company that agreed in November 2026 to be acquired by Organigram, after rejecting a hostile bid from Curaleaf.",
+  "summary": "Aurora Cannabis has refocused from Canadian recreational sales to medical cannabis, which made up nearly all of its C$86.0 million in revenue in the quarter to September 30, 2026. International medical sales hit a record C$61.4 million, up 44%, driven by Germany and Poland, while Canadian medical revenue fell 24% after cuts to federal veterans' reimbursement in April 2026, and its consumer business is being wound down. Brands include Aurora, MedReleaf, Pedanios, IndiMed, San Rafael and Whistler, with GMP facilities in Canada and Germany and sales in Europe, Australia and New Zealand. In 2026 it sold its stake in greenhouse produce business Bevo and bought Safari Flower Company to add EU-GMP flower supply. Its net loss from continuing operations was C$21.1 million and adjusted EBITDA C$14.0 million, with C$133 million of cash and no debt. Curaleaf launched a hostile offer for Aurora in August 2026. On November 3 Aurora instead agreed to be acquired by Organigram for about C$561 million, with closing expected in January 2027.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada",
+      "Germany",
+      "Poland",
+      "United Kingdom",
+      "Australia",
+      "New Zealand"
+    ]
+  },
+  "latest_results": {
+    "period": "Q2 fiscal 2027 (quarter ended September 30, 2026)",
+    "revenue": "C$86.0 million (up 9% year over year)",
+    "net_income": "Net loss from continuing operations of C$21.1 million",
+    "adj_ebitda": "C$14.0 million",
+    "date": "2026-11-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm"
+  },
+  "facts": {
+    "medical_revenue": {
+      "value": "Medical cannabis net revenue C$82.5M in Q2 FY2027, of which international C$61.4M and Canadian C$21.2M",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm",
+      "as_of": "2026-11"
+    },
+    "balance_sheet": {
+      "value": "C$133.0 million cash, cash equivalents and short-term investments; no debt",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm",
+      "as_of": "2026-11"
+    },
+    "markets": {
+      "value": "Medical markets in Canada, Europe (notably Germany, Poland and the U.K.), Australia and New Zealand; GMP manufacturing in Canada and Germany",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm",
+      "as_of": "2026-11"
+    },
+    "safari_flower": {
+      "value": "Acquired Safari Flower Company on April 14, 2026 for C$15.0 million cash plus shares; supplies flower to Germany, Australia, Poland and the U.K.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000162828026070546/mda20260930q22027.htm",
+      "as_of": "2026-09"
+    },
+    "bevo_divestiture": {
+      "value": "Sold its 50.1% interest in Bevo Agtech on February 17, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm",
+      "as_of": "2026-11"
+    },
+    "organigram_deal": {
+      "value": "To be acquired by Organigram for C$7.80 cash or 5.8626 Organigram shares (or a mix) per share; about C$561 million; expected close January 2027",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm",
+      "as_of": "2026-11"
+    },
+    "fiscal_year_end": {
+      "value": "March 31",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm",
+      "as_of": "2026-11"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2026-02-17",
+      "event": "Completes divestiture of its 50.1% stake in Bevo Agtech.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm"
+    },
+    {
+      "date": "2026-04-14",
+      "event": "Acquires Safari Flower Company to add EU-GMP flower supply for international markets.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000162828026070546/mda20260930q22027.htm"
+    },
+    {
+      "date": "2026-08-18",
+      "event": "Curaleaf formally launches an unsolicited takeover bid for Aurora (announced August 11).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm"
+    },
+    {
+      "date": "2026-10-06",
+      "event": "Curaleaf raises its offer; Aurora's board continues to recommend shareholders not tender.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "Aurora agrees to be acquired by Organigram for about C$561 million.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "Reports Q2 FY2027 revenue of C$86.0 million and cancels its earnings call because of the pending deal.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who is buying Aurora Cannabis?",
+      "a": "Aurora agreed on November 3, 2026 to be acquired by Organigram. Shareholders can elect C$7.80 in cash, 5.8626 Organigram shares, or C$3.75 plus 3.0431 Organigram shares per Aurora share, subject to proration. Closing is expected in January 2027 if approvals are obtained."
+    },
+    {
+      "q": "What happened to Curaleaf's offer for Aurora?",
+      "a": "Curaleaf made an unsolicited share-and-cash offer in August 2026 and raised it in October. Aurora's board rejected it and recommends shareholders not tender. As of early November 2026 Curaleaf's offer remained open and Curaleaf said it was evaluating its options."
+    },
+    {
+      "q": "Does Aurora still sell recreational cannabis in Canada?",
+      "a": "It is winding that business down. Consumer cannabis revenue was only C$1.6 million in the September 2026 quarter; the company now focuses on Canadian and international medical cannabis."
+    },
+    {
+      "q": "Where does Aurora sell medical cannabis?",
+      "a": "Canada, Europe (with Germany and Poland its biggest growth drivers, plus the U.K.), Australia and New Zealand."
+    },
+    {
+      "q": "What is Aurora's ticker?",
+      "a": "ACB on both the Nasdaq and the Toronto Stock Exchange."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Aurora Q2 FY2027 results release (SEC 6-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1683541/000110465926123048/tm2629080d1_ex99-1.htm"
+    },
+    {
+      "name": "Aurora Q2 FY2027 MD&A (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1683541/000162828026070546/mda20260930q22027.htm"
+    },
+    {
+      "name": "Organigram and Aurora joint release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm"
+    },
+    {
+      "name": "Curaleaf Form 10-Q, Aurora offer details (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1756770/000162828026069653/curlf-20260930.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

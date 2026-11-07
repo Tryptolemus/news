@@ -1,0 +1,146 @@
+{
+  "id": "tilray",
+  "type": "company",
+  "name": "Tilray Brands, Inc.",
+  "short_name": "Tilray",
+  "tags": [
+    "Tilray"
+  ],
+  "tickers": [
+    {
+      "exchange": "Nasdaq",
+      "symbol": "TLRY"
+    },
+    {
+      "exchange": "TSX",
+      "symbol": "TLRY"
+    }
+  ],
+  "hq": "New York, New York, USA (major operations in Leamington, Ontario)",
+  "founded": "2013",
+  "ceo": "Irwin D. Simon (Chairman and CEO since the 2021 Aphria-Tilray combination)",
+  "website": "https://www.tilray.com",
+  "segment": "Canadian LP / global cannabis and consumer goods company",
+  "headline_status": "Tilray is a diversified cannabis, craft-beer, distribution and wellness company whose beverage business, expanded by the 2026 BrewDog purchase, now outsells its cannabis segment.",
+  "summary": "Tilray Brands began as a Canadian licensed cannabis producer and has grown into a broader consumer-goods group. It grows medical and adult-use cannabis across more than 6 million square feet of capacity in Canada, Portugal and Germany, runs a pharmaceutical distribution business in Europe, sells hemp foods and wellness products, and is one of the largest U.S. craft brewers. In March 2026 it bought key BrewDog assets in the U.K. and Ireland for £33 million, and from January 2027 it will brew and sell Carlsberg brands in the U.S. In the quarter ended August 31, 2026 (fiscal Q1 2027), revenue rose 23% to a record $257.1 million: beverage was $101.5 million, distribution $84.3 million and cannabis $56.1 million, with cannabis down year over year as international medical sales grew and Canadian sales eased. It posted a $40.0 million net loss, mainly from non-cash charges, and $9.2 million of adjusted EBITDA, and reaffirmed fiscal 2027 adjusted EBITDA guidance of $68-75 million. Tilray did a 1-for-10 reverse split in December 2025.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada",
+      "United States",
+      "Portugal",
+      "Germany",
+      "United Kingdom",
+      "Australia"
+    ]
+  },
+  "latest_results": {
+    "period": "Q1 fiscal 2027 (quarter ended August 31, 2026)",
+    "revenue": "$257.1 million (up 23% year over year)",
+    "net_income": "Net loss of $40.0 million ($0.32 per share)",
+    "adj_ebitda": "$9.2 million",
+    "date": "2026-10-08",
+    "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm"
+  },
+  "facts": {
+    "cultivation_capacity": {
+      "value": "More than 6 million sq ft of cannabis cultivation capacity across Canada, Portugal and Germany",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "segment_revenue": {
+      "value": "Q1 FY2027: beverage $101.5M, distribution $84.3M, cannabis $56.1M, wellness $15.3M",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "markets": {
+      "value": "Operations in Canada, the United States, Europe, Australia and Latin America; over 40 brands in over 20 countries",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "us_cannabis": {
+      "value": "No U.S. THC cannabis operations; U.S. business is craft beer, spirits and hemp-based foods and wellness, so no U.S. states are listed in the cannabis footprint",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "guidance": {
+      "value": "Fiscal 2027 adjusted EBITDA guidance of $68-75 million reaffirmed",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "fiscal_year_end": {
+      "value": "May 31",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000143774926024698/tlry20260531_10k.htm",
+      "as_of": "2026-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2025-12-01",
+      "event": "1-for-10 reverse stock split takes effect.",
+      "source": "https://ir.tilray.com/news-releases/news-release-details/tilray-brands-announces-implementation-previously-approved-1-10"
+    },
+    {
+      "date": "2026-03-02",
+      "event": "Completes £33 million acquisition of key BrewDog assets in the U.K. and Ireland.",
+      "source": "https://www.morningadvertiser.co.uk/Article/2026/03/02/tilray-completes-acquisition-of-brewdog"
+    },
+    {
+      "date": "2026-07-28",
+      "event": "Files annual report for fiscal 2026 (year ended May 31, 2026).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000143774926024698/tlry20260531_10k.htm"
+    },
+    {
+      "date": "2026-10-08",
+      "event": "Reports record Q1 FY2027 revenue of $257.1 million; beverage revenue up 82% with BrewDog profitable in the quarter.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm"
+    },
+    {
+      "date": "2027-01-01",
+      "event": "Scheduled start of Tilray producing and selling Carlsberg brands in the U.S. (announced).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Tilray still a cannabis company?",
+      "a": "Yes, but cannabis is no longer its largest segment. In the August 2026 quarter, cannabis was $56.1 million of $257.1 million in revenue, behind beverage ($101.5 million) and pharmaceutical distribution ($84.3 million)."
+    },
+    {
+      "q": "Does Tilray own BrewDog?",
+      "a": "Tilray bought key BrewDog assets in the U.K. and Ireland for £33 million in March 2026, and the brand is now part of its beverage segment."
+    },
+    {
+      "q": "Does Tilray sell THC cannabis in the United States?",
+      "a": "No. Its U.S. business is beer, spirits and hemp-based products. Its cannabis is grown in Canada, Portugal and Germany and sold in Canada and international medical markets."
+    },
+    {
+      "q": "What are Tilray's tickers?",
+      "a": "TLRY on both the Nasdaq and the Toronto Stock Exchange."
+    },
+    {
+      "q": "When is Tilray's fiscal year?",
+      "a": "Tilray's fiscal year ends May 31, so the quarter ended August 31, 2026 is the first quarter of fiscal 2027."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Tilray Q1 FY2027 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1731348/000117184326006527/exh_991.htm"
+    },
+    {
+      "name": "Tilray FY2026 Form 10-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1731348/000143774926024698/tlry20260531_10k.htm"
+    },
+    {
+      "name": "Tilray IR: 1-for-10 reverse split",
+      "url": "https://ir.tilray.com/news-releases/news-release-details/tilray-brands-announces-implementation-previously-approved-1-10"
+    },
+    {
+      "name": "Morning Advertiser: Tilray completes BrewDog acquisition",
+      "url": "https://www.morningadvertiser.co.uk/Article/2026/03/02/tilray-completes-acquisition-of-brewdog"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

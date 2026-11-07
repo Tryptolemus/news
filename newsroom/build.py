@@ -276,7 +276,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers", "glossary", "about", "corrections"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers", "glossary", "company", "data", "about", "corrections"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)

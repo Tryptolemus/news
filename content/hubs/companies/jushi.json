@@ -1,0 +1,150 @@
+{
+  "id": "jushi",
+  "type": "company",
+  "name": "Jushi Holdings Inc.",
+  "short_name": "Jushi",
+  "tags": [
+    "Jushi Holdings"
+  ],
+  "tickers": [
+    {
+      "exchange": "CSE",
+      "symbol": "JUSH"
+    },
+    {
+      "exchange": "OTCQX",
+      "symbol": "JUSH"
+    }
+  ],
+  "hq": "Boca Raton, Florida, USA",
+  "founded": "2018",
+  "ceo": "Jim Cacioppo (co-founder; Chairman and CEO since 2018)",
+  "website": "https://www.jushico.com",
+  "segment": "US multi-state operator",
+  "headline_status": "Jushi is a smaller vertically integrated multi-state operator with 42 dispensaries in eight states, betting on Virginia's adult-use launch in July 2027.",
+  "summary": "Jushi Holdings grows, processes and sells cannabis across eight U.S. states and ended September 2026 with 42 dispensaries; it is vertically integrated in five of those markets. Pennsylvania, Virginia, Ohio and Illinois are among its key markets, and it opened a New Jersey store in Little Ferry in late 2025. Third-quarter 2026 revenue rose 7% to $70.5 million, with wholesale up 40% to a record $9.7 million and Jushi-branded products making up 56% of its own retail sales; adjusted EBITDA was $13.6 million, but interest costs kept it at a $12.5 million net loss. Virginia is its largest growth bet: it runs six dispensaries plus home delivery there and is advancing cultivation and processing projects ahead of adult-use sales scheduled for July 1, 2027, while exploring financing. Jushi moved its legal home from British Columbia to Nevada on July 30, 2026, and its shares trade as JUSH on the CSE and the OTCQX.",
+  "footprint": {
+    "us_states": [
+      "California",
+      "Illinois",
+      "Massachusetts",
+      "Nevada",
+      "New Jersey",
+      "Ohio",
+      "Pennsylvania",
+      "Virginia"
+    ],
+    "countries": [
+      "United States"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "$70.5 million (up 7% year over year)",
+    "net_income": "Net loss of $12.5 million",
+    "adj_ebitda": "$13.6 million (19.3% margin)",
+    "date": "2026-10-28",
+    "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm"
+  },
+  "facts": {
+    "states": {
+      "value": "Operations and/or licenses in California, Illinois, Massachusetts, Nevada, New Jersey, Ohio, Pennsylvania, Virginia",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000162828026067920/jush-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "dispensaries": {
+      "value": "42 dispensaries in eight states at September 30, 2026 (41 in seven states a year earlier)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000162828026067920/jush-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "virginia": {
+      "value": "Six Virginia dispensaries; adult-use sales in Virginia scheduled to begin July 1, 2027",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "wholesale": {
+      "value": "Record wholesale revenue of $9.7 million in Q3 2026, up 40%",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "cash": {
+      "value": "$30.9 million cash, cash equivalents and restricted cash at September 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm",
+      "as_of": "2026-09"
+    },
+    "incorporation": {
+      "value": "Nevada corporation since July 30, 2026 (previously British Columbia)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000162828026067920/jush-20260930.htm",
+      "as_of": "2026-09"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2026-04-28",
+      "event": "Federal rescheduling of state-licensed medical marijuana to Schedule III takes effect.",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    },
+    {
+      "date": "2026-06-24",
+      "event": "Shareholders approve moving the parent company from British Columbia to Nevada.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm"
+    },
+    {
+      "date": "2026-07-30",
+      "event": "Completes the continuance to Nevada.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000162828026067920/jush-20260930.htm"
+    },
+    {
+      "date": "2026-10-28",
+      "event": "Reports Q3 2026 revenue of $70.5 million with record wholesale and Virginia retail sales.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm"
+    },
+    {
+      "date": "2027-07-01",
+      "event": "Scheduled start of adult-use retail sales in Virginia, Jushi's main growth market (announced).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Jushi's ticker?",
+      "a": "JUSH on the Canadian Securities Exchange and JUSH on the OTCQX in the U.S. Before its 2026 move to Nevada, its OTC symbol was JUSHF."
+    },
+    {
+      "q": "Which states is Jushi in?",
+      "a": "California, Illinois, Massachusetts, Nevada, New Jersey, Ohio, Pennsylvania and Virginia."
+    },
+    {
+      "q": "Why does Virginia matter so much to Jushi?",
+      "a": "Jushi grows, processes and sells medical cannabis there, with six dispensaries, and Virginia's adult-use retail sales are scheduled to start July 1, 2027. Management calls it the company's most significant near-term growth opportunity."
+    },
+    {
+      "q": "Is Jushi profitable?",
+      "a": "Not on a GAAP basis: it lost $12.5 million in Q3 2026, largely due to interest and other expenses. Adjusted EBITDA was positive at $13.6 million."
+    },
+    {
+      "q": "Who leads Jushi?",
+      "a": "Co-founder Jim Cacioppo is Chairman and CEO."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Jushi Q3 2026 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1909747/000117184326006909/exh_991.htm"
+    },
+    {
+      "name": "Jushi Form 10-Q for Q3 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1909747/000162828026067920/jush-20260930.htm"
+    },
+    {
+      "name": "Cannabis Business Times: Jushi proposes continuance to Nevada",
+      "url": "https://www.cannabisbusinesstimes.com/finance/news/15823309/jushi-holdings-announces-proposed-continuance-from-british-columbia-to-nevada"
+    },
+    {
+      "name": "Foley Hoag: rescheduling updates",
+      "url": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -680,3 +680,6 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .hub-latest,.hub-latest time,.hub-by time,.timeline time{font-family:var(--sans)}
 .hub-latest{font-size:14.5px;color:var(--dek)}
 @media (max-width:760px){.quick-answers{grid-template-columns:1fr;gap:8px}.quick-answers .qa{padding:12px 14px}}
+.sub-h{font-family:var(--sans);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--meta);margin:16px 0 8px}
+@media (max-width:760px){.quick-answers.co-meta{grid-template-columns:1fr 1fr}.co-meta .qa{padding:10px 12px}.co-meta dd{font-size:14.5px;overflow-wrap:anywhere}}
+.co-meta dd a{color:var(--fg);text-decoration:underline;text-decoration-color:var(--green);text-underline-offset:3px}

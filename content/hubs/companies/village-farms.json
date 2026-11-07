@@ -1,0 +1,148 @@
+{
+  "id": "village-farms",
+  "type": "company",
+  "name": "Village Farms International, Inc.",
+  "short_name": "Village Farms",
+  "tags": [
+    "Village Farms"
+  ],
+  "tickers": [
+    {
+      "exchange": "Nasdaq",
+      "symbol": "VFF"
+    }
+  ],
+  "hq": "Lake Mary, Florida, USA (principal executive office per SEC filings; Canadian cannabis operations in Delta, British Columbia)",
+  "founded": "1989",
+  "ceo": "Michael DeGiglio (President and CEO)",
+  "website": "https://villagefarms.com",
+  "segment": "Canadian LP / international greenhouse cannabis producer",
+  "headline_status": "Village Farms is a former greenhouse produce grower that is now mainly a cannabis company, with a large EU-GMP greenhouse campus in British Columbia, a Dutch license and fast-growing exports to Europe.",
+  "summary": "Village Farms spent decades growing greenhouse tomatoes before shifting to cannabis; it took its legacy produce business private in 2025 and now gets most of its revenue from cannabis. Its Pure Sunfarms business in Delta, British Columbia, runs what the company calls the world's largest EU-GMP certified cannabis facility, selling brands such as Pure Sunfarms, Fraser Valley Weed Co. and Soar in Canada and exporting medical cannabis, especially to Germany. It is also one of ten licensed growers in the Netherlands' regulated adult-use pilot, where a second Groningen facility began cultivation in 2026, and it owns CBDistillery in the U.S. along with stakes in cannabis businesses in Australia and Germany. In the quarter to June 30, 2026, sales rose 7% to $64.0 million, cannabis sales hit a record $53.5 million and exports grew 74%; net income was $7.1 million. The company raised $15 million from U.S. institutions in June 2026 and is due to report third-quarter results on November 9, 2026.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada",
+      "Netherlands",
+      "United States"
+    ]
+  },
+  "latest_results": {
+    "period": "Q2 2026 (quarter ended June 30, 2026); Q3 2026 results scheduled for 2026-11-09, not yet reported as of 2026-11-07",
+    "revenue": "$64.0 million consolidated sales (up 7% year over year); cannabis $53.5 million",
+    "net_income": "Net income of $7.1 million ($0.06 per share)",
+    "adj_ebitda": "Consolidated adjusted EBITDA of $15.4 million; cannabis segment $15.3 million",
+    "date": "2026-08-10",
+    "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm"
+  },
+  "facts": {
+    "cultivation_assets": {
+      "value": "More than 7 million sq ft of greenhouse and indoor cultivation assets",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm",
+      "as_of": "2026-08"
+    },
+    "exports": {
+      "value": "Record export sales of $20.9 million in Q2 2026, up 74% year over year; leading share in Germany",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm",
+      "as_of": "2026-08"
+    },
+    "netherlands": {
+      "value": "One of ten licensed operators in the Dutch regulated cannabis program; Groningen Phase II began cultivation in Q2 2026, taking capacity to about 10 tonnes a year",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm",
+      "as_of": "2026-08"
+    },
+    "other_holdings": {
+      "value": "CBDistillery (U.S. CBD brand); 86.6% interest in Rose LifeScience; equity interests in cannabis businesses in Australia and Germany",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm",
+      "as_of": "2026-08"
+    },
+    "us_footprint_note": {
+      "value": "No U.S. THC cannabis operations; U.S. business is CBD (CBDistillery), so no U.S. states are listed",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm",
+      "as_of": "2026-08"
+    },
+    "next_results": {
+      "value": "Q3 2026 results due November 9, 2026 at 7:00 a.m. ET",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526428309/vff-ex99_1.htm",
+      "as_of": "2026-10"
+    },
+    "cash": {
+      "value": "$73 million at June 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm",
+      "as_of": "2026-08"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2026-04-03",
+      "event": "Discloses a CFO succession plan, later completed with an interim CFO appointment in September.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526387204/vff-ex99_1.htm"
+    },
+    {
+      "date": "2026-06-05",
+      "event": "Announces a $15 million registered direct offering of 7.5 million shares to U.S. institutional investors.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526258439/vff-ex99_1.htm"
+    },
+    {
+      "date": "2026-08-10",
+      "event": "Reports Q2 2026 results with record cannabis revenue of $53.5 million and record exports.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm"
+    },
+    {
+      "date": "2026-09-10",
+      "event": "Appoints Hamid Shekarchi interim CFO, succeeding Steve Ruffini, who moves to lead M&A.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526387204/vff-ex99_1.htm"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "Schedules Q3 2026 results for November 9, 2026.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526428309/vff-ex99_1.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Village Farms still a tomato grower?",
+      "a": "No longer as a public company business. It took its legacy produce operations private in 2025 and is now focused on cannabis, plus CBD and a clean-energy royalty business."
+    },
+    {
+      "q": "Where does Village Farms grow cannabis?",
+      "a": "Mainly in greenhouses in Delta, British Columbia, and in the Netherlands, where it is one of ten licensed growers in the country's regulated cannabis program."
+    },
+    {
+      "q": "Does Village Farms sell cannabis in the United States?",
+      "a": "Not THC cannabis. In the U.S. it sells CBD products through CBDistillery. The company says it is positioned to enter the U.S. market when regulations allow."
+    },
+    {
+      "q": "What is Pure Sunfarms?",
+      "a": "Village Farms' Canadian cannabis business and flagship brand, known for its Pink Kush flower."
+    },
+    {
+      "q": "When does Village Farms report Q3 2026?",
+      "a": "The company has scheduled its third-quarter 2026 release for November 9, 2026."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Village Farms Q2 2026 results (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341207/vff-ex99_1.htm"
+    },
+    {
+      "name": "Village Farms Q2 2026 Form 10-Q (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526341194/vff-20260630.htm"
+    },
+    {
+      "name": "Village Farms Q3 2026 results date (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526428309/vff-ex99_1.htm"
+    },
+    {
+      "name": "Village Farms interim CFO release (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526387204/vff-ex99_1.htm"
+    },
+    {
+      "name": "Village Farms registered direct offering (SEC 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1584549/000119312526258439/vff-ex99_1.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

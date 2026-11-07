@@ -1,0 +1,141 @@
+{
+  "id": "canopy-growth",
+  "type": "company",
+  "name": "Canopy Growth Corporation",
+  "short_name": "Canopy Growth",
+  "tags": [
+    "Canopy Growth"
+  ],
+  "tickers": [
+    {
+      "exchange": "TSX",
+      "symbol": "WEED"
+    },
+    {
+      "exchange": "Nasdaq",
+      "symbol": "CGC"
+    }
+  ],
+  "hq": "Smiths Falls, Ontario, Canada",
+  "founded": "2013",
+  "ceo": "Luc Mongeau (since 2025)",
+  "website": "https://www.canopygrowth.com",
+  "segment": "Canadian LP",
+  "headline_status": "Canopy Growth is a Canadian cannabis producer and Storz & Bickel vaporizer maker that is growing again in 2026 on medical and international sales, but still reports losses.",
+  "summary": "Canopy Growth is one of Canada's best-known cannabis producers. It sells adult-use brands such as Tweed, 7ACRES, DOJA and, since its March 2026 purchase of MTL Cannabis, MTL; runs Canada's largest medical cannabis service through Spectrum Therapeutics and related clinics; and owns German vaporizer maker Storz & Bickel. It also holds a non-controlling, unconsolidated interest in Canopy USA, which owns Acreage, Wana and Jetty and a stake in TerrAscend, giving it indirect U.S. exposure without consolidating U.S. THC operations. In the quarter ended September 30, 2026 (fiscal Q2 2027), net revenue rose 22% to C$81.4 million, driven by a 141% jump in international cannabis sales, mostly to Germany and Poland, and gains in Canadian medical and adult-use. It recorded a C$40.7 million net loss, largely from fair-value charges on Canopy USA assets, and a small adjusted EBITDA loss of C$2.9 million. Management under CEO Luc Mongeau says it is close to positive adjusted EBITDA and is building an EU-GMP supply chain, including new U.K. and Australian product launches.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada",
+      "Germany",
+      "Poland",
+      "United Kingdom",
+      "Australia"
+    ]
+  },
+  "latest_results": {
+    "period": "Q2 fiscal 2027 (quarter ended September 30, 2026)",
+    "revenue": "C$81.4 million (up 22% year over year)",
+    "net_income": "Net loss of C$40.7 million",
+    "adj_ebitda": "Adjusted EBITDA loss of C$2.9 million",
+    "date": "2026-11-06",
+    "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm"
+  },
+  "facts": {
+    "segment_revenue": {
+      "value": "Q2 FY2027: cannabis C$66.2M (Canada medical C$25.8M, Canada adult-use C$28.1M, international C$12.3M); Storz & Bickel C$15.1M",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm",
+      "as_of": "2026-11"
+    },
+    "international_markets": {
+      "value": "International medical sales led by Germany and Poland; entered the U.K. via GROW Group; expanded Australian portfolio",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm",
+      "as_of": "2026-11"
+    },
+    "canopy_usa": {
+      "value": "Unconsolidated, non-controlling interest in Canopy USA, which holds Acreage, Wana, Jetty and TerrAscend shares",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450697/cgc-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "us_cannabis": {
+      "value": "No consolidated U.S. THC operations; U.S. exposure is through the unconsolidated Canopy USA interest, so no U.S. states are listed",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450697/cgc-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "mtl_acquisition": {
+      "value": "Acquired MTL Cannabis Corp. on March 16, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450697/cgc-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "fiscal_year_end": {
+      "value": "March 31",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm",
+      "as_of": "2026-11"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2025-01-06",
+      "event": "Luc Mongeau becomes CEO, succeeding David Klein.",
+      "source": "https://obj.ca/canopy-growth-names-luc-mongeau-cannabis-companys-next-ceo"
+    },
+    {
+      "date": "2026-03-16",
+      "event": "Completes acquisition of MTL Cannabis Corp.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450697/cgc-20260930.htm"
+    },
+    {
+      "date": "2026-06-15",
+      "event": "Files its fiscal 2026 annual report (year ended March 31, 2026) on Form 10-K.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526270260/cgc-20260331.htm"
+    },
+    {
+      "date": "2026-09-30",
+      "event": "By the end of fiscal Q2 2027, the Smiths Falls facility has EU-GMP certification and U.K. medical supply has begun through GROW Group.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "Reports Q2 FY2027 net revenue of C$81.4 million, with international cannabis up 141%.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are Canopy Growth's tickers?",
+      "a": "WEED on the Toronto Stock Exchange and CGC on the Nasdaq."
+    },
+    {
+      "q": "Does Canopy Growth own U.S. cannabis businesses?",
+      "a": "Not directly in its financial statements. It holds a non-controlling, unconsolidated interest in Canopy USA, which owns Acreage, Wana and Jetty and holds TerrAscend shares. Canopy recorded C$35.8 million of fair-value charges on those assets in its September 2026 quarter."
+    },
+    {
+      "q": "Is Canopy Growth profitable?",
+      "a": "No. It reported a C$40.7 million net loss and a C$2.9 million adjusted EBITDA loss for the quarter ended September 30, 2026, though management says positive adjusted EBITDA is within reach during fiscal 2027."
+    },
+    {
+      "q": "What is Storz & Bickel?",
+      "a": "A German maker of premium vaporizers, including the Volcano, owned by Canopy Growth. It generated C$15.1 million of revenue in the September 2026 quarter."
+    },
+    {
+      "q": "Who is Canopy Growth's CEO?",
+      "a": "Luc Mongeau, who took over from David Klein in January 2025."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Canopy Growth Q2 FY2027 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450716/cgc-ex99_1.htm"
+    },
+    {
+      "name": "Canopy Growth Form 10-Q for Q2 FY2027 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1737927/000119312526450697/cgc-20260930.htm"
+    },
+    {
+      "name": "Ottawa Business Journal: Canopy names Luc Mongeau CEO",
+      "url": "https://obj.ca/canopy-growth-names-luc-mongeau-cannabis-companys-next-ceo"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

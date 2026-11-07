@@ -1,0 +1,157 @@
+{
+  "id": "green-thumb-industries",
+  "type": "company",
+  "name": "Green Thumb Industries Inc.",
+  "short_name": "Green Thumb",
+  "tags": [
+    "Green Thumb"
+  ],
+  "tickers": [
+    {
+      "exchange": "CSE",
+      "symbol": "GTII"
+    },
+    {
+      "exchange": "OTCQX",
+      "symbol": "GTBIF"
+    }
+  ],
+  "hq": "Chicago, Illinois, USA",
+  "founded": "2014",
+  "ceo": "Ben Kovler (founder; Chairman and CEO)",
+  "website": "https://www.gtigrows.com",
+  "segment": "US multi-state operator",
+  "headline_status": "Green Thumb is a Chicago-based cannabis brand maker and RISE dispensary owner operating in 14 U.S. states, growing revenue in 2026 while consolidating the hemp-beverage company RYTHM, Inc.",
+  "summary": "Green Thumb Industries makes and sells branded cannabis products and runs the RISE Dispensaries chain. Its brands include RYTHM, Dogwalkers, incredibles, Beboe, &Shine and Good Green. The company has revenue in 14 states, ran 130 retail stores at the end of September 2026 and employs about 5,000 people. Third-quarter 2026 revenue rose 11.3% to $324.4 million, helped by Minnesota's adult-use market, which opened in September 2025, and by new stores, with Florida now its fastest-growing retail state. Comparable-store sales returned to growth for the first time since 2024, although price pressure continued in several markets. Green Thumb has a reputation for steady cash generation: it ended the quarter with $316 million in cash against $177 million of senior debt and renewed its share buyback in September 2026. From October 10, 2026 it began consolidating RYTHM, Inc., a public hemp and beverage company in which it holds notes and warrants. Looking ahead, management points to Virginia adult-use sales from July 2027, a conditional license in Texas, and DEA registrations for some medical dispensaries after the 2026 Schedule III change.",
+  "footprint": {
+    "us_states": [
+      "California",
+      "Connecticut",
+      "Florida",
+      "Illinois",
+      "Maryland",
+      "Massachusetts",
+      "Minnesota",
+      "Nevada",
+      "New Jersey",
+      "New York",
+      "Ohio",
+      "Pennsylvania",
+      "Rhode Island",
+      "Virginia"
+    ],
+    "countries": [
+      "United States"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "$324.4 million (up 11.3% year over year)",
+    "net_income": "GAAP net loss of $4.8 million ($0.02 per share)",
+    "adj_ebitda": "Normalized EBITDA of $89.4 million (27.6% of revenue)",
+    "date": "2026-11-04",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm"
+  },
+  "facts": {
+    "states": {
+      "value": "Revenue in 14 markets: California, Connecticut, Florida, Illinois, Maryland, Massachusetts, Minnesota, Nevada, New Jersey, New York, Ohio, Pennsylvania, Rhode Island, Virginia",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447252/gtbif-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "stores": {
+      "value": "130 open and operating retail stores at September 30, 2026; three more Florida RISE stores opened after quarter end (27 in Florida)",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447252/gtbif-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "employees": {
+      "value": "About 5,000",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm",
+      "as_of": "2026-11"
+    },
+    "cash_and_debt": {
+      "value": "$316.0 million cash and $177 million senior debt at September 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm",
+      "as_of": "2026-09"
+    },
+    "comparable_sales": {
+      "value": "Up 3.0% year over year on a base of 108 stores in Q3 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm",
+      "as_of": "2026-09"
+    },
+    "pipeline_markets": {
+      "value": "Virginia adult-use sales expected from July 2027; conditional license in Texas",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm",
+      "as_of": "2026-11"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2025-09-17",
+      "event": "Minnesota's adult-use cannabis sales begin, later the main driver of Green Thumb's 2026 growth.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III federally; Green Thumb later receives DEA registrations for some medical licenses.",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    },
+    {
+      "date": "2026-08-10",
+      "event": "Signs amendment with RYTHM, Inc. removing ownership caps on its notes and warrants, setting up consolidation.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447252/gtbif-20260930.htm"
+    },
+    {
+      "date": "2026-09-23",
+      "event": "Board authorizes a new share repurchase program after the previous one expired.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447252/gtbif-20260930.htm"
+    },
+    {
+      "date": "2026-10-10",
+      "event": "Green Thumb becomes primary beneficiary of RYTHM, Inc. and begins consolidating it.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447252/gtbif-20260930.htm"
+    },
+    {
+      "date": "2026-11-04",
+      "event": "Reports Q3 2026 revenue of $324.4 million and the first comparable-sales growth since Q3 2024.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What are Green Thumb's stock tickers?",
+      "a": "Green Thumb trades on the Canadian Securities Exchange as GTII and is quoted in the U.S. on the OTCQX as GTBIF."
+    },
+    {
+      "q": "What is RISE Dispensaries?",
+      "a": "RISE is Green Thumb's own retail chain. The company had 130 stores open across its 14 states at the end of September 2026, with Florida its fastest-expanding market."
+    },
+    {
+      "q": "Which states does Green Thumb operate in?",
+      "a": "California, Connecticut, Florida, Illinois, Maryland, Massachusetts, Minnesota, Nevada, New Jersey, New York, Ohio, Pennsylvania, Rhode Island and Virginia. It also holds a conditional license in Texas."
+    },
+    {
+      "q": "What is Green Thumb's link to RYTHM, Inc.?",
+      "a": "Green Thumb holds convertible notes, warrants and a services agreement with RYTHM, Inc., a separately listed company. After an August 2026 amendment removed ownership caps, Green Thumb started consolidating RYTHM in its financial statements from October 10, 2026."
+    },
+    {
+      "q": "Is Green Thumb profitable?",
+      "a": "On an adjusted basis it is: normalized EBITDA was $89.4 million in Q3 2026. Under GAAP it reported a small net loss of $4.8 million for the quarter, partly due to RYTHM brand licensing fees."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Green Thumb Q3 2026 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447207/gtbif-ex99_1.htm"
+    },
+    {
+      "name": "Green Thumb Form 10-Q for Q3 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001795139/000119312526447252/gtbif-20260930.htm"
+    },
+    {
+      "name": "Foley Hoag: rescheduling updates",
+      "url": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

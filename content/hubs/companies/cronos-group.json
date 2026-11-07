@@ -1,0 +1,140 @@
+{
+  "id": "cronos-group",
+  "type": "company",
+  "name": "Cronos Group Inc.",
+  "short_name": "Cronos",
+  "tags": [
+    "Cronos Group"
+  ],
+  "tickers": [
+    {
+      "exchange": "Nasdaq",
+      "symbol": "CRON"
+    },
+    {
+      "exchange": "TSX",
+      "symbol": "CRON"
+    }
+  ],
+  "hq": "Toronto, Ontario, Canada",
+  "founded": "2012",
+  "ceo": "Mike Gorenstein (founder; CEO since 2022, also Chairman and President)",
+  "website": "https://thecronosgroup.com",
+  "segment": "Canadian LP / international cannabis brands",
+  "headline_status": "Cronos is a cash-rich, Altria-backed cannabis brand company growing fast in Canada, Israel and Germany, and in October 2026 it entered the Dutch adult-use market by buying CanAdelaar.",
+  "summary": "Cronos Group develops and sells cannabis brands rather than running retail stores. Its Spinach brand is the top seller in Canadian vapes and edibles, PEACE NATURALS is the leading medical brand in Israel, and it also owns Lord Jones and LIT. Tobacco company Altria has been a major shareholder since 2018. Growth has been strong: third-quarter 2026 net revenue rose 75% to $63.5 million, with records in Canada, Israel and Germany, and adjusted EBITDA tripled to $17.1 million; net income was $17.8 million. Cronos holds one of the sector's largest cash and investment balances, about $841 million including deposits, and has been buying back shares. On October 15, 2026 it closed its purchase of CanAdelaar, the largest producer in the Netherlands' government adult-use pilot, for a base price of €57.5 million plus earn-outs, giving it a foothold in European recreational cannabis. Cronos also has a loan to and warrant in Canadian retailer High Tide.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada",
+      "Israel",
+      "Germany",
+      "Netherlands"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "$63.5 million (up 75% year over year)",
+    "net_income": "Net income of $17.8 million",
+    "adj_ebitda": "$17.1 million",
+    "date": "2026-11-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm"
+  },
+  "facts": {
+    "cash_and_investments": {
+      "value": "About $840.6 million in cash, restricted cash, short-term investments and interest-bearing deposits at September 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm",
+      "as_of": "2026-09"
+    },
+    "brands": {
+      "value": "Spinach, PEACE NATURALS, LIT, Lord Jones and C.O.G.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm",
+      "as_of": "2026-11"
+    },
+    "market_positions": {
+      "value": "Spinach #1 in Canadian vapes and edibles; PEACE NATURALS #1 cannabis brand in Israel",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm",
+      "as_of": "2026-11"
+    },
+    "canadelaar": {
+      "value": "CanAdelaar B.V. acquired October 15, 2026 for a €57.5 million base price plus contingent consideration; it supplies nearly all 69 coffee shops in the Dutch Wietexperiment",
+      "source": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/mergers-and-acquisitions/news/15837554/cronos-acquires-canadelaar-europes-largest-adultuse-cannabis-company",
+      "as_of": "2026-10"
+    },
+    "buybacks": {
+      "value": "Repurchased 15.5 million shares in the first nine months of 2026 (3.2 million in Q3 for $9.4 million)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm",
+      "as_of": "2026-11"
+    },
+    "us_footprint_note": {
+      "value": "No U.S. THC operations; Lord Jones is a hemp/CBD brand, so no U.S. states are listed",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm",
+      "as_of": "2026-11"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2018-12-07",
+      "event": "Signs the subscription agreement under which Altria Group makes its major investment in Cronos.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm"
+    },
+    {
+      "date": "2022-03-21",
+      "event": "Founder Mike Gorenstein returns as CEO, succeeding Kurt Schmidt.",
+      "source": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/finance/news/15691905/cronos-group-founder-mike-gorenstein-returns-as-ceo"
+    },
+    {
+      "date": "2025-12-09",
+      "event": "Cronos agrees to acquire CanAdelaar, the leading producer in the Netherlands' adult-use pilot.",
+      "source": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/mergers-and-acquisitions/news/15837554/cronos-acquires-canadelaar-europes-largest-adultuse-cannabis-company"
+    },
+    {
+      "date": "2026-10-15",
+      "event": "Completes the CanAdelaar acquisition; CanAdelaar co-founder Christopher Martens joins Cronos.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "Reports record Q3 2026 net revenue of $63.5 million, up 75% year over year.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who owns Cronos Group?",
+      "a": "Cronos is publicly traded on the Nasdaq and TSX as CRON. Altria Group has held a significant stake since its 2018 investment."
+    },
+    {
+      "q": "What is CanAdelaar?",
+      "a": "A Dutch cannabis producer that is the largest supplier in the Netherlands' government-run adult-use pilot, the Wietexperiment. Cronos completed its acquisition on October 15, 2026."
+    },
+    {
+      "q": "Where does Cronos sell cannabis?",
+      "a": "Mainly Canada and Israel, with fast-growing sales to Germany and, since October 2026, the Netherlands through CanAdelaar."
+    },
+    {
+      "q": "Is Cronos profitable?",
+      "a": "In Q3 2026 it reported net income of $17.8 million and adjusted EBITDA of $17.1 million, both helped by higher-priced sales to Israel and Germany."
+    },
+    {
+      "q": "What is Spinach?",
+      "a": "Cronos's main Canadian adult-use brand, ranked first in vapes and edibles nationally in Q3 2026 according to the company."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Cronos Q3 2026 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1656472/000165647226000074/pressreleaseq32026qformat.htm"
+    },
+    {
+      "name": "Cannabis Business Times: Cronos acquires CanAdelaar",
+      "url": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/mergers-and-acquisitions/news/15837554/cronos-acquires-canadelaar-europes-largest-adultuse-cannabis-company"
+    },
+    {
+      "name": "Cannabis Business Times: Mike Gorenstein returns as CEO",
+      "url": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/finance/news/15691905/cronos-group-founder-mike-gorenstein-returns-as-ceo"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

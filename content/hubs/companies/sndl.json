@@ -1,0 +1,133 @@
+{
+  "id": "sndl",
+  "type": "company",
+  "name": "SNDL Inc.",
+  "short_name": "SNDL",
+  "tags": [
+    "SNDL"
+  ],
+  "tickers": [
+    {
+      "exchange": "Nasdaq",
+      "symbol": "SNDL"
+    },
+    {
+      "exchange": "CSE",
+      "symbol": "SNDL"
+    }
+  ],
+  "hq": "Edmonton, Alberta, Canada",
+  "founded": "2006",
+  "ceo": "Zach George (since 2020)",
+  "website": "https://sndl.com",
+  "segment": "Canadian LP / cannabis and liquor retailer",
+  "headline_status": "SNDL is Canada's largest private liquor retailer and a major cannabis retailer and producer, now also the indirect majority owner of U.S. medical operator Parallel.",
+  "summary": "SNDL, formerly Sundial Growers, is an Alberta-based company with four businesses: liquor stores, cannabis stores, cannabis production and investments. It is Canada's largest private-sector liquor retailer, with about 165 Wine and Beyond, Liquor Depot and Ace Liquor stores, mostly in Alberta, and runs about 193 cannabis stores under the Value Buds and Spiritleaf banners. Its production arm sells brands such as Top Leaf, Contraband and Palmetto. Through its SunStream investment vehicle it funded the July 2026 restructuring of Parallel (Surterra Holdings), a U.S. medical cannabis operator, which cut Parallel's debt by about US$842 million and lifted SNDL's indirect stake to about 92%. Third-quarter 2026 revenue slipped 2.5% to C$238.0 million, and a C$52 million goodwill impairment on cannabis production drove a C$50.8 million net loss, although free cash flow hit a record C$20 million. SNDL has launched a strategic review of its cannabis production segment and plans a potential C$50 million substantial issuer bid.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "C$238.0 million (down 2.5% year over year)",
+    "net_income": "Net loss of C$50.8 million (includes C$52 million goodwill impairment)",
+    "adj_ebitda": "Not reported; adjusted operating income of C$5.2 million",
+    "date": "2026-10-27",
+    "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm"
+  },
+  "facts": {
+    "liquor_stores": {
+      "value": "165 liquor stores: Wine and Beyond (16), Liquor Depot (19), Ace Liquor (130), predominantly in Alberta",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "cannabis_stores": {
+      "value": "193 cannabis stores: Value Buds (133) and Spiritleaf (60, of which 56 franchised)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "parallel_stake": {
+      "value": "Indirect equity ownership in Parallel (Surterra Holdings) raised from about 67% to 92% after a July 2026 restructuring that cut about US$842 million of debt",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "us_footprint_note": {
+      "value": "SNDL's U.S. exposure is indirect via SunStream and Parallel, which it does not consolidate, so no U.S. states are listed",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "free_cash_flow": {
+      "value": "Record C$20.0 million in Q3 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm",
+      "as_of": "2026-10"
+    },
+    "strategic_review": {
+      "value": "Strategic review of the Cannabis Operations segment launched; potential C$50 million substantial issuer bid announced",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm",
+      "as_of": "2026-10"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2025-11-21",
+      "event": "Receives CSE approval to renew its share repurchase program, authorizing up to C$100 million of buybacks.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000119312526432303/sndl-ex99_2.htm"
+    },
+    {
+      "date": "2026-04-23",
+      "event": "U.S. Justice Department reclassifies state-licensed medical marijuana to Schedule III, relevant to SNDL's U.S. medical investments.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000119312526432303/sndl-ex99_2.htm"
+    },
+    {
+      "date": "2026-07-15",
+      "event": "DEA administrative hearing on broader rescheduling of all marijuana concludes (began June 29); outcome pending.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000119312526432303/sndl-ex99_2.htm"
+    },
+    {
+      "date": "2026-07-27",
+      "event": "Completes restructuring of Parallel (Surterra Holdings), reducing its debt by about US$842 million; a later rights offering lifts SNDL's indirect stake to about 92%.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000119312526432303/sndl-ex99_2.htm"
+    },
+    {
+      "date": "2026-10-27",
+      "event": "Reports Q3 2026 results with record free cash flow, a C$52 million goodwill impairment and a strategic review of cannabis production.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does SNDL stand for?",
+      "a": "SNDL is the company's ticker and, since 2022, its name. It was previously Sundial Growers."
+    },
+    {
+      "q": "Does SNDL sell liquor?",
+      "a": "Yes. Liquor retail is its biggest segment by revenue (C$134.8 million in Q3 2026), through about 165 stores mainly in Alberta."
+    },
+    {
+      "q": "Does SNDL own U.S. cannabis businesses?",
+      "a": "Indirectly. Through SunStream it holds about 92% of the economic interest in Parallel, a U.S. medical cannabis operator, and says it is exploring moving to direct ownership and consolidation of qualifying U.S. medical operations, subject to legal and Nasdaq requirements."
+    },
+    {
+      "q": "Why did SNDL post a loss in Q3 2026?",
+      "a": "Mainly because of a C$52 million non-cash goodwill impairment on its cannabis production segment. Excluding impairment and restructuring, adjusted operating income was C$5.2 million."
+    },
+    {
+      "q": "Who is SNDL's CEO?",
+      "a": "Zach George."
+    }
+  ],
+  "sources": [
+    {
+      "name": "SNDL Q3 2026 earnings release (SEC 6-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766600/000117184326006837/exh_991.htm"
+    },
+    {
+      "name": "SNDL Q3 2026 MD&A (SEC 6-K Ex. 99.2)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766600/000119312526432303/sndl-ex99_2.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

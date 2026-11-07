@@ -1,0 +1,169 @@
+{
+  "id": "verano",
+  "type": "company",
+  "name": "Verano Holdings Corp.",
+  "short_name": "Verano",
+  "tags": [
+    "Verano"
+  ],
+  "tickers": [
+    {
+      "exchange": "Cboe Canada",
+      "symbol": "VRNO"
+    },
+    {
+      "exchange": "OTCQX",
+      "symbol": "VRNO"
+    }
+  ],
+  "hq": "Chicago, Illinois, USA",
+  "founded": "2014",
+  "ceo": "George Archos (founder; Chairman and CEO)",
+  "website": "https://www.verano.com",
+  "segment": "US multi-state operator",
+  "headline_status": "Verano is a Chicago-based, Nevada-incorporated multi-state operator running 163 Zen Leaf and MÜV dispensaries in 13 states, with modest revenue growth in 2026.",
+  "summary": "Verano is a vertically integrated cannabis company that grows, manufactures and sells cannabis in 13 U.S. states. It runs dispensaries under the Zen Leaf and MÜV names (163 locations as of late October 2026, 86 of them in Florida) and 14 production facilities with more than 1.1 million square feet of cultivation. Its product brands include Savvy, Encore, Swift Lifts, HYPHEN, MÜV and Verano, and it entered drinks in 2026 with Easy Landings. Third-quarter 2026 revenue rose 5% to $212.4 million, and operating cash flow reached its highest level in four years, while the net loss narrowed sharply to about $4 million. Verano moved its legal home from British Columbia to Nevada in November 2025 and completed a 1-for-5 reverse stock split in June 2026; its shares trade as VRNO on Cboe Canada and the OTCQX. Management's near-term focus is the start of retail adult-use sales in Virginia and completing store and product upgrades before year-end.",
+  "footprint": {
+    "us_states": [
+      "Arizona",
+      "Connecticut",
+      "Florida",
+      "Illinois",
+      "Maryland",
+      "Massachusetts",
+      "Michigan",
+      "Nevada",
+      "New Jersey",
+      "Ohio",
+      "Pennsylvania",
+      "Virginia",
+      "West Virginia"
+    ],
+    "countries": [
+      "United States"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "$212.4 million (up 5% year over year)",
+    "net_income": "Net loss attributable to Verano of $4.1 million",
+    "adj_ebitda": "$50.4 million (24% of revenue)",
+    "date": "2026-10-29",
+    "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm"
+  },
+  "facts": {
+    "states": {
+      "value": "13 state markets: Arizona, Connecticut, Florida, Illinois, Maryland, Massachusetts, Michigan, Nevada, New Jersey, Ohio, Pennsylvania, Virginia, West Virginia",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000005/vrno-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "dispensaries": {
+      "value": "163 dispensaries, including 86 in Florida",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm",
+      "as_of": "2026-10"
+    },
+    "production": {
+      "value": "14 production facilities with more than 1.1 million sq ft of cultivation capacity",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm",
+      "as_of": "2026-10"
+    },
+    "incorporation": {
+      "value": "Nevada corporation since November 3, 2025 (previously British Columbia)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000005/vrno-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "reverse_split": {
+      "value": "1-for-5 reverse split effective June 11, 2026; temporary OTCQX symbol VRNOD for 20 business days, then back to VRNO",
+      "source": "https://www.cannabisbusinesstimes.com/finance/news/15827425/verano-completes-1for5-reverse-stock-split",
+      "as_of": "2026-06"
+    },
+    "cash_and_debt": {
+      "value": "$102 million cash and $390 million total debt (net of issuance costs) at September 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm",
+      "as_of": "2026-09"
+    },
+    "shares_outstanding": {
+      "value": "72,934,412 shares of common stock at September 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm",
+      "as_of": "2026-09"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2023-10-18",
+      "event": "Verano begins trading on Cboe Canada under VRNO.",
+      "source": "https://www.cannabisbusinesstimes.com/industry-headlines/news/15687327/verano-to-commence-trading-on-cboe-canada-oct-18"
+    },
+    {
+      "date": "2025-11-03",
+      "event": "Completes redomicile of the parent company from British Columbia to Nevada.",
+      "source": "https://www.cannabisbusinesstimes.com/finance/news/15770931/verano-completes-redomicile-of-parent-company-from-british-columbia-to-nevada"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana is moved to Schedule III federally.",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    },
+    {
+      "date": "2026-06-11",
+      "event": "1-for-5 reverse stock split takes effect.",
+      "source": "https://www.cannabisbusinesstimes.com/finance/news/15827425/verano-completes-1for5-reverse-stock-split"
+    },
+    {
+      "date": "2026-09-30",
+      "event": "Ends Q3 with its 86th Florida dispensary (MÜV Bradfordville) and launches Easy Landings, its first national beverage brand.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "Reports Q3 2026 revenue of $212.4 million and raises 2026 capex guidance to $54-60 million.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is Verano's ticker?",
+      "a": "Verano trades as VRNO on Cboe Canada and is quoted as VRNO on the OTCQX in the U.S. It was previously quoted as VRNOF on the OTC before it moved its incorporation to Nevada."
+    },
+    {
+      "q": "Which dispensary brands does Verano own?",
+      "a": "Verano operates Zen Leaf and MÜV dispensaries. MÜV is its main banner in Florida, where it had 86 stores in October 2026."
+    },
+    {
+      "q": "Which states is Verano in?",
+      "a": "Arizona, Connecticut, Florida, Illinois, Maryland, Massachusetts, Michigan, Nevada, New Jersey, Ohio, Pennsylvania, Virginia and West Virginia."
+    },
+    {
+      "q": "Why did Verano do a reverse stock split?",
+      "a": "Verano combined every five shares into one on June 11, 2026, cutting its share count to about 73 million. The company did not tie the split to a specific listing in its announcement; it temporarily traded as VRNOD on the OTCQX before returning to VRNO."
+    },
+    {
+      "q": "Is Verano a U.S. or Canadian company?",
+      "a": "It operates only in the U.S. and has been a Nevada corporation since November 2025, though its shares remain listed in Canada on Cboe Canada."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Verano Q3 2026 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000003/vrno-2026930xexx991.htm"
+    },
+    {
+      "name": "Verano Form 10-Q for Q3 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1848416/000184841626000005/vrno-20260930.htm"
+    },
+    {
+      "name": "Cannabis Business Times: Verano completes redomicile to Nevada",
+      "url": "https://www.cannabisbusinesstimes.com/finance/news/15770931/verano-completes-redomicile-of-parent-company-from-british-columbia-to-nevada"
+    },
+    {
+      "name": "Cannabis Business Times: Verano completes 1-for-5 reverse split",
+      "url": "https://www.cannabisbusinesstimes.com/finance/news/15827425/verano-completes-1for5-reverse-stock-split"
+    },
+    {
+      "name": "Cannabis Business Times: Verano to trade on Cboe Canada",
+      "url": "https://www.cannabisbusinesstimes.com/industry-headlines/news/15687327/verano-to-commence-trading-on-cboe-canada-oct-18"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -133,5 +133,32 @@
   "score_structure": 96.2,
   "score_scale": 41.0,
   "score_total": 78.2
+ },
+ {
+  "at": "2026-11-07T11:19:00+00:00",
+  "label": "Round 4a: 13 company profiles",
+  "pages_indexable": 230,
+  "articles": 22,
+  "hub_pages": 194,
+  "evergreen_ratio_pct": 84.3,
+  "sitemap_coverage_pct": 100.0,
+  "title_ok_pct": 99.1,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 99.6,
+  "single_h1_pct": 100.0,
+  "self_canonical_pct": 100.0,
+  "jsonld_pct": 100.0,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 100.0,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 0,
+  "avg_internal_links_per_article": 33.5,
+  "avg_inbound_links_per_article": 22.5,
+  "avg_inbound_links_per_hub": 16.5,
+  "avg_words_per_article": 1588,
+  "score_technical": 99.9,
+  "score_structure": 96.8,
+  "score_scale": 43.8,
+  "score_total": 79.3
  }
 ]

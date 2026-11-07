@@ -1,0 +1,154 @@
+{
+  "id": "organigram",
+  "type": "company",
+  "name": "Organigram Global Inc.",
+  "short_name": "Organigram",
+  "tags": [
+    "Organigram"
+  ],
+  "tickers": [
+    {
+      "exchange": "Nasdaq",
+      "symbol": "OGI"
+    },
+    {
+      "exchange": "TSX",
+      "symbol": "OGI"
+    }
+  ],
+  "hq": "Toronto, Ontario, Canada",
+  "founded": "2013",
+  "ceo": "James Yamanaka (since 2026)",
+  "website": "https://www.organigram.ca",
+  "segment": "Canadian LP",
+  "headline_status": "Organigram is Canada's largest cannabis producer by market share, expanding into Europe through Germany's Sanity Group and, as of November 2026, agreeing to acquire Aurora Cannabis for about C$561 million.",
+  "summary": "Organigram Global, originally from Moncton, New Brunswick, is Canada's top adult-use cannabis company by market share, with leading positions in vapes, milled flower and concentrates. Its brands include Edison, Holy Mountain, Big Bag O' Buds, SHRED and Monjour, made at facilities in New Brunswick, Quebec, Manitoba and Ontario, and it sells cannabinoid drinks in Canada and the U.S. through Collective Project. Tobacco group BAT is its largest shareholder. In April 2026 it bought Germany's Sanity Group, giving it medical and pilot-program businesses in Germany, Switzerland, the U.K. and Poland. In its fiscal third quarter to June 30, 2026, net revenue rose 49% to a record C$105.8 million and adjusted EBITDA reached C$13.4 million. On November 3, 2026 it agreed to buy Aurora Cannabis in a cash-and-share deal worth about C$561 million, beating Curaleaf's hostile bid, with BAT buying about C$187.5 million of new Organigram shares to help fund it. The deal needs shareholder, court and regulatory approvals and is expected to close in January 2027.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "Canada",
+      "Germany",
+      "Switzerland",
+      "United Kingdom",
+      "Poland"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 fiscal 2026 (quarter ended June 30, 2026); fiscal Q4 to September 30, 2026 not yet reported as of 2026-11-07",
+    "revenue": "Net revenue C$105.8 million (up 49%); gross revenue C$145.1 million",
+    "net_income": "Net income of C$105.5 million, driven mainly by non-cash fair-value gains on preferred shares",
+    "adj_ebitda": "C$13.4 million",
+    "date": "2026-08-11",
+    "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm"
+  },
+  "facts": {
+    "market_share": {
+      "value": "#1 cannabis company in Canada by market share; #1 in vapes, milled flower and concentrates",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm",
+      "as_of": "2026-08"
+    },
+    "sanity_group": {
+      "value": "Sanity Group GmbH acquired April 15, 2026; contributed about €25 million (C$40 million) of net revenue in its first quarter",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm",
+      "as_of": "2026-08"
+    },
+    "canadian_facilities": {
+      "value": "Moncton (NB), Lac-Supérieur (QC), Winnipeg (MB), plus processing in Aylmer and London (ON)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm",
+      "as_of": "2026-08"
+    },
+    "aurora_deal": {
+      "value": "Agreement to acquire Aurora for C$7.80 cash or 5.8626 Organigram shares (or a mix) per Aurora share, about C$561 million; Aurora holders to own about 35% economically; expected close January 2027",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm",
+      "as_of": "2026-11"
+    },
+    "bat_stake": {
+      "value": "BAT expected to own about 42% of Organigram on a partially diluted basis after the Aurora deal and C$187.5 million private placement",
+      "source": "https://www.bnnbloomberg.ca/press-releases/2026/11/03/organigram-to-acquire-aurora-and-establish-a-global-cannabis-leader/",
+      "as_of": "2026-11"
+    },
+    "us_footprint_note": {
+      "value": "U.S. presence is limited to hemp-derived cannabinoid beverages via Collective Project, so no U.S. states are listed",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm",
+      "as_of": "2026-08"
+    },
+    "fiscal_year_end": {
+      "value": "September 30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm",
+      "as_of": "2026-08"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2025-11-25",
+      "event": "Organigram names James Yamanaka, formerly BAT's global head of strategy, as CEO, effective around January 15, 2026.",
+      "source": "https://www.businesswire.com/news/home/20251125699142/en/Organigram-Announces-Appointment-of-Chief-Executive-Officer"
+    },
+    {
+      "date": "2026-04-15",
+      "event": "Closes acquisition of Germany's Sanity Group.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm"
+    },
+    {
+      "date": "2026-08-11",
+      "event": "Reports record Q3 fiscal 2026 net revenue of C$105.8 million, the first quarter including Sanity.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm"
+    },
+    {
+      "date": "2026-08-20",
+      "event": "Announces integration of Sanity Group under a unified global operating structure.",
+      "source": "https://www.bnnbloomberg.ca/press-releases/2026/08/20/organigram-global-accelerates-integration-of-sanity-group-under-unified-global-operating-structure/"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "Agrees to acquire Aurora Cannabis for about C$561 million, topping Curaleaf's hostile bid; BAT agrees to a C$187.5 million private placement.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Organigram buying Aurora Cannabis?",
+      "a": "Organigram signed a definitive agreement on November 3, 2026 to acquire Aurora for about C$561 million in cash and shares. The deal still needs votes by both companies' shareholders (meetings expected in December 2026), court approval and regulatory clearances, and is expected to close in January 2027."
+    },
+    {
+      "q": "Who owns Organigram?",
+      "a": "It is publicly traded on the Nasdaq and TSX as OGI. BAT is its largest shareholder and is expected to hold about 42% on a partially diluted basis after the Aurora deal closes."
+    },
+    {
+      "q": "What is Sanity Group?",
+      "a": "A German cannabis company Organigram acquired in April 2026. It gives Organigram medical cannabis distribution in Germany plus activities in Switzerland, the U.K. and Poland."
+    },
+    {
+      "q": "What are Organigram's main brands?",
+      "a": "Canadian brands include Edison, Holy Mountain, Big Bag O' Buds, SHRED, SHRED'ems, Monjour and Collective Project beverages."
+    },
+    {
+      "q": "When does Organigram report its next results?",
+      "a": "Its fiscal year ends September 30. The most recent reported quarter as of November 7, 2026 is fiscal Q3 (to June 30, 2026); full-year results had not yet been published."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Organigram Q3 fiscal 2026 results (SEC 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1620737/000162828026055496/organigramholdingsinc-3prx.htm"
+    },
+    {
+      "name": "Organigram and Aurora joint release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926121740/tm2628773d2_ex99-1.htm"
+    },
+    {
+      "name": "Organigram and Aurora joint release (BNN Bloomberg)",
+      "url": "https://www.bnnbloomberg.ca/press-releases/2026/11/03/organigram-to-acquire-aurora-and-establish-a-global-cannabis-leader/"
+    },
+    {
+      "name": "Organigram CEO appointment (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20251125699142/en/Organigram-Announces-Appointment-of-Chief-Executive-Officer"
+    },
+    {
+      "name": "Organigram Sanity integration release (BNN Bloomberg)",
+      "url": "https://www.bnnbloomberg.ca/press-releases/2026/08/20/organigram-global-accelerates-integration-of-sanity-group-under-unified-global-operating-structure/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

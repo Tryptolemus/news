@@ -1,0 +1,139 @@
+{
+  "id": "advisorshares-msos",
+  "type": "company",
+  "name": "AdvisorShares Pure US Cannabis ETF",
+  "short_name": "MSOS",
+  "tags": [
+    "MSOS",
+    "AdvisorShares"
+  ],
+  "tickers": [
+    {
+      "exchange": "NYSE Arca",
+      "symbol": "MSOS"
+    }
+  ],
+  "hq": "Bethesda, Maryland, USA (adviser: AdvisorShares Investments, LLC)",
+  "founded": "2020",
+  "ceo": "Not applicable (fund); portfolio manager Dan Ahrens",
+  "website": "https://advisorshares.com/etfs/MSOS",
+  "segment": "Exchange-traded fund: actively managed U.S. cannabis equities",
+  "headline_status": "MSOS is the largest U.S.-listed ETF dedicated to American cannabis companies, holding about $793 million in assets in November 2026, concentrated in Trulieve, Curaleaf and Green Thumb.",
+  "summary": "The AdvisorShares Pure US Cannabis ETF, ticker MSOS, was the first U.S.-listed exchange-traded fund focused only on U.S. cannabis businesses when it launched on September 1, 2020. It is actively managed by Dan Ahrens at AdvisorShares in Bethesda, Maryland, and holds a concentrated basket of about 19 positions, mainly multi-state operators. Because many of those companies trade only over the counter or in Canada, the fund gets part of its exposure through swap agreements rather than owning shares directly, which is why its published holdings include swap lines and a large negative cash balance. As of November 6, 2026 it had about $793 million in net assets. Its largest positions were Trulieve (about 37%), Curaleaf (about 30%), Green Thumb (about 17%, via swap) and Verano (about 6%). The fund's net expense ratio is 0.75%. MSOS is widely used as a barometer of U.S. cannabis stocks, and AdvisorShares described the April 2026 move of medical marijuana to Schedule III as a turning point for the sector.",
+  "footprint": {
+    "us_states": [],
+    "countries": [
+      "United States"
+    ]
+  },
+  "latest_results": {
+    "period": "Fund snapshot as of 2026-11-06 (ETFs do not report revenue or earnings)",
+    "revenue": "Not applicable (fund); net assets $793.3 million",
+    "net_income": "Not applicable (fund); NAV $4.28 per share",
+    "adj_ebitda": "Not applicable (fund)",
+    "date": "2026-11-06",
+    "source": "https://advisorshares.com/etfs/MSOS"
+  },
+  "facts": {
+    "net_assets": {
+      "value": "$793,299,008",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    },
+    "nav": {
+      "value": "$4.28 per share; 185,380,000 shares outstanding",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    },
+    "expense_ratio": {
+      "value": "0.75% net (0.60% management fee); contractual cap of 0.74% excluding certain costs",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    },
+    "inception": {
+      "value": "September 1, 2020",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    },
+    "top_holdings": {
+      "value": "Trulieve 36.98%, Curaleaf 29.91%, Green Thumb (swap) 17.31%, Verano (swap) 5.57%, Cresco Labs 3.52%, TerrAscend 3.44%, Glass House 1.92%, Jushi (swap) 1.87%, Vireo Growth (swap) 1.05%, Village Farms 0.48%",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    },
+    "structure": {
+      "value": "Mix of direct equity holdings and swap-based exposure; holdings list showed a -58.89% cash line on 2026-11-06",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    },
+    "footprint_note": {
+      "value": "A fund has no operating footprint; it invests in U.S. cannabis companies, so states are not listed",
+      "source": "https://advisorshares.com/etfs/MSOS",
+      "as_of": "2026-11"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2020-09-01",
+      "event": "MSOS launches as an actively managed U.S. cannabis ETF.",
+      "source": "https://advisorshares.com/etfs/MSOS"
+    },
+    {
+      "date": "2026-04-23",
+      "event": "AdvisorShares issues a statement welcoming the Justice Department's final action on cannabis rescheduling.",
+      "source": "https://advisorshares.com/?p=410250"
+    },
+    {
+      "date": "2026-06-10",
+      "event": "Top holding Trulieve begins trading on the NYSE as TRLV, the first U.S. cannabis operator on a major U.S. exchange.",
+      "source": "https://mjbizdaily.com/news/trulieve-nyse-2/616438/"
+    },
+    {
+      "date": "2026-11-06",
+      "event": "Fund reports about $793 million in net assets, with Trulieve, Curaleaf and Green Thumb making up most of the portfolio.",
+      "source": "https://advisorshares.com/etfs/MSOS"
+    },
+    {
+      "date": "2026-12-22",
+      "event": "Scheduled ex-date for the fund's year-end distribution (pay date December 30; amount not yet announced).",
+      "source": "https://advisorshares.com/etfs/MSOS"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is MSOS?",
+      "a": "MSOS is the ticker of the AdvisorShares Pure US Cannabis ETF, an actively managed exchange-traded fund on NYSE Arca that invests in U.S. cannabis companies, mostly multi-state operators."
+    },
+    {
+      "q": "Why does MSOS use swaps?",
+      "a": "Many U.S. cannabis operators are listed only in Canada or quoted over the counter, which can make direct ownership harder for a U.S. fund. MSOS holds some positions directly and gets other exposure through swap agreements, which shows up in its holdings as swap lines and collateral."
+    },
+    {
+      "q": "What are MSOS's biggest holdings?",
+      "a": "As of November 6, 2026: Trulieve (about 37%), Curaleaf (about 30%), Green Thumb (about 17%, via swap) and Verano (about 6%), followed by smaller positions in Cresco Labs, TerrAscend, Glass House and Jushi. Holdings change frequently."
+    },
+    {
+      "q": "How much does MSOS cost to own?",
+      "a": "Its net expense ratio is 0.75% a year, according to AdvisorShares."
+    },
+    {
+      "q": "Does MSOS pay dividends?",
+      "a": "It has rarely paid distributions; the only non-zero distribution shown on its fund page was a small capital gain in December 2021. A year-end distribution date is scheduled for December 2026 with no amount announced."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AdvisorShares MSOS fund page",
+      "url": "https://advisorshares.com/etfs/MSOS"
+    },
+    {
+      "name": "AdvisorShares statement on rescheduling (Apr 23, 2026)",
+      "url": "https://advisorshares.com/?p=410250"
+    },
+    {
+      "name": "MJBizDaily: Trulieve first US cannabis company to trade on NYSE",
+      "url": "https://mjbizdaily.com/news/trulieve-nyse-2/616438/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "partial"
+}

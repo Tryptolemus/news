@@ -1,0 +1,169 @@
+{
+  "id": "trulieve",
+  "type": "company",
+  "name": "Trulieve Cannabis Corp.",
+  "short_name": "Trulieve",
+  "tags": [
+    "Trulieve"
+  ],
+  "tickers": [
+    {
+      "exchange": "NYSE",
+      "symbol": "TRLV"
+    }
+  ],
+  "hq": "Tallahassee, Florida, USA",
+  "founded": "2015",
+  "ceo": "Kim Rivers (founder; CEO)",
+  "website": "https://www.trulieve.com",
+  "segment": "US medical cannabis operator (NYSE-listed)",
+  "headline_status": "Trulieve is now a medical-only, NYSE-listed cannabis company with about 208 dispensaries in four states, after spinning its adult-use business into the separately controlled Harvest Enterprises in June 2026.",
+  "summary": "Trulieve is the largest medical cannabis retailer in the U.S., with 208 dispensaries and 3.5 million square feet of cultivation and processing capacity. Its consolidated business now covers medical marijuana in Florida, Georgia, Pennsylvania and West Virginia. In June 2026 it restructured: it gave up control of Harvest Enterprises, the subsidiary holding its mixed medical and adult-use operations, keeping a non-controlling equity stake, and booked a $403 million loss on the deconsolidation. The medical-only structure let it become, on June 10, 2026, the first U.S. cannabis operator listed on the New York Stock Exchange, under TRLV, while leaving the Canadian Securities Exchange. It later redomesticated to Delaware. Because Harvest is no longer consolidated, third-quarter 2026 revenue fell 20% to $230 million, but margins rose, with adjusted EBITDA of $89 million and $45 million of free cash flow. Trulieve received final DEA registrations under the new Schedule III framework, saw Georgia patient traffic jump after a July 2026 program expansion, and is eyeing Texas.",
+  "footprint": {
+    "us_states": [
+      "Florida",
+      "Georgia",
+      "Pennsylvania",
+      "West Virginia"
+    ],
+    "countries": [
+      "United States"
+    ]
+  },
+  "latest_results": {
+    "period": "Q3 2026 (quarter ended September 30, 2026)",
+    "revenue": "$230 million (down 20% year over year, reflecting the Harvest deconsolidation)",
+    "net_income": "Net income attributable to common shareholders of $0.9 million",
+    "adj_ebitda": "$89 million (39% of revenue)",
+    "date": "2026-11-05",
+    "source": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm"
+  },
+  "facts": {
+    "dispensaries": {
+      "value": "208 retail dispensaries",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm",
+      "as_of": "2026-09"
+    },
+    "capacity": {
+      "value": "3.5 million sq ft of cultivation and processing capacity",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm",
+      "as_of": "2026-09"
+    },
+    "consolidated_states": {
+      "value": "Medical marijuana operations in Florida, Georgia, Pennsylvania and West Virginia (four states)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000089/tcnnf-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "harvest_stake": {
+      "value": "Non-controlling equity investment in Harvest Enterprises, LLC (former mixed-use operations), carried at $146.1 million; deconsolidated June 3, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000089/tcnnf-20260930.htm",
+      "as_of": "2026-09"
+    },
+    "cash": {
+      "value": "$327 million cash and equivalents at September 30, 2026",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm",
+      "as_of": "2026-09"
+    },
+    "incorporation": {
+      "value": "Delaware corporation since August 11, 2026, after redomesticating from British Columbia",
+      "source": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000072/tcnnf-20260811.htm",
+      "as_of": "2026-08"
+    },
+    "former_tickers": {
+      "value": "Previously CSE: TRUL and OTCQX: TCNNF; left the CSE after the close on June 9, 2026",
+      "source": "https://www.wlrn.org/business/2026-06-10/florida-based-trulieve-set-to-become-first-cannabis-company-listed-on-the-nyse",
+      "as_of": "2026-06"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2026-04-28",
+      "event": "Federal rescheduling of state-licensed medical marijuana to Schedule III takes effect.",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    },
+    {
+      "date": "2026-06-03",
+      "event": "Completes deconsolidation of Harvest Enterprises, which holds its former mixed medical and adult-use operations.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000089/tcnnf-20260930.htm"
+    },
+    {
+      "date": "2026-06-09",
+      "event": "Announces a share repurchase program of up to $50 million.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000039/a991-pressreleasedated69.htm"
+    },
+    {
+      "date": "2026-06-10",
+      "event": "Begins trading on the New York Stock Exchange as TRLV, the first U.S. cannabis operator listed there.",
+      "source": "https://mjbizdaily.com/news/trulieve-nyse-2/616438/"
+    },
+    {
+      "date": "2026-07-01",
+      "event": "Georgia's medical program expansion takes effect; Trulieve later reports a sevenfold traffic increase there.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm"
+    },
+    {
+      "date": "2026-08-11",
+      "event": "Completes domestication from British Columbia to Delaware after shareholder approval on August 5.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000072/tcnnf-20260811.htm"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "Reports Q3 2026 revenue of $230 million and adjusted EBITDA of $89 million.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Trulieve listed on the NYSE?",
+      "a": "Yes. Trulieve's Class A subordinate voting shares began trading on the New York Stock Exchange under TRLV on June 10, 2026. It stopped trading on the Canadian Securities Exchange (TRUL) after June 9."
+    },
+    {
+      "q": "How could a cannabis company list on the NYSE?",
+      "a": "Trulieve first separated its adult-use business into Harvest Enterprises, which it no longer controls, so the listed company holds only state-licensed medical operations. After the April 2026 move of medical marijuana to Schedule III, those operations can be federally registered with the DEA."
+    },
+    {
+      "q": "Why did Trulieve's revenue fall in 2026?",
+      "a": "Mostly because Harvest's results stopped being consolidated after June 3, 2026. Q3 2026 revenue of $230 million includes only the medical business, compared with $288 million for the whole company a year earlier."
+    },
+    {
+      "q": "Which states does Trulieve operate in?",
+      "a": "Its consolidated medical operations are in Florida, Georgia, Pennsylvania and West Virginia. It keeps a minority economic interest in Harvest, which holds the former mixed-use operations."
+    },
+    {
+      "q": "Who leads Trulieve?",
+      "a": "Founder Kim Rivers is CEO."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Trulieve Q3 2026 earnings release (SEC 8-K Ex. 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001754195/000175419526000087/exhibit991trlvearningsrele.htm"
+    },
+    {
+      "name": "Trulieve Form 10-Q for Q3 2026 (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000089/tcnnf-20260930.htm"
+    },
+    {
+      "name": "Trulieve share repurchase release (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000039/a991-pressreleasedated69.htm"
+    },
+    {
+      "name": "WLRN: Trulieve set to become first cannabis company on NYSE",
+      "url": "https://www.wlrn.org/business/2026-06-10/florida-based-trulieve-set-to-become-first-cannabis-company-listed-on-the-nyse"
+    },
+    {
+      "name": "MJBizDaily: Trulieve first US cannabis company to trade on NYSE",
+      "url": "https://mjbizdaily.com/news/trulieve-nyse-2/616438/"
+    },
+    {
+      "name": "Trulieve Delaware domestication 8-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1754195/000175419526000072/tcnnf-20260811.htm"
+    },
+    {
+      "name": "Foley Hoag: rescheduling updates",
+      "url": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/april/cannabis-rescheduling-doj-treasury-and-dea-updates-since-the-april-23-order/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
