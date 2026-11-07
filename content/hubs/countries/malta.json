@@ -1,0 +1,34 @@
+{
+  "id": "country/malta",
+  "type": "country",
+  "name": "Malta",
+  "tags": ["Malta"],
+  "legal": {"adult_use": "legal_no_sales", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Adults in Malta may possess small amounts, grow four plants at home and join licensed non-profit cannabis clubs, but there are no commercial shops.",
+  "summary": "In December 2021 Malta became the first EU country to legalise personal cannabis, through the Authority on the Responsible Use of Cannabis Act. Adults may carry up to 7 g, keep up to 50 g at home and grow four plants out of public view. Supply is limited to licensed non-profit associations for registered members, overseen by the Authority for the Responsible Use of Cannabis. Smoking in public and near children brings fines.",
+  "facts": {
+    "adult_use_since": {"value": "December 2021, under Act LXVI of 2021.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 7 g in public and up to 50 g at home; carrying over 7 g but under 28 g is an administrative offence.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 4 plants per household, grown privately and not visible from outside (e.g. balconies).", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "18 for possession.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking in public is fined €235; smoking in front of minors is fined €300–€500.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No shops. Licensed non-profit cannabis associations may supply registered resident members up to 7 g a day and 50 g a month.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "regulator": {"value": "Authority for the Responsible Use of Cannabis (ARUC), which licenses associations.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "penalties": {"value": "Trafficking and supply remain criminal offences; repeat possession offenders may be sent before a drugs tribunal.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
+    "tourists": {"value": "Clubs are for residents only, so visitors cannot buy legally. Bringing cannabis into Malta, even if legal at home, can lead to criminal charges unless properly declared and authorised for medical use.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2021-12", "event": "Parliament passes the Authority on the Responsible Use of Cannabis Act, legalising personal possession and home growing", "source": "https://expatax.mt/?p=9308"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Malta?", "a": "Yes for adults within limits: 7 g in public, 50 g at home and four plants. There are no shops, only licensed non-profit clubs for residents."},
+    {"q": "Can tourists buy cannabis in Malta?", "a": "No. Cannabis associations serve registered residents only, and bringing cannabis into Malta can lead to criminal charges."},
+    {"q": "Can you smoke weed in public in Malta?", "a": "No. Public smoking is fined €235, and smoking in front of children €300 to €500."}
+  ],
+  "sources": [
+    {"name": "Expatax Malta", "url": "https://expatax.mt/?p=9308"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

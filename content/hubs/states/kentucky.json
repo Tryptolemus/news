@@ -1,0 +1,41 @@
+{
+  "id": "us/kentucky",
+  "type": "us_state",
+  "name": "Kentucky",
+  "abbr": "KY",
+  "tags": ["Kentucky"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},
+  "headline_status": "Medical cannabis is legal in Kentucky for registered patients; recreational use remains illegal.",
+  "summary": "Kentucky's medical cannabis law, SB 47, was signed in March 2023 and took effect January 1, 2025, with the first dispensary sales in December 2025. Patients may vaporize flower but not smoke it, and home growing is not allowed. Recreational cannabis is still illegal, and possession is a jailable misdemeanor. In June 2026 Gov. Andy Beshear expanded the qualifying conditions by executive order.",
+  "facts": {
+    "medical_since": {"value": "January 1, 2025, under Senate Bill 47 (signed March 31, 2023).", "source": "https://kymedcan.ky.gov/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients need a practitioner certification for a qualifying condition, such as PTSD or chronic, severe or intractable pain; the state can add conditions. Executive Order 2026-318 (June 2, 2026) expanded the list.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking cannabis is not allowed for patients, but vaporizing raw flower is.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed. A 2026 bill to allow 3 plants received no committee hearing.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed medical dispensaries have sold since December 2025; 12 were open as of May 2026.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
+    "regulator": {"value": "Office of Medical Cannabis, Cabinet for Health and Family Services (KRS Chapter 218B).", "source": "https://kymedcan.ky.gov/", "as_of": "2026-11-07"},
+    "penalties": {"value": "Without a medical card, possessing any amount can bring up to 45 days in jail and/or a fine of up to $250. Kentucky has no decriminalization law.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Hemp-derived THC beverages are capped at 5 mg per 12-ounce serving, limited to buyers 21+, and since June 1, 2025 sold only by the package at licensed liquor package stores under ABC oversight.", "source": "https://abc.ky.gov/Documents/Cannabis%20Infused%20Beverages%20FAQ%20tm.pdf", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2023-03-31", "event": "Gov. Beshear signs SB 47 legalizing medical cannabis", "source": "https://kymedcan.ky.gov/"},
+    {"date": "2025-01-01", "event": "Medical cannabis law takes effect", "source": "https://kymedcan.ky.gov/"},
+    {"date": "2025-06-01", "event": "Three-tier rules for hemp-derived THC beverages take effect", "source": "https://abc.ky.gov/Documents/Cannabis%20Infused%20Beverages%20FAQ%20tm.pdf"},
+    {"date": "2025-12", "event": "First medical dispensary sales", "source": "https://www.mpp.org/states/kentucky"},
+    {"date": "2026-06-02", "event": "Executive Order 2026-318 expands qualifying conditions", "source": "https://www.mpp.org/states/kentucky"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Kentucky?", "a": "Only for registered medical patients. Recreational cannabis is illegal, and possession without a card can bring up to 45 days in jail."},
+    {"q": "Can you smoke medical marijuana in Kentucky?", "a": "No. Patients may vaporize flower and use other approved products, but smoking is not permitted."},
+    {"q": "Are medical dispensaries open in Kentucky?", "a": "Yes. Sales began in December 2025, and 12 dispensaries were open by May 2026."},
+    {"q": "Can you grow cannabis at home in Kentucky?", "a": "No. Home cultivation is not allowed, even for patients."}
+  ],
+  "sources": [
+    {"name": "Kentucky Office of Medical Cannabis", "url": "https://kymedcan.ky.gov/"},
+    {"name": "Kentucky ABC – Cannabis-Infused Beverages FAQ", "url": "https://abc.ky.gov/Documents/Cannabis%20Infused%20Beverages%20FAQ%20tm.pdf"},
+    {"name": "Marijuana Policy Project – Kentucky", "url": "https://www.mpp.org/states/kentucky"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

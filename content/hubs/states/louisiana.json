@@ -1,0 +1,41 @@
+{
+  "id": "us/louisiana",
+  "type": "us_state",
+  "name": "Louisiana",
+  "abbr": "LA",
+  "tags": ["Louisiana"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
+  "headline_status": "Medical cannabis, including smokable flower, is legal in Louisiana; recreational use is not, though possession of up to 14 grams is only a ticket.",
+  "summary": "Louisiana's medical cannabis program, first passed in 1978, became workable after reforms starting in 2015; pharmacies opened in 2018 and smokable flower has been allowed since 2020. Recreational cannabis remains illegal, but a 2021 law made possession of up to 14 grams a ticket with a fine of up to $100. In 2026 lawmakers made smoking or vaping cannabis near schools a crime (HB 568), let patients self-administer products (SB 270), and set aside an adult-use pilot bill.",
+  "facts": {
+    "medical_since": {"value": "First enacted in 1978 but largely inactive until reforms beginning in 2015; the first medical pharmacies opened in 2018.", "source": "https://www.mpp.org/states/louisiana", "as_of": "2026-11-07"},
+    "medical_program": {"value": "A certified medical professional must confirm the patient's qualifying condition. Smoked and vaporized flower is allowed under 2020 changes, and SB 270 (law since June 1, 2026) lets patients or caregivers possess and use products without help from medical staff. The program now sunsets in 2030.", "source": "https://www.mpp.org/states/louisiana", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Medical marijuana pharmacies only, capped at 30 statewide (28 licensed in 2026), supplied by two licensed grower-processors, Good Day Farm and Ilera Holistic Healthcare.", "source": "https://lailluminator.com/2024/06/03/pulling-weeds-legislators-make-big-changes-to-louisianas-cannabis-industries/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Louisiana Department of Health, for both the medical program and consumable hemp registration.", "source": "https://www.americanbar.org/groups/tort_trial_insurance_practice/resources/brief/2026-spring/rebellion-resolution-where-louisiana-hemp-law-stands-now-whats-next", "as_of": "2026-11-07"},
+    "penalties": {"value": "Since 2021, possession of up to 14 grams is a ticketable offense with a fine of up to $100. Larger amounts remain criminal.", "source": "https://www.mpp.org/states/louisiana", "as_of": "2026-11-07"},
+    "public_use": {"value": "Public smoking is ticketable under the Smoke-Free Air Act. Under HB 568 (signed May 22, 2026), using cannabis within 2,000 feet of a school or university, or on a school bus, carries up to 1 year in jail and a $1,000 fine.", "source": "https://www.mpp.org/states/louisiana", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Since January 1, 2025, hemp edibles are capped at 5 mg THC per serving and 40 mg per package, drinks at one 5 mg serving per container, and tinctures at 30 mg. Inhalable hemp and hemp flower are banned, sales at fuel-selling convenience stores are banned, and buyers must be 21+.", "source": "https://lailluminator.com/2024/06/03/pulling-weeds-legislators-make-big-changes-to-louisianas-cannabis-industries/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "1978", "event": "Louisiana first enacts a medical cannabis law", "source": "https://www.mpp.org/states/louisiana"},
+    {"date": "2018", "event": "First medical marijuana pharmacies open", "source": "https://www.mpp.org/states/louisiana"},
+    {"date": "2021", "event": "Possession of up to 14 grams becomes a ticketable offense with a fine of up to $100", "source": "https://www.mpp.org/states/louisiana"},
+    {"date": "2025-01-01", "event": "Tighter hemp THC limits and a ban on hemp flower and inhalables take effect", "source": "https://www.americanbar.org/groups/tort_trial_insurance_practice/resources/brief/2026-spring/rebellion-resolution-where-louisiana-hemp-law-stands-now-whats-next"},
+    {"date": "2026-05-22", "event": "HB 568 signed, criminalizing cannabis use near schools", "source": "https://www.mpp.org/states/louisiana"},
+    {"date": "2026-06-01", "event": "SB 270 becomes law without the governor's signature, letting patients self-administer", "source": "https://www.mpp.org/states/louisiana"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Louisiana?", "a": "Only for medical patients. Recreational cannabis is illegal, but possessing up to 14 grams is a ticket with a fine of up to $100."},
+    {"q": "Can medical patients smoke flower in Louisiana?", "a": "Yes. Smokable and vaporized flower has been allowed since 2020 changes to the program."},
+    {"q": "What are the hemp THC limits in Louisiana?", "a": "Hemp edibles may contain up to 5 mg THC per serving and 40 mg per package. Hemp flower and vapes are banned, and buyers must be 21."},
+    {"q": "Is Louisiana legalizing recreational marijuana?", "a": "Not now. A 2026 adult-use pilot bill (HB 373) was deferred by its sponsor, and a study task force resolution failed in committee."}
+  ],
+  "sources": [
+    {"name": "Marijuana Policy Project – Louisiana", "url": "https://www.mpp.org/states/louisiana"},
+    {"name": "Louisiana Illuminator", "url": "https://lailluminator.com/2024/06/03/pulling-weeds-legislators-make-big-changes-to-louisianas-cannabis-industries/"},
+    {"name": "American Bar Association – The Brief", "url": "https://www.americanbar.org/groups/tort_trial_insurance_practice/resources/brief/2026-spring/rebellion-resolution-where-louisiana-hemp-law-stands-now-whats-next"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

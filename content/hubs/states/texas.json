@@ -1,0 +1,138 @@
+{
+  "id": "us/texas",
+  "type": "us_state",
+  "name": "Texas",
+  "abbr": "TX",
+  "tags": [
+    "Texas"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "limited",
+    "decriminalized": "no"
+  },
+  "headline_status": "Recreational marijuana is illegal; a limited low-THC medical program (TCUP) was expanded in 2025.",
+  "summary": "Texas allows only low-THC medical cannabis through the Compassionate Use Program (TCUP). HB 46, which took effect September 1, 2025, added chronic pain and other conditions, allowed non-smoked inhaled products, and raised the number of licensed dispensing organizations from 3 to 15. Recreational possession is still a crime: two ounces or less is a Class B misdemeanor. Under state agency rules adopted in 2026, hemp-derived THC can be sold only to adults 21 and over, and smokable hemp THC products, including THCA flower, were banned starting March 31, 2026.",
+  "facts": {
+    "medical_program": {
+      "value": "TCUP covers a defined list of conditions. HB 46 (2025) added chronic pain lasting over 90 days, Crohn's disease, traumatic brain injury, terminal illness and hospice care. Raw flower and smoking are still prohibited.",
+      "source": "https://www.mpp.org/states/texas/hb46-expands-compassionate-use-program/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "For TCUP products, HB 46 replaced the old 1% THC-by-weight cap with a limit of 10 mg THC per dose and no more than 1 gram of THC per package.",
+      "source": "https://www.mpp.org/states/texas/hb46-expands-compassionate-use-program/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "No adult-use sales. Medical sales come only from DPS-licensed dispensing organizations; HB 46 set a total of 15 licenses and allows satellite locations.",
+      "source": "https://www.dps.texas.gov/section/compassionate-use-program/89th-legislation",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "The Texas Department of Public Safety licenses TCUP dispensing organizations. The Texas Alcoholic Beverage Commission and the Department of State Health Services regulate hemp-derived THC sales.",
+      "source": "https://www.dps.texas.gov/section/compassionate-use-program/89th-legislation",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Possessing 2 ounces or less of marijuana is a Class B misdemeanor; more than 2 and up to 4 ounces is a Class A misdemeanor; larger amounts are felonies.",
+      "source": "https://texas.public.law/statutes/tex._health_and_safety_code_section_481.121",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Under Gov. Abbott's Executive Order GA-56 (Sept. 2025), TABC and DSHS rules ban hemp THC sales to anyone under 21 and require ID checks. DSHS rules banned all smokable THC products, including THCA flower, from March 31, 2026. Edibles and drinks are still allowed.",
+      "source": "https://fox7austin.com/news/texas-ban-smokable-thc-take-effect-march-31",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 or older for hemp-derived THC products, with ID required for every sale at TABC-licensed retailers.",
+      "source": "https://www.texastribune.org/2026/01/20/texas-tabc-hemp-rules-finalized/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2025-06",
+      "event": "Gov. Abbott signs HB 46, expanding the Compassionate Use Program.",
+      "source": "https://www.mpp.org/states/texas/hb46-expands-compassionate-use-program/"
+    },
+    {
+      "date": "2025",
+      "event": "Gov. Abbott vetoes SB 3, which would have banned THC outside TCUP. Two special sessions end without a hemp bill.",
+      "source": "https://mpp.org/states/texas"
+    },
+    {
+      "date": "2025-09-01",
+      "event": "Most HB 46 changes take effect.",
+      "source": "https://www.dps.texas.gov/section/compassionate-use-program/89th-legislation"
+    },
+    {
+      "date": "2025-09-10",
+      "event": "Executive Order GA-56 directs TABC and DSHS to set a 21+ age limit and testing and packaging rules for hemp.",
+      "source": "https://mpp.org/states/texas"
+    },
+    {
+      "date": "2026-01-20",
+      "event": "TABC adopts permanent hemp rules for its licensees.",
+      "source": "https://www.texastribune.org/2026/01/20/texas-tabc-hemp-rules-finalized/"
+    },
+    {
+      "date": "2026-03-31",
+      "event": "The DSHS ban on smokable hemp THC products, including THCA, takes effect.",
+      "source": "https://fox7austin.com/news/texas-ban-smokable-thc-take-effect-march-31"
+    }
+  ],
+  "pending": [
+    {
+      "item": "A federal ban on most consumable hemp THC products, passed by Congress in 2025, could override the state hemp rules.",
+      "status": "Scheduled to take effect in November 2026; industry groups are pushing for repeal.",
+      "source": "https://www.texastribune.org/2026/01/20/texas-tabc-hemp-rules-finalized/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Texas?",
+      "a": "No. Recreational marijuana is illegal, and possessing up to 2 ounces is a Class B misdemeanor. Only low-THC medical cannabis through TCUP is legal."
+    },
+    {
+      "q": "Does Texas have medical marijuana?",
+      "a": "Yes, in limited form. The Compassionate Use Program allows low-THC products for listed conditions, and since 2025 that list includes chronic pain, Crohn's disease, TBI and terminal illness. Smoking flower is still not allowed."
+    },
+    {
+      "q": "Is THCA flower legal in Texas?",
+      "a": "No longer in stores. State health rules banned the sale of smokable hemp THC products, including THCA flower, as of March 31, 2026."
+    },
+    {
+      "q": "How old do you have to be to buy delta-8 or hemp THC in Texas?",
+      "a": "21, under rules adopted after the governor's September 2025 executive order, and stores must check ID."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Texas DPS – 89th Legislature (HB 46)",
+      "url": "https://www.dps.texas.gov/section/compassionate-use-program/89th-legislation"
+    },
+    {
+      "name": "Texas Health & Safety Code 481.121",
+      "url": "https://texas.public.law/statutes/tex._health_and_safety_code_section_481.121"
+    },
+    {
+      "name": "Marijuana Policy Project – Texas",
+      "url": "https://mpp.org/states/texas"
+    },
+    {
+      "name": "Marijuana Policy Project – HB 46 summary",
+      "url": "https://www.mpp.org/states/texas/hb46-expands-compassionate-use-program/"
+    },
+    {
+      "name": "Texas Tribune – TABC hemp rules finalized",
+      "url": "https://www.texastribune.org/2026/01/20/texas-tabc-hemp-rules-finalized/"
+    },
+    {
+      "name": "FOX 7 Austin – smokable THC ban",
+      "url": "https://fox7austin.com/news/texas-ban-smokable-thc-take-effect-march-31"
+    }
+  ],
+  "page_status": "complete",
+  "last_verified": "2026-11-07"
+}

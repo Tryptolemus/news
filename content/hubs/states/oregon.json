@@ -1,0 +1,53 @@
+{
+  "id": "us/oregon",
+  "type": "us_state",
+  "name": "Oregon",
+  "abbr": "OR",
+  "tags": ["Oregon"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal in Oregon for adults 21+.",
+  "summary": "Oregon voters approved Measure 91 in November 2014, and adult possession and home growing became legal on July 1, 2015; early sales to adults began at medical dispensaries on October 1, 2015. Adults 21+ may carry up to 2 ounces of flower in public and grow four plants per household, and retail purchases carry a 17% state tax plus up to 3% local tax. The Oregon Liquor and Cannabis Commission regulates the market, which has operated under population-based license caps since HB 4121 in 2024, and a 2025 law (HB 3825) reinforced the state's ban on artificially derived cannabinoids such as delta-8 THC.",
+  "facts": {
+    "adult_use_since": {"value": "July 1, 2015, under Measure 91, which voters approved in November 2014.", "source": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download", "as_of": "2026-11-07"},
+    "medical_since": {"value": "1998, through Ballot Measure 67.", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 2 oz of flower in public (raised from 1 oz by SB 408 in 2021) and up to 8 oz of usable cannabis at home.", "source": "https://norml.org/blog/2022/01/10/oregon-new-rules-increase-the-amount-of-cannabis-adults-can-purchase-per-transaction/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Four plants per residence, no matter how many adults live there.", "source": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking or using cannabis in public is not allowed; businesses with a liquor license, including patios and decks, count as public, and the Indoor Clean Air Act also applies.", "source": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Early sales to adults began October 1, 2015 at medical dispensaries; adults may buy up to 2 oz of flower per transaction since January 1, 2022. New licenses are capped by population under HB 4121 (2024).", "source": "https://drugpolicy.org/?p=2592", "as_of": "2026-11-07"},
+    "taxes": {"value": "17% state retail tax on recreational cannabis, plus up to 3% local tax where cities or counties adopt it.", "source": "https://www.oregon.gov/dor/programs/businesses/pages/marijuana.aspx", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Registered patients may possess up to 24 oz and grow up to six mature and 12 immature plants; the annual patient fee is $200, with reductions for veterans, SNAP/SSI recipients and Oregon Health Plan members.", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"},
+    "regulator": {"value": "Oregon Liquor and Cannabis Commission (OLCC).", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "HB 3825 (2025) reinforces Oregon's prohibition on CBN, delta-8 THC and other artificially derived cannabinoids and calls for clearer testing and labeling standards.", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "1998", "event": "Voters approve Measure 67, creating the medical marijuana program", "source": "https://www.mpp.org/states/oregon"},
+    {"date": "2014-11", "event": "Voters approve Measure 91, legalizing adult-use cannabis", "source": "https://www.mpp.org/states/oregon"},
+    {"date": "2015-07-01", "event": "Adult possession and home cultivation become legal", "source": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download"},
+    {"date": "2015-10-01", "event": "Early adult-use sales begin at medical dispensaries", "source": "https://drugpolicy.org/?p=2592"},
+    {"date": "2022-01-01", "event": "Per-transaction purchase limit for flower rises to 2 oz", "source": "https://norml.org/blog/2022/01/10/oregon-new-rules-increase-the-amount-of-cannabis-adults-can-purchase-per-transaction/"},
+    {"date": "2024", "event": "HB 4121 replaces the license moratorium with population-based caps", "source": "https://www.mpp.org/states/oregon"},
+    {"date": "2025", "event": "HB 3825 signed, reinforcing the ban on artificially derived cannabinoids", "source": "https://www.mpp.org/states/oregon"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Oregon?", "a": "Yes. Adults 21 and older have been able to possess and grow cannabis since July 1, 2015, and licensed stores sell to adults."},
+    {"q": "How much weed can you carry in Oregon?", "a": "Up to 2 ounces of flower in public, and up to 8 ounces at home."},
+    {"q": "Can you grow weed in Oregon?", "a": "Yes. Adults may grow four plants per residence, regardless of how many people live there."},
+    {"q": "What is the weed tax in Oregon?", "a": "Recreational purchases carry a 17% state tax, and cities or counties can add up to 3% more."},
+    {"q": "Is delta-8 THC legal in Oregon?", "a": "No. Oregon bars artificially derived cannabinoids such as delta-8 THC, a ban reinforced by HB 3825 in 2025."}
+  ],
+  "sources": [
+    {"name": "Oregon Department of Revenue, Marijuana tax", "url": "https://www.oregon.gov/dor/programs/businesses/pages/marijuana.aspx"},
+    {"name": "Oregon Liquor Control Commission, Personal Use FAQ (2017, hosted by Mass.gov)", "url": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download"},
+    {"name": "Marijuana Policy Project, Oregon", "url": "https://www.mpp.org/states/oregon"},
+    {"name": "NORML", "url": "https://norml.org/blog/2022/01/10/oregon-new-rules-increase-the-amount-of-cannabis-adults-can-purchase-per-transaction/"},
+    {"name": "Drug Policy Alliance", "url": "https://drugpolicy.org/?p=2592"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

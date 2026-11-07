@@ -1,0 +1,139 @@
+{
+  "id": "us/virginia",
+  "type": "us_state",
+  "name": "Virginia",
+  "abbr": "VA",
+  "tags": [
+    "Virginia"
+  ],
+  "legal": {
+    "adult_use": "legal_no_sales",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Adults 21+ may possess and grow cannabis; licensed retail sales are scheduled to begin July 1, 2027.",
+  "summary": "Virginia legalized adult possession and home growing in 2021, but until now it has had no legal adult-use stores. A 2026 compromise between Gov. Abigail Spanberger and the General Assembly, passed as part of the state budget at the end of June, allows up to 350 retail stores starting July 1, 2027, and raised the possession limit to 2 ounces. Medical cannabis is sold through dispensaries regulated by the Virginia Cannabis Control Authority, which will also regulate the new retail market and hemp products.",
+  "facts": {
+    "adult_use_since": {
+      "value": "2021, when Virginia became the first Southern state to legalize adult possession and home cultivation.",
+      "source": "https://www.wdbj7.com/2026/06/29/virginia-allow-recreational-marijuana-be-sold-retail-stores-beginning-2027/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Adults 21+ may possess up to 2 ounces of marijuana in public, or an equivalent amount of product. Above that is a civil penalty; more than 4 ounces is a misdemeanor, and more than 1 pound is a felony.",
+      "source": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1100/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 4 plants per household, grown at the residence.",
+      "source": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Public consumption carries a $25 civil fine. The 2026 compromise raises it to $250 starting July 1, 2027.",
+      "source": "https://www.mpp.org/states/virginia",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "No licensed adult-use stores yet. The 2026 budget compromise allows up to 350 stores, with sales beginning July 1, 2027.",
+      "source": "https://www.cca.virginia.gov/",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "Under the 2026 framework, retail cannabis carries a 6% cannabis tax (rising to 8% on July 1, 2029) on top of the 5.3% sales tax, and localities may add a local tax.",
+      "source": "https://www.mpp.org/states/virginia",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Practitioners may recommend cannabis for any condition. Patients buy from licensed dispensaries, with products limited to 10 mg THC per dose; registering with the CCA is optional.",
+      "source": "https://www.mpp.org/states/virginia",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Virginia Cannabis Control Authority (CCA).",
+      "source": "https://www.cca.virginia.gov/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "The 2026 framework puts hemp-derived products under CCA regulation alongside cannabis.",
+      "source": "https://www.mpp.org/states/virginia",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2017",
+      "event": "An affirmative defense is created for cannabis oil used to treat intractable epilepsy.",
+      "source": "https://www.mpp.org/states/virginia"
+    },
+    {
+      "date": "2021",
+      "event": "Adult possession and home growing are legalized, and the medical program is expanded to include botanical cannabis.",
+      "source": "https://www.mpp.org/states/virginia"
+    },
+    {
+      "date": "2024",
+      "event": "Gov. Youngkin vetoes a retail sales bill, and vetoes another in 2025.",
+      "source": "https://www.mpp.org/states/virginia"
+    },
+    {
+      "date": "2026-06-30",
+      "event": "A retail market compromise is signed as part of the state budget.",
+      "source": "https://www.mpp.org/states/virginia"
+    }
+  ],
+  "pending": [
+    {
+      "item": "Adult-use retail sales at up to 350 licensed stores, plus a higher $250 civil fine for public consumption.",
+      "status": "Scheduled to begin July 1, 2027.",
+      "source": "https://www.cca.virginia.gov/"
+    },
+    {
+      "item": "The retail cannabis tax rises from 6% to 8%.",
+      "status": "Scheduled for July 1, 2029.",
+      "source": "https://www.mpp.org/states/virginia"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Virginia?",
+      "a": "Yes, for adults 21+ to possess and grow. Licensed recreational stores are not open yet; sales are scheduled to begin July 1, 2027."
+    },
+    {
+      "q": "When can you buy recreational weed in Virginia?",
+      "a": "July 1, 2027, under the compromise lawmakers passed with the 2026 state budget."
+    },
+    {
+      "q": "How much weed can you have in Virginia?",
+      "a": "Up to 2 ounces in public. Adults may also grow up to 4 plants per household."
+    },
+    {
+      "q": "Can I smoke weed in public in Virginia?",
+      "a": "No. Public use brings a civil fine, now $25, which rises to $250 on July 1, 2027."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Code of Virginia § 4.1-1100",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1100/"
+    },
+    {
+      "name": "Code of Virginia § 4.1-1101",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/"
+    },
+    {
+      "name": "Virginia Cannabis Control Authority",
+      "url": "https://www.cca.virginia.gov/"
+    },
+    {
+      "name": "Marijuana Policy Project – Virginia",
+      "url": "https://www.mpp.org/states/virginia"
+    },
+    {
+      "name": "Associated Press via WDBJ7 – Virginia retail sales in 2027",
+      "url": "https://www.wdbj7.com/2026/06/29/virginia-allow-recreational-marijuana-be-sold-retail-stores-beginning-2027/"
+    }
+  ],
+  "page_status": "complete",
+  "last_verified": "2026-11-07"
+}

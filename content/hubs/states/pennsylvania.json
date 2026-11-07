@@ -1,0 +1,47 @@
+{
+  "id": "us/pennsylvania",
+  "type": "us_state",
+  "name": "Pennsylvania",
+  "abbr": "PA",
+  "tags": ["Pennsylvania"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Medical cannabis is legal in Pennsylvania, but recreational use is still illegal statewide.",
+  "summary": "Pennsylvania's Medical Marijuana Act, signed April 17, 2016, lets patients with one of 24 qualifying conditions buy cannabis from licensed dispensaries, which began selling in February 2018. Recreational cannabis remains illegal: possessing 30 grams or less is a misdemeanor punishable by up to 30 days in jail. The House passed a state-store legalization bill (HB 1200) in May 2025, but a Senate committee killed it, and on June 10, 2026 the Senate voted 27-23 against SB 49, which would have created a Cannabis Control Board and regulated intoxicating hemp.",
+  "facts": {
+    "medical_since": {"value": "April 17, 2016, when the Medical Marijuana Act (Act 16) was signed.", "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients with one of 24 qualifying serious medical conditions need a certification from an approved practitioner and must register with the Department of Health.", "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Medical dispensaries have sold to registered patients and caregivers since February 2018; there are no adult-use sales.", "source": "https://www.mpp.org/states/pennsylvania", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal possession amount for adults without a medical card.", "source": "https://norml.org/laws/pennsylvania-penalties-2/", "as_of": "2026-11-07"},
+    "penalties": {"value": "30 g or less of marijuana (8 g of hashish) is a misdemeanor punishable by up to 30 days in jail and a $500 fine; larger amounts carry heavier misdemeanor penalties. First offenders may qualify for conditional release.", "source": "https://norml.org/laws/pennsylvania-penalties-2/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Office of Medical Marijuana, Pennsylvania Department of Health.", "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Intoxicating hemp products are unregulated at the state level, according to the Shapiro administration; a bill to regulate them (SB 49) failed in the Senate in June 2026.", "source": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2016-04-17", "event": "Medical Marijuana Act signed into law", "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana"},
+    {"date": "2018-02", "event": "Medical dispensaries begin selling to patients", "source": "https://www.mpp.org/states/pennsylvania"},
+    {"date": "2025-05-07", "event": "House passes HB 1200, a state-store adult-use legalization bill; a Senate committee rejects it days later", "source": "https://www.mpp.org/states/pennsylvania"},
+    {"date": "2026-06-10", "event": "Senate votes 27-23 against SB 49, which would have created a Cannabis Control Board and regulated hemp", "source": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/"}
+  ],
+  "pending": [
+    {"item": "SB 49 would create an independent Cannabis Control Board and align hemp rules with new federal limits", "status": "Rejected 27-23 on June 10, 2026; the Senate adopted a motion to reconsider (later action not verified)", "source": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/"},
+    {"item": "SB 120 and HB 20 would legalize adult use through private licensed stores", "status": "Introduced July 2025; no committee hearing reported", "source": "https://www.mpp.org/states/pennsylvania"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Pennsylvania?", "a": "Only for registered medical patients. Recreational marijuana is illegal statewide, though legalization bills keep being debated in Harrisburg."},
+    {"q": "What is the penalty for weed possession in Pennsylvania?", "a": "Possessing 30 grams or less is a misdemeanor with up to 30 days in jail and a $500 fine; larger amounts bring heavier penalties."},
+    {"q": "How do you get a medical marijuana card in Pennsylvania?", "a": "Get certified by a Department of Health-approved practitioner for one of 24 qualifying conditions, then register with the state's medical marijuana program."},
+    {"q": "Will Pennsylvania legalize recreational weed?", "a": "Not yet. The House passed a state-store bill in 2025 but the Senate blocked it, and the Senate rejected a Cannabis Control Board bill in June 2026."}
+  ],
+  "sources": [
+    {"name": "Pennsylvania Department of Health, Medical Marijuana Program", "url": "https://www.pa.gov/agencies/health/programs/medical-marijuana"},
+    {"name": "Marijuana Policy Project, Pennsylvania", "url": "https://www.mpp.org/states/pennsylvania"},
+    {"name": "NORML, Pennsylvania penalties", "url": "https://norml.org/laws/pennsylvania-penalties-2/"},
+    {"name": "PhillyVoice", "url": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

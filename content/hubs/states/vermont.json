@@ -1,0 +1,125 @@
+{
+  "id": "us/vermont",
+  "type": "us_state",
+  "name": "Vermont",
+  "abbr": "VT",
+  "tags": [
+    "Vermont"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+, with licensed stores open since 2022.",
+  "summary": "Vermont legalized adult possession and home growing in 2018 and set up a regulated market under a 2020 law. Licensed stores have been selling since October 2022, under oversight from the Cannabis Control Board. Act 176 of 2026 (S.278), signed June 18, 2026, doubled the possession and per-sale limits to 2 ounces of cannabis and 10 grams of hashish, effective July 1, 2026. Medical cannabis has been legal since 2004.",
+  "facts": {
+    "adult_use_since": {
+      "value": "2018: H.511, signed January 22, 2018, legalized possession and limited home growing for adults 21+.",
+      "source": "https://www.mpp.org/states/Vermont",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "2004, making Vermont the ninth state with a medical marijuana law. Dispensaries were authorized in 2011.",
+      "source": "https://www.mpp.org/states/Vermont",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Adults 21+ may possess up to 2 ounces of cannabis or 10 grams of hashish (raised from 1 oz/5 g by Act 176, effective July 1, 2026). Cannabis from a person's own harvest kept at home does not count toward that limit.",
+      "source": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 2 mature and 4 immature plants.",
+      "source": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 or older, with a valid government-issued photo ID.",
+      "source": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Adult-use stores opened in October 2022. Since July 1, 2026, a retailer may sell up to 2 ounces, or the equivalent in products, per transaction.",
+      "source": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "14% cannabis excise tax plus the 6% state sales tax; towns may add an optional 1% local tax.",
+      "source": "https://www.mpp.org/states/Vermont",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Vermont Cannabis Control Board, a three-member board created by Act 164 of 2020.",
+      "source": "https://www.mpp.org/states/Vermont",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2004",
+      "event": "Vermont enacts a limited medical marijuana law.",
+      "source": "https://www.mpp.org/states/Vermont"
+    },
+    {
+      "date": "2018-01-22",
+      "event": "Gov. Phil Scott signs H.511, legalizing adult possession and home growing.",
+      "source": "https://www.mpp.org/states/Vermont"
+    },
+    {
+      "date": "2020",
+      "event": "S.54 becomes law without the governor's signature, creating the regulated market and the Cannabis Control Board.",
+      "source": "https://www.mpp.org/states/Vermont"
+    },
+    {
+      "date": "2022-10",
+      "event": "Adult-use retail sales begin.",
+      "source": "https://www.mpp.org/states/Vermont"
+    },
+    {
+      "date": "2026-06-18",
+      "event": "Gov. Scott signs S.278 (Act 176), doubling the possession limits.",
+      "source": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf"
+    },
+    {
+      "date": "2026-07-01",
+      "event": "The new 2 oz possession and per-sale limits take effect.",
+      "source": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Vermont?",
+      "a": "Yes. Adults 21+ can possess, grow and buy cannabis from licensed stores, and medical cannabis is also legal."
+    },
+    {
+      "q": "How much weed can you carry in Vermont?",
+      "a": "Since July 1, 2026, up to 2 ounces of cannabis or 10 grams of hashish. Before that, the limit was 1 ounce."
+    },
+    {
+      "q": "Can you grow cannabis at home in Vermont?",
+      "a": "Yes. Adults may grow up to 2 mature and 4 immature plants."
+    },
+    {
+      "q": "What are the cannabis taxes in Vermont?",
+      "a": "A 14% excise tax plus the 6% sales tax, and some towns add a 1% local option tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Vermont General Assembly – Act 176 of 2026 (S.278)",
+      "url": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf"
+    },
+    {
+      "name": "Marijuana Policy Project – Vermont",
+      "url": "https://www.mpp.org/states/Vermont"
+    },
+    {
+      "name": "NORML – Vermont governor signs S.278",
+      "url": "https://norml.org/blog/2026/06/22/vermont-governor-signs-bill-into-law-raising-adult-use-marijuana-possession-limits/"
+    }
+  ],
+  "page_status": "complete",
+  "last_verified": "2026-11-07"
+}

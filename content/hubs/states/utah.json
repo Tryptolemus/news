@@ -1,0 +1,111 @@
+{
+  "id": "us/utah",
+  "type": "us_state",
+  "name": "Utah",
+  "abbr": "UT",
+  "tags": [
+    "Utah"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Medical cannabis is legal for cardholders through licensed pharmacies; recreational use is illegal.",
+  "summary": "Utah's medical cannabis program comes from the Utah Medical Cannabis Act of December 2018, which replaced voter-approved Proposition 2. Cardholders buy from licensed medical cannabis pharmacies, and each purchase is capped at a 30-day supply. 2026 laws (HB 389 and SB 121), effective May 6, 2026, move program oversight to the Department of Agriculture and Food by January 1, 2027, and create a $150-a-month purchase voucher for some patients. Recreational possession is still a crime.",
+  "facts": {
+    "medical_since": {
+      "value": "Voters approved Proposition 2 on November 6, 2018. The Legislature replaced it with the Utah Medical Cannabis Act (HB 3001), signed December 3, 2018.",
+      "source": "https://ballotpedia.org/Utah_Proposition_2,_Medical_Marijuana_Initiative_(2018)",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "The legal dosage limit is a 30-day supply, capped at 113 grams of unprocessed flower or 20 grams of total active THC in other medicinal dosage forms.",
+      "source": "https://le.utah.gov/xcode/Title26B/Chapter4/C26B-4-S201_2026050620260506.html",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Patients need a qualifying condition and a recommendation from a registered provider, then a state medical cannabis card. Starting in 2026, Medicaid or Medicare enrollees with a card may get a $150-per-month voucher.",
+      "source": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Medical cannabis duties are moving from the Department of Health and Human Services to the Utah Department of Agriculture and Food, with the transfer due by January 1, 2027.",
+      "source": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Only licensed medical cannabis pharmacies may sell, and only to cardholders. Since May 2026 they may also sell low-THC cannabis products.",
+      "source": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Possessing less than 1 ounce is a Class B misdemeanor (up to 6 months and $1,000). A second offense is a Class A misdemeanor, and a third or later offense is a felony.",
+      "source": "https://norml.org/laws/utah-penalties-2/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2018-11-06",
+      "event": "Voters approve Proposition 2 (52.75% yes).",
+      "source": "https://ballotpedia.org/Utah_Proposition_2,_Medical_Marijuana_Initiative_(2018)"
+    },
+    {
+      "date": "2018-12-03",
+      "event": "The Utah Medical Cannabis Act (HB 3001) is signed, replacing Proposition 2.",
+      "source": "https://ballotpedia.org/Utah_Proposition_2,_Medical_Marijuana_Initiative_(2018)"
+    },
+    {
+      "date": "2019-08-06",
+      "event": "The Utah Supreme Court rejects a challenge to the replacement law.",
+      "source": "https://ballotpedia.org/Utah_Proposition_2,_Medical_Marijuana_Initiative_(2018)"
+    },
+    {
+      "date": "2026-05-06",
+      "event": "HB 389 and SB 121 take effect, adding a patient voucher, tribal ID use and the transfer of oversight to UDAF.",
+      "source": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/"
+    }
+  ],
+  "pending": [
+    {
+      "item": "Medical cannabis oversight moves from DHHS to the Utah Department of Agriculture and Food.",
+      "status": "May happen as early as July 1, 2026; must be complete by January 1, 2027.",
+      "source": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Utah?",
+      "a": "Only for medical cardholders who buy from licensed pharmacies. Recreational possession is a crime, starting as a Class B misdemeanor for under an ounce."
+    },
+    {
+      "q": "How much medical cannabis can I buy in Utah?",
+      "a": "Up to a 30-day supply, and never more than 113 grams of flower or 20 grams of total THC in other products."
+    },
+    {
+      "q": "What changed in Utah's medical cannabis law in 2026?",
+      "a": "HB 389 and SB 121 move the program to the Department of Agriculture and Food, let pharmacies sell low-THC products, and create a $150-a-month voucher for Medicaid and Medicare patients who hold a card."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Utah Medical Cannabis Program – 2026 law updates",
+      "url": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/"
+    },
+    {
+      "name": "Utah Code 26B-4-201",
+      "url": "https://le.utah.gov/xcode/Title26B/Chapter4/C26B-4-S201_2026050620260506.html"
+    },
+    {
+      "name": "Ballotpedia – Utah Proposition 2 (2018)",
+      "url": "https://ballotpedia.org/Utah_Proposition_2,_Medical_Marijuana_Initiative_(2018)"
+    },
+    {
+      "name": "NORML – Utah penalties",
+      "url": "https://norml.org/laws/utah-penalties-2/"
+    }
+  ],
+  "page_status": "complete",
+  "last_verified": "2026-11-07"
+}

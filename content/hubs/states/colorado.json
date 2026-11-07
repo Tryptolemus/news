@@ -1,0 +1,168 @@
+{
+  "id": "us/colorado",
+  "type": "us_state",
+  "name": "Colorado",
+  "abbr": "CO",
+  "tags": [
+    "Colorado"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+; Colorado opened the first US adult-use stores in 2014.",
+  "summary": "Colorado voters approved medical cannabis in 2000 (Amendment 20) and adult use in 2012 (Amendment 64), and the nation's first legal recreational sales took place on January 1, 2014. Adults 21+ may possess up to two ounces and grow up to six plants. Retail cannabis carries a 15% excise tax and a 15% special sales tax; a 2026 bill to overhaul that tax structure was shelved in committee.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Amendment 64 approved by voters Nov. 6, 2012 with 55% of the vote.",
+      "source": "https://ballotpedia.org/Colorado_Marijuana_Legalization_Initiative,_Amendment_64_(2012)",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Amendment 20, the Medical Use of Marijuana Act, passed in November 2000 with 54% support.",
+      "source": "https://www.postindependent.com/explore-summit/entertainment/a-look-back-the-timeline-of-the-marijuana-legalization-movement-in-colorado/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Adults 21+ may privately possess up to 2 ounces without penalty. Possessing more than 2 ounces is a petty offense; more than 2 to 6 ounces is a misdemeanor.",
+      "source": "https://norml.org/laws/colorado-laws",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 6 plants per resident 21+ (no more than 3 flowering), in an enclosed, locked indoor area. Local governments may set stricter caps; Denver allows 12 plants per home.",
+      "source": "https://cannabis.colorado.gov/legal-marijuana-use/home-grow-laws",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://cannabis.colorado.gov/legal-marijuana-use/home-grow-laws",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Open and public use is a petty offense, punishable by a fine up to $100 and up to 24 hours of community service. Licensed hospitality businesses were authorized in 2019.",
+      "source": "https://norml.org/laws/colorado-laws",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "The first legal recreational sales in the US took place in Denver on Jan. 1, 2014. Delivery was authorized in 2019.",
+      "source": "https://www.cpr.org/2024/01/01/a-decade-of-legal-cannabis-in-colorado/",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "15% excise tax and a 15% special sales tax on retail marijuana.",
+      "source": "https://www.axios.com/local/denver/2026/04/20/colorado-marijuana-tax-money-where-it-goes",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Marijuana Enforcement Division (MED) of the Colorado Department of Revenue, which licenses both medical and retail businesses.",
+      "source": "https://med.colorado.gov/",
+      "as_of": "2026-11-07"
+    },
+    "employment": {
+      "value": "Employers may still fire workers for lawful off-duty cannabis use; the state's off-duty conduct law does not cover it.",
+      "source": "https://www.mpp.org/states/colorado/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2000-11",
+      "event": "Voters approve Amendment 20 legalizing medical marijuana",
+      "source": "https://www.postindependent.com/explore-summit/entertainment/a-look-back-the-timeline-of-the-marijuana-legalization-movement-in-colorado/"
+    },
+    {
+      "date": "2012-11-06",
+      "event": "Voters approve Amendment 64 legalizing adult-use cannabis",
+      "source": "https://ballotpedia.org/Colorado_Marijuana_Legalization_Initiative,_Amendment_64_(2012)"
+    },
+    {
+      "date": "2013-05-28",
+      "event": "Gov. John Hickenlooper signs bills creating the retail regulatory system",
+      "source": "https://www.postindependent.com/explore-summit/entertainment/a-look-back-the-timeline-of-the-marijuana-legalization-movement-in-colorado/"
+    },
+    {
+      "date": "2014-01-01",
+      "event": "First legal recreational cannabis sales in the US begin in Colorado",
+      "source": "https://www.cpr.org/2024/01/01/a-decade-of-legal-cannabis-in-colorado/"
+    },
+    {
+      "date": "2019",
+      "event": "Delivery and social consumption (hospitality) businesses authorized",
+      "source": "https://www.mpp.org/states/colorado/"
+    },
+    {
+      "date": "2021",
+      "event": "Possession limit raised to two ounces",
+      "source": "https://www.mpp.org/states/colorado/"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Senate Finance Committee shelves SB26-161, which would have restructured cannabis taxes",
+      "source": "https://www.leg.colorado.gov/bills/SB26-161"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Colorado?",
+      "a": "Yes. Adults 21 and older can possess up to two ounces and buy from licensed stores, which have operated since January 2014."
+    },
+    {
+      "q": "How many plants can you grow in Colorado?",
+      "a": "Up to six per adult resident, with no more than three flowering, in a locked indoor space. Some cities, such as Denver, cap a household at 12 plants."
+    },
+    {
+      "q": "Can you smoke weed in public in Colorado?",
+      "a": "No. Open and public use is a petty offense with a fine of up to $100 and up to 24 hours of community service."
+    },
+    {
+      "q": "What are cannabis taxes in Colorado?",
+      "a": "Retail cannabis carries a 15% excise tax and a 15% special sales tax. A 2026 bill to replace that structure was shelved in committee."
+    },
+    {
+      "q": "Can you be fired for using cannabis in Colorado?",
+      "a": "Yes. Colorado's law protecting lawful off-duty activities does not cover cannabis, so employers can still discipline or fire workers for using it."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Colorado Marijuana Enforcement Division",
+      "url": "https://med.colorado.gov/"
+    },
+    {
+      "name": "Colorado.gov - Home grow laws",
+      "url": "https://cannabis.colorado.gov/legal-marijuana-use/home-grow-laws"
+    },
+    {
+      "name": "Colorado General Assembly - SB26-161",
+      "url": "https://www.leg.colorado.gov/bills/SB26-161"
+    },
+    {
+      "name": "Ballotpedia - Colorado Amendment 64 (2012)",
+      "url": "https://ballotpedia.org/Colorado_Marijuana_Legalization_Initiative,_Amendment_64_(2012)"
+    },
+    {
+      "name": "NORML - Colorado laws and penalties",
+      "url": "https://norml.org/laws/colorado-laws"
+    },
+    {
+      "name": "Marijuana Policy Project - Colorado",
+      "url": "https://www.mpp.org/states/colorado/"
+    },
+    {
+      "name": "Axios Denver - Colorado marijuana tax money (Apr. 2026)",
+      "url": "https://www.axios.com/local/denver/2026/04/20/colorado-marijuana-tax-money-where-it-goes"
+    },
+    {
+      "name": "Colorado Public Radio - A decade of legal cannabis",
+      "url": "https://www.cpr.org/2024/01/01/a-decade-of-legal-cannabis-in-colorado/"
+    },
+    {
+      "name": "Summit Daily / Post Independent - Colorado legalization timeline",
+      "url": "https://www.postindependent.com/explore-summit/entertainment/a-look-back-the-timeline-of-the-marijuana-legalization-movement-in-colorado/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

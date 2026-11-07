@@ -1,0 +1,35 @@
+{
+  "id": "country/united-kingdom",
+  "type": "country",
+  "name": "United Kingdom",
+  "tags": ["United Kingdom"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
+  "headline_status": "Recreational cannabis is illegal in the UK, but specialist doctors have been able to prescribe cannabis-based medicines since November 2018.",
+  "summary": "Cannabis is a Class B drug in the UK, with possession carrying up to five years in prison, although police can instead give a warning or an on-the-spot fine of up to £90. Since 1 November 2018 specialist doctors can prescribe cannabis-based medical products. NHS prescriptions are rare and limited to a few conditions, so most patients are treated at private clinics.",
+  "facts": {
+    "penalties": {"value": "Class B drug: possession carries up to 5 years in prison and/or an unlimited fine, supply or production up to 14 years. Police can issue a warning or an on-the-spot fine of up to £90 instead.", "source": "https://www.gov.uk/penalties-drug-possession-dealing", "as_of": "2026-11-07"},
+    "medical_since": {"value": "1 November 2018, when the Misuse of Drugs Regulations were amended to allow specialist prescribing.", "source": "https://curaleafclinic.com/uk-medical-cannabis-history-of-access-and-looking-ahead/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "On the NHS only a specialist hospital doctor (or someone under their supervision) can prescribe, mainly for rare severe epilepsy, chemotherapy nausea and MS spasticity; most patients use private specialist clinics.", "source": "https://www.nhs.uk/medicines/medical-cannabis/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Some CBD food supplements are legally sold, but the NHS warns many CBD products bought online are likely illegal to possess or supply because they contain THC.", "source": "https://www.nhs.uk/medicines/medical-cannabis/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None for recreational cannabis.", "source": "https://www.gov.uk/penalties-drug-possession-dealing", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not permitted; production carries up to 14 years in prison.", "source": "https://www.gov.uk/penalties-drug-possession-dealing", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors are subject to the same Class B rules as residents; there is no legal recreational cannabis anywhere in the UK.", "source": "https://www.gov.uk/penalties-drug-possession-dealing", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2018-11-01", "event": "Specialist doctors allowed to prescribe cannabis-based medical products", "source": "https://curaleafclinic.com/uk-medical-cannabis-history-of-access-and-looking-ahead/"},
+    {"date": "2019-12", "event": "First private medical cannabis clinic registered with the Care Quality Commission", "source": "https://curaleafclinic.com/uk-medical-cannabis-history-of-access-and-looking-ahead/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in the UK?", "a": "No. Cannabis is a Class B drug and possession can bring up to five years in prison, though police often issue a warning or a fine of up to £90."},
+    {"q": "Can I get medical cannabis in the UK?", "a": "Yes, but only from a specialist doctor. NHS prescriptions are rare, so most patients go through private clinics."},
+    {"q": "Is CBD legal in the UK?", "a": "Some CBD food supplements are sold legally, but products containing THC can be illegal to possess or sell."}
+  ],
+  "sources": [
+    {"name": "GOV.UK – Drugs penalties", "url": "https://www.gov.uk/penalties-drug-possession-dealing"},
+    {"name": "NHS – Medical cannabis", "url": "https://www.nhs.uk/medicines/medical-cannabis/"},
+    {"name": "Curaleaf Clinic", "url": "https://curaleafclinic.com/uk-medical-cannabis-history-of-access-and-looking-ahead/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "us/tennessee",
+  "type": "us_state",
+  "name": "Tennessee",
+  "abbr": "TN",
+  "tags": [
+    "Tennessee"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "cbd_only",
+    "decriminalized": "no"
+  },
+  "headline_status": "Marijuana is illegal; only low-THC cannabis oil is allowed for qualifying patients.",
+  "summary": "Tennessee has no medical marijuana program and has not legalized or decriminalized cannabis. Possessing half an ounce or less is a misdemeanor that can bring up to a year in jail. Patients with a qualifying condition may possess CBD oil with no more than 0.9% THC, but they must buy it outside the state. Under a 2025 law, the Alcoholic Beverage Commission took over hemp-derived THC products on January 1, 2026, sales are limited to adults 21 and over, and THCA products became illegal to sell after June 30, 2026.",
+  "facts": {
+    "medical_program": {
+      "value": "No medical marijuana program. Patients with a qualifying condition and proper documentation may possess CBD oil containing no more than 0.9% THC. There is no in-state source, so it has to be bought in another state.",
+      "source": "https://mpp.org/states/tennessee",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Possessing half an ounce or less is a misdemeanor punishable by up to 1 year in jail. Since 2016, a third offense is no longer a felony.",
+      "source": "https://norml.org/laws/tennessee-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Under Public Chapter 526 (HB 1376, 2025), products may not exceed 0.3% total THC, counting THCA. Products with any THCp are banned, and sales are limited to adults 21+.",
+      "source": "https://www.tn.gov/abc/public-information-and-forms/newsroom/2025/6/11/information-release--tabc-reminds-hemp-businesses-of-current-regulations-and-addresses-upcoming-changes.html",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "No cannabis regulator. Since January 1, 2026, the Tennessee Alcoholic Beverage Commission (TABC) licenses hemp-derived cannabinoid suppliers, wholesalers and retailers. The Department of Agriculture still regulates hemp farming.",
+      "source": "https://www.tn.gov/abc/public-information-and-forms/newsroom/2025/6/11/information-release--tabc-reminds-hemp-businesses-of-current-regulations-and-addresses-upcoming-changes.html",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 or older for hemp-derived cannabinoid products; retail premises must also restrict entry to adults 21+.",
+      "source": "https://www.tn.gov/abc/public-information-and-forms/newsroom/2025/6/11/information-release--tabc-reminds-hemp-businesses-of-current-regulations-and-addresses-upcoming-changes.html",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Marijuana sales are illegal. Hemp-derived products may be sold only at 21+ venues such as package stores and bars; grocery, convenience and gas-station sales are excluded, and online sales and delivery are prohibited.",
+      "source": "https://thelynchburgtimes.com/hemp-law-changes-060426/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2014",
+      "event": "The first CBD oil law (SB 2531) is enacted.",
+      "source": "https://mpp.org/states/tennessee/tennessee-cbd-law"
+    },
+    {
+      "date": "2016-07-01",
+      "event": "HB 1478 takes effect, ending felony treatment for a third possession conviction.",
+      "source": "https://norml.org/laws/tennessee-penalties-2/"
+    },
+    {
+      "date": "2021",
+      "event": "SB 118 lets qualifying patients possess CBD oil with up to 0.9% THC and expands the list of conditions.",
+      "source": "https://mpp.org/states/tennessee"
+    },
+    {
+      "date": "2025-05-21",
+      "event": "HB 1376 (Public Chapter 526) is enacted, moving hemp-derived cannabinoid regulation to the TABC.",
+      "source": "https://www.tn.gov/abc/public-information-and-forms/newsroom/2025/6/11/information-release--tabc-reminds-hemp-businesses-of-current-regulations-and-addresses-upcoming-changes.html"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "The TABC takes over licensing of hemp-derived cannabinoid products.",
+      "source": "https://www.tn.gov/abc/public-information-and-forms/newsroom/2025/6/11/information-release--tabc-reminds-hemp-businesses-of-current-regulations-and-addresses-upcoming-changes.html"
+    },
+    {
+      "date": "2026",
+      "event": "HB1972/SB1603 bars the state from rescheduling cannabis until lawmakers create a regulatory framework.",
+      "source": "https://mpp.org/states/tennessee"
+    },
+    {
+      "date": "2026-07-01",
+      "event": "Legacy hemp licenses lapse, effectively ending retail sales of high-THCA products.",
+      "source": "https://thelynchburgtimes.com/hemp-law-changes-060426/"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Tennessee?",
+      "a": "No. Tennessee has no recreational or medical marijuana law, and possessing even half an ounce can bring up to a year in jail."
+    },
+    {
+      "q": "Is THCA legal in Tennessee?",
+      "a": "Not for sale anymore. The 2025 hemp law counts THCA toward the 0.3% THC cap, and the window for selling existing THCA stock under older licenses closed on June 30, 2026."
+    },
+    {
+      "q": "Can patients use CBD oil in Tennessee?",
+      "a": "Yes, if they have a qualifying condition and the right documentation. The oil may contain no more than 0.9% THC, and it has to be bought outside Tennessee."
+    },
+    {
+      "q": "How old do you have to be to buy hemp THC products in Tennessee?",
+      "a": "21. Since 2026, stores selling these products must also keep anyone under 21 off the premises."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Tennessee Alcoholic Beverage Commission – hemp information release",
+      "url": "https://www.tn.gov/abc/public-information-and-forms/newsroom/2025/6/11/information-release--tabc-reminds-hemp-businesses-of-current-regulations-and-addresses-upcoming-changes.html"
+    },
+    {
+      "name": "Marijuana Policy Project – Tennessee",
+      "url": "https://mpp.org/states/tennessee"
+    },
+    {
+      "name": "Marijuana Policy Project – Tennessee CBD law",
+      "url": "https://mpp.org/states/tennessee/tennessee-cbd-law"
+    },
+    {
+      "name": "NORML – Tennessee penalties",
+      "url": "https://norml.org/laws/tennessee-penalties-2/"
+    },
+    {
+      "name": "The Lynchburg Times – hemp law changes",
+      "url": "https://thelynchburgtimes.com/hemp-law-changes-060426/"
+    }
+  ],
+  "page_status": "complete",
+  "last_verified": "2026-11-07"
+}
