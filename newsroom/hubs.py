@@ -1031,9 +1031,10 @@ def sales_page(h, arts):
         v = last_ann.get("total") or last_ann.get("adult_use") or last_ann.get("taxable_sales")
         ans.append(f"{money(v, True)} for {last_ann.get('year') or last_ann.get('period')}")
     answer = (" and ".join(ans) + ".") if ans else h.get("summary", "")[:200]
-    title = f"{name} cannabis sales ({TITLE_YEAR}): monthly data and trends"
+    freq = "monthly" if unit == "month" else ("quarterly" if pts else "annual")
+    title = f"{name} cannabis sales ({TITLE_YEAR}): {freq} data and trends"
     if len(title) > 62:
-        title = f"{name} cannabis sales: monthly data ({TITLE_YEAR})"
+        title = f"{name} cannabis sales: {freq} data ({TITLE_YEAR})"
     desc = clip(answer + " Official figures from " + h.get("regulator", "the state") + ", with chart and CSV.", 155)
     # CSV
     buf = io.StringIO()
