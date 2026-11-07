@@ -56,19 +56,19 @@
     {
       "id": "advertise-here",
       "advertiser": "MetaFlora News",
-      "format": "text",
-      "shape": "wide",
-      "title": "Put your brand in front of the cannabis industry",
+      "format": "native",
+      "shape": "native",
       "body": "MetaFlora News publishes a morning and an evening edition every day and pushes every lead story to X. Ad breaks like this one are open to partners.",
       "cta": "Advertise with us",
       "url": "/advertise/",
-      "image": "metaflora-guide.png",
-      "theme": "green",
       "weight": 1,
       "categories": [],
-      "placements": ["list"],
+      "placements": [],
       "start": null,
-      "end": null
+      "end": null,
+      "kind": "advertise",
+      "headline": "Put your brand in front of the cannabis industry.",
+      "card_body": "Two editions a day, every lead story pushed to X."
     }
   ]
 }

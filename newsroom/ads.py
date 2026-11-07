@@ -43,6 +43,12 @@ def native_art(ad, card):
         return ('<span class="pts"><span class="nad-k">Example rewards card</span><span class="pts-store">Green Leaf Dispensary</span>'
                 '<span class="pts-bal"><b>250</b><span class="nad-mono">points</span></span><span class="pts-bar"><i></i></span>'
                 + ("" if card else '<span class="nad-mono">50 points to your next reward</span>') + "</span>")
+    if kind == "advertise":
+        rows = [("Morning edition", "06:00"), ("Evening edition", "18:00"), ("Lead story on X", "@MetaFloraLabs")]
+        rows = rows[:2] if card else rows
+        dl = "".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in rows) + '<div><dt>Ad breaks</dt><dd class="ok">Open to partners</dd></div>'
+        return ('<span class="rec"><span class="nad-k">Every day, Bucharest time</span>'
+                f'<span class="rec-name">MetaFlora News</span><dl>{dl}</dl></span>')
     return ""
 
 
