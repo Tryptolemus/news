@@ -1,0 +1,257 @@
+{
+  "id": "connecticut",
+  "type": "sales",
+  "state": "Connecticut",
+  "regulator": "Connecticut Department of Consumer Protection",
+  "data_source": {
+    "name": "Cannabis Retail Sales by Week Ending (data.ct.gov, dataset ucaf-96h6)",
+    "url": "https://data.ct.gov/Health-and-Human-Services/Cannabis-Retail-Sales-by-Week-Ending/ucaf-96h6",
+    "notes": "Preliminary retail sales for adult-use and medical cannabis published by the Department of Consumer Protection. Weeks that straddle two months are split at the month boundary in the source, so monthly figures here are exact sums of the weekly rows dated in each month. Data refreshed Oct 13, 2026; DCP warns weekly data may be revised and may not match annual reports. Annual figures are sums of the monthly figures."
+  },
+  "sales_start": "2023-01",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 15616878,
+      "medical": 9373329,
+      "total": 24990208
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 15049230,
+      "medical": 8627770,
+      "total": 23677001
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 16042877,
+      "medical": 8624463,
+      "total": 24667340
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 15620293,
+      "medical": 8342427,
+      "total": 23962720
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 16516195,
+      "medical": 8197694,
+      "total": 24713888
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 16267583,
+      "medical": 7656831,
+      "total": 23924415
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 16951064,
+      "medical": 7702156,
+      "total": 24653220
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 17989385,
+      "medical": 7674675,
+      "total": 25664060
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 16612317,
+      "medical": 6833605,
+      "total": 23445922
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 17269221,
+      "medical": 6785926,
+      "total": 24055148
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 17632642,
+      "medical": 6778784,
+      "total": 24411426
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 18417318,
+      "medical": 7017429,
+      "total": 25434747
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 17218699,
+      "medical": 6366705,
+      "total": 23585404
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 16232103,
+      "medical": 5891515,
+      "total": 22123618
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 17702260,
+      "medical": 6545433,
+      "total": 24247693
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 17496049,
+      "medical": 6302096,
+      "total": 23798145
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 18745366,
+      "medical": 6557680,
+      "total": 25303045
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 17685301,
+      "medical": 6133685,
+      "total": 23818986
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 18252583,
+      "medical": 6036455,
+      "total": 24289039
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 18800291,
+      "medical": 5891263,
+      "total": 24691554
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 17876212,
+      "medical": 5642652,
+      "total": 23518864
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 18987846,
+      "medical": 5681677,
+      "total": 24669524
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 18425650,
+      "medical": 5496566,
+      "total": 23922215
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 20104680,
+      "medical": 5956850,
+      "total": 26061530
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 19006753,
+      "medical": 5482328,
+      "total": 24489081
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 17253693,
+      "medical": 5147858,
+      "total": 22401552
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 18479329,
+      "medical": 5644141,
+      "total": 24123470
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 18730624,
+      "medical": 5515422,
+      "total": 24246046
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 19567453,
+      "medical": 5526837,
+      "total": 25094290
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 19064835,
+      "medical": 5591030,
+      "total": 24655864
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 20095940,
+      "medical": 5552060,
+      "total": 25647999
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 19540761,
+      "medical": 5506990,
+      "total": 25047751
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 19094825,
+      "medical": 5238662,
+      "total": 24333487
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 199985003,
+      "medical": 93615089,
+      "total": 293600095,
+      "basis": "sum of the official monthly figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": 217527040,
+      "medical": 72502577,
+      "total": 290029617,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Adult-use cannabis is taxed by THC content (0.625 cents/mg for plant material, 2.75 cents/mg for edibles, 0.9 cents/mg for other products), plus the 6.35% state sales tax and a 3% municipal tax; medical (palliative) cannabis is exempt (CT DRS).",
+  "summary": "Connecticut's adult-use market opened in January 2023 and is still growing modestly. Retailers sold $24.3 million in September 2026, of which $19.1 million was adult-use. Adult-use sales rose from $200.0 million in 2024 to $217.5 million in 2025, while medical sales fell from $93.6 million to $72.5 million as patients drifted to adult-use stores, so the combined total barely moved. Combined sales in January-September 2026 ran about 2% ahead of the same months of 2025. New store openings and steady demand support adult-use growth, but competition from Massachusetts and New York limits it.",
+  "faq": [
+    {
+      "q": "How much cannabis does Connecticut sell a month?",
+      "a": "In September 2026, Connecticut retailers sold $24.3 million: $19.1 million adult-use and $5.2 million medical, based on Department of Consumer Protection data."
+    },
+    {
+      "q": "Is Connecticut's medical cannabis market shrinking?",
+      "a": "Yes. Medical sales fell from $93.6 million in 2024 to $72.5 million in 2025, while adult-use sales grew."
+    },
+    {
+      "q": "Are Connecticut's weekly sales numbers final?",
+      "a": "No. DCP labels them preliminary and says they can change as licensees update records, so they may not exactly match annual reports."
+    }
+  ],
+  "sources": [
+    {
+      "name": "data.ct.gov: Cannabis Retail Sales by Week Ending",
+      "url": "https://data.ct.gov/Health-and-Human-Services/Cannabis-Retail-Sales-by-Week-Ending/ucaf-96h6"
+    },
+    {
+      "name": "CT DRS: FAQ on the statewide cannabis tax (TSSB 2023(1))",
+      "url": "https://portal.ct.gov/-/media/DRS/Publications/TSSB/2023/TSSB-2023-1.pdf"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

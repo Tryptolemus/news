@@ -1,0 +1,257 @@
+{
+  "id": "montana",
+  "type": "sales",
+  "state": "Montana",
+  "regulator": "Montana Department of Revenue, Cannabis Control Division",
+  "data_source": {
+    "name": "Montana Department of Revenue: Cannabis Sales Reports",
+    "url": "https://mtrevenue.gov/card/cannabis/sales-reports/index",
+    "notes": "Monthly medical and adult-use sales published by the Department of Revenue, which labels them estimated sales (derived from tax filings). Read Nov 7, 2026, covering January 2022 to September 2026. Annual figures are sums of the monthly figures."
+  },
+  "sales_start": "2022-01",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 20874549,
+      "medical": 4235515,
+      "total": 25110065
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 20943884,
+      "medical": 4147191,
+      "total": 25091075
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 22593299,
+      "medical": 4332934,
+      "total": 26926233
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 22113635,
+      "medical": 4066451,
+      "total": 26180086
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 22857807,
+      "medical": 4076360,
+      "total": 26934167
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 23157228,
+      "medical": 3788211,
+      "total": 26945439
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 24899839,
+      "medical": 3817266,
+      "total": 28717104
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 25851878,
+      "medical": 3865003,
+      "total": 29716881
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 23965392,
+      "medical": 3555014,
+      "total": 27520406
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 24067033,
+      "medical": 3661529,
+      "total": 27728562
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 23124107,
+      "medical": 3584808,
+      "total": 26708916
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 23157172,
+      "medical": 3535860,
+      "total": 26693032
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 22492117,
+      "medical": 3422042,
+      "total": 25914159
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 20690127,
+      "medical": 3021207,
+      "total": 23711334
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 23264823,
+      "medical": 3317430,
+      "total": 26582252
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 22978476,
+      "medical": 3260691,
+      "total": 26239167
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 24198109,
+      "medical": 3283708,
+      "total": 27481817
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 24054954,
+      "medical": 3068808,
+      "total": 27123762
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 26305782,
+      "medical": 3153494,
+      "total": 29459277
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 26883842,
+      "medical": 3162549,
+      "total": 30046390
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 24878114,
+      "medical": 2951190,
+      "total": 27829304
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 25467845,
+      "medical": 3083037,
+      "total": 28550882
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 23767196,
+      "medical": 2871961,
+      "total": 26639158
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 24372939,
+      "medical": 2967112,
+      "total": 27340052
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 24016740,
+      "medical": 2872464,
+      "total": 26889204
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 22584852,
+      "medical": 2655136,
+      "total": 25239989
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 24553754,
+      "medical": 2831009,
+      "total": 27384763
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 24210383,
+      "medical": 2702558,
+      "total": 26912941
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 25019176,
+      "medical": 2686846,
+      "total": 27706021
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 25251188,
+      "medical": 2609660,
+      "total": 27860848
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 27283061,
+      "medical": 2709119,
+      "total": 29992180
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 26607435,
+      "medical": 2592774,
+      "total": 29200209
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 25577747,
+      "medical": 2477682,
+      "total": 28055429
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 277605823,
+      "medical": 46666142,
+      "total": 324271966,
+      "basis": "sum of the official monthly figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": 289354324,
+      "medical": 37563229,
+      "total": 326917554,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Montana levies a 20% state tax on adult-use sales and 4% on medical sales, and counties may add a local option tax of up to 3% (Montana Department of Revenue).",
+  "summary": "Montana's adult-use sales began in January 2022 and have grown slowly but steadily since. The Department of Revenue estimates $28.1 million in sales for September 2026, of which $25.6 million was adult-use. Annual sales were about $324.3 million in 2024 and $326.9 million in 2025. Medical sales have fallen every year as patients move to adult-use stores, even though medical carries a much lower tax. Summer tourism lifts sales from June to August. Many rural counties still prohibit adult-use stores, which limits access in parts of the state.",
+  "faq": [
+    {
+      "q": "How much cannabis does Montana sell a month?",
+      "a": "The Montana Department of Revenue estimates $28.1 million in cannabis sales for September 2026: $25.6 million adult-use and $2.5 million medical."
+    },
+    {
+      "q": "How much cannabis has Montana sold since legalization?",
+      "a": "From January 2022 through September 2026, estimated sales total about $1.52 billion, including $1.26 billion adult-use, per the Department of Revenue."
+    },
+    {
+      "q": "What is the cannabis tax rate in Montana?",
+      "a": "20% on adult-use and 4% on medical purchases, plus up to 3% where counties have adopted a local option tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Montana Department of Revenue: Cannabis Sales Reports",
+      "url": "https://mtrevenue.gov/card/cannabis/sales-reports/index"
+    },
+    {
+      "name": "Montana Department of Revenue: Cannabis taxes",
+      "url": "https://mtrevenue.gov/taxes/miscellaneous-taxes-and-fees/cannabis/index"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

@@ -1,0 +1,275 @@
+{
+  "id": "illinois",
+  "type": "sales",
+  "state": "Illinois",
+  "regulator": "Illinois Department of Financial and Professional Regulation",
+  "data_source": {
+    "name": "IDFPR: Illinois adult use cannabis monthly sales figures (PDF, updated Oct 7, 2026)",
+    "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/forms/auc/adult-use-cannabis-monthly-sales-figures.pdf",
+    "notes": "Adult-use sales only (in-state plus out-of-state residents); medical cannabis sales are not included in this report, so medical and total are left null. IDFPR notes that from June 2025 sales come from the Metrc track-and-trace system, which records prices after discounts; earlier months included some pre-discount prices, so the drop in mid-2025 is partly a reporting change. Annual figures are IDFPR's own TOTALS rows."
+  },
+  "sales_start": "2020-01",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 133787754,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 135571931,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 148872065,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 144511467,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 146229577,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 141752142,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 143344373,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 147391733,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 136508867,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 142251704,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 149284731,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 153249702,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 140190408,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 130608287,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 147485559,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 146605933,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 149753931,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 116714321,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 114987665,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 115175036,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 105183934,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 113078161,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 110379690,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 116577927,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 110686392,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 104760738,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 115431757,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 115409576,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 119828550,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 118149409,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 125985178,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 122748404,
+      "medical": null,
+      "total": null
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 118628480,
+      "medical": null,
+      "total": null
+    }
+  ],
+  "annual": [
+    {
+      "year": 2022,
+      "adult_use": 1552324820,
+      "medical": null,
+      "total": null,
+      "basis": "IDFPR published annual TOTALS row"
+    },
+    {
+      "year": 2023,
+      "adult_use": 1634982021,
+      "medical": null,
+      "total": null,
+      "basis": "IDFPR published annual TOTALS row"
+    },
+    {
+      "year": 2024,
+      "adult_use": 1722756046,
+      "medical": null,
+      "total": null,
+      "basis": "IDFPR published annual TOTALS row"
+    },
+    {
+      "year": 2025,
+      "adult_use": 1506740853,
+      "medical": null,
+      "total": null,
+      "basis": "IDFPR published annual TOTALS row"
+    }
+  ],
+  "tax_note": "Adult-use purchases carry a cannabis purchaser excise tax of 10% (adjusted THC of 35% or less), 25% (THC above 35%) or 20% (infused products), plus state and local sales taxes (Illinois Department of Revenue).",
+  "summary": "Illinois is one of the largest adult-use markets in the Midwest, second only to Michigan by reported sales. Dispensaries sold $118.6 million of adult-use cannabis in September 2026, and $1.05 billion in the first nine months of 2026. Reported sales peaked at $1.72 billion in 2024. The $1.51 billion reported for 2025 is not directly comparable, because the state's switch to Metrc in mid-2025 began capturing prices after discounts. Visitors from neighboring states without legal stores have long been a large share of buyers, so newer markets in Missouri and Ohio, plus price compression, weigh on growth. Item counts, by contrast, keep rising.",
+  "faq": [
+    {
+      "q": "How much cannabis does Illinois sell a month?",
+      "a": "Illinois dispensaries reported $118.6 million in adult-use sales in September 2026, according to IDFPR. Monthly sales in 2026 have ranged from about $105 million to $126 million."
+    },
+    {
+      "q": "Why did Illinois cannabis sales drop in 2025?",
+      "a": "Part of the drop is a measurement change. IDFPR says the Metrc tracking system, fully in place by June 2025, records actual prices after discounts, while earlier data partly captured pre-discount prices. Item counts stayed steady."
+    },
+    {
+      "q": "Do the Illinois figures include medical cannabis?",
+      "a": "No. IDFPR's monthly report covers adult-use sales only, split between Illinois residents and out-of-state visitors."
+    },
+    {
+      "q": "How much do out-of-state visitors spend on cannabis in Illinois?",
+      "a": "Out-of-state residents bought $206.9 million of adult-use cannabis in January through September 2026, about a fifth of the total, per IDFPR."
+    }
+  ],
+  "sources": [
+    {
+      "name": "IDFPR adult use cannabis monthly sales figures",
+      "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/forms/auc/adult-use-cannabis-monthly-sales-figures.pdf"
+    },
+    {
+      "name": "Illinois Department of Revenue: Excise Tax Rates and Fees",
+      "url": "https://tax.illinois.gov/research/taxrates/excise.html"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

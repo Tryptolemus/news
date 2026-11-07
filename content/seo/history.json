@@ -160,5 +160,32 @@
   "score_structure": 96.8,
   "score_scale": 43.8,
   "score_total": 79.3
+ },
+ {
+  "at": "2026-11-07T11:23:57+00:00",
+  "label": "Round 4b: 21 state sales-data pages (11 indexable)",
+  "pages_indexable": 241,
+  "articles": 22,
+  "hub_pages": 205,
+  "evergreen_ratio_pct": 85.1,
+  "sitemap_coverage_pct": 100.0,
+  "title_ok_pct": 95.0,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 99.6,
+  "single_h1_pct": 100.0,
+  "self_canonical_pct": 100.0,
+  "jsonld_pct": 100.0,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 100.0,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 0,
+  "avg_internal_links_per_article": 34.5,
+  "avg_inbound_links_per_article": 22.5,
+  "avg_inbound_links_per_hub": 17.3,
+  "avg_words_per_article": 1588,
+  "score_technical": 99.5,
+  "score_structure": 97.2,
+  "score_scale": 46.2,
+  "score_total": 80.2
  }
 ]

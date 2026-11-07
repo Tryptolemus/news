@@ -1,0 +1,333 @@
+{
+  "id": "ohio",
+  "type": "sales",
+  "state": "Ohio",
+  "regulator": "Ohio Department of Commerce, Division of Cannabis Control",
+  "data_source": {
+    "name": "DCC Historical Sales Data (weekly cumulative totals, XLSX)",
+    "url": "https://dam.assets.ohio.gov/raw/upload/com.ohio.gov/DCC/DCC%20Stats/NEW_-_DCC_Historical_Sales_Data.xlsx",
+    "notes": "Ohio publishes only cumulative program-to-date sales each week, not calendar-month sales. Each 'monthly' row here is the change in the DCC's cumulative totals between the last week-ending date reported in the previous month and the last one in the named month, so it covers 4 or 5 weeks (see 'period_end' and 'weeks'); 5-week rows look larger for that reason and are not comparable to calendar months. 'adult_use' = non-medical, 'medical' = medical. The annual row covers the 52 weeks ending Dec 27, 2025. Pre-tax product sales."
+  },
+  "sales_start": "2024-08",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 0,
+      "medical": 36453159,
+      "total": 36453159,
+      "period_end": "2024-01-27",
+      "weeks": 4
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 0,
+      "medical": 38403110,
+      "total": 38403110,
+      "period_end": "2024-02-24",
+      "weeks": 4
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 0,
+      "medical": 47448929,
+      "total": 47448929,
+      "period_end": "2024-03-30",
+      "weeks": 5
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 0,
+      "medical": 37290050,
+      "total": 37290050,
+      "period_end": "2024-04-27",
+      "weeks": 4
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 0,
+      "medical": 36618309,
+      "total": 36618309,
+      "period_end": "2024-05-25",
+      "weeks": 4
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 0,
+      "medical": 45966899,
+      "total": 45966899,
+      "period_end": "2024-06-29",
+      "weeks": 5
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 0,
+      "medical": 36587243,
+      "total": 36587243,
+      "period_end": "2024-07-27",
+      "weeks": 4
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 44051671,
+      "medical": 41285096,
+      "total": 85336584,
+      "period_end": "2024-08-31",
+      "weeks": 5
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 43071418,
+      "medical": 28779561,
+      "total": 71851113,
+      "period_end": "2024-09-28",
+      "weeks": 4
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 44690041,
+      "medical": 26970551,
+      "total": 71660591,
+      "period_end": "2024-10-26",
+      "weeks": 4
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 59526790,
+      "medical": 32614107,
+      "total": 92142001,
+      "period_end": "2024-11-30",
+      "weeks": 5
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 50735569,
+      "medical": 24703755,
+      "total": 75439324,
+      "period_end": "2024-12-28",
+      "weeks": 4
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 50799180,
+      "medical": 22968289,
+      "total": 73767469,
+      "period_end": "2025-01-25",
+      "weeks": 4
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 54048792,
+      "medical": 22229111,
+      "total": 76277904,
+      "period_end": "2025-02-22",
+      "weeks": 4
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 72573656,
+      "medical": 27039227,
+      "total": 99612883,
+      "period_end": "2025-03-29",
+      "weeks": 5
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 59722760,
+      "medical": 20710833,
+      "total": 80433593,
+      "period_end": "2025-04-26",
+      "weeks": 4
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 76234717,
+      "medical": 23740324,
+      "total": 99975041,
+      "period_end": "2025-05-31",
+      "weeks": 5
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 64325824,
+      "medical": 18127783,
+      "total": 82453607,
+      "period_end": "2025-06-28",
+      "weeks": 4
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 65926385,
+      "medical": 17226365,
+      "total": 83152764,
+      "period_end": "2025-07-26",
+      "weeks": 4
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 83269335,
+      "medical": 20589293,
+      "total": 103858596,
+      "period_end": "2025-08-30",
+      "weeks": 5
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 67309800,
+      "medical": 15309994,
+      "total": 82619795,
+      "period_end": "2025-09-27",
+      "weeks": 4
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 69698043,
+      "medical": 15094026,
+      "total": 84792069,
+      "period_end": "2025-10-25",
+      "weeks": 4
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 90569595,
+      "medical": 18555969,
+      "total": 109125564,
+      "period_end": "2025-11-29",
+      "weeks": 5
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 74960029,
+      "medical": 14378958,
+      "total": 89338987,
+      "period_end": "2025-12-27",
+      "weeks": 4
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 94905835,
+      "medical": 17677437,
+      "total": 112583272,
+      "period_end": "2026-01-31",
+      "weeks": 5
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 80828663,
+      "medical": 14098282,
+      "total": 94926955,
+      "period_end": "2026-02-28",
+      "weeks": 4
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 82645124,
+      "medical": 13649039,
+      "total": 96294162,
+      "period_end": "2026-03-28",
+      "weeks": 4
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 89408481,
+      "medical": 15402746,
+      "total": 104811255,
+      "period_end": "2026-04-25",
+      "weeks": 4
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 114804904,
+      "medical": 18741417,
+      "total": 133546734,
+      "period_end": "2026-05-30",
+      "weeks": 5
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 94641271,
+      "medical": 14961521,
+      "total": 109603214,
+      "period_end": "2026-06-27",
+      "weeks": 4
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 95758594,
+      "medical": 14815812,
+      "total": 110574406,
+      "period_end": "2026-07-25",
+      "weeks": 4
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 118782084,
+      "medical": 17923010,
+      "total": 136705094,
+      "period_end": "2026-08-29",
+      "weeks": 5
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 96027723,
+      "medical": 14124240,
+      "total": 110151962,
+      "period_end": "2026-09-26",
+      "weeks": 4
+    },
+    {
+      "month": "2026-10",
+      "adult_use": 94461597,
+      "medical": 14048588,
+      "total": 108510185,
+      "period_end": "2026-10-24",
+      "weeks": 4
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "period": "52 weeks ending 2025-12-27",
+      "adult_use": 829438116,
+      "medical": 235970173,
+      "total": 1065408272,
+      "basis": "difference between DCC cumulative totals for the weeks ending on the two dates"
+    }
+  ],
+  "tax_note": "Adult-use (non-medical) purchases carry a 10% excise tax plus state and local sales tax; medical purchases pay only regular sales tax (Ohio Department of Taxation; R.C. 3796.40).",
+  "summary": "Ohio began non-medical sales on August 6, 2024, at existing medical dispensaries, and the adult-use side has quickly become the bigger business. In the 52 weeks to December 27, 2025, dispensaries sold $1.07 billion, of which $829.4 million was adult-use. By October 24, 2026, cumulative non-medical sales had passed $2 billion. Adult-use demand keeps rising as more dual-use dispensaries open, while medical sales are falling as more patients buy at adult-use counters. Ohio publishes running totals rather than monthly figures, so period comparisons here use 4- and 5-week windows.",
+  "faq": [
+    {
+      "q": "How much cannabis does Ohio sell?",
+      "a": "In the four weeks ending 2026-10-24, Ohio dispensaries sold $108.5 million, including $94.5 million non-medical, based on DCC cumulative totals."
+    },
+    {
+      "q": "Does Ohio publish monthly cannabis sales?",
+      "a": "No. The Division of Cannabis Control publishes weekly running totals since launch. Period sales here are the differences between those totals."
+    },
+    {
+      "q": "How much cannabis did Ohio sell in 2025?",
+      "a": "About $1.07 billion in the 52 weeks ending December 27, 2025: $829.4 million adult-use and $236.0 million medical."
+    },
+    {
+      "q": "What is the cannabis tax in Ohio?",
+      "a": "Adult-use purchases carry a 10% excise tax plus state and local sales tax. Medical purchases pay only sales tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ohio DCC Historical Sales Data (XLSX)",
+      "url": "https://dam.assets.ohio.gov/raw/upload/com.ohio.gov/DCC/DCC%20Stats/NEW_-_DCC_Historical_Sales_Data.xlsx"
+    },
+    {
+      "name": "Ohio DCC Update: By the Numbers",
+      "url": "https://com.ohio.gov/divisions-and-programs/cannabis-control/licensee-resources/what-we-do/dcc-update"
+    },
+    {
+      "name": "Ohio Department of Taxation: Adult Use Marijuana Tax",
+      "url": "https://tax.ohio.gov/business/adult-use-marijuana-tax"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

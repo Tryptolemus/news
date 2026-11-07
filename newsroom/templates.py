@@ -145,7 +145,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
       <a href="/about/">About</a><a href="/how-we-report/">How we report</a><a href="/corrections/">Corrections</a><a href="/advertise/">Advertise</a>
-      <a href="/stocks/">Cannabis stocks</a><a href="/legal/us/">Cannabis laws by state</a><a href="/explainers/">Explainers</a><a href="/company/">Cannabis companies</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
+      <a href="/stocks/">Cannabis stocks</a><a href="/legal/us/">Cannabis laws by state</a><a href="/explainers/">Explainers</a><a href="/company/">Cannabis companies</a><a href="/data/">Cannabis sales data</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
   <div class="foot-bottom">

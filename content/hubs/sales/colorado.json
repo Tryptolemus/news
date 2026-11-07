@@ -1,0 +1,253 @@
+{
+  "id": "colorado",
+  "type": "sales",
+  "state": "Colorado",
+  "regulator": "Colorado Department of Revenue (Marijuana Enforcement Division; Taxation Division)",
+  "data_source": {
+    "name": "Marijuana Sales Revenue in Colorado (Colorado Information Marketplace, dataset p6y8-s74x)",
+    "url": "https://data.colorado.gov/Revenue/Marijuana-Sales-Revenue-in-Colorado/p6y8-s74x",
+    "notes": "Monthly retail (adult-use) and medical marijuana sales reported on Colorado Department of Revenue tax returns. Retail and medical are reported separately; the dataset's total is their sum. Sales figures exclude the taxes collected on them. Annual figures here are sums of the 12 official monthly rows."
+  },
+  "sales_start": "2014-01",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 100107314,
+      "medical": 15277966,
+      "total": 115385280
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 100571530,
+      "medical": 13833825,
+      "total": 114405355
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 111514395,
+      "medical": 15116515,
+      "total": 126630910
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 105513139,
+      "medical": 14659595,
+      "total": 120172734
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 98403225,
+      "medical": 14771263,
+      "total": 113174488
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 99802616,
+      "medical": 13961464,
+      "total": 113764080
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 108909609,
+      "medical": 13640705,
+      "total": 122550314
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 108924413,
+      "medical": 13556775,
+      "total": 122481188
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 100516124,
+      "medical": 11913574,
+      "total": 112429698
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 100887426,
+      "medical": 12416284,
+      "total": 113303710
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 97379486,
+      "medical": 11878351,
+      "total": 109257837
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 101207275,
+      "medical": 12369108,
+      "total": 113576383
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 96630067,
+      "medical": 11925196,
+      "total": 108555263
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 90814063,
+      "medical": 10514961,
+      "total": 101329024
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 103033856,
+      "medical": 12236971,
+      "total": 115270827
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 98112677,
+      "medical": 13539726,
+      "total": 111652403
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 100684037,
+      "medical": 11606667,
+      "total": 112290704
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 98663039,
+      "medical": 11174065,
+      "total": 109837104
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 104236889,
+      "medical": 11487799,
+      "total": 115724688
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 104516257,
+      "medical": 10846249,
+      "total": 115362506
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 95459881,
+      "medical": 9874769,
+      "total": 105334650
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 97923112,
+      "medical": 10311422,
+      "total": 108234534
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 93468276,
+      "medical": 9809083,
+      "total": 103277359
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 98700101,
+      "medical": 10109201,
+      "total": 108809302
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 94760776,
+      "medical": 10264057,
+      "total": 105024833
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 89172901,
+      "medical": 8555212,
+      "total": 97728113
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 99145201,
+      "medical": 9636793,
+      "total": 108781994
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 95963023,
+      "medical": 9115989,
+      "total": 105079012
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 98485414,
+      "medical": 9046036,
+      "total": 107531450
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 96571571,
+      "medical": 9020970,
+      "total": 105592541
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 102140405,
+      "medical": 9072574,
+      "total": 111212979
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 1233736552,
+      "medical": 163395425,
+      "total": 1397131977,
+      "basis": "sum of the official monthly figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": 1182242255,
+      "medical": 133436109,
+      "total": 1315678364,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Adult-use (retail) marijuana carries a 15% state retail marijuana sales tax plus a 15% excise tax on the first wholesale transfer; medical marijuana pays the 2.9% state sales tax instead (Colorado Department of Revenue).",
+  "summary": "Colorado opened the country's first adult-use stores in January 2014 and remains one of the largest markets, but sales have been drifting down. Licensed stores sold $111.2 million in July 2026, of which $102.1 million was adult-use. Combined sales were $1.40 billion in 2024 and $1.32 billion in 2025. The decline reflects falling wholesale and shelf prices, a shrinking medical program as patients move to adult-use stores, and competition from legal markets in neighboring states, especially New Mexico. Seasonal peaks still arrive in spring (around 4/20) and late summer, while February is typically the slowest month.",
+  "faq": [
+    {
+      "q": "How much cannabis does Colorado sell a month?",
+      "a": "In July 2026, Colorado's licensed stores sold $111.2 million of marijuana: $102.1 million adult-use and $9.1 million medical, according to Department of Revenue data."
+    },
+    {
+      "q": "Are Colorado cannabis sales growing?",
+      "a": "No. Combined sales fell from $1.40 billion in 2024 to $1.32 billion in 2025, and 2026 months to date are running below the same months of 2025."
+    },
+    {
+      "q": "Do Colorado's sales figures include tax?",
+      "a": "No. The Department of Revenue figures are sales reported on tax returns, before the 15% retail marijuana sales tax and other taxes are added."
+    },
+    {
+      "q": "How big is Colorado's medical market?",
+      "a": "Medical sales were $9.1 million in July 2026, under a tenth of the total, and have been shrinking for years as patients shift to adult-use stores."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Colorado Information Marketplace: Marijuana Sales Revenue in Colorado",
+      "url": "https://data.colorado.gov/Revenue/Marijuana-Sales-Revenue-in-Colorado/p6y8-s74x"
+    },
+    {
+      "name": "Colorado Department of Revenue: Marijuana Sales Tax",
+      "url": "https://tax.colorado.gov/marijuana-sales-tax"
+    },
+    {
+      "name": "Colorado Department of Revenue: Marijuana Excise Tax",
+      "url": "https://tax.colorado.gov/marijuana-excise-tax"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

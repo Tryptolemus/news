@@ -1,0 +1,69 @@
+{
+  "id": "missouri",
+  "type": "sales",
+  "state": "Missouri",
+  "regulator": "Missouri Department of Health and Senior Services, Division of Cannabis Regulation",
+  "data_source": {
+    "name": "DCR Missouri Cannabis Market Study Report (Oct 2026), Table 14",
+    "url": "https://health.mo.gov/sites/health/files/media/pdf/2026/10/missouri_cannabis_market_study_report_202610.pdf",
+    "notes": "Annual statewide retail cannabis sales (medical and adult-use combined) from the DCR's track-and-trace data, as printed in the market study. The DCR's monthly sales dashboard (Tableau) shows monthly adult-use and medical figures but offers no public download, so 'monthly' is empty and the annual split is not available."
+  },
+  "sales_start": "2023-02",
+  "monthly": [],
+  "annual": [
+    {
+      "year": 2023,
+      "adult_use": null,
+      "medical": null,
+      "total": 1303839176,
+      "basis": "DCR market study, Table 14"
+    },
+    {
+      "year": 2024,
+      "adult_use": null,
+      "medical": null,
+      "total": 1465342133,
+      "basis": "DCR market study, Table 14"
+    },
+    {
+      "year": 2025,
+      "adult_use": null,
+      "medical": null,
+      "total": 1512396841,
+      "basis": "DCR market study, Table 14"
+    }
+  ],
+  "tax_note": "Missouri levies a 6% state tax on adult-use marijuana and 4% on medical, on top of regular sales tax, and local governments may add up to 3% on adult-use sales (Missouri Department of Revenue).",
+  "summary": "Missouri converted its medical dispensaries to adult-use sales in February 2023 and quickly became one of the biggest markets in the Midwest. Combined medical and adult-use sales were $1.30 billion in 2023, $1.47 billion in 2024 and $1.51 billion in 2025, according to the Division of Cannabis Regulation. The number of dispensaries with sales grew from 201 to 220 over that period, so average annual sales per store stayed between about $6.5 million and $6.9 million. Shoppers from Kansas, which has no legal market, add to demand. Constitutional limits on license numbers have so far kept competition more contained than in states like Michigan or Oklahoma.",
+  "faq": [
+    {
+      "q": "How much cannabis does Missouri sell a year?",
+      "a": "Missouri dispensaries sold $1.51 billion of medical and adult-use cannabis in 2025, up from $1.47 billion in 2024, per the Division of Cannabis Regulation."
+    },
+    {
+      "q": "Does Missouri publish monthly cannabis sales?",
+      "a": "Yes, on a DCR Tableau dashboard, but it has no public data download, so this page shows the DCR's published annual totals."
+    },
+    {
+      "q": "What is the cannabis tax in Missouri?",
+      "a": "6% state tax on adult-use and 4% on medical marijuana, plus regular sales tax and up to 3% local tax on adult-use."
+    }
+  ],
+  "sources": [
+    {
+      "name": "DCR Missouri Cannabis Market Study Report, Oct 2026 (PDF)",
+      "url": "https://health.mo.gov/sites/health/files/media/pdf/2026/10/missouri_cannabis_market_study_report_202610.pdf"
+    },
+    {
+      "name": "DCR Data and Reports (sales dashboard)",
+      "url": "https://health.mo.gov/safety/cannabis/stats.php"
+    },
+    {
+      "name": "Missouri Department of Revenue: Marijuana",
+      "url": "https://dor.mo.gov/taxation/business/marijuana.html"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

@@ -1,0 +1,238 @@
+{
+  "id": "nevada",
+  "type": "sales",
+  "state": "Nevada",
+  "regulator": "Nevada Cannabis Compliance Board (regulator); Nevada Department of Taxation (sales data)",
+  "data_source": {
+    "name": "Nevada Department of Taxation: Cannabis Tax Revenue reports (FY25, FY26, FY27)",
+    "url": "https://tax.nv.gov/news-publications/statistics",
+    "notes": "Taxable sales reported by cannabis dispensaries and consumption lounges, by month of the Department's accounting period. Per the Department, the figure includes adult-use and medical cannabis plus other tangible property sold by licensees, so adult_use and medical are null and only total is given. The October 2024 accounting period closed early, shifting some revenue into later months. Annual figures are fiscal years (July-June); FY2024 and FY2025 totals are from the CCB/Taxation joint release of Feb 5, 2026."
+  },
+  "sales_start": "2017-07",
+  "monthly": [
+    {
+      "month": "2024-07",
+      "adult_use": null,
+      "medical": null,
+      "total": 68161117
+    },
+    {
+      "month": "2024-08",
+      "adult_use": null,
+      "medical": null,
+      "total": 78032417
+    },
+    {
+      "month": "2024-09",
+      "adult_use": null,
+      "medical": null,
+      "total": 59861972
+    },
+    {
+      "month": "2024-10",
+      "adult_use": null,
+      "medical": null,
+      "total": 49203411,
+      "note": "Department of Taxation footnote: the October 2024 accounting period closed early, so part of October revenue was recorded in later months"
+    },
+    {
+      "month": "2024-11",
+      "adult_use": null,
+      "medical": null,
+      "total": 63366190
+    },
+    {
+      "month": "2024-12",
+      "adult_use": null,
+      "medical": null,
+      "total": 62832029
+    },
+    {
+      "month": "2025-01",
+      "adult_use": null,
+      "medical": null,
+      "total": 63437309
+    },
+    {
+      "month": "2025-02",
+      "adult_use": null,
+      "medical": null,
+      "total": 60213627
+    },
+    {
+      "month": "2025-03",
+      "adult_use": null,
+      "medical": null,
+      "total": 66473334
+    },
+    {
+      "month": "2025-04",
+      "adult_use": null,
+      "medical": null,
+      "total": 63162520
+    },
+    {
+      "month": "2025-05",
+      "adult_use": null,
+      "medical": null,
+      "total": 64493813
+    },
+    {
+      "month": "2025-06",
+      "adult_use": null,
+      "medical": null,
+      "total": 58477172
+    },
+    {
+      "month": "2025-07",
+      "adult_use": null,
+      "medical": null,
+      "total": 52319634
+    },
+    {
+      "month": "2025-08",
+      "adult_use": null,
+      "medical": null,
+      "total": 61147980
+    },
+    {
+      "month": "2025-09",
+      "adult_use": null,
+      "medical": null,
+      "total": 58272064
+    },
+    {
+      "month": "2025-10",
+      "adult_use": null,
+      "medical": null,
+      "total": 61324514
+    },
+    {
+      "month": "2025-11",
+      "adult_use": null,
+      "medical": null,
+      "total": 58956781
+    },
+    {
+      "month": "2025-12",
+      "adult_use": null,
+      "medical": null,
+      "total": 55567087
+    },
+    {
+      "month": "2026-01",
+      "adult_use": null,
+      "medical": null,
+      "total": 58269868
+    },
+    {
+      "month": "2026-02",
+      "adult_use": null,
+      "medical": null,
+      "total": 54624713
+    },
+    {
+      "month": "2026-03",
+      "adult_use": null,
+      "medical": null,
+      "total": 60101539
+    },
+    {
+      "month": "2026-04",
+      "adult_use": null,
+      "medical": null,
+      "total": 61946367
+    },
+    {
+      "month": "2026-05",
+      "adult_use": null,
+      "medical": null,
+      "total": 62349582
+    },
+    {
+      "month": "2026-06",
+      "adult_use": null,
+      "medical": null,
+      "total": 51115105
+    },
+    {
+      "month": "2026-07",
+      "adult_use": null,
+      "medical": null,
+      "total": 53031939
+    },
+    {
+      "month": "2026-08",
+      "adult_use": null,
+      "medical": null,
+      "total": 51450299
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "period": "FY2024 (Jul 2023-Jun 2024)",
+      "adult_use": null,
+      "medical": null,
+      "total": 829225193,
+      "basis": "CCB/Department of Taxation release, Feb 5 2026"
+    },
+    {
+      "year": 2025,
+      "period": "FY2025 (Jul 2024-Jun 2025)",
+      "adult_use": null,
+      "medical": null,
+      "total": 757714911,
+      "basis": "CCB/Department of Taxation release, Feb 5 2026"
+    },
+    {
+      "year": 2026,
+      "period": "FY2026 (Jul 2025-Jun 2026)",
+      "adult_use": null,
+      "medical": null,
+      "total": 695995234,
+      "basis": "Department of Taxation FY26 cannabis revenue report (fiscal-year-to-date column)"
+    }
+  ],
+  "tax_note": "Adult-use sales carry a 10% state retail cannabis excise tax, and a 15% wholesale excise tax applies to both adult-use and medical cannabis, on top of sales tax (Nevada Department of Taxation).",
+  "summary": "Nevada's market leans heavily on Las Vegas tourism, with Clark County accounting for about three-quarters of taxable sales. Dispensaries and consumption lounges reported $51.5 million in taxable sales for August 2026. Annual taxable sales have fallen three years running, from $829.2 million in fiscal 2024 to $757.7 million in fiscal 2025 and $696.0 million in fiscal 2026. Lower prices, softer tourist spending and competition from California and Arizona all weigh on revenue. Consumption lounges add a small amount of on-site sales.",
+  "faq": [
+    {
+      "q": "How much cannabis does Nevada sell a month?",
+      "a": "Nevada licensees reported $51.5 million in taxable cannabis sales for August 2026, according to the Department of Taxation."
+    },
+    {
+      "q": "How much cannabis did Nevada sell last fiscal year?",
+      "a": "Taxable sales were $696.0 million in fiscal 2026 (July 2025 to June 2026), down from $757.7 million in fiscal 2025."
+    },
+    {
+      "q": "Does Nevada split adult-use and medical sales?",
+      "a": "Not in its monthly sales data. The Department of Taxation reports one taxable sales figure covering adult-use, medical and other items sold by licensees."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nevada Department of Taxation: Statistics Publications",
+      "url": "https://tax.nv.gov/news-publications/statistics"
+    },
+    {
+      "name": "NV Cannabis Revenue FY26 (PDF)",
+      "url": "https://tax.nv.gov/wp-content/uploads/2026/05/NV-Cannabis-Revenue-FY26.pdf"
+    },
+    {
+      "name": "NV Cannabis Revenue FY27 (PDF)",
+      "url": "https://tax.nv.gov/wp-content/uploads/2026/09/NV-Cannabis-Revenue-FY27.pdf"
+    },
+    {
+      "name": "NV Cannabis Revenue FY25 (PDF)",
+      "url": "https://tax.nv.gov/wp-content/uploads/2025/09/NV-Cannabis-Revenue-FY25.pdf"
+    },
+    {
+      "name": "CCB/Tax Release: Annual Cannabis Taxable Sales Data (Feb 5, 2026)",
+      "url": "https://ccb.nv.gov/wp-content/uploads/2026/02/CCB-Tax-Release-Annual-Cannabis-Taxable-Sales-Data-V2.pdf"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

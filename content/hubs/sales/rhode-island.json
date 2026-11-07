@@ -1,0 +1,66 @@
+{
+  "id": "rhode-island",
+  "type": "sales",
+  "state": "Rhode Island",
+  "regulator": "Rhode Island Cannabis Control Commission",
+  "data_source": {
+    "name": "Cannabis Control Commission open-session meeting minutes (Aug 28 and Sept 18, 2026)",
+    "url": "https://ccc.ri.gov/cannabis-industry-data",
+    "notes": "The CCC's sales dashboard is on Tableau Public behind a bot check and its 2026 annual report gives monthly sales only as chart images, so this page uses the only monthly figures the CCC states in text: the Chair's monthly updates in approved and draft meeting minutes. They are rounded ('approximately') figures, entered here in whole dollars as stated. All sales are at the state's licensed compassion centers (hybrid adult-use and medical retailers)."
+  },
+  "sales_start": "2022-12",
+  "monthly": [
+    {
+      "month": "2026-07",
+      "adult_use": 9700000,
+      "medical": 1100000,
+      "total": 10800000,
+      "note": "as stated in CCC minutes of Aug 28, 2026 (approximate)"
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 9500000,
+      "medical": 1040000,
+      "total": 10600000,
+      "note": "as stated in CCC draft minutes of Sept 18, 2026 (approximate)"
+    }
+  ],
+  "annual": [],
+  "tax_note": "Adult-use cannabis carries a 10% state cannabis excise tax and a 3% local cannabis excise tax on top of the 7% sales tax; medical sales are exempt from the cannabis excise taxes (RI Division of Taxation).",
+  "summary": "Rhode Island's adult-use sales began on December 1, 2022, at the state's existing compassion centers, and all legal sales still run through nine hybrid retailers. The Cannabis Control Commission reported about $10.8 million in total sales in July 2026, the highest month on record, and about $10.6 million in August, with adult-use making up roughly 90%. A new round of adult-use retail licenses, delayed by a 2026 federal court ruling and new legislation, is open for applications until November 23, 2026, and could add stores and competition. Until then, supply stays concentrated in a handful of operators.",
+  "faq": [
+    {
+      "q": "How much cannabis does Rhode Island sell a month?",
+      "a": "About $10.6 million in August 2026, including roughly $9.5 million adult-use and $1.04 million medical, according to the Cannabis Control Commission."
+    },
+    {
+      "q": "Where can you buy cannabis in Rhode Island?",
+      "a": "At nine licensed compassion centers that sell both adult-use and medical cannabis. New adult-use retail licenses are being awarded in a round that closes to applications on November 23, 2026."
+    },
+    {
+      "q": "What is the cannabis tax in Rhode Island?",
+      "a": "Adult-use purchases carry a 10% state cannabis excise tax, a 3% local cannabis tax and the 7% sales tax. Medical purchases are exempt from the cannabis excise taxes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "CCC open-session minutes, Aug 28, 2026 (PDF)",
+      "url": "https://ccc.ri.gov/sites/g/files/xkgbur991/files/2026-09/8.28.26%20CCC%20Open%20Session%20Minutes%20APPROVED.pdf"
+    },
+    {
+      "name": "CCC open-session minutes, Sept 18, 2026, draft (PDF)",
+      "url": "https://ccc.ri.gov/sites/g/files/xkgbur991/files/2026-10/9.18.26%20CCC%20Open%20Session%20Minutes%20UNAPPROVED%20DRAFT.pdf"
+    },
+    {
+      "name": "CCC 2026 Annual Agency Report (PDF)",
+      "url": "https://ccc.ri.gov/sites/g/files/xkgbur991/files/2026-09/CCC%20Annual%20Report_2026_Final.pdf"
+    },
+    {
+      "name": "RI Division of Taxation: Adult Use Cannabis Tax",
+      "url": "https://tax.ri.gov/tax-sections/sales-excise-taxes/adult-use-cannabis-tax"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

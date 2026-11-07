@@ -1,0 +1,263 @@
+{
+  "id": "oregon",
+  "type": "sales",
+  "state": "Oregon",
+  "regulator": "Oregon Liquor and Cannabis Commission",
+  "data_source": {
+    "name": "OLCC Marijuana Market Data: Monthly Sales (data.oregon.gov, dataset 5prm-2vmn)",
+    "url": "https://data.oregon.gov/d/5prm-2vmn",
+    "notes": "Monthly retail sales from the state's tracking system, by county, product type and customer type. 'adult_use' = sales to consumers, 'medical' = sales to registered patients; all product types and both in-store and delivery sales are included (a small amount of hemp product sold through OLCC retailers is part of the series). Dataset refreshed Nov 2, 2026; October 2026 is the most recent full month and may still be revised. Annual figures are sums of the monthly figures."
+  },
+  "sales_start": "2016-10",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 71869491,
+      "medical": 3834562,
+      "total": 75704053
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 72309474,
+      "medical": 3753695,
+      "total": 76063169
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 78538727,
+      "medical": 4004718,
+      "total": 82543445
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 77507957,
+      "medical": 4028732,
+      "total": 81536689
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 78121027,
+      "medical": 3952936,
+      "total": 82073963
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 76239374,
+      "medical": 3751393,
+      "total": 79990767
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 78453401,
+      "medical": 3807052,
+      "total": 82260453
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 80223972,
+      "medical": 3879914,
+      "total": 84103886
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 75020624,
+      "medical": 3603748,
+      "total": 78624372
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 76081056,
+      "medical": 3649832,
+      "total": 79730888
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 75081743,
+      "medical": 3563174,
+      "total": 78644917
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 75257275,
+      "medical": 3487645,
+      "total": 78744920
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 72878249,
+      "medical": 3432287,
+      "total": 76310536
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 67765380,
+      "medical": 3231233,
+      "total": 70996613
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 75143438,
+      "medical": 3487770,
+      "total": 78631208
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 75250847,
+      "medical": 3602203,
+      "total": 78853050
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 76176861,
+      "medical": 3484723,
+      "total": 79661584
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 73259736,
+      "medical": 3335588,
+      "total": 76595324
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 76260018,
+      "medical": 3431690,
+      "total": 79691708
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 77452734,
+      "medical": 3518366,
+      "total": 80971100
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 71486105,
+      "medical": 3195289,
+      "total": 74681394
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 74367026,
+      "medical": 3298742,
+      "total": 77665768
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 71627796,
+      "medical": 3146920,
+      "total": 74774716
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 74161179,
+      "medical": 3216915,
+      "total": 77378094
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 71480712,
+      "medical": 3115738,
+      "total": 74596450
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 66428364,
+      "medical": 2914330,
+      "total": 69342694
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 72875759,
+      "medical": 3168507,
+      "total": 76044266
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 74415166,
+      "medical": 3394180,
+      "total": 77809346
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 74358332,
+      "medical": 3223320,
+      "total": 77581652
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 72734282,
+      "medical": 3163874,
+      "total": 75898156
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 76413498,
+      "medical": 3320336,
+      "total": 79733834
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 74665615,
+      "medical": 3253078,
+      "total": 77918693
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 71725461,
+      "medical": 3139542,
+      "total": 74865003
+    },
+    {
+      "month": "2026-10",
+      "adult_use": 72896578,
+      "medical": 3148016,
+      "total": 76044594
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 914704121,
+      "medical": 45317401,
+      "total": 960021522,
+      "basis": "sum of the official monthly figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": 885829369,
+      "medical": 40381726,
+      "total": 926211095,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Recreational sales carry a 17% state marijuana tax plus up to 3% local tax; Oregon has no general sales tax (Oregon Department of Revenue).",
+  "summary": "Oregon has one of the most saturated and lowest-priced cannabis markets in the U.S. Retailers sold $76.0 million in October 2026, almost all of it to adult-use customers. Combined sales slipped from $0.96 billion in 2024 to $0.93 billion in 2025, and 2026 is running slightly lower again. Oregon licensed far more growers and stores per capita than most states, which has kept flower prices very low and squeezed revenue even as volume holds up. Medical sales through retailers are now only a few million dollars a month.",
+  "faq": [
+    {
+      "q": "How much cannabis does Oregon sell a month?",
+      "a": "Oregon retailers sold $76.0 million in October 2026, including $72.9 million to adult-use consumers, according to OLCC market data."
+    },
+    {
+      "q": "Are Oregon cannabis sales declining?",
+      "a": "Slowly. Annual sales fell from $0.96 billion in 2024 to $0.93 billion in 2025, mostly because prices keep falling in an oversupplied market."
+    },
+    {
+      "q": "Does Oregon's sales data include medical cannabis?",
+      "a": "Yes. OLCC reports sales to registered patients separately; they are shown here as medical and make up about 4% of the total."
+    }
+  ],
+  "sources": [
+    {
+      "name": "OLCC Marijuana Market Data: Monthly Sales (data.oregon.gov)",
+      "url": "https://data.oregon.gov/d/5prm-2vmn"
+    },
+    {
+      "name": "Oregon Department of Revenue: Marijuana tax",
+      "url": "https://www.oregon.gov/dor/programs/businesses/pages/marijuana.aspx"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

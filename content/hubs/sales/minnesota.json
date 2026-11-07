@@ -1,0 +1,110 @@
+{
+  "id": "minnesota",
+  "type": "sales",
+  "state": "Minnesota",
+  "regulator": "Minnesota Office of Cannabis Management",
+  "data_source": {
+    "name": "OCM Cannabis Market Monitor (Power BI), as extracted by MN Cannabis Hub",
+    "url": "https://mn.gov/ocm/",
+    "notes": "Official figures come from the OCM Cannabis Market Monitor 'Total market sales' chart, but the dashboard has no download, so values were taken from MN Cannabis Hub's extractions of that chart (aggregator, not state-published): April-September 2026 from its Nov 5, 2026 extraction, January-March 2026 from its archive. OCM revises recent months; values are rounded to whole dollars. Adult-use sales at state-licensed stores began September 16, 2025; earlier months are not included. Medical = medical cannabis program sales."
+  },
+  "sales_start": "2025-09",
+  "monthly": [
+    {
+      "month": "2026-01",
+      "adult_use": 10252820,
+      "medical": 8837371,
+      "total": 19090191
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 10087055,
+      "medical": 8549844,
+      "total": 18636900
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 12605195,
+      "medical": 9404137,
+      "total": 22009332
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 14026691,
+      "medical": 10023467,
+      "total": 24050158
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 16618449,
+      "medical": 9274559,
+      "total": 25893008
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 17157425,
+      "medical": 9196594,
+      "total": 26354019
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 17539728,
+      "medical": 10013765,
+      "total": 27553493
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 18421463,
+      "medical": 9462444,
+      "total": 27883907
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 20019737,
+      "medical": 9335451,
+      "total": 29355188
+    }
+  ],
+  "annual": [],
+  "tax_note": "Adult-use cannabis carries a 15% cannabis gross receipts tax (10% before July 1, 2025) plus the 6.875% state sales tax and any local sales taxes (Minnesota Department of Revenue).",
+  "summary": "Minnesota's first state-licensed adult-use stores opened in September 2025, and the market is still ramping up as new retailers open. Combined adult-use and medical sales rose from $19.1 million in January 2026 to a record $29.4 million in September, according to the Office of Cannabis Management's Market Monitor. Adult-use sales roughly doubled over that span, to $20.0 million, while medical sales held between about $8.5 million and $10 million a month. Growth depends on how quickly licensed stores open, and on competition from the hemp-derived THC products Minnesota has allowed since 2022.",
+  "faq": [
+    {
+      "q": "How much cannabis does Minnesota sell a month?",
+      "a": "Minnesota recorded $29.4 million in combined sales in September 2026: $20.0 million adult-use and $9.3 million medical, per the OCM Market Monitor."
+    },
+    {
+      "q": "When did adult-use cannabis sales start in Minnesota?",
+      "a": "State-licensed adult-use retail sales began on September 16, 2025."
+    },
+    {
+      "q": "What is the cannabis tax in Minnesota?",
+      "a": "A 15% cannabis gross receipts tax plus the 6.875% state sales tax and any local sales tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Minnesota Office of Cannabis Management",
+      "url": "https://mn.gov/ocm/"
+    },
+    {
+      "name": "OCM press release: Cannabis Market Monitor launch (Jan 15, 2026)",
+      "url": "https://content.govdelivery.com/accounts/MNOCM/bulletins/4048e26"
+    },
+    {
+      "name": "MN Cannabis Hub: State of the Minnesota Cannabis Market, October 2026 (aggregator)",
+      "url": "https://mncannabishub.com/news/minnesota-cannabis-state-of-market-october-2026"
+    },
+    {
+      "name": "MN Cannabis Hub: Market Monitor archive (aggregator)",
+      "url": "https://mncannabishub.com/research/market-monitor-archive"
+    },
+    {
+      "name": "Minnesota Department of Revenue: Cannabis Tax",
+      "url": "https://www.revenue.state.mn.us/cannabis-tax"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

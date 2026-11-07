@@ -683,3 +683,21 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .sub-h{font-family:var(--sans);font-size:13px;letter-spacing:.07em;text-transform:uppercase;color:var(--meta);margin:16px 0 8px}
 @media (max-width:760px){.quick-answers.co-meta{grid-template-columns:1fr 1fr}.co-meta .qa{padding:10px 12px}.co-meta dd{font-size:14.5px;overflow-wrap:anywhere}}
 .co-meta dd a{color:var(--fg);text-decoration:underline;text-decoration-color:var(--green);text-underline-offset:3px}
+.sales-chart{max-width:1040px;margin:20px auto 8px}
+.sales-chart svg{width:100%;height:auto;display:block}
+.sales-chart .sb{fill:#a3e635}.sales-chart .sb:hover{fill:#c4f26b}
+.sales-chart .sg{stroke:var(--rule);stroke-dasharray:3 4}
+.sales-chart text{fill:var(--meta);font-family:var(--sans);font-size:11px}
+.sales-chart figcaption{font-family:var(--sans);font-size:13px;color:var(--meta);margin-top:6px}
+.tracker .meta{color:var(--meta);font-size:12.5px;margin-left:4px}
+@media (max-width:760px){.sales-t td{grid-template-columns:96px 1fr}.sales-chart text{font-size:14px}}
+/* sales tables stay compact tables on phones (numbers read best in columns) */
+@media (max-width:760px){
+  .tracker.sales-t{display:table;font-size:13px}
+  .tracker.sales-t thead{position:static;width:auto;height:auto;overflow:visible;clip:auto;display:table-header-group}
+  .tracker.sales-t tbody{display:table-row-group}
+  .tracker.sales-t tr{display:table-row;border:0;padding:0;margin:0;background:none}
+  .tracker.sales-t td,.tracker.sales-t th{display:table-cell;width:auto;padding:9px 8px 9px 0;border-bottom:1px solid var(--rule);font-size:13px;white-space:nowrap}
+  .tracker.sales-t th{font-size:10.5px}
+  .tracker.sales-t td::before{content:none}
+}

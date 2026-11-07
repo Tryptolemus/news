@@ -1,0 +1,184 @@
+{
+  "id": "michigan",
+  "type": "sales",
+  "state": "Michigan",
+  "regulator": "Michigan Cannabis Regulatory Agency",
+  "data_source": {
+    "name": "CRA Monthly Statistical Reports (Product Sales tables)",
+    "url": "https://www.michigan.gov/cra/resources/cannabis-regulatory-agency-licensing-reports/cannabis-regulatory-agency-statistical-report",
+    "notes": "Adult-use and medical 'Total Sales' lines from the CRA's monthly reports (Metrc data, pre-tax). The michigan.gov report files could not be downloaded directly from our tools, so the figures (to the cent) were taken from MN Cannabis Hub's archive of the CRA reports, which links each value to its CRA file. We spot-checked February, June-October and December 2025 and January-February 2026 against text of the CRA reports, and they match exactly. Coverage is January 2025-August 2026; September 2026 was reported in the press as about $242.3 million adult-use but is not included because we could not read the exact figure. The 2025 annual figure is a sum of the monthly figures."
+  },
+  "sales_start": "2019-12",
+  "monthly": [
+    {
+      "month": "2025-01",
+      "adult_use": 246615619,
+      "medical": 710062,
+      "total": 247325681
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 241295134,
+      "medical": 631498,
+      "total": 241926632
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 276290892,
+      "medical": 655118,
+      "total": 276946010
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 269957759,
+      "medical": 515227,
+      "total": 270472986
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 272065398,
+      "medical": 553316,
+      "total": 272618714
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 260643825,
+      "medical": 487087,
+      "total": 261130912
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 274170129,
+      "medical": 483177,
+      "total": 274653306
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 282842682,
+      "medical": 492388,
+      "total": 283335070
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 250913799,
+      "medical": 403124,
+      "total": 251316923
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 267361788,
+      "medical": 405709,
+      "total": 267767497
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 259348705,
+      "medical": 368554,
+      "total": 259717259
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 269268986,
+      "medical": 408420,
+      "total": 269677406
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 226432552,
+      "medical": 402749,
+      "total": 226835301
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 234170098,
+      "medical": 386904,
+      "total": 234557002
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 255064161,
+      "medical": 414060,
+      "total": 255478221
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 258177613,
+      "medical": 390728,
+      "total": 258568341
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 257677306,
+      "medical": 322350,
+      "total": 257999656
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 252803636,
+      "medical": 298188,
+      "total": 253101824
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 270539568,
+      "medical": 311726,
+      "total": 270851294
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 258791318,
+      "medical": 295941,
+      "total": 259087259
+    }
+  ],
+  "annual": [
+    {
+      "year": 2025,
+      "adult_use": 3170774716,
+      "medical": 6113680,
+      "total": 3176888396,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Adult-use purchases carry a 10% excise tax and 6% sales tax, and since January 1, 2026 a 24% wholesale tax applies to the first sale of adult-use marijuana to a retailer (Michigan Department of Treasury).",
+  "summary": "Michigan has the second-largest adult-use market by sales after California, with about $3.17 billion sold in 2025. Adult-use stores sold $258.8 million in August 2026. Michigan sells more cannabis by volume than almost any other state, yet revenue has stalled because flower prices are among the lowest in the country, at about $60 an ounce. A new 24% wholesale tax took effect in January 2026, and January-August 2026 sales are about 5% below the same months of 2025. Medical sales have almost disappeared, at well under $1 million a month.",
+  "faq": [
+    {
+      "q": "How much cannabis does Michigan sell a month?",
+      "a": "Michigan's adult-use stores sold $258.8 million in August 2026, and medical provisioning centers sold about $296 thousand, according to CRA monthly reports."
+    },
+    {
+      "q": "How much cannabis did Michigan sell in 2025?",
+      "a": "About $3.17 billion in adult-use sales plus $6.1 million in medical sales, based on the CRA's monthly reports."
+    },
+    {
+      "q": "Why are Michigan cannabis sales falling in 2026?",
+      "a": "Prices keep sliding in an oversupplied market, and a new 24% wholesale tax took effect on January 1, 2026. January-August 2026 adult-use sales were about 5% below the same months of 2025."
+    },
+    {
+      "q": "What taxes apply to cannabis in Michigan?",
+      "a": "A 10% excise tax and 6% sales tax at retail, plus a 24% wholesale tax on adult-use marijuana since January 2026."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Michigan CRA Statistical Report (monthly reports index)",
+      "url": "https://www.michigan.gov/cra/resources/cannabis-regulatory-agency-licensing-reports/cannabis-regulatory-agency-statistical-report"
+    },
+    {
+      "name": "CRA Monthly Report, December 2025 (PDF)",
+      "url": "https://www.michigan.gov/cra/-/media/Project/Websites/cra/Agency-Reports/Statistical-Reports/monthly-report/December-2025-Monthly-Report.pdf"
+    },
+    {
+      "name": "MN Cannabis Hub archive of CRA monthly totals (CSV, aggregator)",
+      "url": "https://mncannabishub.com/research/data/peer-state-monthly-sales.csv"
+    },
+    {
+      "name": "Michigan Treasury: Wholesale Marijuana Tax",
+      "url": "https://www.michigan.gov/taxes/business-taxes/wholesale-marijuana-tax"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

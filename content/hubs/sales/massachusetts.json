@@ -1,0 +1,265 @@
+{
+  "id": "massachusetts",
+  "type": "sales",
+  "state": "Massachusetts",
+  "regulator": "Massachusetts Cannabis Control Commission",
+  "data_source": {
+    "name": "Cannabis Control Commission Open Data: adult-use and medical gross sales (a_sales_au_gross, a_sales_mtc_gross)",
+    "url": "https://masscannabiscontrol.com/open-data/data-catalog/",
+    "notes": "Daily gross sales by product category from Metrc, published by the CCC (data refreshed Oct 26, 2026). Monthly figures here are sums of the daily rows, including retail and delivery sales; adult-use and medical (medical treatment centers) are separate files. Figures are pre-tax gross sales. October 2026 is excluded because the data ended Oct 25. Annual figures are sums of the monthly figures."
+  },
+  "sales_start": "2018-11",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 127723116,
+      "medical": 16551203,
+      "total": 144274319
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 127569149,
+      "medical": 16287377,
+      "total": 143856526
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 137303709,
+      "medical": 17237241,
+      "total": 154540950
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 133740508,
+      "medical": 16805673,
+      "total": 150546181
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 138919772,
+      "medical": 16574394,
+      "total": 155494166
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 137245133,
+      "medical": 15562389,
+      "total": 152807522
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 143344261,
+      "medical": 15760759,
+      "total": 159105020
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 148073338,
+      "medical": 15911691,
+      "total": 163985029
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 136664603,
+      "medical": 14347150,
+      "total": 151011753
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 139277588,
+      "medical": 14830976,
+      "total": 154108564
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 137896865,
+      "medical": 14712105,
+      "total": 152608970
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 140835070,
+      "medical": 14619619,
+      "total": 155454689
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 133269680,
+      "medical": 13583594,
+      "total": 146853274
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 122826809,
+      "medical": 12451879,
+      "total": 135278688
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 136570188,
+      "medical": 13471274,
+      "total": 150041462
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 134560063,
+      "medical": 13419679,
+      "total": 147979742
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 142396124,
+      "medical": 13544625,
+      "total": 155940749
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 136568927,
+      "medical": 12927457,
+      "total": 149496384
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 144074229,
+      "medical": 13329942,
+      "total": 157404171
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 146706672,
+      "medical": 13481518,
+      "total": 160188190
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 135705933,
+      "medical": 12051825,
+      "total": 147757758
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 141618523,
+      "medical": 12678939,
+      "total": 154297462
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 135241524,
+      "medical": 12445047,
+      "total": 147686571
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 142311905,
+      "medical": 12838975,
+      "total": 155150880
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 135456774,
+      "medical": 12049308,
+      "total": 147506082
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 124364091,
+      "medical": 11040323,
+      "total": 135404414
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 135977454,
+      "medical": 12007841,
+      "total": 147985295
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 137855200,
+      "medical": 12114903,
+      "total": 149970103
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 144245998,
+      "medical": 11944215,
+      "total": 156190213
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 139923574,
+      "medical": 11738375,
+      "total": 151661949
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 149386515,
+      "medical": 12179938,
+      "total": 161566453
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 145262209,
+      "medical": 11750258,
+      "total": 157012467
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 139297940,
+      "medical": 11175973,
+      "total": 150473913
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 1648593112,
+      "medical": 189200577,
+      "total": 1837793689,
+      "basis": "sum of the official monthly figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": 1651850577,
+      "medical": 156224754,
+      "total": 1808075331,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Adult-use retail sales pay a 10.75% marijuana excise, the 6.25% state sales tax and a local option tax of up to 3%; medical marijuana is exempt from all three (Massachusetts DOR, 830 CMR 64N.1.1).",
+  "summary": "Massachusetts is the largest cannabis market in New England and one of the steadiest in the country. Adult-use stores sold $139.3 million in September 2026, and adult-use sales have held at about $1.65 billion a year in both 2024 and 2025. Falling prices have been offset by steady demand, so revenue has been flat rather than shrinking. Medical sales are a smaller and declining slice, at $11.2 million in September 2026. Summer months and December are typically the busiest, while February is the slowest.",
+  "faq": [
+    {
+      "q": "How much cannabis does Massachusetts sell a month?",
+      "a": "In September 2026, Massachusetts adult-use retailers sold $139.3 million and medical treatment centers sold $11.2 million, for $150.5 million in all, based on Cannabis Control Commission data."
+    },
+    {
+      "q": "How much did Massachusetts sell in 2025?",
+      "a": "Adult-use gross sales totaled $1.65 billion in 2025, nearly identical to $1.65 billion in 2024. Medical sales added $156.2 million."
+    },
+    {
+      "q": "Are Massachusetts cannabis sales figures before tax?",
+      "a": "Yes. The Commission reports gross sales from the Metrc tracking system, before the 10.75% excise, 6.25% sales tax and local tax are added."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Cannabis Control Commission Open Data catalog",
+      "url": "https://masscannabiscontrol.com/open-data/data-catalog/"
+    },
+    {
+      "name": "Adult-use gross sales file (CSV)",
+      "url": "https://masscannabiscontrol.com/resource/a_sales_au_gross.csv"
+    },
+    {
+      "name": "Medical gross sales file (CSV)",
+      "url": "https://masscannabiscontrol.com/resource/a_sales_mtc_gross.csv"
+    },
+    {
+      "name": "Mass.gov: 830 CMR 64N.1.1 Marijuana Retail Taxes",
+      "url": "https://www.mass.gov/regulations/830-CMR-64n11-marijuana-retail-taxes"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

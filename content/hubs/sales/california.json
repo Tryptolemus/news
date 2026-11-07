@@ -1,0 +1,201 @@
+{
+  "id": "california",
+  "type": "sales",
+  "state": "California",
+  "regulator": "California Department of Cannabis Control (licensing); California Department of Tax and Fee Administration (sales and tax data)",
+  "data_source": {
+    "name": "CDTFA Open Data Portal: Cannabis Tax Revenues (Cannabis_Tax_Revenues)",
+    "url": "https://cdtfa.ca.gov/dataportal/api/odata/Cannabis_Tax_Revenues",
+    "notes": "California publishes sales only quarterly, from retailers' tax returns, so 'monthly' is empty and figures are in 'quarterly'. 'total' is CDTFA's 'CannabisSales' field (retail gross receipts reported on returns, adult-use and medical combined; CDTFA does not split them). 'taxable_sales' is CDTFA's separate sales-tax base, which includes the excise tax and excludes exempt medical sales. Latest quarters exclude late and unprocessed returns and can be revised. Annual figures are sums of the four quarters."
+  },
+  "sales_start": "2018-01",
+  "monthly": [],
+  "quarterly": [
+    {
+      "quarter": "2023-Q1",
+      "adult_use": null,
+      "medical": null,
+      "total": 1116500371,
+      "taxable_sales": 1294677569,
+      "excise_tax": 135081914,
+      "sales_tax": 116060005
+    },
+    {
+      "quarter": "2023-Q2",
+      "adult_use": null,
+      "medical": null,
+      "total": 1138232520,
+      "taxable_sales": 1350924407,
+      "excise_tax": 166990373,
+      "sales_tax": 121536266
+    },
+    {
+      "quarter": "2023-Q3",
+      "adult_use": null,
+      "medical": null,
+      "total": 1111417023,
+      "taxable_sales": 1288729256,
+      "excise_tax": 165160362,
+      "sales_tax": 115581512
+    },
+    {
+      "quarter": "2023-Q4",
+      "adult_use": null,
+      "medical": null,
+      "total": 1081207014,
+      "taxable_sales": 1295554566,
+      "excise_tax": 160806227,
+      "sales_tax": 115698336
+    },
+    {
+      "quarter": "2024-Q1",
+      "adult_use": null,
+      "medical": null,
+      "total": 1071324425,
+      "taxable_sales": 1236665827,
+      "excise_tax": 159689416,
+      "sales_tax": 110366332
+    },
+    {
+      "quarter": "2024-Q2",
+      "adult_use": null,
+      "medical": null,
+      "total": 1078769116,
+      "taxable_sales": 1263754255,
+      "excise_tax": 160997666,
+      "sales_tax": 112826732
+    },
+    {
+      "quarter": "2024-Q3",
+      "adult_use": null,
+      "medical": null,
+      "total": 1031958031,
+      "taxable_sales": 1191458225,
+      "excise_tax": 154093017,
+      "sales_tax": 106417990
+    },
+    {
+      "quarter": "2024-Q4",
+      "adult_use": null,
+      "medical": null,
+      "total": 1024656729,
+      "taxable_sales": 1234094890,
+      "excise_tax": 152763333,
+      "sales_tax": 110226577
+    },
+    {
+      "quarter": "2025-Q1",
+      "adult_use": null,
+      "medical": null,
+      "total": 976459151,
+      "taxable_sales": 1142880489,
+      "excise_tax": 145459744,
+      "sales_tax": 101818384
+    },
+    {
+      "quarter": "2025-Q2",
+      "adult_use": null,
+      "medical": null,
+      "total": 1006379419,
+      "taxable_sales": 1256846218,
+      "excise_tax": 149868348,
+      "sales_tax": 113998980
+    },
+    {
+      "quarter": "2025-Q3",
+      "adult_use": null,
+      "medical": null,
+      "total": 960431911,
+      "taxable_sales": 1191847435,
+      "excise_tax": 180716031,
+      "sales_tax": 108043033
+    },
+    {
+      "quarter": "2025-Q4",
+      "adult_use": null,
+      "medical": null,
+      "total": 990170239,
+      "taxable_sales": 1229742406,
+      "excise_tax": 147164548,
+      "sales_tax": 111571473
+    },
+    {
+      "quarter": "2026-Q1",
+      "adult_use": null,
+      "medical": null,
+      "total": 963939099,
+      "taxable_sales": 1160285815,
+      "excise_tax": 144724579,
+      "sales_tax": 105085098
+    },
+    {
+      "quarter": "2026-Q2",
+      "adult_use": null,
+      "medical": null,
+      "total": 1013222668,
+      "taxable_sales": 1208030263,
+      "excise_tax": 152042993,
+      "sales_tax": 109686814
+    }
+  ],
+  "annual": [
+    {
+      "year": 2023,
+      "adult_use": null,
+      "medical": null,
+      "total": 4447356928,
+      "basis": "sum of the four CDTFA quarterly 'Cannabis Sales' figures"
+    },
+    {
+      "year": 2024,
+      "adult_use": null,
+      "medical": null,
+      "total": 4206708301,
+      "basis": "sum of the four CDTFA quarterly 'Cannabis Sales' figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": null,
+      "medical": null,
+      "total": 3933440720,
+      "basis": "sum of the four CDTFA quarterly 'Cannabis Sales' figures"
+    }
+  ],
+  "tax_note": "Retail cannabis sales carry a 15% cannabis excise tax on gross receipts (19% from July 1 to Sept. 30, 2025) plus state and local sales tax, which applies after the excise is added (CDTFA).",
+  "summary": "California is the largest legal cannabis market in the world by sales, but it has been shrinking. Retailers reported $1.01 billion in cannabis sales in the second quarter of 2026, according to CDTFA. Annual reported sales fell from $4.45 billion in 2023 to $4.21 billion in 2024 and $3.93 billion in 2025. Low wholesale prices, a large illicit market, local bans that leave much of the state without stores, and a brief excise tax rise to 19% in the third quarter of 2025 have all weighed on legal sales. The rate returned to 15% in October 2025.",
+  "faq": [
+    {
+      "q": "How much cannabis does California sell?",
+      "a": "California retailers reported $1.01 billion in cannabis sales for the second quarter of 2026 and $3.93 billion for all of 2025, according to CDTFA tax data."
+    },
+    {
+      "q": "Does California publish monthly cannabis sales?",
+      "a": "No. CDTFA reports sales and tax quarterly, from retailers' quarterly returns, so this page shows quarterly figures."
+    },
+    {
+      "q": "What is the cannabis excise tax in California?",
+      "a": "15% of gross receipts since October 1, 2025. It was 19% from July 1 to September 30, 2025, before AB 564 rolled it back. Sales tax applies on top."
+    },
+    {
+      "q": "Are California cannabis sales declining?",
+      "a": "Yes. Reported sales have fallen each year since 2023, to $3.93 billion in 2025, though quarterly totals in 2026 have held near $1 billion."
+    }
+  ],
+  "sources": [
+    {
+      "name": "CDTFA Open Data Portal: Cannabis Tax Revenues (API)",
+      "url": "https://cdtfa.ca.gov/dataportal/api/odata/Cannabis_Tax_Revenues"
+    },
+    {
+      "name": "CDTFA news release 26-07: second quarter 2026 cannabis tax revenue",
+      "url": "https://www.cdtfa.ca.gov/news/26-07.htm"
+    },
+    {
+      "name": "CDTFA: Special Taxes and Fees Tax Rates (cannabis excise)",
+      "url": "https://cdtfa.ca.gov/taxes-and-fees/special-taxes-and-fees-tax-rates/"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

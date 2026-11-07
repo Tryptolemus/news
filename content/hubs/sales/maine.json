@@ -1,0 +1,79 @@
+{
+  "id": "maine",
+  "type": "sales",
+  "state": "Maine",
+  "regulator": "Maine Office of Cannabis Policy",
+  "data_source": {
+    "name": "OCP Adult Use Cannabis Program 2025 Annual Report to the Legislature",
+    "url": "https://www.maine.gov/dafs/ocp/sites/maine.gov.dafs.ocp/files/inline-files/2025%20AUCP%20Annual%20Report.pdf",
+    "notes": "Annual gross adult-use retail sales as published by OCP (pre-tax, from the state's tracking system). OCP's monthly adult-use figures are only in a Power BI dashboard, and Maine Revenue Services' monthly cannabis taxable sales file could not be downloaded from our tools, so 'monthly' is empty. Medical cannabis (largely caregiver-supplied) is not covered by these figures. The 2024 figure uses OCP's text ($243,876,905); the report's chart label shows $243,916,065."
+  },
+  "sales_start": "2020-10",
+  "monthly": [],
+  "annual": [
+    {
+      "year": 2021,
+      "adult_use": 81967381,
+      "medical": null,
+      "total": null,
+      "basis": "OCP 2025 AUCP Annual Report, Figure 8"
+    },
+    {
+      "year": 2022,
+      "adult_use": 158902669,
+      "medical": null,
+      "total": null,
+      "basis": "OCP 2025 AUCP Annual Report, Figure 8"
+    },
+    {
+      "year": 2023,
+      "adult_use": 216934352,
+      "medical": null,
+      "total": null,
+      "basis": "OCP 2025 AUCP Annual Report, Figure 8"
+    },
+    {
+      "year": 2024,
+      "adult_use": 243876905,
+      "medical": null,
+      "total": null,
+      "basis": "OCP 2025 AUCP Annual Report, conclusion text"
+    },
+    {
+      "year": 2025,
+      "adult_use": 246423512,
+      "medical": null,
+      "total": null,
+      "basis": "OCP 2025 AUCP Annual Report, section 3.3"
+    }
+  ],
+  "tax_note": "From January 1, 2026, adult-use cannabis carries a 14% sales tax (up from 10%), and cultivators pay an excise tax of $223 per pound of flower (down from $335) (Maine Office of Cannabis Policy, 2025 annual report).",
+  "summary": "Maine's adult-use stores opened in October 2020, and sales tripled in the first three full years before levelling off. Gross adult-use sales reached $246.4 million in 2025, up just 1% from 2024, across 4.8 million transactions, according to the Office of Cannabis Policy. Prices keep falling: the average price per gram dropped from $12.75 in 2021 to $6.62 in 2025. Maine also has a large medical program served mainly by registered caregivers, which competes directly with adult-use stores on price. The adult-use sales tax rose to 14% in January 2026.",
+  "faq": [
+    {
+      "q": "How much adult-use cannabis does Maine sell a year?",
+      "a": "Adult-use stores sold $246.4 million in 2025, up 1% from $243.9 million in 2024, per the Office of Cannabis Policy."
+    },
+    {
+      "q": "Why is Maine's cannabis sales growth slowing?",
+      "a": "Prices are falling, from $12.75 per gram in 2021 to $6.62 in 2025, and adult-use stores compete with a large, lower-taxed medical caregiver market."
+    },
+    {
+      "q": "What is the cannabis tax in Maine?",
+      "a": "Since January 1, 2026, adult-use purchases carry a 14% sales tax, and cultivators pay a $223-per-pound excise tax on flower."
+    }
+  ],
+  "sources": [
+    {
+      "name": "OCP 2025 AUCP Annual Report (PDF)",
+      "url": "https://www.maine.gov/dafs/ocp/sites/maine.gov.dafs.ocp/files/inline-files/2025%20AUCP%20Annual%20Report.pdf"
+    },
+    {
+      "name": "OCP Adult Use Retail Sales Data (dashboard)",
+      "url": "https://www.maine.gov/dafs/ocp/open-data/adult-use/retail-sales"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

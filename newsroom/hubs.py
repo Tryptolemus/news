@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "content" / "hubs"
 SITE = T.SITE
 
-KIND_DIR = {"us_state": "states", "country": "countries", "explainer": "explainers", "glossary": "glossary", "company": "companies"}
+KIND_DIR = {"us_state": "states", "country": "countries", "explainer": "explainers", "glossary": "glossary", "company": "companies", "sales": "sales"}
 FACT_LABELS = [
     ("adult_use_since", "Adult-use legal since"), ("retail_sales", "Retail sales"), ("purchase_age", "Minimum age"),
     ("possession_limit", "Possession limit"), ("home_grow", "Home grow"), ("public_use", "Public use"),
@@ -74,7 +74,7 @@ BY_TAG = {}        # tag (lower) -> hub
 def url_for(h):
     s = h["_slug"]
     return {"us_state": f"/legal/us/{s}/", "country": f"/legal/world/{s}/", "explainer": f"/explainers/{s}/",
-            "glossary": f"/glossary/{s}/", "company": f"/company/{s}/"}[h["type"]]
+            "glossary": f"/glossary/{s}/", "company": f"/company/{s}/", "sales": f"/data/{s}-cannabis-sales/"}[h["type"]]
 
 
 def complete(h):
@@ -95,7 +95,7 @@ def load():
             h["_slug"] = f.stem
             h["_url"] = url_for(h)
             HUBS.append(h)
-            if kind == "glossary":
+            if kind in ("glossary", "sales"):
                 continue  # glossary terms link from hubs and each other, not from story tags
             for t in {h["name"], *h.get("tags", [])}:
                 BY_TAG.setdefault(t.lower(), h)
@@ -480,6 +480,7 @@ def jurisdiction_page(h, arts):
     <section class="hub-sec"><h2>Key facts</h2>{facts_table(h)}</section>
     {pending(h)}
     {related_explainers(h) if is_state else ""}
+    {sales_link(h)}
     {operators_html(h)}
     {coverage_html(h, arts)}
     {timeline(h)}
@@ -789,6 +790,8 @@ def build(arts):
             term_page(h, arts)
         elif h["type"] == "company":
             company_page(h, arts)
+        elif h["type"] == "sales":
+            sales_page(h, arts)
         else:
             jurisdiction_page(h, arts)
         if complete(h):
@@ -801,6 +804,9 @@ def build(arts):
     e = explainers_index()
     if e:
         urls.append(("/explainers/", e))
+    d = sales_index()
+    if d:
+        urls.append(("/data/", d))
     c = companies_index()
     if c:
         urls.append(("/company/", c))
@@ -938,3 +944,183 @@ def companies_index():
     extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (il, crumbs_ld(crumbs)))
     T.ctx["write"]("company/index.html", T.page(title, body, desc=desc, path="/company/", extra_head=extra, active="Stocks"))
     return max(verified(c) for c in cs)
+
+
+# ---------- state sales data ----------
+
+def sales_hubs():
+    return sorted([h for h in HUBS if h["type"] == "sales"], key=lambda h: h["state"])
+
+
+def per(k):
+    """'2026-07' -> 'Jul 2026'; quarters and years pass through."""
+    k = str(k)
+    if re.fullmatch(r"\d{4}-\d{2}", k):
+        return f"{datetime.fromisoformat(k + '-01'):%b %Y}"
+    return k.replace("-Q", " Q")
+
+
+def money(v, short=False):
+    if v is None:
+        return "–"
+    if short == "m":
+        return f"${v / 1e6:,.2f}M"
+    if short:
+        return f"${v / 1e9:.2f}B" if v >= 1e9 else f"${v / 1e6:.1f}M"
+    return f"${v:,.0f}"
+
+
+def _series(h):
+    """(label, value) points for the chart: monthly totals (or adult-use), else quarterly."""
+    m = h.get("monthly") or []
+    pts = [(r["month"], r.get("total") if r.get("total") is not None else r.get("adult_use", r.get("taxable_sales"))) for r in m]
+    pts = [(k, v) for k, v in pts if v is not None]
+    if pts:
+        return pts, "month"
+    q = h.get("quarterly") or []
+    pts = [(r.get("quarter") or r.get("period"), r.get("total") if r.get("total") is not None else r.get("adult_use", r.get("taxable_sales"))) for r in q]
+    return [(k, v) for k, v in pts if v is not None and k], "quarter"
+
+
+def sales_chart(h):
+    pts, unit = _series(h)
+    pts = pts[-24:]
+    if len(pts) < 3:
+        return ""
+    W, H, P = 720, 260, 64
+    mx = max(v for _, v in pts) or 1
+    bw = (W - P) / len(pts)
+    bars, labels = [], []
+    for i, (k, v) in enumerate(pts):
+        bh = (H - 40) * v / mx
+        x = P + i * bw
+        bars.append(f'<rect x="{x + bw * .12:.1f}" y="{H - 20 - bh:.1f}" width="{bw * .76:.1f}" height="{bh:.1f}" rx="2" class="sb"><title>{escape(str(k))}: {money(v)}</title></rect>')
+        if i % max(1, len(pts) // 6) == 0 or i == len(pts) - 1:
+            anchor = "end" if i == len(pts) - 1 else ("start" if i == 0 else "middle")
+            lx = x + bw if anchor == "end" else (x if anchor == "start" else x + bw / 2)
+            labels.append(f'<text x="{lx:.1f}" y="{H - 4}" text-anchor="{anchor}">{escape(per(k))}</text>')
+    grid = "".join(f'<text x="{P - 8}" y="{H - 20 - (H - 40) * f + 4:.1f}" text-anchor="end">{money(mx * f, True)}</text><line x1="{P}" x2="{W}" y1="{H - 20 - (H - 40) * f:.1f}" y2="{H - 20 - (H - 40) * f:.1f}" class="sg"/>' for f in (.5, 1))
+    what = "total" if any(r.get("total") for r in (h.get("monthly") or h.get("quarterly") or [])) else "reported"
+    return (f'<figure class="sales-chart"><svg viewBox="0 0 {W} {H}" role="img" aria-label="{escape(h["state"])} {what} cannabis sales by {unit}">{grid}{"".join(bars)}{"".join(labels)}</svg>'
+            f'<figcaption>{escape(h["state"])} {what} cannabis sales by {unit}, last {len(pts)} {unit}s. Source: {escape(h["data_source"]["name"])}.</figcaption></figure>')
+
+
+def _rows_table(rows, key, label):
+    if not rows:
+        return ""
+    cols = [c for c in ("adult_use", "medical", "total", "taxable_sales") if any(r.get(c) is not None for r in rows)]
+    names = {"adult_use": "Adult use", "medical": "Medical", "total": "Total", "taxable_sales": "Taxable sales"}
+    head = f"<th>{label}</th>" + "".join(f"<th>{names[c]}</th>" for c in cols)
+    body = "".join(f'<tr><td data-label="{label}"><b>{escape(per(r.get(key) or r.get("period", "")))}</b></td>'
+                   + "".join(f'<td data-label="{names[c]}">{money(r.get(c), "m")}</td>' for c in cols) + "</tr>" for r in reversed(rows))
+    return f'<div class="table-wrap"><table class="tracker sales-t"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>'
+
+
+def sales_page(h, arts):
+    name = h["state"]
+    url = h["_url"]
+    crumbs = [("MetaFlora News", "/"), ("Cannabis data", "/data/"), (f"{name} sales", url)]
+    pts, unit = _series(h)
+    ann = [r for r in h.get("annual") or [] if r.get("total") or r.get("adult_use") or r.get("taxable_sales")]
+    last_ann = ann[-1] if ann else None
+    latest = pts[-1] if pts else None
+    ans = []
+    if latest:
+        ans.append(f"{name} reported {money(latest[1], True)} in cannabis sales for {per(latest[0])}")
+    if last_ann:
+        v = last_ann.get("total") or last_ann.get("adult_use") or last_ann.get("taxable_sales")
+        ans.append(f"{money(v, True)} for {last_ann.get('year') or last_ann.get('period')}")
+    answer = (" and ".join(ans) + ".") if ans else h.get("summary", "")[:200]
+    title = f"{name} cannabis sales ({TITLE_YEAR}): monthly data and trends"
+    if len(title) > 62:
+        title = f"{name} cannabis sales: monthly data ({TITLE_YEAR})"
+    desc = clip(answer + " Official figures from " + h.get("regulator", "the state") + ", with chart and CSV.", 155)
+    # CSV
+    buf = io.StringIO()
+    w = csv.writer(buf)
+    w.writerow(["state", "period", "adult_use_usd", "medical_usd", "total_usd", "source"])
+    for r in h.get("monthly") or []:
+        w.writerow([name, r.get("month"), r.get("adult_use"), r.get("medical"), r.get("total", r.get("taxable_sales")), h["data_source"]["url"]])
+    for r in h.get("quarterly") or []:
+        w.writerow([name, r.get("quarter") or r.get("period"), r.get("adult_use"), r.get("medical"), r.get("total", r.get("taxable_sales")), h["data_source"]["url"]])
+    csv_name = f"{h['_slug']}-cannabis-sales.csv"
+    T.ctx["write"](url.strip("/") + "/" + csv_name, buf.getvalue())
+    jur = next((x for x in HUBS if x["type"] == "us_state" and x["name"] == name and complete(x)), None)
+    ops = [c for c in companies() if name in ((c.get("footprint") or {}).get("us_states") or [])]
+    f_html, f_ld = faq(h)
+    tables = ""
+    if h.get("monthly"):
+        tables += f'<section class="hub-sec"><h2>Monthly sales</h2>{_rows_table(h["monthly"], "month", "Month")}</section>'
+    if h.get("quarterly"):
+        tables += f'<section class="hub-sec"><h2>Quarterly sales</h2>{_rows_table(h["quarterly"], "quarter", "Quarter")}</section>'
+    if ann:
+        tables += f'<section class="hub-sec"><h2>Annual sales</h2>{_rows_table(ann, "year", "Year")}</section>'
+    body = f"""
+<article class="story hub">
+  <header class="story-head">
+    {crumbs_html(crumbs)}
+    <h1>{escape(name)} cannabis sales</h1>
+    <p class="dek hub-answer">{escape(answer)}</p>
+    <p class="hub-by"><span>MetaFlora Cannabis Data</span> · Verified <time datetime="{verified(h)}">{fmt_date(verified(h))}</time> · <a href="{csv_name}" download>Download CSV</a></p>
+  </header>
+  {sales_chart(h)}
+  <div class="story-col">
+    <section class="hub-sec"><h2>The {escape(name)} market</h2><p class="hub-summary">{escape(h.get("summary", ""))}</p>
+      <p class="hub-note"><b>Tax:</b> {escape(h.get("tax_note", ""))}</p>
+      <p class="hub-note"><b>About this data:</b> {escape(h["data_source"].get("notes", ""))} {src_link(h["data_source"]["url"], "Official source")}</p></section>
+    {tables}
+    {f'<section class="hub-sec"><h2>Related</h2><ul class="sib"><li><a href="{jur["_url"]}">Is weed legal in {escape(name)}?</a><span>Current law, limits and sources</span></li>' + "".join(f'<li><a href="{c["_url"]}">{escape(c.get("short_name") or c["name"])}</a><span>Operates in {escape(name)}</span></li>' for c in ops[:6]) + '</ul></section>' if jur else ""}
+    {f_html}
+    {sources(h)}
+    <p class="hub-note">Figures are as published by the source and are not adjusted for inflation. Use freely with a link to this page.</p>
+  </div>
+</article>"""
+    ds = {"@context": "https://schema.org", "@type": "Dataset", "name": f"{name} cannabis sales", "description": desc, "url": SITE + url,
+          "dateModified": verified(h), "license": "https://creativecommons.org/licenses/by/4.0/", "creator": T.PUBLISHER, "isAccessibleForFree": True,
+          "spatialCoverage": {"@type": "State", "name": name}, "isBasedOn": h["data_source"]["url"],
+          "temporalCoverage": f"{pts[0][0]}/{pts[-1][0]}" if pts else None,
+          "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": SITE + url + csv_name}]}
+    ds = {k: v for k, v in ds.items() if v}
+    extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (ds, crumbs_ld(crumbs), f_ld) if x)
+    T.ctx["write"](url.strip("/") + "/index.html", T.page(title, body, desc=desc, path=url, extra_head=extra, active="Laws",
+                   robots=T.ROBOTS if complete(h) else "noindex, follow"))
+
+
+def sales_link(h):
+    if h.get("type") != "us_state":
+        return ""
+    s = next((x for x in HUBS if x["type"] == "sales" and x["state"] == h["name"] and complete(x)), None)
+    if not s:
+        return ""
+    return f'<p class="more-link"><a href="{s["_url"]}">{escape(h["name"])} cannabis sales: monthly data, chart and CSV</a></p>'
+
+
+def sales_index():
+    ss = [h for h in sales_hubs() if complete(h)]
+    if not ss:
+        return None
+    rows = []
+    for h in ss:
+        pts, unit = _series(h)
+        ann = [r for r in h.get("annual") or [] if r.get("total") or r.get("adult_use") or r.get("taxable_sales")]
+        a = ann[-1] if ann else {}
+        rows.append(f'<tr><td class="tr-name" data-label="State"><a href="{h["_url"]}">{escape(h["state"])}</a></td>'
+                    f'<td data-label="Latest">{money(pts[-1][1], True) if pts else "–"} <span class="meta">{escape(per(pts[-1][0])) if pts else ""}</span></td>'
+                    f'<td data-label="Last full year">{money(a.get("total") or a.get("adult_use") or a.get("taxable_sales"), True) if a else "–"} <span class="meta">{escape(str(a.get("year", "")))}</span></td></tr>')
+    crumbs = [("MetaFlora News", "/"), ("Cannabis data", "/data/")]
+    title = f"Cannabis sales by state ({TITLE_YEAR}): monthly data"
+    desc = "Monthly legal cannabis sales by US state from official state data: latest month, annual totals, charts and free CSV downloads, updated as states publish."
+    body = f"""
+<article class="story hub hub-wide">
+  <header class="story-head">{crumbs_html(crumbs)}<h1>Cannabis sales by state</h1>
+  <p class="dek hub-answer">Legal cannabis sales in {len(ss)} US states, straight from each state's official reports, with a chart and CSV for every state.</p>
+  <p class="hub-by"><span>MetaFlora Cannabis Data</span> · Updated <time>{fmt_date(max(verified(h) for h in ss))}</time> · <a href="/legal/us/">Cannabis laws by state</a></p></header>
+  <div class="table-wrap"><table class="tracker"><thead><tr><th>State</th><th>Latest period</th><th>Last full year</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+  <div class="story-col"><p class="hub-note">States report differently: some include medical sales, some publish only adult-use, and some figures are taxable sales. Each state page explains exactly what its numbers cover.</p></div>
+</article>"""
+    il = {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": SITE + "/data/",
+          "mainEntity": {"@type": "ItemList", "numberOfItems": len(ss), "itemListElement": [
+              {"@type": "ListItem", "position": i + 1, "url": SITE + h["_url"], "name": f'{h["state"]} cannabis sales'} for i, h in enumerate(ss)]}}
+    extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (il, crumbs_ld(crumbs)))
+    T.ctx["write"]("data/index.html", T.page(title, body, desc=desc, path="/data/", extra_head=extra, active="Laws"))
+    return max(verified(h) for h in ss)

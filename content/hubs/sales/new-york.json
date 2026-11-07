@@ -1,0 +1,70 @@
+{
+  "id": "new-york",
+  "type": "sales",
+  "state": "New York",
+  "regulator": "New York Office of Cannabis Management",
+  "data_source": {
+    "name": "OCM 2025 Annual Report, Table 8: Annual Retail Sales by Program",
+    "url": "https://cannabis.ny.gov/system/files/documents/2025/12/ocm-annual-report_final-2025.pdf",
+    "notes": "New York does not publish a downloadable monthly sales series; OCM's Metrc 'Cannabis Market Landscape' dashboard shows monthly charts but no export. Annual figures are OCM chart labels (published in millions to one decimal, converted to whole dollars). The 2025 row covers January-November only (year to date). The Governor's office separately reported $1.41 billion in retail sales through Q3 2026 and more than $4.1 billion since December 2022; those totals are not broken out by program."
+  },
+  "sales_start": "2022-12",
+  "monthly": [],
+  "annual": [
+    {
+      "year": 2023,
+      "adult_use": 155300000,
+      "medical": 162100000,
+      "total": 317400000,
+      "basis": "OCM 2025 Annual Report, Table 8"
+    },
+    {
+      "year": 2024,
+      "adult_use": 882100000,
+      "medical": 139100000,
+      "total": 1021200000,
+      "basis": "OCM 2025 Annual Report, Table 8"
+    },
+    {
+      "year": 2025,
+      "period": "January-November 2025 (year to date)",
+      "adult_use": 1482300000,
+      "medical": 95500000,
+      "total": 1577800000,
+      "basis": "OCM 2025 Annual Report, Table 8"
+    }
+  ],
+  "tax_note": "Adult-use retail sales carry a 9% state and 4% local retail excise tax (13% in all), plus a 9% distributor tax at wholesale; adult-use cannabis is not subject to regular sales tax (NYS Department of Taxation and Finance).",
+  "summary": "New York's legal adult-use market opened in December 2022 and grew slowly at first because licensing was tied up in litigation, then accelerated sharply as hundreds of stores opened in 2024 and 2025. Adult-use sales rose from $155 million in 2023 to $882 million in 2024 and $1.48 billion in the first 11 months of 2025, per the Office of Cannabis Management. State officials reported $1.41 billion in retail sales in the first three quarters of 2026 and more than $4.1 billion since launch. New York City accounts for the largest share. Medical sales keep shrinking as patients move to adult-use stores.",
+  "faq": [
+    {
+      "q": "How much cannabis does New York sell?",
+      "a": "Adult-use sales were $1.48 billion in January-November 2025, and state officials reported $1.41 billion in retail sales for the first three quarters of 2026."
+    },
+    {
+      "q": "Does New York publish monthly cannabis sales?",
+      "a": "Not as a downloadable series. The OCM's Metrc dashboard shows recent months as charts, and its annual report gives yearly totals."
+    },
+    {
+      "q": "How much is the cannabis tax in New York?",
+      "a": "Shoppers pay a 13% retail excise (9% state, 4% local); distributors also pay a 9% tax at wholesale. Regular sales tax does not apply."
+    }
+  ],
+  "sources": [
+    {
+      "name": "OCM 2025 Annual Report (PDF)",
+      "url": "https://cannabis.ny.gov/system/files/documents/2025/12/ocm-annual-report_final-2025.pdf"
+    },
+    {
+      "name": "Governor Hochul: legal cannabis market surpasses $4 billion (Oct 27, 2026)",
+      "url": "https://governor.ny.gov/news/governor-hochul-announces-new-yorks-legal-cannabis-market-surpasses-4-billion-retail-sales"
+    },
+    {
+      "name": "NYS Department of Taxation and Finance: Adult-use cannabis products tax",
+      "url": "https://www.tax.ny.gov/bus/auc/"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

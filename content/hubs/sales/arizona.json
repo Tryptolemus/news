@@ -1,0 +1,256 @@
+{
+  "id": "arizona",
+  "type": "sales",
+  "state": "Arizona",
+  "regulator": "Arizona Department of Health Services (licensing); Arizona Department of Revenue (tax data)",
+  "data_source": {
+    "name": "ADOR: Arizona Marijuana TPT and Excise Taxable Sales and Tax Collections, by Period Covered",
+    "url": "https://azdor.gov/sites/default/files/document/MJ_byPeriodCovered.pdf",
+    "notes": "Arizona does not publish tracked retail sales; these are the Department of Revenue's estimated taxable sales by period covered, from transaction privilege tax returns (medical = business code 203, adult_use = code 420). ADOR labels the figures estimated. August 2025 shows a negative medical figure (an adjustment), so medical and total are null for that month. Totals are adult-use plus medical. Annual figures are sums of the monthly figures."
+  },
+  "sales_start": "2021-01",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 88554772,
+      "medical": 24100187,
+      "total": 112654959
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 90562558,
+      "medical": 23842155,
+      "total": 114404713
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 96824797,
+      "medical": 25180006,
+      "total": 122004803
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 94568942,
+      "medical": 23770869,
+      "total": 118339811
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 93551314,
+      "medical": 22737118,
+      "total": 116288432
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 85485087,
+      "medical": 20206503,
+      "total": 105691590
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 84375377,
+      "medical": 19489239,
+      "total": 103864616
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 86951492,
+      "medical": 19543303,
+      "total": 106494795
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 80306038,
+      "medical": 17556433,
+      "total": 97862471
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 86933919,
+      "medical": 18269663,
+      "total": 105203582
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 86778752,
+      "medical": 17980524,
+      "total": 104759276
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 95381245,
+      "medical": 18097497,
+      "total": 113478742
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 91930030,
+      "medical": 17940210,
+      "total": 109870240
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 87028790,
+      "medical": 16809424,
+      "total": 103838214
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 93662947,
+      "medical": 19205202,
+      "total": 112868149
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 92192127,
+      "medical": 17448398,
+      "total": 109640525
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 89592777,
+      "medical": 16928145,
+      "total": 106520922
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 79871259,
+      "medical": 15588081,
+      "total": 95459340
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 82010380,
+      "medical": 14588576,
+      "total": 96598956
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 102802779,
+      "medical": null,
+      "total": null,
+      "note": "ADOR reports a negative medical figure for this period (an adjustment); medical and total left null"
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 76160684,
+      "medical": 14326038,
+      "total": 90486722
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 88454911,
+      "medical": 12982675,
+      "total": 101437586
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 88513085,
+      "medical": 12400434,
+      "total": 100913519
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 93071597,
+      "medical": 12965794,
+      "total": 106037391
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 90889277,
+      "medical": 12133785,
+      "total": 103023062
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 85711591,
+      "medical": 11735225,
+      "total": 97446816
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 95232031,
+      "medical": 12031813,
+      "total": 107263844
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 96007313,
+      "medical": 12184954,
+      "total": 108192267
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 94594581,
+      "medical": 11860706,
+      "total": 106455287
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 86593250,
+      "medical": 10982220,
+      "total": 97575470
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 87065889,
+      "medical": 10753961,
+      "total": 97819850
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 82052549,
+      "medical": 9750218,
+      "total": 91802767
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 1070274293,
+      "medical": 250773497,
+      "total": 1321047790,
+      "basis": "sum of ADOR monthly estimated taxable sales"
+    },
+    {
+      "year": 2025,
+      "adult_use": 1065291366,
+      "medical": null,
+      "total": null,
+      "basis": "adult_use = sum of ADOR monthly estimated taxable sales; medical not summed because one month carries a negative adjustment"
+    }
+  ],
+  "tax_note": "Adult-use marijuana pays a 16% state marijuana excise tax plus state and local transaction privilege (sales) tax; medical marijuana pays only the transaction privilege tax (Arizona Department of Revenue).",
+  "summary": "Arizona's adult-use market launched in January 2021 at existing medical dispensaries and quickly overtook the medical program. Taxable adult-use sales were $82.1 million in August 2026, against $9.8 million of medical sales. Adult-use sales have held near $1.07 billion a year in 2024 and 2025, while medical sales have fallen by more than half since 2022 as patients switch to adult-use stores, which removes the main price advantage of a medical card. Arizona's store count is capped, which limits competition between dispensaries but also caps access in fast-growing suburbs.",
+  "faq": [
+    {
+      "q": "How much cannabis does Arizona sell a month?",
+      "a": "The Department of Revenue estimates $82.1 million in taxable adult-use sales and $9.8 million in medical sales for August 2026, about $91.8 million in all."
+    },
+    {
+      "q": "Are Arizona's cannabis sales figures exact?",
+      "a": "No. ADOR labels them estimated taxable sales, derived from tax returns by the period they cover, and they can be revised when returns are amended."
+    },
+    {
+      "q": "Why are Arizona medical marijuana sales falling?",
+      "a": "Medical sales fell from $250.8 million in 2024 to about $10 million to $12 million a month in 2026 as patients shift to adult-use stores."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ADOR: Marijuana taxable sales and collections by period covered (PDF)",
+      "url": "https://azdor.gov/sites/default/files/document/MJ_byPeriodCovered.pdf"
+    },
+    {
+      "name": "ADOR: Marijuana Tax Collection reports",
+      "url": "https://www.azdor.gov/reports-statistics-and-legal-research/marijuana-tax-collection"
+    },
+    {
+      "name": "ADOR: Adult Use Marijuana (tax rates)",
+      "url": "https://azdor.gov/business/transaction-privilege-tax/adult-use-marijuana"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

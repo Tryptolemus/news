@@ -1,0 +1,88 @@
+{
+  "id": "delaware",
+  "type": "sales",
+  "state": "Delaware",
+  "regulator": "Delaware Office of the Marijuana Commissioner",
+  "data_source": {
+    "name": "NCS Analytics Transparency Project: Delaware (dashboard linked by the OMC)",
+    "url": "https://ncsanalytics.com/transparency-project/de/",
+    "notes": "Delaware does not publish monthly sales itself; the OMC links this dashboard run by NCS Analytics, a private vendor that does not certify the data, shows only a rolling six-month window and may revise recent months. 'adult_use' and 'medical' are the dashboard's Adult Use and Medicinal retail columns as read Nov 7, 2026; the separate Wholesale column is excluded. Total = adult-use + medical. Adult-use sales began August 1, 2025."
+  },
+  "sales_start": "2025-08",
+  "monthly": [
+    {
+      "month": "2026-05",
+      "adult_use": 3365325,
+      "medical": 1779297,
+      "total": 5144622
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 4767026,
+      "medical": 2270181,
+      "total": 7037207
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 5613832,
+      "medical": 2588769,
+      "total": 8202601
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 5579881,
+      "medical": 2365259,
+      "total": 7945140
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 5614294,
+      "medical": 2316138,
+      "total": 7930432
+    },
+    {
+      "month": "2026-10",
+      "adult_use": 6186930,
+      "medical": 2477067,
+      "total": 8663997
+    }
+  ],
+  "annual": [],
+  "tax_note": "Adult-use marijuana carries a 15% retail marijuana tax, and buyers with a valid medical marijuana card are exempt (Delaware Division of Revenue).",
+  "summary": "Delaware's adult-use sales began on August 1, 2025, at 13 former medical dispensaries that converted to serve all adults, and the market remains small. The state-linked dashboard shows $6.2 million in adult-use sales and $2.5 million in medical sales in October 2026, the highest adult-use month in its six-month window. Press reports put first-year retail sales well below the $281 million a year once projected. Few stores, higher prices than neighboring Maryland and New Jersey, and slow openings by new retail-only licensees all hold the market back. Sales should rise as the 30 retail-only licensees open.",
+  "faq": [
+    {
+      "q": "How much cannabis does Delaware sell a month?",
+      "a": "About $8.7 million in October 2026, including $6.2 million adult-use and $2.5 million medical, according to the NCS Analytics dashboard linked by the Office of the Marijuana Commissioner."
+    },
+    {
+      "q": "When did adult-use cannabis sales start in Delaware?",
+      "a": "August 1, 2025, at converted medical dispensaries."
+    },
+    {
+      "q": "What is the cannabis tax in Delaware?",
+      "a": "A 15% retail marijuana tax on adult-use purchases. Medical cardholders are exempt."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NCS Analytics Transparency Project: Delaware (vendor)",
+      "url": "https://ncsanalytics.com/transparency-project/de/"
+    },
+    {
+      "name": "Delaware Office of the Marijuana Commissioner",
+      "url": "https://omc.delaware.gov/"
+    },
+    {
+      "name": "Delaware Division of Revenue: Marijuana Establishments and Retail Tax FAQs",
+      "url": "https://revenue.delaware.gov/marijuana-establishments-and-retail-tax-faqs/"
+    },
+    {
+      "name": "WHYY: DE cannabis sales lag projections but hit record $5.6M in July",
+      "url": "https://whyy.org/articles/delaware-retail-cannabis-sales-fall-slow/"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "new-jersey",
+  "type": "sales",
+  "state": "New Jersey",
+  "regulator": "New Jersey Cannabis Regulatory Commission",
+  "data_source": {
+    "name": "NJ CRC: Cannabis Sales Totals (quarterly, 'Rec Med Sales Q2 26' PDF)",
+    "url": "https://www.nj.gov/cannabis/documents/Quarterlies/Rec%20Med%20Sales%20Q2%2026.pdf",
+    "notes": "The CRC publishes sales quarterly, not monthly, so 'monthly' is empty and figures are in 'quarterly'. 'adult_use' = recreational sales, 'medical' = medicinal sales. The CRC notes some figures are updated after a prior quarter's report; values here are from the Q2 2026 edition. Annual figures are the CRC's own TOTALS rows."
+  },
+  "currency": "USD",
+  "sales_start": "2022-04",
+  "monthly": [],
+  "quarterly": [
+    {
+      "quarter": "2024-Q1",
+      "adult_use": 217745491,
+      "medical": 24520469,
+      "total": 242265960
+    },
+    {
+      "quarter": "2024-Q2",
+      "adult_use": 247347718,
+      "medical": 22708539,
+      "total": 270056257
+    },
+    {
+      "quarter": "2024-Q3",
+      "adult_use": 257828024,
+      "medical": 19698012,
+      "total": 277526036
+    },
+    {
+      "quarter": "2024-Q4",
+      "adult_use": 277203897,
+      "medical": 16986012,
+      "total": 294189909
+    },
+    {
+      "quarter": "2025-Q1",
+      "adult_use": 263986769,
+      "medical": 12970358,
+      "total": 276957127
+    },
+    {
+      "quarter": "2025-Q2",
+      "adult_use": 268609188,
+      "medical": 15754701,
+      "total": 284363889
+    },
+    {
+      "quarter": "2025-Q3",
+      "adult_use": 288742943,
+      "medical": 9898730,
+      "total": 298641673
+    },
+    {
+      "quarter": "2025-Q4",
+      "adult_use": 296665086,
+      "medical": 7592375,
+      "total": 304257461
+    },
+    {
+      "quarter": "2026-Q1",
+      "adult_use": 270053368,
+      "medical": 5289550,
+      "total": 275342918
+    },
+    {
+      "quarter": "2026-Q2",
+      "adult_use": 270118655,
+      "medical": 4361636,
+      "total": 274415004
+    }
+  ],
+  "annual": [
+    {
+      "year": 2023,
+      "adult_use": 681192514,
+      "medical": 124731705,
+      "total": 805924219,
+      "basis": "CRC published annual TOTALS row"
+    },
+    {
+      "year": 2024,
+      "adult_use": 1000125130,
+      "medical": 83913032,
+      "total": 1084038162,
+      "basis": "CRC published annual TOTALS row"
+    },
+    {
+      "year": 2025,
+      "adult_use": 1118003986,
+      "medical": 46216164,
+      "total": 1164220150,
+      "basis": "CRC published annual TOTALS row"
+    }
+  ],
+  "tax_note": "Adult-use cannabis is subject to New Jersey's 6.625% sales tax, a Social Equity Excise Fee on cultivator transfers, and a municipal transfer tax of up to 2% where adopted (NJ Division of Taxation).",
+  "summary": "New Jersey's adult-use market opened in April 2022 and passed $1 billion in annual recreational sales in 2024. Recreational sales reached $1.12 billion in 2025, up about 12% on 2024, and the CRC reported $270.1 million in the second quarter of 2026. Medical sales have collapsed, from $226 million in 2022 to $46 million in 2025, as patients buy at adult-use counters instead. More licensed stores keep opening, but recreational sales in the first half of 2026 were only about 1% above the same period of 2025. The CRC publishes only quarterly totals.",
+  "faq": [
+    {
+      "q": "How much cannabis does New Jersey sell?",
+      "a": "Recreational sales were $270.1 million in the second quarter of 2026 and $1.12 billion in 2025, according to the Cannabis Regulatory Commission."
+    },
+    {
+      "q": "Does New Jersey publish monthly cannabis sales?",
+      "a": "No. The CRC publishes quarterly sales totals for recreational and medicinal cannabis."
+    },
+    {
+      "q": "What happened to New Jersey's medical cannabis sales?",
+      "a": "They fell from $226.1 million in 2022 to $46.2 million in 2025 as patients shifted to the adult-use market."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NJ CRC: Rec Med Sales Q2 2026 (PDF)",
+      "url": "https://www.nj.gov/cannabis/documents/Quarterlies/Rec%20Med%20Sales%20Q2%2026.pdf"
+    },
+    {
+      "name": "NJ CRC: Frequently Requested Data",
+      "url": "https://www.nj.gov/cannabis/resources/reports-stats-info"
+    },
+    {
+      "name": "NJ Division of Taxation: TB-104 Recreational Cannabis",
+      "url": "https://nj.gov/treasury/taxation/pdf/pubs/tb/tb104.pdf"
+    }
+  ],
+  "page_status": "partial",
+  "last_verified": "2026-11-07"
+}

@@ -1,0 +1,255 @@
+{
+  "id": "new-mexico",
+  "type": "sales",
+  "state": "New Mexico",
+  "regulator": "New Mexico Regulation and Licensing Department, Cannabis Control Division",
+  "data_source": {
+    "name": "Cannabis Reporting Online Portal (CROP): Sales",
+    "url": "https://crop.rld.nm.gov/sales.html",
+    "notes": "Monthly adult-use ('rec') and medical sales self-reported by licensees through the state's seed-to-sale tracking system, as published on the RLD's CROP portal. Read Nov 7, 2026; the latest month shown was August 2026. Annual figures are sums of the monthly figures."
+  },
+  "sales_start": "2022-04",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 34420132,
+      "medical": 11848057,
+      "total": 46268189
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 35674958,
+      "medical": 12319998,
+      "total": 47994956
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 39464523,
+      "medical": 13042683,
+      "total": 52507206
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 38253559,
+      "medical": 12854179,
+      "total": 51107739
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 38682535,
+      "medical": 12518346,
+      "total": 51200880
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 36513095,
+      "medical": 11559066,
+      "total": 48072162
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 38018830,
+      "medical": 12078382,
+      "total": 50097213
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 38940955,
+      "medical": 12187238,
+      "total": 51128193
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 35705901,
+      "medical": 11115799,
+      "total": 46821699
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 37114469,
+      "medical": 11436705,
+      "total": 48551174
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 36558103,
+      "medical": 11244933,
+      "total": 47803037
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 37273304,
+      "medical": 11448548,
+      "total": 48721851
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 34778936,
+      "medical": 10904029,
+      "total": 45682951
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 33580445,
+      "medical": 10751132,
+      "total": 44331577
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 37418519,
+      "medical": 11864937,
+      "total": 49283456
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 36714467,
+      "medical": 11885597,
+      "total": 48600064
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 37947948,
+      "medical": 11874290,
+      "total": 49822238
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 35820869,
+      "medical": 11203645,
+      "total": 47024514
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 37120311,
+      "medical": 11322442,
+      "total": 48442753
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 37397801,
+      "medical": 11198664,
+      "total": 48596465
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 34252182,
+      "medical": 10062075,
+      "total": 44314257
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 36580276,
+      "medical": 10445360,
+      "total": 47025636
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 35829682,
+      "medical": 10066951,
+      "total": 45896633
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 37882133,
+      "medical": 10481438,
+      "total": 48363571
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 35752035,
+      "medical": 9908268,
+      "total": 45660304
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 35156269,
+      "medical": 9457977,
+      "total": 44614246
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 37903986,
+      "medical": 10209549,
+      "total": 48113536
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 38345172,
+      "medical": 10378597,
+      "total": 48723769
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 38651096,
+      "medical": 10082279,
+      "total": 48733375
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 37193443,
+      "medical": 9744070,
+      "total": 46937513
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 39591627,
+      "medical": 10222873,
+      "total": 49814501
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 37324723,
+      "medical": 10085791,
+      "total": 47410514
+    }
+  ],
+  "annual": [
+    {
+      "year": 2024,
+      "adult_use": 446620364,
+      "medical": 143653934,
+      "total": 590274299,
+      "basis": "sum of the official monthly figures"
+    },
+    {
+      "year": 2025,
+      "adult_use": 435323569,
+      "medical": 132060560,
+      "total": 567384115,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Adult-use cannabis pays a cannabis excise tax that was 12% until June 2025 and rises one point each July 1 (14% from July 1, 2026) until it reaches 18% in 2030, plus gross receipts tax; medical sales are exempt from the excise tax (NM Taxation and Revenue Department).",
+  "summary": "New Mexico's adult-use market opened in April 2022 and has settled at roughly $45 million to $50 million a month in combined sales. Licensees reported $47.4 million in August 2026, including $37.3 million adult-use. Combined sales were $590.3 million in 2024 and $567.4 million in 2025. Stores in border towns such as Sunland Park, Clovis and Hobbs draw heavily from Texas, where retail sales are not legal. A very large number of licensed retailers and falling prices keep revenue flat, and the excise tax is stepping up one point each year.",
+  "faq": [
+    {
+      "q": "How much cannabis does New Mexico sell a month?",
+      "a": "New Mexico licensees reported $47.4 million in cannabis sales in August 2026: $37.3 million adult-use and $10.1 million medical, per the RLD's CROP portal."
+    },
+    {
+      "q": "How much cannabis did New Mexico sell in 2025?",
+      "a": "About $567.4 million, of which $435.3 million was adult-use, based on the state's monthly figures."
+    },
+    {
+      "q": "What is New Mexico's cannabis tax rate?",
+      "a": "The cannabis excise tax is 14% from July 1, 2026, rising one point a year to 18% in 2030, plus gross receipts tax. Medical purchases are exempt from the excise tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NM RLD Cannabis Reporting Online Portal: Sales",
+      "url": "https://crop.rld.nm.gov/sales.html"
+    },
+    {
+      "name": "NM RLD Cannabis Update to ERDPC, Oct 20, 2026 (PDF)",
+      "url": "https://www.nmlegis.gov/handouts/ERDPC%20102026%20Item%205%20Regulation%20and%20Licensing%20Department%20-%20Cannabis%20Update.pdf"
+    },
+    {
+      "name": "NM Taxation and Revenue Department: Cannabis Excise Tax",
+      "url": "https://www.tax.newmexico.gov/businesses/cannabis-excise-tax/"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

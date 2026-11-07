@@ -1,0 +1,268 @@
+{
+  "id": "maryland",
+  "type": "sales",
+  "state": "Maryland",
+  "regulator": "Maryland Cannabis Administration",
+  "data_source": {
+    "name": "MCA Data Dashboard: data download (Market Sales Data, September 2026 edition)",
+    "url": "https://cannabis.maryland.gov/Pages/Data-Dashboard.aspx",
+    "notes": "Monthly retail sales by product category and customer type from the MCA dashboard download (XLSX). From August 2025 the MCA splits sales into Consumer, Patient and Caregiver; here Consumer = adult_use and Patient + Caregiver = medical. 2023 and 2024 annual totals are the MCA's December 'Year to Date Market Sales' figures; the 2025 annual figure is the sum of the monthly rows (the dashboard's 2025 year-to-date metric was not usable). Pre-tax retail sales."
+  },
+  "sales_start": "2023-07",
+  "monthly": [
+    {
+      "month": "2024-01",
+      "adult_use": 57436230,
+      "medical": 31270129,
+      "total": 88706359
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 58183657,
+      "medical": 30166532,
+      "total": 88350189
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 64396774,
+      "medical": 31559636,
+      "total": 95956410
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 62599786,
+      "medical": 29691857,
+      "total": 92291643
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 67037354,
+      "medical": 29824543,
+      "total": 96861897
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 67300459,
+      "medical": 27667691,
+      "total": 94968150
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 70435843,
+      "medical": 27481892,
+      "total": 97917735
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 73157438,
+      "medical": 27467013,
+      "total": 100624451
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 68313949,
+      "medical": 24708904,
+      "total": 93022853
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 70986922,
+      "medical": 25135204,
+      "total": 96122126
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 72679252,
+      "medical": 25044885,
+      "total": 97724137
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 73972599,
+      "medical": 24894739,
+      "total": 98867338
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 70849481,
+      "medical": 23695361,
+      "total": 94544842
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 66600509,
+      "medical": 21437435,
+      "total": 88037944
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 74872352,
+      "medical": 23128676,
+      "total": 98001028
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 74947817,
+      "medical": 22433951,
+      "total": 97381768
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 80232565,
+      "medical": 22491125,
+      "total": 102723690
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 76598348,
+      "medical": 20872515,
+      "total": 97470863
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 78640468,
+      "medical": 21371662,
+      "total": 100012130
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 79913952,
+      "medical": 21354490,
+      "total": 101268442
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 74263814,
+      "medical": 19396771,
+      "total": 93660585
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 80051450,
+      "medical": 20324206,
+      "total": 100375656
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 78592424,
+      "medical": 19402260,
+      "total": 97994684
+    },
+    {
+      "month": "2025-12",
+      "adult_use": 82509035,
+      "medical": 20137858,
+      "total": 102646893
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 79587963,
+      "medical": 19316890,
+      "total": 98904853
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 74615916,
+      "medical": 17753514,
+      "total": 92369430
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 81969632,
+      "medical": 18908824,
+      "total": 100878456
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 82006525,
+      "medical": 18754298,
+      "total": 100760823
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 86815497,
+      "medical": 18824502,
+      "total": 105639999
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 84717013,
+      "medical": 18243185,
+      "total": 102960198
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 90159524,
+      "medical": 18810215,
+      "total": 108969739
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 87380997,
+      "medical": 17860878,
+      "total": 105241875
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 84576162,
+      "medical": 16927570,
+      "total": 101503732
+    }
+  ],
+  "annual": [
+    {
+      "year": 2023,
+      "adult_use": 331803146,
+      "medical": 464470963,
+      "total": 796274109,
+      "basis": "total = MCA 'Year to Date Market Sales' for December; split = sum of monthly program rows"
+    },
+    {
+      "year": 2024,
+      "adult_use": 806500262,
+      "medical": 334913027,
+      "total": 1141413294,
+      "basis": "total = MCA 'Year to Date Market Sales' for December; split = sum of monthly program rows"
+    },
+    {
+      "year": 2025,
+      "adult_use": 918072215,
+      "medical": 256046310,
+      "total": 1174118525,
+      "basis": "sum of the official monthly figures"
+    }
+  ],
+  "tax_note": "Adult-use cannabis is subject to a 12% sales and use tax, up from 9% on July 1, 2025 (Comptroller of Maryland).",
+  "summary": "Maryland converted its medical dispensaries to adult-use sales on July 1, 2023, and the market has grown every year since. Dispensaries sold $101.5 million in September 2026, including $84.6 million to adult-use consumers. Total sales were $1.14 billion in 2024 and $1.17 billion in 2025, and January-September 2026 sales are about 5% ahead of the same period of 2025. Adult-use growth has more than offset a steady fall in medical sales. Maryland draws shoppers from Washington, D.C., Virginia and Delaware, where legal store access is limited or prices are higher.",
+  "faq": [
+    {
+      "q": "How much cannabis does Maryland sell a month?",
+      "a": "Maryland dispensaries sold $101.5 million in September 2026: $84.6 million adult-use and $16.9 million medical, according to the Maryland Cannabis Administration."
+    },
+    {
+      "q": "How much cannabis did Maryland sell in 2025?",
+      "a": "About $1.17 billion, of which $918.1 million was adult-use, based on MCA monthly data."
+    },
+    {
+      "q": "What is the cannabis tax in Maryland?",
+      "a": "Adult-use purchases carry a 12% sales and use tax, raised from 9% on July 1, 2025. Medical patients do not pay it."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Maryland Cannabis Administration Data Dashboard",
+      "url": "https://cannabis.maryland.gov/Pages/Data-Dashboard.aspx"
+    },
+    {
+      "name": "MCA Dashboard Data Download, September 2026 (XLSX)",
+      "url": "https://cannabis.maryland.gov/Documents/2026%20Data%20Dashboard/MCA%20Dashboard%20Data%20Download%20-%20SEP%202026.xlsx"
+    },
+    {
+      "name": "Comptroller of Maryland: Sales and Use Tax Alert, May 22, 2025",
+      "url": "https://www.marylandcomptroller.gov/legal-library/sut-ta-may-22-2025.html"
+    }
+  ],
+  "page_status": "complete",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}

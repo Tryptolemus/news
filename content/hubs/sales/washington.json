@@ -1,0 +1,92 @@
+{
+  "id": "washington",
+  "type": "sales",
+  "state": "Washington",
+  "regulator": "Washington State Liquor and Cannabis Board",
+  "data_source": {
+    "name": "LCB Frequently Requested Lists: Sales and Excise Tax by County (FY2018-FY2024 and FY2025 workbooks)",
+    "url": "https://lcb.wa.gov/records/frequently-requested-lists",
+    "notes": "The LCB publishes retail cannabis sales as fiscal-year (July-June) totals by county; its monthly figures are only in a Power BI dashboard we could not extract, so 'monthly' is empty. Figures are retailer total sales as reported for the 37% excise tax (retail sales only). Medical sales are not split out. Fiscal years are labelled by the year they end."
+  },
+  "sales_start": "2014-07",
+  "monthly": [],
+  "annual": [
+    {
+      "year": 2021,
+      "period": "FY2021 (Jul 2020-Jun 2021)",
+      "adult_use": null,
+      "medical": null,
+      "total": 1497078869,
+      "basis": "LCB fiscal-year retail sales workbook, statewide Total row"
+    },
+    {
+      "year": 2022,
+      "period": "FY2022 (Jul 2021-Jun 2022)",
+      "adult_use": null,
+      "medical": null,
+      "total": 1376399664,
+      "basis": "LCB fiscal-year retail sales workbook, statewide Total row"
+    },
+    {
+      "year": 2023,
+      "period": "FY2023 (Jul 2022-Jun 2023)",
+      "adult_use": null,
+      "medical": null,
+      "total": 1257812688,
+      "basis": "LCB fiscal-year retail sales workbook, statewide Total row"
+    },
+    {
+      "year": 2024,
+      "period": "FY2024 (Jul 2023-Jun 2024)",
+      "adult_use": null,
+      "medical": null,
+      "total": 1229695710,
+      "basis": "LCB fiscal-year retail sales workbook, statewide Total row"
+    },
+    {
+      "year": 2025,
+      "period": "FY2025 (Jul 2024-Jun 2025)",
+      "adult_use": null,
+      "medical": null,
+      "total": 1188173194,
+      "basis": "LCB fiscal-year retail sales workbook, statewide Total row"
+    }
+  ],
+  "tax_note": "Retail cannabis sales carry a 37% excise tax plus state and local retail sales tax; medical-endorsed retailers' sales to registered patients are exempt from the excise tax until June 30, 2029 (RCW 69.50.535; WA Department of Revenue).",
+  "summary": "Washington was one of the first two states to open adult-use stores, in July 2014, and its market has been shrinking since peaking during the pandemic. Retail sales reported to the Liquor and Cannabis Board fell from $1.50 billion in fiscal 2021 to $1.19 billion in fiscal 2025 (July 2024 to June 2025), the fourth straight annual decline. Falling flower prices, a cap on store licenses, the country's highest cannabis excise rate at 37%, and competition from cheaper Oregon stores across the Columbia River all weigh on revenue. King County, home to Seattle, accounts for the largest share of sales.",
+  "faq": [
+    {
+      "q": "How much cannabis does Washington sell a year?",
+      "a": "Licensed retailers reported $1.19 billion in sales in fiscal 2025 (July 2024 to June 2025), according to the Liquor and Cannabis Board."
+    },
+    {
+      "q": "Are Washington cannabis sales declining?",
+      "a": "Yes. Annual sales have fallen every fiscal year since the $1.50 billion peak in fiscal 2021."
+    },
+    {
+      "q": "What is Washington's cannabis tax?",
+      "a": "A 37% excise tax on retail sales, plus state and local sales tax. Qualifying patients buying at medically endorsed stores are exempt from the excise tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "LCB Frequently Requested Lists",
+      "url": "https://lcb.wa.gov/records/frequently-requested-lists"
+    },
+    {
+      "name": "LCB FY2018-FY2024 Sales and Excise Tax by County (XLSX)",
+      "url": "https://lcb.wa.gov/sites/default/files/publications/Cannabis/sales_activity/FY2018-FY2024-Sales-and-Excise-Tax-by-County-retail-sales-only.xlsx"
+    },
+    {
+      "name": "LCB FY2025 Sales and Excise Tax by County (XLSX)",
+      "url": "https://lcb.wa.gov/sites/default/files/2026-03/FY25-Sales-and%20Excise-Tax-by-County.xlsx"
+    },
+    {
+      "name": "RCW 69.50.535: Cannabis excise tax",
+      "url": "https://apps.leg.wa.gov/RCW/default.aspx?cite=69.50.535"
+    }
+  ],
+  "page_status": "partial",
+  "currency": "USD",
+  "last_verified": "2026-11-07"
+}
