@@ -1,0 +1,82 @@
+{
+  "id": "us/florida",
+  "type": "us_state",
+  "name": "Florida",
+  "abbr": "FL",
+  "tags": ["Florida"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Medical cannabis is legal for registered patients; recreational use remains illegal.",
+  "summary": "Florida voters approved a broad medical cannabis program (Amendment 2) in November 2016 with 72% of the vote, and patients buy from licensed Medical Marijuana Treatment Centers. Adult-use legalization (Amendment 3) won 56% in 2024 but fell short of the 60% needed, and a 2026 follow-up failed to qualify for the ballot after the state struck petition signatures and the Florida Supreme Court declined review in March 2026. Possession of up to 20 grams without a card remains a misdemeanor carrying up to a year in jail.",
+  "facts": {
+    "medical_since": {
+      "value": "Amendment 2 approved Nov. 8, 2016 with 72% of the vote; an earlier 2014 law allowed only low-THC cannabis.",
+      "source": "https://www.mpp.org/states/florida/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Patients need a qualifying condition, certification from a qualified Florida physician, entry in the Medical Marijuana Use Registry and a registry ID card; they buy from licensed Medical Marijuana Treatment Centers. A 2025 law requires revoking registrations of patients and caregivers convicted of certain drug trafficking or sale offenses.",
+      "source": "https://www.mpp.org/states/florida/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed, including for medical patients; a 2026 bill to permit six plants never got a committee vote.",
+      "source": "https://www.mpp.org/states/florida/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Medical-only, through licensed Medical Marijuana Treatment Centers (MMTCs). No adult-use stores.",
+      "source": "https://www.mpp.org/states/florida/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Office of Medical Marijuana Use (OMMU), part of the Florida Department of Health.",
+      "source": "https://knowthefactsmmj.com/about/",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Possessing up to 20 grams is a misdemeanor punishable by up to one year in jail and a $1,000 fine; more than 20 grams is a felony with up to five years and a $5,000 fine. Some cities and counties allow civil citations instead.",
+      "source": "https://www.mpp.org/states/florida/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Hemp-derived THC products are widely sold with light regulation; Gov. DeSantis vetoed a 2024 bill that would have banned many of them.",
+      "source": "https://www.mpp.org/states/florida/",
+      "as_of": "2026-11-07"
+    },
+    "ballot_history": {
+      "value": "Amendment 3 (2024 adult-use) won 56% but needed 60%. The 2026 Smart & Safe Florida initiative failed to qualify after signatures were struck; the Florida Supreme Court declined review in March 2026.",
+      "source": "https://www.insurancejournal.com/news/southeast/2026/03/11/861432.htm",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {"date": "2014", "event": "Compassionate Medical Cannabis Act allows low-THC cannabis", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
+    {"date": "2016-11-08", "event": "Voters approve Amendment 2 creating the full medical program", "source": "https://www.mpp.org/states/florida/"},
+    {"date": "2024", "event": "Gov. DeSantis vetoes a bill restricting hemp-derived THC products", "source": "https://www.mpp.org/states/florida/"},
+    {"date": "2024-11-05", "event": "Adult-use Amendment 3 gets 56%, short of the 60% required", "source": "https://www.mpp.org/states/florida/"},
+    {"date": "2025-07-01", "event": "SB 2514 signed, requiring registry revocation for patients convicted of certain drug offenses", "source": "https://knowthefactsmmj.com/faqs/"},
+    {"date": "2026-01", "event": "1st District Court of Appeal lets the state disqualify 2026 initiative signatures", "source": "https://www.insurancejournal.com/news/southeast/2026/03/11/861432.htm"},
+    {"date": "2026-03", "event": "Florida Supreme Court declines review; adult-use measure stays off the 2026 ballot", "source": "https://www.insurancejournal.com/news/southeast/2026/03/11/861432.htm"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Florida?", "a": "Only for registered medical patients. Recreational use is illegal; a 2024 legalization amendment fell short of the 60% needed, and a 2026 attempt did not make the ballot."},
+    {"q": "How do you get a medical marijuana card in Florida?", "a": "See a qualified Florida physician who certifies a qualifying condition, get entered in the state's Medical Marijuana Use Registry, then apply for a registry ID card through the Office of Medical Marijuana Use."},
+    {"q": "What is the penalty for weed possession in Florida?", "a": "Up to 20 grams is a misdemeanor with up to a year in jail and a $1,000 fine. More than 20 grams is a felony. Some localities issue civil citations instead."},
+    {"q": "Can you grow cannabis at home in Florida?", "a": "No. Home cultivation is not allowed, even for medical patients."},
+    {"q": "Will Florida vote on recreational marijuana in 2026?", "a": "No. The 2026 initiative failed to qualify after the state disqualified signatures and the Florida Supreme Court declined to hear the campaign's challenge in March 2026."}
+  ],
+  "sources": [
+    {"name": "Florida Office of Medical Marijuana Use - About", "url": "https://knowthefactsmmj.com/about/"},
+    {"name": "Florida Office of Medical Marijuana Use", "url": "https://knowthefactsmmj.com/faqs/"},
+    {"name": "NCSL - State Medical Cannabis Laws", "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
+    {"name": "Marijuana Policy Project - Florida", "url": "https://www.mpp.org/states/florida/"},
+    {"name": "Insurance Journal / News Service of Florida - recreational marijuana effort fizzles (Mar. 2026)", "url": "https://www.insurancejournal.com/news/southeast/2026/03/11/861432.htm"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

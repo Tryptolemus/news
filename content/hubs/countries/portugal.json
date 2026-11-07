@@ -1,0 +1,36 @@
+{
+  "id": "country/portugal",
+  "type": "country",
+  "name": "Portugal",
+  "tags": ["Portugal"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Cannabis is not legal in Portugal, but possessing a personal-use amount has been decriminalised since 2001, and medical cannabis is sold in pharmacies.",
+  "summary": "Portugal decriminalised possession of all drugs for personal use in 2001, treating amounts up to a 10-day supply (25 g of herbal cannabis or 5 g of hashish) as an administrative matter handled by dissuasion commissions. A 2023 law change stopped treating larger amounts as automatic proof of trafficking. Selling cannabis remains a crime. Medical cannabis was legalised in July 2018 and is dispensed through pharmacies.",
+  "facts": {
+    "possession_limit": {"value": "Up to a 10-day supply, defined as 25 g of herbal cannabis or 5 g of hashish, is decriminalised; a first offence typically carries no penalty.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Portugal", "as_of": "2026-11-07"},
+    "penalties": {"value": "People found with personal amounts may be sent to a Dissuasion Commission, which can refer them to treatment or impose minor administrative sanctions; selling or distributing is a crime carrying possible prison time.", "source": "https://portugal.com/history-and-culture/can-i-smoke-weed-in-portugal-portuguese-drug-laws-explained", "as_of": "2026-11-07"},
+    "public_use": {"value": "Using cannabis in public remains illegal and can be fined.", "source": "https://portugal.com/history-and-culture/can-i-smoke-weed-in-portugal-portuguese-drug-laws-explained", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No legal framework for recreational sales; shops sell CBD and HHC products, not THC cannabis.", "source": "https://portugal.com/history-and-culture/can-i-smoke-weed-in-portugal-portuguese-drug-laws-explained", "as_of": "2026-11-07"},
+    "medical_since": {"value": "July 2018, when legislation allowing medical use and pharmacy dispensing was signed.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Portugal", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Personal cultivation, even for medical use, remains illegal.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Portugal", "as_of": "2026-11-07"},
+    "tourists": {"value": "The same decriminalisation rules apply to visitors as to residents: small amounts can lead to a Dissuasion Commission referral, public use can be fined, and there is no legal place to buy.", "source": "https://portugal.com/history-and-culture/can-i-smoke-weed-in-portugal-portuguese-drug-laws-explained", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2001", "event": "Possession of all drugs for personal use decriminalised", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Portugal"},
+    {"date": "2018-07", "event": "Medical cannabis legislation signed, allowing pharmacy dispensing", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Portugal"},
+    {"date": "2023-07", "event": "Parliament approves law ending the presumption that amounts above a 10-day supply mean trafficking", "source": "https://businessofcannabis.com/portugal-moves-to-broaden-scope-of-drug-decriminalisation/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Portugal?", "a": "No, but possessing up to 25 g of cannabis (a 10-day supply) is decriminalised and handled as an administrative matter rather than a crime."},
+    {"q": "Can tourists smoke weed in Portugal?", "a": "Visitors are treated like residents: small amounts are not a crime, but public use can be fined and there is no legal way to buy."},
+    {"q": "Is medical cannabis legal in Portugal?", "a": "Yes. Medical cannabis was legalised in 2018 and is dispensed by pharmacies with a prescription."}
+  ],
+  "sources": [
+    {"name": "Wikipedia – Cannabis in Portugal", "url": "https://en.wikipedia.org/wiki/Cannabis_in_Portugal"},
+    {"name": "Portugal.com", "url": "https://portugal.com/history-and-culture/can-i-smoke-weed-in-portugal-portuguese-drug-laws-explained"},
+    {"name": "Business of Cannabis", "url": "https://businessofcannabis.com/portugal-moves-to-broaden-scope-of-drug-decriminalisation/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

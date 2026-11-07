@@ -206,10 +206,20 @@ def coverage(h, arts, n=8):
     return items[:n]
 
 
+EXTRA_LABELS = {"medical_product_forms": "Medical product forms", "license_caps": "License caps", "ballot_history": "Ballot history",
+                "employment": "Employment", "expungement": "Expungement", "unlicensed_shops": "Unlicensed shops", "dui": "Driving",
+                "social_use": "Social use", "delivery": "Delivery", "clubs": "Cannabis clubs", "imports": "Imports and travel"}
+
+
 def facts_table(h):
     rows = []
-    for k, label in FACT_LABELS:
-        f = (h.get("facts") or {}).get(k)
+    facts = h.get("facts") or {}
+    known = {k for k, _ in FACT_LABELS}
+    order = list(FACT_LABELS) + [(k, EXTRA_LABELS.get(k, k.replace("_", " ").capitalize())) for k in facts if k not in known]
+    for k, label in order:
+        f = facts.get(k)
+        if not isinstance(f, dict):
+            continue
         if not f or not f.get("value"):
             continue
         rows.append(f'<tr><th scope="row">{label}</th><td>{escape(str(f["value"]))}'

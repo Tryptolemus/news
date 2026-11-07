@@ -1,0 +1,39 @@
+{
+  "id": "country/romania",
+  "type": "country",
+  "name": "Romania",
+  "tags": ["Romania"],
+  "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},
+  "headline_status": "Cannabis is illegal in Romania, possession for personal use can bring prison, and medical cannabis exists on paper but is not available in practice.",
+  "summary": "Possessing cannabis for personal use in Romania is a criminal offence punishable by three months to two years in prison or a criminal fine, and convictions for personal possession have risen sharply in the past decade. A 2013 amendment allows medical use of cannabis derivatives with up to 0.2% THC, but no licences have been issued and patients have no working prescription route. In October 2026 three senators filed a bill to replace prison with fines for personal-use possession, which prosecutors at DIICOT have opposed.",
+  "facts": {
+    "penalties": {"value": "Personal-use possession is punishable by three months to two years in prison or a criminal fine.", "source": "https://www.g4media.ro/decriminalization-of-cannabis-possession-for-own-consumption-up-to-3-grams-and-replacement-with-a-fine-as-in-some-eu-countries-and-thailand-reper-bill.html", "as_of": "2026-11-07"},
+    "medical_since": {"value": "2013 amendment to Law 339/2005 allows medical cannabis derivatives with up to 0.2% THC, but the framework has never been put into operation.", "source": "https://prohibitionpartners.com/2025/10/05/romania-medical-cannabis-market-overview-2025/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "No active prescribing pathway or reimbursement; no licences for cultivation or manufacture have been granted. Sativex is available only by special import authorisation.", "source": "https://prohibitionpartners.com/2025/10/05/romania-medical-cannabis-market-overview-2025/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None.", "source": "https://prohibitionpartners.com/2025/10/05/romania-medical-cannabis-market-overview-2025/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount; there is no threshold separating personal use from trafficking in current law or the 2026 reform bill.", "source": "https://www.euronews.ro/articole/posesia-de-droguri-pentru-consum-propriu-ar-putea-fi-dezincriminata-in-romania-ce", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors are subject to the same criminal penalties as residents, and there is no legal way to buy or use cannabis.", "source": "https://www.g4media.ro/decriminalization-of-cannabis-possession-for-own-consumption-up-to-3-grams-and-replacement-with-a-fine-as-in-some-eu-countries-and-thailand-reper-bill.html", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2013", "event": "Law 339/2005 amended to allow medical cannabis derivatives up to 0.2% THC", "source": "https://prohibitionpartners.com/2025/10/05/romania-medical-cannabis-market-overview-2025/"},
+    {"date": "2023-05-08", "event": "REPER MPs table bill to replace prison with fines for possessing up to 3 g of cannabis", "source": "https://www.g4media.ro/decriminalization-of-cannabis-possession-for-own-consumption-up-to-3-grams-and-replacement-with-a-fine-as-in-some-eu-countries-and-thailand-reper-bill.html"},
+    {"date": "2026-10-08", "event": "Senators Stoiciu, Ghinea and Fenechiu file bill to decriminalise personal drug possession", "source": "https://www.euronews.ro/articole/posesia-de-droguri-pentru-consum-propriu-ar-putea-fi-dezincriminata-in-romania-ce"},
+    {"date": "2026-10-19", "event": "DIICOT publishes opinion rejecting the decriminalisation bill", "source": "https://www.stiripesurse.ro/diicot-harshly-criticizes-decriminalization-of-drug-possession-it-opens-ways-for-traffickers-to-evade-criminal-liability_3929632"}
+  ],
+  "pending": [
+    {"item": "Senate bill to replace prison with administrative fines (1,000–3,000 lei) for possessing, growing or preparing drugs solely for personal use, and to create supervised consumption spaces.", "status": "Filed in the Senate in October 2026; opposed by DIICOT.", "source": "https://www.stiripesurse.ro/diicot-harshly-criticizes-decriminalization-of-drug-possession-it-opens-ways-for-traffickers-to-evade-criminal-liability_3929632"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Romania?", "a": "No. Possessing cannabis even for personal use is a crime punishable by three months to two years in prison or a fine."},
+    {"q": "Is medical cannabis legal in Romania?", "a": "On paper, low-THC cannabis derivatives have been allowed since 2013, but no licences have been issued and patients cannot get prescriptions in practice."},
+    {"q": "Is Romania decriminalising cannabis?", "a": "A Senate bill filed in October 2026 would replace prison with fines for personal-use possession, but it has not passed and prosecutors oppose it."}
+  ],
+  "sources": [
+    {"name": "G4Media", "url": "https://www.g4media.ro/decriminalization-of-cannabis-possession-for-own-consumption-up-to-3-grams-and-replacement-with-a-fine-as-in-some-eu-countries-and-thailand-reper-bill.html"},
+    {"name": "Euronews Romania", "url": "https://www.euronews.ro/articole/posesia-de-droguri-pentru-consum-propriu-ar-putea-fi-dezincriminata-in-romania-ce"},
+    {"name": "Știri pe surse", "url": "https://www.stiripesurse.ro/diicot-harshly-criticizes-decriminalization-of-drug-possession-it-opens-ways-for-traffickers-to-evade-criminal-liability_3929632"},
+    {"name": "Prohibition Partners", "url": "https://prohibitionpartners.com/2025/10/05/romania-medical-cannabis-market-overview-2025/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
