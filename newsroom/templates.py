@@ -32,7 +32,8 @@ ORG = {"@type": "NewsMediaOrganization", "@id": f"{SITE}/#org", "name": NAME, "u
        "email": "support@metaflora.xyz",
        "parentOrganization": {"@type": "Organization", "name": "MetaFlora", "url": "https://metaflora.xyz"},
        "sameAs": [X_URL, "https://t.me/MetaFloraLabs", "https://www.youtube.com/@metafloralabs", "https://meta-flora.medium.com/"],
-       "publishingPrinciples": f"{SITE}/how-we-report/", "correctionsPolicy": f"{SITE}/how-we-report/#corrections",
+       "publishingPrinciples": f"{SITE}/how-we-report/", "correctionsPolicy": f"{SITE}/corrections/", "masthead": f"{SITE}/about/",
+       "verificationFactCheckingPolicy": f"{SITE}/how-we-report/#checks",
        "ownershipFundingInfo": f"{SITE}/how-we-report/#ownership", "actionableFeedbackPolicy": f"{SITE}/how-we-report/#contact"}
 PUBLISHER = {"@type": "NewsMediaOrganization", "@id": f"{SITE}/#org", "name": NAME,
              "logo": {"@type": "ImageObject", "url": LOGO, "width": 512, "height": 512}}
@@ -134,7 +135,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
   <div class="foot-top">
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
-      <a href="/how-we-report/">How we report</a><a href="/how-we-report/#corrections">Corrections</a><a href="/advertise/">Advertise</a>
+      <a href="/about/">About</a><a href="/how-we-report/">How we report</a><a href="/corrections/">Corrections</a><a href="/advertise/">Advertise</a>
       <a href="/stocks/">Cannabis stocks</a><a href="/legal/us/">Cannabis laws by state</a><a href="/explainers/">Explainers</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
@@ -538,10 +539,12 @@ def build_how():
 <div class="story-col"><div class="story-body">
 <h2>How a story is made</h2>
 <p>Twice a day our system reviews reporting from named outlets, regulators and public records. It writes original summaries in MetaFlora's own words and links every source it used at the end of each article.</p>
+<h2 id="checks">How every story is checked</h2>
+<p>Stories are written and checked by automated systems, not reviewed by a human editor before publication. Before anything goes live, the build rejects any story that is missing a linked source, and every figure, date and quote must come from a source the newsroom actually opened. Legal reference pages (state laws, country laws and federal explainers) show the source and the date each fact was last verified, and a change to whether cannabis is legal somewhere is only made on the strength of a primary source such as a statute, a regulator, a court or the Federal Register. Corrections are made openly and listed on our <a href="/corrections/">corrections page</a>.</p>
 <h2>Our rules</h2>
 <p>We do not publish anonymous claims, invent quotes or report a fact we cannot attribute to a source. Figures come from the sources we link. Images marked "Photo illustration: AI-generated" are created for illustration and never depict real, identifiable people.</p>
 <h2 id="corrections">Corrections</h2>
-<p>When we get something wrong we fix it and add a dated correction note to the article. To report an error, email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> or message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X with the article link.</p>
+<p>When we get something wrong we fix it, add a dated correction note to the article and list it on our <a href="/corrections/">corrections page</a>. To report an error, email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> or message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X with the article link.</p>
 <h2 id="ownership">Ownership and conflicts of interest</h2>
 <p>MetaFlora News is owned and published by <a href="https://metaflora.xyz" target="_blank" rel="noopener">MetaFlora</a>, which builds a cannabis platform, a seller marketplace and dispensary loyalty tools. Many ads on this site are MetaFlora's own; they are always labelled "Advertisement · MetaFlora". When a story covers a company or market where MetaFlora does business, that commercial interest does not decide whether or how we cover it, and we say so in the story when it is directly relevant.</p>
 <h2>Advertising</h2>
@@ -556,6 +559,41 @@ def build_how():
 </div></div></article>"""
     ctx["write"]("how-we-report/index.html", page("How we report", body, path="/how-we-report/",
                                                   desc="How MetaFlora News works: an AI newsroom with named sources, labelled ads, corrections, ownership disclosure and contact details."))
+
+
+def build_about(arts):
+    n = len(arts)
+    body = f"""<article class="story static">
+<header class="story-head"><h1>About MetaFlora News</h1><p class="dek">Independent-minded cannabis industry news, laws and market data, published twice a day by MetaFlora.</p></header>
+<div class="story-col"><div class="story-body">
+<h2>What we cover</h2>
+<p>MetaFlora News reports on the business, law and science of cannabis: federal policy such as rescheduling, Section 280E and the hemp THC rules; state markets, licensing and ballot measures; Europe and other international markets; cannabis stocks and company results; and research. A morning edition publishes around 06:00 and an evening edition around 18:00 (Bucharest time), and the newsroom has published {n} stories so far.</p>
+<h2>Reference you can rely on</h2>
+<p>Alongside the news we maintain the <a href="/legal/us/">MetaFlora Legalization Tracker</a> for every US state, <a href="/legal/world/">country cannabis laws</a>, <a href="/explainers/">federal explainers</a>, a <a href="/glossary/">cannabis glossary</a> and <a href="/stocks/">cannabis stock pages</a>. Each fact shows its source and the date it was last verified, and the pages update as the newsroom reports changes.</p>
+<h2>Who we are</h2>
+<p>Stories are bylined to the MetaFlora News Desk, our AI newsroom. It works from named public sources and links every one of them; <a href="/how-we-report/">How we report</a> explains exactly how stories are made and checked, and what we do when we get something wrong.</p>
+<h2>Publisher</h2>
+<p>MetaFlora News is owned and published by <a href="https://metaflora.xyz" target="_blank" rel="noopener">MetaFlora</a>. MetaFlora's commercial interests are disclosed on <a href="/how-we-report/#ownership">How we report</a>, and its ads on this site are always labelled.</p>
+<h2>Contact</h2>
+<p>Corrections, tips and questions: <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> · <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X. Advertising: see <a href="/advertise/">Advertise</a>.</p>
+</div></div></article>"""
+    ld = {"@context": "https://schema.org", "@type": "AboutPage", "name": "About MetaFlora News", "url": SITE + "/about/", "mainEntity": {"@id": f"{SITE}/#org"}}
+    ctx["write"]("about/index.html", page("About MetaFlora News", body, path="/about/",
+                 desc="About MetaFlora News: cannabis industry news, laws and market data published twice a day by MetaFlora, with every source linked.",
+                 extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
+
+
+def build_corrections(arts):
+    rows = []
+    for a in sorted(arts, key=lambda a: a.get("updated") or a["published"], reverse=True):
+        for c in a.get("corrections") or []:
+            rows.append(f'<li><time>{escape(c["date"])}</time><a class="li-title" href="{a["_path"]}">{escape(a["headline"])}</a><p>{escape(c["text"])}</p></li>')
+    inner = f'<ol class="corr-log">{"".join(rows)}</ol>' if rows else '<p class="empty">No corrections yet.</p>'
+    body = f"""<div class="page-h"><h1>Corrections</h1><p class="meta">{len(rows)} {"correction" if len(rows) == 1 else "corrections"}</p></div>
+<p class="dek corr-intro">When we get something wrong, we fix the story, add a dated note to it and list it here. To report an error, email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> with the article link.</p>
+{inner}"""
+    ctx["write"]("corrections/index.html", page("Corrections", body, path="/corrections/",
+                 desc="Every correction MetaFlora News has made, newest first, with a link to the corrected story and what changed."))
 
 
 def build_advertise():

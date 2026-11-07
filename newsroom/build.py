@@ -133,7 +133,8 @@ def build_feeds(arts):
     static_mod = "2026-11-07"  # how-we-report / advertise: bump when their copy changes
     sec_mod = {c: max((a["_dt"] for a in arts if a["cat"] == c), default=arts[0]["_dt"]).isoformat() for c in CATS}
     pages = [u(f"{SITE}/", newest), u(f"{SITE}/archive/", newest), u(f"{SITE}/topic/", newest),
-             u(f"{SITE}/how-we-report/", static_mod), u(f"{SITE}/advertise/", static_mod)]
+             u(f"{SITE}/how-we-report/", static_mod), u(f"{SITE}/advertise/", static_mod),
+             u(f"{SITE}/about/", static_mod), u(f"{SITE}/corrections/", max([a.get("updated") or a["published"] for a in arts if a.get("corrections")] or [static_mod]))]
     pages += [u(f"{SITE}/section/{c.lower()}/", sec_mod[c]) for c in CATS if any(a["cat"] == c for a in arts)]
     pages += [u(f"{SITE}{p}", mod) for p, mod in HUB_URLS]
     pages += [u(f"{SITE}/topic/{T.slug(t)}/", max(a["_dt"] for a in v).isoformat()) for t, v in TOPICS.items() if len(v) >= T.HUB_MIN]
@@ -275,7 +276,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers", "glossary"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers", "glossary", "about", "corrections"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -307,6 +308,8 @@ def main():
     import stocks
     STOCKS[:] = stocks.build_stocks(arts, T.ctx["market"])
     T.build_how()
+    T.build_about(arts)
+    T.build_corrections(arts)
     T.build_advertise()
     build_feeds(arts)
     import notify_site

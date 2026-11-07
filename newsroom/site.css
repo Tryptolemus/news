@@ -634,3 +634,10 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .gloss dt a{font-family:var(--serif);font-weight:600;font-size:18px;color:var(--fg)}
 .gloss dd{font-size:16px;color:var(--dek);padding-left:16px}
 @media (max-width:760px){.gloss{grid-template-columns:1fr}.gloss dd{padding-left:0;border-top:0;padding-top:0}}
+
+.corr-intro{max-width:66ch;margin-bottom:24px}
+.corr-intro a{text-decoration:underline}
+.corr-log{list-style:none;margin:0;padding:0;max-width:760px}
+.corr-log li{display:grid;gap:4px;padding:16px 0;border-bottom:1px solid var(--rule)}
+.corr-log .li-title{font-family:var(--serif);font-weight:500;font-size:19px;color:var(--fg)}
+.corr-log p{font-size:16px;color:var(--dek);line-height:1.5}
