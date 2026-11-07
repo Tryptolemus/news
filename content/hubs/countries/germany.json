@@ -1,0 +1,143 @@
+{
+  "id": "country/germany",
+  "type": "country",
+  "name": "Germany",
+  "tags": [
+    "Germany"
+  ],
+  "legal": {
+    "adult_use": "legal_no_sales",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Adults 18+ may possess and grow limited amounts of cannabis, and licensed non-profit clubs may supply members, but there are no commercial shops.",
+  "summary": "Germany's Cannabis Act took effect on 1 April 2024, allowing adults to carry up to 25 g, keep up to 50 g at home and grow three plants, with members-only cultivation associations allowed from 1 July 2024. Medical cannabis is regulated separately under the Medical Cannabis Act and is prescribed through pharmacies. Since 29 July 2026 statutory health insurance no longer pays for cannabis flowers, and a government bill adopted by the cabinet in October 2025 to require in-person doctor visits and ban mail-order of flowers is still before parliament.",
+  "facts": {
+    "adult_use_since": {
+      "value": "1 April 2024 (possession and home grow); cultivation associations could accept members from 1 July 2024.",
+      "source": "https://mjbizdaily.com/new-german-law-legalizing-adult-use-cannabis-now-in-force/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Up to 25 g of dried cannabis in public and up to 50 g at one's residence.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to three plants at the place of residence; requires residence or habitual stay in Germany of at least six months.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "18. Club members aged 18 to 20 are limited to 30 g a month with no more than 10% THC.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Banned near minors, in pedestrian zones from 7:00 to 20:00, and within sight (100 m of the entrance) of schools, youth facilities, playgrounds, public sports facilities and clubs; fines up to EUR 30,000.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "No commercial retail. Licensed non-profit cultivation associations (max 500 members) may hand out up to 25 g a day and 50 g a month per member.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Prescribed by doctors and dispensed in pharmacies under the separate Medical Cannabis Act; no narcotics prescription form is needed. Since 29 July 2026 statutory insurance no longer reimburses flowers, though standardised extracts, dronabinol and nabilone remain covered.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Federal Ministry of Health; medical cultivation is licensed by the Federal Institute for Drugs and Medical Devices (BfArM); club permits are issued by state authorities.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Breaking public-consumption rules can bring administrative fines of up to EUR 30,000; driving limit is 3.5 ng/ml THC (in force since 22 August 2024).",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Visitors 18+ may possess up to 25 g, but there is no legal way for them to buy: club membership and home growing both require at least six months' residence in Germany.",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2024-04-01",
+      "event": "Cannabis Act takes effect: adult possession and home growing legal",
+      "source": "https://mjbizdaily.com/new-german-law-legalizing-adult-use-cannabis-now-in-force/"
+    },
+    {
+      "date": "2024-07-01",
+      "event": "Cannabis cultivation associations may begin accepting members",
+      "source": "https://mjbizdaily.com/new-german-law-legalizing-adult-use-cannabis-now-in-force/"
+    },
+    {
+      "date": "2024-08-22",
+      "event": "3.5 ng/ml THC driving limit takes effect",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    },
+    {
+      "date": "2025-10-08",
+      "event": "Federal cabinet approves Medical Cannabis Act amendment requiring in-person consultations and banning mail-order of flowers",
+      "source": "https://www.pharmazeutische-zeitung.de/kabinett-beschliesst-cannabis-versandverbot-159473/"
+    },
+    {
+      "date": "2026-07-29",
+      "event": "Statutory health insurance stops reimbursing cannabis flowers",
+      "source": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    }
+  ],
+  "pending": [
+    {
+      "item": "Medical Cannabis Act amendment: first prescription of flowers only after in-person consultation, in-person contact at least once every four quarters, and a ban on mailing flowers to patients.",
+      "status": "Government bill approved by cabinet October 2025; still in the parliamentary process as of autumn 2026.",
+      "source": "https://www.gvw.com/en/news/blog/detail/medical-cannabis-in-transition-the-key-changes-introduced-by-the-amendment-to-the-medcang"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Germany?",
+      "a": "Yes, for adults 18 and over within limits: 25 g in public, 50 g at home and three plants. There are no commercial shops."
+    },
+    {
+      "q": "Can tourists buy cannabis in Germany?",
+      "a": "Not legally. The only legal supply routes are home growing and club membership, and both require at least six months' residence in Germany."
+    },
+    {
+      "q": "Where can you smoke cannabis in Germany?",
+      "a": "Not near minors, not in pedestrian zones between 7am and 8pm, and not within sight of schools, playgrounds, youth and sports facilities or cannabis clubs."
+    },
+    {
+      "q": "Can I still get medical cannabis via telemedicine in Germany?",
+      "a": "Currently yes, but a pending government bill would require an in-person visit before flowers are first prescribed and would ban mail-order delivery of flowers."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Federal Ministry of Health – Cannabis Act FAQ",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    },
+    {
+      "name": "Federal Ministry of Health – Cannabis Act",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/cannabis/cannabisgesetz"
+    },
+    {
+      "name": "MJBizDaily",
+      "url": "https://mjbizdaily.com/new-german-law-legalizing-adult-use-cannabis-now-in-force/"
+    },
+    {
+      "name": "Pharmazeutische Zeitung",
+      "url": "https://www.pharmazeutische-zeitung.de/kabinett-beschliesst-cannabis-versandverbot-159473/"
+    },
+    {
+      "name": "Graf von Westphalen",
+      "url": "https://www.gvw.com/en/news/blog/detail/medical-cannabis-in-transition-the-key-changes-introduced-by-the-amendment-to-the-medcang"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

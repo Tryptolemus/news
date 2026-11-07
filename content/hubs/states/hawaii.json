@@ -1,0 +1,44 @@
+{
+  "id": "us/hawaii",
+  "type": "us_state",
+  "name": "Hawaii",
+  "abbr": "HI",
+  "tags": ["Hawaii"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
+  "headline_status": "Medical cannabis is legal in Hawaii; recreational use is not, though possession of 3 grams or less is only a $130 civil fine.",
+  "summary": "Hawaii legalized medical cannabis through the legislature in 2000 and has licensed medical dispensaries since the 2015 Act 241 framework took effect. Adult-use remains illegal: House leaders declined to advance legalization bills in the 2026 session. In July 2025 Gov. Josh Green signed HB 302, letting clinicians recommend cannabis for any patient whose expected benefit outweighs the risks, including via telehealth.",
+  "facts": {
+    "medical_since": {"value": "2000, by act of the legislature (the first state to legalize medical cannabis legislatively).", "source": "https://norml.org/news/2025/07/10/hawaii-governor-signs-medical-cannabis-expansion-bill-despite-privacy-concerns/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Registered patients and caregivers together may hold up to 4 ounces of usable cannabis and cannabis products at a time. Adults without a card face a civil fine for 3 grams or less.", "source": "https://www.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0329/HRS_0329-0121.htm", "as_of": "2026-11-07"},
+    "medical_program": {"value": "A Hawaii physician or APRN certifies the patient, who then registers online with the Department of Health for a '329' card. Since HB 302 (2025), certification can cover any condition where benefits likely outweigh risks, and telehealth visits are allowed.", "source": "https://health.hawaii.gov/medicalcannabis/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Only state-licensed medical dispensaries may sell, and only to patients showing a valid 329 card plus a driver license or passport. There are no adult-use stores.", "source": "https://health.hawaii.gov/medicalcannabis/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Hawaii Department of Health, Office of Medical Cannabis Control and Regulation (OMCCR).", "source": "https://health.hawaii.gov/medicalcannabis/", "as_of": "2026-11-07"},
+    "penalties": {"value": "Possession of 3 grams or less is a civil violation carrying a $130 fine (since January 11, 2020). Larger amounts remain criminal.", "source": "https://www.civilbeat.org/beat/hawaiis-pot-decriminalization-takes-effect-jan-11/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Under HB 1482 (effective January 1, 2026), hemp product retailers and distributors must register with the Department of Health, and hemp tinctures may be sold only to people 21 and older.", "source": "https://themarijuanaherald.com/2025/07/hawaii-governor-signs-law-requiring-hemp-retailers-to-register-with-state-sets-age-restriction-on-tinctures/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2000", "event": "Legislature legalizes medical cannabis", "source": "https://norml.org/news/2025/07/10/hawaii-governor-signs-medical-cannabis-expansion-bill-despite-privacy-concerns/"},
+    {"date": "2015-07", "event": "Act 241 creates the medical dispensary system (HRS Chapter 329D)", "source": "https://health.hawaii.gov/medicalcannabis/"},
+    {"date": "2020-01-11", "event": "Decriminalization of 3 grams or less ($130 fine) takes effect under Act 273", "source": "https://www.civilbeat.org/beat/hawaiis-pot-decriminalization-takes-effect-jan-11/"},
+    {"date": "2025-07", "event": "Gov. Green signs HB 302 opening medical access to any condition and telehealth; HB 1482 hemp retailer registration signed July 2", "source": "https://norml.org/news/2025/07/10/hawaii-governor-signs-medical-cannabis-expansion-bill-despite-privacy-concerns/"},
+    {"date": "2026-01-01", "event": "Hemp retailer registration and 21+ tincture rule take effect", "source": "https://themarijuanaherald.com/2025/07/hawaii-governor-signs-law-requiring-hemp-retailers-to-register-with-state-sets-age-restriction-on-tinctures/"},
+    {"date": "2026-02", "event": "House leaders say legalization bills will not advance in the 2026 session", "source": "https://www.marijuanamoment.net/hawaii-senators-approve-limited-marijuana-legalization-bill-after-house-punts-on-reform-for-2026/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Hawaii?", "a": "Only for registered medical patients. Recreational cannabis is still illegal, though having 3 grams or less is a civil violation with a $130 fine rather than a crime."},
+    {"q": "How do I get a medical cannabis card in Hawaii?", "a": "Get a certification from a Hawaii physician or APRN (telehealth is allowed), then apply online with the Department of Health for a 329 registration card."},
+    {"q": "How much can a Hawaii medical patient possess?", "a": "A patient and caregiver together may hold up to 4 ounces of usable cannabis and cannabis products at one time."},
+    {"q": "Will Hawaii legalize recreational marijuana in 2026?", "a": "No. House leaders said in February 2026 that legalization bills lacked the support to move this session."}
+  ],
+  "sources": [
+    {"name": "Hawaii Department of Health – OMCCR", "url": "https://health.hawaii.gov/medicalcannabis/"},
+    {"name": "Hawaii Revised Statutes §329-121", "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0329/HRS_0329-0121.htm"},
+    {"name": "NORML", "url": "https://norml.org/news/2025/07/10/hawaii-governor-signs-medical-cannabis-expansion-bill-despite-privacy-concerns/"},
+    {"name": "Honolulu Civil Beat", "url": "https://www.civilbeat.org/beat/hawaiis-pot-decriminalization-takes-effect-jan-11/"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/hawaii-senators-approve-limited-marijuana-legalization-bill-after-house-punts-on-reform-for-2026/"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2025/07/hawaii-governor-signs-law-requiring-hemp-retailers-to-register-with-state-sets-age-restriction-on-tinctures/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

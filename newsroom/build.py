@@ -106,6 +106,7 @@ def photo_path(a):
 
 page = T.page
 TOPICS = {}
+HUB_URLS = []
 INDEXNOW_KEY = "6f1c2b9e8a4d4f0b9c7e3a5d1b2f8e40"  # public by design: IndexNow verifies site ownership with this file
 STOCKS = []
 
@@ -114,10 +115,12 @@ def build_feeds(arts):
     items = []
     for a in arts[:60]:
         items.append(f"""<item><title>{escape(a['headline'])}</title><link>{SITE}{a['_path']}</link><guid>{SITE}{a['_path']}</guid>
-<pubDate>{format_datetime(a['_dt'])}</pubDate><category>{a['cat']}</category><description>{escape(a['dek'])}</description></item>""")
+<pubDate>{format_datetime(a['_dt'])}</pubDate><category>{a['cat']}</category><description>{escape(a['dek'])}</description>
+<dc:creator>MetaFlora News Desk</dc:creator><media:content url="{SITE}/og/{a['id']}.png" medium="image" width="1200" height="630"/></item>""")
     now = format_datetime(datetime.now(timezone.utc))
     write("feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>{NAME}</title><link>{SITE}/</link><description>{escape(TAGLINE)}</description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>{NAME}</title><link>{SITE}/</link><description>{escape(TAGLINE)}</description>
+<language>en</language><atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>{now}</lastBuildDate>{''.join(items)}</channel></rss>""")
     for c in CATS:
         its = [a for a in arts if a["cat"] == c][:40]
@@ -127,13 +130,16 @@ def build_feeds(arts):
     newest = arts[0]["_dt"].isoformat()
     def u(loc, mod):
         return f"<url><loc>{loc}</loc><lastmod>{mod}</lastmod></url>"
+    static_mod = "2026-11-07"  # how-we-report / advertise: bump when their copy changes
+    sec_mod = {c: max((a["_dt"] for a in arts if a["cat"] == c), default=arts[0]["_dt"]).isoformat() for c in CATS}
     pages = [u(f"{SITE}/", newest), u(f"{SITE}/archive/", newest), u(f"{SITE}/topic/", newest),
-             u(f"{SITE}/how-we-report/", newest), u(f"{SITE}/advertise/", newest)]
-    pages += [u(f"{SITE}/section/{c.lower()}/", newest) for c in CATS]
+             u(f"{SITE}/how-we-report/", static_mod), u(f"{SITE}/advertise/", static_mod)]
+    pages += [u(f"{SITE}/section/{c.lower()}/", sec_mod[c]) for c in CATS if any(a["cat"] == c for a in arts)]
+    pages += [u(f"{SITE}{p}", mod) for p, mod in HUB_URLS]
     pages += [u(f"{SITE}/topic/{T.slug(t)}/", max(a["_dt"] for a in v).isoformat()) for t, v in TOPICS.items() if len(v) >= T.HUB_MIN]
     pages += [u(f"{SITE}{p}", mod) for p, mod in STOCKS]
     months = sorted({a["edition"][:7] for a in arts})
-    pages += [u(f"{SITE}/archive/{m.replace('-', '/')}/", newest) for m in months]
+    pages += [u(f"{SITE}/archive/{m.replace('-', '/')}/", max(a["_dt"] for a in arts if a["edition"][:7] == m).isoformat()) for m in months]
     ns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
     write("sitemap-pages.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns}>{"".join(pages)}</urlset>')
     # every article ever published, newest first (split at 40k URLs per file)
@@ -144,7 +150,7 @@ def build_feeds(arts):
     # Google News sitemap: articles from the last 48 hours
     from datetime import timedelta
     cutoff = datetime.now(timezone.utc) - timedelta(hours=48)
-    recent = [a for a in arts if a["_dt"] >= cutoff] or arts[:9]
+    recent = [a for a in arts if a["_dt"] >= cutoff][:1000]
     news = "".join(f'<url><loc>{SITE}{a["_path"]}</loc><news:news><news:publication><news:name>{NAME}</news:name><news:language>en</news:language>'
                    f'</news:publication><news:publication_date>{a["published"]}</news:publication_date><news:title>{escape(a["headline"])}</news:title>'
                    f'</news:news></url>' for a in recent)
@@ -269,7 +275,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin"):
+    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -281,6 +287,8 @@ def main():
         shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
     install_fonts()
     T.ctx.update(photo_path=photo_path, write=write, out=OUT, edition_label=edition_label)
+    import hubs
+    hubs.load()
     import market
     if media:
         build_media(arts, eds)
@@ -295,6 +303,7 @@ def main():
     T.build_archive(eds)
     global TOPICS
     TOPICS = T.build_topics(arts)
+    HUB_URLS[:] = hubs.build(arts)
     import stocks
     STOCKS[:] = stocks.build_stocks(arts, T.ctx["market"])
     T.build_how()

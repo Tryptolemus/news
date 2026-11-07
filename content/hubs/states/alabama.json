@@ -1,0 +1,131 @@
+{
+  "id": "us/alabama",
+  "type": "us_state",
+  "name": "Alabama",
+  "abbr": "AL",
+  "tags": [
+    "Alabama"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Recreational marijuana is illegal; a tightly restricted medical cannabis program began sales in June 2026.",
+  "summary": "Alabama legalized medical cannabis in 2021 through the Darren Wesley 'Ato' Hall Compassion Act (SB 46), but lawsuits over licensing delayed the launch for years. The first dispensary, in Montgomery, opened in June 2026, selling only non-smokable forms such as tablets, tinctures and gummy cubes. Recreational use remains illegal and simple possession is still a misdemeanor that can bring jail time. Since July 2025 a separate state law has put intoxicating hemp products under the Alcoholic Beverage Control Board and banned smokable hemp.",
+  "facts": {
+    "medical_since": {
+      "value": "Medical cannabis law (SB 46, the Compassion Act) enacted May 17, 2021; first dispensary sales June 2026.",
+      "source": "https://www.ncsl.org/health/state-medical-cannabis-laws",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Medical-only. Callie's Apothecary in Montgomery was the first dispensary, officially opening June 4, 2026 after a soft launch; more licensed locations are opening in phases.",
+      "source": "https://blog.mpp.org/blog/alabama-medical-cannabis-sales-begin/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Alabama residents with a qualifying condition need a recommendation from an AMCC-registered physician and must be on the state patient registry. Patients 19+ register themselves; minors need a parent or guardian as caregiver.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "medical_product_forms": {
+      "value": "Allowed: tablets, capsules, lozenges, tinctures, non-sugar-coated gel cubes, topicals, suppositories, transdermal patches, nebulizers and inhaler liquids. Banned: raw flower, smoking, vaping, and foods like cookies or candy.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Alabama Medical Cannabis Commission (AMCC).",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Possessing marijuana for personal use, even a small amount, is a misdemeanor punishable by up to one year in jail and a fine up to $6,000; a repeat offense carries a mandatory minimum of a year and a day.",
+      "source": "https://www.mpp.org/states/alabama/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "A 2025 law puts hemp-derived THC products under the Alabama ABC Board: buyers must be 21+, edibles are capped at 10 mg THC per serving, and smokable hemp is banned. Since July 1, 2025, possessing hemp flower or vapes is a Class C felony.",
+      "source": "https://wbhm.org/2025/ivey-signs-a-bill-regulating-the-sale-of-hemp-products",
+      "as_of": "2026-11-07"
+    },
+    "license_caps": {
+      "value": "State law caps licenses at 5 vertically integrated operators (up to 5 stores each), 12 cultivators, 4 processors and 4 dispensary-only permits (up to 3 stores each).",
+      "source": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-to-finally-launch/615401/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2021-05-17",
+      "event": "Gov. Kay Ivey signs SB 46, creating the medical cannabis program",
+      "source": "https://www.ncsl.org/health/state-medical-cannabis-laws"
+    },
+    {
+      "date": "2025-07-01",
+      "event": "Hemp law takes effect: ABC Board oversight, 21+ age limit, smokable hemp banned",
+      "source": "https://www.mpp.org/states/alabama/"
+    },
+    {
+      "date": "2025-12",
+      "event": "AMCC awards dispensary permits after years of licensing litigation",
+      "source": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-to-finally-launch/615401/"
+    },
+    {
+      "date": "2026-06-04",
+      "event": "First medical dispensary, Callie's Apothecary in Montgomery, officially opens",
+      "source": "https://blog.mpp.org/blog/alabama-medical-cannabis-sales-begin/"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Alabama?",
+      "a": "Recreational marijuana is illegal in Alabama. Only registered medical patients can buy cannabis, and only in non-smokable forms from licensed dispensaries."
+    },
+    {
+      "q": "Can you get a medical marijuana card in Alabama?",
+      "a": "Yes. Residents with a qualifying condition can get a recommendation from an AMCC-registered physician and then register with the Alabama Medical Cannabis Commission. Dispensary sales began in June 2026."
+    },
+    {
+      "q": "Can medical patients smoke cannabis in Alabama?",
+      "a": "No. The law bans raw flower, smoking and vaping. Patients can buy tablets, capsules, tinctures, gel cubes, topicals, patches and inhaler products."
+    },
+    {
+      "q": "What is the penalty for marijuana possession in Alabama?",
+      "a": "Possession for personal use is a misdemeanor that can bring up to a year in jail and a fine up to $6,000, with tougher mandatory penalties for repeat offenses."
+    },
+    {
+      "q": "Is Delta-8 or hemp THC legal in Alabama?",
+      "a": "Some hemp THC products are legal for adults 21+ under ABC Board rules, with a 10 mg-per-serving cap on edibles. Smokable hemp flower and vapes are banned."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Alabama Medical Cannabis Commission - Patients",
+      "url": "https://amcc.alabama.gov/patients/"
+    },
+    {
+      "name": "NCSL - State Medical Cannabis Laws",
+      "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"
+    },
+    {
+      "name": "Marijuana Policy Project - Alabama",
+      "url": "https://www.mpp.org/states/alabama/"
+    },
+    {
+      "name": "MPP blog - Alabama medical cannabis sales begin",
+      "url": "https://blog.mpp.org/blog/alabama-medical-cannabis-sales-begin/"
+    },
+    {
+      "name": "MJBizDaily - Alabama medical cannabis market to finally launch",
+      "url": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-to-finally-launch/615401/"
+    },
+    {
+      "name": "WBHM - Ivey signs a bill regulating the sale of hemp products",
+      "url": "https://wbhm.org/2025/ivey-signs-a-bill-regulating-the-sale-of-hemp-products"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "country/thailand",
+  "type": "country",
+  "name": "Thailand",
+  "tags": [
+    "Thailand"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Cannabis is no longer a narcotic in Thailand, but since June 2025 flower can only be sold to people with a prescription, and a medical-only control bill is before Parliament.",
+  "summary": "Thailand removed cannabis from its narcotics list in 2022, which led to thousands of dispensaries opening. On 26 June 2025 the Ministry of Public Health made buds a controlled herb and barred shops from selling without a paper prescription covering no more than 30 days. On 22 September 2026 the cabinet endorsed a Cannabis Control bill that would confine use to medicine and phase out existing dispensary licences by 2028.",
+  "facts": {
+    "possession_limit": {
+      "value": "No fixed public possession limit was found; prescription sales are capped at a supply for up to 30 days of personal use.",
+      "source": "https://www.tilleke.com/insights/thailands-new-cannabis-controls-impact-doctors-dispensaries-and-growers/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed dispensaries (about 18,000 licensed in mid-2025) may sell flower only against a valid prescription and must source from certified farms; walk-in sales are banned.",
+      "source": "https://www.clickondetroit.com/news/world/2025/06/27/thailand-starts-banning-the-sale-of-cannabis-without-a-prescription/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Prescriptions on the official paper form may be issued by doctors, Thai traditional and applied Thai traditional medicine practitioners, folk healers, Chinese medicine practitioners, pharmacists or dentists; each is single-use, unrefillable and capped at 30 days.",
+      "source": "https://www.tilleke.com/insights/thailands-new-cannabis-controls-impact-doctors-dispensaries-and-growers/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Ministry of Public Health, through the Department of Thai Traditional and Alternative Medicine (DTAM).",
+      "source": "https://www.tilleke.com/insights/thailands-new-cannabis-controls-impact-doctors-dispensaries-and-growers/",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Shops that sell without a prescription face up to one year in jail and a THB 20,000 fine, and licences can be suspended.",
+      "source": "https://www.clickondetroit.com/news/world/2025/06/27/thailand-starts-banning-the-sale-of-cannabis-without-a-prescription/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Draft Cannabis Control Act would ban sales to anyone under 20 and to pregnant or nursing women.",
+      "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/01/thailand-to-restrict-cannabis-strictly-to-medical-use",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "There is no tourist exemption: visitors can only buy flower with a valid in-person prescription from a recognised Thai practitioner. Officials have reported a sharp rise in smuggling cases involving tourists.",
+      "source": "https://www.clickondetroit.com/news/world/2025/06/27/thailand-starts-banning-the-sale-of-cannabis-without-a-prescription/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2022",
+      "event": "Cannabis removed from Thailand's list of controlled narcotics",
+      "source": "https://wtop.com/world/2025/09/a-look-at-where-thailands-cannabis-laws-stand"
+    },
+    {
+      "date": "2025-06-26",
+      "event": "Health ministry notification makes buds a controlled herb and requires a prescription to buy",
+      "source": "https://www.tilleke.com/insights/thailands-new-cannabis-controls-impact-doctors-dispensaries-and-growers/"
+    },
+    {
+      "date": "2026-08-01",
+      "event": "DTAM publishes draft Cannabis Control Act limiting use to healthcare",
+      "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/01/thailand-to-restrict-cannabis-strictly-to-medical-use"
+    },
+    {
+      "date": "2026-09-22",
+      "event": "Cabinet endorses cannabis control bill and sends it to Parliament",
+      "source": "https://theedgemalaysia.com/node/818915"
+    }
+  ],
+  "pending": [
+    {
+      "item": "Cannabis Control bill: medical-only use, registration of plantations, three-year licences, and phase-out of current dispensary licences by 2028 unless shops become licensed medical facilities.",
+      "status": "Endorsed by cabinet 22 September 2026; awaiting Parliament.",
+      "source": "https://theedgemalaysia.com/node/818915"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Thailand in 2026?",
+      "a": "Cannabis is not a narcotic, but recreational sales are banned. Since June 2025 shops may only sell flower to customers with a valid prescription."
+    },
+    {
+      "q": "Can tourists buy cannabis in Thailand?",
+      "a": "Only with a valid prescription from a recognised Thai practitioner, issued in person on the official form. Online or chat prescriptions are not considered compliant."
+    },
+    {
+      "q": "Will Thailand make cannabis a narcotic again?",
+      "a": "The current plan is not relisting but a Cannabis Control Act that confines use to medicine. Cabinet endorsed the bill in September 2026 and it is now with Parliament."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Tilleke & Gibbins",
+      "url": "https://www.tilleke.com/insights/thailands-new-cannabis-controls-impact-doctors-dispensaries-and-growers/"
+    },
+    {
+      "name": "Associated Press via ClickOnDetroit",
+      "url": "https://www.clickondetroit.com/news/world/2025/06/27/thailand-starts-banning-the-sale-of-cannabis-without-a-prescription/"
+    },
+    {
+      "name": "Associated Press via WTOP",
+      "url": "https://wtop.com/world/2025/09/a-look-at-where-thailands-cannabis-laws-stand"
+    },
+    {
+      "name": "The Star / The Nation",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/01/thailand-to-restrict-cannabis-strictly-to-medical-use"
+    },
+    {
+      "name": "The Edge Malaysia",
+      "url": "https://theedgemalaysia.com/node/818915"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "us/illinois",
+  "type": "us_state",
+  "name": "Illinois",
+  "abbr": "IL",
+  "tags": ["Illinois"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+ in Illinois.",
+  "summary": "Illinois legalized adult-use cannabis through the legislature with the Cannabis Regulation and Tax Act, and licensed stores began selling on January 1, 2020; its medical program dates to a 2013 law. In June 2026 Gov. JB Pritzker signed SB 3222, which doubled possession limits (60 grams of flower for residents), banned intoxicating hemp sales to anyone under 21, folded intoxicating hemp into cannabis regulation, and let every dispensary register to serve medical patients.",
+  "facts": {
+    "adult_use_since": {"value": "January 1, 2020, under the Cannabis Regulation and Tax Act.", "source": "https://idfpr.illinois.gov/profs/adultusecan.html", "as_of": "2026-11-07"},
+    "medical_since": {"value": "August 2013, under the Compassionate Use of Medical Cannabis Act.", "source": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Residents 21+: 60 g of flower, 10 g of concentrate and 1,000 mg THC in infused products. Visitors: 30 g flower, 5 g concentrate, 500 mg THC infused. The categories add together (limits doubled by SB 3222 in 2026).", "source": "https://cannabis.illinois.gov/about/faqs", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Only registered medical patients may grow at home, up to 5 plants. Adult-use home growing is not allowed.", "source": "https://cannabis.illinois.gov/about/faqs", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 for adult-use. Registered medical patients under 21 may buy at a medical dispensary or through a caregiver.", "source": "https://cannabis.illinois.gov/about/faqs", "as_of": "2026-11-07"},
+    "public_use": {"value": "Using cannabis in public places, in vehicles, on school grounds, or wherever tobacco smoking is banned is prohibited. Towns may permit on-site consumption lounges, and cannabis carried in a car must be in a sealed, odor-proof, child-resistant container.", "source": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/faq/auc/faq-information-for-purchasers.pdf", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed adult-use dispensaries have sold since January 1, 2020. Under SB 3222 (2026), any dispensary may register to serve medical patients, and medical curbside and drive-thru pickup are allowed.", "source": "https://capitolnewsillinois.com/news/new-regulations-on-intoxicating-hemp-are-long-overdue-pritzker-says/", "as_of": "2026-11-07"},
+    "taxes": {"value": "Purchaser excise tax: 10% on flower with 35% THC or less, 25% above 35% THC, and 20% on infused products. Add the 7% cultivation privilege tax, state and local sales tax, and optional county and municipal cannabis taxes. Medical cannabis is exempt from the excise tax.", "source": "https://tax.illinois.gov/research/taxinformation/other/cannabis-taxes.html", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients with a qualifying debilitating condition register with the Department of Public Health; there is a separate Opioid Alternative Patient Program. Medical purchases of a patient's adequate supply are exempt from local cannabis taxes from September 10, 2026.", "source": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html", "as_of": "2026-11-07"},
+    "regulator": {"value": "IDFPR licenses dispensaries; cultivation centers, craft growers and infusers are licensed separately; and the Department of Public Health runs the medical registry. The Cannabis Regulation Oversight Office coordinates.", "source": "https://idfpr.illinois.gov/profs/adultusecan.html", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "SB 3222 (June 2026) bans intoxicating hemp sales to anyone under 21, brings intoxicating hemp under cannabis law, and requires child-resistant, non-kid-appealing packaging. Non-intoxicating CBD with under 0.4 mg THC may be sold outside the cannabis market.", "source": "https://capitolnewsillinois.com/news/new-regulations-on-intoxicating-hemp-are-long-overdue-pritzker-says/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2013-08", "event": "Compassionate Use of Medical Cannabis Act authorizes the medical program", "source": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html"},
+    {"date": "2020-01-01", "event": "Adult-use sales begin under the Cannabis Regulation and Tax Act", "source": "https://idfpr.illinois.gov/profs/adultusecan.html"},
+    {"date": "2026-06", "event": "Gov. Pritzker signs SB 3222, doubling possession limits, expanding expungement and restricting hemp THC", "source": "https://norml.org/news/2026/06/18/illinois-governor-signs-law-raising-adult-use-marijuana-possession-limits-expanding-expungement-opportunities-and-restricting-sales-of-hemp-derived-products/"},
+    {"date": "2026-07-01", "event": "7% cultivation privilege tax applies to medical cannabis", "source": "https://tax.illinois.gov/research/taxinformation/other/cannabis-taxes.html"},
+    {"date": "2026-09-10", "event": "Medical patients' adequate-supply purchases exempt from local cannabis taxes", "source": "https://tax.illinois.gov/research/taxinformation/other/cannabis-taxes.html"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Illinois?", "a": "Yes. Adults 21 and older can buy and possess cannabis from licensed dispensaries, and a medical program also exists."},
+    {"q": "How much weed can you have in Illinois?", "a": "Since SB 3222 (2026), residents may carry 60 grams of flower, 10 grams of concentrate and 1,000 mg THC in edibles. Visitors may carry half those amounts."},
+    {"q": "Can you grow weed in Illinois?", "a": "Only registered medical patients may grow at home, up to 5 plants. Recreational users cannot."},
+    {"q": "Can you buy delta-8 or hemp THC in Illinois?", "a": "Only if you are 21 or older. SB 3222 moved intoxicating hemp under the state's cannabis rules."}
+  ],
+  "sources": [
+    {"name": "Illinois IDFPR – Adult Use Cannabis", "url": "https://idfpr.illinois.gov/profs/adultusecan.html"},
+    {"name": "Illinois Cannabis FAQs (cannabis.illinois.gov)", "url": "https://cannabis.illinois.gov/about/faqs"},
+    {"name": "IDFPR purchaser FAQ", "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/faq/auc/faq-information-for-purchasers.pdf"},
+    {"name": "Illinois Department of Revenue – Cannabis taxes", "url": "https://tax.illinois.gov/research/taxinformation/other/cannabis-taxes.html"},
+    {"name": "Illinois Department of Public Health – Medical Cannabis", "url": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html"},
+    {"name": "Capitol News Illinois", "url": "https://capitolnewsillinois.com/news/new-regulations-on-intoxicating-hemp-are-long-overdue-pritzker-says/"},
+    {"name": "NORML", "url": "https://norml.org/news/2026/06/18/illinois-governor-signs-law-raising-adult-use-marijuana-possession-limits-expanding-expungement-opportunities-and-restricting-sales-of-hemp-derived-products/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

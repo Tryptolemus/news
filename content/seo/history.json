@@ -1,0 +1,29 @@
+[
+ {
+  "at": "2026-11-07T09:28:25+00:00",
+  "label": "Baseline",
+  "pages_indexable": 61,
+  "articles": 22,
+  "hub_pages": 26,
+  "evergreen_ratio_pct": 42.6,
+  "sitemap_coverage_pct": 100.0,
+  "title_ok_pct": 86.9,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 91.8,
+  "single_h1_pct": 100.0,
+  "self_canonical_pct": 100.0,
+  "jsonld_pct": 54.1,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 100.0,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 0,
+  "avg_internal_links_per_article": 27.6,
+  "avg_inbound_links_per_article": 13.4,
+  "avg_inbound_links_per_hub": 11.1,
+  "avg_words_per_article": 1362,
+  "score_technical": 93.3,
+  "score_structure": 93.8,
+  "score_scale": 7.4,
+  "score_total": 63.4
+ }
+]

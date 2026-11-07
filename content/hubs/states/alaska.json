@@ -1,0 +1,175 @@
+{
+  "id": "us/alaska",
+  "type": "us_state",
+  "name": "Alaska",
+  "abbr": "AK",
+  "tags": [
+    "Alaska"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+, with licensed stores operating since 2016.",
+  "summary": "Alaska voters legalized medical cannabis in 1998 and adult-use cannabis in 2014 through Ballot Measure 2, which took effect in February 2015; the first licensed store opened in October 2016. Adults 21+ may carry up to one ounce and grow up to six plants. The state taxes cannabis at the wholesale level by weight ($50 per ounce of bud), and a 2026 bill to cut that tax (HB 91) stalled. In 2026 lawmakers approved sealing of old low-level possession convictions.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Approved by voters Nov. 4, 2014 (Ballot Measure 2, 53% yes); possession became legal Feb. 24, 2015.",
+      "source": "https://www.commondreams.org/news/2015/02/24/historic-day-last-frontier-recreational-pot-now-legal-alaska",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Voters legalized medical cannabis in 1998.",
+      "source": "https://www.mpp.org/states/alaska/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Adults 21+ may possess up to 1 ounce.",
+      "source": "https://ballotpedia.org/Alaska_Marijuana_Legalization,_Ballot_Measure_2_(2014)",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 6 plants per adult (no more than 3 flowering), with a cap of 12 plants per household with multiple adults.",
+      "source": "https://www.mpp.org/states/alaska/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://ballotpedia.org/Alaska_Marijuana_Legalization,_Ballot_Measure_2_(2014)",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Consuming in public is banned and can bring a fine of up to $100. Alaska was the first state to license on-site consumption at stores with a special endorsement.",
+      "source": "https://www.mpp.org/states/alaska/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed retail sales began Oct. 29, 2016, when Herbal Outfitters opened in Valdez.",
+      "source": "https://lasvegassun.com/news/2016/oct/30/alaskas-first-pot-shop-opens-to-a-long-line-of-cus/",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "Excise tax is charged on growers by weight when product is sold to retailers or manufacturers: $50/oz for mature bud, $25/oz for immature bud, $15/oz for trim.",
+      "source": "https://alaskapublic.org/news/2026-08-27/despite-calls-to-change-alaska-cannabis-taxes-lawmakers-have-been-slow-to-act",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Medical use is legal, but there is no separate medical retail channel or tax break; patients buy from the same licensed stores and pay the same tax.",
+      "source": "https://www.mpp.org/states/alaska/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Marijuana Control Board, staffed by the Alcohol & Marijuana Control Office (AMCO) within the Department of Commerce, Community, and Economic Development.",
+      "source": "https://www.commerce.alaska.gov/web/amco/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Since 2023, intoxicating hemp-derived products may be sold only through state-licensed marijuana stores; a federal judge upheld the restriction in May 2025.",
+      "source": "https://norml.org/news/2025/06/05/alaska-district-court-judge-says-state-imposed-restrictions-on-sale-of-hemp-derived-intoxicants-dont-violate-federal-farm-act/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "1975",
+      "event": "Alaska Supreme Court holds the state privacy right covers small-amount possession at home",
+      "source": "https://www.mpp.org/states/alaska/"
+    },
+    {
+      "date": "1998",
+      "event": "Voters legalize medical cannabis",
+      "source": "https://www.mpp.org/states/alaska/"
+    },
+    {
+      "date": "2014-11-04",
+      "event": "Voters approve Ballot Measure 2 legalizing adult-use cannabis",
+      "source": "https://ballotpedia.org/Alaska_Marijuana_Legalization,_Ballot_Measure_2_(2014)"
+    },
+    {
+      "date": "2015-02-24",
+      "event": "Adult possession and home grow become legal",
+      "source": "https://www.commondreams.org/news/2015/02/24/historic-day-last-frontier-recreational-pot-now-legal-alaska"
+    },
+    {
+      "date": "2016-10-29",
+      "event": "First licensed store, Herbal Outfitters in Valdez, opens",
+      "source": "https://lasvegassun.com/news/2016/oct/30/alaskas-first-pot-shop-opens-to-a-long-line-of-cus/"
+    },
+    {
+      "date": "2025-05",
+      "event": "Federal judge upholds Alaska's limits on intoxicating hemp products",
+      "source": "https://norml.org/news/2025/06/05/alaska-district-court-judge-says-state-imposed-restrictions-on-sale-of-hemp-derived-intoxicants-dont-violate-federal-farm-act/"
+    },
+    {
+      "date": "2026-05",
+      "event": "Legislature passes omnibus crime bill allowing sealing of old low-level possession records; it became law without the governor's signature",
+      "source": "https://www.mpp.org/states/alaska/"
+    }
+  ],
+  "pending": [
+    {
+      "item": "HB 91 would cut the per-ounce excise tax and replace it with a 6% retail sales tax.",
+      "status": "Stalled in the 2026 session; sponsor Rep. Ashley Carrick plans to reintroduce it next session.",
+      "source": "https://alaskapublic.org/news/2026-08-27/despite-calls-to-change-alaska-cannabis-taxes-lawmakers-have-been-slow-to-act"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Alaska?",
+      "a": "Yes. Adults 21 and older can legally possess up to one ounce and buy from licensed stores, which have operated since 2016."
+    },
+    {
+      "q": "How many plants can you grow in Alaska?",
+      "a": "Adults may grow up to six plants, no more than three of them flowering, with a household cap of 12 plants when several adults live there."
+    },
+    {
+      "q": "Can you smoke weed in public in Alaska?",
+      "a": "No. Public consumption is banned and can bring a fine. Some licensed stores hold an on-site consumption endorsement where use is allowed."
+    },
+    {
+      "q": "How is cannabis taxed in Alaska?",
+      "a": "Alaska taxes cannabis by weight when growers sell it, at $50 per ounce of mature bud. A 2026 proposal to switch to a retail sales tax stalled."
+    },
+    {
+      "q": "Do you need a medical card in Alaska?",
+      "a": "Not to buy cannabis, since adult-use is legal. Medical use is legal too, but there is no separate medical store channel or tax discount."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Alaska Alcohol & Marijuana Control Office",
+      "url": "https://www.commerce.alaska.gov/web/amco/"
+    },
+    {
+      "name": "Ballotpedia - Alaska Ballot Measure 2 (2014)",
+      "url": "https://ballotpedia.org/Alaska_Marijuana_Legalization,_Ballot_Measure_2_(2014)"
+    },
+    {
+      "name": "Marijuana Policy Project - Alaska",
+      "url": "https://www.mpp.org/states/alaska/"
+    },
+    {
+      "name": "Alaska Public Media - cannabis tax changes slow to move (Aug. 2026)",
+      "url": "https://alaskapublic.org/news/2026-08-27/despite-calls-to-change-alaska-cannabis-taxes-lawmakers-have-been-slow-to-act"
+    },
+    {
+      "name": "Anchorage Daily News - lawmakers consider statewide marijuana sales tax (Mar. 2026)",
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/03/02/alaska-lawmakers-consider-statewide-marijuana-sales-tax/"
+    },
+    {
+      "name": "AP via Las Vegas Sun - Alaska's first pot shop opens",
+      "url": "https://lasvegassun.com/news/2016/oct/30/alaskas-first-pot-shop-opens-to-a-long-line-of-cus/"
+    },
+    {
+      "name": "Common Dreams - recreational pot now legal in Alaska",
+      "url": "https://www.commondreams.org/news/2015/02/24/historic-day-last-frontier-recreational-pot-now-legal-alaska"
+    },
+    {
+      "name": "NORML - court upholds Alaska hemp restrictions",
+      "url": "https://norml.org/news/2025/06/05/alaska-district-court-judge-says-state-imposed-restrictions-on-sale-of-hemp-derived-intoxicants-dont-violate-federal-farm-act/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

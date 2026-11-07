@@ -1,0 +1,53 @@
+{
+  "id": "us/new-mexico",
+  "type": "us_state",
+  "name": "New Mexico",
+  "abbr": "NM",
+  "tags": ["New Mexico"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational cannabis is legal for adults 21+, and New Mexico also runs a medical cannabis program.",
+  "summary": "New Mexico legalized adult-use cannabis through the Cannabis Regulation Act, with possession and home growing allowed from June 29, 2021 and licensed retail sales starting April 1, 2022. Adults 21+ may carry up to 2 ounces of flower, 16 grams of concentrate and 800 mg of edibles, and may grow at home. The state's medical program dates to 2007. The adult-use excise tax rose from 12% to 13% on July 1, 2025 and is scheduled to climb one point a year until it reaches 18% in 2030.",
+  "facts": {
+    "adult_use_since": {"value": "Possession and home grow legal since June 29, 2021 under the Cannabis Regulation Act.", "source": "https://governor.state.nm.us/2021/06/29/gov-lujan-grisham-hails-legalization-of-adult-use-cannabis", "as_of": "2026-11-07"},
+    "medical_since": {"value": "2007, under the Lynn and Erin Compassionate Use Act.", "source": "https://norml.org/laws/new-mexico-medical-marijuana-law", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 2 oz of cannabis, 16 g of concentrate and 800 mg of edibles in public; larger amounts allowed at home if locked away and not visible from public spaces.", "source": "https://nmlegis.gov/handouts/CCJ%20082223%20Item%205%20Overview%20of%20the%20Cannabis%20Regulation%20Act.pdf", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Six mature and six immature plants per adult, capped at 12 mature plants per household; localities cannot ban home cultivation.", "source": "https://nmlegis.gov/handouts/CCJ%20082223%20Item%205%20Overview%20of%20the%20Cannabis%20Regulation%20Act.pdf", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older with valid ID.", "source": "https://nmlegis.gov/handouts/CCJ%20082223%20Item%205%20Overview%20of%20the%20Cannabis%20Regulation%20Act.pdf", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking cannabis in public carries a $50 fine; cities and counties may allow consumption in 21+ locations, and licensed consumption areas are permitted.", "source": "https://nmlegis.gov/handouts/CCJ%20082223%20Item%205%20Overview%20of%20the%20Cannabis%20Regulation%20Act.pdf", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed adult-use sales began April 1, 2022.", "source": "https://www.cannabisbusinesstimes.com/article/new-mexico-adult-use-cannabis-april-sales/", "as_of": "2026-11-07"},
+    "taxes": {"value": "Cannabis excise tax rose from 12% to 13% on July 1, 2025, with 1-point annual increases scheduled until it reaches 18% in July 2030; gross receipts tax also applies. Medical sales are exempt from the excise tax.", "source": "https://www.tax.newmexico.gov/wp-content/uploads/2025/06/2025.06.04_New-tax-and-fee-changes-beginning-July-1.pdf", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients with a listed qualifying condition (about 30, including cancer, epilepsy, PTSD and severe chronic pain) can enroll; the Department of Health runs patient registration and patients buy tax-free.", "source": "https://norml.org/laws/new-mexico-medical-marijuana-law", "as_of": "2026-11-07"},
+    "regulator": {"value": "Cannabis Control Division of the New Mexico Regulation and Licensing Department (business licensing for adult-use and medical).", "source": "https://www.rld.nm.gov/?p=39409", "as_of": "2026-11-07"},
+    "penalties": {"value": "Public possession of more than 2 oz up to 8 oz is a misdemeanor; 8 oz or more is a fourth-degree felony.", "source": "https://norml.org/laws/new-mexico-laws-and-penalties", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2007", "event": "Lynn and Erin Compassionate Use Act creates the medical cannabis program", "source": "https://norml.org/laws/new-mexico-medical-marijuana-law"},
+    {"date": "2021-06-29", "event": "Cannabis Regulation Act takes effect; adult possession and home grow become legal", "source": "https://governor.state.nm.us/2021/06/29/gov-lujan-grisham-hails-legalization-of-adult-use-cannabis"},
+    {"date": "2022-04-01", "event": "Licensed adult-use retail sales begin", "source": "https://www.cannabisbusinesstimes.com/article/new-mexico-adult-use-cannabis-april-sales/"},
+    {"date": "2024-03-01", "event": "Governor signs SB 6, tightening penalties for unlicensed activity and updating licensing rules", "source": "https://rld.nm.gov/?p=42977"},
+    {"date": "2025-07-01", "event": "Cannabis excise tax rises from 12% to 13%, the first of scheduled annual increases", "source": "https://www.tax.newmexico.gov/wp-content/uploads/2025/06/2025.06.04_New-tax-and-fee-changes-beginning-July-1.pdf"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in New Mexico?", "a": "Yes. Adults 21 and older can legally possess, buy and grow cannabis, and licensed dispensaries have sold to adults since April 1, 2022."},
+    {"q": "How much weed can you carry in New Mexico?", "a": "In public, up to 2 ounces of flower, 16 grams of concentrate and 800 mg of edibles. More can be kept at home if it is locked up and out of public view."},
+    {"q": "Can you grow cannabis at home in New Mexico?", "a": "Yes. Each adult may grow six mature and six immature plants, with no more than 12 mature plants per household."},
+    {"q": "Can you smoke weed in public in New Mexico?", "a": "No. Public smoking can bring a $50 fine, though local governments may allow consumption at designated 21+ locations and licensed consumption areas."}
+  ],
+  "sources": [
+    {"name": "Office of the Governor of New Mexico", "url": "https://governor.state.nm.us/2021/06/29/gov-lujan-grisham-hails-legalization-of-adult-use-cannabis"},
+    {"name": "New Mexico Legislature, Cannabis Regulation Act overview", "url": "https://nmlegis.gov/handouts/CCJ%20082223%20Item%205%20Overview%20of%20the%20Cannabis%20Regulation%20Act.pdf"},
+    {"name": "New Mexico Regulation and Licensing Department, Cannabis Control Division", "url": "https://www.rld.nm.gov/?p=39409"},
+    {"name": "New Mexico Regulation and Licensing Department, SB 6 release", "url": "https://rld.nm.gov/?p=42977"},
+    {"name": "New Mexico Taxation and Revenue Department", "url": "https://www.tax.newmexico.gov/wp-content/uploads/2025/06/2025.06.04_New-tax-and-fee-changes-beginning-July-1.pdf"},
+    {"name": "NORML, New Mexico laws and penalties", "url": "https://norml.org/laws/new-mexico-laws-and-penalties"},
+    {"name": "NORML, New Mexico medical law", "url": "https://norml.org/laws/new-mexico-medical-marijuana-law"},
+    {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/article/new-mexico-adult-use-cannabis-april-sales/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

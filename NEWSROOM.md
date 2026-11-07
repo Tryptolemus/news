@@ -113,6 +113,22 @@ The build publishes a sitemap index (pages, a Google News sitemap for the last 4
 - **Standing explainers.** When a week is quiet, write one evergreen explainer per week tagged to its hub: what rescheduling to Schedule III changes; how Section 280E works; hemp-derived THC and the federal Total THC rule; how cannabis stocks trade (OTC vs Nasdaq vs Canadian listings); state-by-state legal status. Update the same explainer (`updated`) instead of writing a new one.
 - **Stock pages are automatic.** Never write a story whose only content is a price move; the daily stock note covers that. Write a story when there is news (earnings, deals, regulation) and tag the company.
 
+## Legal hubs (state, country and federal pages)
+
+The site's highest-value pages are the evergreen legal hubs in `content/hubs/`: `states/` (all 50 + DC → `/legal/us/<state>/`), `countries/` (→ `/legal/world/<country>/`) and `explainers/` (federal topics → `/explainers/<slug>/`). They answer the questions people search ("Is weed legal in Ohio?") and every story feeds them automatically.
+
+**Tagging (required).** Tag every US state and country a story is about with its full English name exactly as the hub file's `name` ("New York", "District of Columbia", "Czech Republic"), and the federal topic by its hub tag ("Rescheduling", "Section 280E", "SAFER Banking", "Hemp", "Total THC", "DEA"). The build then: lists the story under the hub's "Latest MetaFlora coverage", links the first mention in the story body to the hub, and adds the hub under "Covered in this story".
+
+**Updating a hub when the law changes (required).** If a story reports a change to a hub fact (a law signed, a ballot result, sales starting, a limit changing, a court ruling, a milestone date), edit that hub's JSON in the same run:
+- update the fact's `value`, `source` (primary source preferred: statute, regulator, governor, court, Federal Register) and `as_of` (today);
+- update `legal` (states/countries) or `where_it_stands` / `next_milestone` (explainers) if the status changed;
+- append a dated `timeline` entry and adjust `pending`;
+- set `last_verified` to today.
+A change to `legal.adult_use`, `legal.medical` or `legal.decriminalized` needs a primary (.gov, legislature or court) source. Never change a hub on the strength of a rumour, a poll or a proposal; proposals go in `pending`.
+Never bump `last_verified` when nothing in the file changed.
+
+**Original value (required for every story).** Each story must add at least one thing its sources don't have: context from the hub (e.g. "Ohio becomes the 25th state with adult-use sales", using `/legal/us/` data), a computed figure (price move, count, comparison across states), a primary document the sources didn't link, or a clear "what it means and what to watch" section. A story that only restates one outlet's article is not publishable; fold thin same-day items into a state-desk roundup instead.
+
 ## Long-form standard
 
 MetaFlora News runs long, useful stories, not briefs.

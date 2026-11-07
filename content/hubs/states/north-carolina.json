@@ -1,0 +1,49 @@
+{
+  "id": "us/north-carolina",
+  "type": "us_state",
+  "name": "North Carolina",
+  "abbr": "NC",
+  "tags": ["North Carolina"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "cbd_only",
+    "decriminalized": "partial"
+  },
+  "headline_status": "Recreational and comprehensive medical cannabis are illegal in North Carolina; only a narrow low-THC hemp-extract law for epilepsy exists.",
+  "summary": "Cannabis remains illegal under North Carolina state law, though possessing a half ounce or less is a Class 3 misdemeanor for which any jail sentence must be suspended. The state's only medical provision is a 2014 law allowing low-THC, high-CBD hemp extract for intractable epilepsy. The Eastern Band of Cherokee Indians runs its own legal adult-use market on tribal land. Gov. Josh Stein created an Advisory Council on Cannabis in June 2025, which in April 2026 flagged the unregulated intoxicating hemp market and is due to deliver final recommendations by December 31, 2026.",
+  "facts": {
+    "medical_since": {"value": "2014, when HB 1220 allowed hemp extract for epilepsy (pilot designation removed in 2015 by HB 766). There is no comprehensive medical program.", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Limited to hemp extract with less than 0.9% THC and at least 5% CBD by weight for intractable epilepsy.", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal possession amount for adults under state law.", "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html", "as_of": "2026-11-07"},
+    "penalties": {"value": "Up to 0.5 oz is a Class 3 misdemeanor with any jail sentence suspended; over 0.5 oz is a Class 1 misdemeanor; over 1.5 oz (or over 3/20 oz of hashish) is a Class I felony.", "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No state-licensed sales. The Eastern Band of Cherokee Indians has sold adult-use cannabis to adults 21+ on its land since September 7, 2024.", "source": "https://mpp.org/nc", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Intoxicating hemp-derived THC products are sold with no clear state rules on potency, testing or labeling; the governor's cannabis council called this a dangerous policy gap in April 2026.", "source": "https://www.cannabisbusinesstimes.com/us-states/north-carolina/news/15837705/nc-adults-back-cannabis-legalization-as-state-tees-up-2027-reform", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2014", "event": "HB 1220 allows low-THC hemp extract for intractable epilepsy", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
+    {"date": "2023-09", "event": "Eastern Band of Cherokee Indians voters approve adult-use legalization on tribal land", "source": "https://mpp.org/nc"},
+    {"date": "2024-09-07", "event": "Eastern Band of Cherokee Indians begins adult-use sales to adults 21+", "source": "https://mpp.org/nc"},
+    {"date": "2025-06-03", "event": "Gov. Josh Stein signs Executive Order 16 creating the Advisory Council on Cannabis", "source": "https://governor.nc.gov/executive-order-no-16-establishing-north-carolina-advisory-council-cannabis"},
+    {"date": "2026-04", "event": "Advisory Council interim report calls the unregulated intoxicating hemp market a dangerous policy gap", "source": "https://www.cannabisbusinesstimes.com/us-states/north-carolina/news/15837705/nc-adults-back-cannabis-legalization-as-state-tees-up-2027-reform"}
+  ],
+  "pending": [
+    {"item": "Advisory Council on Cannabis final recommendations", "status": "Due by December 31, 2026; intended as a guide for 2027 legislation", "source": "https://governor.nc.gov/executive-order-no-16-establishing-north-carolina-advisory-council-cannabis"},
+    {"item": "H1011 (Compassionate Care Act) would create a medical cannabis program", "status": "Filed in the 2025-26 session; not enacted", "source": "https://mpp.org/nc"},
+    {"item": "S350 (Marijuana Justice and Reinvestment Act) would legalize adult use for those 21+", "status": "Filed in the 2025-26 session; not enacted", "source": "https://mpp.org/nc"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in North Carolina?", "a": "No. Recreational and medical marijuana are illegal under state law; the only exception is low-THC hemp extract for epilepsy. The Eastern Band of Cherokee Indians sells legally on its own tribal land."},
+    {"q": "What happens if you get caught with weed in North Carolina?", "a": "A half ounce or less is a Class 3 misdemeanor and any jail time must be suspended. Larger amounts bring a Class 1 misdemeanor, and more than 1.5 ounces is a felony."},
+    {"q": "Is medical marijuana legal in North Carolina?", "a": "No comprehensive program exists. Medical bills have passed the Senate in past sessions but not the House."},
+    {"q": "Can you buy weed in Cherokee, North Carolina?", "a": "Yes. The Eastern Band of Cherokee Indians has sold adult-use cannabis to adults 21+ on its land since September 7, 2024."}
+  ],
+  "sources": [
+    {"name": "North Carolina General Assembly, G.S. 90-95", "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html"},
+    {"name": "Office of the Governor, Executive Order 16", "url": "https://governor.nc.gov/executive-order-no-16-establishing-north-carolina-advisory-council-cannabis"},
+    {"name": "NCSL, State Medical Cannabis Laws", "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
+    {"name": "Marijuana Policy Project, North Carolina", "url": "https://mpp.org/nc"},
+    {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/us-states/north-carolina/news/15837705/nc-adults-back-cannabis-legalization-as-state-tees-up-2027-reform"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

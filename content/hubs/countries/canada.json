@@ -1,0 +1,39 @@
+{
+  "id": "country/canada",
+  "type": "country",
+  "name": "Canada",
+  "tags": ["Canada"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Recreational and medical cannabis are legal nationwide for adults, with a minimum age of 18 or higher depending on the province.",
+  "summary": "Canada legalised adult-use cannabis under the federal Cannabis Act on 17 October 2018, and edibles and concentrates went on sale a year later. Provinces and territories run retail and may raise the age or lower possession and home-grow limits. Medical patients buy from federally licensed sellers or grow under registration. The latest major change was a package of streamlined federal regulations that took effect on 12 March 2025.",
+  "facts": {
+    "adult_use_since": {"value": "17 October 2018; edibles and concentrates legal for sale from 17 October 2019.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 30 g of dried cannabis or equivalent in public (15 g of edible product counts as 1 g dried); provinces may set lower limits.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 4 plants per residence from licensed seed or seedlings; provinces may lower this.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Federal minimum is 18; provinces and territories may raise it but not lower it.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Sold through provincially or territorially licensed retailers and online platforms; where none exist, adults may order online from federally licensed producers.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients authorised by a health care practitioner can buy from a federally licensed seller, register with Health Canada to grow a limited amount, or designate someone to grow for them.", "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/medical-use-cannabis.html", "as_of": "2026-11-07"},
+    "regulator": {"value": "Health Canada licenses producers federally; provinces and territories regulate retail and consumption.", "source": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations.html", "as_of": "2026-11-07"},
+    "penalties": {"value": "Possessing over the limit ranges from a ticket to up to 5 years less a day in jail; selling or giving cannabis to minors carries up to 14 years.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"},
+    "tourists": {"value": "Adult visitors may buy from licensed provincial retailers under local age and possession rules, but taking cannabis across Canada's border in either direction is illegal, even for medical use, and can carry up to 14 years in jail.", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2018-10-17", "event": "Cannabis Act takes effect; adult-use cannabis legal nationwide", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/"},
+    {"date": "2019-10-17", "event": "Edibles and concentrates become legal for sale", "source": "https://www.justice.gc.ca/eng/cj-jp/cannabis/"},
+    {"date": "2025-03-12", "event": "Streamlined federal cannabis regulations take effect (larger micro licences, transparent packaging, no 1 g pre-roll cap)", "source": "https://www.canada.ca/en/health-canada/services/publications/drugs-health-products/summary-changes-following-streamlining-regulations.html"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Canada?", "a": "Yes. Adults can buy from licensed provincial retailers and carry up to 30 g of dried cannabis in public. The federal minimum age is 18, and provinces may set a higher age."},
+    {"q": "Can tourists buy cannabis in Canada?", "a": "Yes, adult visitors can buy from licensed stores under local rules. Bringing cannabis into or out of Canada is illegal."},
+    {"q": "How many plants can you grow in Canada?", "a": "Federal law allows four plants per household, but some provinces set a lower limit."}
+  ],
+  "sources": [
+    {"name": "Department of Justice Canada", "url": "https://www.justice.gc.ca/eng/cj-jp/cannabis/"},
+    {"name": "Health Canada – Cannabis laws and regulations", "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/laws-regulations.html"},
+    {"name": "Health Canada – Medical use of cannabis", "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/medical-use-cannabis.html"},
+    {"name": "Health Canada – Summary of streamlining changes", "url": "https://www.canada.ca/en/health-canada/services/publications/drugs-health-products/summary-changes-following-streamlining-regulations.html"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -63,10 +63,11 @@ COPY_JS = ("<script>document.querySelectorAll('[data-copy]').forEach(function(b)
 
 def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head="", active=None, dateline="", robots=ROBOTS):
     # brand suffix only where it fits in ~60 characters of search-result title
-    full = f"{NAME} · Cannabis industry news" if title == NAME else (f"{title} · {NAME}" if len(title) <= 44 else title)
+    full = "Cannabis News Today: Policy, Markets, Hemp & Laws · MetaFlora News" if title == NAME else (f"{title} · {NAME}" if len(title) <= 44 else title)
     img = og_image or f"{SITE}/assets/og-default.png"
     nav = "".join(f'<a href="/section/{c.lower()}/"{" aria-current=page" if c == active else ""}>{c}</a>' for c in CATS)
     nav += f'<a href="/stocks/"{" aria-current=page" if active == "Stocks" else ""}>Stocks</a>'
+    nav += f'<a href="/legal/"{" aria-current=page" if active == "Laws" else ""}>Laws</a>'
     social = "".join(f'<a href="{u}" target="_blank" rel="noopener" aria-label="{n}"><img src="/assets/{i}.png" alt="" width="47" height="44"></a>' for i, u, n in SOCIAL)
     return f"""<!doctype html>
 <html lang="en">
@@ -78,6 +79,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <meta name="robots" content="{robots}">
 <link rel="canonical" href="{SITE}{path}">
 <meta property="og:site_name" content="{NAME}">
+<meta property="og:locale" content="en_US">
 <meta property="og:type" content="{kind}">
 <meta property="og:title" content="{escape(title)}">
 <meta property="og:description" content="{escape(desc)}">
@@ -133,7 +135,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
       <a href="/how-we-report/">How we report</a><a href="/how-we-report/#corrections">Corrections</a><a href="/advertise/">Advertise</a>
-      <a href="/stocks/">Cannabis stocks</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
+      <a href="/stocks/">Cannabis stocks</a><a href="/legal/us/">Cannabis laws by state</a><a href="/explainers/">Explainers</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
   <div class="foot-bottom">
@@ -260,7 +262,7 @@ def build_front(arts, eds):
   <article class="lead">
     <a class="{'pic' if has_photo(lead) else 'pic plate'}" href="{lead['_path']}" tabindex="-1" aria-hidden="true">{image(lead, eager=True)}</a>
     {kicker(lead['cat'])}
-    <h1><a href="{lead['_path']}">{escape(lead['headline'])}</a></h1>
+    <h2 class="lead-h"><a href="{lead['_path']}">{escape(lead['headline'])}</a></h2>
     <p class="dek">{escape(lead['dek'])}</p>
     <p class="meta">By MetaFlora News Desk · {minutes(lead)} min read</p>
   </article>
@@ -291,6 +293,7 @@ def build_front(arts, eds):
                  f'<p class="more-link"><a href="/archive/">Full archive</a></p></section>')
     org = {"@context": "https://schema.org", "@graph": [ORG, {"@type": "WebSite", "@id": f"{SITE}/#website", "name": NAME, "url": SITE + "/",
                                                             "description": TAGLINE, "publisher": {"@id": f"{SITE}/#org"}, "inLanguage": "en"}]}
+    parts.insert(0, '<h1 class="sr-only">MetaFlora News: cannabis industry news, laws and markets</h1>')
     ctx["write"]("index.html", page(NAME, "".join(parts), og_image=f"{SITE}/og/{lead['id']}.png", dateline=dateline_for(latest_ed, latest),
                                     extra_head=f'<script type="application/ld+json">{json.dumps(org)}</script>'))
 
@@ -327,7 +330,8 @@ def render_body(a):
             out.append(f"<p>{escape(b)}</p>")
             paras += 1
             since += len(b.split())
-    return "".join(out)
+    import hubs
+    return "".join(hubs.autolink(out, a))
 
 
 def build_article(a, arts):
@@ -359,7 +363,7 @@ def build_article(a, arts):
           "publisher": PUBLISHER, "mainEntityOfPage": url, "isAccessibleForFree": True}
     tags_html = ""
     if a.get("tags"):
-        tags_html = '<nav class="tags" aria-label="Topics">' + "".join(f'<a href="/topic/{slug(t)}/">{escape(t)}</a>' for t in a["tags"]) + "</nav>"
+        tags_html = '<nav class="tags" aria-label="Topics">' + "".join(f'<a href="{tag_url(t)}">{escape(t)}</a>' for t in a["tags"]) + "</nav>"
     ticks = tickers_for(a.get("tags", []))
     if ticks:
         tags_html += ('<nav class="tags tickers" aria-label="Stocks in this story"><span class="tk-label">Stocks in this story</span>'
@@ -369,6 +373,8 @@ def build_article(a, arts):
     if has_photo(a):
         fig = f'<figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>'
     import ads
+    import hubs
+    covered = hubs.covered_box(a)
     end_ad = ads.slot(a["id"], "end", "end", a["cat"])
     after_same = ""
     if len(same) >= 2:
@@ -391,6 +397,7 @@ def build_article(a, arts):
     <div class="story-body">{render_body(a)}</div>
     <section class="sources"><h2>Sources</h2><ol>{srcs}</ol>
       <p>This article summarises and links the original reporting. Spotted an error? Email <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> or message <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X.</p></section>
+    {covered}
     {tags_html}
     {corr}
     {end_ad}
@@ -408,7 +415,11 @@ def build_article(a, arts):
         {"@type": "ListItem", "position": 1, "name": NAME, "item": SITE + "/"},
         {"@type": "ListItem", "position": 2, "name": a["cat"], "item": f"{SITE}/section/{a['cat'].lower()}/"},
         {"@type": "ListItem", "position": 3, "name": a["headline"], "item": url}]}
-    extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
+    og_art = (f'<meta property="article:published_time" content="{a["published"]}">'
+              f'<meta property="article:modified_time" content="{a.get("updated", a["published"])}">'
+              f'<meta property="article:section" content="{escape(a["cat"])}">'
+              + "".join(f'<meta property="article:tag" content="{escape(t)}">' for t in a.get("tags", [])))
+    extra = og_art + f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
     ctx["write"](a["_path"].strip("/") + "/index.html",
                  page(a["headline"], body, desc=a["dek"], path=a["_path"], og_image=f"{SITE}/og/{a['id']}.png", kind="article",
                       extra_head=extra, active=a["cat"], dateline=dl(f'{a["_dt"]:%A} {a["_dt"].day} {a["_dt"]:%B %Y}', f'{"Morning" if a["edition"].endswith("am") else "Evening"} edition')))
@@ -426,7 +437,8 @@ def build_sections(arts):
         else:
             inner = '<p class="empty">No stories in this section yet. New editions publish every morning and evening.</p>'
         body = f'<div class="page-h"><h1>{c}</h1><p class="meta">{len(items)} stories</p></div>{inner}'
-        ctx["write"](f"section/{c.lower()}/index.html", page(f"{c} cannabis news", body, desc=SECTION_DESC.get(c, TAGLINE), path=f"/section/{c.lower()}/", active=c))
+        ctx["write"](f"section/{c.lower()}/index.html", page(f"{c} cannabis news", body, desc=SECTION_DESC.get(c, TAGLINE), path=f"/section/{c.lower()}/", active=c,
+                                                             extra_head=collection_ld(f"{c} cannabis news", f"/section/{c.lower()}/", items)))
 
 
 def build_archive(eds):
@@ -452,6 +464,20 @@ def slug(t):
     return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
 
 
+def tag_url(t):
+    import hubs
+    return hubs.tag_url(t)
+
+
+def collection_ld(name, path, items):
+    """CollectionPage + ItemList for list pages (sections, topics, archive)."""
+    return ('<script type="application/ld+json">' + json.dumps({
+        "@context": "https://schema.org", "@type": "CollectionPage", "name": name, "url": SITE + path, "isPartOf": {"@id": f"{SITE}/#org"},
+        "mainEntity": {"@type": "ItemList", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "url": SITE + a["_path"], "name": a["headline"]} for i, a in enumerate(items[:30])]}})
+        + "</script>")
+
+
 HUB_MIN = 3  # topic hubs index (and enter the sitemap) once they hold this many stories
 
 
@@ -472,8 +498,17 @@ def build_topics(arts):
     for a in arts:
         for t in a.get("tags", []):
             topics.setdefault(t, []).append(a)
-    for t, items in topics.items():
+    import hubs
+    for t, items in list(topics.items()):
         items = sorted(items, key=lambda a: a["_dt"], reverse=True)
+        h = hubs.hub_for_tag(t)
+        if h and hubs.complete(h):
+            # the legal hub owns this entity: keep the old URL as a pointer, out of the index
+            ctx["write"](f"topic/{slug(t)}/index.html",
+                         page(f"{t} news", f'<div class="page-h"><h1>{escape(t)}</h1><p class="dek">Coverage of {escape(t)} now lives on <a href="{h["_url"]}">{escape(h["name"])}</a>.</p></div>',
+                              path=h["_url"], robots="noindex, follow", extra_head=f'<meta http-equiv="refresh" content="0; url={h["_url"]}">'))
+            topics.pop(t)
+            continue
         lead = items[0]
         import ads
         inner = f'<div class="sec-lead">{card(lead, "wide")}</div>{ads.slot("topic-" + t, 0, "list", lead["cat"])}'
@@ -488,7 +523,8 @@ def build_topics(arts):
         intro = f'<p class="dek">Every MetaFlora News story about {escape(t)}, newest first, with links to the original reporting.</p>'
         body = f'<div class="page-h"><h1>{escape(t)} news</h1><p class="meta">{n} {"story" if n == 1 else "stories"}</p>{intro}{stock}</div>{inner}'
         ctx["write"](f"topic/{slug(t)}/index.html", page(f"{t} news", body, desc=desc, path=f"/topic/{slug(t)}/",
-                                                        robots=ROBOTS if n >= HUB_MIN else "noindex, follow"))
+                                                        robots=ROBOTS if n >= HUB_MIN else "noindex, follow",
+                                                        extra_head=collection_ld(f"{t} news", f"/topic/{slug(t)}/", items)))
     rows = "".join(f'<li><a class="li-title" href="/topic/{slug(t)}/">{escape(t)}</a><span class="meta">{len(v)}</span></li>'
                    for t, v in sorted(topics.items(), key=lambda kv: (-len(kv[1]), kv[0])))
     ctx["write"]("topic/index.html", page("Topics", f'<div class="page-h"><h1>Topics</h1></div><ol class="month-list">{rows}</ol>',

@@ -1,0 +1,39 @@
+{
+  "id": "us/idaho",
+  "type": "us_state",
+  "name": "Idaho",
+  "abbr": "ID",
+  "tags": ["Idaho"],
+  "legal": {"adult_use": "illegal", "medical": "none", "decriminalized": "no"},
+  "headline_status": "Cannabis is fully illegal in Idaho for both recreational and medical use.",
+  "summary": "Idaho has no medical or adult-use cannabis program, and possessing even small amounts is a criminal misdemeanor; since January 1, 2026 that offense carries a mandatory minimum $300 fine. Hemp products may not contain any THC. On November 3, 2026, voters rejected HJR 4, a constitutional amendment that would have barred citizen initiatives on cannabis, by roughly two to one, so the initiative route to legalization stays open.",
+  "facts": {
+    "possession_limit": {"value": "No amount is legal. Possession of 3 ounces or less is a misdemeanor; more than 3 ounces is a felony.", "source": "https://norml.org/laws/idaho-penalties/", "as_of": "2026-11-07"},
+    "penalties": {"value": "3 oz or less: misdemeanor, up to 1 year in jail and up to $1,000, with a mandatory minimum $300 fine under H0007 (effective January 1, 2026). Over 3 oz up to 1 lb: felony, up to 5 years and $10,000.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed. Growing any amount is a felony, with mandatory minimum prison terms starting at 25 plants or 1 pound.", "source": "https://norml.org/laws/idaho-penalties/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None. Idaho licenses no cannabis businesses of any kind.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"},
+    "medical_program": {"value": "None. A 2026 medical cannabis initiative fell short of the ballot with 58,024 verified signatures against 70,725 required.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Idaho was the last state to legalize hemp production and allows no THC at all in hemp products.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2025-03", "event": "Legislature refers HJR 4, an amendment to bar citizen-initiated drug legalization, to the 2026 ballot", "source": "https://idahocapitalsun.com/2025/03/11/idaho-senate-signs-off-on-proposed-anti-marijuana-constitutional-amendment/"},
+    {"date": "2026-01-01", "event": "H0007 takes effect, imposing a mandatory minimum $300 fine for simple possession", "source": "https://www.mpp.org/states/idaho/?state=ID"},
+    {"date": "2026", "event": "Medical cannabis initiative fails to qualify for the November ballot", "source": "https://www.mpp.org/states/idaho/?state=ID"},
+    {"date": "2026-11-03", "event": "Voters defeat HJR 4, about 66% No to 34% Yes (unofficial)", "source": "https://ballotpedia.org/Idaho_Prohibit_Citizen-Initiated_Measures_on_Marijuana,_Narcotics,_and_Psychoactive_Substances_Amendment_(2026)"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Idaho?", "a": "No. Idaho bans both recreational and medical cannabis, and possessing any amount is a crime."},
+    {"q": "What is the penalty for marijuana possession in Idaho?", "a": "Up to 3 ounces is a misdemeanor punishable by up to a year in jail and a $1,000 fine, with a $300 minimum fine since 2026. More than 3 ounces is a felony."},
+    {"q": "Is CBD legal in Idaho?", "a": "Only hemp products with no THC at all are allowed under Idaho law."},
+    {"q": "What happened with Idaho's marijuana amendment in 2026?", "a": "Voters rejected HJR 4 on November 3, 2026, by roughly 66% to 34%, so citizens keep the ability to propose cannabis initiatives."}
+  ],
+  "sources": [
+    {"name": "Ballotpedia – Idaho HJR 4 (2026)", "url": "https://ballotpedia.org/Idaho_Prohibit_Citizen-Initiated_Measures_on_Marijuana,_Narcotics,_and_Psychoactive_Substances_Amendment_(2026)"},
+    {"name": "Marijuana Policy Project – Idaho", "url": "https://www.mpp.org/states/idaho/?state=ID"},
+    {"name": "NORML – Idaho penalties", "url": "https://norml.org/laws/idaho-penalties/"},
+    {"name": "Idaho Capital Sun", "url": "https://idahocapitalsun.com/2025/03/11/idaho-senate-signs-off-on-proposed-anti-marijuana-constitutional-amendment/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

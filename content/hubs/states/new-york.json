@@ -1,0 +1,53 @@
+{
+  "id": "us/new-york",
+  "type": "us_state",
+  "name": "New York",
+  "abbr": "NY",
+  "tags": ["New York"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal in New York for adults 21+.",
+  "summary": "New York legalized adult-use cannabis when the Marijuana Regulation and Taxation Act was signed on March 31, 2021, and the first licensed sale took place in Manhattan on December 29, 2022. Adults 21+ may carry up to 3 ounces of cannabis and 24 grams of concentrate and may grow a limited number of plants at home. The Office of Cannabis Management regulates the market, and in August 2026 a new law let microbusinesses and dispensaries sell at approved community events.",
+  "facts": {
+    "adult_use_since": {"value": "March 31, 2021, when the Marijuana Regulation and Taxation Act (MRTA) was signed.", "source": "https://www.nixonpeabody.com/insights/alerts/2021/04/01/cuomo-signs-legislation-legalizing-adult-use-marijuana", "as_of": "2026-11-07"},
+    "medical_since": {"value": "2014, when the legislature first enacted a restrictive medical cannabis law.", "source": "https://mpp.org/ny", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 3 oz of cannabis and up to 24 g of concentrated cannabis for adults 21+.", "source": "https://cannabis.ny.gov/adult-use-information", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 6 plants per adult (3 mature, 3 immature) and no more than 12 per household; plants must be secured from anyone under 21 and homegrown cannabis cannot be sold.", "source": "https://cannabis.ny.gov/adult-use-information", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://cannabis.ny.gov/adult-use", "as_of": "2026-11-07"},
+    "public_use": {"value": "Generally allowed at home and where tobacco smoking is allowed, but banned in vehicles, state parks, public outdoor spaces where smoking is barred, federal land and many businesses; localities may fine up to $50.", "source": "https://cannabis.ny.gov/adult-use-information", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed adult-use sales began December 29, 2022 at Housing Works Cannabis Co in Manhattan.", "source": "https://www.governor.ny.gov/news/governor-hochul-announces-first-adult-use-cannabis-retail-sales-made-new-york-state-history", "as_of": "2026-11-07"},
+    "taxes": {"value": "9% state retail excise tax plus a 4% local excise tax paid by consumers, and a 9% wholesale excise tax paid by distributors.", "source": "https://cannabis.ny.gov/adult-use-information", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Since January 24, 2022, registered practitioners may certify patients for any condition they believe cannabis can help, rather than a fixed list.", "source": "https://mpp.org/ny", "as_of": "2026-11-07"},
+    "regulator": {"value": "Office of Cannabis Management, overseen by the Cannabis Control Board.", "source": "https://cannabis.ny.gov/adult-use", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Businesses that process, make or sell cannabinoid hemp products must hold a license from OCM's Cannabinoid Hemp Program.", "source": "https://cannabis.ny.gov/cannabinoid-hemp", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2014", "event": "Legislature enacts New York's first, restrictive medical cannabis law", "source": "https://mpp.org/ny"},
+    {"date": "2021-03-31", "event": "Gov. Cuomo signs the Marijuana Regulation and Taxation Act, legalizing adult use", "source": "https://www.nixonpeabody.com/insights/alerts/2021/04/01/cuomo-signs-legislation-legalizing-adult-use-marijuana"},
+    {"date": "2022-01-24", "event": "Practitioners allowed to certify medical patients for any condition", "source": "https://mpp.org/ny"},
+    {"date": "2022-12-29", "event": "First licensed adult-use sale at Housing Works Cannabis Co in Manhattan", "source": "https://www.governor.ny.gov/news/governor-hochul-announces-first-adult-use-cannabis-retail-sales-made-new-york-state-history"},
+    {"date": "2026-08-06", "event": "Gov. Hochul signs S.10113/A.11217 letting microbusinesses and dispensaries sell at approved community events", "source": "https://www.governor.ny.gov/news/governor-hochul-signs-cannabis-bill-law-expanding-opportunities-microbusinesses-and"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in New York?", "a": "Yes. Adults 21 and older can legally possess, use and buy cannabis from licensed dispensaries, and patients can enroll in the medical program."},
+    {"q": "How much weed can you have in New York?", "a": "Adults may possess up to 3 ounces of cannabis and up to 24 grams of concentrate."},
+    {"q": "Can you grow weed at home in New York?", "a": "Yes. Each adult may grow up to six plants (three mature), with a cap of 12 plants per household."},
+    {"q": "Where can you smoke weed in New York?", "a": "Generally at home or where tobacco smoking is permitted. It is banned in cars, state parks and other public spaces where smoking is prohibited, and landlords or hotels can ban it."},
+    {"q": "What is the cannabis tax in New York?", "a": "Shoppers pay a 9% state excise tax plus a 4% local excise tax, and distributors pay a separate 9% wholesale excise tax."}
+  ],
+  "sources": [
+    {"name": "New York Office of Cannabis Management, Adult-Use Information", "url": "https://cannabis.ny.gov/adult-use-information"},
+    {"name": "New York Office of Cannabis Management, Adult-Use", "url": "https://cannabis.ny.gov/adult-use"},
+    {"name": "New York Office of Cannabis Management, Cannabinoid Hemp", "url": "https://cannabis.ny.gov/cannabinoid-hemp"},
+    {"name": "Office of the Governor, first adult-use sales", "url": "https://www.governor.ny.gov/news/governor-hochul-announces-first-adult-use-cannabis-retail-sales-made-new-york-state-history"},
+    {"name": "Office of the Governor, S.10113/A.11217 signing", "url": "https://www.governor.ny.gov/news/governor-hochul-signs-cannabis-bill-law-expanding-opportunities-microbusinesses-and"},
+    {"name": "Marijuana Policy Project, New York", "url": "https://mpp.org/ny"},
+    {"name": "Nixon Peabody", "url": "https://www.nixonpeabody.com/insights/alerts/2021/04/01/cuomo-signs-legislation-legalizing-adult-use-marijuana"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
