@@ -1,0 +1,35 @@
+{
+  "id": "country/botswana",
+  "type": "country",
+  "name": "Botswana",
+  "tags": ["Botswana"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
+  "headline_status": "Recreational cannabis is illegal in Botswana, but since January 2026 licensed companies may grow and process cannabis for industrial, medicinal and research purposes.",
+  "summary": "Botswana's Cannabis Act of 2025 and the Cannabis Regulations gazetted on 12 January 2026 created a licensing system for industrial (hemp-type), medicinal and research cannabis, overseen by a National Cannabis Control Authority. Industrial cannabis is capped at 0.7% THC, and every stage of the supply chain needs a licence. Personal possession, home growing and recreational sales remain illegal. The government has said it will support hemp in phases, starting with trials at the Botswana University of Agriculture and Natural Resources.",
+  "facts": {
+    "penalties": {"value": "Possession outside the licensed framework remains a criminal offence; licence breaches can lead to suspension or revocation.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; only licensed operators may cultivate.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No recreational sales. Licensed cultivation, processing, transport, distribution, import and export are allowed for industrial, medicinal and research purposes.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Industrial cannabis may contain up to 0.7% THC; crops above that must be reported and destroyed under supervision.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"},
+    "regulator": {"value": "National Cannabis Control Authority, established under the Cannabis Act of 2025.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Medicinal cannabis may be produced only by licensed operators; the regulations focus on the supply chain rather than patient access.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors have no legal access: personal possession outside the licensed framework is a criminal offence and there are no sales.", "source": "https://cannabislaw.report/?p=275176", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2018", "event": "First cannabis licence granted to Fresh Standard Limited (later revoked, then reinstated in 2022 after a court challenge)", "source": "https://hemptoday.net/botswana-government-says-it-will-support-hemp-after-issuing-strict-regulations/"},
+    {"date": "2026-01-12", "event": "Cannabis Regulations published under the Cannabis Act of 2025, licensing industrial, medicinal and research cannabis", "source": "https://cannabislaw.report/?p=275176"},
+    {"date": "2026", "event": "Hemp Innovations Botswana receives the country's second cannabis licence; finance minister pledges phased support for hemp", "source": "https://hemptoday.net/botswana-government-says-it-will-support-hemp-after-issuing-strict-regulations/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Botswana?", "a": "No. Recreational possession, growing and sale remain illegal. Only licensed companies may produce cannabis for industrial, medicinal or research use."},
+    {"q": "Is hemp legal in Botswana?", "a": "Yes, under licence since January 2026, as 'industrial cannabis' with no more than 0.7% THC."},
+    {"q": "Who regulates cannabis in Botswana?", "a": "The National Cannabis Control Authority, created under the Cannabis Act of 2025."}
+  ],
+  "sources": [
+    {"name": "Cannabis Law Report", "url": "https://cannabislaw.report/?p=275176"},
+    {"name": "HempToday", "url": "https://hemptoday.net/botswana-government-says-it-will-support-hemp-after-issuing-strict-regulations/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
