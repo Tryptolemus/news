@@ -1,0 +1,41 @@
+{
+  "id": "country/australia",
+  "type": "country",
+  "name": "Australia",
+  "tags": ["Australia"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
+  "headline_status": "Recreational cannabis is illegal under Australian federal law, though the ACT exempts small personal amounts and home growing; medicinal cannabis has been prescribable since 2016.",
+  "summary": "Cannabis remains illegal under Commonwealth law across Australia. Since 31 January 2020 the Australian Capital Territory has exempted adults from criminal liability for holding up to 50 g and growing two plants each, but selling and public use remain offences. Medicinal cannabis has been legally available since 2016 for conditions where approved treatments have failed, and after rapid telehealth-driven growth, regulators began clamping down on high-volume prescribers in 2025, with sales falling 28.5% in the second half of that year.",
+  "facts": {
+    "possession_limit": {"value": "ACT only: adults may hold up to 50 g of dried or 150 g of fresh cannabis without criminal liability. Commonwealth law still applies nationwide.", "source": "https://www.police.act.gov.au/node/335", "as_of": "2026-11-07"},
+    "home_grow": {"value": "ACT only: up to two plants per adult and four per household, not grown hydroponically or artificially and not accessible to the public.", "source": "https://www.police.act.gov.au/node/335", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "ACT personal-use exemptions apply only to people over 18.", "source": "https://www.police.act.gov.au/node/335", "as_of": "2026-11-07"},
+    "public_use": {"value": "ACT: using cannabis in public or exposing children to cannabis smoke is an offence; driving with any cannabis in your system is an offence.", "source": "https://www.police.act.gov.au/node/335", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None. Even in the ACT it is an offence to sell, share or gift cannabis.", "source": "https://www.police.act.gov.au/node/335", "as_of": "2026-11-07"},
+    "medical_since": {"value": "2016.", "source": "https://www.indailysa.com.au/news/in-depth/2025/07/14/the-regulator-is-clamping-down-on-medicinal-cannabis-heres-why", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Doctors can prescribe medicinal cannabis (capsules, oils or dried flower) for any condition where approved treatments have not worked. Since July 2025 Ahpra has said it will investigate unusually high prescribers, and the TGA is reviewing the framework.", "source": "https://www.indailysa.com.au/news/in-depth/2025/07/14/the-regulator-is-clamping-down-on-medicinal-cannabis-heres-why", "as_of": "2026-11-07"},
+    "regulator": {"value": "Therapeutic Goods Administration (medicinal products) and Ahpra (practitioner conduct); possession laws are set by states and territories alongside Commonwealth law.", "source": "https://www.penington.org.au/medicinal-cannabis-sales-fall-nearly-30-as-enforcement-crackdown-takes-effect/", "as_of": "2026-11-07"},
+    "tourists": {"value": "There is no legal way for visitors to buy cannabis; the ACT exemption covers only personal possession and home growing, and Commonwealth law applies everywhere.", "source": "https://www.police.act.gov.au/node/335", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2016", "event": "Medicinal cannabis becomes legally available on prescription", "source": "https://www.indailysa.com.au/news/in-depth/2025/07/14/the-regulator-is-clamping-down-on-medicinal-cannabis-heres-why"},
+    {"date": "2020-01-31", "event": "ACT personal-use exemptions take effect (50 g, two plants per adult)", "source": "https://www.police.act.gov.au/node/335"},
+    {"date": "2025-07-09", "event": "Ahpra issues guidance targeting high-volume prescribing of medicinal cannabis", "source": "https://www.indailysa.com.au/news/in-depth/2025/07/14/the-regulator-is-clamping-down-on-medicinal-cannabis-heres-why"},
+    {"date": "2026-04-16", "event": "Data show medicinal cannabis sales fell 28.5% in the second half of 2025 after the crackdown", "source": "https://www.penington.org.au/medicinal-cannabis-sales-fall-nearly-30-as-enforcement-crackdown-takes-effect/"}
+  ],
+  "pending": [
+    {"item": "TGA review of the medicinal cannabis regulatory framework, prompted by safety concerns and telehealth prescribing.", "status": "Ongoing as of April 2026; no recommendations released.", "source": "https://www.penington.org.au/medicinal-cannabis-sales-fall-nearly-30-as-enforcement-crackdown-takes-effect/"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Australia?", "a": "Recreational cannabis is illegal under federal law. The ACT exempts adults holding up to 50 g or growing two plants from criminal liability, but sales remain illegal everywhere."},
+    {"q": "Can I get medical cannabis in Australia?", "a": "Yes. Doctors can prescribe it when approved treatments have not worked, though regulators have increased scrutiny of high-volume and telehealth prescribers since 2025."},
+    {"q": "Can tourists use cannabis in Canberra?", "a": "There are no legal sales. The ACT exemption covers personal possession and home growing only, and public use is an offence."}
+  ],
+  "sources": [
+    {"name": "ACT Policing – Drugs and the law", "url": "https://www.police.act.gov.au/node/335"},
+    {"name": "InDaily (The Conversation)", "url": "https://www.indailysa.com.au/news/in-depth/2025/07/14/the-regulator-is-clamping-down-on-medicinal-cannabis-heres-why"},
+    {"name": "Penington Institute", "url": "https://www.penington.org.au/medicinal-cannabis-sales-fall-nearly-30-as-enforcement-crackdown-takes-effect/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

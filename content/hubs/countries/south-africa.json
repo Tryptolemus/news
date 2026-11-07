@@ -1,0 +1,41 @@
+{
+  "id": "country/south-africa",
+  "type": "country",
+  "name": "South Africa",
+  "tags": ["South Africa"],
+  "legal": {"adult_use": "legal_no_sales", "medical": "limited", "decriminalized": "yes"},
+  "headline_status": "Adult private use, possession and growing of cannabis are constitutionally protected in South Africa, but buying and selling remain illegal and the 2024 law setting limits is not yet in force.",
+  "summary": "South Africa's Constitutional Court, in the 2018 Prince judgment, struck down laws criminalising private cannabis use, possession and cultivation by adults. Parliament responded with the Cannabis for Private Purposes Act, signed on 28 May 2024, which removes cannabis from the drug trafficking law but keeps dealing illegal. The Act is not yet in effect: draft regulations published in February 2026 proposed limits of 750 g and five plants, and as of October 2026 they had not been brought into force.",
+  "facts": {
+    "adult_use_since": {"value": "Private adult use has been constitutionally protected since the 2018 Prince judgment; the Cannabis for Private Purposes Act was signed on 28 May 2024 but has not commenced.", "source": "https://www.bizcommunity.com/article/understanding-the-new-cans-and-cants-of-cannabis-in-south-africa-847863a", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No limit in force yet. Draft regulations (February 2026) propose up to 750 g per adult per day for private use, including while transporting it out of view.", "source": "https://www.bizcommunity.com/article/understanding-the-new-cans-and-cants-of-cannabis-in-south-africa-847863a", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Private cultivation is protected; draft regulations propose a cap of five plants per adult at any time.", "source": "https://www.bizcommunity.com/article/understanding-the-new-cans-and-cants-of-cannabis-in-south-africa-847863a", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None. The 2024 Act keeps dealing in cannabis prohibited and does not create a commercial market.", "source": "https://www.mondaq.com/southafrica/cannabis/1483142/sa-cannabis-for-private-purposes-act-signed-into-law", "as_of": "2026-11-07"},
+    "regulator": {"value": "Department of Justice and Constitutional Development, which issued the draft regulations under the Act.", "source": "https://acts.co.za/news/blog/2026/02/cannabis-private-purposes-act-draft-regulations", "as_of": "2026-11-07"},
+    "penalties": {"value": "Once the Act and regulations commence, possessing or growing more than the prescribed maximum will be a separate offence; dealing remains illegal.", "source": "https://www.businessday.co.za/opinion/2026-10-27-charl-botha-cannabis-reform-remains-trapped-in-the-logic-of-prohibition/", "as_of": "2026-11-07"},
+    "tourists": {"value": "The protection covers private use only and there is no legal way to buy cannabis, so visitors have no lawful source of supply.", "source": "https://www.mondaq.com/southafrica/cannabis/1483142/sa-cannabis-for-private-purposes-act-signed-into-law", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2018", "event": "Constitutional Court's Prince judgment strikes down criminalisation of private adult cannabis use, possession and cultivation", "source": "https://www.bizcommunity.com/article/understanding-the-new-cans-and-cants-of-cannabis-in-south-africa-847863a"},
+    {"date": "2024-05-28", "event": "President Ramaphosa signs the Cannabis for Private Purposes Act", "source": "https://www.mondaq.com/southafrica/cannabis/1483142/sa-cannabis-for-private-purposes-act-signed-into-law"},
+    {"date": "2026-02-03", "event": "Draft regulations published proposing 750 g possession and five-plant limits", "source": "https://www.bizcommunity.com/article/understanding-the-new-cans-and-cants-of-cannabis-in-south-africa-847863a"},
+    {"date": "2026-03-05", "event": "Public comment period on draft regulations closes", "source": "https://www.dailydispatch.co.za/business/2026-02-05-private-cannabis-possession-capped-at-750g/"}
+  ],
+  "pending": [
+    {"item": "Commencement of the Cannabis for Private Purposes Act and final regulations on possession, cultivation and transport limits.", "status": "Draft regulations consulted on until March 2026; not in force as of late October 2026.", "source": "https://www.businessday.co.za/opinion/2026-10-27-charl-botha-cannabis-reform-remains-trapped-in-the-logic-of-prohibition/"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in South Africa?", "a": "Private use, possession and growing by adults are protected by a 2018 court ruling, but buying and selling remain illegal."},
+    {"q": "How much cannabis can you have in South Africa?", "a": "No legal limit is in force yet. Draft regulations propose 750 g and five plants per adult."},
+    {"q": "Can tourists buy weed in South Africa?", "a": "No. There are no legal sales; the court protection covers only private use, possession and cultivation."}
+  ],
+  "sources": [
+    {"name": "Bizcommunity", "url": "https://www.bizcommunity.com/article/understanding-the-new-cans-and-cants-of-cannabis-in-south-africa-847863a"},
+    {"name": "Mondaq (Adams & Adams)", "url": "https://www.mondaq.com/southafrica/cannabis/1483142/sa-cannabis-for-private-purposes-act-signed-into-law"},
+    {"name": "Daily Dispatch", "url": "https://www.dailydispatch.co.za/business/2026-02-05-private-cannabis-possession-capped-at-750g/"},
+    {"name": "Business Day", "url": "https://www.businessday.co.za/opinion/2026-10-27-charl-botha-cannabis-reform-remains-trapped-in-the-logic-of-prohibition/"},
+    {"name": "Acts.co.za", "url": "https://acts.co.za/news/blog/2026/02/cannabis-private-purposes-act-draft-regulations"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

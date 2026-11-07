@@ -1,0 +1,38 @@
+{
+  "id": "country/israel",
+  "type": "country",
+  "name": "Israel",
+  "tags": ["Israel"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
+  "headline_status": "Recreational cannabis is illegal in Israel, but possessing up to 15 g for personal use draws only a fine, and the country runs one of the world's largest medical cannabis programmes.",
+  "summary": "Israel made personal cannabis use an administrative offence in April 2019, and 2022 regulations set a NIS 500 fine with no criminal record for possessing up to 15 g, while public use is fined NIS 1,000. The Israeli Medical Cannabis Agency licenses the medical supply chain, and since 1 April 2024 doctors can prescribe cannabis for a list of conditions instead of patients needing a special licence. In May 2026 a Health Ministry committee recommended tightening the programme, including phasing out smokable products, but those proposals still need approval.",
+  "facts": {
+    "possession_limit": {"value": "Up to 15 g for personal use is an administrative offence with a NIS 500 fine and no criminal record; above 15 g can bring up to three years in prison.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"},
+    "public_use": {"value": "Using cannabis in a public place carries a NIS 1,000 fine.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"},
+    "penalties": {"value": "Importing, trafficking or supplying cannabis can carry up to 20 years in prison; soldiers, police, prison guards, minors and inmates are excluded from the fine-only regime.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No recreational sales; cannabis is legally dispensed only to licensed or prescribed medical patients.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Since 1 April 2024 doctors can prescribe for conditions including cancer, Crohn's, MS, Parkinson's, epilepsy, autism and dementia; other patients need an IMCA licence. About 140,000 patients were licensed in 2024.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"},
+    "regulator": {"value": "Israeli Medical Cannabis Agency (IMCA), part of the Ministry of Health.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors are subject to the same rules: possession is fined, there are no recreational sales, and legal access requires an Israeli medical licence or prescription.", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2019-04", "event": "Temporary order makes personal cannabis use an administrative fine offence", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf"},
+    {"date": "2022", "event": "Regulations set NIS 500 fine for up to 15 g and remove the criminal record for the offence", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf"},
+    {"date": "2024-04-01", "event": "Prescription model takes effect, letting doctors prescribe medical cannabis for listed conditions", "source": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf"},
+    {"date": "2026-05", "event": "Health Ministry committee recommends phasing out smokable medical cannabis and moving treatment to HMOs", "source": "https://www.ynetnews.com/opinions-analysis/article/sjzfkjbrwx"}
+  ],
+  "pending": [
+    {"item": "Committee recommendations to phase out smokable medical cannabis within three years, shift treatment to HMOs within a year, restrict PTSD approvals and lower THC doses.", "status": "Recommended in May 2026; awaiting approval by the Health Ministry director-general and political sign-off.", "source": "https://www.ynetnews.com/opinions-analysis/article/sjzfkjbrwx"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Israel?", "a": "No, but possessing up to 15 g for personal use is punished only with a NIS 500 fine and no criminal record."},
+    {"q": "How do you get medical cannabis in Israel?", "a": "Since April 2024 doctors can prescribe it for listed conditions such as cancer, MS and epilepsy; other cases need a licence from the Israeli Medical Cannabis Agency."},
+    {"q": "Can tourists use cannabis in Israel?", "a": "There is no legal recreational supply, and visitors caught with cannabis face the same fines and penalties as residents."}
+  ],
+  "sources": [
+    {"name": "Herzog Fox & Neeman", "url": "https://herzoglaw.co.il/wp-content/uploads/2025/11/004_ISRAEL.pdf"},
+    {"name": "Ynetnews / Calcalist", "url": "https://www.ynetnews.com/opinions-analysis/article/sjzfkjbrwx"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
