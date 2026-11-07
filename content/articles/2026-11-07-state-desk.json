@@ -1,0 +1,106 @@
+{
+  "id": "state-desk-nov-7",
+  "edition": "2026-11-07-am",
+  "rank": 7,
+  "published": "2026-11-07T06:08:14+02:00",
+  "cat": "States",
+  "headline": "State desk: Washington retail rules, Michigan tax portal, Maryland",
+  "dek": "Washington proposes rules on retail tie-ups, Michigan's tax portal reopens 12 November, California warns on product categories and Maryland passes $1 billion in sales.",
+  "key_points": [
+    "Washington's Liquor and Cannabis Board proposed rules on 4 November that count shared branding and purchasing toward the five-store limit and would ban processor-retailer exclusivity deals; comments close 10 December.",
+    "Michigan's marijuana excise-tax system reopens on 12 November on a new portal, and retailers must now file a separate return for each licence.",
+    "California's Department of Cannabis Control says a passing lab result does not protect a product logged under the wrong track-and-trace category.",
+    "Maryland's 2026 cannabis sales passed $1 billion a month earlier than last year, and the state is extending first-responder protections to out-of-state workers."
+  ],
+  "body": [
+    "Beyond the big federal and election stories, regulators in several states made changes this week that land directly on operators' desks: how retail groups may be structured in Washington, how taxes are filed in Michigan, how products are categorized in California, and who is protected in Maryland. Here is what changed and what to do about it.",
+    "## Washington: limits on retail tie-ups",
+    "The Washington State Liquor and Cannabis Board filed proposed rules on 4 November to carry out the state's retail financial-interest law, which took effect on 1 January, mg Magazine reported. Washington caps any one interest at five retail licences, and the proposal spells out which arrangements count toward that cap, including coordinated purchasing, shared branding, marketing and operational support.",
+    "The proposal would also expressly ban exclusivity agreements between processors and retailers, including some white-label and private-label arrangements. Written comments are due by 11:59 p.m. on 10 December, and the board expects to adopt rules no earlier than 6 January 2027, with no effective date yet. The board also proposed changes to rules on producer associations and cooperatives, Marijuana Moment noted.",
+    "For multi-store groups and brands with house-label deals, the practical step is to review purchasing, branding and management contracts now. The law is already in force even though the detailed rules are not.",
+    "> Washington is defining what counts as one company, and that changes how chains can grow.",
+    "## Michigan: new tax portal, one return per licence",
+    "Michigan's marijuana retail excise-tax service is due to reopen on 12 November after a planned outage that began on 30 October while the state moved filing to the MiTreasury eServices Business Portal. Existing account connections do not carry over: taxpayers and their preparers will need details from their most recent return to reconnect, though existing MiLogin for Business credentials still work.",
+    "The bigger change is structural. For any tax period filed after 30 October, retailers must file a separate return for each licence number, so a location holding several licences files several returns, according to the state treasury instructions summarized by mg Magazine. Sales tax stays in Michigan Treasury Online. Treasury has warned that late filing and payment may still draw penalties and interest despite the outage.",
+    "## California: a passing COA is not enough",
+    "California's Department of Cannabis Control has updated its guidance on item categories in the track-and-trace system. A product logged in the wrong category may skip required tests, face delayed lab results or be blocked from transfer, and the agency warned that a passing certificate of analysis does not fix that. Misclassified products found at retail may be treated as adulterated and misbranded, which can lead to an embargo, a recall or both, plus fines.",
+    "Manufacturers, distributors and retail receiving teams should check that system categories match the actual goods.",
+    "## Maryland: $1 billion again, and wider first-responder protections",
+    "Maryland's legal market has passed $1 billion in 2026 sales, the third straight year it has crossed that mark, and a month earlier than in 2025, The Marijuana Herald reported. Sales reached $917.23 million through September, and the Maryland Cannabis Administration confirmed that October sales exceeded the $83 million needed to cross the line.",
+    "Separately, the administration is creating a registration route for firefighters and emergency medical workers who work in Maryland but live in another state. Under Senate Bill 439, eligible workers with valid Maryland medical cannabis certifications are protected from workplace discrimination based only on their certification or a positive cannabis test. The agency has opened an interest form ahead of formal registration.",
+    "## Also this week",
+    "New York regulators began accepting applications for cannabis nursery licences, and Minnesota regulators are taking applications for hemp business licences, Marijuana Moment reported. In Florida, Verano Holdings opened its 87th medical dispensary, a MÜV store in Fernandina Beach, bringing its national count to 164 locations in 13 states, according to The Marijuana Herald. Verano recently reported quarterly revenue of $212 million, about 5% higher than a year earlier.",
+    "## What to watch",
+    "Michigan retailers should confirm portal access as soon as it reopens on 12 November. Washington comments are due on 10 December, with adoption no earlier than 6 January 2027. Maryland's full-year sales figure, which the state could set as a record, will follow in January."
+  ],
+  "sources": [
+    {
+      "name": "mg Magazine (Operator Bulletin)",
+      "url": "https://mgmagazine.com/cannabis-news/operator-bulletin-november-6-2026/"
+    },
+    {
+      "name": "Marijuana Moment (newsletter, 6 November)",
+      "url": "https://www.marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"
+    },
+    {
+      "name": "The Marijuana Herald (daily brief)",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-6-2026/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "5",
+    "label": "retail licences one interest may hold in Washington"
+  },
+  "banner": {
+    "title": "New Rules In Four States",
+    "highlight": [
+      "FOUR",
+      "STATES"
+    ],
+    "sub": "Washington, Michigan, California and Maryland act",
+    "divider": "States desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "WA comments due 10 Dec"
+      },
+      {
+        "icon": "coin",
+        "text": "MI tax portal back 12 Nov"
+      },
+      {
+        "icon": "chart",
+        "text": "MD sales top $1B"
+      }
+    ],
+    "corner": [
+      "STATES",
+      "RULES",
+      "TAX",
+      "RETAIL"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-12",
+      "text": "Michigan marijuana retail excise-tax filing reopens on the MiTreasury portal"
+    },
+    {
+      "date": "2026-12-10",
+      "text": "Comment deadline on Washington's proposed retail financial-interest rules"
+    }
+  ],
+  "tags": [
+    "Washington",
+    "Michigan",
+    "California",
+    "Maryland",
+    "Verano",
+    "Licensing",
+    "Florida"
+  ],
+  "image_prompt": "A back office of a dispensary, a laptop open beside stacked paper tax forms and a calculator, a hand holding a pen over a clipboard, afternoon light through blinds.",
+  "image_alt": "Tax forms and a laptop on a dispensary office desk",
+  "breaking": false
+}

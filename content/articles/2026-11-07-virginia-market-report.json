@@ -1,0 +1,93 @@
+{
+  "id": "virginia-market-report",
+  "edition": "2026-11-07-am",
+  "rank": 5,
+  "published": "2026-11-07T06:08:14+02:00",
+  "cat": "States",
+  "headline": "Virginia cannabis market worth $1.05B a year, state report finds",
+  "dek": "A study for Virginia's Cannabis Control Authority counts 872,216 monthly consumers and says 107 to 163 stores could serve the market when adult-use sales start on 1 July 2027.",
+  "key_points": [
+    "A 74-page report for the Virginia Cannabis Control Authority estimates residents spend $1.054B a year on cannabis, in a range of $835.7M to $1.27B.",
+    "About 872,216 adults 21 and older used cannabis in the past month, spending an average of $100.68 each.",
+    "The report models a starting need for about 135 stores (107 to 163) but recommends keeping the legal cap of 350 retail licences and issuing them in phases.",
+    "Even registered medical patients buy only 48% of their cannabis from regulated sources."
+  ],
+  "body": [
+    "Virginia now has its own measure of the market it is about to license. A 74-page report prepared by Cannabis Public Policy Consulting for the Virginia Cannabis Control Authority, and submitted to the General Assembly, estimates that residents spend $1.054 billion a year on cannabis, within a range of $835.7 million to $1.27 billion.",
+    "The figure covers spending from every source, including the state's medical dispensaries, unlicensed sellers, out-of-state stores and informal channels, according to The Marijuana Herald. It is a measure of existing demand, not a forecast of licensed sales, and it excludes purchases by tourists and other visitors. Virginia plans to begin adult-use sales on 1 July 2027.",
+    "## Who is buying",
+    "The report estimates that 872,216 Virginians aged 21 and older consumed cannabis in the past month, spending an average of $100.68 each, or about $87.8 million a month statewide.",
+    "Demand is spread unevenly. Central Virginia has the most consumers, about 282,231, spending $29.2 million a month. Northern Virginia follows with 253,055 consumers and $25 million. Eastern Virginia has 206,654 consumers spending $16.8 million, and southwest Virginia 130,277 consumers spending the same $16.8 million, because the southwest has the highest average spend per person at $128.85. Central Virginia averages $103.38, northern Virginia $98.99 and eastern Virginia $81.30.",
+    "Flower is the largest product category by both purchases and spending, with vapes and edibles also significant. The most striking finding for future licensees concerns patients: registered medical cannabis patients spend only 48% of their monthly cannabis budget at regulated sources such as dispensaries and caregivers. The rest goes elsewhere.",
+    "> Half of Virginia's medical patients already shop off the books; the new market's first job is to win them back.",
+    "## How many stores",
+    "Using the average monthly sales of Virginia's existing medical dispensaries, about $651,736 per location, as the benchmark, the researchers estimate a baseline need for about 135 retail locations, within a range of 107 to 163. At the top of that range, there would be roughly one store for every 5,351 monthly consumers, or about one for every 54,000 residents.",
+    "Different assumptions about sales per store produce a much wider spread, from 54 to 326 locations. That range is why the report does not recommend cutting the number of licences. It suggests keeping Virginia's statutory maximum of 350 stand-alone retail licences and issuing them in phases, adding businesses as real sales and demand become clear.",
+    "## Growing the supply",
+    "The report also sizes the cultivation the market would need: about 503,932 square feet of indoor canopy under its assumptions. It identifies three large Tier V cultivation licences as one possible part of the first round, alongside smaller growers and microbusinesses.",
+    "## Why it matters to operators",
+    "For companies planning to apply, the numbers describe existing demand on the scale of neighbouring Maryland, whose legal market has passed $1 billion in annual sales for a third straight year, according to The Marijuana Herald. But it could be a market where demand will be thin per store if the full 350 licences are issued quickly. The phased approach the report recommends would favour early entrants with stronger initial sales per location, and the patient finding points to an existing illicit and cross-border channel that licensed stores will need price and convenience to compete with.",
+    "The regional split also matters for siting. Central and northern Virginia hold most consumers and spending, while the southwest's higher spend per head points to fewer, busier stores there.",
+    "The headline number may also understate the opportunity. Because it leaves out tourists and out-of-state visitors, and because it counts only adults who used cannabis in the past month, licensed sales could eventually draw on demand beyond the $1.05 billion residents already spend. Against that, the report's own store model is built on the sales of today's medical dispensaries, which operate in a market with far fewer outlets than an adult-use system with hundreds of licences would have.",
+    "## What to watch",
+    "The Cannabis Control Authority is writing regulations and plans to start issuing licences in 2027, ahead of the 1 July 2027 sales date. Watch for draft rules on licence rounds and caps, how the authority treats the report's phasing recommendation, and whether lawmakers adjust the 350-licence ceiling when the General Assembly meets."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/state-commissioned-report-estimates-virginias-annual-marijuana-market-at-up-to-1-27-billion-with-872216-active-consumers/"
+    },
+    {
+      "name": "The Marijuana Herald (daily brief)",
+      "url": "https://themarijuanaherald.com/2026/11/daily-cannabis-news-brief-for-11-6-2026/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$1.05B",
+    "label": "estimated yearly cannabis spending in Virginia"
+  },
+  "banner": {
+    "title": "Virginia's $1B Cannabis Market",
+    "highlight": [
+      "$1B"
+    ],
+    "sub": "State report sizes demand ahead of July 2027 sales",
+    "divider": "States desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "872,216 monthly users"
+      },
+      {
+        "icon": "pin",
+        "text": "107 to 163 stores modelled"
+      },
+      {
+        "icon": "doc",
+        "text": "Keep 350-licence cap"
+      }
+    ],
+    "corner": [
+      "VIRGINIA",
+      "MARKET",
+      "LICENSING",
+      "RETAIL"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2027-07-01",
+      "text": "Virginia adult-use cannabis sales scheduled to begin"
+    }
+  ],
+  "tags": [
+    "Virginia",
+    "Licensing",
+    "Market data",
+    "Medical cannabis"
+  ],
+  "image_prompt": "A quiet main street in a small Virginia town in autumn, an empty brick storefront with papered-over windows awaiting a new tenant, fallen leaves on the pavement.",
+  "image_alt": "An empty brick storefront on a Virginia main street",
+  "breaking": false
+}

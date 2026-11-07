@@ -1,0 +1,103 @@
+{
+  "id": "canada-excise-stamp",
+  "edition": "2026-11-07-am",
+  "rank": 4,
+  "published": "2026-11-07T06:08:14+02:00",
+  "cat": "Markets",
+  "headline": "Canada's 2026 budget would cut cannabis excise stamps from 13 to six",
+  "dek": "Ottawa's 5 November budget proposes a common stamp for provinces with matching tax rates from 2028, with Ontario, Alberta and Saskatchewan invited to opt in by 31 January 2027.",
+  "key_points": [
+    "Budget 2026 proposes a single cannabis excise stamp for eight provinces and territories that share the same tax rate, cutting unique stamps from 13 to six.",
+    "Ontario, Alberta, Saskatchewan and Nunavut are invited to join and must say so by 31 January 2027.",
+    "Producers could use the common stamp from 1 January 2028; old stamps phase out by 30 June 2029, and stamped stock can sell through 31 December 2029.",
+    "The plan also adds penalties, including a fine of twice the duty on cannabis a producer cannot account for. It is a proposal until legislation passes."
+  ],
+  "body": [
+    "Canada's federal government wants to take one of the most-cited irritants out of the legal cannabis supply chain. Budget 2026, tabled on 5 November, proposes cutting the number of unique cannabis excise duty stamps from 13 to six by letting provinces and territories with identical tax rates share a common stamp.",
+    "For licensed producers, that means fewer packaging versions of the same product, less inventory locked to a single province and simpler compliance. It does not mean a single national market: product that has entered one province's duty-paid supply chain still largely cannot be shipped to another for sale. And it is a proposal until Parliament passes the legislation.",
+    "## How the stamp system works today",
+    "Federal excise on cannabis is set at C$1 per gram on products sold into provincial and territorial retail systems, with 75% of that revenue shared with the province or territory, StratCann explains. Every jurisdiction signed on except Manitoba, which collects its own. Ontario, Saskatchewan, Alberta and Nunavut have agreements that adjust their share to reflect sales-tax differences.",
+    "In practice, producers must buy and apply a stamp specific to each destination and pay that jurisdiction's exact rate before product is released. A company selling the same gummy or pre-roll pack nationally has to hold separate versions for each market. Producers have argued for years that this is costly and labour-intensive, and some in the industry had expected a unified stamp in the 2024 and 2025 budgets.",
+    "## What the budget proposes",
+    "Under the plan, a single stamp would cover British Columbia, Québec, New Brunswick, Prince Edward Island, Nova Scotia, Newfoundland and Labrador, Yukon and the Northwest Territories, which share the same rate. Ontario, Alberta, Saskatchewan and Nunavut would be invited to adopt it and have until 31 January 2027 to tell the federal finance and national revenue ministers.",
+    "Producers could begin applying the common stamp on 1 January 2028. Until 30 June 2029, product headed for participating markets could carry either the new stamp or the old regional one. After that, the common stamp would be mandatory for those jurisdictions, though stock already in wholesale and retail channels with old stamps could be sold until 31 December 2029.",
+    "Producers would still calculate, report and pay duty based on where each product is finally sold, The Marijuana Herald noted. The change simplifies the label, not the tax.",
+    "> A shared stamp is plumbing, but in a market where excise can eat half of net sales, plumbing matters.",
+    "## The enforcement side",
+    "The budget pairs the simplification with new penalties. Producers that cannot account for cannabis they reported holding would face a civil fine of twice the duty payable on it. Fines for selling or distributing unstamped edibles, topicals and extracts would be recalculated as two to three times the duty that would apply at set THC concentrations, which StratCann says could allow tougher action against unlicensed products. The Marijuana Herald reports penalties of up to C$25,000 for producers that misreport the destination of product carrying the common stamp.",
+    "Producers could take back returned inventory with the common stamp and resell it in another participating jurisdiction, but only by declaring the return and the new sale and settling any tax difference.",
+    "## Who gains, and the catch",
+    "Village Farms International welcomed the proposal, saying 13 stamps for the same product add needless cost and supply chain complexity, and urged more provinces to join. The size of the benefit depends on exactly that. Every province that keeps its own stamp, Ontario and Alberta included, is one more packaging version producers must still run, so the opt-in decisions will set how much the reform actually saves.",
+    "Excise is not a small line for Canadian producers. Canopy Growth, for example, paid about 53% of its net adult-use revenue in excise last quarter, according to StratCann's analysis of its results, which we cover in this edition.",
+    "## What to watch",
+    "The 31 January 2027 deadline for Ontario, Alberta, Saskatchewan and Nunavut to opt in is the key date. After that, watch for the implementing legislation, the Canada Revenue Agency's technical guidance on stamp ordering and destination reporting, and whether industry groups use the opening to push again for interprovincial sales, which this proposal does not address."
+  ],
+  "sources": [
+    {
+      "name": "StratCann",
+      "url": "https://stratcann.com/news/ottawa-outlines-cannabis-excise-stamp-reforms-in-2026-budget/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/canada-marijuana-stamp/"
+    },
+    {
+      "name": "StratCann (Canopy Growth Q2 excise)",
+      "url": "https://stratcann.com/financials/canopy-growth-q2-2027/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "big": "13 → 6",
+    "label": "cannabis excise stamps under Budget 2026",
+    "mon": "JAN",
+    "day": "31"
+  },
+  "banner": {
+    "title": "Canada Plans One Cannabis Stamp",
+    "highlight": [
+      "ONE",
+      "STAMP"
+    ],
+    "sub": "Budget would cut excise stamps from 13 to six",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Proposal in Budget 2026"
+      },
+      {
+        "icon": "pin",
+        "text": "8 regions share a stamp"
+      },
+      {
+        "icon": "coin",
+        "text": "Could start 1 Jan 2028"
+      }
+    ],
+    "corner": [
+      "CANADA",
+      "EXCISE",
+      "BUDGET",
+      "TAX"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2027-01-31",
+      "text": "Deadline for Ontario, Alberta, Saskatchewan and Nunavut to opt into Canada's common cannabis excise stamp"
+    },
+    {
+      "date": "2028-01-01",
+      "text": "Producers could start using the common excise stamp, if legislated"
+    }
+  ],
+  "tags": [
+    "Canada",
+    "Excise tax",
+    "Village Farms"
+  ],
+  "image_prompt": "A warehouse packing table in a Canadian cannabis facility, rolls of small adhesive tax stamps beside sealed product boxes, gloved hands applying a stamp, winter light from a high window.",
+  "image_alt": "Gloved hands applying excise stamps to cannabis packages",
+  "breaking": false
+}
