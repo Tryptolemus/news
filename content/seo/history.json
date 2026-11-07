@@ -25,5 +25,32 @@
   "score_structure": 93.8,
   "score_scale": 7.4,
   "score_total": 63.4
+ },
+ {
+  "at": "2026-11-07T09:46:07+00:00",
+  "label": "Round 1: 51 state hubs + 12 explainers",
+  "pages_indexable": 130,
+  "articles": 22,
+  "hub_pages": 93,
+  "evergreen_ratio_pct": 71.5,
+  "sitemap_coverage_pct": 99.2,
+  "title_ok_pct": 93.1,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 96.2,
+  "single_h1_pct": 100.0,
+  "self_canonical_pct": 100.0,
+  "jsonld_pct": 94.6,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 100.0,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 0,
+  "avg_internal_links_per_article": 32.5,
+  "avg_inbound_links_per_article": 14.5,
+  "avg_inbound_links_per_hub": 16.6,
+  "avg_words_per_article": 1457,
+  "score_technical": 98.3,
+  "score_structure": 96.2,
+  "score_scale": 22.0,
+  "score_total": 71.0
  }
 ]

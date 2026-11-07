@@ -125,7 +125,7 @@ def kind(url):
         return "home"
     if re.match(r"^/\d{4}/\d{2}/\d{2}/", url):
         return "article"
-    for k in ("topic", "section", "stocks", "archive", "state", "country", "company", "law", "glossary", "guide"):
+    for k in ("topic", "section", "stocks", "archive", "legal", "explainers", "glossary", "company", "guide"):
         if url.startswith(f"/{k}/"):
             return k
     return "other"
@@ -172,7 +172,7 @@ def audit():
                 inbound[t].add(u)
     titles = Counter(p.title.strip() for p in indexable.values())
     arts = {u: p for u, p in indexable.items() if kind(u) == "article"}
-    hubs = {u: p for u, p in indexable.items() if kind(u) in ("topic", "state", "country", "company", "law", "glossary", "guide", "stocks")}
+    hubs = {u: p for u, p in indexable.items() if kind(u) in ("topic", "legal", "explainers", "glossary", "company", "guide", "stocks")}
     n = len(indexable) or 1
     pct = lambda k: round(100 * k / n, 1)  # noqa: E731
     title_ok = sum(1 for p in indexable.values() if 25 <= len(p.title.strip()) <= 70)
