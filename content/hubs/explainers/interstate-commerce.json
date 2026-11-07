@@ -1,0 +1,94 @@
+{
+  "id": "explainer/interstate-commerce",
+  "type": "explainer",
+  "name": "Interstate cannabis commerce",
+  "tags": [
+    "Interstate commerce",
+    "Dormant Commerce Clause"
+  ],
+  "where_it_stands": "Moving marijuana across state lines remains unlawful in practice: adult-use marijuana is still Schedule I, and the April 2026 medical order did not authorize interstate sales. Federal appeals courts are split on whether the Constitution's dormant Commerce Clause protects out-of-state cannabis businesses, and lawyers expect partial rescheduling to fuel new challenges.",
+  "next_milestone": {
+    "text": "No dated event. The DEA judge's recommendation on full rescheduling and the D.C. Circuit challenge to the April order will shape the dormant Commerce Clause debate.",
+    "date": null,
+    "source": "https://www.congress.gov/crs-product/LSB11475"
+  },
+  "summary": "Every state cannabis market is walled off by federal law and, in most cases, by state bans on importing or exporting product. The April 2026 order lets DEA-registered medical licensees trade with each other, but only within the limits of their state licenses, and the FDA has not said whether interstate transfers would comply with drug law. Courts disagree on residency-based licensing: the First Circuit (Maine) and Second Circuit (New York) found the dormant Commerce Clause applies, while the Ninth Circuit held on 2 January 2026 that it does not protect a market Congress has outlawed. Some states, such as California through SB 1326, have authorized interstate agreements that switch on only if federal law or DOJ policy changes.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Product generally still cannot cross state lines; residency and local-ownership rules face litigation with different outcomes by circuit."
+    },
+    {
+      "for": "Investors",
+      "text": "A national market would favor low-cost growing states; that depends on Congress, a Supreme Court ruling or broader rescheduling."
+    },
+    {
+      "for": "Patients",
+      "text": "Patients cannot legally carry or ship medical cannabis between states, even if both run medical programs."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-09-18",
+      "event": "California enacts SB 1326, allowing interstate cannabis agreements once federal law or DOJ policy permits",
+      "source": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB1326"
+    },
+    {
+      "date": "2026-01-02",
+      "event": "Ninth Circuit rules the dormant Commerce Clause does not apply to residency rules for cannabis dispensaries, deepening a circuit split",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/01/02/24-3481.pdf"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Order placing state-licensed medical marijuana in Schedule III takes effect, limiting registrants to activity their state license allows",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-09-03",
+      "event": "CRS reviews the circuit split and notes the Supreme Court has not taken up the question",
+      "source": "https://www.congress.gov/crs-product/LSB11475"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I take cannabis from one legal state to another?",
+      "a": "No. Carrying marijuana across state lines remains a federal offense, and most states also prohibit importing or exporting it."
+    },
+    {
+      "q": "Did the Schedule III order allow interstate sales?",
+      "a": "No. Registrations are capped at what each state license allows, most states bar cross-border transfers, and the FDA has not addressed whether such transfers fit drug law."
+    },
+    {
+      "q": "Can states keep out-of-state cannabis owners?",
+      "a": "It depends on the circuit: courts covering Maine and New York have found such rules likely unconstitutional, while the Ninth Circuit upheld residency rules in Washington and Sacramento."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, LSB11475: State Marijuana Laws and the Dormant Commerce Clause (3 September 2026)",
+      "url": "https://www.congress.gov/crs-product/LSB11475"
+    },
+    {
+      "name": "U.S. Court of Appeals for the Ninth Circuit: Peridot Tree opinion (2 January 2026)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/01/02/24-3481.pdf"
+    },
+    {
+      "name": "California Legislative Information: SB 1326, Cannabis: interstate agreements (chaptered 18 September 2022)",
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220SB1326"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III (91 FR 22714)",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "Harris Sliwoski: Medical marijuana rescheduling Q&A (4 May 2026)",
+      "url": "https://harris-sliwoski.com/cannalawblog/medical-marijuana-rescheduling-qa-cutting-through-the-noise/"
+    },
+    {
+      "name": "Feldman Legal Advisors: After rescheduling, the three roads to interstate cannabis commerce (13 August 2026)",
+      "url": "https://www.feldmanlegaladvisors.com/news/after-rescheduling-the-three-roads-to-interstate-cannabis-commerce"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

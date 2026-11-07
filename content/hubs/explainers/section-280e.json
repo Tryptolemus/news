@@ -1,0 +1,94 @@
+{
+  "id": "explainer/section-280e",
+  "type": "explainer",
+  "name": "Section 280E tax",
+  "tags": [
+    "Section 280E",
+    "280E"
+  ],
+  "where_it_stands": "Section 280E bars ordinary business deductions for trafficking in Schedule I or II drugs, so it stopped applying to state-licensed medical marijuana when that marijuana moved to Schedule III in April 2026. Treasury says relief starts with the 2026 tax year, but the IRS has not issued the promised guidance on splitting medical and adult-use activity, and adult-use businesses remain fully subject to 280E.",
+  "next_milestone": {
+    "text": "Treasury and IRS guidance under Section 280E, listed in the 2026-2027 Priority Guidance Plan; no release date has been set.",
+    "date": null,
+    "source": "https://www.marijuanamoment.net/federal-officials-say-marijuana-industry-tax-guidance-will-be-a-priority-for-the-next-year/"
+  },
+  "summary": "Section 280E of the Internal Revenue Code denies deductions and credits to a business that traffics in Schedule I or II controlled substances, leaving most marijuana companies taxed on gross profit. Because the April 2026 order put state-licensed medical marijuana in Schedule III, Treasury said rescheduling generally removes the 280E bar for that activity, and that a transition rule will apply it to the full taxable year containing the order's effective date. The order encouraged Treasury to consider relief for earlier years, but no retroactive relief has been announced, and law firms report the IRS continues to defend 280E in Tax Court and audits. Adult-use marijuana remains in Schedule I, so 280E still applies to it.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Medical-only licensees can deduct normal business expenses for 2026 onward; mixed medical and adult-use businesses must allocate expenses and keep records while waiting for IRS apportionment rules."
+    },
+    {
+      "for": "Investors",
+      "text": "Lower effective tax rates for medical operations can lift after-tax earnings, but the size of the benefit for multistate operators depends on guidance that has not been published."
+    },
+    {
+      "for": "Patients",
+      "text": "No direct change, though some practitioners note patients may be able to treat Schedule III medical marijuana as a medical expense if other tax rules are met."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04-23",
+      "event": "Treasury and IRS announce forthcoming 280E guidance and a transition rule tied to the rescheduling order",
+      "source": "https://home.treasury.gov/news/press-releases/sb0471"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Order moving state-licensed medical marijuana to Schedule III takes effect; it says such licensees are no longer subject to 280E",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-09",
+      "event": "Law firms report the IRS has still not published the promised transition or apportionment guidance",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/september/section-280e-and-cannabis-tax-planning-recent-developments-and-practical-considerations/"
+    },
+    {
+      "date": "2026-10",
+      "event": "Treasury and IRS list 280E guidance in their 2026-2027 Priority Guidance Plan",
+      "source": "https://www.marijuanamoment.net/federal-officials-say-marijuana-industry-tax-guidance-will-be-a-priority-for-the-next-year/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does 280E still apply to cannabis businesses?",
+      "a": "It still applies to adult-use marijuana, which is Schedule I. For state-licensed medical marijuana, now Schedule III, Treasury says 280E generally no longer bars deductions starting with the 2026 tax year."
+    },
+    {
+      "q": "Is 280E relief retroactive?",
+      "a": "Not so far. The rescheduling order encouraged Treasury to consider relief for earlier years, but Treasury and the IRS have not granted it."
+    },
+    {
+      "q": "Do businesses need DEA registration to escape 280E?",
+      "a": "Treasury's statement ties relief to activity that no longer involves Schedule I or II substances; it has not issued detailed rules, so operators should confirm with tax counsel."
+    }
+  ],
+  "sources": [
+    {
+      "name": "U.S. Treasury: Treasury and IRS announce process for tax guidance after DOJ medical marijuana order (23 April 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0471"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III (91 FR 22714)",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "Congressional Research Service, LSB11424: Department of Justice Eases Control of Medical Marijuana (30 April 2026)",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11424/LSB11424.1.pdf"
+    },
+    {
+      "name": "Foley Hoag: Section 280E and cannabis tax planning (September 2026)",
+      "url": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/september/section-280e-and-cannabis-tax-planning-recent-developments-and-practical-considerations/"
+    },
+    {
+      "name": "Marijuana Moment: Federal officials list 280E guidance as a priority (5 October 2026)",
+      "url": "https://www.marijuanamoment.net/federal-officials-say-marijuana-industry-tax-guidance-will-be-a-priority-for-the-next-year/"
+    },
+    {
+      "name": "Sandberg Phoenix: Medical marijuana rescheduling and IRC 280E (August 2026)",
+      "url": "https://sandbergphoenix.com/medical-marijuana-rescheduling-and-internal-revenue-code-280e/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

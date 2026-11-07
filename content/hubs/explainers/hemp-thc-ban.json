@@ -1,0 +1,130 @@
+{
+  "id": "explainer/hemp-thc-ban",
+  "type": "explainer",
+  "name": "Federal hemp THC ban and new hemp definition",
+  "tags": [
+    "Hemp-derived THC",
+    "Hemp",
+    "Hemp THC ban"
+  ],
+  "where_it_stands": "A law signed on 12 November 2025 rewrites the federal definition of hemp so that most intoxicating hemp THC products stop qualifying as hemp. A September 2026 stopgap law pushed most of that change to 11 December 2026, but the exclusion of cannabinoids the cannabis plant cannot produce naturally still starts on 12 November 2026.",
+  "next_milestone": {
+    "text": "Products containing cannabinoids the cannabis plant cannot naturally produce lose federal hemp status; the rest of the new definition, including the total-THC test and 0.4 mg per-container cap, follows on 11 December 2026 unless Congress acts again.",
+    "date": "2026-11-12",
+    "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+  },
+  "summary": "Section 781 of Public Law 119-37 replaces the 2018 Farm Bill's delta-9-only test with a total-THC limit of 0.3% (counting THCA) and removes several product categories from the hemp definition: finished products with more than 0.4 milligrams of total THC (plus similar cannabinoids) per container, intermediate products above 0.3% total THC, and products containing cannabinoids that are synthesized outside the plant or that the plant cannot produce. Industrial hemp grown for fiber, grain and similar uses is expressly kept in. Public Law 119-103, the Continuing Appropriations and Extensions Act, 2027, moved most of the change from 12 November to 11 December 2026, leaving only the not-naturally-produced exclusion on the original date. Products that fall outside the definition are treated as marijuana or THC under the Controlled Substances Act. The FDA has not yet published the cannabinoid lists and container guidance the law requires.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Most hemp gummies, drinks, vapes and THCA flower sold today exceed the new limits; once the relevant date passes they are treated as controlled substances. Bills to delay further, repeal or regulate instead remain in committee."
+    },
+    {
+      "for": "Consumers",
+      "text": "Federal law would no longer cover intoxicating hemp products sold in gas stations and smoke shops; many states also have their own, sometimes earlier, restrictions."
+    },
+    {
+      "for": "Investors",
+      "text": "Hemp-derived THC brands face a hard federal cliff in December, while licensed marijuana operators and some state officials back the ban."
+    },
+    {
+      "for": "Patients",
+      "text": "Full-spectrum CBD products that carry more than 0.4 mg of THC-type cannabinoids per container are also caught by the cap."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-12-20",
+      "event": "2018 Farm Bill defines hemp as cannabis with no more than 0.3% delta-9 THC",
+      "source": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "date": "2025-11-12",
+      "event": "Public Law 119-37 enacted, redefining hemp around total THC and a 0.4 mg per-container cap, effective one year later",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2026-08-08",
+      "event": "Senate tables a Budd amendment to strip the hemp delay and passes the stopgap bill",
+      "source": "https://www.hemplawgroup.com/news/federal-hemp-ban-2026-where-things-stand"
+    },
+    {
+      "date": "2026-09-01",
+      "event": "House passes H.R. 6500 with the 30-day hemp delay, 370-48",
+      "source": "https://www.akerman.com/en/perspectives/congress-approves-one-month-delay-of-federal-hemp-thc-restrictions.html"
+    },
+    {
+      "date": "2026-09-02",
+      "event": "Stopgap law (Pub. L. 119-103) delays most of the new hemp definition to 11 December 2026",
+      "source": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "Exclusion for cannabinoids not naturally produced by the cannabis plant takes effect",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Remaining hemp definition changes take effect unless Congress acts",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "When does the federal hemp THC ban take effect?",
+      "a": "Most of it on 11 December 2026. One piece, excluding products with cannabinoids the plant cannot naturally produce (such as THC-O), starts on 12 November 2026."
+    },
+    {
+      "q": "What is the new limit for hemp products?",
+      "a": "A finished hemp product may contain no more than 0.4 milligrams of total THC, including THCA and similar cannabinoids, per container. Plants and intermediate products are measured against 0.3% total THC."
+    },
+    {
+      "q": "Is CBD banned?",
+      "a": "CBD itself remains hemp, but a CBD product that carries more than 0.4 mg of THC-type cannabinoids per container would fall outside the definition."
+    },
+    {
+      "q": "Could Congress delay it again?",
+      "a": "Yes. Bills would delay the change by two years, repeal it or replace it with regulation, but as of mid-October none had moved past committee. Hemp Law Group reports the White House said the 30-day delay was the last it would support."
+    }
+  ],
+  "sources": [
+    {
+      "name": "7 U.S.C. 1639o as amended by Pub. L. 119-37 (uscode.house.gov)",
+      "url": "https://uscode.house.gov/us/usc/119-136/t7/s1639o/"
+    },
+    {
+      "name": "Congressional Research Service, LSB11381: Changes to the Federal Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "name": "Congressional Research Service, IN12620: Change to Federal Definition of Hemp and Implications for Federal Enforcement",
+      "url": "https://www.congress.gov/crs-product/IN12620"
+    },
+    {
+      "name": "Congressional Research Service, IF13136: Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (updated 28 September 2026)",
+      "url": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "name": "Akerman LLP: Congress approves one-month delay of federal hemp THC restrictions (2 September 2026)",
+      "url": "https://www.akerman.com/en/perspectives/congress-approves-one-month-delay-of-federal-hemp-thc-restrictions.html"
+    },
+    {
+      "name": "Hemp Law Group: Federal hemp ban 2026, where things stand (updated 19 October 2026)",
+      "url": "https://www.hemplawgroup.com/news/federal-hemp-ban-2026-where-things-stand"
+    },
+    {
+      "name": "Marijuana Moment: Illinois leaders push for hemp THC ban to take effect (5 November 2026)",
+      "url": "https://www.marijuanamoment.net/illinois-governor-and-us-senator-push-for-federal-hemp-thc-product-ban-to-take-effect-without-further-delay/"
+    },
+    {
+      "name": "Congress.gov: H.R. 2, Agriculture Improvement Act of 2018 (Pub. L. 115-334)",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "explainer/delta-8-thc",
+  "type": "explainer",
+  "name": "Delta-8 and intoxicating hemp products",
+  "tags": [
+    "Delta-8",
+    "Delta-8 THC",
+    "THC-O"
+  ],
+  "where_it_stands": "Hemp-derived delta-8 THC has been sold nationwide under the 2018 Farm Bill's delta-9-only definition, which a federal appeals court endorsed in 2022. The new federal hemp definition counts delta-8 toward total THC and excludes cannabinoids synthesized outside the plant, so most delta-8 products lose federal hemp status on 11 December 2026; cannabinoids the plant cannot produce at all, such as THC-O, lose it on 12 November 2026.",
+  "next_milestone": {
+    "text": "Products with cannabinoids the plant cannot naturally produce, such as THC-O, lose federal hemp status; delta-8 and other naturally occurring THC forms follow on 11 December 2026.",
+    "date": "2026-11-12",
+    "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+  },
+  "summary": "Delta-8 THC occurs naturally in cannabis in small amounts and is usually made commercially by converting hemp CBD. In AK Futures v. Boyd Street Distro (2022) the Ninth Circuit found hemp-derived delta-8 products fit the Farm Bill's hemp definition, and in 2024 the Fourth Circuit extended similar reasoning to THC-O, even though DEA had said in 2023 that THC-O is a Schedule I controlled substance. Public Law 119-37 measures hemp by total THC, caps finished products at 0.4 mg per container, and excludes cannabinoids that are made outside the plant or that the plant cannot produce. The September 2026 stopgap law delayed most of this to 11 December, but kept 12 November for the not-naturally-produced category.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Delta-8 gummies, vapes and similar products will no longer be federally lawful hemp once the new definition applies; many states already restrict them."
+    },
+    {
+      "for": "Operators",
+      "text": "THC-O and other non-natural cannabinoids should be off shelves by 12 November; converted delta-8 products face the 11 December date."
+    },
+    {
+      "for": "Investors",
+      "text": "Bills to regulate rather than ban intoxicating hemp exist but had not advanced past committee as of mid-October 2026."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-12-20",
+      "event": "2018 Farm Bill defines hemp by delta-9 THC alone",
+      "source": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "date": "2022-05-19",
+      "event": "Ninth Circuit holds hemp-derived delta-8 THC products are lawful hemp",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/05/19/21-56133.pdf"
+    },
+    {
+      "date": "2024-09-04",
+      "event": "Fourth Circuit treats hemp-derived THC-O as hemp in Anderson v. Diamondback, contrary to DEA's 2023 view",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "date": "2025-11-12",
+      "event": "Public Law 119-37 counts all THC forms and excludes cannabinoids synthesized outside the plant",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2026-11-12",
+      "event": "Exclusion for cannabinoids the plant cannot naturally produce takes effect",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Total-THC limit and synthesis exclusion take effect for delta-8 and other products",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is delta-8 legal federally?",
+      "a": "Until 11 December 2026, hemp-derived delta-8 is generally treated as hemp under federal law. After that date, products exceeding the total-THC limits or made by converting CBD outside the plant are excluded from the hemp definition."
+    },
+    {
+      "q": "Is THC-O banned on 12 November?",
+      "a": "Yes. THC-O does not occur naturally in cannabis, so products containing it lose federal hemp status on 12 November 2026 and are treated as controlled substances."
+    },
+    {
+      "q": "Are states banning delta-8 too?",
+      "a": "Many states restrict it separately, and federal changes do not override stricter state rules."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "name": "Congressional Research Service, LSB11381: Changes to the Federal Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "name": "7 U.S.C. 1639o as amended by Pub. L. 119-37 (uscode.house.gov)",
+      "url": "https://uscode.house.gov/us/usc/119-136/t7/s1639o/"
+    },
+    {
+      "name": "U.S. Court of Appeals for the Ninth Circuit: AK Futures LLC v. Boyd Street Distro (19 May 2022)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/05/19/21-56133.pdf"
+    },
+    {
+      "name": "Congressional Research Service, IF13136: Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (updated 28 September 2026)",
+      "url": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "name": "Akerman LLP: Congress approves one-month delay of federal hemp THC restrictions (2 September 2026)",
+      "url": "https://www.akerman.com/en/perspectives/congress-approves-one-month-delay-of-federal-hemp-thc-restrictions.html"
+    },
+    {
+      "name": "Hemp Law Group: Federal hemp ban 2026, where things stand (updated 19 October 2026)",
+      "url": "https://www.hemplawgroup.com/news/federal-hemp-ban-2026-where-things-stand"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,102 @@
+{
+  "id": "explainer/federal-drug-testing",
+  "type": "explainer",
+  "name": "Medical cannabis and federal workplace drug testing",
+  "tags": [
+    "Drug testing",
+    "Workplace drug testing"
+  ],
+  "where_it_stands": "Federal and DOT-regulated drug testing for marijuana has not changed after the April 2026 rescheduling. DOT said on 15 May 2026 that state-licensed medical marijuana is never a legitimate medical explanation for a positive test, and HHS kept marijuana on the federal testing panel.",
+  "next_milestone": {
+    "text": "No dated event. DOT says its rules follow the HHS testing panel, which would only change after further federal action on marijuana's status.",
+    "date": null,
+    "source": "https://www.transportation.gov/odapc/part40QA/40-137"
+  },
+  "summary": "Federal agencies test under HHS's Mandatory Guidelines, and transportation employers test safety-sensitive workers under DOT's 49 CFR Part 40. A medical review officer can only cancel a positive result for a lawful prescription; DOT explains that state-dispensed marijuana is not FDA-approved and so cannot be prescribed, and that cards, physician certifications and dispensary receipts do not count. HHS's March 2026 notice left marijuana metabolite on the urine and oral fluid panels. For federal civilian staff, Executive Order 12564 and OPM guidance treat illegal drug use, on or off duty, as incompatible with federal service, though OPM requires case-by-case suitability decisions for past use; security-clearance lawyers say medical use remains disqualifying for clearance holders.",
+  "what_changes": [
+    {
+      "for": "Patients",
+      "text": "Federal employees, contractors in testing programs and DOT safety-sensitive workers cannot use a state medical card to excuse a positive marijuana test."
+    },
+    {
+      "for": "Operators",
+      "text": "Employers in DOT programs must keep testing for marijuana and treating positives as violations; state accommodation laws do not override Part 40."
+    },
+    {
+      "for": "Consumers",
+      "text": "Hemp-derived and CBD products can also cause positive tests, and DOT bars MROs from accepting hemp use as an explanation."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-12",
+      "event": "After the 18 December executive order, DOT says its marijuana testing rules will not change until rescheduling is complete",
+      "source": "https://www.transportation.gov/odapc/marijuana-notice"
+    },
+    {
+      "date": "2026-03-13",
+      "event": "HHS republishes federal workplace testing panels with marijuana unchanged",
+      "source": "https://www.federalregister.gov/documents/2026/03/13/2026-04981/mandatory-guidelines-for-federal-workplace-drug-testing-programs-authorized-testing-panels"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "DOT says MROs may not treat state-licensed marijuana as a legitimate medical explanation",
+      "source": "https://www.transportation.gov/odapc/part40QA/40-137"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can federal employees use medical marijuana now that it is Schedule III?",
+      "a": "Federal policy has not changed: drug testing continues, and a state medical card does not excuse a positive result because state-dispensed marijuana is not an FDA-approved prescription drug."
+    },
+    {
+      "q": "Can truck drivers or pilots use medical marijuana?",
+      "a": "No. DOT says marijuana use is incompatible with safety-sensitive duties and that medical-marijuana documentation does not change a positive test."
+    },
+    {
+      "q": "Does past marijuana use bar federal employment?",
+      "a": "Not automatically. OPM tells agencies to weigh past use case by case, though current illegal drug use is treated as disqualifying."
+    }
+  ],
+  "sources": [
+    {
+      "name": "U.S. DOT ODAPC: Part 40 Q&A on Schedule III state-licensed marijuana (15 May 2026)",
+      "url": "https://www.transportation.gov/odapc/part40QA/40-137"
+    },
+    {
+      "name": "U.S. DOT ODAPC: Notice on testing for marijuana",
+      "url": "https://www.transportation.gov/odapc/marijuana-notice"
+    },
+    {
+      "name": "U.S. DOT: 49 CFR 40.151",
+      "url": "https://www.transportation.gov/odapc/part40/40-151"
+    },
+    {
+      "name": "Federal Register: HHS Mandatory Guidelines for Federal Workplace Drug Testing, authorized testing panels (13 March 2026)",
+      "url": "https://www.federalregister.gov/documents/2026/03/13/2026-04981/mandatory-guidelines-for-federal-workplace-drug-testing-programs-authorized-testing-panels"
+    },
+    {
+      "name": "U.S. Office of Personnel Management: Assessing suitability on the basis of marijuana use; maintaining a drug-free workplace",
+      "url": "https://www.opm.gov/chcoc/transmittals/2021/Memo_Assessing%20Suitability%20on%20Basis%20of%20Marijuana%20Use_0_QA_05.24.2022_508_0.pdf"
+    },
+    {
+      "name": "Arnold & Porter: Any re-leaf for security clearance holders? (May 2026)",
+      "url": "https://www.arnoldporter.com/en/perspectives/blogs/enforcement-edge/2026/05/any-re-leaf-for-security-clearance-holders-and-applicants"
+    },
+    {
+      "name": "Seyfarth Shaw: DOT rejects state-licensed marijuana as basis to overturn positive tests (June 2026)",
+      "url": "https://www.seyfarth.com/news-insights/no-safe-harbor-dot-rejects-state-licensed-marijuana-as-basis-to-overturn-positive-drug-test-results.html"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III (91 FR 22714)",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

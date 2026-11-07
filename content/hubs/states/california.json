@@ -1,0 +1,98 @@
+{
+  "id": "us/california",
+  "type": "us_state",
+  "name": "California",
+  "abbr": "CA",
+  "tags": ["California"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+, with licensed retail sales since 2018.",
+  "summary": "California became the first state to allow medical cannabis in 1996, and voters legalized adult use with Proposition 64 in November 2016; licensed retail sales began January 1, 2018. Adults 21+ may possess up to 28.5 grams of flower and 8 grams of concentrate and grow six plants per residence. In 2025 the state rolled the cannabis excise tax back to 15% after a brief rise to 19%, and passed AB 8, which will fold intoxicating hemp into the licensed cannabis system by 2028.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Proposition 64 passed Nov. 8, 2016 (57% yes); personal possession and cultivation became legal Nov. 9, 2016.",
+      "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Voters passed the Compassionate Use Act in 1996, making California the first state to allow medical cannabis.",
+      "source": "https://cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Adults 21+ may possess up to 28.5 grams of cannabis and up to 8 grams of concentrate.",
+      "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 6 plants per private residence, in a locked area not visible from public view.",
+      "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older for adult use.",
+      "source": "https://cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Smoking is allowed in a private home or at a licensed business that permits on-site use, but banned in public places, where tobacco smoking is prohibited, and while driving.",
+      "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed adult-use retail sales began Jan. 1, 2018.",
+      "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "15% state excise tax plus state and local sales taxes, with combined rates reaching about 38%. The excise rate rose to 19% on July 1, 2025 but returned to 15% on Oct. 1, 2025 under AB 564.",
+      "source": "https://www.canorml.org/rollbackthetax/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Department of Cannabis Control (DCC).",
+      "source": "https://cannabis.ca.gov/cannabis-laws/laws-and-regulations/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Hemp products with any detectable THC are treated as intoxicating and restricted, and synthetic cannabinoids are banned. AB 8 (signed Oct. 2, 2025) added enforcement powers from Jan. 1, 2026 and, from Jan. 1, 2028, requires intoxicating hemp to be made, tested, taxed and sold like licensed cannabis.",
+      "source": "https://www.cannabis.ca.gov/cannabis-laws/hemp/",
+      "as_of": "2026-11-07"
+    },
+    "employment": {
+      "value": "Since Jan. 1, 2024, most employers may not penalize off-duty cannabis use or act on non-psychoactive metabolite drug tests (AB 2188 and SB 700), with exceptions such as construction jobs.",
+      "source": "https://www.mpp.org/states/california/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {"date": "1996", "event": "Voters approve the Compassionate Use Act, the first state medical cannabis law", "source": "https://cannabis.ca.gov/cannabis-laws/laws-and-regulations/"},
+    {"date": "2016-11-08", "event": "Voters approve Proposition 64 legalizing adult-use cannabis", "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)"},
+    {"date": "2018-01-01", "event": "Licensed adult-use retail sales and taxes begin", "source": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)"},
+    {"date": "2024-01-01", "event": "Workplace protections for off-duty cannabis use take effect", "source": "https://www.mpp.org/states/california/"},
+    {"date": "2025-07-01", "event": "Cannabis excise tax rises from 15% to 19%", "source": "https://www.canorml.org/rollbackthetax/"},
+    {"date": "2025-10-01", "event": "AB 564 returns the excise tax to 15%", "source": "https://www.canorml.org/rollbackthetax/"},
+    {"date": "2025-10-02", "event": "Gov. Newsom signs AB 8 regulating intoxicating hemp", "source": "https://www.cannabis.ca.gov/cannabis-laws/hemp/"},
+    {"date": "2028-01-01", "event": "Intoxicating hemp scheduled to move into the licensed cannabis system", "source": "https://www.cannabis.ca.gov/cannabis-laws/hemp/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in California?", "a": "Yes. Adults 21 and older can possess, grow and buy cannabis from licensed retailers, which have sold to adults since January 2018."},
+    {"q": "How much weed can you carry in California?", "a": "Up to 28.5 grams of cannabis and up to 8 grams of concentrate."},
+    {"q": "Can you grow cannabis at home in California?", "a": "Yes. Up to six plants per residence, in a locked area that cannot be seen from public view."},
+    {"q": "What is the cannabis tax in California?", "a": "The state excise tax is 15%, back down from a short-lived 19% rate in mid-2025, and state and local sales taxes are added on top."},
+    {"q": "Is delta-8 or hemp THC legal in California?", "a": "Hemp products with any detectable THC are restricted, and synthetic cannabinoids are banned. Under AB 8, intoxicating hemp is set to be sold only through the licensed cannabis system starting in 2028."}
+  ],
+  "sources": [
+    {"name": "California Department of Cannabis Control - Laws and regulations", "url": "https://cannabis.ca.gov/cannabis-laws/laws-and-regulations/"},
+    {"name": "California Department of Cannabis Control - Hemp", "url": "https://www.cannabis.ca.gov/cannabis-laws/hemp/"},
+    {"name": "Ballotpedia - California Proposition 64 (2016)", "url": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)"},
+    {"name": "California NORML - AB 564 tax rollback", "url": "https://www.canorml.org/rollbackthetax/"},
+    {"name": "Marijuana Policy Project - California", "url": "https://www.mpp.org/states/california/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

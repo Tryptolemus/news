@@ -1,0 +1,39 @@
+{
+  "id": "country/switzerland",
+  "type": "country",
+  "name": "Switzerland",
+  "tags": ["Switzerland"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
+  "headline_status": "Recreational cannabis with 1% THC or more is illegal in Switzerland, but small personal possession is not a crime, low-THC CBD flower is legal, and doctors can prescribe medical cannabis.",
+  "summary": "Swiss law bans cannabis with an average THC content of 1% or more, but possessing up to 10 g for personal use is not a criminal offence and adult use can be punished with a CHF 100 fixed fine. Flower under 1% THC can be sold legally. Since 2021 the law has allowed time-limited city pilot projects selling cannabis to registered participants, and since August 2022 doctors can prescribe medical cannabis without special federal permission. A parliamentary bill to regulate adult use is still being revised in committee.",
+  "facts": {
+    "possession_limit": {"value": "Possessing up to 10 g for personal use is not a criminal offence for adults.", "source": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html", "as_of": "2026-11-07"},
+    "penalties": {"value": "Since 2013, adult cannabis use can be punished with a CHF 100 fixed fine; how this is applied varies by canton.", "source": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Cannabis with less than 1% THC is outside the Narcotics Act; high-CBD flower under that limit can be legally bought and sold.", "source": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No general retail. Since May 2021 the Narcotics Act permits local, time-limited pilot projects that dispense cannabis to registered participants through pharmacies, non-profit outlets or social clubs.", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/", "as_of": "2026-11-07"},
+    "medical_since": {"value": "August 2022, when doctors could start prescribing cannabis medicines without an exceptional FOPH authorisation.", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Physicians prescribe directly; mandatory health insurance covers cannabis medicines only in exceptional cases.", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Federal Office of Public Health (FOPH/BAG).", "source": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors have no legal way to buy THC cannabis; they can legally buy CBD flower under 1% THC, and using regular cannabis risks the CHF 100 fixed fine.", "source": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2013", "event": "CHF 100 fixed fine introduced for adult cannabis use", "source": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html"},
+    {"date": "2021-05", "event": "Narcotics Act amendment allows local cannabis pilot projects", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/"},
+    {"date": "2022-08", "event": "Doctors can prescribe medical cannabis without special FOPH approval", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/"},
+    {"date": "2026-05", "event": "National Council health committee sends draft Cannabis Products Act back to a subcommittee for revision", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/"}
+  ],
+  "pending": [
+    {"item": "Cannabis Products Act (parliamentary initiative 20.473) would regulate adult-use sales and allow limited home growing.", "status": "Consultation completed; in May 2026 the National Council committee referred the draft back to a subcommittee. It still needs both chambers and could face a referendum.", "source": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Switzerland?", "a": "No, cannabis with 1% THC or more is illegal, but possessing up to 10 g is not a crime and use usually brings at most a CHF 100 fine. CBD flower under 1% THC is legal."},
+    {"q": "Can tourists buy cannabis in Switzerland?", "a": "Only low-THC CBD products. City pilot projects are for registered participants, and there are no open adult-use shops."},
+    {"q": "Is Switzerland legalising cannabis?", "a": "A bill to regulate adult use is in parliament but is being revised in committee, and any final law could be put to a referendum."}
+  ],
+  "sources": [
+    {"name": "Federal Office of Public Health – Cannabis", "url": "https://www.bag.admin.ch/bag/en/home/gesund-leben/sucht-und-gesundheit/cannabis.html"},
+    {"name": "Cansativa", "url": "https://www.cansativa.de/en/2026/07/30/from-pilot-projects-to-legislation-switzerland-as-a-cannabis-policy-lab/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

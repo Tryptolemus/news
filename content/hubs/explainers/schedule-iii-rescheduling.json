@@ -1,0 +1,125 @@
+{
+  "id": "explainer/schedule-iii-rescheduling",
+  "type": "explainer",
+  "name": "Marijuana rescheduling to Schedule III",
+  "tags": [
+    "Rescheduling",
+    "Schedule III"
+  ],
+  "where_it_stands": "Marijuana covered by a state medical license, and FDA-approved marijuana drugs, have been in Schedule III since 28 April 2026; all other marijuana, including adult-use, is still Schedule I. Written argument in the DEA hearing on moving all marijuana to Schedule III closed on 5 November, so the administrative law judge can now issue his recommendation, while a consolidated lawsuit against the April order is being briefed in the D.C. Circuit.",
+  "next_milestone": {
+    "text": "Challengers' consolidated opening brief due in the D.C. Circuit lawsuit against the April order, under the schedule the parties jointly proposed; the DEA judge's recommendation on full rescheduling has no deadline and could come first.",
+    "date": "2026-11-24",
+    "source": "https://www.marijuanamoment.net/feds-and-marijuana-opponents-agree-on-briefing-schedule-in-lawsuit-challenging-trumps-rescheduling-move/"
+  },
+  "summary": "Acting Attorney General Todd Blanche used the treaty-based scheduling power in the Controlled Substances Act to move a slice of marijuana into Schedule III without a full rulemaking: FDA-approved marijuana drug products and marijuana handled under a state medical marijuana license. The same order created a fast-track DEA registration pathway for state medical licensees and launched a new hearing, which began on 29 June 2026, on the 2024 proposal to move all marijuana to Schedule III. The hearing's final briefs, on how much weight a GAO report about scheduling procedures deserves, were filed on 5 November; Chief Administrative Law Judge Derek Julius will send a non-binding recommendation to the DEA Administrator, who makes the final decision. Separately, opponents including Smart Approaches to Marijuana, a drug-testing trade group and the attorneys general of Indiana and Nebraska are challenging the April order in the D.C. Circuit, which has refused to pause it.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "State medical licensees can register with the DEA and operate as Schedule III handlers; registration only covers what the state license allows and lapses automatically if that license is suspended or expires. Adult-use operations remain Schedule I."
+    },
+    {
+      "for": "Patients",
+      "text": "The order treats a state medical certification that meets basic content rules as enough for a dispensary to supply a patient, so registered patients are no longer buying a Schedule I drug. Federal workplace testing and other collateral rules have not automatically changed."
+    },
+    {
+      "for": "Investors",
+      "text": "For medical activity, Section 280E no longer applies from the 2026 tax year according to Treasury, but mixed medical and adult-use businesses still await IRS apportionment guidance, and the order faces a pending court challenge."
+    },
+    {
+      "for": "Consumers",
+      "text": "Recreational buyers see no federal change: adult-use marijuana stays Schedule I until the separate hearing and any final rule conclude."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-05",
+      "event": "DOJ proposes moving all marijuana to Schedule III through regular rulemaking",
+      "source": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11424/LSB11424.1.pdf"
+    },
+    {
+      "date": "2025-12-18",
+      "event": "President Trump signs an executive order directing the Attorney General to finish moving medical marijuana to Schedule III",
+      "source": "https://home.treasury.gov/news/press-releases/sb0471"
+    },
+    {
+      "date": "2026-04-23",
+      "event": "DOJ announces the order placing FDA-approved and state-licensed medical marijuana in Schedule III and sets a new hearing on full rescheduling",
+      "source": "https://www.justice.gov/opa/pr/justice-department-places-fda-approved-marijuana-products-and-products-containing-marijuana"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Order published in the Federal Register and takes effect",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-06-29",
+      "event": "New DEA administrative hearing on broader rescheduling begins",
+      "source": "https://www.justice.gov/opa/pr/justice-department-places-fda-approved-marijuana-products-and-products-containing-marijuana"
+    },
+    {
+      "date": "2026-10-22",
+      "event": "Judge Julius refuses to reopen the hearing over a GAO report but admits it and allows short briefs",
+      "source": "https://norml.org/news/2026/10/22/dea-judge-overseeing-marijuana-rescheduling-permits-parties-to-file-additional-briefs-denies-request-to-reopen-hearing/"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "DEA and opponents file final reply briefs, ending the stay on the judge's recommendation",
+      "source": "https://www.marijuanamoment.net/dea-and-marijuana-rescheduling-opponents-file-final-briefs-in-hearing-ahead-of-judges-decision"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is marijuana Schedule III now?",
+      "a": "Only partly. Marijuana in an FDA-approved drug or covered by a state medical marijuana license moved to Schedule III on 28 April 2026. Everything else, including adult-use cannabis, remains in Schedule I."
+    },
+    {
+      "q": "Does Schedule III make recreational marijuana federally legal?",
+      "a": "No. Even if all marijuana moved to Schedule III, making or selling it outside the federal registration and prescription system would still be a federal crime, according to the Congressional Research Service."
+    },
+    {
+      "q": "When will the DEA decide on full rescheduling?",
+      "a": "There is no deadline. The judge can now write his recommendation after final briefs closed on 5 November 2026; the DEA Administrator then makes the final decision, which can be contested."
+    },
+    {
+      "q": "Is the April order being challenged in court?",
+      "a": "Yes. Three consolidated petitions are before the U.S. Court of Appeals for the D.C. Circuit, which declined to stay the order. The parties proposed finishing briefing by February 2027."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III (91 FR 22714)",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "U.S. Department of Justice press release, 23 April 2026",
+      "url": "https://www.justice.gov/opa/pr/justice-department-places-fda-approved-marijuana-products-and-products-containing-marijuana"
+    },
+    {
+      "name": "DEA: Marijuana rescheduling regulatory actions",
+      "url": "https://www.dea.gov/marijuana-rescheduling-regulatory-actions"
+    },
+    {
+      "name": "Congressional Research Service, LSB11424: Department of Justice Eases Control of Medical Marijuana (30 April 2026)",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11424/LSB11424.1.pdf"
+    },
+    {
+      "name": "U.S. Treasury: Treasury and IRS announce process for tax guidance after DOJ medical marijuana order (23 April 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0471"
+    },
+    {
+      "name": "NORML: DEA judge denies request to reopen rescheduling hearing (22 October 2026)",
+      "url": "https://norml.org/news/2026/10/22/dea-judge-overseeing-marijuana-rescheduling-permits-parties-to-file-additional-briefs-denies-request-to-reopen-hearing/"
+    },
+    {
+      "name": "Marijuana Moment: DEA and rescheduling opponents file final briefs (6 November 2026)",
+      "url": "https://www.marijuanamoment.net/dea-and-marijuana-rescheduling-opponents-file-final-briefs-in-hearing-ahead-of-judges-decision"
+    },
+    {
+      "name": "Marijuana Moment: Feds and opponents agree on briefing schedule in D.C. Circuit rescheduling lawsuit (9 October 2026)",
+      "url": "https://www.marijuanamoment.net/feds-and-marijuana-opponents-agree-on-briefing-schedule-in-lawsuit-challenging-trumps-rescheduling-move/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

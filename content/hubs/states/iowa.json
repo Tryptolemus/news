@@ -1,0 +1,42 @@
+{
+  "id": "us/iowa",
+  "type": "us_state",
+  "name": "Iowa",
+  "abbr": "IA",
+  "tags": ["Iowa"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
+  "headline_status": "Recreational marijuana is illegal in Iowa; a restrictive medical cannabidiol program allows registered patients non-flower THC products.",
+  "summary": "Iowa's Medical Cannabidiol Program began with a 2014 low-THC oil law and was widened in 2017 and 2020; patients may buy up to 4.5 grams of THC every 90 days, but smokable flower and home growing are banned. Simple possession outside the program is still a jailable misdemeanor. In May 2026 Iowa doubled the number of medical dispensaries from five to ten and opened them to out-of-state cardholders.",
+  "facts": {
+    "medical_since": {"value": "2014 (low-THC oil law), expanded to in-state production and sales by HB 524 (2017) and HF 2589 (2020).", "source": "https://www.mpp.org/states/Iowa", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Registered patients: up to 4.5 grams of THC per 90 days, unless their provider certifies more or they get a waiver. No legal amount for anyone else.", "source": "https://www.mpp.org/states/Iowa", "as_of": "2026-11-07"},
+    "medical_program": {"value": "A certifying practitioner (including physician assistants, podiatrists and advanced practice nurses since 2020) confirms a qualifying condition, such as chronic pain or PTSD. Only processed products are allowed, not raw flower.", "source": "https://cannabisbusinesstimes.com/business-issues-benchmarks/medical-cannabis-access-and-pricing/news/15691785/iowa-governor-signs-legislation-to-change-thc-cap-in-states-medical-cannabis-program", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed, including for patients.", "source": "https://www.mpp.org/states/Iowa", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Medical dispensaries only, supplied by two licensed manufacturers. HF 990 (signed May 2026) raises the dispensary cap from 5 to 10 and lets out-of-state patients with a medical card buy.", "source": "https://www.mpp.org/states/Iowa", "as_of": "2026-11-07"},
+    "penalties": {"value": "First-offense possession of any amount can bring up to 6 months in jail and a $1,000 fine.", "source": "https://www.mpp.org/states/Iowa", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Under HF 2605 (effective July 1, 2024), consumable hemp is capped at 4 mg THC per serving and 10 mg per container, and buyers must be 21+. A 2025 law bans open THC beverages in a moving vehicle's passenger area.", "source": "https://www.iowapublicradio.org/ipr-news/2024-06-05/iowa-consumable-hemp-regulations-marijuana-law", "as_of": "2026-11-07"},
+    "regulator": {"value": "The Iowa Department of Health and Human Services sets consumable hemp serving-size and labeling rules.", "source": "https://www.iowapublicradio.org/ipr-news/2024-06-05/iowa-consumable-hemp-regulations-marijuana-law", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2014", "event": "Law allows certain patients to possess low-THC cannabis oil", "source": "https://www.mpp.org/states/Iowa"},
+    {"date": "2017", "event": "HB 524 creates in-state medical cannabidiol manufacturing and dispensing", "source": "https://www.mpp.org/states/Iowa"},
+    {"date": "2020-06-29", "event": "Gov. Reynolds signs law replacing the 3% THC cap with 4.5 g of THC per 90 days and adding PTSD", "source": "https://cannabisbusinesstimes.com/business-issues-benchmarks/medical-cannabis-access-and-pricing/news/15691785/iowa-governor-signs-legislation-to-change-thc-cap-in-states-medical-cannabis-program"},
+    {"date": "2024-07-01", "event": "HF 2605 hemp potency caps and 21+ age limit take effect", "source": "https://www.iowapublicradio.org/ipr-news/2024-06-05/iowa-consumable-hemp-regulations-marijuana-law"},
+    {"date": "2026-05", "event": "HF 990 signed, doubling medical dispensaries to 10 and allowing out-of-state patients", "source": "https://www.mpp.org/states/Iowa"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Iowa?", "a": "No. Recreational marijuana is illegal, and even a first possession offense can mean up to 6 months in jail. Only registered patients may buy limited medical cannabis products."},
+    {"q": "Can you smoke medical marijuana in Iowa?", "a": "No. Iowa's program allows processed products only, not raw flower."},
+    {"q": "How much THC can Iowa medical patients buy?", "a": "Up to 4.5 grams of THC every 90 days, unless a provider certifies more or the patient obtains a waiver."},
+    {"q": "Are THC drinks legal in Iowa?", "a": "Hemp-derived THC products are legal for adults 21+ if they stay within 4 mg per serving and 10 mg per container."}
+  ],
+  "sources": [
+    {"name": "Marijuana Policy Project – Iowa", "url": "https://www.mpp.org/states/Iowa"},
+    {"name": "Iowa Public Radio", "url": "https://www.iowapublicradio.org/ipr-news/2024-06-05/iowa-consumable-hemp-regulations-marijuana-law"},
+    {"name": "The Gazette (Cedar Rapids)", "url": "https://www.thegazette.com/?p=407893"},
+    {"name": "Cannabis Business Times", "url": "https://cannabisbusinesstimes.com/business-issues-benchmarks/medical-cannabis-access-and-pricing/news/15691785/iowa-governor-signs-legislation-to-change-thc-cap-in-states-medical-cannabis-program"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

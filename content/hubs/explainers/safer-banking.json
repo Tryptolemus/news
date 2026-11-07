@@ -1,0 +1,104 @@
+{
+  "id": "explainer/safer-banking",
+  "type": "explainer",
+  "name": "SAFER Banking Act and cannabis banking",
+  "tags": [
+    "SAFER Banking",
+    "SAFE Banking",
+    "Cannabis banking"
+  ],
+  "where_it_stands": "The cannabis banking bill is pending again as the SAFE Banking Act of 2026 (S. 4942 and H.R. 9471), introduced in June 2026, but neither version has had a committee vote. The bills die when the 119th Congress ends, so supporters are looking to the Democratic-majority Congress that begins in January 2027.",
+  "next_milestone": {
+    "text": "The 120th Congress convenes in January 2027; pending banking bills must be reintroduced.",
+    "date": null,
+    "source": "https://www.marijuanamoment.net/could-democrats-federally-legalize-marijuana-with-their-new-senate-and-house-majorities/"
+  },
+  "summary": "The SAFE Banking Act would stop federal banking regulators from penalizing banks, credit unions and insurers that serve state-licensed cannabis businesses and related vendors, and would give financial institutions a safe harbor from prosecution and forfeiture while keeping existing reporting duties. Earlier versions passed the House, including H.R. 1595 by 321-103 in 2019, and the renamed SAFER Banking Act cleared the Senate Banking Committee in September 2023, but no version has reached a Senate floor vote. Sen. Jeff Merkley reintroduced it on 24 June 2026 with Sens. Murkowski, Warren and Daines, and Rep. Dave Joyce filed the House companion the next day. The April 2026 rescheduling of medical marijuana does not itself create a banking safe harbor.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "If enacted, licensed businesses would find it easier to open accounts, take card payments and borrow; until then, banking relies on 2014 FinCEN guidance and individual banks' risk appetite."
+    },
+    {
+      "for": "Investors",
+      "text": "Passage would lower cash-handling costs and could open lending; Senate floor time and the 60-vote threshold remain the obstacle."
+    },
+    {
+      "for": "Consumers",
+      "text": "Wider card acceptance and fewer cash-only stores would be the visible change."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-09-25",
+      "event": "House passes the SAFE Banking Act of 2019 (H.R. 1595), 321-103",
+      "source": "https://www.congress.gov/bill/116th-congress/house-bill/1595"
+    },
+    {
+      "date": "2023-09-27",
+      "event": "Senate Banking Committee holds markup of the SAFER Banking Act (S. 2860); it is reported the next day",
+      "source": "https://www.congress.gov/bill/118th-congress/senate-bill/2860"
+    },
+    {
+      "date": "2026-06-24",
+      "event": "Sen. Merkley introduces the SAFE Banking Act of 2026 (S. 4942)",
+      "source": "https://www.congress.gov/bill/119th-congress/senate-bill/4942"
+    },
+    {
+      "date": "2026-06-25",
+      "event": "Rep. Joyce introduces the House companion (H.R. 9471)",
+      "source": "https://www.congress.gov/bill/119th-congress/house-bill/9471"
+    },
+    {
+      "date": "2026-07-17",
+      "event": "H.R. 9471 referred to the House Financial Services Subcommittee on Economic Opportunity",
+      "source": "https://www.congress.gov/bill/119th-congress/house-bill/9471"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Has the SAFER Banking Act passed?",
+      "a": "No. The House has passed earlier versions, and the Senate Banking Committee approved SAFER Banking in 2023, but no version has had a Senate floor vote. The 2026 bills are still in committee."
+    },
+    {
+      "q": "Does rescheduling fix cannabis banking?",
+      "a": "No. Moving medical marijuana to Schedule III did not create a statutory safe harbor for banks, and adult-use marijuana remains Schedule I."
+    },
+    {
+      "q": "What is the difference between SAFE and SAFER Banking?",
+      "a": "SAFER was the 2023 Senate rewrite of the SAFE Banking Act; the 2026 reintroduction uses the SAFE Banking Act name again."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congress.gov: S. 4942, SAFE Banking Act of 2026",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4942"
+    },
+    {
+      "name": "Congress.gov: H.R. 9471, SAFE Banking Act of 2026",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9471"
+    },
+    {
+      "name": "Office of Sen. Jeff Merkley: Bipartisan senators reintroduce cannabis banking reform (25 June 2026)",
+      "url": "https://www.merkley.senate.gov/merkley-bipartisan-senators-reintroduce-cannabis-banking-reform/"
+    },
+    {
+      "name": "Congress.gov: S. 2860, SAFER Banking Act (118th Congress)",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/2860"
+    },
+    {
+      "name": "Congress.gov: H.R. 1595, SAFE Banking Act of 2019",
+      "url": "https://www.congress.gov/bill/116th-congress/house-bill/1595"
+    },
+    {
+      "name": "mg Magazine: SAFE Banking Act returns (1 July 2026)",
+      "url": "https://mgmagazine.com/policy-regulation/safe-banking-act-2026-cannabis-banking/"
+    },
+    {
+      "name": "Marijuana Moment: Could Democrats federally legalize marijuana with new majorities? (4 November 2026)",
+      "url": "https://www.marijuanamoment.net/could-democrats-federally-legalize-marijuana-with-their-new-senate-and-house-majorities/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "us/oklahoma",
+  "type": "us_state",
+  "name": "Oklahoma",
+  "abbr": "OK",
+  "tags": ["Oklahoma"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Medical cannabis is legal in Oklahoma under one of the country's broadest programs; recreational use is illegal.",
+  "summary": "Oklahoma voters approved State Question 788 on June 26, 2018, creating a medical cannabis program with no fixed list of qualifying conditions, and more than 8.5% of residents are now registered patients. Recreational cannabis remains illegal after voters rejected SQ 820 in 2023. The Oklahoma Medical Marijuana Authority regulates the program, and in 2026 lawmakers extended the moratorium on new business licenses (HB 3143) and capped edibles at 10 mg per serving and 100 mg per package (HB 4454).",
+  "facts": {
+    "medical_since": {"value": "June 26, 2018, when voters approved State Question 788.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "No list of qualifying conditions: physicians recommend cannabis as they would any medicine. Adult residents apply to OMMA; patients under 18 need two physician signatures. The application fee is $100, or $20 for Medicaid, Medicare or SoonerCare enrollees.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Licensed patients: up to 3 oz on their person, 8 oz at home, 1 oz of concentrate, and 72 oz of edibles. There is no legal allowance for non-patients.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Licensed patients may grow 6 mature plants and 6 seedlings; plants must not be visible from adjacent streets.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking or vaping outdoors in public or indoors at work follows the same rules as tobacco, and employers do not have to allow use at work.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html", "as_of": "2026-11-07"},
+    "taxes": {"value": "7% excise tax on medical cannabis retail sales.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed medical dispensaries serve patients; a moratorium on new business licenses was extended in 2026 by HB 3143. As of June 2026 there were about 1,361 dispensaries.", "source": "https://www.mpp.org/states/oklahoma", "as_of": "2026-11-07"},
+    "regulator": {"value": "Oklahoma Medical Marijuana Authority (OMMA).", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html", "as_of": "2026-11-07"},
+    "penalties": {"value": "Without a patient license, possessing up to 1.5 oz while able to state a medical condition is capped at a $400 fine; otherwise possession is a misdemeanor punishable by up to a year in jail and a $1,000 fine.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2018-06-26", "event": "Voters approve State Question 788, legalizing medical cannabis", "source": "https://www.mpp.org/states/oklahoma/sq788/"},
+    {"date": "2023", "event": "Voters reject State Question 820 on adult-use legalization", "source": "https://www.mpp.org/states/oklahoma"},
+    {"date": "2026", "event": "HB 3143 extends the moratorium on new cannabis business licenses; HB 4454 caps edibles at 10 mg per serving and 100 mg per package", "source": "https://www.mpp.org/states/oklahoma"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Oklahoma?", "a": "Only for medical use. Licensed patients can buy, possess and grow cannabis, but recreational use is illegal after voters rejected SQ 820 in 2023."},
+    {"q": "How do you get a medical marijuana card in Oklahoma?", "a": "Get a physician's recommendation and apply to the Oklahoma Medical Marijuana Authority. There is no list of qualifying conditions, and the fee is $100 ($20 for Medicaid, Medicare or SoonerCare enrollees)."},
+    {"q": "How much weed can a patient have in Oklahoma?", "a": "Up to 3 ounces on their person, 8 ounces at home, 1 ounce of concentrate and 72 ounces of edibles, plus six mature plants and six seedlings."},
+    {"q": "What happens if you're caught with weed without a card in Oklahoma?", "a": "Possession is a misdemeanor that can bring up to a year in jail and a $1,000 fine, though up to 1.5 ounces is capped at a $400 fine if you can state a medical condition."}
+  ],
+  "sources": [
+    {"name": "Oklahoma Medical Marijuana Authority, Patient Rights and Responsibilities", "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html"},
+    {"name": "Marijuana Policy Project, Oklahoma", "url": "https://www.mpp.org/states/oklahoma"},
+    {"name": "Marijuana Policy Project, SQ 788 summary", "url": "https://www.mpp.org/states/oklahoma/sq788/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

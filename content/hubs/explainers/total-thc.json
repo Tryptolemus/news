@@ -1,0 +1,107 @@
+{
+  "id": "explainer/total-thc",
+  "type": "explainer",
+  "name": "Total THC standard",
+  "tags": [
+    "Total THC",
+    "THCA"
+  ],
+  "where_it_stands": "Federal hemp law is switching from a delta-9 THC test to a total-THC test that counts THCA and other THC forms, with a 0.4 mg per-container cap on finished products. That switch takes effect on 11 December 2026 after a one-month delay.",
+  "next_milestone": {
+    "text": "Total-THC definition of hemp and 0.4 mg per-container cap take effect for products, unless Congress acts.",
+    "date": "2026-12-11",
+    "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+  },
+  "summary": "Under the 2018 Farm Bill, hemp meant cannabis with no more than 0.3% delta-9 THC by dry weight, which allowed products high in THCA, delta-8 and other THC forms. USDA's 2021 hemp production rule already required growers' crops to be tested for total THC, but the statutory product definition still turned on delta-9. Public Law 119-37 changes the statute itself: hemp must have no more than 0.3% total THC including THCA, intermediate products are capped at 0.3% total THC and similar cannabinoids, and finished products at 0.4 milligrams per container. Most of this now applies from 11 December 2026.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "THCA flower and pre-rolls that pass a delta-9 test but exceed 0.3% total THC stop being hemp, and finished goods must fit under 0.4 mg per container."
+    },
+    {
+      "for": "Consumers",
+      "text": "THCA flower and most hemp THC edibles and drinks will no longer be federally lawful hemp after 11 December 2026."
+    },
+    {
+      "for": "Investors",
+      "text": "Testing labs and compliance costs shift; the House-passed 2026 farm bill would also write total-THC testing for crops into the hemp production statute."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-12-20",
+      "event": "2018 Farm Bill sets the 0.3% delta-9 THC definition of hemp",
+      "source": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "date": "2021-01-19",
+      "event": "USDA final hemp production rule requires total THC testing of crops (effective 22 March 2021)",
+      "source": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "date": "2025-11-12",
+      "event": "Public Law 119-37 rewrites the hemp definition around total THC including THCA",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2026-04-30",
+      "event": "House passes the 2026 farm bill (H.R. 7567), which would codify total-THC testing for hemp crops",
+      "source": "https://clerk.house.gov/Votes/2026154?BillNum=H.R.7567&RollCallNum=154"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Total-THC hemp definition takes effect after the September delay",
+      "source": "https://www.congress.gov/crs-product/IF13136"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does total THC mean?",
+      "a": "It counts all tetrahydrocannabinols in a product, including THCA, which turns into delta-9 THC when heated, rather than delta-9 THC alone."
+    },
+    {
+      "q": "Is THCA flower legal?",
+      "a": "Until 11 December 2026 federal law still uses the delta-9 test for products. After that, flower above 0.3% total THC including THCA is no longer hemp under federal law. State laws may already be stricter."
+    },
+    {
+      "q": "How much THC can a hemp product contain under the new rule?",
+      "a": "No more than 0.4 milligrams of total THC, including similar cannabinoids, per container."
+    }
+  ],
+  "sources": [
+    {
+      "name": "7 U.S.C. 1639o as amended by Pub. L. 119-37 (uscode.house.gov)",
+      "url": "https://uscode.house.gov/us/usc/119-136/t7/s1639o/"
+    },
+    {
+      "name": "Congressional Research Service, LSB11381: Changes to the Federal Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "name": "Congressional Research Service, IF13136: Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (updated 28 September 2026)",
+      "url": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "name": "Federal Register: USDA final rule, Establishment of a Domestic Hemp Production Program (19 January 2021)",
+      "url": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "name": "Office of the Clerk, U.S. House: Roll Call 154 on H.R. 7567 (30 April 2026)",
+      "url": "https://clerk.house.gov/Votes/2026154?BillNum=H.R.7567&RollCallNum=154"
+    },
+    {
+      "name": "Agricultural Hemp Solutions: 2026 House farm bill industrial hemp policy",
+      "url": "https://www.agriculturalhempsolutions.com/post/2026housefarmbillproposessignificantindustrialhemppolicyreforms"
+    },
+    {
+      "name": "Congress.gov: H.R. 2, Agriculture Improvement Act of 2018 (Pub. L. 115-334)",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

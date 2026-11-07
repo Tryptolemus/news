@@ -1,0 +1,98 @@
+{
+  "id": "explainer/dea-registration",
+  "type": "explainer",
+  "name": "DEA registration for medical cannabis businesses",
+  "tags": [
+    "DEA",
+    "DEA registration"
+  ],
+  "where_it_stands": "On 30 October 2026 the DEA issued its first registrations to more than 900 state-licensed medical dispensaries in seven medical-only states, out of nearly 7,000 applications. Applicants and registrants must restrict their trading to other registrants or timely applicants by 29 November 2026.",
+  "next_milestone": {
+    "text": "Deadline for timely applicants and registrants to have supply chains that deal only with DEA registrants or timely applicants.",
+    "date": "2026-11-29",
+    "source": "https://www.deadiversion.usdoj.gov/drugreg/Timely-Applicant-Information-for-Medical-Marijuana-Applicants.pdf"
+  },
+  "summary": "The April 2026 rescheduling order created an expedited DEA registration pathway for businesses holding a state medical marijuana license, as manufacturers, distributors or dispensers. Businesses that filed complete applications between 28 April and 26 June 2026 may keep operating under their state licenses while DEA reviews them. The first registrations went to dispensaries in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia after pre-registration investigations; manufacturer and distributor applications need inspections and quota decisions. DEA guidance says registrants may only trade with other registrants or timely applicants, and that it cannot register medical businesses in states with dual medical and adult-use licenses or patient self-certification.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Registered businesses must meet federal security, recordkeeping and inventory rules, and lose access to suppliers or customers that did not apply on time once the 29 November deadline passes. A DEA registration lapses automatically if the state license does."
+    },
+    {
+      "for": "Patients",
+      "text": "Patients in the first seven states can buy from federally registered dispensaries; programs in many adult-use states are not yet eligible."
+    },
+    {
+      "for": "Investors",
+      "text": "Vertically integrated medical operators in medical-only states are best placed; dual-license markets remain outside the federal system for now."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04-28",
+      "event": "Order creating the medical marijuana DEA registration pathway takes effect",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-06-26",
+      "event": "Initial 60-day application window for timely applicants closes",
+      "source": "https://www.deadiversion.usdoj.gov/drugreg/Timely-Applicant-Information-for-Medical-Marijuana-Applicants.pdf"
+    },
+    {
+      "date": "2026-10-30",
+      "event": "DEA issues first registrations to more than 900 dispensaries in seven states and posts a list of nearly 7,000 applicants",
+      "source": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+    },
+    {
+      "date": "2026-11-29",
+      "event": "Supply-chain compliance deadline for timely applicants",
+      "source": "https://www.deadiversion.usdoj.gov/drugreg/Timely-Applicant-Information-for-Medical-Marijuana-Applicants.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which states got the first DEA dispensary registrations?",
+      "a": "Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia, all announced on 30 October 2026."
+    },
+    {
+      "q": "Can a business that missed the June window still operate?",
+      "a": "It cannot rely on the timely-applicant protection, and registrants and timely applicants are told not to trade with it until it becomes a registrant."
+    },
+    {
+      "q": "Why are adult-use states left out?",
+      "a": "DEA has said it cannot register medical businesses in states that issue dual medical and adult-use licenses or that let patients self-certify."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III (91 FR 22714)",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "Congressional Research Service, LSB11424: Department of Justice Eases Control of Medical Marijuana (30 April 2026)",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11424/LSB11424.1.pdf"
+    },
+    {
+      "name": "U.S. Department of Justice: Federal registrations issued to medical marijuana dispensaries (30 October 2026)",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+    },
+    {
+      "name": "DEA Diversion Control Division: Timely applicant information for medical marijuana applicants",
+      "url": "https://www.deadiversion.usdoj.gov/drugreg/Timely-Applicant-Information-for-Medical-Marijuana-Applicants.pdf"
+    },
+    {
+      "name": "The Marijuana Herald: DEA grants registrations to more than 900 dispensaries (30 October 2026)",
+      "url": "https://themarijuanaherald.com/2026/10/dea-grants-federal-registrations-to-more-than-900-medical-marijuana-dispensaries-across-seven-states/"
+    },
+    {
+      "name": "Marijuana Moment newsletter, 2 November 2026",
+      "url": "https://www.marijuanamoment.net/feds-grant-protections-to-900-cannabis-businesses-with-major-exceptions-newsletter-november-2-2026/"
+    },
+    {
+      "name": "Buchalter: DEA Schedule III registrations and the 29 November supply-chain deadline",
+      "url": "https://www.buchalter.com/insights/dea-schedule-iii-medical-cannabis-registrations-and-the-november-29-supply-chain-deadline/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

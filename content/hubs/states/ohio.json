@@ -1,0 +1,51 @@
+{
+  "id": "us/ohio",
+  "type": "us_state",
+  "name": "Ohio",
+  "abbr": "OH",
+  "tags": ["Ohio"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+ in Ohio, under tighter rules since SB 56 took effect on March 20, 2026.",
+  "summary": "Ohio voters approved adult-use legalization (Issue 2) in November 2023, and it took effect December 7, 2023; dispensary sales to adults began August 6, 2024. Senate Bill 56, signed December 19, 2025 and effective March 20, 2026, kept the 2.5-ounce possession limit and home grow but restricted where people may smoke or vape, made cannabis bought outside Ohio's licensed system illegal again, and effectively banned intoxicating hemp products outside dispensaries. A referendum drive to overturn SB 56 failed to gather enough signatures by its March 2026 deadline.",
+  "facts": {
+    "adult_use_since": {"value": "December 7, 2023, after voters approved Issue 2 in November 2023.", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf", "as_of": "2026-11-07"},
+    "medical_since": {"value": "2016, when lawmakers created the medical marijuana program.", "source": "https://www.mpp.org/states/ohio", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 2.5 oz of plant material and 15 g of extract for adults 21+. Cannabis not bought from an Ohio licensee or homegrown is again illegal under SB 56.", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Six plants per adult, with a maximum of 12 per residence.", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf", "as_of": "2026-11-07"},
+    "public_use": {"value": "Since March 20, 2026, smoking or vaping is limited to private residential or agricultural property with the owner's permission; public and workplace use is barred. Most new offenses are minor misdemeanors with fines up to $150.", "source": "https://www.mpp.org/states/ohio", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Adult-use sales began August 6, 2024 at existing medical dispensaries; SB 56 caps dispensaries at 400 statewide.", "source": "https://www.mpp.org/states/ohio", "as_of": "2026-11-07"},
+    "taxes": {"value": "10% adult-use excise tax plus state sales tax (5.75%) and local sales tax (0 to 2.25%).", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf", "as_of": "2026-11-07"},
+    "regulator": {"value": "Division of Cannabis Control (Ohio Department of Commerce), which oversees both medical and adult-use marijuana.", "source": "https://www.ohiosenate.gov/news/on-the-record/update-governor-signs-senate-bill-56-reforming-ohios-marijuana-and-intoxicating-hemp-laws", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "SB 56 redefines hemp and effectively bans intoxicating hemp products, including THC drinks, outside licensed marijuana dispensaries; the governor vetoed a carve-out for THC beverages.", "source": "https://www.ohiosenate.gov/news/on-the-record/update-governor-signs-senate-bill-56-reforming-ohios-marijuana-and-intoxicating-hemp-laws", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2016", "event": "Legislature creates Ohio's medical marijuana program", "source": "https://www.mpp.org/states/ohio"},
+    {"date": "2023-11-07", "event": "Voters approve Issue 2 legalizing adult-use cannabis, about 57% yes", "source": "https://www.mpp.org/states/ohio"},
+    {"date": "2023-12-07", "event": "Issue 2 takes effect; adult possession and home grow become legal", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf"},
+    {"date": "2024-08-06", "event": "Adult-use sales begin at licensed dispensaries", "source": "https://www.mpp.org/states/ohio"},
+    {"date": "2025-12-19", "event": "Gov. DeWine signs SB 56 with line-item vetoes, rewriting adult-use and hemp rules", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf"},
+    {"date": "2026-03-19", "event": "Referendum effort to overturn SB 56 falls short of required signatures", "source": "https://www.wyso.org/2026-03-18/ohio-effort-to-repeal-hemp-ban-falls-short-on-signatures"},
+    {"date": "2026-03-20", "event": "SB 56 takes effect, including the intoxicating hemp ban and new public-use limits", "source": "https://www.mpp.org/states/ohio"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Ohio?", "a": "Yes. Adults 21 and older can possess, buy and grow cannabis, though SB 56 tightened the rules as of March 20, 2026."},
+    {"q": "How much weed can you have in Ohio?", "a": "Up to 2.5 ounces of plant material and 15 grams of extract. Cannabis bought outside Ohio's licensed system, such as in Michigan, is illegal again under SB 56."},
+    {"q": "Where can you smoke weed in Ohio?", "a": "Only on private residential or agricultural property with the owner's permission. Public places, workplaces, bar patios and parking lots are off limits."},
+    {"q": "Is delta-8 or hemp THC legal in Ohio?", "a": "SB 56 effectively bans intoxicating hemp products, including THC drinks, outside licensed marijuana dispensaries as of March 20, 2026."},
+    {"q": "What is the tax on weed in Ohio?", "a": "A 10% adult-use excise tax applies, on top of state and local sales tax."}
+  ],
+  "sources": [
+    {"name": "Ohio Senate, SB 56 signing update", "url": "https://www.ohiosenate.gov/news/on-the-record/update-governor-signs-senate-bill-56-reforming-ohios-marijuana-and-intoxicating-hemp-laws"},
+    {"name": "Ohio State University Moritz College of Law, Drug Enforcement and Policy Center", "url": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf"},
+    {"name": "Marijuana Policy Project, Ohio", "url": "https://www.mpp.org/states/ohio"},
+    {"name": "WYSO", "url": "https://www.wyso.org/2026-03-18/ohio-effort-to-repeal-hemp-ban-falls-short-on-signatures"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

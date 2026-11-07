@@ -7,11 +7,11 @@
     "Illinois will start enforcing its new hemp law on Thursday, 12 November. From that day, any consumable or topical product with more than 0.4 milligrams of total THC per container counts as cannabis in the state, and only licensed dispensaries may sell it. The Illinois Department of Revenue has said enforcement starts on that date regardless of what happens in Washington.",
     "Washington has, in fact, moved. The federal total-THC redefinition of hemp, signed in November 2025 and originally due on the same day, was pushed back to 11 December by a stopgap spending bill in September. That leaves the hemp trade facing two cliffs a month apart, with Illinois Gov. JB Pritzker now publicly urging Congress not to delay the second one.",
     "## What the federal law does",
-    "The hemp provision rode on the funding bill President Trump signed on 12 November 2025 to reopen the government. It replaces the 2018 Farm Bill's delta-9-only test with a total-THC standard that counts THCA and other isomers toward the 0.3% dry-weight limit, and it caps finished products at 0.4 mg of total THC per container. It also strips hemp status from cannabinoids synthesized outside the plant, such as delta-8 made from CBD, which a 2022 Ninth Circuit ruling had left in a legal grey zone.",
+    "The hemp provision rode on the funding bill President Trump signed on 12 November 2025 to reopen the government. It replaces the 2018 Farm Bill's delta-9-only test with a total-THC standard that counts THCA and other isomers toward the 0.3% dry-weight limit, and it caps finished products at 0.4 mg of total THC per container. It also strips hemp status from cannabinoids the plant cannot produce naturally and from naturally occurring cannabinoids synthesized outside the plant, such as delta-8 made from CBD, which a 2022 Ninth Circuit ruling had left in a legal grey zone.",
     "For a sense of scale, Hemp Law Group notes that a single 5 mg gummy is 12.5 times the cap. Industry analysts cited in the law's Wikipedia entry estimate the change touches 95% of the existing retail hemp market. Hemp grown for fibre, grain and other non-cannabinoid uses is not the target.",
     "## A one-month reprieve, and probably the last",
     "The delay came through H.R. 6500, the Continuing Appropriations and Extensions Act, 2027. On 8 August the Senate voted 61 to 32 to table an amendment from Sen. Ted Budd that would have kept the original date, with Sen. Amy Klobuchar leading the motion. The House approved the bill 370 to 48 on 1 September, and the president signed it days later.",
-    "The extension is narrow. It applies only to cannabinoids the plant produces naturally; synthetic cannabinoids lose federal hemp status on 12 November as first scheduled, according to Akerman and Hemp Law Group. Hemp Law Group also reports that the White House has said this 30-day delay is the last one it will back. Budd has said he will keep pressing for prohibition after the midterms.",
+    "The extension is narrow. Only one piece keeps the original date: products containing cannabinoids the plant cannot produce naturally, such as THC-O, lose federal hemp status on 12 November, according to the Congressional Research Service. The rest, including the exclusion that appears to cover delta-8 converted from CBD, moves to 11 December. Hemp Law Group also reports that the White House has said this 30-day delay is the last one it will back. Budd has said he will keep pressing for prohibition after the midterms.",
     "## Illinois will not wait",
     "The state's rules come from the Illinois Hemp Act, Public Act 104-0463 (SB 3222), which Pritzker approved on 12 June. It replaces the old Industrial Hemp Act and, according to the Marijuana Herald, barred sales of intoxicating hemp products to anyone under 21 as soon as it was signed. The main provisions take effect on 12 November.",
     "The Department of Revenue's bulletin FY 2027-04 sets out the split. Products above the 0.4 mg cap fall under the Cannabis Regulation and Tax Act: dispensaries licensed by IDFPR sell them, and cultivators licensed by the Illinois Department of Agriculture grow them. Products under the cap may stay on general shelves as \"final consumer hemp cannabinoid products\" only if they meet a long list of conditions.",
@@ -26,7 +26,7 @@
     "The other side has several vehicles, none of them moving. As of 19 October, Hemp Law Group counted bills to push the effective date to November 2028 (H.R. 7024 and S. 3686), to repeal the provision outright (H.R. 6209), to regulate consumable hemp with a 21-and-over rule and federal tax (H.R. 9830, the Lawful Hemp Protection Act from Reps. Andy Barr and Angie Craig), and to regulate hemp THC drinks like alcohol (H.R. 10079). All were in committee. Alcohol retailer Total Wine & More has hired another federal lobbying firm to push for regulated hemp THC beverages, after spending $510,000 on lobbying in the first nine months of 2026, the Herald reported.",
     "Implementation is also thin. The FDA had not published the cannabinoid lists or the per-container guidance the law calls for as of 19 October, and the Congressional Research Service has said it is unclear whether and how federal agencies will enforce the ban. Payment processor Square told merchants to remove CBD and hemp-derived products by 15 October.",
     "## What to watch",
-    "Thursday, 12 November: Illinois enforcement begins and synthetic cannabinoids lose federal hemp status. Before then, watch how many manufacturers hold provisional Illinois licences. Through the lame-duck session, watch whether any delay or regulatory framework is attached to must-pass legislation before 11 December, when the federal 0.4 mg cap applies nationwide. And watch whether the FDA publishes its cannabinoid lists in time to make that date enforceable."
+    "Thursday, 12 November: Illinois enforcement begins and cannabinoids the plant cannot produce naturally, such as THC-O, lose federal hemp status. Before then, watch how many manufacturers hold provisional Illinois licences. Through the lame-duck session, watch whether any delay or regulatory framework is attached to must-pass legislation before 11 December, when the federal 0.4 mg cap applies nationwide. And watch whether the FDA publishes its cannabinoid lists in time to make that date enforceable."
   ],
   "sources": [
     {
@@ -68,6 +68,12 @@
     {
       "name": "Illinois Ag Connection",
       "url": "https://illinoisagconnection.com/news/illinois-hemp-product-rules-change-november-2026"
+    },
+    {
+      "name": "Congressional Research Service",
+      "title": "Delay in Changes to Hemp Definition",
+      "date": "28 Oct 2026",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
     }
   ],
   "visual": {
@@ -131,5 +137,12 @@
     "Total THC",
     "Illinois",
     "Hemp-derived THC"
-  ]
+  ],
+  "corrections": [
+    {
+      "date": "7 Nov 2026",
+      "text": "An earlier version said synthetic cannabinoids, including delta-8 made from CBD, lose federal hemp status on 12 November. According to the Congressional Research Service, only cannabinoids the cannabis plant cannot produce naturally, such as THC-O, lose it on that date; delta-8 converted from CBD appears to fall under the provisions delayed to 11 December."
+    }
+  ],
+  "updated": "2026-11-07T12:30:00+02:00"
 }

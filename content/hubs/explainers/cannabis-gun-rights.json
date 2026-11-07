@@ -1,0 +1,99 @@
+{
+  "id": "explainer/cannabis-gun-rights",
+  "type": "explainer",
+  "name": "Cannabis and gun ownership (federal)",
+  "tags": [
+    "Gun rights",
+    "Second Amendment",
+    "Hemani"
+  ],
+  "where_it_stands": "Federal law still bars unlawful drug users from having guns, but on 18 June 2026 the Supreme Court unanimously held that prosecuting a regular marijuana user solely for possessing a gun at home violated the Second Amendment. ATF has proposed a revised Form 4473 that would stop treating state-licensed medical use as unlawful, but that form is not final.",
+  "next_milestone": {
+    "text": "ATF final rule on the revised Form 4473 (comment period closed 6 August 2026); no publication date announced.",
+    "date": null,
+    "source": "https://www.federalregister.gov/d/2026-09182"
+  },
+  "summary": "Under 18 U.S.C. 922(g)(3), an 'unlawful user of or addicted to' a controlled substance may not possess firearms. In United States v. Hemani the Supreme Court affirmed dismissal of a charge against a man who used marijuana about every other day, finding the government's historical analogy to 'habitual drunkard' laws did not support disarming him without evidence he was dangerous; the Court said its ruling is narrow and does not address addicts, people who are intoxicated, or prosecutions with individualized proof of danger. Separately, ATF proposed on 8 May 2026 to revise Form 4473, and NORML reports the draft drops language calling medical marijuana use unlawful while keeping the bar on recreational use. A compliance firm reports ATF has marked its 2011 open letter on medical marijuana cards as rescinded.",
+  "what_changes": [
+    {
+      "for": "Patients",
+      "text": "State medical patients may gain a path to buy firearms once a revised form is final; until then the current form still asks about all marijuana use and a false answer is a separate crime."
+    },
+    {
+      "for": "Consumers",
+      "text": "Adult-use marijuana is still Schedule I and the statute is unchanged; Hemani limits prosecutions based on use alone but does not legalize gun possession by users."
+    },
+    {
+      "for": "Operators",
+      "text": "Gun dealers should no longer treat a medical card alone as automatic grounds to deny a sale, according to FFLGuard, but must still deny when they have reasonable cause to believe a buyer is prohibited."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-03-02",
+      "event": "Supreme Court hears argument in United States v. Hemani",
+      "source": "https://www.scotusblog.com/cases/united-states-v-hemani/"
+    },
+    {
+      "date": "2026-05-08",
+      "event": "ATF publishes proposed Form 4473 revisions, with comments due 6 August",
+      "source": "https://www.federalregister.gov/d/2026-09182"
+    },
+    {
+      "date": "2026-06-18",
+      "event": "Supreme Court rules 9-0 that Hemani's prosecution violated the Second Amendment",
+      "source": "https://www.supremecourt.gov/opinions/25pdf/24-1234%5Fnew%5F6k47.pdf"
+    },
+    {
+      "date": "2026-09-04",
+      "event": "FFLGuard reports ATF has marked its 2011 medical-marijuana open letter as rescinded",
+      "source": "https://www.fflguard.com/breaking-news-atf-rescinds-2011-medical-marijuana-open-letter/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can medical marijuana patients own guns under federal law?",
+      "a": "The statute still bars unlawful drug users. ATF's proposed form would treat state-licensed medical use differently, but it is not final, so patients should get legal advice before buying."
+    },
+    {
+      "q": "What did the Supreme Court decide in Hemani?",
+      "a": "It held that charging a man solely because he regularly used marijuana and kept a gun at home violated the Second Amendment, while leaving other uses of the law open."
+    },
+    {
+      "q": "Does Form 4473 still ask about marijuana?",
+      "a": "Yes. Until a revised form is adopted, the current form asks about unlawful use of marijuana or any controlled substance."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Supreme Court of the United States: United States v. Hemani, No. 24-1234 (18 June 2026)",
+      "url": "https://www.supremecourt.gov/opinions/25pdf/24-1234%5Fnew%5F6k47.pdf"
+    },
+    {
+      "name": "Congressional Research Service, LSB11450: Supreme Court rules federal gun ban unconstitutional as applied to marijuana user",
+      "url": "https://www.congress.gov/crs-product/LSB11450"
+    },
+    {
+      "name": "SCOTUSblog: United States v. Hemani case page",
+      "url": "https://www.scotusblog.com/cases/united-states-v-hemani/"
+    },
+    {
+      "name": "Federal Register: ATF proposed rule, Revising Firearms Transaction Record Form 4473 (8 May 2026)",
+      "url": "https://www.federalregister.gov/d/2026-09182"
+    },
+    {
+      "name": "NORML: ATF posts draft document acknowledging medical cannabis rescheduling (12 May 2026)",
+      "url": "https://norml.org/blog/2026/05/12/atf-posts-draft-document-acknowledging-medical-cannabis-scheduling-change/"
+    },
+    {
+      "name": "FFLGuard: ATF rescinds 2011 medical-marijuana open letter (4 September 2026)",
+      "url": "https://www.fflguard.com/breaking-news-atf-rescinds-2011-medical-marijuana-open-letter/"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III (91 FR 22714)",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

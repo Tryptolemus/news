@@ -1,0 +1,112 @@
+{
+  "id": "explainer/farm-bill",
+  "type": "explainer",
+  "name": "Cannabis and the 2018 Farm Bill",
+  "tags": [
+    "Farm Bill",
+    "2018 Farm Bill"
+  ],
+  "where_it_stands": "The 2018 Farm Bill legalized hemp by defining it as cannabis with no more than 0.3% delta-9 THC, which opened the door to intoxicating hemp products. Congress replaced that definition in November 2025 with a total-THC standard due to take full effect on 11 December 2026, while the House-passed 2026 farm bill awaits Senate action.",
+  "next_milestone": {
+    "text": "New hemp definition takes full effect, closing the 2018 Farm Bill's delta-9 'loophole' unless Congress acts.",
+    "date": "2026-12-11",
+    "source": "https://www.congress.gov/crs-product/IF13136"
+  },
+  "summary": "The Agriculture Improvement Act of 2018 (Pub. L. 115-334), signed on 20 December 2018, removed hemp from the Controlled Substances Act and set up USDA-approved state, tribal and federal hemp production plans. Because the definition counted only delta-9 THC, courts such as the Ninth Circuit read it to cover hemp-derived delta-8 and other cannabinoids, fueling a national market for intoxicating hemp. Public Law 119-37 rewrote the definition in November 2025. The House passed a new farm bill, H.R. 7567, on 30 April 2026 by 224-200; it adds industrial hemp provisions but does not delay or repeal the hemp THC ban, and Hemp Law Group reports the Senate committee version also leaves the ban untouched.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Hemp growers for fiber and grain keep federal protection, and the House bill would ease testing for designated industrial hemp; cannabinoid product makers face the new limits."
+    },
+    {
+      "for": "Investors",
+      "text": "The farm bill is not the vehicle the hemp THC industry hoped for; further relief would need separate legislation."
+    },
+    {
+      "for": "Consumers",
+      "text": "Products sold under the 2018 Farm Bill's delta-9 reading lose federal cover when the new definition applies."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-12-20",
+      "event": "2018 Farm Bill becomes law, legalizing hemp at 0.3% delta-9 THC",
+      "source": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "date": "2021-01-19",
+      "event": "USDA publishes its final domestic hemp production rule",
+      "source": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "date": "2022-05-19",
+      "event": "Ninth Circuit holds hemp-derived delta-8 THC products fit the Farm Bill's hemp definition",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/05/19/21-56133.pdf"
+    },
+    {
+      "date": "2025-11-12",
+      "event": "Public Law 119-37 rewrites the federal hemp definition",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2026-04-30",
+      "event": "House passes the Farm, Food, and National Security Act of 2026 (H.R. 7567), 224-200",
+      "source": "https://clerk.house.gov/Votes/2026154?BillNum=H.R.7567&RollCallNum=154"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "New hemp definition takes full effect after a 30-day delay",
+      "source": "https://www.congress.gov/crs-product/IF13136"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Did the 2018 Farm Bill legalize THC?",
+      "a": "It legalized hemp, defined as cannabis with no more than 0.3% delta-9 THC. Courts read that to cover other hemp-derived THC forms, which Congress has now moved to close."
+    },
+    {
+      "q": "Does the 2026 farm bill change the hemp THC ban?",
+      "a": "The House-passed bill does not delay or repeal it; it focuses on industrial hemp production and testing."
+    },
+    {
+      "q": "Is there a new farm bill yet?",
+      "a": "No. The House passed H.R. 7567 in April 2026; it has not been enacted."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congress.gov: H.R. 2, Agriculture Improvement Act of 2018 (Pub. L. 115-334)",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "name": "Federal Register: USDA final rule, Establishment of a Domestic Hemp Production Program (19 January 2021)",
+      "url": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "name": "U.S. Court of Appeals for the Ninth Circuit: AK Futures LLC v. Boyd Street Distro (19 May 2022)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/05/19/21-56133.pdf"
+    },
+    {
+      "name": "Congressional Research Service, IF13136: Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (updated 28 September 2026)",
+      "url": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "name": "Office of the Clerk, U.S. House: Roll Call 154 on H.R. 7567 (30 April 2026)",
+      "url": "https://clerk.house.gov/Votes/2026154?BillNum=H.R.7567&RollCallNum=154"
+    },
+    {
+      "name": "Marijuana Moment: House passes farm bill without delaying hemp THC ban (30 April 2026)",
+      "url": "https://www.marijuanamoment.net/house-passes-farm-bill-including-hemp-provisions-but-without-delaying-thc-product-ban-scheduled-for-this-year/"
+    },
+    {
+      "name": "Agricultural Hemp Solutions: 2026 House farm bill industrial hemp policy",
+      "url": "https://www.agriculturalhempsolutions.com/post/2026housefarmbillproposessignificantindustrialhemppolicyreforms"
+    },
+    {
+      "name": "Hemp Law Group: Federal hemp ban 2026, where things stand (updated 19 October 2026)",
+      "url": "https://www.hemplawgroup.com/news/federal-hemp-ban-2026-where-things-stand"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

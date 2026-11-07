@@ -1,0 +1,108 @@
+{
+  "id": "explainer/descheduling",
+  "type": "explainer",
+  "name": "Cannabis descheduling proposals",
+  "tags": [
+    "Descheduling",
+    "MORE Act",
+    "Cannabis Administration and Opportunity Act"
+  ],
+  "where_it_stands": "Several bills would remove marijuana from the Controlled Substances Act entirely, including the MORE Act in the House and the Cannabis Administration and Opportunity Act in the Senate, but none has moved past committee in the 119th Congress. Democrats won both chambers on 3 November, and a senior Trump adviser told The Marijuana Herald the president would sign a narrow descheduling bill but likely veto the MORE Act.",
+  "next_milestone": {
+    "text": "The 120th Congress, with Democratic majorities, begins in January 2027; current bills expire and would need to be reintroduced.",
+    "date": null,
+    "source": "https://www.marijuanamoment.net/could-democrats-federally-legalize-marijuana-with-their-new-senate-and-house-majorities/"
+  },
+  "summary": "Descheduling means taking marijuana off the federal drug schedules altogether, which ends federal prohibition and leaves states to allow or ban it, unlike rescheduling, which keeps it a controlled substance. Pending bills include Rep. Jerrold Nadler's MORE Act (H.R. 5068), which pairs descheduling with expungement, a federal excise tax and reinvestment programs; the Booker-Schumer-Wyden Cannabis Administration and Opportunity Act (S. 5022), filed on 16 July 2026; and Rep. Steve Cohen's 29 October 2026 bill overhauling drug scheduling. Rep. Dave Joyce's STATES 2.0 Act would instead exempt state-legal activity from most of the CSA. Most legislation still needs 60 Senate votes, so some Republican support would be required.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Descheduling would end the federal crime, 280E and banking barriers in one step, though bills like CAOA would add federal taxes and FDA/TTB regulation."
+    },
+    {
+      "for": "Investors",
+      "text": "Federal legality could open U.S. exchange listings and institutional capital; the shape of the final bill (clean or with equity provisions) matters for timing."
+    },
+    {
+      "for": "Consumers",
+      "text": "Federal penalties for possession would end, but state law would still decide whether sales are allowed."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-04-17",
+      "event": "Rep. Joyce reintroduces the STATES 2.0 Act (H.R. 2934)",
+      "source": "https://www.congress.gov/bill/119th-congress/house-bill/2934"
+    },
+    {
+      "date": "2025-08-29",
+      "event": "Rep. Nadler reintroduces the MORE Act (H.R. 5068)",
+      "source": "https://www.congress.gov/bill/119th-congress/house-bill/5068"
+    },
+    {
+      "date": "2026-07-16",
+      "event": "Sens. Booker, Schumer and Wyden file the Cannabis Administration and Opportunity Act (S. 5022)",
+      "source": "https://www.congress.gov/bill/119th-congress/senate-bill/5022"
+    },
+    {
+      "date": "2026-10-29",
+      "event": "Rep. Cohen introduces a CSA overhaul that would remove marijuana from the act",
+      "source": "https://www.cannabisbusinesstimes.com/legislation-and-regulation/federal-cannabis-legalization/news/16050512/us-congressman-introduces-bill-to-legalize-cannabis-rewrite-controlled-substances-act"
+    },
+    {
+      "date": "2026-11-05",
+      "event": "A senior Trump adviser says the president would sign a clean descheduling bill but likely veto the MORE Act",
+      "source": "https://themarijuanaherald.com/2026/11/senior-trump-adviser-says-president-would-sign-clean-marijuana-descheduling-bill-passed-by-democrats/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between rescheduling and descheduling?",
+      "a": "Rescheduling moves marijuana to a less restrictive schedule but keeps it federally controlled. Descheduling removes it from the Controlled Substances Act, ending federal prohibition."
+    },
+    {
+      "q": "Has a descheduling bill ever passed?",
+      "a": "The House passed the MORE Act in 2020 and 2022 under Democratic control, but the Senate never voted on it."
+    },
+    {
+      "q": "Would Trump sign a descheduling bill?",
+      "a": "An anonymous senior adviser told The Marijuana Herald he would sign a clean descheduling bill but would likely veto one with social equity add-ons; the White House has not said so publicly."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congress.gov: H.R. 5068, MORE Act (119th Congress)",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5068"
+    },
+    {
+      "name": "Congress.gov: S. 5022, Cannabis Administration and Opportunity Act",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5022"
+    },
+    {
+      "name": "Congress.gov: H.R. 2934, STATES 2.0 Act",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2934"
+    },
+    {
+      "name": "Cannabis Business Times: Rep. Cohen introduces bill to remove cannabis from the CSA (29 October 2026)",
+      "url": "https://www.cannabisbusinesstimes.com/legislation-and-regulation/federal-cannabis-legalization/news/16050512/us-congressman-introduces-bill-to-legalize-cannabis-rewrite-controlled-substances-act"
+    },
+    {
+      "name": "The Marijuana Herald: Senior Trump adviser says president would sign clean descheduling bill (5 November 2026)",
+      "url": "https://themarijuanaherald.com/2026/11/senior-trump-adviser-says-president-would-sign-clean-marijuana-descheduling-bill-passed-by-democrats/"
+    },
+    {
+      "name": "Marijuana Moment: Could Democrats federally legalize marijuana with new majorities? (4 November 2026)",
+      "url": "https://www.marijuanamoment.net/could-democrats-federally-legalize-marijuana-with-their-new-senate-and-house-majorities/"
+    },
+    {
+      "name": "Marijuana Policy Project: Current marijuana bills before Congress",
+      "url": "https://www.mpp.org/policy/federal/current-marijuana-bills-before-congress/"
+    },
+    {
+      "name": "Congressional Research Service, LSB11424: Department of Justice Eases Control of Medical Marijuana (30 April 2026)",
+      "url": "https://www.congress.gov/crs_external_products/LSB/PDF/LSB11424/LSB11424.1.pdf"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

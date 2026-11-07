@@ -1,0 +1,35 @@
+{
+  "id": "country/czech-republic",
+  "type": "country",
+  "name": "Czech Republic",
+  "tags": ["Czech Republic"],
+  "legal": {"adult_use": "legal_no_sales", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Since 1 January 2026 adults 21+ in Czechia may grow three plants and possess limited amounts, but selling cannabis remains illegal.",
+  "summary": "A criminal-code reform approved in 2025 took effect on 1 January 2026, letting adults 21 and over grow up to three plants at home, keep up to 100 g at home and carry up to 25 g in public. Sales, shops and cannabis social clubs remain illegal, and large amounts are still prosecuted. Clubs or city pilot projects are being discussed for 2027 or later, but nothing has been formally scheduled.",
+  "facts": {
+    "adult_use_since": {"value": "1 January 2026 (possession and home growing; no legal sales).", "source": "https://norml.org/news/2026/01/08/czech-republic-legislation-takes-effect-legalizing-personal-marijuana-possession/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 25 g outside the home and up to 100 g of dried cannabis at home for adults 21+.", "source": "https://www.expats.cz/czech-news/article/inside-czechia-s-2026-cannabis-laws-how-much-can-you-legally-grow-and-possess", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to three plants at the primary residence, provided growing causes no nuisance or safety risk to others.", "source": "https://www.expats.cz/czech-news/article/inside-czechia-s-2026-cannabis-laws-how-much-can-you-legally-grow-and-possess", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 for legal possession and home growing (there is no legal purchase).", "source": "https://norml.org/news/2026/01/08/czech-republic-legislation-takes-effect-legalizing-personal-marijuana-possession/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None. Recreational sales remain illegal and cannabis social clubs are not yet permitted.", "source": "https://www.expats.cz/czech-news/article/inside-czechia-s-2026-cannabis-laws-how-much-can-you-legally-grow-and-possess", "as_of": "2026-11-07"},
+    "penalties": {"value": "Growing more than three plants is an offence, possessing more than 200 g remains a felony, and selling remains subject to civil or criminal penalties.", "source": "https://www.expats.cz/czech-news/article/inside-czechia-s-2026-cannabis-laws-how-much-can-you-legally-grow-and-possess", "as_of": "2026-11-07"},
+    "tourists": {"value": "There is no legal way for visitors to buy cannabis because sales and clubs remain illegal; the sources reviewed set no separate rules for non-residents.", "source": "https://www.expats.cz/czech-news/article/inside-czechia-s-2026-cannabis-laws-how-much-can-you-legally-grow-and-possess", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2025-07", "event": "Senate approves criminal-code reform easing cannabis rules and allowing medical psilocybin", "source": "https://english.radio.cz/node/8856959"},
+    {"date": "2026-01-01", "event": "Reform takes effect: adults 21+ may grow three plants and possess up to 100 g at home", "source": "https://norml.org/news/2026/01/08/czech-republic-legislation-takes-effect-legalizing-personal-marijuana-possession/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Czech Republic in 2026?", "a": "Partly. Since 1 January 2026 adults 21+ may grow three plants, keep up to 100 g at home and carry up to 25 g, but buying and selling remain illegal."},
+    {"q": "Can tourists buy cannabis in Prague?", "a": "No. There are no legal shops or clubs, so any purchase is from the illicit market."},
+    {"q": "Will Czechia allow cannabis clubs or shops?", "a": "Non-profit clubs have been floated for 2027 or 2028, but no formal plan or bill has been announced."}
+  ],
+  "sources": [
+    {"name": "Expats.cz", "url": "https://www.expats.cz/czech-news/article/inside-czechia-s-2026-cannabis-laws-how-much-can-you-legally-grow-and-possess"},
+    {"name": "NORML", "url": "https://norml.org/news/2026/01/08/czech-republic-legislation-takes-effect-legalizing-personal-marijuana-possession/"},
+    {"name": "Radio Prague International", "url": "https://english.radio.cz/node/8856959"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

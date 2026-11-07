@@ -1,0 +1,35 @@
+{
+  "id": "us/kansas",
+  "type": "us_state",
+  "name": "Kansas",
+  "abbr": "KS",
+  "tags": ["Kansas"],
+  "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},
+  "headline_status": "Marijuana is illegal in Kansas for both recreational and medical use; only a narrow legal defense covers low-THC CBD oil.",
+  "summary": "Kansas has no medical or adult-use cannabis program, and a first possession offense is a Class B misdemeanor that can bring jail time. Claire and Lola's Law (2019) only lets people with CBD oil containing up to 5% THC raise an affirmative defense; it does not allow sales. The 2026 session adjourned April 10 without advancing any medical, decriminalization or legalization bill, and Kansas has no citizen initiative process.",
+  "facts": {
+    "possession_limit": {"value": "No amount of marijuana is legal to possess.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "penalties": {"value": "First-time possession of any amount is a Class B misdemeanor punishable by up to 6 months in jail and a fine of up to $1,000.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "None. Claire and Lola's Law (SB 28, 2019) gives an affirmative defense for possessing CBD oil with up to 5% THC, which prevents conviction but not arrest, and does not permit sales or production.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No legal marijuana sales of any kind.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "CBD products with little to no THC are generally sold legally. Federal hemp limits taking effect in November 2026 are expected to remove most consumable hemp-derived THC products from shelves.", "source": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2019", "event": "Claire and Lola's Law (SB 28) creates an affirmative defense for low-THC CBD oil", "source": "https://www.mpp.org/states/kansas/"},
+    {"date": "2021", "event": "House passes the first of three medical cannabis bills (2021, 2022, 2023); none advance in the Senate", "source": "https://www.mpp.org/states/kansas/"},
+    {"date": "2026-04-10", "event": "Legislature adjourns without acting on medical (SB 294), decriminalization (SB 295) or legalization (HB 2405) bills", "source": "https://www.mpp.org/states/kansas/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Kansas?", "a": "No. Kansas allows neither recreational nor medical marijuana, and possessing any amount is a crime."},
+    {"q": "What is the penalty for marijuana possession in Kansas?", "a": "A first offense is a Class B misdemeanor punishable by up to 6 months in jail and a $1,000 fine."},
+    {"q": "Is CBD legal in Kansas?", "a": "CBD with little or no THC is generally sold legally. CBD oil with up to 5% THC is covered only by an affirmative defense in court."},
+    {"q": "Can Kansas voters legalize marijuana by ballot?", "a": "No. Kansas has no statewide citizen initiative process, so any change has to come from the legislature."}
+  ],
+  "sources": [
+    {"name": "Marijuana Policy Project – Kansas", "url": "https://www.mpp.org/states/kansas/"},
+    {"name": "High Plains Public Radio", "url": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "partial"
+}
