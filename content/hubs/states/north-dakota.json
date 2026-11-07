@@ -1,0 +1,43 @@
+{
+  "id": "us/north-dakota",
+  "type": "us_state",
+  "name": "North Dakota",
+  "abbr": "ND",
+  "tags": ["North Dakota"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "partial"
+  },
+  "headline_status": "Medical cannabis is legal in North Dakota, but recreational use is not; small-amount possession is a fine-only infraction.",
+  "summary": "North Dakota allows medical cannabis under a program voters approved in 2016, run through the state health department with licensed dispensaries. Recreational marijuana remains illegal: voters rejected Measure 5 on November 5, 2024 by about 52.6% to 47.5%. Since a 2019 law, possessing a half ounce or less is a criminal infraction punishable by a fine rather than jail. In April 2025 the governor signed HB 1203, letting practitioners recommend edible lozenges to qualifying patients.",
+  "facts": {
+    "medical_since": {"value": "2016, when voters approved Initiated Statute Measure 5; lawmakers revised it in 2017 (SB 2344).", "source": "https://mpp.org/nd", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients need a practitioner's certification for a qualifying debilitating condition and a state compassionate use card; they may buy up to 7.5 oz from licensed dispensaries every 30 days. Edible lozenges were added in 2025 (HB 1203).", "source": "https://mpp.org/nd", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed, including for registered medical patients.", "source": "https://mpp.org/nd", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal possession amount for non-patients; under 0.5 oz is a fine-only criminal infraction.", "source": "https://norml.org/laws/north-dakota-laws-and-penalties", "as_of": "2026-11-07"},
+    "penalties": {"value": "Under 0.5 oz: infraction with a fine up to $1,000 and no jail. Over 0.5 oz to under 500 g: misdemeanor, up to 30 days and $1,500. Over 500 g: misdemeanor, up to 360 days and $3,000. Ingesting any amount is a misdemeanor.", "source": "https://norml.org/laws/north-dakota-laws-and-penalties", "as_of": "2026-11-07"},
+    "regulator": {"value": "North Dakota state health department (Health and Human Services), which issues compassionate use cards.", "source": "https://mpp.org/nd", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2016-11-08", "event": "Voters approve Initiated Statute Measure 5, creating the medical cannabis program", "source": "https://mpp.org/nd"},
+    {"date": "2017", "event": "Legislature revises the medical law through SB 2344", "source": "https://mpp.org/nd"},
+    {"date": "2019", "event": "HB 1050 removes jail time for possessing a half ounce or less", "source": "https://mpp.org/nd"},
+    {"date": "2024-11-05", "event": "Voters reject adult-use legalization Measure 5, about 52.6% no to 47.5% yes", "source": "https://mpp.org/nd"},
+    {"date": "2025-04", "event": "Gov. Kelly Armstrong signs HB 1203 allowing edible lozenges for medical patients", "source": "https://mpp.org/nd"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in North Dakota?", "a": "Only for registered medical patients. Recreational marijuana is illegal; voters turned down legalization in 2024."},
+    {"q": "Is marijuana decriminalized in North Dakota?", "a": "Partly. Possessing less than a half ounce is a criminal infraction with a fine of up to $1,000 and no jail, but larger amounts and using cannabis are misdemeanors."},
+    {"q": "How do you get a medical marijuana card in North Dakota?", "a": "You need a practitioner's certification for a qualifying condition and then apply for a compassionate use card through the state health department."},
+    {"q": "Can medical patients grow cannabis in North Dakota?", "a": "No. Home cultivation is not permitted; patients buy from licensed dispensaries."}
+  ],
+  "sources": [
+    {"name": "Marijuana Policy Project, North Dakota", "url": "https://mpp.org/nd"},
+    {"name": "NORML, North Dakota laws and penalties", "url": "https://norml.org/laws/north-dakota-laws-and-penalties"},
+    {"name": "Ballotpedia, North Dakota Measure 5 (2024)", "url": "https://ballotpedia.org/North_Dakota_Marijuana_Legalization_Initiative_(2024)"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

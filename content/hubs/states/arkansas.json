@@ -1,0 +1,76 @@
+{
+  "id": "us/arkansas",
+  "type": "us_state",
+  "name": "Arkansas",
+  "abbr": "AR",
+  "tags": ["Arkansas"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Medical cannabis is legal for registered patients; recreational use remains illegal.",
+  "summary": "Arkansas voters approved a medical cannabis constitutional amendment in 2016, and dispensary sales began in Hot Springs in May 2019; the program now serves more than 115,000 patients. Voters rejected adult-use legalization in 2022, and the state Supreme Court blocked the count on a 2024 medical expansion measure. Possessing up to four ounces without a card is a misdemeanor that can bring jail time. A 2023 law (Act 629) banning intoxicating hemp products such as delta-8 became enforceable after a federal appeals court ruling in June 2025.",
+  "facts": {
+    "medical_since": {
+      "value": "Voters approved the medical cannabis amendment in 2016; first dispensary sales took place in May 2019.",
+      "source": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Medical-only. The first sales were at Doctors Orders Rx in Hot Springs in May 2019. No adult-use stores exist.",
+      "source": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Patients with a physician certification apply online to the Department of Health for a registry card ($50 application or renewal). Visiting patients can get a 90-day card for $50. More than 115,000 patients are enrolled.",
+      "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Arkansas Department of Health issues patient cards; the Medical Marijuana Commission and Alcoholic Beverage Control oversee and license cultivators and dispensaries.",
+      "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Possessing up to four ounces without legal protection is a Class A misdemeanor carrying up to one year in jail and a fine up to $2,500, plus an automatic six-month driver's license suspension on conviction.",
+      "source": "https://www.mpp.org/states/arkansas/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Act 629 of 2023 bans psychoactive hemp products such as delta-8 and delta-9 THC; the Eighth Circuit lifted an injunction against it on June 24, 2025, allowing enforcement.",
+      "source": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/",
+      "as_of": "2026-11-07"
+    },
+    "ballot_history": {
+      "value": "Adult-use legalization (Issue 4) failed in 2022, 56.3% to 43.7%. In October 2024 the state Supreme Court ruled votes on a medical expansion measure would not be counted.",
+      "source": "https://www.mpp.org/states/arkansas/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {"date": "2016-11", "event": "Voters approve the medical cannabis constitutional amendment", "source": "https://www.mpp.org/states/arkansas/"},
+    {"date": "2019-05", "event": "First medical cannabis sales at Doctors Orders Rx in Hot Springs", "source": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/"},
+    {"date": "2022-11", "event": "Voters reject adult-use legalization (Issue 4)", "source": "https://www.mpp.org/states/arkansas/"},
+    {"date": "2023", "event": "Act 629 bans psychoactive hemp products; enforcement is initially blocked in court", "source": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/"},
+    {"date": "2024-10-21", "event": "Arkansas Supreme Court rules votes on a medical expansion initiative will not be counted", "source": "https://www.mpp.org/states/arkansas/"},
+    {"date": "2025", "event": "Gov. Sanders vetoes HB 1889, which would have allowed drive-through dispensary service", "source": "https://www.mpp.org/states/arkansas/"},
+    {"date": "2025-06-24", "event": "Eighth Circuit lets Arkansas enforce its ban on intoxicating hemp products", "source": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Arkansas?", "a": "Only for registered medical patients. Recreational use is illegal, and voters rejected an adult-use amendment in 2022."},
+    {"q": "How do you get a medical marijuana card in Arkansas?", "a": "Get a certification from a physician for a qualifying condition, then apply online to the Arkansas Department of Health. The application fee is $50."},
+    {"q": "What is the penalty for marijuana possession in Arkansas?", "a": "Possessing up to four ounces is a Class A misdemeanor punishable by up to a year in jail and a $2,500 fine, and a conviction triggers a six-month license suspension."},
+    {"q": "Is delta-8 legal in Arkansas?", "a": "No. Act 629 of 2023 bans psychoactive hemp products such as delta-8, and a federal appeals court allowed the state to enforce it in June 2025."},
+    {"q": "Can out-of-state patients buy medical cannabis in Arkansas?", "a": "Yes. Visiting patients can apply online for a 90-day visiting patient card for $50."}
+  ],
+  "sources": [
+    {"name": "Arkansas Department of Health - Medical Marijuana", "url": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana"},
+    {"name": "Arkansas Attorney General - Act 629 ruling release", "url": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/"},
+    {"name": "Marijuana Policy Project - Arkansas", "url": "https://www.mpp.org/states/arkansas/"},
+    {"name": "MJBizDaily - Medical marijuana sales begin in Arkansas", "url": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

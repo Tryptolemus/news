@@ -1,0 +1,39 @@
+{
+  "id": "country/netherlands",
+  "type": "country",
+  "name": "Netherlands",
+  "tags": ["Netherlands"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Cannabis remains technically illegal in the Netherlands, but small-scale possession and sales in licensed coffee shops are tolerated for adults 18+.",
+  "summary": "Under the Dutch toleration policy, prosecutors do not pursue possession of up to 5 g, and municipalities may allow coffee shops that sell no more than 5 g per transaction to adults. Supply to coffee shops has long been illegal, so the state is testing a legal, regulated supply chain in 10 municipalities; that experiment's main phase began on 7 April 2025. Medicinal cannabis is supplied to pharmacies through the government's Office of Medicinal Cannabis.",
+  "facts": {
+    "possession_limit": {"value": "Up to 5 g of cannabis or hash is tolerated and not prosecuted.", "source": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Growing up to 5 plants is still illegal, but police usually only seize them; more than 5 plants leads to prosecution.", "source": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "18; coffee shops must check customers' age.", "source": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Tolerated coffee shops may sell up to 5 g per transaction if they cause no nuisance, sell no hard drugs, do not sell to minors and do not advertise; municipalities decide whether and how many shops are allowed.", "source": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops", "as_of": "2026-11-07"},
+    "medical_program": {"value": "The government's Office of Medicinal Cannabis holds a monopoly on supplying medicinal cannabis, which it delivers only to pharmacies, dispensing GPs, hospitals and vets.", "source": "https://english.cannabisbureau.nl/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Ministry of Justice and Security with the Ministry of Health, Welfare and Sport (Youth, Prevention and Sport minister) for the supply-chain experiment; municipalities license coffee shops; Office of Medicinal Cannabis for medical supply.", "source": "https://www.government.nl/latest/news/2025/04/02/experimental-phase-of-the-closed-coffee-shop-chain-experiment-weed-experiment-starts-on-april-7th", "as_of": "2026-11-07"},
+    "tourists": {"value": "National rules have limited coffee shop sales to Dutch residents since 1 January 2013, but enforcement of this residence criterion varies by municipality.", "source": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2013-01-01", "event": "Residence criterion introduced: coffee shops may only sell to Dutch residents", "source": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops"},
+    {"date": "2019-11", "event": "Senate approves closed coffee shop chain experiment bill", "source": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/experiment-gesloten-coffeeshopketen-wietexperiment/tijdlijn-experiment-gesloten-coffeeshopketen"},
+    {"date": "2023-12-15", "event": "Experiment start-up phase begins in Breda and Tilburg", "source": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/experiment-gesloten-coffeeshopketen-wietexperiment/tijdlijn-experiment-gesloten-coffeeshopketen"},
+    {"date": "2024-06-17", "event": "Transition phase starts in all 10 participating municipalities", "source": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/experiment-gesloten-coffeeshopketen-wietexperiment/tijdlijn-experiment-gesloten-coffeeshopketen"},
+    {"date": "2025-04-07", "event": "Experimental phase begins: participating coffee shops may sell only regulated, legally grown cannabis", "source": "https://www.government.nl/latest/news/2025/04/02/experimental-phase-of-the-closed-coffee-shop-chain-experiment-weed-experiment-starts-on-april-7th"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in the Netherlands?", "a": "Not technically. It is tolerated: possession of up to 5 g is not prosecuted and licensed coffee shops may sell small amounts to adults."},
+    {"q": "Can tourists buy weed in Amsterdam?", "a": "National policy restricts coffee shop sales to Dutch residents, but each municipality decides how strictly that rule is enforced, so access for visitors depends on the city."},
+    {"q": "What is the Dutch weed experiment?", "a": "A trial in 10 municipalities in which coffee shops sell only cannabis from licensed growers, testing a fully legal supply chain. Its experimental phase began on 7 April 2025."}
+  ],
+  "sources": [
+    {"name": "Government of the Netherlands – Toleration policy", "url": "https://www.government.nl/topics/drugs/toleration-policy-regarding-soft-drugs-and-coffee-shops"},
+    {"name": "Government of the Netherlands – Experiment news, 2 April 2025", "url": "https://www.government.nl/latest/news/2025/04/02/experimental-phase-of-the-closed-coffee-shop-chain-experiment-weed-experiment-starts-on-april-7th"},
+    {"name": "Rijksoverheid – Experiment timeline", "url": "https://www.rijksoverheid.nl/themas/familie-zorg-en-gezondheid/experiment-gesloten-coffeeshopketen-wietexperiment/tijdlijn-experiment-gesloten-coffeeshopketen"},
+    {"name": "Office of Medicinal Cannabis", "url": "https://english.cannabisbureau.nl/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

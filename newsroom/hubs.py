@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "content" / "hubs"
 SITE = T.SITE
 
-KIND_DIR = {"us_state": "states", "country": "countries", "explainer": "explainers"}
+KIND_DIR = {"us_state": "states", "country": "countries", "explainer": "explainers", "glossary": "glossary"}
 FACT_LABELS = [
     ("adult_use_since", "Adult-use legal since"), ("retail_sales", "Retail sales"), ("purchase_age", "Minimum age"),
     ("possession_limit", "Possession limit"), ("home_grow", "Home grow"), ("public_use", "Public use"),
@@ -56,7 +56,8 @@ BY_TAG = {}        # tag (lower) -> hub
 
 def url_for(h):
     s = h["_slug"]
-    return {"us_state": f"/legal/us/{s}/", "country": f"/legal/world/{s}/", "explainer": f"/explainers/{s}/"}[h["type"]]
+    return {"us_state": f"/legal/us/{s}/", "country": f"/legal/world/{s}/", "explainer": f"/explainers/{s}/",
+            "glossary": f"/glossary/{s}/"}[h["type"]]
 
 
 def complete(h):
@@ -71,11 +72,14 @@ def load():
             try:
                 h = json.loads(f.read_text())
             except Exception as e:  # noqa: BLE001
-                raise SystemExit(f"Hub file {f}: invalid JSON ({e})")
+                print(f"WARNING: skipping hub file {f.name}: invalid JSON ({e})")
+                continue
             h.setdefault("type", kind)
             h["_slug"] = f.stem
             h["_url"] = url_for(h)
             HUBS.append(h)
+            if kind == "glossary":
+                continue  # glossary terms link from hubs and each other, not from story tags
             for t in {h["name"], *h.get("tags", [])}:
                 BY_TAG.setdefault(t.lower(), h)
     return HUBS
@@ -274,9 +278,10 @@ def sib_html(h):
     sib = siblings(h)
     if not sib:
         return ""
-    label = {"us_state": "Other states", "country": "Other countries", "explainer": "More explainers"}[h["type"]]
+    label = {"us_state": "Other states", "country": "Other countries", "explainer": "More explainers", "glossary": "More terms"}[h["type"]]
     lis = "".join(f'<li><a href="{x["_url"]}">{escape(x["name"])}</a><span>{escape(TONE_LABEL[tone(x)] if x["type"] != "explainer" else "")}</span></li>' for x in sib)
-    up = {"us_state": ("All 50 states", "/legal/us/"), "country": ("All countries", "/legal/world/"), "explainer": ("All explainers", "/explainers/")}[h["type"]]
+    up = {"us_state": ("All 50 states", "/legal/us/"), "country": ("All countries", "/legal/world/"), "explainer": ("All explainers", "/explainers/"),
+          "glossary": ("Full glossary", "/glossary/")}[h["type"]]
     return f'<section class="hub-sec"><h2>{label}</h2><ul class="sib">{lis}</ul><p class="more-link"><a href="{up[1]}">{up[0]}</a></p></section>'
 
 
@@ -500,11 +505,77 @@ def legal_index():
   <a class="legal-card" href="/legal/world/"><span class="lc-k">World</span><b>Cannabis laws by country</b><span>Rules for residents and tourists</span></a>
   <a class="legal-card" href="/explainers/"><span class="lc-k">Federal</span><b>Explainers</b><span>Rescheduling, 280E, hemp, banking</span></a>
 </div>
+<p class="more-link"><a href="/glossary/">Cannabis glossary: industry and legal terms explained</a></p>
 {tile_map(states)}
 <section class="block"><h2 class="sec-label">Federal explainers</h2><ul class="sib">{exl}</ul></section>"""
     T.ctx["write"]("legal/index.html", T.page("Cannabis laws: US states, countries and federal rules", body,
                    desc="Is cannabis legal where you are? Current cannabis laws for all 50 US states, key countries and federal rules, with sources and the latest changes.",
                    path="/legal/", active="Laws"))
+
+
+def term_page(h, arts):
+    name = h["name"]
+    crumbs = [("MetaFlora News", "/"), ("Glossary", "/glossary/"), (name, h["_url"])]
+    title = f"What is {name}? Meaning in cannabis"
+    desc = h.get("short", "")
+    if len(desc) > 165:
+        desc = desc[:162].rsplit(" ", 1)[0] + "..."
+    by_name = {x["name"].lower(): x for x in HUBS if x["type"] == "glossary"}
+    rel = [by_name[r.lower()] for r in h.get("related", []) if r.lower() in by_name]
+    rel_html = ""
+    if rel:
+        rel_html = '<section class="hub-sec"><h2>Related terms</h2><ul class="sib">' + "".join(
+            f'<li><a href="{x["_url"]}">{escape(x["name"])}</a></li>' for x in rel) + "</ul></section>"
+    deeper = [x for t in h.get("tags", []) for x in [hub_for_tag(t)] if x and complete(x)]
+    deep_html = ""
+    if deeper:
+        deep_html = '<section class="hub-sec"><h2>Go deeper</h2><ul class="sib">' + "".join(
+            f'<li><a href="{x["_url"]}">{escape(x["name"])}</a><span>{"Explainer" if x["type"] == "explainer" else "Law"}</span></li>' for x in {d["_url"]: d for d in deeper}.values()) + "</ul></section>"
+    paras = "".join(f"<p>{escape(x)}</p>" for x in (h.get("definition") or []))
+    ex = f'<p class="term-ex"><span>In the news</span>{escape(h["example"])}</p>' if h.get("example") else ""
+    body = f"""
+<article class="story hub">
+  <header class="story-head">
+    {crumbs_html(crumbs)}
+    <h1>{escape(name)}</h1>
+    <p class="dek hub-answer">{escape(h.get("short", ""))}</p>
+    <p class="hub-by"><span>MetaFlora cannabis glossary</span> · Last verified <time datetime="{verified(h)}">{fmt_date(verified(h))}</time></p>
+  </header>
+  <div class="story-col">
+    <div class="story-body term-body">{paras}</div>
+    {ex}
+    {deep_html}
+    {coverage_html(h, arts) if h.get("tags") else ""}
+    {rel_html}
+    {sources(h)}
+  </div>
+</article>"""
+    ld = {"@context": "https://schema.org", "@type": "DefinedTerm", "name": name, "description": h.get("short", ""), "url": SITE + h["_url"],
+          "inDefinedTermSet": {"@type": "DefinedTermSet", "name": "MetaFlora cannabis glossary", "url": SITE + "/glossary/"}}
+    extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (ld, crumbs_ld(crumbs)))
+    T.ctx["write"](h["_url"].strip("/") + "/index.html",
+                   T.page(title, body, desc=desc, path=h["_url"], extra_head=extra, active="Laws",
+                          robots=T.ROBOTS if complete(h) else "noindex, follow"))
+
+
+def glossary_index():
+    terms = sorted([h for h in HUBS if h["type"] == "glossary" and complete(h)], key=lambda h: h["name"].lower())
+    if not terms:
+        return None
+    groups = {}
+    for h in terms:
+        k = h["name"][0].upper() if h["name"][0].isalpha() else "#"
+        groups.setdefault(k, []).append(h)
+    blocks = "".join(f'<section class="block"><h2 class="sec-label">{k}</h2><dl class="gloss">' + "".join(
+        f'<dt><a href="{h["_url"]}">{escape(h["name"])}</a></dt><dd>{escape(h.get("short", ""))}</dd>' for h in v) + "</dl></section>"
+        for k, v in sorted(groups.items()))
+    ld = {"@context": "https://schema.org", "@type": "DefinedTermSet", "name": "MetaFlora cannabis glossary", "url": SITE + "/glossary/",
+          "hasDefinedTerm": [{"@type": "DefinedTerm", "name": h["name"], "url": SITE + h["_url"]} for h in terms]}
+    body = f'<div class="page-h"><h1>Cannabis glossary</h1><p class="meta">{len(terms)} terms</p></div>{blocks}'
+    T.ctx["write"]("glossary/index.html", T.page("Cannabis glossary: industry and legal terms explained", body,
+                   desc="Plain-English definitions of cannabis industry, science and legal terms, from THCA and total THC to Section 280E, MSOs and Schedule III.",
+                   path="/glossary/", extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>', active="Laws"))
+    return max(verified(h) for h in terms)
 
 
 def build(arts):
@@ -515,6 +586,8 @@ def build(arts):
     for h in HUBS:
         if h["type"] == "explainer":
             explainer_page(h, arts)
+        elif h["type"] == "glossary":
+            term_page(h, arts)
         else:
             jurisdiction_page(h, arts)
         if complete(h):
@@ -527,6 +600,9 @@ def build(arts):
     e = explainers_index()
     if e:
         urls.append(("/explainers/", e))
+    g = glossary_index()
+    if g:
+        urls.append(("/glossary/", g))
     if HUBS:
         legal_index()
         urls.append(("/legal/", max(verified(h) for h in HUBS)))

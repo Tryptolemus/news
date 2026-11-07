@@ -1,0 +1,42 @@
+{
+  "id": "us/indiana",
+  "type": "us_state",
+  "name": "Indiana",
+  "abbr": "IN",
+  "tags": ["Indiana"],
+  "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},
+  "headline_status": "Marijuana is illegal in Indiana for both recreational and medical use; only low-THC CBD products are allowed.",
+  "summary": "Indiana has no medical or adult-use marijuana program, and simple possession is a criminal misdemeanor. CBD with no more than 0.3% THC has been legal since 2018. A 2026 bill to restrict intoxicating hemp products (SB 250) passed the Senate but died in the House, so delta-8 and similar products remain unregulated, with no age limit, even as a federal hemp THC cap takes effect in November 2026. Sen. Mike Bohacek plans to file a medical marijuana bill in 2027.",
+  "facts": {
+    "possession_limit": {"value": "No amount of marijuana is legal to possess.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
+    "penalties": {"value": "Simple possession is a Class B misdemeanor (up to 180 days and $1,000). With a prior drug conviction it becomes a Class A misdemeanor under 30 grams (up to 1 year, $5,000) or a felony at 30 grams or more.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "None. Indiana is among the few states with no medical marijuana program; Gov. Mike Braun has said he is open to discussing it but has not acted.", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No legal marijuana sales of any kind.", "source": "https://indianacapitalchronicle.com/2026/02/02/indiana-keeps-bucking-marijuana-legalization-tightening-related-laws-instead/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "CBD with up to 0.3% THC has been legal since 2018. Intoxicating hemp products such as delta-8 and THCA are unregulated with no state age limit after SB 250 died in 2026.", "source": "https://indianapublicradio.org/?p=121949", "as_of": "2026-11-07"},
+    "regulator": {"value": "No cannabis regulator. The Indiana Board of Pharmacy must review any finalized federal rescheduling and recommend whether the state should follow.", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2018", "event": "Law signed allowing sale and possession of CBD oil with up to 0.3% THC", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/"},
+    {"date": "2026-02", "event": "Senate passes SB 250 (35-15) to set a 21+ age limit and rules for hemp THC; the House never takes it up", "source": "https://indianapublicradio.org/?p=121949"},
+    {"date": "2026-05", "event": "Board of Pharmacy reviews the federal rescheduling notice and takes no action", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill"},
+    {"date": "2026-11", "event": "Federal hemp THC limits take effect, creating a conflict with Indiana's unregulated hemp market", "source": "https://indianapublicradio.org/?p=121949"}
+  ],
+  "pending": [
+    {"item": "Sen. Mike Bohacek is drafting a 2027 bill to legalize and tax medical marijuana (not recreational).", "status": "Being drafted; 2027 bills cannot be filed until late 2026", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Indiana?", "a": "No. Recreational and medical marijuana are both illegal, and possession is a criminal misdemeanor."},
+    {"q": "Is CBD legal in Indiana?", "a": "Yes. CBD products with no more than 0.3% THC have been legal since 2018."},
+    {"q": "Is delta-8 legal in Indiana?", "a": "Delta-8 and similar hemp products sit in a legal gray area with no state age limit, because the 2026 bill to regulate them failed. Federal hemp THC limits starting in November 2026 may change that."},
+    {"q": "Will Indiana legalize medical marijuana?", "a": "Not yet. A Republican senator plans a medical-only bill for the 2027 session."}
+  ],
+  "sources": [
+    {"name": "Indiana Capital Chronicle", "url": "https://indianacapitalchronicle.com/2026/02/02/indiana-keeps-bucking-marijuana-legalization-tightening-related-laws-instead/"},
+    {"name": "Indiana Public Media", "url": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill"},
+    {"name": "Indiana Public Radio", "url": "https://indianapublicradio.org/?p=121949"},
+    {"name": "Indiana Courts legislative update – SB 250", "url": "https://legislativeupdate.courts.in.gov/2026/02/20/regulation-of-hemp-2"},
+    {"name": "Keffer Hirschauer (law firm)", "url": "https://www.indyjustice.com/blog/indiana-marijuana-laws/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
