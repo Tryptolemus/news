@@ -1,0 +1,46 @@
+{
+  "id": "us/south-carolina",
+  "type": "us_state",
+  "name": "South Carolina",
+  "abbr": "SC",
+  "tags": ["South Carolina"],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "cbd_only",
+    "decriminalized": "no"
+  },
+  "headline_status": "Recreational and medical marijuana are illegal in South Carolina; only low-THC CBD oil is allowed for certain epilepsy patients.",
+  "summary": "South Carolina has no recreational or comprehensive medical cannabis program. A 2014 law (Julian's Law) carves out CBD products with no more than 0.9% THC for patients with severe epilepsy, and first-offense possession of an ounce or less can still bring up to 30 days in jail. Sen. Tom Davis's Compassionate Care Act has passed the Senate in past sessions but died in the House, and the 2026 session ended without a hearing on it. Efforts to restrict hemp-derived THC drinks and edibles also failed in June 2026, so those products remain on sale without a state age limit.",
+  "facts": {
+    "medical_since": {"value": "2014, when the Medical Cannabis Therapeutic Treatment Act (Julian's Law) allowed low-THC CBD for refractory epilepsy. There is no comprehensive medical program.", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients with a physician's written certification of severe epilepsy, such as Lennox-Gastaut or Dravet syndrome, may possess CBD products with 0.9% THC or less and more than 15% CBD.", "source": "https://www.scstatehouse.gov/code/t44c053.php", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal possession amount for marijuana under state law.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
+    "penalties": {"value": "1 oz or less, first offense: misdemeanor, up to 30 days in jail and a $100 to $200 fine (pretrial diversion may be available). Subsequent offense: up to 1 year in jail.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Hemp-derived THC drinks and edibles are sold without a state age limit or THC cap after a bill to restrict them failed in the House on June 25, 2026.", "source": "https://abcnews4.com/news/local/sc-bills-to-restrict-thc-products-strengthen-dui-laws-wont-be-revived-this-year", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; cultivating fewer than 100 plants is a felony punishable by up to 5 years and a $5,000 fine.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "1980", "event": "Controlled Substances Therapeutic Research Act allows state-supplied cannabis for certain cancer and glaucoma patients", "source": "https://www.mpp.org/states/south-carolina"},
+    {"date": "2014", "event": "Julian's Law allows low-THC CBD for refractory epilepsy", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
+    {"date": "2026-05-14", "event": "General Assembly recesses without a hearing on any cannabis bill, including the Compassionate Care Act (S.53)", "source": "https://www.mpp.org/states/south-carolina"},
+    {"date": "2026-06-25", "event": "House rejects compromise to restrict hemp-derived THC drinks and edibles; the bill dies", "source": "https://abcnews4.com/news/local/sc-bills-to-restrict-thc-products-strengthen-dui-laws-wont-be-revived-this-year"}
+  ],
+  "pending": [
+    {"item": "Compassionate Care Act (medical cannabis), sponsored by Sen. Tom Davis", "status": "Received no hearing in 2026; Davis is expected to reintroduce it in 2027", "source": "https://www.mpp.org/states/south-carolina"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in South Carolina?", "a": "No. Recreational and medical marijuana are illegal; the only exception is low-THC CBD oil for certain epilepsy patients."},
+    {"q": "What happens if you get caught with weed in South Carolina?", "a": "A first offense for an ounce or less is a misdemeanor with up to 30 days in jail and a $100 to $200 fine, though first offenders may qualify for diversion."},
+    {"q": "Is medical marijuana legal in South Carolina?", "a": "No. The Compassionate Care Act has passed the Senate before but has never cleared the House."},
+    {"q": "Are THC gummies and drinks legal in South Carolina?", "a": "Hemp-derived THC products are widely sold with no state age limit after a 2026 bill to restrict them failed, though new federal hemp limits are set to take effect."}
+  ],
+  "sources": [
+    {"name": "South Carolina Code of Laws, Title 44 Chapter 53", "url": "https://www.scstatehouse.gov/code/t44c053.php"},
+    {"name": "NCSL, State Medical Cannabis Laws", "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
+    {"name": "Marijuana Policy Project, South Carolina", "url": "https://www.mpp.org/states/south-carolina"},
+    {"name": "NORML, South Carolina penalties", "url": "https://norml.org/laws/south-carolina-penalties-2/"},
+    {"name": "ABC News 4", "url": "https://abcnews4.com/news/local/sc-bills-to-restrict-thc-products-strengthen-dui-laws-wont-be-revived-this-year"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "us/maryland",
+  "type": "us_state",
+  "name": "Maryland",
+  "abbr": "MD",
+  "tags": ["Maryland"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+ in Maryland.",
+  "summary": "Maryland voters approved adult-use legalization with 67.2% of the vote in November 2022, and on July 1, 2023 adults 21+ gained the right to possess and buy cannabis, with existing medical dispensaries selling to all adults that day. The cannabis sales tax rose from 9% to 12% starting in fiscal year 2026 (July 2025). New 2026 laws, mostly effective July 1, 2026, loosen social equity ownership rules, set signage limits and protect fire and rescue workers who use medical cannabis.",
+  "facts": {
+    "adult_use_since": {"value": "July 1, 2023, after voters approved Question 4 on November 8, 2022 (67.2% yes).", "source": "https://www.mpp.org/states/maryland/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Adults 21+ may have up to 1.5 oz of flower, 12 g of concentrate, or 750 mg THC in products. Up to 2.5 oz is a civil offense; more can be criminal.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 2 plants per household, out of public view; registered medical patients may grow 2 more (maximum 4 per residence). Landlords may forbid growing.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21, with valid government photo ID. Out-of-state adults may buy; medical patients can register from age 18.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking cannabis is banned in public places such as parks, sidewalks, bars, restaurants, transit and indoor workplaces. A first public-smoking offense carries a $50 civil fine.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed dispensaries have sold adult-use cannabis since July 1, 2023, and must offer patient-only hours or lines for medical patients.", "source": "https://www.mpp.org/states/maryland/", "as_of": "2026-11-07"},
+    "taxes": {"value": "12% sales tax on adult-use cannabis since fiscal year 2026 (up from 9%), under budget bill HB 352 (2025).", "source": "https://norml.org/news/2025/04/10/maryland-lawmakers-approve-marijuana-sales-tax-hike/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients 18 and older can register and keep buying from licensed dispensaries. Maryland does not honor out-of-state medical cards.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "regulator": {"value": "Maryland Cannabis Administration (MCA). The Alcohol, Tobacco, and Cannabis Commission (ATCC) handles field enforcement.", "source": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2022-11-08", "event": "Voters approve Question 4 legalizing adult-use cannabis (67.2%)", "source": "https://www.mpp.org/states/maryland/"},
+    {"date": "2023-07-01", "event": "Possession becomes legal for adults 21+, and adult-use sales begin at existing dispensaries", "source": "https://www.mpp.org/states/maryland/"},
+    {"date": "2024-04", "event": "Social equity licensing lottery held", "source": "https://www.mpp.org/states/maryland/"},
+    {"date": "2025-07-01", "event": "Cannabis sales tax rises from 9% to 12% (fiscal 2026)", "source": "https://norml.org/news/2025/04/10/maryland-lawmakers-approve-marijuana-sales-tax-hike/"},
+    {"date": "2026-07-01", "event": "2026 laws take effect, including SB 594 (social equity ownership threshold cut to 55%, signage limits) and HB 622 (licensing and agent training changes)", "source": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Maryland?", "a": "Yes. Adults 21 and older can possess up to 1.5 ounces of flower and buy from licensed dispensaries, and a medical program continues alongside."},
+    {"q": "How much weed can you carry in Maryland?", "a": "Up to 1.5 oz of flower, 12 g of concentrate, or 750 mg THC in products. Possession up to 2.5 oz is a civil offense rather than a crime."},
+    {"q": "Can you grow weed in Maryland?", "a": "Yes. Adults may grow 2 plants per household out of public view, and medical patients may grow 2 more."},
+    {"q": "What is the cannabis tax in Maryland?", "a": "Adult-use cannabis carries a 12% sales tax, up from 9% before July 2025."},
+    {"q": "Can tourists buy weed in Maryland?", "a": "Yes. Any adult 21+ with valid government ID can buy, but cannabis cannot be taken across state lines."}
+  ],
+  "sources": [
+    {"name": "Maryland Cannabis Administration – FAQ", "url": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx"},
+    {"name": "Maryland Cannabis Administration – 2026 Legislative Updates", "url": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf"},
+    {"name": "Marijuana Policy Project – Maryland", "url": "https://www.mpp.org/states/maryland/"},
+    {"name": "NORML", "url": "https://norml.org/news/2025/04/10/maryland-lawmakers-approve-marijuana-sales-tax-hike/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -6,7 +6,7 @@
   "tags": ["Indiana"],
   "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},
   "headline_status": "Marijuana is illegal in Indiana for both recreational and medical use; only low-THC CBD products are allowed.",
-  "summary": "Indiana has no medical or adult-use marijuana program, and simple possession is a criminal misdemeanor. CBD with no more than 0.3% THC has been legal since 2018. A 2026 bill to restrict intoxicating hemp products (SB 250) passed the Senate but died in the House, so delta-8 and similar products remain unregulated, with no age limit, even as a federal hemp THC cap takes effect in November 2026. Sen. Mike Bohacek plans to file a medical marijuana bill in 2027.",
+  "summary": "Indiana has no medical or adult-use marijuana program, and simple possession is a criminal misdemeanor. CBD with no more than 0.3% THC has been legal since 2018. A 2026 bill to restrict intoxicating hemp products (SB 250) passed the Senate but died in the House, so delta-8 and similar products remain unregulated, with no age limit, even as a federal hemp THC cap approaches (most of it takes effect on 11 December 2026). Sen. Mike Bohacek plans to file a medical marijuana bill in 2027.",
   "facts": {
     "possession_limit": {"value": "No amount of marijuana is legal to possess.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
     "penalties": {"value": "Simple possession is a Class B misdemeanor (up to 180 days and $1,000). With a prior drug conviction it becomes a Class A misdemeanor under 30 grams (up to 1 year, $5,000) or a felony at 30 grams or more.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
