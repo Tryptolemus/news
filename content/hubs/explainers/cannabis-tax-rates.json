@@ -1,0 +1,137 @@
+{
+  "id": "explainer/cannabis-tax-rates",
+  "type": "explainer",
+  "name": "Cannabis tax rates by state",
+  "tags": [
+    "Cannabis taxes",
+    "Excise tax",
+    "Marijuana tax"
+  ],
+  "where_it_stands": "States with adult-use sales tax cannabis on top of, or instead of, ordinary sales tax, using a percentage of price, a charge by weight, or a charge tied to THC content. Washington's 37% retail excise is the highest percentage rate, and several states changed rates in 2025 and 2026, including Connecticut's switch to a flat 10.75% on 1 October 2026.",
+  "next_milestone": {
+    "text": "Treasury and IRS guidance on Section 280E for medical operators, listed in the 2026-2027 Priority Guidance Plan; no release date has been set.",
+    "date": null,
+    "source": "https://www.marijuanamoment.net/federal-officials-say-marijuana-industry-tax-guidance-will-be-a-priority-for-the-next-year/"
+  },
+  "summary": "State cannabis taxes come in three basic designs, according to the Tax Foundation. Most states charge a percentage of price at retail, wholesale or both: Washington levies a 37% retail excise, Montana 20% on adult-use sales, California a 15% excise, and New York a 9% state plus 4% local retail tax and a separate wholesale tax. Some tax by weight: Alaska charges growers $50 an ounce for mature flower, and Maine pairs a 14% sales tax with a per-pound cultivation tax that it cut on 1 January 2026. Others tie the rate to potency: Illinois charges 10% on flower at or below 35% THC, 25% above that and 20% on infused products, and Connecticut taxed by milligram of THC until replacing that with a flat 10.75% gross-receipts tax on 1 October 2026. Local taxes and regular sales taxes usually stack on top. There is no federal excise tax on cannabis, but Section 280E of the tax code denies normal deductions to businesses trafficking in Schedule I or II drugs; Treasury says it stopped applying to state-licensed medical marijuana from the 2026 tax year, while adult-use sellers remain covered.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Shelf prices can carry several layers of tax; in high-tax states the combined rate can make legal products much pricier than illicit ones."
+    },
+    {
+      "for": "Operators",
+      "text": "Wholesale and cultivation taxes are paid before retail, so rate changes ripple through contracts; potency-based taxes also add testing and compliance cost."
+    },
+    {
+      "for": "Investors",
+      "text": "Rate changes such as Connecticut's flat tax and California's reversal of its 2025 increase move margins quickly, and 280E relief now applies only to medical activity."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-07-01",
+      "event": "California's cannabis excise rises to 19%",
+      "source": "https://www.canorml.org/rollbackthetax/"
+    },
+    {
+      "date": "2025-10-01",
+      "event": "California excise returns to 15% under AB 564",
+      "source": "https://www.canorml.org/rollbackthetax/"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "Maine cuts its per-pound cultivation excise and applies a 14% adult-use sales tax",
+      "source": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/GIB%20115_FINAL_2025_10_17_0.pdf"
+    },
+    {
+      "date": "2026-04-10",
+      "event": "Tax Foundation publishes its 2026 state cannabis tax comparison",
+      "source": "https://taxfoundation.org/data/all/state/recreational-marijuana-taxes/"
+    },
+    {
+      "date": "2026-04-23",
+      "event": "Treasury says 280E relief for state-licensed medical marijuana applies from the 2026 tax year",
+      "source": "https://home.treasury.gov/news/press-releases/sb0471"
+    },
+    {
+      "date": "2026-10-01",
+      "event": "Connecticut replaces its THC-per-milligram tax with a flat 10.75% tax",
+      "source": "https://ctmirror.org/2026/09/16/the-looming-revenue-cliff-for-connecticut-cannabis-lou/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which state has the highest cannabis tax?",
+      "a": "Washington has the highest percentage rate, a 37% retail excise charged on top of sales tax. Illinois's 25% rate on flower above 35% THC is the highest potency-based rate."
+    },
+    {
+      "q": "Is there a federal tax on cannabis?",
+      "a": "There is no federal cannabis excise tax. Section 280E raises effective income taxes by denying deductions to adult-use businesses."
+    },
+    {
+      "q": "Are medical cannabis purchases taxed?",
+      "a": "Often less. Many states exempt registered patients from cannabis excise taxes, as Minnesota, Michigan and New Mexico do, though general sales tax may still apply."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Tax Foundation: Recreational marijuana taxes by state, 2026 (10 April 2026)",
+      "url": "https://taxfoundation.org/data/all/state/recreational-marijuana-taxes/"
+    },
+    {
+      "name": "RCW 69.50.535: Cannabis excise tax (Washington)",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.535"
+    },
+    {
+      "name": "Illinois Department of Revenue: Cannabis taxes",
+      "url": "https://tax.illinois.gov/research/taxinformation/other/cannabis-taxes.html"
+    },
+    {
+      "name": "California NORML: Roll back the tax (excise rate changes)",
+      "url": "https://www.canorml.org/rollbackthetax/"
+    },
+    {
+      "name": "Maine Revenue Services: Guidance bulletin 115 on 2026 cannabis tax changes",
+      "url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/GIB%20115_FINAL_2025_10_17_0.pdf"
+    },
+    {
+      "name": "CT Mirror: The looming revenue cliff for Connecticut cannabis (16 September 2026)",
+      "url": "https://ctmirror.org/2026/09/16/the-looming-revenue-cliff-for-connecticut-cannabis-lou/"
+    },
+    {
+      "name": "New York Office of Cannabis Management: Adult-use information (taxes)",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "name": "Montana Department of Revenue: Cannabis taxes",
+      "url": "https://revenue.mt.gov/taxes/miscellaneous-taxes-and-fees/cannabis/"
+    },
+    {
+      "name": "Alaska Public Media: Alaska cannabis taxes (27 August 2026)",
+      "url": "https://alaskapublic.org/news/2026-08-27/despite-calls-to-change-alaska-cannabis-taxes-lawmakers-have-been-slow-to-act"
+    },
+    {
+      "name": "Minnesota Department of Revenue: Cannabis gross receipts tax",
+      "url": "https://www.revenue.state.mn.us/book/export/html/21076"
+    },
+    {
+      "name": "Michigan Treasury: Regulation and Taxation of Marihuana Act notice",
+      "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act"
+    },
+    {
+      "name": "New Mexico Taxation and Revenue: Tax and fee changes beginning July 1, 2025",
+      "url": "https://www.tax.newmexico.gov/wp-content/uploads/2025/06/2025.06.04_New-tax-and-fee-changes-beginning-July-1.pdf"
+    },
+    {
+      "name": "U.S. Treasury: Tax guidance after DOJ medical marijuana order (23 April 2026)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0471"
+    },
+    {
+      "name": "Marijuana Moment: 280E guidance listed as a priority (5 October 2026)",
+      "url": "https://www.marijuanamoment.net/federal-officials-say-marijuana-industry-tax-guidance-will-be-a-priority-for-the-next-year/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "explainer/traveling-with-cannabis",
+  "type": "explainer",
+  "name": "Traveling with cannabis: flights, airports and borders",
+  "tags": [
+    "Traveling with cannabis",
+    "TSA cannabis",
+    "Flying with cannabis"
+  ],
+  "where_it_stands": "Carrying marijuana across state lines or onto a plane remains a federal offense, even between two legal states. TSA changed its website listing for medical marijuana in April 2026, but says its policy has not changed: officers do not search for drugs, yet they refer any marijuana they find to law enforcement.",
+  "summary": "Federal law makes simple possession of marijuana a crime nationwide, with up to a year in prison and a minimum $1,000 fine for a first offense; the Congressional Research Service says that penalty is unchanged by rescheduling, though the April 2026 order appears to let certified medical patients possess state-licensed product. TSA's guidance says marijuana and some CBD products remain illegal federally except products with no more than 0.3% THC or FDA-approved drugs, that its screening looks for security threats rather than drugs, and that officers must report suspected violations to police. In late April 2026 TSA's 'What Can I Bring?' tool switched its medical marijuana entry from 'No' to 'Yes (Special Instructions)'; a TSA spokesperson told NORML the policy itself had not changed. What happens after a referral depends on local police at the airport. Driving across state lines with cannabis is likewise federally illegal, and legal states still regulate it in cars, from sealed-container rules in Illinois to bans on in-vehicle use. International travel is riskier: even rescheduled medical marijuana needs a DEA permit to be imported or exported under the April 2026 order, and a 2018 CBP statement, as summarized by immigration lawyers, said Canadians working in their country's legal cannabis industry may be refused entry if their trip relates to that work.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Buying legally at your destination is safer than flying or driving cannabis across state lines, which remains a federal offense regardless of state law."
+    },
+    {
+      "for": "Patients",
+      "text": "A medical card does not authorize interstate transport, and the TSA website change offers no legal protection, according to NORML."
+    },
+    {
+      "for": "Travelers",
+      "text": "Hemp products under 0.3% THC are federally lawful today, but those rules tighten on 11 December 2026 and some states ban products others allow."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-04",
+      "event": "TSA's website changes its medical marijuana listing to 'Yes (Special Instructions)' without changing policy",
+      "source": "https://norml.org/blog/2026/07/15/can-i-fly-with-medical-cannabis/"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III; federal possession penalties unchanged",
+      "source": "https://www.everycrsreport.com/reports/IF12715.html"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Tighter federal hemp definition takes effect, affecting which hemp products travelers can carry",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I fly with weed?",
+      "a": "Federal law still prohibits it. TSA does not search for drugs, but if officers find marijuana they refer it to police, and outcomes vary by airport."
+    },
+    {
+      "q": "Can I fly with medical marijuana?",
+      "a": "TSA's site now shows 'Yes (Special Instructions)', but TSA says its policy has not changed, and a card does not authorize carrying marijuana across state lines."
+    },
+    {
+      "q": "Can I drive cannabis between two legal states?",
+      "a": "No. Interstate transport is federally illegal even between legal states."
+    },
+    {
+      "q": "Can I fly with CBD?",
+      "a": "TSA says products with no more than 0.3% THC or FDA-approved drugs are not federally illegal, but items that look or smell like marijuana may still prompt a police referral."
+    }
+  ],
+  "sources": [
+    {
+      "name": "TSA: What can I bring? Medical marijuana",
+      "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/medical-marijuana"
+    },
+    {
+      "name": "NORML: Can I fly with medical cannabis? (15 July 2026)",
+      "url": "https://norml.org/blog/2026/07/15/can-i-fly-with-medical-cannabis/"
+    },
+    {
+      "name": "21 U.S.C. 844: Penalties for simple possession",
+      "url": "https://www.law.cornell.edu/uscode/text/21/844"
+    },
+    {
+      "name": "Congressional Research Service, IF12715: Rescheduling Medical Marijuana, Criminal and Collateral Consequences (16 June 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12715.html"
+    },
+    {
+      "name": "Illinois IDFPR: Adult-use cannabis information for purchasers",
+      "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/faq/auc/faq-information-for-purchasers.pdf"
+    },
+    {
+      "name": "Nixon Peabody: USCIS addresses the legalization of marijuana (24 April 2019)",
+      "url": "https://www.nixonpeabody.com/insights/articles/2019/04/24/uscis-addresses-the-legalization-of-marijuana"
+    },
+    {
+      "name": "Congressional Research Service, IF12270: The Federal Status of Marijuana and the Policy Gap with States (10 March 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12270.html"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing state-licensed medical marijuana in Schedule III",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

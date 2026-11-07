@@ -1,0 +1,106 @@
+{
+  "id": "explainer/medical-marijuana-card",
+  "type": "explainer",
+  "name": "How to get a medical marijuana card",
+  "tags": [
+    "Medical marijuana card",
+    "Medical card"
+  ],
+  "where_it_stands": "Forty states and DC run comprehensive medical marijuana programs in which a licensed practitioner certifies a qualifying condition and the state registers the patient, usually with an ID card. Since 28 April 2026 marijuana handled under a state medical license has been in federal Schedule III, but it is still not an FDA-approved drug and a card does not change federal rules on guns, drug testing or federal jobs.",
+  "next_milestone": {
+    "text": "DEA's administrator will decide whether to move all marijuana to Schedule III after the hearing record closed on 5 November 2026; no date has been set.",
+    "date": null,
+    "source": "https://www.dea.gov/marijuana-rescheduling-regulatory-actions"
+  },
+  "summary": "Getting a card follows the same basic path almost everywhere: confirm you meet the state's residency rule, see a participating practitioner who certifies that you have a qualifying condition, register with the state program and pay any card fee, then buy from a licensed dispensary. Pennsylvania, for example, asks patients to register online with proof of state residency, get certified by an approved physician, pay for the ID card and then visit a dispensary. Florida requires a qualified physician to enter the patient and an order into its Medical Marijuana Use Registry, with a second physician's concurrence for minors and terminal patients, before the patient applies for the registry ID card; permanent and seasonal residents qualify. Qualifying conditions, fees and renewal periods differ by state. According to the Congressional Research Service, 40 states and DC have comprehensive medical laws and eight more allow only low-THC or CBD products, while Idaho and Kansas allow neither. The April 2026 federal order placed marijuana subject to a state medical marijuana license in Schedule III and lets dispensing proceed on a state-recognized practitioner certification instead of a standard prescription.",
+  "what_changes": [
+    {
+      "for": "Patients",
+      "text": "A card gives state-law protection to buy and possess within that state's limits. Federally, state-licensed medical marijuana is now Schedule III, but adult-use marijuana and anything bought outside a state medical system remain Schedule I."
+    },
+    {
+      "for": "Patients",
+      "text": "DOT still treats any positive marijuana test by a safety-sensitive transportation worker as a violation, card or not, and federal civilian employment rules have not changed."
+    },
+    {
+      "for": "Operators",
+      "text": "Dispensaries serving card holders can seek federal DEA registration under the expedited pathway the April 2026 order created."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-03-10",
+      "event": "CRS counts 40 states and DC with comprehensive medical programs and eight with low-THC programs",
+      "source": "https://www.everycrsreport.com/reports/IF12270.html"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Marijuana subject to a state medical license moves to federal Schedule III",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "DOT says state medical marijuana never excuses a positive federal-program drug test",
+      "source": "https://www.transportation.gov/odapc/marijuana-notice"
+    },
+    {
+      "date": "2026-06-18",
+      "event": "Supreme Court limits gun prosecutions of regular marijuana users in United States v. Hemani",
+      "source": "https://www.supremecourt.gov/opinions/25pdf/24-1234%5Fnew%5F6k47.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I get a medical marijuana card?",
+      "a": "In most states you prove residency, see a participating practitioner who certifies a qualifying condition, register with the state program and pay a fee, then buy from a licensed dispensary. Check your state regulator for its condition list and costs."
+    },
+    {
+      "q": "Is a medical card federally legal now?",
+      "a": "Partly. Marijuana under a state medical license moved to Schedule III on 28 April 2026, and the order lets dispensaries fill state certifications. It is still not FDA-approved, and adult-use marijuana stays Schedule I."
+    },
+    {
+      "q": "Can I own a gun with a medical card?",
+      "a": "The federal ban on gun possession by unlawful drug users still exists. In June 2026 the Supreme Court ruled it could not be applied to a regular marijuana user without evidence of danger, but that ruling is narrow, and ATF's revised Form 4473 is not final."
+    },
+    {
+      "q": "Will a card protect me in a DOT drug test?",
+      "a": "No. DOT says state medical marijuana is not a legitimate medical explanation for a positive test."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, IF12270: The Federal Status of Marijuana and the Policy Gap with States (10 March 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12270.html"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing FDA-approved and state-licensed medical marijuana in Schedule III",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "Pennsylvania: Register for the Medical Marijuana Program",
+      "url": "https://www.pa.gov/en/services/health/register-for-the-medical-marijuana-program.html"
+    },
+    {
+      "name": "Florida Office of Medical Marijuana Use: patient overview (January 2026)",
+      "url": "https://knowthefactsmmj.com/wp-content/uploads/_documents/Instructional_Guides/QP/OMMU_Patient_One-pager-approved-1-22-26.pdf"
+    },
+    {
+      "name": "U.S. DOT: Notice on medical marijuana and DOT drug testing",
+      "url": "https://www.transportation.gov/odapc/marijuana-notice"
+    },
+    {
+      "name": "Supreme Court: United States v. Hemani (18 June 2026)",
+      "url": "https://www.supremecourt.gov/opinions/25pdf/24-1234%5Fnew%5F6k47.pdf"
+    },
+    {
+      "name": "Federal Register: ATF proposed revision of Form 4473",
+      "url": "https://www.federalregister.gov/d/2026-09182"
+    },
+    {
+      "name": "DEA: Marijuana rescheduling regulatory actions",
+      "url": "https://www.dea.gov/marijuana-rescheduling-regulatory-actions"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

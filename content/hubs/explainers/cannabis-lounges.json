@@ -1,0 +1,113 @@
+{
+  "id": "explainer/cannabis-lounges",
+  "type": "explainer",
+  "name": "Cannabis consumption lounges",
+  "tags": [
+    "Consumption lounges",
+    "Cannabis lounges",
+    "On-site consumption"
+  ],
+  "where_it_stands": "About 15 states allow some form of licensed on-site cannabis consumption, but lounges remain rare because most models require local opt-in and bar alcohol. Nevada, California and New Jersey have working lounges, and Massachusetts authorized social-consumption licenses in an April 2026 law.",
+  "next_milestone": {
+    "text": "Massachusetts regulators must set up the three social-consumption license types created by the April 2026 law; no opening date has been announced.",
+    "date": null,
+    "source": "https://mjbizdaily.com/?p=615578"
+  },
+  "summary": "Most legal states bar consuming cannabis in public places, so lounges are often the only legal place to use it outside a private home. The Marijuana Policy Project lists about 15 states with an on-site model, ranging from dispensary endorsements (Alaska, New Jersey, New Mexico) to standalone lounge licenses (Maryland, Nevada, New York) and bring-your-own hospitality venues (Colorado, Illinois, Michigan). Almost all require the city or county to opt in, and most bar alcohol. Nevada's 2021 AB 341 created lounge licenses; regulators issued 40 prospective licenses in November 2022, and the first state-licensed lounge opened near the Las Vegas Strip in February 2024. California's AB 1775, in force since 1 January 2025, lets locally approved lounges sell non-cannabis food and drinks and host ticketed events. New Jersey approved its first four lounge endorsements in July 2025, with no alcohol, tobacco or food sales on site. Massachusetts Governor Maura Healey signed a cannabis law overhaul on 19 April 2026 that allows consumption lounges under three social-consumption licenses.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Lounges give tourists and renters a legal place to use cannabis, but availability depends on whether the local government has opted in."
+    },
+    {
+      "for": "Operators",
+      "text": "Lounge licenses add ventilation, security and impaired-driving obligations, and most states forbid pairing cannabis with alcohol."
+    },
+    {
+      "for": "Investors",
+      "text": "Lounges are a small but growing revenue line, with Nevada expecting about 40 statewide and Massachusetts opening a new license class."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021",
+      "event": "Nevada AB 341 authorizes cannabis consumption lounges",
+      "source": "https://ccb.nv.gov/ccb-issues-first-cannabis-consumption-lounge-prospective-licenses/"
+    },
+    {
+      "date": "2022-11-30",
+      "event": "Nevada issues 40 prospective lounge licenses",
+      "source": "https://ccb.nv.gov/ccb-issues-first-cannabis-consumption-lounge-prospective-licenses/"
+    },
+    {
+      "date": "2024-02-15",
+      "event": "Nevada issues its first final consumption lounge license",
+      "source": "https://m.lasvegassun.com/news/2024/feb/27/nevadas-first-regulated-cannabis-consumption-loung/"
+    },
+    {
+      "date": "2025-01-01",
+      "event": "California AB 1775 lets lounges sell non-cannabis food and drinks",
+      "source": "https://www.canorml.org/governor-newsom-signs-cal-norml-sponsored-cannabis-cafe-bill-into-law/"
+    },
+    {
+      "date": "2025-07-15",
+      "event": "New Jersey approves its first four consumption lounges",
+      "source": "https://njbiz.com/nj-cannabis-consumption-lounges-approved/"
+    },
+    {
+      "date": "2026-04-19",
+      "event": "Massachusetts law authorizes cannabis consumption lounges",
+      "source": "https://mjbizdaily.com/?p=615578"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which states have cannabis lounges?",
+      "a": "Nevada, California and New Jersey have operating lounges, and states including Alaska, Colorado, Illinois, Maryland, Michigan, New Mexico and New York allow some form of on-site consumption; Massachusetts authorized lounges in 2026."
+    },
+    {
+      "q": "Can lounges serve alcohol?",
+      "a": "Rarely. Most states with lounges ban alcohol on site; Michigan requires it to be separated, and Minnesota allows it only at lower-potency hemp retailers."
+    },
+    {
+      "q": "Can I smoke in a cannabis lounge?",
+      "a": "Usually, with conditions. Nevada allows smoking only in a separate room, and New Jersey allows it indoors or in an outdoor structure."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Policy Project: State-by-state on-site consumption laws",
+      "url": "https://www.mpp.org/issues/legalization/state-by-state-on-site-consumption-laws/"
+    },
+    {
+      "name": "Nevada Cannabis Compliance Board: First consumption lounge prospective licenses",
+      "url": "https://ccb.nv.gov/ccb-issues-first-cannabis-consumption-lounge-prospective-licenses/"
+    },
+    {
+      "name": "Las Vegas Sun: Nevada's first regulated cannabis consumption lounge (27 February 2024)",
+      "url": "https://m.lasvegassun.com/news/2024/feb/27/nevadas-first-regulated-cannabis-consumption-loung/"
+    },
+    {
+      "name": "California NORML: Governor signs cannabis cafe bill AB 1775",
+      "url": "https://www.canorml.org/governor-newsom-signs-cal-norml-sponsored-cannabis-cafe-bill-into-law/"
+    },
+    {
+      "name": "NJBIZ: NJ approves first cannabis consumption lounges (16 July 2025)",
+      "url": "https://njbiz.com/nj-cannabis-consumption-lounges-approved/"
+    },
+    {
+      "name": "MJBizDaily: Massachusetts legalizes cannabis lounges, raises license cap (20 April 2026)",
+      "url": "https://mjbizdaily.com/?p=615578"
+    },
+    {
+      "name": "NORML: Colorado laws and penalties",
+      "url": "https://norml.org/laws/colorado-laws"
+    },
+    {
+      "name": "Marijuana Policy Project: Alaska",
+      "url": "https://www.mpp.org/states/alaska/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

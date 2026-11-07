@@ -1,0 +1,92 @@
+{
+  "id": "explainer/cannabis-on-federal-land",
+  "type": "explainer",
+  "name": "Cannabis on federal land: parks, bases and federal buildings",
+  "tags": [
+    "Federal land",
+    "National parks cannabis"
+  ],
+  "where_it_stands": "Marijuana remains prohibited in national parks, on military bases, on VA property and in federal buildings, even inside states where it is legal. The April 2026 move of state-licensed medical marijuana to Schedule III has not changed military policy, and the Pentagon reaffirmed its ban in a July 2026 memo.",
+  "summary": "State legalization stops at the federal property line. National Park Service rules at 36 CFR 2.35 prohibit possessing a controlled substance in park areas unless obtained through a valid prescription or order from a practitioner or as otherwise allowed by federal or state law, and the Park Service says marijuana possession and use are not allowed in its units, including in Alaska where state law permits it. Rules for federal buildings and grounds managed by the General Services Administration ban using or possessing marijuana except as prescribed by a licensed physician. The Department of Veterans Affairs bars marijuana use and possession on all VA property. For the military, a July 2026 memo from Under Secretary Anthony Tata said marijuana use remains punishable under the Uniform Code of Military Justice even for state medical products now in Schedule III, and Defense Department policy separately bars service members from using hemp-derived products, including CBD. Federal simple possession is punishable by up to a year in prison and a minimum $1,000 fine for a first offense. The Congressional Research Service notes the April 2026 order appears to let end users hold medical marijuana with a qualifying state certification, a question that has not been tested on federal land.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Carrying cannabis into a national park, federal building, VA facility or military base exposes visitors to federal citations or charges regardless of state law."
+    },
+    {
+      "for": "Patients",
+      "text": "A medical card does not authorize possession on military installations or VA property; whether Schedule III status changes park enforcement for certified patients is unsettled."
+    },
+    {
+      "for": "Service members",
+      "text": "Marijuana and hemp products, including CBD, remain off-limits under DoD policy and the UCMJ."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-08-01",
+      "event": "VA guidance confirms marijuana is prohibited on all VA property",
+      "source": "https://www.publichealth.va.gov/marijuana.asp"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-07",
+      "event": "Pentagon memo says marijuana remains punishable under the UCMJ despite rescheduling",
+      "source": "https://norml.org/news/2026/07/23/federal-memo-stipulates-that-cannabis-remains-off-limits-to-military-personnel-even-if-rescheduled/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I bring weed to a national park?",
+      "a": "No. The Park Service prohibits marijuana possession and use in its units, and federal law applies there even in legal states."
+    },
+    {
+      "q": "Can service members use medical marijuana now?",
+      "a": "No. A July 2026 Defense Department memo says use remains punishable under the UCMJ, and DoD also bars CBD and other hemp products."
+    },
+    {
+      "q": "Is cannabis allowed in federal buildings?",
+      "a": "No. Federal property rules ban using or possessing marijuana except as prescribed by a licensed physician."
+    }
+  ],
+  "sources": [
+    {
+      "name": "36 CFR 2.35: Alcoholic beverages and controlled substances (NPS)",
+      "url": "https://www.law.cornell.edu/cfr/text/36/2.35"
+    },
+    {
+      "name": "National Park Service: Marijuana and other substances",
+      "url": "https://www.nps.gov/bela/learn/management/marijuana.htm"
+    },
+    {
+      "name": "41 CFR 102-74.400: Narcotics and other drugs on federal property",
+      "url": "https://www.law.cornell.edu/cfr/text/41/102-74.400"
+    },
+    {
+      "name": "VA: VA and marijuana, what veterans need to know",
+      "url": "https://www.publichealth.va.gov/marijuana.asp"
+    },
+    {
+      "name": "NORML: Memo says cannabis remains off-limits to military personnel (23 July 2026)",
+      "url": "https://norml.org/news/2026/07/23/federal-memo-stipulates-that-cannabis-remains-off-limits-to-military-personnel-even-if-rescheduled/"
+    },
+    {
+      "name": "Eglin Air Force Base: DoD prohibited substances, marijuana, CBD and hemp",
+      "url": "https://www.eglin.af.mil/News/Article-Display/article/3158189/dod-prohibited-substances-marijuana-cbd-and-hemp/"
+    },
+    {
+      "name": "21 U.S.C. 844: Penalties for simple possession",
+      "url": "https://www.law.cornell.edu/uscode/text/21/844"
+    },
+    {
+      "name": "Congressional Research Service, IF12715: Rescheduling Medical Marijuana, Criminal and Collateral Consequences (16 June 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12715.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

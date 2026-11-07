@@ -1,0 +1,95 @@
+{
+  "id": "explainer/cannabis-expungement",
+  "type": "explainer",
+  "name": "Cannabis expungement and record clearing",
+  "tags": [
+    "Cannabis expungement",
+    "Marijuana expungement",
+    "Record sealing"
+  ],
+  "where_it_stands": "There is no federal law for expunging marijuana records; federal relief has come through presidential pardons in 2022 and 2023, which forgive simple possession but do not erase records. Most clearing happens in the states, from Minnesota's automatic expungement of nearly 58,000 records to Virginia's automatic sealing of old possession cases, which began on 1 July 2026.",
+  "summary": "Expungement or sealing removes or hides a conviction from public view, while a pardon forgives it but usually leaves it on the record. President Biden's October 2022 proclamation pardoned prior federal and D.C. simple marijuana possession offenses, and a December 2023 proclamation widened it; the Justice Department issues certificates as proof, but says nothing about erasing records. Bills such as the MORE Act would pair federal descheduling with expungement, but none has advanced. States use three approaches. Some clear records automatically: Minnesota's Bureau of Criminal Apprehension expunged 57,780 low-level cannabis records by May 2024, with a Cannabis Expungement Board reviewing felonies case by case. Some pardon in bulk: Maryland's governor pardoned about 175,000 cannabis convictions in June 2024, though people must still petition to expunge them. Others seal: since 1 July 2026 Virginia automatically seals charges and convictions for possession under its former marijuana possession statute, with no waiting period, while related matters require a petition.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "People with old possession records may already be cleared in some states without doing anything, but in others they must file a petition; a pardon alone usually leaves the record visible."
+    },
+    {
+      "for": "Workers",
+      "text": "Cleared records generally stop appearing in routine background checks, which matters for jobs, housing and licensing."
+    },
+    {
+      "for": "Operators",
+      "text": "Several states tie social equity licensing to past cannabis convictions, so record status can affect license eligibility."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-10-06",
+      "event": "Presidential proclamation pardons prior federal and D.C. simple marijuana possession offenses",
+      "source": "https://www.justice.gov/archives/opa/pr/justice-department-announces-application-form-marijuana-pardon-certificates"
+    },
+    {
+      "date": "2023-12-22",
+      "event": "Federal possession pardon expanded",
+      "source": "https://www.wamc.org/2023-12-22/biden-expands-pardons-for-marijuana-possession-and-grants-clemency-to-11"
+    },
+    {
+      "date": "2024-05-13",
+      "event": "Minnesota finishes automatic expungement of 57,780 cannabis records",
+      "source": "https://dps.mn.gov/news/bca/adult-use-cannabis-act-automatic-expungements-bca-records-complete"
+    },
+    {
+      "date": "2024-06-17",
+      "event": "Maryland governor pardons about 175,000 cannabis convictions",
+      "source": "https://governor.maryland.gov/priorities/accomplishments/Pages/cannabis-pardon-order.aspx"
+    },
+    {
+      "date": "2026-07-01",
+      "event": "Virginia begins automatically sealing former marijuana possession charges and convictions",
+      "source": "https://vscc.virginia.gov/2026/VSCC%20Sealing Overview for Website July 2026.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can federal marijuana convictions be expunged?",
+      "a": "Not under current law. Federal possession offenses covered by the 2022 and 2023 pardons are forgiven, and DOJ issues certificates, but the records are not erased."
+    },
+    {
+      "q": "Is expungement automatic?",
+      "a": "In some states. Minnesota and Virginia, for example, cleared or sealed eligible low-level records without petitions; other states require an application."
+    },
+    {
+      "q": "What is the difference between a pardon and expungement?",
+      "a": "A pardon forgives the offense. Maryland notes its pardoned convictions still appear on records until a separate expungement is granted."
+    }
+  ],
+  "sources": [
+    {
+      "name": "U.S. Department of Justice: Application form for marijuana pardon certificates",
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-announces-application-form-marijuana-pardon-certificates"
+    },
+    {
+      "name": "NPR via WAMC: Biden expands pardons for marijuana possession (22 December 2023)",
+      "url": "https://www.wamc.org/2023-12-22/biden-expands-pardons-for-marijuana-possession-and-grants-clemency-to-11"
+    },
+    {
+      "name": "Minnesota DPS/BCA: Adult-use cannabis act automatic expungements complete (13 May 2024)",
+      "url": "https://dps.mn.gov/news/bca/adult-use-cannabis-act-automatic-expungements-bca-records-complete"
+    },
+    {
+      "name": "Office of Governor Wes Moore: Cannabis pardon order (17 June 2024)",
+      "url": "https://governor.maryland.gov/priorities/accomplishments/Pages/cannabis-pardon-order.aspx"
+    },
+    {
+      "name": "Virginia State Crime Commission: Sealing overview (July 2026)",
+      "url": "https://vscc.virginia.gov/2026/VSCC%20Sealing Overview for Website July 2026.pdf"
+    },
+    {
+      "name": "Congress.gov: H.R. 5068, MORE Act (119th Congress)",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5068"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

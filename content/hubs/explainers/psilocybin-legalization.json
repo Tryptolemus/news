@@ -1,0 +1,149 @@
+{
+  "id": "explainer/psilocybin-legalization",
+  "type": "explainer",
+  "name": "Psilocybin legalization in the US",
+  "tags": [
+    "Psilocybin",
+    "Psychedelics",
+    "Magic mushrooms"
+  ],
+  "where_it_stands": "Psilocybin is still a Schedule I drug federally, but Oregon and Colorado run licensed programs where adults can take it under supervision, and New Mexico's medical psilocybin program is due to start by 31 December 2026. An April 2026 executive order pushed FDA to speed psychedelic drug reviews, and Compass Pathways expects to finish its application for a psilocybin depression treatment in the fourth quarter of 2026.",
+  "next_milestone": {
+    "text": "Deadline for New Mexico's Department of Health to implement the Medical Psilocybin Program created by the 2025 Medical Psilocybin Act.",
+    "date": "2026-12-31",
+    "source": "https://www.nmhealth.org/about/mcpp/mpp/"
+  },
+  "summary": "Psilocybin, the active compound in 'magic mushrooms', remains in Schedule I of the Controlled Substances Act. States have created three kinds of access. Oregon voters approved supervised adult use in November 2020 (ORS 475A), and the Oregon Health Authority licenses facilitators, manufacturers, service centers and labs; in September 2026 it dropped a proposed steep increase in license fees. Colorado's Proposition 122, passed in 2022 with 53.6% of the vote, ended criminal penalties for personal use of psilocybin and several other natural psychedelics by adults 21 and older and set up licensed healing centers; the first healing center license was issued in March 2025, and a 2026 law (HB26-1325) adds an ibogaine pilot and new licensing rules. New Mexico's 2025 Medical Psilocybin Act creates a medical program for conditions such as treatment-resistant depression, PTSD, substance use disorders and end-of-life care, with a deadline of 31 December 2026 and a $630,000 equity fund for low-income patients. New Jersey enacted a $6 million hospital-based psilocybin pilot in January 2026. Federally, an April 2026 executive order told FDA to give national priority vouchers to qualifying psychedelic drugs, asked FDA and DEA to open a Right to Try pathway, and told the Attorney General to prepare rescheduling once Phase 3 trials finish. Compass Pathways received a voucher for its COMP360 psilocybin treatment and expects to complete its rolling application in the fourth quarter of 2026.",
+  "what_changes": [
+    {
+      "for": "Patients",
+      "text": "Legal supervised sessions are available in Oregon and Colorado; New Mexico's medical program is due by year-end. Outside these programs psilocybin remains illegal under state and federal law."
+    },
+    {
+      "for": "Operators",
+      "text": "State psilocybin businesses face licensing fees, local approvals and federal Schedule I status, much as cannabis businesses do."
+    },
+    {
+      "for": "Investors",
+      "text": "An FDA approval of COMP360 would require DEA rescheduling before sale; Compass says it expects a commercial launch in the first half of 2027 if approved."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2020-11",
+      "event": "Oregon voters approve supervised psilocybin services (ORS 475A)",
+      "source": "https://www.oregon.gov/oha/ph/preventionwellness/pages/psilocybin-data-dashboard.aspx"
+    },
+    {
+      "date": "2022-11-08",
+      "event": "Colorado voters approve Proposition 122",
+      "source": "https://ballotpedia.org/Colorado_Proposition_122,_Decriminalization_and_Regulated_Access_Program_for_Certain_Psychedelic_Plants_and_Fungi_Initiative_(2022)"
+    },
+    {
+      "date": "2025-03-31",
+      "event": "Colorado issues its first psilocybin healing center license",
+      "source": "https://nmd.colorado.gov/press-release/the-dors-natural-medicine-division-issues-colorados-first-healing-center-license"
+    },
+    {
+      "date": "2025-06-20",
+      "event": "New Mexico Medical Psilocybin Act takes effect",
+      "source": "https://www.nmhealth.org/about/mcpp/mpp/"
+    },
+    {
+      "date": "2026-01-20",
+      "event": "New Jersey enacts a hospital-based psilocybin pilot (S. 2283)",
+      "source": "https://reason.org/commentary/state-psychedelics-legalization-and-policy-roundup-march-2026"
+    },
+    {
+      "date": "2026-04-18",
+      "event": "Executive order directs faster federal review of psychedelic therapies",
+      "source": "https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-is-accelerating-medical-treatments-for-serious-mental-illness/"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "FDA grants Compass Pathways a national priority voucher and rolling review for COMP360",
+      "source": "https://pharmexec.com/view/fda-priority-voucher-compass-psychedelic-treatment-resistant-depression"
+    },
+    {
+      "date": "2026-06-04",
+      "event": "Colorado HB26-1325 signed, adding an ibogaine pilot and licensing changes",
+      "source": "https://www.leg.colorado.gov/bills/HB26-1325"
+    },
+    {
+      "date": "2026-09-22",
+      "event": "Oregon drops proposed psilocybin license fee increases",
+      "source": "https://www.oregon.gov/oha/ERD/Pages/OHA-statement-Agency-not-moving-forward-with-proposed-fee-increases-for-psilocybin-licensees-09.22.2026.aspx"
+    },
+    {
+      "date": "2026-12-31",
+      "event": "Deadline for New Mexico's medical psilocybin program",
+      "source": "https://www.nmhealth.org/about/mcpp/mpp/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where is psilocybin legal?",
+      "a": "Oregon and Colorado allow supervised adult use at licensed centers, and Colorado decriminalized personal use for adults 21 and older. New Mexico's medical program is due by 31 December 2026. It remains Schedule I federally."
+    },
+    {
+      "q": "Can I buy magic mushrooms in Colorado?",
+      "a": "Not at retail. Proposition 122 removed criminal penalties for personal use, possession and growing by adults 21 and older but allows no retail sales; access is through licensed healing centers with a facilitator."
+    },
+    {
+      "q": "Will the FDA approve psilocybin?",
+      "a": "Compass Pathways expects to complete its application for COMP360 in late 2026 and has a priority voucher that could shorten review; approval is not guaranteed and rescheduling would also be needed."
+    }
+  ],
+  "sources": [
+    {
+      "name": "OPB/AP: Trump signs order to speed review of psychedelics (18 April 2026)",
+      "url": "https://www.opb.org/article/2026/04/18/trump-signs-order-to-speed-review-of-psychedelics/"
+    },
+    {
+      "name": "Oregon Health Authority: Psilocybin data dashboard",
+      "url": "https://www.oregon.gov/oha/ph/preventionwellness/pages/psilocybin-data-dashboard.aspx"
+    },
+    {
+      "name": "Oregon Health Authority: Statement on psilocybin license fees (22 September 2026)",
+      "url": "https://www.oregon.gov/oha/ERD/Pages/OHA-statement-Agency-not-moving-forward-with-proposed-fee-increases-for-psilocybin-licensees-09.22.2026.aspx"
+    },
+    {
+      "name": "Ballotpedia: Colorado Proposition 122 (2022)",
+      "url": "https://ballotpedia.org/Colorado_Proposition_122,_Decriminalization_and_Regulated_Access_Program_for_Certain_Psychedelic_Plants_and_Fungi_Initiative_(2022)"
+    },
+    {
+      "name": "Colorado Natural Medicine Division: First healing center license",
+      "url": "https://nmd.colorado.gov/press-release/the-dors-natural-medicine-division-issues-colorados-first-healing-center-license"
+    },
+    {
+      "name": "Colorado General Assembly: HB26-1325, Natural Medicine",
+      "url": "https://www.leg.colorado.gov/bills/HB26-1325"
+    },
+    {
+      "name": "New Mexico Department of Health: Medical Psilocybin Program",
+      "url": "https://www.nmhealth.org/about/mcpp/mpp/"
+    },
+    {
+      "name": "KUNM: New Mexico creates medical psilocybin fund for low-income patients (17 March 2026)",
+      "url": "https://www.kunm.org/text/local-news/2026-03-17/new-mexico-creates-first-ever-medical-psilocybin-fund-for-low-income-patients"
+    },
+    {
+      "name": "Reason Foundation: State psychedelics policy roundup, March 2026",
+      "url": "https://reason.org/commentary/state-psychedelics-legalization-and-policy-roundup-march-2026"
+    },
+    {
+      "name": "White House: Fact sheet on accelerating medical treatments for serious mental illness (18 April 2026)",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/04/fact-sheet-president-donald-j-trump-is-accelerating-medical-treatments-for-serious-mental-illness/"
+    },
+    {
+      "name": "Pharmaceutical Executive: FDA priority voucher for Compass Pathways (24 April 2026)",
+      "url": "https://pharmexec.com/view/fda-priority-voucher-compass-psychedelic-treatment-resistant-depression"
+    },
+    {
+      "name": "Compass Pathways Q2 2026 results, SEC Form 8-K (5 August 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001816590/000181659026000059/q22026pressrelease.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

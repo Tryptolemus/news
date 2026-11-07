@@ -1,0 +1,101 @@
+{
+  "id": "explainer/cannabis-and-employment",
+  "type": "explainer",
+  "name": "Cannabis use and employment rights",
+  "tags": [
+    "Cannabis employment",
+    "Off-duty cannabis use"
+  ],
+  "where_it_stands": "Federal law gives workers no right to use cannabis, but a growing group of states, including California, New York and Nevada, limit how employers can act on off-duty use or pre-employment tests. The April 2026 move of state medical marijuana to Schedule III did not amend the ADA or change DOT testing, though employment lawyers expect new accommodation claims.",
+  "next_milestone": {
+    "text": "Courts are expected to test whether medical marijuana's move to Schedule III weakens the old rule that the ADA does not protect medical users; no ruling has settled it yet.",
+    "date": null,
+    "source": "https://www.seyfarth.com/news-insights/a-dual-framework-emerges-marijuanas-schedule-iii-reclassification-and-the-road-ahead-for-employers.html"
+  },
+  "summary": "Employment rights for cannabis users come almost entirely from state law. New York's Labor Law section 201-d bars employers from penalizing lawful cannabis use outside work hours and off company property, unless the employee shows specific, articulable symptoms of impairment at work, or federal law, a federal contract or federal funding requires otherwise. California, since 1 January 2024, bars most employers from penalizing off-duty, off-site use, asking applicants about past use, or acting on tests that detect only non-psychoactive metabolites, with exceptions for building and construction trades, jobs needing federal clearances and federally required testing. Nevada makes it unlawful to refuse to hire someone for a positive marijuana screen, except for firefighters, EMTs, drivers subject to required testing and jobs that could endanger others. Federally, the ADA excludes people currently engaged in illegal drug use, DOT keeps testing safety-sensitive workers with no medical marijuana exception, and OPM treats illegal drug use as relevant to federal employment suitability. Lawyers at Seyfarth say rescheduling may weaken the reasoning courts used to reject ADA claims by medical patients, but the statute itself is unchanged.",
+  "what_changes": [
+    {
+      "for": "Workers",
+      "text": "In protected states, off-duty use is generally shielded but impairment on the job is not; workers in federally regulated, safety-sensitive or clearance jobs have little or no protection."
+    },
+    {
+      "for": "Employers",
+      "text": "Multistate employers must track state rules on pre-employment tests and metabolite-only results, and may face more requests to accommodate medical use after rescheduling."
+    },
+    {
+      "for": "Patients",
+      "text": "Medical status may support a state-law disability claim in some states, but federal DOT and federal-employee rules still treat marijuana use as disqualifying."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2024-01-01",
+      "event": "California protections for off-duty cannabis use and metabolite-only tests take effect",
+      "source": "https://www.calcivilrights.ca.gov/wp-content/uploads/sites/32/2024/01/Cannabis-Use-FAQ-ENG.pdf"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III; the ADA is not amended",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "DOT reaffirms that medical marijuana cannot excuse a positive test",
+      "source": "https://www.transportation.gov/odapc/marijuana-notice"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can my employer fire me for using cannabis off duty?",
+      "a": "It depends on your state. New York and California protect most off-duty, off-site use; many states give no protection, and federal law gives none."
+    },
+    {
+      "q": "Can employers still drug test for marijuana?",
+      "a": "Usually yes, but some states restrict it. California bars acting on tests that only show non-psychoactive metabolites, and Nevada bars refusing to hire over a positive pre-employment screen, with safety exceptions."
+    },
+    {
+      "q": "Does the ADA protect medical marijuana patients?",
+      "a": "Courts have said no because the ADA excludes illegal drug use. Lawyers expect that to be challenged after rescheduling, but the law has not changed."
+    },
+    {
+      "q": "Do these protections apply to truck drivers or pilots?",
+      "a": "No. DOT-regulated safety-sensitive workers remain subject to federal testing with no medical marijuana exception."
+    }
+  ],
+  "sources": [
+    {
+      "name": "New York Labor Law section 201-D (NY Senate)",
+      "url": "https://www.nysenate.gov/legislation/laws/LAB/201-D"
+    },
+    {
+      "name": "California Civil Rights Department: Cannabis use and employment FAQ (January 2024)",
+      "url": "https://www.calcivilrights.ca.gov/wp-content/uploads/sites/32/2024/01/Cannabis-Use-FAQ-ENG.pdf"
+    },
+    {
+      "name": "Nevada Revised Statutes chapter 613 (NRS 613.132)",
+      "url": "https://www.leg.state.nv.us/nrs/nrs-613.html"
+    },
+    {
+      "name": "42 U.S.C. 12114: Illegal use of drugs and alcohol (ADA)",
+      "url": "https://www.law.cornell.edu/uscode/text/42/12114"
+    },
+    {
+      "name": "U.S. DOT: Notice on medical marijuana and DOT drug testing",
+      "url": "https://www.transportation.gov/odapc/marijuana-notice"
+    },
+    {
+      "name": "OPM: Assessing suitability on the basis of marijuana use (Q&A)",
+      "url": "https://www.opm.gov/chcoc/transmittals/2021/Memo_Assessing%20Suitability%20on%20Basis%20of%20Marijuana%20Use_0_QA_05.24.2022_508_0.pdf"
+    },
+    {
+      "name": "Seyfarth Shaw: A dual framework emerges, Schedule III and the road ahead for employers (2 June 2026)",
+      "url": "https://www.seyfarth.com/news-insights/a-dual-framework-emerges-marijuanas-schedule-iii-reclassification-and-the-road-ahead-for-employers.html"
+    },
+    {
+      "name": "Foley & Lardner: Cannabis and employment law, the year ahead in 2026 (12 January 2026)",
+      "url": "https://www.foley.com/p/102m1o0/cannabis-and-employment-law-the-year-ahead-in-2026/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

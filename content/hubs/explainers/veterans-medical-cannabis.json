@@ -1,0 +1,103 @@
+{
+  "id": "explainer/veterans-medical-cannabis",
+  "type": "explainer",
+  "name": "Veterans and medical cannabis at the VA",
+  "tags": [
+    "Veterans cannabis",
+    "VA medical marijuana"
+  ],
+  "where_it_stands": "VA doctors still may not recommend cannabis or fill out state medical marijuana forms, but veterans cannot lose VA care or benefits for joining a state program. The House passed a FY2027 VA spending bill in May 2026 that would let VA doctors make recommendations, but it awaits the Senate, and VA is funded by a stopgap through 11 December 2026.",
+  "next_milestone": {
+    "text": "The stopgap funding VA expires; the House-passed FY2027 MilCon-VA bill with the medical cannabis recommendation provision has not been enacted.",
+    "date": "2026-12-11",
+    "source": "https://www.everycrsreport.com/files/2026-09-14_R49347_389b5a86c218eeb7c6cb3a6bc194f3b17dfc45b4.html"
+  },
+  "summary": "VA policy under VHA Directive 1315 tells clinicians to discuss and record veterans' cannabis use, and VA says participating in a state marijuana program does not affect eligibility for VA care, with use noted as confidential clinical information. But VA providers may not recommend marijuana or complete state program paperwork, VA pharmacies may not fill marijuana prescriptions, VA does not pay for it, and use and possession are banned on VA property. Congress has repeatedly tried to change the recommendation ban through appropriations: both chambers approved language for FY2026, but it was dropped from the final bill in November 2025. The House passed the FY2027 Military Construction-VA bill, H.R. 8469, on 15 May 2026 by 400-15, and NORML reports it includes a provision letting VA doctors recommend medical cannabis in legal states; no FY2027 bill has been enacted, and a continuing resolution funds VA through 11 December 2026. VA documents released under FOIA and reported in May 2026 show staff expected rescheduling could affect referrals to state programs, but said any change would need separate legal and policy review. States are acting too: a Massachusetts bill advancing in November 2026 would let veterans obtain medical cannabis without a doctor's recommendation.",
+  "what_changes": [
+    {
+      "for": "Veterans",
+      "text": "You can tell your VA clinician about cannabis use without risking benefits, but you must get a state recommendation from a non-VA provider and pay out of pocket."
+    },
+    {
+      "for": "Veterans",
+      "text": "Cannabis remains banned on VA property, and VA employees remain subject to drug testing."
+    },
+    {
+      "for": "Operators",
+      "text": "If Congress lifts the recommendation ban, veteran patient numbers in medical programs could grow, but nothing has changed yet."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-08-01",
+      "event": "VA guidance confirms providers cannot recommend marijuana but veterans keep benefits",
+      "source": "https://www.publichealth.va.gov/marijuana.asp"
+    },
+    {
+      "date": "2025-11-13",
+      "event": "VA recommendation provision dropped from final FY2026 MilCon-VA bill",
+      "source": "https://norml.org/news/2025/11/13/federal-lawmakers-approve-military-funding-bill-denying-veterans-access-to-medical-cannabis/"
+    },
+    {
+      "date": "2026-05-15",
+      "event": "House passes FY2027 MilCon-VA bill H.R. 8469, 400-15",
+      "source": "https://www.everycrsreport.com/files/2026-09-14_R49347_389b5a86c218eeb7c6cb3a6bc194f3b17dfc45b4.html"
+    },
+    {
+      "date": "2026-05-25",
+      "event": "VA FOIA documents show internal review of rescheduling's effect on veterans",
+      "source": "https://www.marijuanamoment.net/va-documents-show-how-veterans-cannabis-access-could-expand-and-what-will-stay-the-same-under-rescheduling-op-ed/"
+    },
+    {
+      "date": "2026-09-02",
+      "event": "Stopgap law funds VA through 11 December 2026",
+      "source": "https://www.everycrsreport.com/files/2026-09-14_R49347_389b5a86c218eeb7c6cb3a6bc194f3b17dfc45b4.html"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can VA doctors prescribe or recommend medical marijuana?",
+      "a": "No. VA providers cannot recommend marijuana or complete state forms. A House-passed FY2027 bill would change that but has not become law."
+    },
+    {
+      "q": "Will using medical marijuana affect my VA benefits?",
+      "a": "No. VA says veterans will not be denied VA benefits because of marijuana use or participation in a state program."
+    },
+    {
+      "q": "Did rescheduling change VA policy?",
+      "a": "Not yet. VA documents say any change to provider authority would require separate legal and policy review."
+    }
+  ],
+  "sources": [
+    {
+      "name": "VA: VA and marijuana, what veterans need to know",
+      "url": "https://www.publichealth.va.gov/marijuana.asp"
+    },
+    {
+      "name": "VHA Directive 1315: Access to VHA clinical programs for veterans in state-approved marijuana programs",
+      "url": "https://assets.documentcloud.org/documents/4334051/Department-of-Veterans-Affairs-Directive-1315.pdf"
+    },
+    {
+      "name": "Congressional Research Service, R49347: Overview of VA FY2027 appropriations (14 September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-14_R49347_389b5a86c218eeb7c6cb3a6bc194f3b17dfc45b4.html"
+    },
+    {
+      "name": "NORML: Military funding bill denies veterans access to medical cannabis (13 November 2025)",
+      "url": "https://norml.org/news/2025/11/13/federal-lawmakers-approve-military-funding-bill-denying-veterans-access-to-medical-cannabis/"
+    },
+    {
+      "name": "NORML: House-approved funding bill provides medical cannabis access for veterans (20 May 2026)",
+      "url": "https://norml.org/blog/2026/05/20/house-approved-funding-bill-provides-medical-cannabis-access-for-veterans/"
+    },
+    {
+      "name": "Marijuana Moment: VA documents on veterans' cannabis access under rescheduling (25 May 2026)",
+      "url": "https://www.marijuanamoment.net/va-documents-show-how-veterans-cannabis-access-could-expand-and-what-will-stay-the-same-under-rescheduling-op-ed/"
+    },
+    {
+      "name": "Marijuana Moment newsletter (4 November 2026)",
+      "url": "https://www.marijuanamoment.net/massachusetts-voters-reject-cannabis-legalization-rollback-measure-newsletter-november-4-2026/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

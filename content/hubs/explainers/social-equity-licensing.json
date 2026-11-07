@@ -1,0 +1,114 @@
+{
+  "id": "explainer/social-equity-licensing",
+  "type": "explainer",
+  "name": "Cannabis social equity licensing",
+  "tags": [
+    "Social equity",
+    "Social equity licensing",
+    "CAURD"
+  ],
+  "where_it_stands": "Many adult-use states reserve or prioritize cannabis licenses for people harmed by past enforcement, but these programs keep running into court challenges over residency preferences. Federal appeals courts are split on whether the Constitution's dormant Commerce Clause protects cannabis businesses, and the Supreme Court declined to settle it in February 2026.",
+  "next_milestone": {
+    "text": "Rhode Island must rerun its social equity certification and retail licensing after a court injunction and a 2026 law removing its residency requirement; no launch dates are set.",
+    "date": null,
+    "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/july/rhode-island-ccc-application-reset/"
+  },
+  "summary": "Social equity programs try to give people and communities hurt by cannabis prohibition a share of the legal market, through set-aside licenses, priority review, reduced fees or loans. New York's Conditional Adult-Use Retail Dispensary (CAURD) licenses went to applicants led by people with a pre-2021 New York marijuana conviction, or a close relative with one, who had run a profitable business. Nevada reserved half of its first 20 independent consumption lounge licenses for social equity applicants, and New Jersey's first four lounge endorsements in 2025 all went to minority-, woman- or disabled-veteran-owned businesses. The legal weak point is residency. The First Circuit (Maine, 2022) and the Second Circuit (New York, 2025) applied the dormant Commerce Clause and struck down in-state preferences, while the Ninth Circuit held in January 2026 that the clause does not protect a market Congress has outlawed. The Supreme Court declined Maryland's case in February 2026; the Fourth Circuit had upheld Maryland's program because it used school-based criteria rather than residency. Rhode Island's licensing was halted by a federal injunction in April 2026 until lawmakers repealed the residency rule.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Equity applicants in the First and Second Circuits face programs that may be rewritten or paused if they favor in-state residents; in the Ninth Circuit residency rules currently stand."
+    },
+    {
+      "for": "Investors",
+      "text": "Litigation can freeze license rounds, as Rhode Island's April 2026 injunction showed, affecting store counts and market timing."
+    },
+    {
+      "for": "Consumers",
+      "text": "Delays in equity licensing often mean fewer legal stores in the early years of a new market."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2022-11-30",
+      "event": "Nevada issues 40 prospective lounge licenses, with 10 of the first 20 independent licenses for social equity applicants",
+      "source": "https://ccb.nv.gov/ccb-issues-first-cannabis-consumption-lounge-prospective-licenses/"
+    },
+    {
+      "date": "2025-07-15",
+      "event": "New Jersey approves its first four consumption lounges, all to diversely owned businesses",
+      "source": "https://njbiz.com/nj-cannabis-consumption-lounges-approved/"
+    },
+    {
+      "date": "2025-08",
+      "event": "Second Circuit applies the dormant Commerce Clause to New York's licensing preference",
+      "source": "https://news.crbmonitor.com/2025/08/2nd-circuit-rules-dormant-commerce-clause-applies-to-cannabis/"
+    },
+    {
+      "date": "2026-01-02",
+      "event": "Ninth Circuit holds the dormant Commerce Clause does not protect the federally illegal cannabis market",
+      "source": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/01/02/24-3481.pdf"
+    },
+    {
+      "date": "2026-02-23",
+      "event": "Supreme Court declines to hear Jensen v. Maryland Cannabis Administration",
+      "source": "https://blogs.duanemorris.com/cannabis/2026/07/29/can-states-favor-local-cannabis-businesses-the-supreme-court-declines-to-resolve/"
+    },
+    {
+      "date": "2026-04-08",
+      "event": "Federal court enjoins Rhode Island's cannabis license application process",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/july/rhode-island-ccc-application-reset/"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Rhode Island Cannabis Control Commission voids prior applications and plans new processes",
+      "source": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/july/rhode-island-ccc-application-reset/"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a cannabis social equity license?",
+      "a": "A license or license track reserved for, or prioritized toward, applicants affected by past enforcement, such as people with cannabis convictions or residents of heavily policed areas."
+    },
+    {
+      "q": "Why do residency requirements get challenged?",
+      "a": "Out-of-state applicants argue that favoring residents violates the dormant Commerce Clause. The First and Second Circuits agreed; the Ninth Circuit disagreed."
+    },
+    {
+      "q": "Did the Supreme Court decide the issue?",
+      "a": "No. It declined to hear Maryland's case in February 2026, leaving the circuit split in place."
+    }
+  ],
+  "sources": [
+    {
+      "name": "New York Office of Cannabis Management: What is CAURD? Am I eligible?",
+      "url": "https://cannabis.ny.gov/caurd-faq"
+    },
+    {
+      "name": "Duane Morris: Can states favor local cannabis businesses? The Supreme Court declines to resolve (29 July 2026)",
+      "url": "https://blogs.duanemorris.com/cannabis/2026/07/29/can-states-favor-local-cannabis-businesses-the-supreme-court-declines-to-resolve/"
+    },
+    {
+      "name": "Ninth Circuit: Peridot Tree opinion (2 January 2026)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/01/02/24-3481.pdf"
+    },
+    {
+      "name": "Foley Hoag: Rhode Island CCC application reset (28 July 2026)",
+      "url": "https://foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/july/rhode-island-ccc-application-reset/"
+    },
+    {
+      "name": "Nevada Cannabis Compliance Board: First consumption lounge prospective licenses",
+      "url": "https://ccb.nv.gov/ccb-issues-first-cannabis-consumption-lounge-prospective-licenses/"
+    },
+    {
+      "name": "NJBIZ: NJ approves first cannabis consumption lounges (16 July 2025)",
+      "url": "https://njbiz.com/nj-cannabis-consumption-lounges-approved/"
+    },
+    {
+      "name": "CRB Monitor: Second Circuit rules dormant Commerce Clause applies to cannabis (August 2025)",
+      "url": "https://news.crbmonitor.com/2025/08/2nd-circuit-rules-dormant-commerce-clause-applies-to-cannabis/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

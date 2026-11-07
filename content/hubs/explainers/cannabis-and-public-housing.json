@@ -1,0 +1,89 @@
+{
+  "id": "explainer/cannabis-and-public-housing",
+  "type": "explainer",
+  "name": "Cannabis in public and federally assisted housing",
+  "tags": [
+    "Public housing cannabis",
+    "Section 8 cannabis"
+  ],
+  "where_it_stands": "Federal housing law requires public housing agencies and assisted-housing owners to bar households with a member who is illegally using a controlled substance, and HUD has said this covers state-legal medical marijuana. The Congressional Research Service says most such federal consequences are unchanged by medical marijuana's April 2026 move to Schedule III, and bills to protect state-legal users have not advanced.",
+  "summary": "Under the Quality Housing and Work Responsibility Act, codified at 42 U.S.C. 13661, public housing agencies and owners of federally assisted housing must set admission standards that exclude any household with a member who is illegally using a controlled substance, and tenants evicted for drug-related criminal activity face a three-year bar unless they complete rehabilitation or the circumstances change. In a letter to Del. Eleanor Holmes Norton, HUD said it lacks discretion to admit marijuana users, including medical users, to public housing unless federal law changes, while leaving case-by-case decisions on ending existing tenancies to agencies and owners. The Congressional Research Service wrote in June 2026 that marijuana use can still bar eligibility for federal housing and that most of these consequences are not changed by the partial rescheduling. In Congress, the Marijuana in Federally Assisted Housing Parity Act (S. 3537), introduced in December 2025, would stop federally assisted housing from denying or ending tenancy solely for state-legal marijuana activity, and the Fair Future Act (H.R. 7765) would stop nonviolent cannabis offenses from blocking public housing applications.",
+  "what_changes": [
+    {
+      "for": "Tenants",
+      "text": "Using marijuana, even with a state medical card, can still cost a household its admission to public housing or Section 8."
+    },
+    {
+      "for": "Patients",
+      "text": "Whether Schedule III status changes how housing providers treat certified medical users is not addressed in the statute or in HUD's earlier guidance."
+    },
+    {
+      "for": "Operators",
+      "text": "Owners of federally assisted properties must keep enforcing drug-use admission standards until HUD or Congress changes the rules."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-12-17",
+      "event": "Marijuana in Federally Assisted Housing Parity Act (S. 3537) introduced",
+      "source": "https://www.congress.gov/bill/119th-congress/senate-bill/3537"
+    },
+    {
+      "date": "2026-03-24",
+      "event": "Fair Future Act (H.R. 7765) introduced to stop cannabis offenses blocking public housing",
+      "source": "https://blog.mpp.org/blog/federal-update-rescheduling-stalls-housing-bill-introduced-and-constitutional-rights-under-threat/"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III; housing rules not amended",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "date": "2026-06-16",
+      "event": "CRS says most collateral consequences, including federal housing, are unchanged",
+      "source": "https://www.everycrsreport.com/reports/IF12715.html"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can you use medical marijuana in Section 8 or public housing?",
+      "a": "Federal law requires agencies and owners to bar households with a member illegally using a controlled substance, and HUD has said that includes medical marijuana. Whether the 2026 rescheduling changes this has not been settled."
+    },
+    {
+      "q": "Can I be evicted for marijuana in public housing?",
+      "a": "Agencies and owners must have policies allowing termination for illegal drug use but decide case by case, according to HUD."
+    },
+    {
+      "q": "Is Congress changing the rule?",
+      "a": "Bills such as S. 3537 would protect state-legal marijuana activity in assisted housing, but none has advanced."
+    }
+  ],
+  "sources": [
+    {
+      "name": "42 U.S.C. 13661: Screening of applicants for federally assisted housing",
+      "url": "https://www.law.cornell.edu/uscode/text/42/13661"
+    },
+    {
+      "name": "HUD response letter to Rep. Eleanor Holmes Norton on marijuana in public housing",
+      "url": "https://s3.documentcloud.org/documents/21100677/hud-response-letter-to-rep-eleanor-holmes-norton.pdf"
+    },
+    {
+      "name": "Congressional Research Service, IF12715: Rescheduling Medical Marijuana, Criminal and Collateral Consequences (16 June 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12715.html"
+    },
+    {
+      "name": "Congress.gov: S. 3537, Marijuana in Federally Assisted Housing Parity Act of 2025",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3537"
+    },
+    {
+      "name": "Marijuana Policy Project blog: Fair Future Act introduced (24 March 2026)",
+      "url": "https://blog.mpp.org/blog/federal-update-rescheduling-stalls-housing-bill-introduced-and-constitutional-rights-under-threat/"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing state-licensed medical marijuana in Schedule III",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "partial"
+}

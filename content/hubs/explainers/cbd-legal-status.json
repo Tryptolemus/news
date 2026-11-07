@@ -1,0 +1,140 @@
+{
+  "id": "explainer/cbd-legal-status",
+  "type": "explainer",
+  "name": "Is CBD legal? Federal CBD rules",
+  "tags": [
+    "CBD",
+    "Cannabidiol",
+    "CBD legality"
+  ],
+  "where_it_stands": "CBD from hemp is legal to grow and sell as a hemp product, but the FDA says it cannot be added to food or sold as a dietary supplement, and from 11 December 2026 full-spectrum products with more than 0.4 mg of total THC per container lose federal hemp status. Since April 2026 a Medicare pilot has let some providers give patients up to $500 a year of hemp-derived products, and the FDA said it would not act against qualifying oral CBD used that way.",
+  "next_milestone": {
+    "text": "The 0.4 mg per-container cap on total THC and similar cannabinoids takes effect for finished hemp products, including many full-spectrum CBD products.",
+    "date": "2026-12-11",
+    "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+  },
+  "summary": "CBD (cannabidiol) is a non-intoxicating cannabinoid. The 2018 Farm Bill made hemp-derived CBD legal to produce, but the FDA has approved only one CBD drug, Epidiolex, for certain seizure disorders, and it says CBD is excluded from the dietary supplement definition and may not be added to food sold across state lines. In January 2023 the agency said existing food and supplement rules were not suited to CBD, denied petitions to allow it in supplements and asked Congress for a new framework; Congress has not created one. The November 2025 hemp law keeps CBD itself within the hemp definition but caps finished products at 0.4 mg of total THC and similar cannabinoids per container, which catches many full-spectrum oils and gummies once it applies on 11 December 2026. President Trump asked Congress in April 2026 to change the law so full-spectrum CBD stays available. Separately, CMS's Substance Access Beneficiary Engagement Incentive, which began on 1 April 2026, lets participants in certain Medicare models give eligible patients up to $500 a year of hemp products under clinician guidance, and an FDA memo said it would not take action against qualifying oral CBD products furnished that way. A lawsuit against the pilot was dismissed for lack of standing and is on appeal.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "CBD products that stay under the cap, such as isolates without THC, can remain on shelves, but many full-spectrum products will exceed the 0.4 mg THC cap after 11 December 2026 unless reformulated."
+    },
+    {
+      "for": "Operators",
+      "text": "Selling CBD in food, drinks or supplements remains outside FDA rules, and the new THC cap forces reformulation or relabeling of full-spectrum lines."
+    },
+    {
+      "for": "Patients",
+      "text": "Some Medicare patients in participating ACO REACH and oncology models can receive hemp products through their providers; LEAD model participants follow from 1 January 2027."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-12-20",
+      "event": "2018 Farm Bill removes hemp, including hemp-derived CBD, from the Controlled Substances Act",
+      "source": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "date": "2023-01-26",
+      "event": "FDA says CBD needs a new regulatory pathway and denies supplement petitions",
+      "source": "https://www.fda.gov/news-events/press-announcements/fda-concludes-existing-regulatory-frameworks-foods-and-supplements-are-not-appropriate-cannabidiol"
+    },
+    {
+      "date": "2025-11-12",
+      "event": "Public Law 119-37 sets a 0.4 mg per-container cap on total THC in finished hemp products",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2025-12-18",
+      "event": "Executive Order 14370 directs work on access to hemp-derived cannabinoid products",
+      "source": "https://harris-sliwoski.com/es/cannalawblog/cbd-medicare-and-the-new-fda-enforcement-memo/"
+    },
+    {
+      "date": "2026-04-01",
+      "event": "CMS launches the Substance Access BEI; FDA issues an enforcement memo for qualifying oral CBD",
+      "source": "https://www.cms.gov/priorities/innovation/substance-access-beneficiary-engagement-incentive"
+    },
+    {
+      "date": "2026-04-24",
+      "event": "President Trump asks Congress to preserve access to full-spectrum CBD",
+      "source": "https://www.washingtonexaminer.com/?p=4541662"
+    },
+    {
+      "date": "2026-05",
+      "event": "Federal judge dismisses challenge to the Medicare hemp pilot for lack of standing",
+      "source": "https://norml.org/news/2026/05/28/federal-judge-rejects-lawsuit-from-prohibitionist-groups-seeking-to-halt-dispensing-of-hemp-derived-products-to-medicare-beneficiaries/"
+    },
+    {
+      "date": "2026-08-27",
+      "event": "D.C. Circuit sets briefing schedule in the appeal",
+      "source": "https://www.marijuanamoment.net/federal-appeals-court-sets-schedule-for-lawsuit-challenging-medicare-hemp-coverage-program/"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Per-container THC cap applies to finished hemp products",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is CBD legal in the US?",
+      "a": "Hemp-derived CBD is legal to produce and sell as a hemp product, but the FDA says it cannot be sold as a dietary supplement or added to food in interstate commerce. State rules vary."
+    },
+    {
+      "q": "Will the hemp THC ban affect CBD?",
+      "a": "CBD itself stays hemp, but from 11 December 2026 any finished product with more than 0.4 mg of total THC and similar cannabinoids per container is excluded, which affects many full-spectrum products."
+    },
+    {
+      "q": "Does Medicare cover CBD?",
+      "a": "Not as a standard benefit. A CMS pilot lets participating providers in certain models furnish up to $500 a year of eligible hemp products; beneficiaries do not file Medicare claims for them."
+    },
+    {
+      "q": "Is there an FDA-approved CBD drug?",
+      "a": "Yes, Epidiolex, approved for seizures linked to Lennox-Gastaut syndrome, Dravet syndrome and tuberous sclerosis complex."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA: Regulation of cannabis and cannabis-derived products, including CBD",
+      "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"
+    },
+    {
+      "name": "FDA: Existing frameworks for foods and supplements not appropriate for CBD (26 January 2023)",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-concludes-existing-regulatory-frameworks-foods-and-supplements-are-not-appropriate-cannabidiol"
+    },
+    {
+      "name": "CMS: Substance Access Beneficiary Engagement Incentive",
+      "url": "https://www.cms.gov/priorities/innovation/substance-access-beneficiary-engagement-incentive"
+    },
+    {
+      "name": "Harris Sliwoski: CBD, Medicare and the new FDA enforcement memo (3 April 2026)",
+      "url": "https://harris-sliwoski.com/es/cannalawblog/cbd-medicare-and-the-new-fda-enforcement-memo/"
+    },
+    {
+      "name": "MJBizDaily: CBD reimbursement program launches amid legal challenge (31 March 2026)",
+      "url": "https://mjbizdaily.com/?p=615210"
+    },
+    {
+      "name": "NORML: Federal judge rejects lawsuit against Medicare hemp program (28 May 2026)",
+      "url": "https://norml.org/news/2026/05/28/federal-judge-rejects-lawsuit-from-prohibitionist-groups-seeking-to-halt-dispensing-of-hemp-derived-products-to-medicare-beneficiaries/"
+    },
+    {
+      "name": "Marijuana Moment: Appeals court sets schedule in Medicare hemp lawsuit (27 August 2026)",
+      "url": "https://www.marijuanamoment.net/federal-appeals-court-sets-schedule-for-lawsuit-challenging-medicare-hemp-coverage-program/"
+    },
+    {
+      "name": "Washington Examiner: Trump calls for Congress to amend hemp ban (24 April 2026)",
+      "url": "https://www.washingtonexaminer.com/?p=4541662"
+    },
+    {
+      "name": "Congressional Research Service, LSB11381: Changes to the Federal Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

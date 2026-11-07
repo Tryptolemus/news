@@ -1,0 +1,96 @@
+{
+  "id": "explainer/cannabis-testing-and-potency-inflation",
+  "type": "explainer",
+  "name": "Cannabis testing and THC potency inflation",
+  "tags": [
+    "Potency inflation",
+    "Cannabis testing",
+    "Lab testing"
+  ],
+  "where_it_stands": "State-required lab tests are supposed to verify THC levels and screen for contaminants, but studies and enforcement cases show labels often overstate potency. A study published in April 2026 found Colorado flower labels averaged about 23% THC against 18% measured, and California regulators are tightening track-and-trace rules to stop 'lab shopping'.",
+  "summary": "Legal markets generally require licensed labs to test cannabis before sale for potency and for contaminants such as pesticides and mold. Because buyers pay more for high-THC flower, growers have an incentive to seek labs that report higher numbers, a practice known as lab shopping. A PLOS ONE study by researchers at the Colorado School of Public Health and Stanford, published on 15 April 2026, tested 74 products from Colorado dispensaries: flower labels had a median of 23.1% THC against 18.1% measured, edibles were also over-labeled, and flower was the only category significantly outside Colorado's 15% tolerance; the authors said the pattern pointed to market incentives rather than natural variation. California responded to earlier problems with a law signed in October 2021 (SB 554) that led to a standardized cannabinoid test method for flower from 1 January 2024, when only 18 of 38 labs were approved to use it. Its Department of Cannabis Control has revoked or suspended several lab licenses over potency inflation, though an administrative judge in July 2026 found the agency had not proven its core fraud claims against BelCosta Labs. A 2026 DCC proposal would require all parties to approve a transfer before a shipping manifest issues, to deter lab shopping, and require retailers to give customers certificates of analysis on request.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "A THC number on a label may be several points high, especially for flower; asking for the certificate of analysis helps, and California would make retailers provide it on request."
+    },
+    {
+      "for": "Operators",
+      "text": "Growers whose honest results look low compete with inflated rivals; regulators are adding standardized methods and tracking rules to level that field."
+    },
+    {
+      "for": "Regulators",
+      "text": "Enforcement depends on solid evidence handling, as the BelCosta ruling showed when samples were stored improperly."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021-10-05",
+      "event": "California SB 554 signed, leading to standardized cannabinoid testing",
+      "source": "https://www.cannabisbusinesstimes.com/us-states/california/news/15687043/only-18-of-38-labs-compliant-to-test-californias-cannabis-flower-under-new-rule"
+    },
+    {
+      "date": "2024-01-01",
+      "event": "California's standardized flower potency method takes effect",
+      "source": "https://www.cannabisbusinesstimes.com/us-states/california/news/15687043/only-18-of-38-labs-compliant-to-test-californias-cannabis-flower-under-new-rule"
+    },
+    {
+      "date": "2025-04",
+      "event": "California suspends BelCosta Labs' license over alleged potency inflation and other violations",
+      "source": "https://mjbizdaily.com/?p=617320"
+    },
+    {
+      "date": "2026-04-15",
+      "event": "PLOS ONE study finds Colorado flower labels overstate THC",
+      "source": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0321832"
+    },
+    {
+      "date": "2026-07-21",
+      "event": "California DCC hearing on track-and-trace changes aimed at lab shopping",
+      "source": "https://www.cannabis.ca.gov/cannabis-laws/rulemaking/dcc-2026-02-r/notice/"
+    },
+    {
+      "date": "2026-07-24",
+      "event": "Administrative judge finds DCC did not prove core fraud claims against BelCosta",
+      "source": "https://mjbizdaily.com/?p=617320"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the THC percentage on cannabis labels accurate?",
+      "a": "Often not exactly. The April 2026 Colorado study found flower labels overstated THC by a median of about 4 percentage points."
+    },
+    {
+      "q": "What is lab shopping?",
+      "a": "Choosing a testing lab because it tends to report higher THC or pass more samples. California's 2026 proposal targets it through its track-and-trace system."
+    },
+    {
+      "q": "How can I check a product's test results?",
+      "a": "Ask for the certificate of analysis. California's proposed rule would require retailers to provide it on request."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PLOS ONE: Commercial cannabis product testing, fidelity to labels and regulations (15 April 2026)",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0321832"
+    },
+    {
+      "name": "NORML: Study finds labels often inflate THC potency (23 April 2026)",
+      "url": "https://norml.org/news/2026/04/23/study-labels-often-inflate-thc-potency-of-cannabis-products/"
+    },
+    {
+      "name": "Cannabis Business Times: Only 18 of 38 labs compliant under California's new flower rule (11 January 2024)",
+      "url": "https://www.cannabisbusinesstimes.com/us-states/california/news/15687043/only-18-of-38-labs-compliant-to-test-californias-cannabis-flower-under-new-rule"
+    },
+    {
+      "name": "California Department of Cannabis Control: DCC-2026-02-R notice of proposed rulemaking",
+      "url": "https://www.cannabis.ca.gov/cannabis-laws/rulemaking/dcc-2026-02-r/notice/"
+    },
+    {
+      "name": "MJBizDaily: California regulators' case against testing lab unravels (10 August 2026)",
+      "url": "https://mjbizdaily.com/?p=617320"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

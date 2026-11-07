@@ -1,0 +1,121 @@
+{
+  "id": "explainer/thca-flower",
+  "type": "explainer",
+  "name": "THCA flower and the hemp loophole",
+  "tags": [
+    "THCA flower",
+    "THCA hemp"
+  ],
+  "where_it_stands": "THCA flower has been sold as hemp because the 2018 Farm Bill measured only delta-9 THC, but federal law switches to a total-THC test that counts THCA on 11 December 2026, after which most THCA flower is treated as marijuana. DEA has said since 2024 that THCA counts toward the hemp limit, and Texas ended legal sales of smokable hemp on 31 March 2026.",
+  "next_milestone": {
+    "text": "The total-THC hemp definition takes effect, so flower above 0.3% total THC, counting THCA, stops qualifying as federally lawful hemp.",
+    "date": "2026-12-11",
+    "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+  },
+  "summary": "THCA (tetrahydrocannabinolic acid) is the acidic, raw form of THC that cannabis plants produce; heat from smoking or vaping turns most of it into intoxicating delta-9 THC. Because the 2018 Farm Bill defined hemp by its delta-9 THC concentration alone, sellers marketed high-THCA flower as hemp even though it behaves like marijuana once lit. USDA's 2021 production rule already required farmers to test crops for total THC before harvest, and in a May 2024 letter DEA's drug evaluation section said THCA converts to delta-9 THC during the required testing and counts toward the 0.3% limit. Public Law 119-37 puts a total-THC test into the statutory definition itself, and the September 2026 stopgap law set 11 December 2026 as the date it applies. Flower above that line is then treated as marijuana under the Controlled Substances Act. States have moved on their own timelines: Texas rules effective 31 March 2026 count THCA toward its delta-9 limit, which ended legal retail sales of smokable hemp there.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "THCA flower, pre-rolls and similar products sold online and in smoke shops will generally fall outside the federal hemp definition after 11 December. In Texas, sales already stopped in March, though the state rules do not reach possession."
+    },
+    {
+      "for": "Operators",
+      "text": "Retailers and brands carrying high-THCA flower face a hard federal cutoff; product above 0.3% total THC can no longer move as hemp."
+    },
+    {
+      "for": "Growers",
+      "text": "Farmers already test for total THC before harvest under USDA rules, so the biggest change lands on processors and sellers of finished flower."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2018-12-20",
+      "event": "2018 Farm Bill defines hemp as cannabis with no more than 0.3% delta-9 THC",
+      "source": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    },
+    {
+      "date": "2021-01-19",
+      "event": "USDA final rule requires pre-harvest testing of hemp crops for total THC",
+      "source": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "date": "2024-05-13",
+      "event": "DEA letter says THCA counts toward the delta-9 THC limit after decarboxylation",
+      "source": "https://s3.documentcloud.org/documents/24688803/24-9472-porter-wright-thca-05032024-signed.pdf"
+    },
+    {
+      "date": "2025-11-12",
+      "event": "Public Law 119-37 rewrites the hemp definition around total THC",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2026-03-31",
+      "event": "Texas rules counting THCA toward the THC limit take effect, ending smokable hemp sales",
+      "source": "https://www.keranews.org/texas-news/2026-03-11/texas-ban-on-selling-smokable-cannabis-takes-effect-march-31"
+    },
+    {
+      "date": "2026-09-02",
+      "event": "Stopgap law moves most of the new hemp definition to 11 December 2026",
+      "source": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Total-THC hemp definition takes effect unless Congress acts again",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is THCA flower legal?",
+      "a": "Until 11 December 2026 it is sold under the old delta-9-only hemp definition, although DEA has said THCA counts toward the limit. From 11 December federal law uses total THC, so most THCA flower will be treated as marijuana. State rules may already be stricter."
+    },
+    {
+      "q": "What is the difference between THCA and THC?",
+      "a": "THCA is the form the plant makes. Heating it, as in smoking, converts it to delta-9 THC, which is why total-THC testing adds the two together."
+    },
+    {
+      "q": "Can I still buy THCA flower in Texas?",
+      "a": "No longer from a registered retailer. Texas rules effective 31 March 2026 count THCA in the THC limit, effectively ending retail sales of smokable hemp; the rules cover manufacture, distribution and sale, not possession."
+    },
+    {
+      "q": "Does the change affect hemp grown for fiber or grain?",
+      "a": "The new definition expressly keeps industrial hemp grown for uses such as fiber and grain within the hemp definition."
+    }
+  ],
+  "sources": [
+    {
+      "name": "7 U.S.C. 1639o as amended by Pub. L. 119-37 (uscode.house.gov)",
+      "url": "https://uscode.house.gov/us/usc/119-136/t7/s1639o/"
+    },
+    {
+      "name": "Congressional Research Service, LSB11381: Changes to the Federal Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "name": "Congressional Research Service, IF13136: Changes to the Statutory Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "name": "DEA Drug and Chemical Evaluation Section letter on THCA (13 May 2024)",
+      "url": "https://s3.documentcloud.org/documents/24688803/24-9472-porter-wright-thca-05032024-signed.pdf"
+    },
+    {
+      "name": "Federal Register: USDA Establishment of a Domestic Hemp Production Program, final rule (19 January 2021)",
+      "url": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "name": "KERA News: Texas ban on selling smokable cannabis takes effect March 31 (11 March 2026)",
+      "url": "https://www.keranews.org/texas-news/2026-03-11/texas-ban-on-selling-smokable-cannabis-takes-effect-march-31"
+    },
+    {
+      "name": "Congress.gov: H.R. 2, Agriculture Improvement Act of 2018",
+      "url": "https://www.congress.gov/bill/115th-congress/house-bill/2"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

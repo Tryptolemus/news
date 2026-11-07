@@ -1,0 +1,88 @@
+{
+  "id": "explainer/cannabis-dui-laws",
+  "type": "explainer",
+  "name": "Cannabis DUI laws",
+  "tags": [
+    "Cannabis DUI",
+    "Drugged driving",
+    "Impaired driving"
+  ],
+  "where_it_stands": "Driving while impaired by cannabis is illegal in every state, including where adult use is legal. States differ on how they prove it: NCSL counts five states with numeric THC blood limits, 12 with zero-tolerance rules, and Colorado with a 5-nanogram 'permissible inference', while federal researchers say blood THC levels track impairment poorly.",
+  "summary": "There is no breathalyzer equivalent for cannabis, so states rely on officers' observations, drug recognition evaluations and blood or oral-fluid tests. According to the National Conference of State Legislatures, Illinois, Montana, Nevada, Ohio and Washington set per se limits of 2 to 5 nanograms of THC per milliliter of blood (Nevada's applies only to felony cases), while Arizona, Delaware, Georgia, Indiana, Iowa, Michigan, Oklahoma, Pennsylvania, Rhode Island, South Dakota, Utah and Wisconsin have zero-tolerance laws for at least some drugs or drivers. Colorado treats 5 ng/mL of active delta-9 THC in whole blood as a permissible inference of impairment rather than a fixed limit, and drivers below it can still be charged on observed impairment. NHTSA told Congress in 2017 that blood THC concentration correlates poorly with impairment, which makes numeric limits hard to justify scientifically. Legal states also regulate cannabis in cars: Colorado bans open packaging and use in vehicles, Illinois requires cannabis carried in a car to be in a sealed, odor-proof, child-resistant container, and New York bans use in vehicles.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "A legal purchase does not make driving after use legal. In per se and zero-tolerance states a test result alone can support a charge, even without visible impairment."
+    },
+    {
+      "for": "Patients",
+      "text": "Medical cards generally do not shield drivers from impaired-driving charges, and commercial drivers remain subject to federal DOT testing with no medical marijuana exception."
+    },
+    {
+      "for": "Operators",
+      "text": "Lounges and delivery businesses face local conditions aimed at impaired driving, such as Clark County's required safety plans for Nevada lounges."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017-07-01",
+      "event": "NHTSA report to Congress finds blood THC levels correlate poorly with impairment",
+      "source": "https://rosap.ntl.bts.gov/view/dot/34995"
+    },
+    {
+      "date": "2023-10",
+      "event": "Minnesota begins a roadside oral-fluid testing pilot",
+      "source": "https://ncsl.org/transportation/drugged-driving-marijuana-impaired-driving"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there a legal THC limit for driving?",
+      "a": "Some states set one. NCSL lists Illinois, Montana, Nevada, Ohio and Washington with per se limits of 2 to 5 ng/mL of blood; Colorado uses 5 ng/mL as a permissible inference; 12 states have zero-tolerance rules."
+    },
+    {
+      "q": "Can you get a DUI with a medical card?",
+      "a": "Yes. Medical status does not authorize impaired driving, and federal DOT testing for commercial drivers has no medical marijuana exception."
+    },
+    {
+      "q": "Can I have cannabis in my car?",
+      "a": "In legal states usually yes, if it is sealed or unopened as the state requires. Colorado bans open packages in vehicles and Illinois requires a sealed, odor-proof, child-resistant container."
+    },
+    {
+      "q": "How long after using is it safe to drive?",
+      "a": "There is no reliable THC number that marks safety, which is what NHTSA reported to Congress. The safest rule is not to drive while feeling any effects."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NCSL: Drugged driving and marijuana-impaired driving",
+      "url": "https://ncsl.org/transportation/drugged-driving-marijuana-impaired-driving"
+    },
+    {
+      "name": "NHTSA: Marijuana-Impaired Driving, A Report to Congress (DOT HS 812 440, July 2017)",
+      "url": "https://rosap.ntl.bts.gov/view/dot/34995"
+    },
+    {
+      "name": "Colorado Department of Transportation: Drugged driving FAQs",
+      "url": "https://www.codot.gov/safety/alcohol-and-impaired-driving/druggeddriving/faqs"
+    },
+    {
+      "name": "Illinois IDFPR: Adult-use cannabis information for purchasers",
+      "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/faq/auc/faq-information-for-purchasers.pdf"
+    },
+    {
+      "name": "New York Office of Cannabis Management: Adult-use information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "name": "U.S. DOT: Notice on medical marijuana and DOT drug testing",
+      "url": "https://www.transportation.gov/odapc/marijuana-notice"
+    },
+    {
+      "name": "Las Vegas Sun: Nevada's first regulated consumption lounge opens (27 February 2024)",
+      "url": "https://m.lasvegassun.com/news/2024/feb/27/nevadas-first-regulated-cannabis-consumption-loung/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

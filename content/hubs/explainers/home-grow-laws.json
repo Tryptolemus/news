@@ -1,0 +1,151 @@
+{
+  "id": "explainer/home-grow-laws",
+  "type": "explainer",
+  "name": "Home grow laws: growing cannabis at home",
+  "tags": [
+    "Home grow laws",
+    "Home cultivation"
+  ],
+  "where_it_stands": "Twenty of the 24 adult-use states, plus DC, let adults grow a few plants at home, typically up to six per person and 12 per household; Delaware and New Jersey ban home growing, and Illinois and Washington allow it only for registered medical patients. Home growing remains federal cultivation of a controlled substance.",
+  "summary": "Plant limits vary widely. Michigan allows 12 plants per residence; Alaska, Massachusetts and New York allow six per adult with household caps of 12; Arizona allows six per adult; California and Colorado set six per residence or per resident, with Colorado capping flowering plants at three; Minnesota allows eight per residence with no more than four flowering; Oregon allows four per residence; Maryland two per household; Virginia four per household; Vermont two mature and four immature; Montana two mature plants and two seedlings per adult. Nevada lets adults grow only if they live at least 25 miles from a dispensary, and Missouri requires a state cultivation registration. Many states require plants to be locked and out of public view, and some, such as Maryland, let landlords forbid growing. Delaware and New Jersey do not allow home cultivation at all; Illinois and Washington reserve it for registered patients. A few medical-only states, such as Oklahoma and South Dakota, let qualifying patients grow. Under federal law, growing marijuana remains a crime, and the April 2026 Schedule III order covers marijuana handled under a state medical license, leaving unlicensed crops in Schedule I.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Home growers must stay within plant counts, keep plants secured and out of view, and never sell what they grow; homegrown cannabis cannot be sold in New York, for example."
+    },
+    {
+      "for": "Patients",
+      "text": "In Illinois, Washington, Oklahoma and South Dakota, registered patients can grow when other adults cannot; Washington allows up to 15 plants with a provider's recommendation."
+    },
+    {
+      "for": "Renters",
+      "text": "Leases can override home-grow rights in some states; Maryland expressly lets landlords prohibit growing."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-03-10",
+      "event": "CRS counts 24 states and DC with adult-use laws",
+      "source": "https://www.everycrsreport.com/reports/IF12270.html"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "Federal Schedule III order covers only marijuana under state medical licenses; unlicensed crops stay Schedule I",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which states allow growing cannabis at home?",
+      "a": "Twenty adult-use states plus DC allow adults to grow, including California, Colorado, Michigan, New York and Virginia. Delaware and New Jersey do not; Illinois and Washington allow it only for patients."
+    },
+    {
+      "q": "How many plants can I grow?",
+      "a": "Commonly six per adult and 12 per household, but limits range from two (Maryland, per household) to 12 per residence (Michigan). Check your state's rules on flowering versus immature plants."
+    },
+    {
+      "q": "Is home growing legal under federal law?",
+      "a": "No. Cultivation is federally illegal, and the 2026 rescheduling order does not cover home-grown or other unlicensed marijuana."
+    },
+    {
+      "q": "Can I grow in Nevada?",
+      "a": "Only if you live more than 25 miles from the nearest dispensary, with up to six plants per person and 12 per household."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, IF12270: The Federal Status of Marijuana and the Policy Gap with States (10 March 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12270.html"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing state-licensed medical marijuana in Schedule III",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "Colorado: Home grow laws",
+      "url": "https://cannabis.colorado.gov/legal-marijuana-use/home-grow-laws"
+    },
+    {
+      "name": "Michigan Compiled Laws 333.27955",
+      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955"
+    },
+    {
+      "name": "Massachusetts General Laws chapter 94G, section 7",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7"
+    },
+    {
+      "name": "Minnesota Office of Cannabis Management: Adult-use information",
+      "url": "https://mn.gov/ocm/consumers/adult-use/index.jsp"
+    },
+    {
+      "name": "New York Office of Cannabis Management: Adult-use information",
+      "url": "https://cannabis.ny.gov/adult-use-information"
+    },
+    {
+      "name": "Maryland Cannabis Administration: Cannabis FAQ",
+      "url": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx"
+    },
+    {
+      "name": "Code of Virginia 4.1-1101",
+      "url": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1101/"
+    },
+    {
+      "name": "Illinois Cannabis Regulation Oversight Office: FAQs",
+      "url": "https://cannabis.illinois.gov/about/faqs"
+    },
+    {
+      "name": "RCW 69.51A.210 (Washington medical home grow)",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.51A.210"
+    },
+    {
+      "name": "Delaware Office of the Marijuana Commissioner: FAQ",
+      "url": "https://omc.delaware.gov/faq/"
+    },
+    {
+      "name": "Oklahoma Medical Marijuana Authority: Patient rights and responsibilities",
+      "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html"
+    },
+    {
+      "name": "Marijuana Policy Project: Nevada",
+      "url": "https://www.mpp.org/nevada"
+    },
+    {
+      "name": "Marijuana Policy Project: New Jersey",
+      "url": "https://www.mpp.org/new-jersey"
+    },
+    {
+      "name": "Marijuana Policy Project: Alaska",
+      "url": "https://www.mpp.org/states/alaska/"
+    },
+    {
+      "name": "Oregon personal use FAQ (via mass.gov)",
+      "url": "https://www.mass.gov/doc/10162017-ci-oregon-faqs-personal-use/download"
+    },
+    {
+      "name": "Ballotpedia: Missouri Amendment 3 (2022)",
+      "url": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)"
+    },
+    {
+      "name": "Montana Code 16-12-106 (Justia)",
+      "url": "https://law.justia.com/codes/montana/current/title-16/chapter-12/part-1/section-16-12-106/"
+    },
+    {
+      "name": "South Dakota Codified Laws 34-20G-1",
+      "url": "https://sdlegislature.gov/Statutes/34-20G-1"
+    },
+    {
+      "name": "Vermont Act 176 (2026)",
+      "url": "https://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT176/ACT176%20As%20Enacted.pdf"
+    },
+    {
+      "name": "Ballotpedia: Arizona Proposition 207 (2020)",
+      "url": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)"
+    },
+    {
+      "name": "Ballotpedia: California Proposition 64 (2016)",
+      "url": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

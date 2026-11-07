@@ -1,0 +1,97 @@
+{
+  "id": "explainer/kratom-regulation",
+  "type": "explainer",
+  "name": "Kratom and 7-OH regulation",
+  "tags": [
+    "Kratom",
+    "7-OH",
+    "7-hydroxymitragynine"
+  ],
+  "where_it_stands": "Kratom leaf is not federally controlled, but DEA placed three synthetic kratom-related compounds in Schedule I in August 2026 and plans a temporary order controlling concentrated 7-OH products above a set threshold, to be published on or after 13 November 2026. States are split: 14 ban or schedule kratom, while at least 31 regulate it.",
+  "next_milestone": {
+    "text": "Earliest date for DEA's temporary order placing 7-OH above the revised threshold in Schedule I; it takes effect on publication.",
+    "date": "2026-11-13",
+    "source": "https://www.everycrsreport.com/reports/LSB11457.html"
+  },
+  "summary": "Kratom is a Southeast Asian plant whose leaves contain mitragynine and small amounts of 7-hydroxymitragynine (7-OH), which FDA says binds to opioid receptors. DEA lists kratom as a drug of concern but it is not scheduled, and FDA says it is not lawful as a dietary supplement or food additive. Concern has shifted to concentrated 7-OH products, including fruit-flavored gummies that FDA warned could appeal to children and teens. FDA recommended scheduling 7-OH in July 2025, describing it as an opioid that can be more potent than morphine, while saying the action did not target natural kratom leaf. In July 2026 DEA announced plans to temporarily schedule 7-OH and three related synthetics; mitragynine pseudoindoxyl, MGM-15 and MGM-16 entered Schedule I on 26 August 2026 for two years. For 7-OH, DEA proposed a threshold of more than 0.05% by dry weight in plant material, or more than 0.05% or 1 mg per item in processed products, revised it in October and said the order would come on or after 13 November. States vary widely: Stateline, citing the Rockefeller Institute and NCSL, reports 14 states ban or schedule kratom, Tennessee joined them in July 2026, and Massachusetts temporarily scheduled all kratom by executive order in August, while at least 31 regulate it with age limits, potency caps or labeling rules.",
+  "what_changes": [
+    {
+      "for": "Consumers",
+      "text": "Plain kratom leaf with natural 7-OH below the threshold stays outside federal scheduling, but potent 7-OH tablets and gummies are expected to become Schedule I, and some states ban kratom entirely."
+    },
+    {
+      "for": "Operators",
+      "text": "Retailers must pull products once the temporary order is published, since it takes effect immediately; temporary orders are not open to judicial review during their term."
+    },
+    {
+      "for": "Regulators",
+      "text": "Poison center reports of kratom exposure rose to 3,434 in 2025, which states cite as they consider bans or potency limits."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-07-29",
+      "event": "FDA recommends scheduling 7-OH products",
+      "source": "https://www.hhs.gov/press-room/fda-7-oh-scheduling-recommendation.html"
+    },
+    {
+      "date": "2026-07-06",
+      "event": "DEA publishes notices of intent to temporarily schedule 7-OH and three related substances",
+      "source": "https://www.everycrsreport.com/reports/LSB11457.html"
+    },
+    {
+      "date": "2026-07",
+      "event": "Tennessee's statewide kratom ban takes effect",
+      "source": "https://ctmirror.org/2026/10/05/kratom-7-oh-laws-diverge-amid-the-spread-of-potent-synthetic-products/"
+    },
+    {
+      "date": "2026-08-26",
+      "event": "Mitragynine pseudoindoxyl, MGM-15 and MGM-16 placed in Schedule I through 26 August 2028",
+      "source": "https://vicentellp.com/insights/dea-places-three-kratom-related-substances-in-schedule-i-as-7-oh-scheduling-remains-pending/"
+    },
+    {
+      "date": "2026-10-14",
+      "event": "DEA revises its proposed 7-OH threshold",
+      "source": "https://www.everycrsreport.com/reports/LSB11457.html"
+    },
+    {
+      "date": "2026-11-13",
+      "event": "Earliest date for the 7-OH temporary scheduling order",
+      "source": "https://www.everycrsreport.com/reports/LSB11457.html"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is kratom illegal?",
+      "a": "Not federally. Kratom leaf is unscheduled, but about 14 states ban or schedule it and many others regulate sales."
+    },
+    {
+      "q": "Is 7-OH being banned?",
+      "a": "DEA plans to temporarily place 7-OH products above a set concentration in Schedule I, with the order due on or after 13 November 2026. Three synthetic relatives were scheduled in August 2026."
+    },
+    {
+      "q": "Will the 7-OH order cover regular kratom powder?",
+      "a": "Not if its natural 7-OH content is below the threshold of 0.05% by dry weight, according to the Congressional Research Service."
+    }
+  ],
+  "sources": [
+    {
+      "name": "HHS: FDA 7-OH scheduling recommendation (29 July 2025)",
+      "url": "https://www.hhs.gov/press-room/fda-7-oh-scheduling-recommendation.html"
+    },
+    {
+      "name": "Congressional Research Service, LSB11457: Temporary Control of 7-OH and Related Substances (updated 26 October 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11457.html"
+    },
+    {
+      "name": "Vicente LLP: DEA places three kratom-related substances in Schedule I",
+      "url": "https://vicentellp.com/insights/dea-places-three-kratom-related-substances-in-schedule-i-as-7-oh-scheduling-remains-pending/"
+    },
+    {
+      "name": "Stateline via CT Mirror: Kratom, 7-OH laws diverge (5 October 2026)",
+      "url": "https://ctmirror.org/2026/10/05/kratom-7-oh-laws-diverge-amid-the-spread-of-potent-synthetic-products/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

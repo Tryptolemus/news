@@ -1,0 +1,88 @@
+{
+  "id": "explainer/cannabis-and-immigration",
+  "type": "explainer",
+  "name": "Cannabis and immigration consequences",
+  "tags": [
+    "Cannabis immigration",
+    "Marijuana immigration"
+  ],
+  "where_it_stands": "For non-citizens, marijuana use, work in the cannabis industry or a conviction can still lead to visa denials, deportation or a failed citizenship application, even where cannabis is legal under state law. Immigration law reaches controlled substances in every schedule, so the April 2026 move of medical marijuana to Schedule III does not create a safe harbor.",
+  "summary": "The Immigration and Nationality Act makes a person inadmissible if convicted of, or if they admit to, violating any state, federal or foreign controlled-substance law, and also covers people officials have reason to believe are drug traffickers and people found to be drug abusers or addicts. A non-citizen already admitted becomes deportable after any controlled-substance conviction, except a single offense of possessing 30 grams or less of marijuana for personal use. Because these provisions turn on federal law, conduct legal under state law can still count: in April 2019 USCIS told officers that violating federal marijuana law, including through employment in the marijuana industry, can bar a finding of good moral character for naturalization, whether shown by a conviction or by the applicant's own admission. The Congressional Research Service says marijuana use or convictions can still make people ineligible for some visas, and immigration lawyers note the law applies to Schedules I through V, so medical marijuana's move to Schedule III leaves the risk largely intact. Presidential pardons of federal simple possession in 2022 applied only to those who were citizens or lawful permanent residents and do not cover state convictions.",
+  "what_changes": [
+    {
+      "for": "Non-citizens",
+      "text": "Admitting past marijuana use to an immigration or border officer can itself create inadmissibility, even without a conviction."
+    },
+    {
+      "for": "Workers",
+      "text": "Green card holders and visa holders working at licensed cannabis businesses may jeopardize naturalization or future entry."
+    },
+    {
+      "for": "Operators",
+      "text": "Employers in the cannabis industry should expect immigration risk for non-citizen staff and foreign executives."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2019-04-19",
+      "event": "USCIS policy update says federal marijuana violations can bar good moral character",
+      "source": "https://www.nixonpeabody.com/insights/articles/2019/04/24/uscis-addresses-the-legalization-of-marijuana"
+    },
+    {
+      "date": "2022-10-06",
+      "event": "Presidential pardon of federal simple possession, limited to citizens and lawful permanent residents",
+      "source": "https://www.justice.gov/archives/opa/pr/justice-department-announces-application-form-marijuana-pardon-certificates"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III, still a controlled substance for immigration law",
+      "source": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can legal marijuana use affect a green card or citizenship?",
+      "a": "Yes. USCIS treats federal marijuana violations, including state-legal use or industry work, as potentially barring good moral character for naturalization."
+    },
+    {
+      "q": "Is there an exception for small amounts?",
+      "a": "For deportability, a single conviction for possessing 30 grams or less for personal use is excepted. That exception does not cover inadmissibility."
+    },
+    {
+      "q": "Did rescheduling fix the immigration problem?",
+      "a": "No. Immigration law covers all controlled substances, including Schedule III, and adult-use marijuana remains Schedule I."
+    }
+  ],
+  "sources": [
+    {
+      "name": "8 U.S.C. 1182: Inadmissible aliens",
+      "url": "https://www.law.cornell.edu/uscode/text/8/1182"
+    },
+    {
+      "name": "8 U.S.C. 1227: Deportable aliens",
+      "url": "https://www.law.cornell.edu/uscode/text/8/1227"
+    },
+    {
+      "name": "Nixon Peabody: USCIS addresses the legalization of marijuana (24 April 2019)",
+      "url": "https://www.nixonpeabody.com/insights/articles/2019/04/24/uscis-addresses-the-legalization-of-marijuana"
+    },
+    {
+      "name": "Congressional Research Service, IF12715: Rescheduling Medical Marijuana, Criminal and Collateral Consequences (16 June 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12715.html"
+    },
+    {
+      "name": "Greenspoon Marder: The Schedule III shift and US immigration (4 May 2026)",
+      "url": "https://www.gmlaw.com/news/the-schedule-iii-shift-what-federal-cannabis-reform-means-for-u-s-immigration/"
+    },
+    {
+      "name": "U.S. Department of Justice: Marijuana pardon certificates",
+      "url": "https://www.justice.gov/archives/opa/pr/justice-department-announces-application-form-marijuana-pardon-certificates"
+    },
+    {
+      "name": "Federal Register: DOJ/DEA final order placing state-licensed medical marijuana in Schedule III",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "explainer/hemp-beverages",
+  "type": "explainer",
+  "name": "Hemp THC drinks and seltzers",
+  "tags": [
+    "THC beverages",
+    "Hemp beverages",
+    "THC drinks"
+  ],
+  "where_it_stands": "THC seltzers and other hemp-derived drinks, typically 5 to 10 mg of THC a can, are sold legally in many states, but the federal hemp definition caps finished products at 0.4 mg of total THC per container from 11 December 2026. Unless Congress acts first, most of these drinks will then be treated as marijuana under federal law, whatever state law says.",
+  "next_milestone": {
+    "text": "The 0.4 mg per-container total-THC cap applies to finished hemp products, including canned and bottled drinks.",
+    "date": "2026-12-11",
+    "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+  },
+  "summary": "Hemp drinks grew out of the 2018 Farm Bill's delta-9 test: a can of seltzer is mostly water, so a few milligrams of hemp-derived delta-9 THC stays well under 0.3% by weight. Clark Hill, citing industry estimates, puts annual sales above $1 billion and typical strength at 5 to 10 mg a can. States regulate them very differently. Minnesota licenses lower-potency hemp edible retailers, requires age verification at 21, and caps beverages at 10 mg of THC per container; the license can be held alongside a liquor license. In Texas, alcohol permit holders must check ID and keep hemp sales to adults, but each location also needs state health department registration, which cost $5,000 a year from March 2026. The federal law signed in November 2025 limits finished hemp products to 0.4 mg of total THC per container; because the limit is per container, it applies to each can or bottle. A September 2026 stopgap moved the start date to 11 December 2026. Bills to regulate rather than ban, such as the Cannabinoid Safety and Regulation Act (S. 3474), which would allow 5 mg per serving and 10 mg per container for drinks with a 21+ age limit, have not passed.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Brands, distributors, bars and liquor stores selling THC drinks above 0.4 mg per container face federal exposure from 11 December, even where state law allows sales."
+    },
+    {
+      "for": "Consumers",
+      "text": "Drinks sold in grocery, liquor and convenience stores in states like Minnesota and Texas may disappear or be reformulated to trace amounts."
+    },
+    {
+      "for": "Investors",
+      "text": "Beverage companies' outlook depends on whether Congress replaces the ban with an alcohol-style framework before the deadline."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2025-11-12",
+      "event": "Federal law caps finished hemp products at 0.4 mg of total THC per container",
+      "source": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "date": "2025-12-15",
+      "event": "Cannabinoid Safety and Regulation Act (S. 3474) introduced with drink limits of 5 mg per serving and 10 mg per container",
+      "source": "https://www.govinfo.gov/content/pkg/BILLS-119s3474is/xhtml/BILLS-119s3474is.html"
+    },
+    {
+      "date": "2026-03-25",
+      "event": "Minnesota guidance sets beverage limit of 10 mg THC per container",
+      "source": "https://mn.gov/ocm/assets/LPHE_Product_Compliance_Packaging_and_Labeling_Quick_Guide_032526_accessible_tcm1202-737840.pdf"
+    },
+    {
+      "date": "2026-09-02",
+      "event": "Stopgap law delays the cap to 11 December 2026",
+      "source": "https://www.congress.gov/crs-product/IF13136"
+    },
+    {
+      "date": "2026-12-11",
+      "event": "Per-container cap takes effect unless Congress acts",
+      "source": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are THC drinks legal?",
+      "a": "Many states allow them now, but from 11 December 2026 federal law excludes any finished hemp product with more than 0.4 mg of total THC per container, which covers nearly all THC drinks on the market."
+    },
+    {
+      "q": "How much THC is in a hemp seltzer?",
+      "a": "Industry estimates cited by Clark Hill put typical drinks at 5 to 10 mg per can. Minnesota caps them at 10 mg per container."
+    },
+    {
+      "q": "Could Congress regulate THC drinks instead?",
+      "a": "Bills such as S. 3474 would set a federal framework with a 21+ age limit and per-serving caps, but none had passed as of early November 2026."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Clark Hill: A billion-dollar trade on the brink, how to save the hemp beverage industry (13 April 2026)",
+      "url": "https://www.clarkhill.com/news-events/news/a-billion-dollar-trade-on-the-brink-how-to-save-the-hemp-beverage-industry/"
+    },
+    {
+      "name": "Spencer Fane: THC drinks on the menu, what Texas bars and restaurants need to know before December 11",
+      "url": "https://www.spencerfane.com/insight/thc-drinks-on-the-menu-what-texas-bars-and-restaurants-need-to-know-before-december-11/?pdf=post"
+    },
+    {
+      "name": "Minnesota Office of Cannabis Management: LPHE packaging and labeling quick guide (25 March 2026)",
+      "url": "https://mn.gov/ocm/assets/LPHE_Product_Compliance_Packaging_and_Labeling_Quick_Guide_032526_accessible_tcm1202-737840.pdf"
+    },
+    {
+      "name": "Minnesota Office of Cannabis Management: Cannabinoid products business FAQ",
+      "url": "https://mn.gov/ocm/businesses/cannabinoid-products/business-faq.jsp"
+    },
+    {
+      "name": "GovInfo: S. 3474, Cannabinoid Safety and Regulation Act (introduced 15 December 2025)",
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119s3474is/xhtml/BILLS-119s3474is.html"
+    },
+    {
+      "name": "Congressional Research Service, LSB11381: Changes to the Federal Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/LSB11381"
+    },
+    {
+      "name": "Congressional Research Service, LSB11496: Delay in Changes to Hemp Definition (28 October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_4662a3f780e0e8c56a9fc08e93b78352ebc5f90e.pdf"
+    },
+    {
+      "name": "Congressional Research Service, IF13136: Changes to the Statutory Definition of Hemp",
+      "url": "https://www.congress.gov/crs-product/IF13136"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

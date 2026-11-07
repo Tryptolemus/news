@@ -1,0 +1,84 @@
+{
+  "id": "explainer/cannabis-advertising-rules",
+  "type": "explainer",
+  "name": "Cannabis advertising rules",
+  "tags": [
+    "Cannabis advertising",
+    "Cannabis marketing"
+  ],
+  "where_it_stands": "Cannabis ads are governed mostly by state rules that limit placement to adult audiences and ban youth appeal, while a federal law punishes ads that help sell Schedule I drugs. That federal ad ban no longer reaches state-licensed medical marijuana after the April 2026 move to Schedule III, but Google, Meta and TikTok have not loosened their cannabis ad policies.",
+  "summary": "State rules do most of the work. California lets licensees advertise only where reliable data shows at least 71.6% of the audience is 21 or older, and bans ads that depict minors, use cartoons or candy imagery, or promote free product, giveaways or contests; Colorado's Marijuana Enforcement Division rules also restrict cannabis advertising. At the federal level, 21 U.S.C. 843(c) makes it a crime to knowingly place an ad that seeks to illegally buy, sell or distribute a Schedule I substance, punishable by up to four years in prison; the Congressional Research Service notes that this penalty no longer applies to marijuana products moved to Schedule III, while adult-use marijuana stays in Schedule I. Platforms set their own rules. X became the first major social network to accept cannabis ads in US states where they are legal in February 2023. In May 2026 a digital marketer told MJBizDaily that the large platforms were open to changes but had made none, and they still bar promotional offers and product images in cannabis ads.",
+  "what_changes": [
+    {
+      "for": "Operators",
+      "text": "Medical-only advertising carries less federal criminal risk after rescheduling, but state placement and content rules still apply, and adult-use ads remain tied to a Schedule I product."
+    },
+    {
+      "for": "Investors",
+      "text": "Wider broadcast or platform access would lower customer acquisition costs, but platforms appear to be waiting for broader federal change."
+    },
+    {
+      "for": "Consumers",
+      "text": "Ads remain restricted to adult audiences, and offers such as giveaways are banned in states like California."
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2023-02-15",
+      "event": "Twitter (now X) says it will allow cannabis ads in US states where they are legal",
+      "source": "https://www.axios.com/2023/02/15/twitter-cannabis-advertising-elon-musk"
+    },
+    {
+      "date": "2026-04-28",
+      "event": "State-licensed medical marijuana moves to Schedule III, outside the federal Schedule I ad ban",
+      "source": "https://www.everycrsreport.com/reports/IF12715.html"
+    },
+    {
+      "date": "2026-05-11",
+      "event": "MJBizDaily reports major platforms have not changed cannabis ad policies",
+      "source": "https://mjbizdaily.com/?p=615904"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can cannabis companies advertise on TV or social media?",
+      "a": "Platform and broadcaster policies are the main barrier. X accepts cannabis ads in legal states; Google, Meta and TikTok had not changed their restrictions as of May 2026."
+    },
+    {
+      "q": "What is the 71.6% rule?",
+      "a": "California, among other states, allows cannabis ads only where at least 71.6% of the audience is reasonably expected to be 21 or older."
+    },
+    {
+      "q": "Did rescheduling make cannabis ads federally legal?",
+      "a": "For state-licensed medical marijuana, the federal Schedule I ad penalty no longer applies. Adult-use marijuana is still Schedule I."
+    }
+  ],
+  "sources": [
+    {
+      "name": "California Business and Professions Code 26151 (Justia)",
+      "url": "https://law.justia.com/codes/california/code-bpc/division-10/chapter-15/section-26151"
+    },
+    {
+      "name": "Cal. Code Regs. tit. 4, 15040: Advertising placement and prohibitions",
+      "url": "https://law.cornell.edu/regulations/california/4-CCR-15040"
+    },
+    {
+      "name": "Colorado Marijuana Rules, 1 CCR 212-3 Part 3",
+      "url": "https://www.law.cornell.edu/regulations/colorado/department-200/division-212/1-CCR-212-3/part-3"
+    },
+    {
+      "name": "Congressional Research Service, IF12715: Rescheduling Medical Marijuana, Criminal and Collateral Consequences (16 June 2026)",
+      "url": "https://www.everycrsreport.com/reports/IF12715.html"
+    },
+    {
+      "name": "Axios: Twitter to allow cannabis advertising (15 February 2023)",
+      "url": "https://www.axios.com/2023/02/15/twitter-cannabis-advertising-elon-musk"
+    },
+    {
+      "name": "MJBizDaily: Big tech platforms inch closer to cannabis acceptance (11 May 2026)",
+      "url": "https://mjbizdaily.com/?p=615904"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

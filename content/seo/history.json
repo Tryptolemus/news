@@ -106,5 +106,32 @@
   "score_structure": 96.2,
   "score_scale": 36.9,
   "score_total": 76.7
+ },
+ {
+  "at": "2026-11-07T10:21:16+00:00",
+  "label": "Round 3b: +20 explainers (32 total)",
+  "pages_indexable": 217,
+  "articles": 22,
+  "hub_pages": 181,
+  "evergreen_ratio_pct": 83.4,
+  "sitemap_coverage_pct": 100.0,
+  "title_ok_pct": 99.1,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 99.5,
+  "single_h1_pct": 100.0,
+  "self_canonical_pct": 100.0,
+  "jsonld_pct": 100.0,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 100.0,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 0,
+  "avg_internal_links_per_article": 32.5,
+  "avg_inbound_links_per_article": 21.9,
+  "avg_inbound_links_per_hub": 14.4,
+  "avg_words_per_article": 1464,
+  "score_technical": 99.9,
+  "score_structure": 96.2,
+  "score_scale": 41.0,
+  "score_total": 78.2
  }
 ]
