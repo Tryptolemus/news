@@ -1,0 +1,33 @@
+{
+  "id": "country/japan",
+  "type": "country",
+  "name": "Japan",
+  "tags": ["Japan"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
+  "headline_status": "Cannabis is strictly illegal in Japan, where using it has been a crime punishable by up to seven years in prison since December 2024.",
+  "summary": "Revised laws that took effect on 12 December 2024 made cannabis use a narcotics offence carrying up to seven years in prison, closing a gap where possession was banned but use was not. The same reform allowed licensed cannabis-derived medicines proven safe and effective, regulated under the Narcotics and Psychotropics Control Act. CBD products remain legal only if they stay under very low THC residue limits.",
+  "facts": {
+    "penalties": {"value": "Using cannabis or THC carries up to seven years in prison; possession was already a crime.", "source": "https://www.talkingdrugs.org/japan-bans-cannabis-use-yet-opens-medical-cannabis-industry/", "as_of": "2026-11-07"},
+    "medical_since": {"value": "12 December 2024, when cannabis-derived medicines proven safe and effective were allowed under licence.", "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2024/12/12/japan-criminalises-cannabis-use-as-revised-laws-come-into-effect", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Approved cannabis-derived medicines are regulated as narcotics under the Narcotics and Psychotropics Control Act; patients carrying them (e.g. for epilepsy) are advised to carry a doctor's certificate.", "source": "https://www.talkingdrugs.org/japan-bans-cannabis-use-yet-opens-medical-cannabis-industry/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "THC residue limits: 10 ppm in raw materials, 1 ppm in finished products and 0.1 ppm in beverages.", "source": "https://www.talkingdrugs.org/japan-bans-cannabis-use-yet-opens-medical-cannabis-industry/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None for recreational cannabis.", "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2024/12/12/japan-criminalises-cannabis-use-as-revised-laws-come-into-effect", "as_of": "2026-11-07"},
+    "regulator": {"value": "The national health ministry oversees narcotics and medicines; the former Cannabis Control Act was renamed to focus on cultivation.", "source": "https://www.thestar.com.my/aseanplus/aseanplus-news/2024/12/12/japan-criminalises-cannabis-use-as-revised-laws-come-into-effect", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors face the same penalties. The health minister said use abroad is not prosecuted on metabolites alone without evidence of possession or use in Japan, but bringing in CBD products above the THC limits is illegal.", "source": "https://www.talkingdrugs.org/japan-bans-cannabis-use-yet-opens-medical-cannabis-industry/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2024-12-12", "event": "Revised laws take effect: cannabis use criminalised, cannabis-derived medicines allowed, THC residue limits set", "source": "https://www.talkingdrugs.org/japan-bans-cannabis-use-yet-opens-medical-cannabis-industry/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Japan?", "a": "No. Possession and, since December 2024, use are crimes, with use punishable by up to seven years in prison."},
+    {"q": "Is CBD legal in Japan?", "a": "Yes, if THC stays below strict limits: 1 ppm in finished products and 0.1 ppm in drinks."},
+    {"q": "Can tourists be arrested in Japan for using cannabis abroad?", "a": "The health minister said use abroad will not be prosecuted on test results alone without evidence of possession or use in Japan."}
+  ],
+  "sources": [
+    {"name": "TalkingDrugs", "url": "https://www.talkingdrugs.org/japan-bans-cannabis-use-yet-opens-medical-cannabis-industry/"},
+    {"name": "The Star", "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2024/12/12/japan-criminalises-cannabis-use-as-revised-laws-come-into-effect"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

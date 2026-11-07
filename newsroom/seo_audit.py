@@ -35,6 +35,7 @@ class Page(HTMLParser):
         self.jsonld = []
         self.og_image = None
         self.max_preview = False
+        self.redirect = False
         self._in = None
         self._buf = []
         self.text_words = 0
@@ -53,6 +54,8 @@ class Page(HTMLParser):
                 self.robots = a.get("content", "").lower()
                 if "max-image-preview:large" in self.robots:
                     self.max_preview = True
+            elif (a.get("http-equiv") or "").lower() == "refresh":
+                self.redirect = True
             elif n == "og:image":
                 self.og_image = a.get("content")
         elif tag == "link" and (a.get("rel") or "").lower() == "canonical":
@@ -158,7 +161,8 @@ def audit():
         p = Page()
         p.feed(f.read_text(errors="replace"))
         pages[url_of(f)] = p
-    indexable = {u: p for u, p in pages.items() if "noindex" not in p.robots}
+    # redirect stubs (meta refresh + canonical elsewhere) are redirects, not indexable pages
+    indexable = {u: p for u, p in pages.items() if "noindex" not in p.robots and not p.redirect}
     sm_urls = set()
     for sm in DOCS.glob("sitemap*.xml"):
         for loc in re.findall(r"<loc>([^<]+)</loc>", sm.read_text()):

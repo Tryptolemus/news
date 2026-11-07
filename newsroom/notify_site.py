@@ -41,7 +41,7 @@ def bell():
     topics = "".join(f'<label class="mfn-opt"><input type="checkbox" name="topic" value="{v}"><span>{escape(lbl)}</span></label>' for v, lbl, _ in TOPICS)
     return f"""<button type="button" class="mfn-bell" id="mfn-bell" aria-label="News alerts: off" aria-haspopup="dialog" aria-expanded="false" aria-controls="mfn-panel">{BELL_SVG}<span class="mfn-dot" aria-hidden="true"></span></button>
 <div class="mfn" id="mfn-panel" role="dialog" aria-modal="false" aria-labelledby="mfn-h" hidden>
-  <div class="mfn-head"><h2 id="mfn-h" tabindex="-1">News alerts</h2><button type="button" class="mfn-x" aria-label="Close">&times;</button></div>
+  <div class="mfn-head"><div id="mfn-h" class="mfn-title" role="heading" aria-level="2" tabindex="-1">News alerts</div><button type="button" class="mfn-x" aria-label="Close">&times;</button></div>
   <p class="mfn-status" id="mfn-status" role="status" aria-live="polite"></p>
   <div data-v="unsupported" hidden><p>This browser can't receive web alerts. Chrome, Edge, Firefox and Safari can, on desktop and Android.</p></div>
   <div data-v="ios" hidden><p>On iPhone and iPad, alerts work once MetaFlora News is on your Home Screen:</p>

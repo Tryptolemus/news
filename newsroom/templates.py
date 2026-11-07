@@ -65,6 +65,15 @@ COPY_JS = ("<script>document.querySelectorAll('[data-copy]').forEach(function(b)
 def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head="", active=None, dateline="", robots=ROBOTS):
     # brand suffix only where it fits in ~60 characters of search-result title
     full = "Cannabis News Today: Policy, Markets, Hemp & Laws · MetaFlora News" if title == NAME else (f"{title} · {NAME}" if len(title) <= 44 else title)
+    if len(full) > 68:  # search shows ~60-70 chars: cut at a word boundary rather than let Google truncate mid-word
+        full = full[:66].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
+    desc = " ".join(str(desc).split())
+    if len(desc) > 160:
+        desc = desc[:157].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+    if "application/ld+json" not in extra_head and "noindex" not in robots:
+        extra_head += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc,
+                                                                          "url": SITE + path, "isPartOf": {"@type": "WebSite", "name": NAME, "url": SITE + "/"},
+                                                                          "publisher": {"@type": "Organization", "name": NAME, "url": SITE + "/"}}) + "</script>"
     img = og_image or f"{SITE}/assets/og-default.png"
     nav = "".join(f'<a href="/section/{c.lower()}/"{" aria-current=page" if c == active else ""}>{c}</a>' for c in CATS)
     nav += f'<a href="/stocks/"{" aria-current=page" if active == "Stocks" else ""}>Stocks</a>'
@@ -439,6 +448,7 @@ def build_sections(arts):
             inner = '<p class="empty">No stories in this section yet. New editions publish every morning and evening.</p>'
         body = f'<div class="page-h"><h1>{c}</h1><p class="meta">{len(items)} stories</p></div>{inner}'
         ctx["write"](f"section/{c.lower()}/index.html", page(f"{c} cannabis news", body, desc=SECTION_DESC.get(c, TAGLINE), path=f"/section/{c.lower()}/", active=c,
+                                                             robots=ROBOTS if items else "noindex, follow",
                                                              extra_head=collection_ld(f"{c} cannabis news", f"/section/{c.lower()}/", items)))
 
 
@@ -505,9 +515,12 @@ def build_topics(arts):
         h = hubs.hub_for_tag(t)
         if h and hubs.complete(h):
             # the legal hub owns this entity: keep the old URL as a pointer, out of the index
+            # minimal redirect stub (GitHub Pages can't 301): canonical + instant refresh, no noindex
             ctx["write"](f"topic/{slug(t)}/index.html",
-                         page(f"{t} news", f'<div class="page-h"><h1>{escape(t)}</h1><p class="dek">Coverage of {escape(t)} now lives on <a href="{h["_url"]}">{escape(h["name"])}</a>.</p></div>',
-                              path=h["_url"], robots="noindex, follow", extra_head=f'<meta http-equiv="refresh" content="0; url={h["_url"]}">'))
+                         f'<!doctype html><html lang="en"><head><meta charset="utf-8"><title>{escape(h["name"])} · MetaFlora News</title>'
+                         f'<link rel="canonical" href="{SITE}{h["_url"]}"><meta http-equiv="refresh" content="0; url={h["_url"]}">'
+                         f'<meta name="viewport" content="width=device-width,initial-scale=1"></head><body>'
+                         f'<p>Moved to <a href="{h["_url"]}">{escape(h["name"])}</a>.</p></body></html>')
             topics.pop(t)
             continue
         lead = items[0]
@@ -563,13 +576,15 @@ def build_how():
 
 def build_about(arts):
     n = len(arts)
+    import hubs
+    gloss = 'a <a href="/glossary/">cannabis glossary</a> and ' if hubs.has_glossary() else "and "
     body = f"""<article class="story static">
 <header class="story-head"><h1>About MetaFlora News</h1><p class="dek">Independent-minded cannabis industry news, laws and market data, published twice a day by MetaFlora.</p></header>
 <div class="story-col"><div class="story-body">
 <h2>What we cover</h2>
 <p>MetaFlora News reports on the business, law and science of cannabis: federal policy such as rescheduling, Section 280E and the hemp THC rules; state markets, licensing and ballot measures; Europe and other international markets; cannabis stocks and company results; and research. A morning edition publishes around 06:00 and an evening edition around 18:00 (Bucharest time), and the newsroom has published {n} stories so far.</p>
 <h2>Reference you can rely on</h2>
-<p>Alongside the news we maintain the <a href="/legal/us/">MetaFlora Legalization Tracker</a> for every US state, <a href="/legal/world/">country cannabis laws</a>, <a href="/explainers/">federal explainers</a>, a <a href="/glossary/">cannabis glossary</a> and <a href="/stocks/">cannabis stock pages</a>. Each fact shows its source and the date it was last verified, and the pages update as the newsroom reports changes.</p>
+<p>Alongside the news we maintain the <a href="/legal/us/">MetaFlora Legalization Tracker</a> for every US state, <a href="/legal/world/">country cannabis laws</a>, <a href="/explainers/">federal explainers</a>, {gloss}<a href="/stocks/">cannabis stock pages</a>. Each fact shows its source and the date it was last verified, and the pages update as the newsroom reports changes.</p>
 <h2>Who we are</h2>
 <p>Stories are bylined to the MetaFlora News Desk, our AI newsroom. It works from named public sources and links every one of them; <a href="/how-we-report/">How we report</a> explains exactly how stories are made and checked, and what we do when we get something wrong.</p>
 <h2>Publisher</h2>

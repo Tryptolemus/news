@@ -50,6 +50,23 @@ TILES = {
     "HI": (0, 7), "TX": (4, 7), "FL": (9, 7),
 }
 
+NEIGHBORS = {
+    "AL": "FL GA MS TN", "AK": "WA", "AZ": "CA CO NV NM UT", "AR": "LA MS MO OK TN TX", "CA": "AZ NV OR",
+    "CO": "AZ KS NE NM OK UT WY", "CT": "MA NY RI", "DE": "MD NJ PA", "DC": "MD VA", "FL": "AL GA",
+    "GA": "AL FL NC SC TN", "HI": "CA", "ID": "MT NV OR UT WA WY", "IL": "IN IA KY MO WI MI", "IN": "IL KY MI OH",
+    "IA": "IL MN MO NE SD WI", "KS": "CO MO NE OK", "KY": "IL IN MO OH TN VA WV", "LA": "AR MS TX", "ME": "NH",
+    "MD": "DE PA VA WV DC", "MA": "CT NH NY RI VT", "MI": "IN OH WI IL", "MN": "IA ND SD WI", "MS": "AL AR LA TN",
+    "MO": "AR IL IA KS KY NE OK TN", "MT": "ID ND SD WY", "NE": "CO IA KS MO SD WY", "NV": "AZ CA ID OR UT",
+    "NH": "ME MA VT", "NJ": "DE NY PA", "NM": "AZ CO OK TX UT", "NY": "CT MA NJ PA VT", "NC": "GA SC TN VA",
+    "ND": "MN MT SD", "OH": "IN KY MI PA WV", "OK": "AR CO KS MO NM TX", "OR": "CA ID NV WA",
+    "PA": "DE MD NJ NY OH WV", "RI": "CT MA", "SC": "GA NC", "SD": "IA MN MT NE ND WY", "TN": "AL AR GA KY MS MO NC VA",
+    "TX": "AR LA NM OK", "UT": "AZ CO ID NV NM WY", "VT": "MA NH NY", "VA": "KY MD NC TN WV DC",
+    "WA": "ID OR", "WV": "KY MD OH PA VA", "WI": "IL IA MI MN", "WY": "CO ID MT NE SD UT",
+}
+QUICK = [("purchase_age", "Minimum age"), ("possession_limit", "How much can I carry?"), ("public_use", "Where can I use it?"),
+         ("dui", "Driving"), ("tourists", "Visitors"), ("home_grow", "Home grow")]
+TITLE_YEAR = 2026  # bump with a dated sweep, not per build
+
 HUBS = []          # all hub dicts
 BY_TAG = {}        # tag (lower) -> hub
 
@@ -124,7 +141,23 @@ TONE_LABEL = {"rec": "Adult-use legal", "rec-ns": "Adult-use legal, no stores", 
 
 
 def verified(h):
-    return h.get("last_verified") or date.today().isoformat()
+    """Honest last-verified date: never 'today' by default, so rebuilds don't fake freshness."""
+    if h.get("last_verified"):
+        return h["last_verified"]
+    dates = [f.get("as_of") for f in (h.get("facts") or {}).values() if isinstance(f, dict) and f.get("as_of")]
+    dates += [e.get("date") for e in h.get("timeline") or [] if len(str(e.get("date", ""))) == 10]
+    return max(dates) if dates else "2026-11-07"
+
+
+def clip(text, n=155):
+    text = " ".join(str(text).split())
+    if len(text) <= n:
+        return text
+    return text[: n - 1].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+
+
+def has_glossary():
+    return any(h["type"] == "glossary" and complete(h) for h in HUBS)
 
 
 def fmt_date(iso):
@@ -174,8 +207,19 @@ def autolink(html_paras, a, limit=8):
                 continue
             for name in sorted({h["name"], *h.get("tags", [])}, key=len, reverse=True):
                 pat = re.compile(r"(?<![\w>/-])(" + re.escape(escape(name)) + r")(?![\w<-])")
-                m = pat.search(block)
-                if m and "<a " not in block[max(0, m.start() - 200):m.start()].split("</a>")[-1]:
+                m = None
+                for cand in pat.finditer(block):
+                    before, after = block[:cand.start()], block[cand.end():]
+                    # skip matches inside proper names ("Texas Hemp Business Council"): a capitalised word right next to it
+                    if re.search(r"\b[A-Z][a-z]+ $", before) and not re.search(r"(?:^|[.!?>] ?)[A-Z][a-z]+ $", before[-40:]):
+                        continue
+                    if re.match(r"^ [A-Z][a-z]", after):
+                        continue
+                    if "<a " in before[-200:].split("</a>")[-1]:
+                        continue
+                    m = cand
+                    break
+                if m:
                     block = block[:m.start()] + f'<a class="hub-link" href="{h["_url"]}">{m.group(1)}</a>' + block[m.end():]
                     done.add(h["_url"])
                     n += 1
@@ -291,7 +335,88 @@ def siblings(h, n=8):
     return same[:n]
 
 
+def neighbors(h):
+    by_abbr = {x.get("abbr"): x for x in HUBS if x["type"] == "us_state" and complete(x)}
+    return [by_abbr[a] for a in NEIGHBORS.get(h.get("abbr"), "").split() if a in by_abbr]
+
+
+def neighbors_html(h):
+    nb = neighbors(h)
+    if not nb:
+        return ""
+    lis = "".join(f'<li><a href="{x["_url"]}">Is weed legal in {escape(x["name"])}?</a><span>{escape(TONE_LABEL[tone(x)])}</span></li>' for x in nb)
+    return (f'<section class="hub-sec"><h2>Neighbouring states</h2><ul class="sib">{lis}</ul>'
+            f'<p class="hub-note">Taking cannabis across a state line is a federal crime, even between two adult-use states.</p>'
+            f'<p class="more-link"><a href="/legal/us/">All 50 states</a></p></section>')
+
+
+def quick_answers(h):
+    facts = h.get("facts") or {}
+    cells = []
+    for k, label in QUICK:
+        v = (facts.get(k) or {}).get("value") if isinstance(facts.get(k), dict) else None
+        if v:
+            cells.append(f'<div class="qa"><dt>{label}</dt><dd>{escape(clip(v, 140))}</dd></div>')
+    return f'<dl class="quick-answers">{"".join(cells)}</dl>' if len(cells) >= 2 else ""
+
+
+def _year(v):
+    m = re.search(r"(19|20)\d{2}", str(v or ""))
+    return int(m.group(0)) if m else None
+
+
+def comparisons(h):
+    """Computed, page-unique context: where this state sits among the others."""
+    if h["type"] != "us_state":
+        return ""
+    states = [x for x in HUBS if x["type"] == "us_state"]
+    out = []
+    if tone(h) in ("rec", "rec-ns"):
+        rec = [(x, _year(((x.get("facts") or {}).get("adult_use_since") or {}).get("value"))) for x in states if tone(x) in ("rec", "rec-ns")]
+        rec = sorted([r for r in rec if r[1]], key=lambda r: (r[1], r[0]["name"]))
+        y = next((yy for x, yy in rec if x is h), None)
+        if y:
+            rank = 1 + sum(1 for _, yy in rec if yy < y)
+            out.append(f"{h['name']} legalized adult use in {y}, making it one of the first {rank} of the {len(rec)} adult-use jurisdictions tracked here"
+                       if rank <= 5 else f"{h['name']} legalized adult use in {y}; {rank - 1} of the {len(rec)} adult-use jurisdictions tracked here got there first")
+    else:
+        n_rec = sum(1 for x in states if tone(x) in ("rec", "rec-ns"))
+        out.append(f"{h['name']} is one of {len(states) - n_rec} jurisdictions tracked here where adult use is still illegal")
+    nb = neighbors(h)
+    if nb:
+        legal_nb = [x["name"] for x in nb if tone(x) in ("rec", "rec-ns")]
+        if legal_nb:
+            out.append(f"{len(legal_nb)} of its {len(nb)} neighbours {'allows' if len(legal_nb) == 1 else 'allow'} adult use ({', '.join(legal_nb)})")
+        else:
+            out.append(f"none of its {len(nb)} neighbours allow adult use")
+    return f'<p class="hub-compare">{escape("; ".join(out))}.</p>' if out else ""
+
+
+def related_explainers(h):
+    text = " ".join([h.get("summary", ""), json.dumps(h.get("facts") or {}), json.dumps(h.get("pending") or [])]).lower()
+    keys = {"hemp-thc-ban": ("hemp", "delta-8", "thca"), "schedule-iii-rescheduling": ("schedule iii", "reschedul"),
+            "section-280e": ("280e",), "safer-banking": ("banking",), "delta-8-thc": ("delta-8",), "total-thc": ("total thc", "thca"),
+            "cannabis-gun-rights": ("firearm", "gun"), "interstate-commerce": ("interstate",)}
+    ex = {x["_slug"]: x for x in HUBS if x["type"] == "explainer" and complete(x)}
+    picks = [ex[s] for s, words in keys.items() if s in ex and any(w in text for w in words)]
+    for s in ("schedule-iii-rescheduling", "hemp-thc-ban"):
+        if s in ex and ex[s] not in picks:
+            picks.append(ex[s])
+    lis = "".join(f'<li><a href="{x["_url"]}">{escape(x["name"])}</a><span>{escape(clip(x.get("where_it_stands", ""), 110))}</span></li>' for x in picks[:4])
+    return f'<section class="hub-sec"><h2>Federal and hemp rules that apply here</h2><ul class="sib">{lis}</ul></section>' if lis else ""
+
+
+def latest_change(h):
+    tl = [e for e in h.get("timeline") or [] if e.get("date")]
+    if not tl:
+        return ""
+    e = max(tl, key=lambda e: str(e["date"]))
+    return f'<p class="hub-latest"><b>Latest change</b> · <time>{fmt_date(e["date"])}</time> · {escape(clip(e["event"], 140))}</p>'
+
+
 def sib_html(h):
+    if h["type"] == "us_state" and neighbors(h):
+        return neighbors_html(h)
     sib = siblings(h)
     if not sib:
         return ""
@@ -308,15 +433,24 @@ def jurisdiction_page(h, arts):
     s = st(h)
     is_state = h["type"] == "us_state"
     name = h["name"]
+    short = h.get("short_name") or ("DC" if name == "District of Columbia" else name)
     if is_state:
-        title = f"Is weed legal in {name}? {name} cannabis laws {date.today().year}"
+        title = f"Is weed legal in {name}? {short} cannabis laws ({TITLE_YEAR})"
+        if len(title) > 60:
+            title = f"Is weed legal in {short}? {short} cannabis laws ({TITLE_YEAR})"
         crumbs = [("MetaFlora News", "/"), ("Cannabis laws", "/legal/"), ("United States", "/legal/us/"), (name, h["_url"])]
     else:
-        title = f"Is cannabis legal in {name}? {name} cannabis laws {date.today().year}"
+        title = f"Is cannabis legal in {name}? {short} cannabis laws ({TITLE_YEAR})"
+        if len(title) > 60:
+            title = f"Is cannabis legal in {short}? Laws ({TITLE_YEAR})"
         crumbs = [("MetaFlora News", "/"), ("Cannabis laws", "/legal/"), ("World", "/legal/world/"), (name, h["_url"])]
-    desc = (h.get("headline_status", "") + " Possession limits, home grow, medical access and the latest changes, with official sources.")[:300]
-    if len(desc) > 165:
-        desc = desc[:162].rsplit(" ", 1)[0] + "..."
+    f0 = h.get("facts") or {}
+    bits = [h.get("headline_status", "")]
+    for k in ("possession_limit", "home_grow", "purchase_age"):
+        v = (f0.get(k) or {}).get("value") if isinstance(f0.get(k), dict) else None
+        if v:
+            bits.append(f"{dict(QUICK + FACT_LABELS).get(k, k)}: {v}")
+    desc = clip(" ".join(b.rstrip(".") + "." for b in bits if b), 155)
     chips = (f'<ul class="status-chips"><li class="t-{tone(h)}"><span>Adult use</span><b>{ADULT.get(s.get("adult_use"), "Unknown")}</b></li>'
              f'<li><span>Medical</span><b>{MED.get(s.get("medical"), "Unknown")}</b></li>'
              f'<li><span>Decriminalized</span><b>{DECRIM.get(s.get("decriminalized"), "Unknown")}</b></li></ul>')
@@ -325,15 +459,18 @@ def jurisdiction_page(h, arts):
 <article class="story hub">
   <header class="story-head">
     {crumbs_html(crumbs)}
-    <h1>{escape(name)} cannabis laws</h1>
+    <h1>{"Is weed legal in" if is_state else "Is cannabis legal in"} {escape(name)}?</h1>
     <p class="dek hub-answer">{escape(h.get("headline_status", ""))}</p>
     {chips}
+    {quick_answers(h)}
+    {latest_change(h)}
     <p class="hub-by"><span>By <a href="/how-we-report/">MetaFlora News Desk</a></span> · Last verified <time datetime="{verified(h)}">{fmt_date(verified(h))}</time></p>
   </header>
   <div class="story-col">
-    <section class="hub-sec"><h2>The law today</h2><p class="hub-summary">{escape(h.get("summary", ""))}</p></section>
+    <section class="hub-sec"><h2>{escape(name)} cannabis laws today</h2><p class="hub-summary">{escape(h.get("summary", ""))}</p>{comparisons(h)}</section>
     <section class="hub-sec"><h2>Key facts</h2>{facts_table(h)}</section>
     {pending(h)}
+    {related_explainers(h) if is_state else ""}
     {coverage_html(h, arts)}
     {timeline(h)}
     {f_html}
@@ -359,12 +496,11 @@ def jurisdiction_page(h, arts):
 def explainer_page(h, arts):
     name = h["name"]
     crumbs = [("MetaFlora News", "/"), ("Explainers", "/explainers/"), (name, h["_url"])]
-    title = f"{name}: where it stands and what changes ({date.today().year})"
+    title = f"{name}: where it stands and what changes ({TITLE_YEAR})"
     if len(title) > 70:
         title = f"{name}, explained"
     desc = (h.get("where_it_stands") or h.get("summary") or "")
-    if len(desc) > 165:
-        desc = desc[:162].rsplit(" ", 1)[0] + "..."
+    desc = clip(desc, 155)
     nm = h.get("next_milestone") or {}
     nm_html = ""
     if nm.get("text"):
@@ -424,6 +560,19 @@ def tile_map(states):
             f'<figcaption><ul class="legend">{legend}</ul></figcaption></figure>')
 
 
+def recent_changes(hubs, n=10):
+    ev = []
+    for h in hubs:
+        for e in h.get("timeline") or []:
+            if len(str(e.get("date", ""))) >= 7:
+                ev.append((str(e["date"]), h, e))
+    ev.sort(key=lambda x: x[0], reverse=True)
+    if not ev:
+        return ""
+    lis = "".join(f'<li><time>{fmt_date(d)}</time><span><a href="{h["_url"]}">{escape(h["name"])}</a>: {escape(clip(e["event"], 160))}</span></li>' for d, h, e in ev[:n])
+    return f'<h2 class="sec-label">What changed recently</h2><ol class="timeline">{lis}</ol>'
+
+
 def us_index(arts):
     states = sorted([h for h in HUBS if h["type"] == "us_state"], key=lambda h: h["name"])
     counts = {k: sum(1 for h in states if tone(h) == k) for k in TONE_LABEL}
@@ -445,10 +594,11 @@ def us_index(arts):
     latest = max((verified(h) for h in states), default=date.today().isoformat())
     n_rec = counts["rec"] + counts["rec-ns"]
     n_med = n_rec + counts["med"]
-    title = f"Cannabis laws by state ({date.today().year}): legal status in all 50 states"
-    desc = f"Where cannabis is legal in the US: {n_rec} states plus DC allow adult use in some form and {n_med} have medical programs. Map, table and sources, updated as laws change."
-    if len(desc) > 165:
-        desc = desc[:162].rsplit(" ", 1)[0] + "..."
+    title = f"Cannabis laws by state ({TITLE_YEAR}): status in all 50 states"
+    dc_rec = any(h.get("abbr") == "DC" and tone(h) in ("rec", "rec-ns") for h in states)
+    n_rec_states = n_rec - (1 if dc_rec else 0)
+    desc = f"Where cannabis is legal in the US: {n_rec_states} states{' plus DC' if dc_rec else ''} allow adult use and {n_med} jurisdictions have medical programs. Map, table, CSV and sources."
+    desc = clip(desc, 155)
     crumbs = [("MetaFlora News", "/"), ("Cannabis laws", "/legal/"), ("United States", "/legal/us/")]
     body = f"""
 <article class="story hub hub-wide">
@@ -458,9 +608,14 @@ def us_index(arts):
     <p class="dek hub-answer">Adult-use cannabis is legal in {n_rec} of {len(states)} jurisdictions tracked here, and {n_med} run a full medical program. Every state links to its current law, sources and our latest coverage.</p>
     <p class="hub-by"><span>MetaFlora Legalization Tracker</span> · Updated <time datetime="{latest}">{fmt_date(latest)}</time> · <a href="/legal/us/cannabis-laws-by-state.csv" download>Download CSV</a></p>
   </header>
+  <h2 class="sec-label">Map</h2>
   {tile_map(states)}
+  <h2 class="sec-label">State-by-state table</h2>
   <div class="table-wrap"><table class="tracker"><thead><tr><th>State</th><th>Adult use</th><th>Medical</th><th>Decriminalized</th><th>Possession limit</th><th>Verified</th></tr></thead><tbody>{rows}</tbody></table></div>
   <div class="story-col">
+    {recent_changes(states)}
+    <h2 class="sec-label">Download the data</h2>
+    <p><a href="/legal/us/cannabis-laws-by-state.csv" download>cannabis-laws-by-state.csv</a>: status, possession, home grow, minimum age and last-verified date for every state.</p>
     <p class="hub-note">Use this data: you're free to cite or embed the tracker with a link to this page. Statuses are checked against each state's statute or regulator; see each state page for sources. Not legal advice.</p>
   </div>
 </article>"""
@@ -483,7 +638,7 @@ def world_index():
         for h in cs)
     latest = max(verified(h) for h in cs)
     crumbs = [("MetaFlora News", "/"), ("Cannabis laws", "/legal/"), ("World", "/legal/world/")]
-    title = f"Cannabis laws around the world ({date.today().year})"
+    title = f"Cannabis laws around the world ({TITLE_YEAR})"
     desc = "Where cannabis is legal outside the US: adult-use, medical and tourist rules country by country, from Germany and Thailand to Canada and Uruguay, with sources."
     body = f"""
 <article class="story hub hub-wide">
@@ -492,7 +647,10 @@ def world_index():
   <p class="hub-by"><span>MetaFlora Legalization Tracker</span> · Updated <time datetime="{latest}">{fmt_date(latest)}</time></p></header>
   <div class="table-wrap"><table class="tracker"><thead><tr><th>Country</th><th>Adult use</th><th>Medical</th><th>Tourists</th><th>Verified</th></tr></thead><tbody>{rows}</tbody></table></div>
 </article>"""
-    extra = f'<script type="application/ld+json">{json.dumps(crumbs_ld(crumbs))}</script>'
+    wl = {"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": SITE + "/legal/world/",
+          "mainEntity": {"@type": "ItemList", "numberOfItems": len(cs), "itemListElement": [
+              {"@type": "ListItem", "position": i + 1, "url": SITE + h["_url"], "name": h["name"]} for i, h in enumerate(cs)]}}
+    extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (wl, crumbs_ld(crumbs)))
     T.ctx["write"]("legal/world/index.html", T.page(title, body, desc=desc, path="/legal/world/", extra_head=extra, active="Laws"))
     return latest
 
@@ -516,18 +674,28 @@ def legal_index():
     n_rec = sum(1 for h in states if tone(h) in ("rec", "rec-ns"))
     ex = [h for h in HUBS if h["type"] == "explainer" and complete(h)][:6]
     exl = "".join(f'<li><a href="{h["_url"]}">{escape(h["name"])}</a></li>' for h in ex)
+    done = [h for h in HUBS if h["type"] in ("us_state", "country") and complete(h)]
+    stl = "".join(f'<li><a href="{h["_url"]}">{escape(h["name"])}</a></li>' for h in sorted(done, key=lambda h: h["name"]) if h["type"] == "us_state")
+    cl = "".join(f'<li><a href="{h["_url"]}">{escape(h["name"])}</a></li>' for h in sorted(done, key=lambda h: h["name"]) if h["type"] == "country")
     body = f"""<div class="page-h"><h1>Cannabis laws</h1><p class="dek">The MetaFlora Legalization Tracker: current cannabis law for every US state, key countries and the federal rules that sit above them, checked against official sources and updated as the newsroom reports changes.</p></div>
 <div class="legal-grid">
   <a class="legal-card" href="/legal/us/"><span class="lc-k">United States</span><b>Cannabis laws by state</b><span>{n_rec} states allow adult use · map, table and CSV</span></a>
   <a class="legal-card" href="/legal/world/"><span class="lc-k">World</span><b>Cannabis laws by country</b><span>Rules for residents and tourists</span></a>
   <a class="legal-card" href="/explainers/"><span class="lc-k">Federal</span><b>Explainers</b><span>Rescheduling, 280E, hemp, banking</span></a>
 </div>
-<p class="more-link"><a href="/glossary/">Cannabis glossary: industry and legal terms explained</a></p>
+{'<p class="more-link"><a href="/glossary/">Cannabis glossary: industry and legal terms explained</a></p>' if has_glossary() else ''}
+<h2 class="sec-label">Map</h2>
 {tile_map(states)}
+<section class="block"><h2 class="sec-label">Every state</h2><ul class="az-list">{stl}</ul></section>
+<section class="block"><h2 class="sec-label">Countries</h2><ul class="az-list">{cl}</ul></section>
 <section class="block"><h2 class="sec-label">Federal explainers</h2><ul class="sib">{exl}</ul></section>"""
+    items = [SITE + h["_url"] for h in sorted(done, key=lambda h: h["name"])]
+    ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis laws: US states, countries and federal rules",
+          "url": SITE + "/legal/", "mainEntity": {"@type": "ItemList", "numberOfItems": len(items),
+          "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": u} for i, u in enumerate(items)]}}
     T.ctx["write"]("legal/index.html", T.page("Cannabis laws: US states, countries and federal rules", body,
                    desc="Is cannabis legal where you are? Current cannabis laws for all 50 US states, key countries and federal rules, with sources and the latest changes.",
-                   path="/legal/", active="Laws"))
+                   path="/legal/", active="Laws", extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
 
 
 def term_page(h, arts):
@@ -535,8 +703,7 @@ def term_page(h, arts):
     crumbs = [("MetaFlora News", "/"), ("Glossary", "/glossary/"), (name, h["_url"])]
     title = f"What is {name}? Meaning in cannabis"
     desc = h.get("short", "")
-    if len(desc) > 165:
-        desc = desc[:162].rsplit(" ", 1)[0] + "..."
+    desc = clip(desc, 155)
     by_name = {x["name"].lower(): x for x in HUBS if x["type"] == "glossary"}
     rel = [by_name[r.lower()] for r in h.get("related", []) if r.lower() in by_name]
     rel_html = ""
