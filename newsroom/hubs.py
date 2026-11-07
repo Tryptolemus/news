@@ -128,6 +128,13 @@ def verified(h):
 
 
 def fmt_date(iso):
+    if isinstance(iso, str) and len(iso) == 7 and iso[4] == "-":
+        try:
+            return f"{datetime.fromisoformat(iso + '-01'):%B %Y}"
+        except Exception:  # noqa: BLE001
+            return iso
+    if isinstance(iso, str) and len(iso) == 4 and iso.isdigit():
+        return iso
     try:
         d = datetime.fromisoformat(iso[:10])
         return f"{d.day} {d:%b %Y}"
