@@ -1,0 +1,38 @@
+{
+  "id": "country/colombia",
+  "type": "country",
+  "name": "Colombia",
+  "tags": ["Colombia"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Colombia allows adults to carry a personal dose of up to 20 g and grow up to 20 plants, and has a licensed medical cannabis industry, but recreational sales are illegal.",
+  "summary": "Colombia has long permitted a personal dose of up to 20 g of cannabis and home growing of up to 20 plants for personal use, while commercial production and sale for recreational use remain crimes. A licensed medical and CBD industry operates under authorisations from the ministries of Justice and Health, with products approved by INVIMA. A constitutional reform to legalise an adult-use market cleared several debates but was shelved by the Senate on 12 December 2023.",
+  "facts": {
+    "possession_limit": {"value": "A personal dose of up to 20 g is legal.", "source": "https://occidente.co/colombia/colombia-a-un-debate-de-legalizar-consumo-recreativo-de-cannabis/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 20 plants for personal consumption; home-grown cannabis may not be processed or sold.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No recreational sales; commercial production, import and export for recreational use are prohibited.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Growing, selling and importing medical cannabis is allowed under licence; patients access pharmaceutical products rather than raw flower, and THC may only be an active ingredient in medicines.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia", "as_of": "2026-11-07"},
+    "regulator": {"value": "Ministry of Justice (cultivation licences), Ministry of Health (processing licences), ICA (agricultural approvals) and INVIMA (finished-product approval).", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia", "as_of": "2026-11-07"},
+    "penalties": {"value": "Consumption itself is not punished, but recreational production and trade are criminal offences. A December 2023 presidential decree removed the fine for possessing small amounts and police power to seize them.", "source": "https://www.marijuanamoment.net/colombian-senate-shelves-marijuana-legalization-bill-in-another-major-setback-for-advocates/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Non-psychoactive (CBD) cannabis may be used in cosmetics, dietary supplements and pharmaceuticals.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors may carry a personal dose like residents, but there is no legal place to buy recreational cannabis.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2020-11", "event": "Lower house rejects an earlier constitutional amendment to allow adult recreational use", "source": "https://www.cannabisbusinesstimes.com/article/colombia-shelves-bill-legalize-cannabis/"},
+    {"date": "2023-06-06", "event": "Senate First Committee approves adult-use cannabis constitutional reform", "source": "https://occidente.co/colombia/colombia-a-un-debate-de-legalizar-consumo-recreativo-de-cannabis/"},
+    {"date": "2023-12-12", "event": "Senate shelves the adult-use reform, forcing the process to restart", "source": "https://www.marijuanamoment.net/colombian-senate-shelves-marijuana-legalization-bill-in-another-major-setback-for-advocates/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Colombia?", "a": "Partly. Adults may carry up to 20 g and grow up to 20 plants for personal use, but selling recreational cannabis is illegal."},
+    {"q": "Can tourists smoke weed in Colombia?", "a": "Visitors can carry a personal dose like residents, but there are no legal shops, so buying is illegal."},
+    {"q": "Is medical cannabis legal in Colombia?", "a": "Yes. Licensed companies grow and process cannabis for medical products, which must be approved by INVIMA."}
+  ],
+  "sources": [
+    {"name": "CMS Expert Guide – Colombia", "url": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/colombia"},
+    {"name": "Occidente", "url": "https://occidente.co/colombia/colombia-a-un-debate-de-legalizar-consumo-recreativo-de-cannabis/"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/colombian-senate-shelves-marijuana-legalization-bill-in-another-major-setback-for-advocates/"},
+    {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/article/colombia-shelves-bill-legalize-cannabis/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
