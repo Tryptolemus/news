@@ -1,0 +1,123 @@
+{
+  "id": "us/washington",
+  "type": "us_state",
+  "name": "Washington",
+  "abbr": "WA",
+  "tags": [
+    "Washington"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+, but home growing is allowed only for registered patients.",
+  "summary": "Washington voters legalized adult-use cannabis through Initiative 502 in November 2012, making it one of the first two states to do so, and medical cannabis has been legal since 1998. Licensed retailers sell to adults 21 and over and collect a 37% excise tax on top of sales tax. Adults without a medical authorization still cannot grow cannabis at home; a 2026 bill (SB 6204) to allow six plants was introduced but has not become law.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Voters approved Initiative 502 in November 2012.",
+      "source": "https://www.mpp.org/states/washington",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "1998, through voter-approved Initiative 692.",
+      "source": "https://www.mpp.org/states/washington",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed retailers may sell adults 21+ up to 1 oz of usable cannabis, 16 oz of solid infused product, 72 oz of liquid infused product, or 7 g of concentrate per transaction.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.360",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed for adult-use consumers. Registered medical patients may grow up to 6 plants at home, or up to 15 if their provider recommends it.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.51A.210",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Opening or consuming cannabis in public view or in a public place is a class 3 civil infraction.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.445",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "37% cannabis excise tax on retail sales, charged on top of state and local sales tax. Some medical sales are exempt.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.535",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Patients with a qualifying condition and an authorization from a health care professional may join the recognition-card database. That lets them possess up to 3 oz of usable cannabis (more with a provider recommendation) and grow at home.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.51A.210",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Washington State Liquor and Cannabis Board (LCB).",
+      "source": "https://www.mpp.org/states/washington",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "1998",
+      "event": "Voters approve medical marijuana through Initiative 692.",
+      "source": "https://www.mpp.org/states/washington"
+    },
+    {
+      "date": "2012-11",
+      "event": "Voters approve Initiative 502, legalizing adult-use cannabis.",
+      "source": "https://www.mpp.org/states/washington"
+    },
+    {
+      "date": "2015",
+      "event": "Lawmakers replace the original three-tier 25% tax with a single 37% excise tax at retail.",
+      "source": "https://www.mpp.org/states/washington"
+    },
+    {
+      "date": "2026",
+      "event": "SB 6204, which would let adults grow 6 plants at home, is introduced; MPP urges lawmakers to pass it.",
+      "source": "https://www.mpp.org/states/washington"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Washington state?",
+      "a": "Yes. Adults 21+ can buy and possess cannabis from licensed stores, and medical cannabis has been legal since 1998."
+    },
+    {
+      "q": "Can you grow weed at home in Washington?",
+      "a": "Only as a registered medical patient, who may grow up to 6 plants (15 with a provider's recommendation). Home growing is not legal for recreational users."
+    },
+    {
+      "q": "How much can you buy at a Washington dispensary?",
+      "a": "Up to 1 oz of flower, 16 oz of solid edibles, 72 oz of infused liquids or 7 g of concentrate per transaction."
+    },
+    {
+      "q": "What is the cannabis tax in Washington?",
+      "a": "A 37% excise tax at retail, plus regular state and local sales tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "RCW 69.50.360",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.360"
+    },
+    {
+      "name": "RCW 69.50.535",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.535"
+    },
+    {
+      "name": "RCW 69.50.445",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.445"
+    },
+    {
+      "name": "RCW 69.51A.210",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.51A.210"
+    },
+    {
+      "name": "Marijuana Policy Project – Washington",
+      "url": "https://www.mpp.org/states/washington"
+    }
+  ],
+  "page_status": "complete",
+  "last_verified": "2026-11-07"
+}

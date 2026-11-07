@@ -1,0 +1,86 @@
+{
+  "id": "us/wisconsin",
+  "type": "us_state",
+  "name": "Wisconsin",
+  "abbr": "WI",
+  "tags": [
+    "Wisconsin"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "cbd_only",
+    "decriminalized": "no"
+  },
+  "headline_status": "Marijuana is illegal; only non-psychoactive CBD is allowed with a physician's certification.",
+  "summary": "Wisconsin has no medical or recreational marijuana law. A first possession offense is a misdemeanor, and a repeat offense can be charged as a felony. Since 2017, anyone with a physician's written certification may possess non-psychoactive CBD. A Republican-led medical cannabis bill cleared a Senate committee in late 2025 but never got a floor vote, and Wisconsin has no citizen-initiative process, so any change has to come from the Legislature.",
+  "facts": {
+    "medical_program": {
+      "value": "CBD-only. Since 2017 Act 4, people with a physician's written certification may possess CBD in a non-psychoactive form for any medical condition. Growing cannabis to make it is not allowed.",
+      "source": "https://mpp.org/states/wisconsin/wisconsins-cannabidiol-only-medical-marijuana-law/",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "A first possession offense is a misdemeanor (up to 6 months in jail and/or a $1,000 fine). A subsequent offense is a felony (up to 3.5 years and/or a $10,000 fine).",
+      "source": "https://norml.org/laws/wisconsin-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "No legal marijuana sales; Wisconsin lacks medical, decriminalization and legalization laws.",
+      "source": "https://www.mpp.org/states/wisconsin",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2014-04-16",
+      "event": "Gov. Scott Walker signs AB 726, allowing CBD for seizure disorders.",
+      "source": "https://mpp.org/states/wisconsin/wisconsins-cannabidiol-only-medical-marijuana-law/"
+    },
+    {
+      "date": "2017",
+      "event": "2017 Act 4 extends CBD possession to anyone with a physician's certification.",
+      "source": "https://mpp.org/states/wisconsin/wisconsins-cannabidiol-only-medical-marijuana-law/"
+    },
+    {
+      "date": "2018-11",
+      "event": "Local advisory referendums show strong support for medical and adult-use cannabis.",
+      "source": "https://www.mpp.org/states/wisconsin"
+    },
+    {
+      "date": "2025",
+      "event": "A medical cannabis bill from Senate President Mary Felzkowski clears committee but gets no floor vote.",
+      "source": "https://www.mpp.org/states/wisconsin"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Wisconsin?",
+      "a": "No. Wisconsin has no recreational or medical marijuana law, and possession can bring jail time."
+    },
+    {
+      "q": "Is CBD legal in Wisconsin?",
+      "a": "Yes, in non-psychoactive form for people with a physician's written certification."
+    },
+    {
+      "q": "Can Wisconsin voters legalize cannabis at the ballot?",
+      "a": "No. Wisconsin has no statewide citizen-initiative process, so legalization would have to pass the Legislature."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Policy Project – Wisconsin",
+      "url": "https://www.mpp.org/states/wisconsin"
+    },
+    {
+      "name": "Marijuana Policy Project – Wisconsin CBD law",
+      "url": "https://mpp.org/states/wisconsin/wisconsins-cannabidiol-only-medical-marijuana-law/"
+    },
+    {
+      "name": "NORML – Wisconsin penalties",
+      "url": "https://norml.org/laws/wisconsin-penalties-2/"
+    }
+  ],
+  "page_status": "partial",
+  "last_verified": "2026-11-07"
+}

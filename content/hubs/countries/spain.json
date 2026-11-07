@@ -1,0 +1,38 @@
+{
+  "id": "country/spain",
+  "type": "country",
+  "name": "Spain",
+  "tags": ["Spain"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "partial"},
+  "headline_status": "Cannabis is not legal in Spain, but private use is not a crime and public use draws administrative fines; a hospital-only medical programme was created in October 2025.",
+  "summary": "Possessing drugs for personal use is not a crime under Spain's Penal Code, but carrying or using cannabis in public is an administrative offence with fines starting at €601. Private non-profit cannabis associations operate in a legal grey area and have faced police raids and adverse court rulings. In October 2025 the government approved Royal Decree 903/2025, letting specialist doctors prescribe standardised cannabis preparations dispensed by hospital pharmacies, and the first products were registered in July 2026.",
+  "facts": {
+    "possession_limit": {"value": "Private possession for personal use is not a crime; public possession is an administrative offence. Amounts above roughly 100 g of cannabis or 25 g of hashish can be treated as trafficking.", "source": "https://www.thelocal.es/20230119/what-are-the-penalties-for-drug-possession-in-spain", "as_of": "2026-11-07"},
+    "public_use": {"value": "Public possession or use is fined under Organic Law 4/2015 from €601 up to €30,000; a first small offence usually draws the €601 minimum, which can be halved for prompt payment.", "source": "https://www.thelocal.es/20230119/what-are-the-penalties-for-drug-possession-in-spain", "as_of": "2026-11-07"},
+    "penalties": {"value": "Trafficking without aggravating factors carries 3 to 6 years in prison; growing plants visible to the public can be fined.", "source": "https://www.thelocal.es/20230119/what-are-the-penalties-for-drug-possession-in-spain", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No legal retail. Private non-profit cannabis associations operate in a legal grey area and have been raided and ruled against by courts, notably in Catalonia.", "source": "https://www.thelocal.es/20220930/explained-everything-you-need-to-know-about-cannabis-clubs-in-spain", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Royal Decree 903/2025, approved by the Council of Ministers on 7 October 2025.", "source": "https://mjbizdaily.com/?p=616886", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Specialist doctors may prescribe standardised cannabis preparations, with documented justification, when other treatments have failed (e.g. MS spasticity, refractory epilepsy, chemotherapy nausea, refractory chronic pain); hospital pharmacies prepare and dispense them.", "source": "https://www.cuatrecasas.com/en/spain/life-sciences-healthcare/art/medicinal-cannabis-spain", "as_of": "2026-11-07"},
+    "regulator": {"value": "Spanish Agency of Medicines and Medical Devices (AEMPS), which keeps the registry of standardised cannabis preparations.", "source": "https://www.cuatrecasas.com/en/spain/life-sciences-healthcare/art/medicinal-cannabis-spain", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors face the same public-use fines as residents. Some cannabis associations admit tourists with ID and a local address, but many are referral-only and all operate in a legal grey area.", "source": "https://www.thelocal.es/20220930/explained-everything-you-need-to-know-about-cannabis-clubs-in-spain", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2015", "event": "Organic Law 4/2015 sets administrative fines for public drug possession and use", "source": "https://www.thelocal.es/20230119/what-are-the-penalties-for-drug-possession-in-spain"},
+    {"date": "2025-10-07", "event": "Council of Ministers approves Royal Decree 903/2025 on medical cannabis", "source": "https://mjbizdaily.com/?p=616886"},
+    {"date": "2026-07-13", "event": "First standardised cannabis preparations (Curaleaf CAN-1 and CAN-2) registered with AEMPS", "source": "https://mjbizdaily.com/?p=616886"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Spain?", "a": "No, but using it in private is not a crime. Possessing or using cannabis in public brings a fine from €601."},
+    {"q": "Can tourists join cannabis clubs in Spain?", "a": "Some associations accept visitors with ID and a local address, but many are referral-only, and clubs operate in a legal grey area."},
+    {"q": "Is medical cannabis legal in Spain?", "a": "Yes, since Royal Decree 903/2025. Specialists can prescribe standardised preparations that are dispensed only by hospital pharmacies."}
+  ],
+  "sources": [
+    {"name": "The Local Spain – Drug possession penalties", "url": "https://www.thelocal.es/20230119/what-are-the-penalties-for-drug-possession-in-spain"},
+    {"name": "The Local Spain – Cannabis clubs", "url": "https://www.thelocal.es/20220930/explained-everything-you-need-to-know-about-cannabis-clubs-in-spain"},
+    {"name": "Cuatrecasas", "url": "https://www.cuatrecasas.com/en/spain/life-sciences-healthcare/art/medicinal-cannabis-spain"},
+    {"name": "MJBizDaily", "url": "https://mjbizdaily.com/?p=616886"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

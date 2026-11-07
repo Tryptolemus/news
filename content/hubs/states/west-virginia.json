@@ -1,0 +1,105 @@
+{
+  "id": "us/west-virginia",
+  "type": "us_state",
+  "name": "West Virginia",
+  "abbr": "WV",
+  "tags": [
+    "West Virginia"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "comprehensive",
+    "decriminalized": "no"
+  },
+  "headline_status": "Medical cannabis is legal for registered patients; recreational use is illegal.",
+  "summary": "West Virginia's Medical Cannabis Act (SB 386) was signed in April 2017, and the first dispensary opened in November 2021. Patients with one of the listed serious medical conditions can buy cannabis, including dry leaf, at licensed dispensaries; edibles are not yet allowed. Recreational cannabis is illegal and possession has not been decriminalized, so simple possession can bring 90 days to 6 months in jail.",
+  "facts": {
+    "medical_since": {
+      "value": "SB 386 was signed April 19, 2017. Patient registration opened February 3, 2021, and the first dispensary opened November 12, 2021.",
+      "source": "https://www.mpp.org/states/west-virginia",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Qualifying conditions include cancer, HIV/AIDS, ALS, Parkinson's, MS, epilepsy, neuropathies, Huntington's, Crohn's, PTSD, sickle cell anemia, severe chronic or intractable pain, and terminal illness. The diagnosis must come from a practitioner as part of the patient's continuing care.",
+      "source": "https://code.wvlegislature.gov/16A-2-1/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Only licensed medical dispensaries may sell. Dry leaf or plant form has been allowed since 2020; edibles are not currently allowed.",
+      "source": "https://www.mpp.org/states/west-virginia",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Office of Medical Cannabis (OMC), a division of the state health department.",
+      "source": "https://omc.wv.gov/",
+      "as_of": "2026-11-07"
+    },
+    "penalties": {
+      "value": "Simple possession is a misdemeanor punishable by 90 days to 6 months in jail, a fine of up to $1,000, or both. First offenders may be eligible for conditional discharge.",
+      "source": "https://code.wvlegislature.gov/60A-4-401/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2017-04-19",
+      "event": "Gov. Jim Justice signs SB 386, the Medical Cannabis Act.",
+      "source": "https://www.mpp.org/states/west-virginia"
+    },
+    {
+      "date": "2020",
+      "event": "SB 339 allows dry leaf (flower) for medical patients.",
+      "source": "https://www.mpp.org/states/west-virginia"
+    },
+    {
+      "date": "2021-02-03",
+      "event": "Patient registration opens.",
+      "source": "https://www.mpp.org/states/west-virginia"
+    },
+    {
+      "date": "2021-11-12",
+      "event": "The first medical dispensary opens in Morgantown.",
+      "source": "https://www.mpp.org/states/west-virginia"
+    },
+    {
+      "date": "2026-03",
+      "event": "The House passes HB 5260, which would allow medical edibles. It was not reported as enacted.",
+      "source": "https://www.mpp.org/states/west-virginia"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in West Virginia?",
+      "a": "Only for registered medical patients. Recreational cannabis is illegal, and possession can bring jail time."
+    },
+    {
+      "q": "What conditions qualify for medical cannabis in West Virginia?",
+      "a": "The law lists conditions including cancer, PTSD, epilepsy, MS, Crohn's, sickle cell anemia, severe chronic pain and terminal illness, among others."
+    },
+    {
+      "q": "Can medical patients buy flower in West Virginia?",
+      "a": "Yes. Dry leaf has been allowed since 2020, but edibles are not yet permitted."
+    }
+  ],
+  "sources": [
+    {
+      "name": "West Virginia Code §16A-2-1",
+      "url": "https://code.wvlegislature.gov/16A-2-1/"
+    },
+    {
+      "name": "West Virginia Code §60A-4-401",
+      "url": "https://code.wvlegislature.gov/60A-4-401/"
+    },
+    {
+      "name": "West Virginia Office of Medical Cannabis",
+      "url": "https://omc.wv.gov/"
+    },
+    {
+      "name": "Marijuana Policy Project – West Virginia",
+      "url": "https://www.mpp.org/states/west-virginia"
+    }
+  ],
+  "page_status": "partial",
+  "last_verified": "2026-11-07"
+}

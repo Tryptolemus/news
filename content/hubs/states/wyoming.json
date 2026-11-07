@@ -1,0 +1,85 @@
+{
+  "id": "us/wyoming",
+  "type": "us_state",
+  "name": "Wyoming",
+  "abbr": "WY",
+  "tags": [
+    "Wyoming"
+  ],
+  "legal": {
+    "adult_use": "illegal",
+    "medical": "cbd_only",
+    "decriminalized": "no"
+  },
+  "headline_status": "Marijuana is illegal; only low-THC, high-CBD extracts are allowed for qualifying patients.",
+  "summary": "Wyoming has no medical, decriminalization or legalization law for marijuana. Possessing 3 ounces or less is a misdemeanor punishable by up to a year in jail, and more than 3 ounces is a felony. A 2024 law (SF 32), effective July 1, 2024, bars adding synthetic THC or cannabinoids to hemp, which ended sales of delta-8 and similar products.",
+  "facts": {
+    "penalties": {
+      "value": "Possessing 3 oz or less is a misdemeanor (up to 12 months and/or a $1,000 fine). More than 3 oz is a felony (up to 5 years and/or a $10,000 fine).",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Only high-CBD, low-THC cannabis extracts are allowed, and only when a physician recommends them for a qualifying condition.",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "SF 32 (2024 Enrolled Act 24), effective July 1, 2024, bans adding any synthetic THC or synthetic cannabinoid to hemp, and defines THC to include psychoactive analogs and isomers.",
+      "source": "https://www.wyoleg.gov/2024/Enroll/SF0032.pdf",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "No legal marijuana sales; Wyoming lacks medical, decriminalization and legalization laws.",
+      "source": "https://www.mpp.org/states/wyoming",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2024-03",
+      "event": "Gov. Mark Gordon signs SF 32, banning synthetic THC in hemp products.",
+      "source": "https://mjbizdaily.com/wyoming-joins-states-that-ban-hemp-derived-thc/"
+    },
+    {
+      "date": "2024-07-01",
+      "event": "SF 32's hemp restrictions take effect.",
+      "source": "https://www.wyoleg.gov/2024/Enroll/SF0032.pdf"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Wyoming?",
+      "a": "No. Possessing 3 ounces or less is a misdemeanor that can bring up to a year in jail, and larger amounts are felonies."
+    },
+    {
+      "q": "Is delta-8 legal in Wyoming?",
+      "a": "No. Since July 1, 2024, state law bans adding synthetic THC or cannabinoids to hemp products."
+    },
+    {
+      "q": "Does Wyoming have medical marijuana?",
+      "a": "No. Only high-CBD, low-THC extracts recommended by a physician for a qualifying condition are allowed."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wyoming Legislature – 2024 SF0032 enrolled act",
+      "url": "https://www.wyoleg.gov/2024/Enroll/SF0032.pdf"
+    },
+    {
+      "name": "Marijuana Policy Project – Wyoming",
+      "url": "https://www.mpp.org/states/wyoming"
+    },
+    {
+      "name": "NORML – Wyoming penalties",
+      "url": "https://norml.org/laws/wyoming-penalties-2/"
+    },
+    {
+      "name": "MJBizDaily – Wyoming hemp THC ban",
+      "url": "https://mjbizdaily.com/wyoming-joins-states-that-ban-hemp-derived-thc/"
+    }
+  ],
+  "page_status": "partial",
+  "last_verified": "2026-11-07"
+}

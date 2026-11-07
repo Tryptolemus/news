@@ -12,7 +12,7 @@
     "penalties": {"value": "First-time possession of any amount is a Class B misdemeanor punishable by up to 6 months in jail and a fine of up to $1,000.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
     "medical_program": {"value": "None. Claire and Lola's Law (SB 28, 2019) gives an affirmative defense for possessing CBD oil with up to 5% THC, which prevents conviction but not arrest, and does not permit sales or production.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
     "retail_sales": {"value": "No legal marijuana sales of any kind.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "CBD products with little to no THC are generally sold legally. Federal hemp limits taking effect in November 2026 are expected to remove most consumable hemp-derived THC products from shelves.", "source": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "CBD products with little to no THC are generally sold legally. New federal hemp limits, most of which take effect on 11 December 2026, are expected to remove most consumable hemp-derived THC products from shelves.", "source": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2019", "event": "Claire and Lola's Law (SB 28) creates an affirmative defense for low-THC CBD oil", "source": "https://www.mpp.org/states/kansas/"},

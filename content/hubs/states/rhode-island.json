@@ -1,0 +1,45 @@
+{
+  "id": "us/rhode-island",
+  "type": "us_state",
+  "name": "Rhode Island",
+  "abbr": "RI",
+  "tags": ["Rhode Island"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal in Rhode Island for adults 21+.",
+  "summary": "Rhode Island legalized adult-use cannabis when Gov. Dan McKee signed the Rhode Island Cannabis Act on May 25, 2022, and licensed sales began in December 2022 at medical compassion centers holding hybrid licenses. Adults 21+ may carry 1 ounce, keep up to 10 ounces at home and grow a small number of plants. Purchases carry a 10% cannabis excise tax, the 7% state sales tax and a 3% local tax. The Cannabis Control Commission regulates the market and is moving to issue additional retail licenses, with part of them set aside for social equity applicants and worker-owned cooperatives.",
+  "facts": {
+    "adult_use_since": {"value": "May 25, 2022, when Gov. Dan McKee signed the Rhode Island Cannabis Act.", "source": "https://www.mpp.org/states/rhode-island", "as_of": "2026-11-07"},
+    "medical_since": {"value": "2006, under the Edward O. Hawkins and Thomas C. Slater Medical Marijuana Act.", "source": "https://www.mpp.org/states/rhode-island", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 1 oz of cannabis (and up to 5 g of concentrate) on hand, and up to 10 oz stored at home.", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 3 mature and 3 immature plants in a private residence.", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Adult-use sales began in December 2022 through existing medical compassion centers with hybrid licenses; additional retail licenses are being awarded by lottery.", "source": "https://www.mpp.org/states/rhode-island", "as_of": "2026-11-07"},
+    "taxes": {"value": "10% cannabis retail excise tax plus the 7% state sales tax and a 3% local tax.", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)", "as_of": "2026-11-07"},
+    "regulator": {"value": "Rhode Island Cannabis Control Commission (CCC).", "source": "https://ccc.ri.gov/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2006", "event": "Hawkins-Slater Medical Marijuana Act creates the medical program", "source": "https://www.mpp.org/states/rhode-island"},
+    {"date": "2022-05-25", "event": "Gov. Dan McKee signs the Rhode Island Cannabis Act, legalizing adult use", "source": "https://www.mpp.org/states/rhode-island"},
+    {"date": "2022-12", "event": "Adult-use sales begin at hybrid-licensed compassion centers", "source": "https://www.mpp.org/states/rhode-island"},
+    {"date": "2024-07-01", "event": "Deadline set by the Cannabis Act for expunging past cannabis possession convictions", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)"},
+    {"date": "2026-03", "event": "Details of the Cannabis Control Commission's retail license lottery reported", "source": "https://www.mpp.org/states/rhode-island"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Rhode Island?", "a": "Yes. Adults 21 and older can possess, buy and grow cannabis, and licensed stores have sold to adults since December 2022."},
+    {"q": "How much weed can you have in Rhode Island?", "a": "Up to 1 ounce on hand and up to 10 ounces at home."},
+    {"q": "Can you grow weed in Rhode Island?", "a": "Yes. Adults may grow up to three mature and three immature plants at home."},
+    {"q": "What is the cannabis tax in Rhode Island?", "a": "Buyers pay a 10% cannabis excise tax, the 7% state sales tax and a 3% local tax."}
+  ],
+  "sources": [
+    {"name": "Rhode Island Cannabis Control Commission", "url": "https://ccc.ri.gov/"},
+    {"name": "Marijuana Policy Project, Rhode Island", "url": "https://www.mpp.org/states/rhode-island"},
+    {"name": "Marijuana Policy Project, Summary of the Rhode Island Cannabis Act", "url": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

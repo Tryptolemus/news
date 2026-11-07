@@ -1,0 +1,46 @@
+{
+  "id": "us/maine",
+  "type": "us_state",
+  "name": "Maine",
+  "abbr": "ME",
+  "tags": ["Maine"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+ in Maine.",
+  "summary": "Maine voters narrowly legalized adult-use cannabis in 2016, and licensed stores opened October 9, 2020; the medical program dates to a 1999 ballot vote. On January 1, 2026 the retail sales tax on adult-use cannabis rose to 14% while the per-pound cultivation excise tax fell by a third. A citizen initiative to repeal adult-use sales and home growing missed the 2026 ballot deadline but has until June 2027 to qualify for the November 2027 ballot.",
+  "facts": {
+    "adult_use_since": {"value": "Approved by voters in November 2016 (Question 1, 50.26%); licensed retail sales began October 9, 2020.", "source": "https://www.mpp.org/states/Maine", "as_of": "2026-11-07"},
+    "medical_since": {"value": "1999, by voter initiative; expanded in 2009.", "source": "https://www.mpp.org/states/Maine", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Adults 21+ may possess up to 2.5 ounces combined, of which no more than 5 grams may be concentrate.", "source": "https://www.mpp.org/states/Maine", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Adults may grow up to 3 mature plants at home, or on another adult's property with written permission. Medical patients may also grow.", "source": "https://www.mpp.org/states/Maine", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 for adult-use.", "source": "https://www.maine.gov/dafs/ocp/adult-use", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed adult-use stores have operated since October 9, 2020 (first licenses issued September 8, 2020). All products must pass contaminant testing and are tracked statewide.", "source": "https://www.maine.gov/dafs/ocp/adult-use", "as_of": "2026-11-07"},
+    "taxes": {"value": "Since January 1, 2026: 14% sales tax on adult-use cannabis, plus a cultivation excise tax of $223 per pound of flower and $63 per pound of trim (cut from $335 and $94).", "source": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/GIB%20115_FINAL_2025_10_17_0.pdf", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Maine has no fixed list of qualifying conditions; a clinician may certify a patient for any condition. Patients may grow their own, use a caregiver, or buy from medical dispensaries or adult-use stores.", "source": "https://www.mpp.org/states/Maine", "as_of": "2026-11-07"},
+    "regulator": {"value": "Office of Cannabis Policy (OCP), within the Department of Administrative and Financial Services, created in February 2019.", "source": "https://www.maine.gov/dafs/ocp/adult-use", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "1999", "event": "Voters approve medical cannabis", "source": "https://www.mpp.org/states/Maine"},
+    {"date": "2016-11-08", "event": "Question 1 legalizes adult-use cannabis by a 3,995-vote margin after a recount", "source": "https://www.mpp.org/states/Maine"},
+    {"date": "2020-10-09", "event": "Adult-use retail sales begin", "source": "https://www.maine.gov/dafs/ocp/adult-use"},
+    {"date": "2026-01-01", "event": "Adult-use sales tax rises to 14% and cultivation excise tax is cut by one-third (LD 210)", "source": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/GIB%20115_FINAL_2025_10_17_0.pdf"},
+    {"date": "2026-02-02", "event": "Repeal initiative misses the signature deadline for the 2026 ballot", "source": "https://www.cannabisbusinesstimes.com/us-states/maine/news/15816269/maine-campaign-to-kill-adultuse-cannabis-market-misses-2026-signature-deadline"}
+  ],
+  "pending": [
+    {"item": "A SAM Action-backed citizen initiative would end licensed adult-use sales and ban home growing for adults, effective January 1, 2028.", "status": "Collecting signatures; needs 67,682 valid signatures by June 8, 2027 for the November 2027 ballot", "source": "https://www.cannabisbusinesstimes.com/us-states/maine/news/15816269/maine-campaign-to-kill-adultuse-cannabis-market-misses-2026-signature-deadline"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in Maine?", "a": "Yes. Adults 21 and older can possess up to 2.5 ounces and buy from licensed stores, and Maine also runs a medical program."},
+    {"q": "How many plants can you grow in Maine?", "a": "Adults may grow up to 3 mature plants at home, or on another adult's property with written permission."},
+    {"q": "What is the cannabis tax in Maine?", "a": "Since January 1, 2026, adult-use purchases carry a 14% sales tax, and growers also pay a per-pound excise tax."},
+    {"q": "Is Maine repealing legal weed?", "a": "Not yet. A repeal initiative missed the 2026 ballot and is trying to qualify for November 2027."}
+  ],
+  "sources": [
+    {"name": "Maine Office of Cannabis Policy", "url": "https://www.maine.gov/dafs/ocp/adult-use"},
+    {"name": "Maine Revenue Services – GIB 115", "url": "https://www.maine.gov/revenue/sites/maine.gov.revenue/files/inline-files/GIB%20115_FINAL_2025_10_17_0.pdf"},
+    {"name": "OCP legislative update (132nd Legislature)", "url": "https://www.maine.gov/dafs/ocp/sites/maine.gov.dafs.ocp/files/inline-files/OCP%20Legislative%20Update%20%E2%80%93%20First%20Regular%20and%20Special%20Sessions%20of%20the%20132nd%20Legislature.pdf"},
+    {"name": "Marijuana Policy Project – Maine", "url": "https://www.mpp.org/states/Maine"},
+    {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/us-states/maine/news/15816269/maine-campaign-to-kill-adultuse-cannabis-market-misses-2026-signature-deadline"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

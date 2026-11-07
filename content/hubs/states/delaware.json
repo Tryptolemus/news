@@ -1,0 +1,91 @@
+{
+  "id": "us/delaware",
+  "type": "us_state",
+  "name": "Delaware",
+  "abbr": "DE",
+  "tags": ["Delaware"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+; adult-use stores opened August 1, 2025.",
+  "summary": "Delaware legalized adult-use cannabis in April 2023 when Gov. John Carney let HB 1 and HB 2 become law without his signature, and licensed adult-use sales began August 1, 2025. Adults 21+ may possess up to one ounce of flower, 12 grams of concentrate or 750 mg of THC in products, but home cultivation is not allowed. Adult purchases carry a 15% tax, while medical patients, served under a program dating to 2011, buy tax-free.",
+  "facts": {
+    "adult_use_since": {
+      "value": "HB 1 (possession) and HB 2 (regulated sales) became law without the governor's signature in April 2023; the Delaware Marijuana Control Act took effect July 5, 2023.",
+      "source": "https://www.mpp.org/states/delaware/",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "The General Assembly created the medical marijuana program in 2011.",
+      "source": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Personal-use quantity: up to 1 ounce of flower, up to 12 grams of concentrate, or products containing up to 750 mg of delta-9 THC.",
+      "source": "https://omc.delaware.gov/faq/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed; the law does not permit home cultivation.",
+      "source": "https://omc.delaware.gov/faq/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older, except registered medical patients.",
+      "source": "https://omc.delaware.gov/faq/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Consuming in areas open to the public or in a vehicle is illegal; public use draws a civil citation with a fine and possible short jail time.",
+      "source": "https://spotlightdelaware.org/2025/07/30/delaware-explained-recreational-marijuana-sales/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Adult-use sales began Aug. 1, 2025, initially at existing medical dispensaries (compassion centers) holding conversion licenses.",
+      "source": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "15% tax on adult-use purchases; medical purchases are tax-exempt.",
+      "source": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Clinicians may recommend cannabis for any diagnosed condition they believe it could help (HB 285); patients 65+ can self-certify, and out-of-state cards are recognized. Patients may buy 3 ounces every 14 days, up to 6 ounces a month.",
+      "source": "https://www.mpp.org/states/delaware/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Office of the Marijuana Commissioner (OMC), which now oversees both adult-use and medical programs.",
+      "source": "https://omc.delaware.gov/",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {"date": "2011", "event": "Medical marijuana program created", "source": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/"},
+    {"date": "2023-04", "event": "HB 1 and HB 2 become law without Gov. Carney's signature, legalizing adult use", "source": "https://www.mpp.org/states/delaware/"},
+    {"date": "2023-07-05", "event": "Delaware Marijuana Control Act takes effect", "source": "https://omc.delaware.gov/"},
+    {"date": "2024-07-17", "event": "HB 408 signed, letting medical compassion centers convert to serve adult-use customers", "source": "https://www.mpp.org/states/delaware/"},
+    {"date": "2024-08-01", "event": "Automatic expungement of eligible cannabis offenses begins", "source": "https://www.mpp.org/states/delaware/"},
+    {"date": "2025-08-01", "event": "Adult-use retail sales begin at 14 locations", "source": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Delaware?", "a": "Yes. Adults 21 and older can possess cannabis, and licensed stores have sold to adults since Aug. 1, 2025."},
+    {"q": "How much weed can you buy or carry in Delaware?", "a": "Up to one ounce of flower, 12 grams of concentrate, or products with up to 750 mg of THC."},
+    {"q": "Can you grow weed at home in Delaware?", "a": "No. Delaware's law does not allow home cultivation, even for adults 21+."},
+    {"q": "What is the tax on recreational weed in Delaware?", "a": "Adult-use purchases are taxed at 15%. Registered medical patients pay no tax."},
+    {"q": "Can you smoke weed in public in Delaware?", "a": "No. Using cannabis in public or in a vehicle is illegal and can lead to a civil citation with a fine and possible short jail time."}
+  ],
+  "sources": [
+    {"name": "Delaware Office of the Marijuana Commissioner", "url": "https://omc.delaware.gov/"},
+    {"name": "Delaware OMC - FAQ", "url": "https://omc.delaware.gov/faq/"},
+    {"name": "Delaware News - strong start to recreational sales (Aug. 2025)", "url": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/"},
+    {"name": "Marijuana Policy Project - Delaware", "url": "https://www.mpp.org/states/delaware/"},
+    {"name": "Spotlight Delaware - recreational sales explained", "url": "https://spotlightdelaware.org/2025/07/30/delaware-explained-recreational-marijuana-sales/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
