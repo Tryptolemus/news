@@ -1,0 +1,33 @@
+{
+  "id": "glossary/rosin",
+  "type": "glossary",
+  "name": "Rosin",
+  "tags": [
+    "Concentrates"
+  ],
+  "short": "A solventless cannabis concentrate made by pressing flower, kief or hash with heat and pressure to squeeze out resin.",
+  "definition": [
+    "Rosin is a concentrate made without chemical solvents. Producers place flower, dry-sifted kief or ice-water ('bubble') hash between heated plates and apply high pressure, which squeezes out a sticky resin rich in cannabinoids and terpenes. Pressing hash rather than flower usually gives a cleaner, more potent product. When the starting material is hash made from fresh-frozen plants, the result is sold as live rosin.",
+    "Solventless products appeal to consumers wary of residual chemicals and to small producers, because a press costs far less than a licensed hydrocarbon extraction lab and carries no risk of solvent explosions. A 2021 review in the Journal of Cannabis Research noted the trade-offs: heat helps yield but drives off terpenes, so equipment that achieves high pressure at lower temperatures preserves more aroma, and hash-making itself is labour-intensive and hard to scale.",
+    "Rosin commands premium prices in many US markets. Some states license solventless processing under a lighter category than solvent extraction, and in places where home grow is legal, small-scale rosin pressing is a common home activity, although making concentrates at home can be restricted or prohibited by state law."
+  ],
+  "example": "Several small brands have built their reputations on solventless rosin pressed from their own harvests.",
+  "related": [
+    "Concentrate",
+    "Live resin",
+    "Processor",
+    "Craft cannabis"
+  ],
+  "sources": [
+    {
+      "name": "Journal of Cannabis Research, narrative review of drying, extraction and post-extraction methods for Cannabis sativa L. (2021)",
+      "url": "https://link.springer.com/article/10.1186/s42238-021-00087-9"
+    },
+    {
+      "name": "Terpenes and Testing Magazine, Live resin cannabis concentrates",
+      "url": "https://terpenesandtesting.com/live-resin-cannabis-concentrates/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

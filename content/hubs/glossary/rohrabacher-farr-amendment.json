@@ -1,0 +1,39 @@
+{
+  "id": "glossary/rohrabacher-farr-amendment",
+  "type": "glossary",
+  "name": "Rohrabacher-Farr amendment",
+  "tags": [
+    "Congress",
+    "Medical cannabis",
+    "Federal enforcement"
+  ],
+  "short": "A recurring federal spending rider that bars the Justice Department from using funds to interfere with state medical marijuana programs.",
+  "definition": [
+    "The Rohrabacher-Farr amendment is a provision Congress has attached to the annual Commerce, Justice and Science spending law since fiscal year 2015. It forbids the Justice Department, including the DEA, from spending money to prevent listed states and territories from implementing their medical marijuana laws. It is named after former Reps. Dana Rohrabacher and Sam Farr and has also been called Rohrabacher-Blumenauer and other names as sponsors changed. It first passed the House in May 2014 and became law that December.",
+    "Because it is a funding limit, not a change to the Controlled Substances Act, it must be renewed every year, usually in full-year spending bills or stopgap measures, and lapses if Congress fails to carry it forward. In 2016 the Ninth Circuit ruled in United States v. McIntosh that the rider bars federal prosecution of people acting in strict compliance with state medical laws. Courts have not extended it to adult-use activity. As of early 2026 it appeared as Section 531 of the current appropriations law.",
+    "Rescheduling medical marijuana to Schedule III does not repeal the rider, but congressional researchers note it may become redundant for businesses that register with the DEA. Attempts by some House appropriators to weaken it are a recurring budget story."
+  ],
+  "example": "The Senate spending bill again includes the Rohrabacher-Farr protections for state medical programs.",
+  "related": [
+    "Medical cannabis",
+    "Cole Memo",
+    "Controlled Substances Act",
+    "Rescheduling"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    },
+    {
+      "name": "Rohrabacher-Farr amendment (Wikipedia overview)",
+      "url": "https://en.wikipedia.org/wiki/Rohrabacher%E2%80%93Farr_amendment"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

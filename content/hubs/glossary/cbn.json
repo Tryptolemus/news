@@ -1,0 +1,40 @@
+{
+  "id": "glossary/cbn",
+  "type": "glossary",
+  "name": "CBN",
+  "tags": [
+    "CBN",
+    "Cannabinoids",
+    "Hemp"
+  ],
+  "short": "Cannabinol, a mildly active cannabinoid that forms as THC breaks down with age, light or heat, often marketed in sleep products.",
+  "definition": [
+    "CBN, or cannabinol, is not made directly by the cannabis plant. It appears when THC degrades through exposure to heat, ultraviolet light or air, so older or poorly stored cannabis tends to contain more of it. For that reason labs sometimes use CBN levels as a rough sign of a sample's age.",
+    "Pharmacologically, CBN binds the body's cannabinoid receptors much more weakly than THC and lacks THC's strong intoxicating effect. Laboratory and animal studies hint at several possible actions, but a 2021 review in Frontiers in Pharmacology found that evidence for the sleep benefits widely claimed on product labels is thin and inconsistent, with some of the drowsiness reported in studies linked to THC given alongside it.",
+    "Commercially, CBN gummies and tinctures became a niche in both licensed dispensaries and the hemp market. Its legal status in hemp products depends on how it is made. Under the November 2025 federal hemp redefinition, cannabinoids synthesised outside the plant lose hemp status, and final products are capped by total THC and similar-effect cannabinoids, so CBN made by converting other cannabinoids faces scrutiny."
+  ],
+  "example": "Researchers said CBN sleep gummies are outrunning the evidence behind their claims.",
+  "related": [
+    "Cannabinoids",
+    "THC",
+    "CBG",
+    "CBD",
+    "Hemp"
+  ],
+  "sources": [
+    {
+      "name": "Walsh KB, McKinney AE, Holmes AE, Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses, Frontiers in Pharmacology (2021)",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.777804/full"
+    },
+    {
+      "name": "Russo EB, Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology (2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

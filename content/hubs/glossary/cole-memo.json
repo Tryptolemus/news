@@ -1,0 +1,38 @@
+{
+  "id": "glossary/cole-memo",
+  "type": "glossary",
+  "name": "Cole Memo",
+  "tags": [
+    "DOJ",
+    "Federal enforcement"
+  ],
+  "short": "A 2013 Justice Department memo telling federal prosecutors to focus marijuana enforcement on specific priorities in states with strong regulation; rescinded in 2018.",
+  "definition": [
+    "The Cole Memo was guidance issued on 29 August 2013 by Deputy Attorney General James Cole to all US attorneys after Colorado and Washington legalised adult-use cannabis. It did not change the law. Instead it said federal prosecutors should focus marijuana enforcement on eight priorities, including preventing sales to minors, keeping revenue away from gangs and cartels, stopping diversion to other states, preventing violence and drugged driving, and keeping cannabis off federal land, and suggested that states with robust, tightly tracked regulatory systems were less likely to threaten those interests.",
+    "The memo became the informal rulebook for the early legal industry. A companion Treasury guidance in 2014 used its priorities to tell banks how to report cannabis customers, guidance that remains the main federal framework for cannabis banking. States designed licensing, security and seed-to-sale tracking rules partly with the Cole priorities in mind.",
+    "Attorney General Jeff Sessions rescinded the Cole Memo and related guidance on 4 January 2018, directing prosecutors to use general principles instead. In practice federal prosecutions of state-compliant businesses stayed rare, but the rescission left the industry without written federal enforcement guidance, which is one reason lawmakers pursue SAFER Banking and the medical marijuana appropriations rider."
+  ],
+  "example": "Industry lawyers still cite the Cole Memo priorities when advising clients on federal risk.",
+  "related": [
+    "Rohrabacher-Farr amendment",
+    "SAFER Banking Act",
+    "Track and trace",
+    "Legalization"
+  ],
+  "sources": [
+    {
+      "name": "U.S. Department of Justice, Justice Department Issues Memo on Marijuana Enforcement (4 January 2018)",
+      "url": "https://www.justice.gov/opa/pr/justice-department-issues-memo-marijuana-enforcement"
+    },
+    {
+      "name": "Cole Memorandum (Wikipedia overview)",
+      "url": "https://en.wikipedia.org/wiki/Cole_Memorandum"
+    },
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

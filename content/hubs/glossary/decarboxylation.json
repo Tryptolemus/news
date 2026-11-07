@@ -1,0 +1,39 @@
+{
+  "id": "glossary/decarboxylation",
+  "type": "glossary",
+  "name": "Decarboxylation",
+  "tags": [
+    "Science",
+    "THCA"
+  ],
+  "short": "The heat-driven reaction that converts cannabinoid acids such as THCA and CBDA into active THC and CBD.",
+  "definition": [
+    "Decarboxylation is the chemical reaction in which a cannabinoid acid loses a carboxyl group, releasing carbon dioxide. Living cannabis makes its cannabinoids mainly in acid form: THCA, CBDA and CBGA. Heating turns them into THC, CBD and CBG. Smoking and vaping do this instantly; edible makers and extractors heat material in a controlled way first, often at a little over 100 degrees Celsius, because raw THCA does not produce THC's effects when eaten.",
+    "The process is a balancing act. Higher temperatures and longer times convert acids more completely but drive off volatile terpenes and can degrade THC into CBN. Extraction researchers have documented how conditions such as temperature and method affect the share of acids converted. Some conversion also happens slowly during storage.",
+    "Decarboxylation has major legal and testing consequences. Lab methods that do not heat samples report THCA and THC separately, while total-THC calculations estimate what a product would contain after full conversion. That difference was the basis of the THCA-flower hemp market and is the reason USDA required total-THC testing of hemp crops and Congress wrote total THC into the federal hemp definition in 2025."
+  ],
+  "example": "Because THCA becomes THC when heated, regulators say the hemp label on smokable THCA flower is misleading.",
+  "related": [
+    "THCA",
+    "Total THC",
+    "Edibles",
+    "Distillate",
+    "Potency testing"
+  ],
+  "sources": [
+    {
+      "name": "Russo EB, Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology (2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+    },
+    {
+      "name": "Journal of Cannabis Research, narrative review of drying, extraction and post-extraction methods for Cannabis sativa L. (2021)",
+      "url": "https://link.springer.com/article/10.1186/s42238-021-00087-9"
+    },
+    {
+      "name": "Vicente LLP, Frequently Asked Questions About THCA Flower",
+      "url": "https://vicentellp.com/?p=5607"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

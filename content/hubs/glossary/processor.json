@@ -1,0 +1,39 @@
+{
+  "id": "glossary/processor",
+  "type": "glossary",
+  "name": "Processor",
+  "tags": [
+    "Licensing",
+    "Concentrates"
+  ],
+  "short": "A licensed business that turns harvested cannabis into extracts, concentrates and infused products such as vapes, edibles and tinctures.",
+  "definition": [
+    "A processor, also called a manufacturer or extractor in some states, is a licensed business that converts cannabis into other products. Work ranges from extraction, which uses solvents, heat or pressure to make concentrates, to infusion, where those concentrates go into gummies, drinks, topicals or vape cartridges. Illinois law separates processing organisations from infusers, and Canada licenses standard processing and micro-processing.",
+    "Processing is the most technical and capital-intensive link in the chain. Regulators require closed-loop equipment for flammable solvents, fire and building approvals, recipes and standard operating procedures, residual-solvent testing and child-resistant packaging. Illinois law specifies which solvents processors may use and requires approval for any others.",
+    "Processors are central to two big stories. One is the hemp market, where similar extraction and conversion techniques produced delta-8 and other intoxicating products outside cannabis licensing; the November 2025 federal redefinition of hemp ends most of that from 11 December 2026. The other is federal registration: after the April 2026 order, state-licensed medical manufacturers can register with the DEA, and registered dispensaries need registered suppliers behind them."
+  ],
+  "example": "The state's largest processor added a solventless line to meet demand for rosin.",
+  "related": [
+    "Cultivator",
+    "Concentrate",
+    "Distillate",
+    "Edibles",
+    "Vertical integration"
+  ],
+  "sources": [
+    {
+      "name": "Illinois Cannabis Regulation and Tax Act, 410 ILCS 705/1-10 (Definitions)",
+      "url": "https://ilga.gov/legislation/ilcs/documents/041007050K1-10.htm"
+    },
+    {
+      "name": "Health Canada, Licensed cannabis cultivators, processors and sellers",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/licensed-cultivators-processors-sellers.html"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

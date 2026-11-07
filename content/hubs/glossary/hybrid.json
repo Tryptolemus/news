@@ -1,0 +1,29 @@
+{
+  "id": "glossary/hybrid",
+  "type": "glossary",
+  "name": "Hybrid",
+  "tags": [
+    "Strains"
+  ],
+  "short": "A strain label for cannabis bred from both indica- and sativa-type parents, used today for most commercial varieties.",
+  "definition": [
+    "In cannabis retail, hybrid is the label for varieties bred from both indica-type and sativa-type parents, often with a qualifier such as 'indica-dominant' or 'sativa-leaning'. Because commercial breeders have been crossing lines for decades, the great majority of products on dispensary shelves are hybrids in a genetic sense, whatever the menu says.",
+    "The category inherits the weaknesses of the two labels it combines. Research by scientists in the Netherlands and Canada, published in Nature Plants, found that the indica and sativa names did not reliably reflect a plant's genetic ancestry or chemical profile, and that products sold under the same strain name could differ greatly. A hybrid label therefore says little about what a product contains or how it will affect someone.",
+    "Strain names and hybrid labels nonetheless carry real commercial weight, since breeders protect and license popular genetics and brands build identities around them. Some regulators and researchers favour labelling products by measured cannabinoid and terpene content instead. For news coverage, 'hybrid' is best treated as a marketing description, while lab results are the better evidence of what is in a product."
+  ],
+  "example": "The company said its best-selling hybrid strain drove most of its flower revenue growth.",
+  "related": [
+    "Indica",
+    "Sativa",
+    "Terpenes",
+    "Craft cannabis"
+  ],
+  "sources": [
+    {
+      "name": "Wageningen University & Research, Cannabis labels often wrong and misleading (on the Nature Plants study with Dalhousie University)",
+      "url": "https://www.wur.nl/en/newsarticle/cannabis-labels-often-wrong-and-misleading.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

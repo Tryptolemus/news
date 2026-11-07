@@ -1,0 +1,31 @@
+{
+  "id": "glossary/expungement",
+  "type": "glossary",
+  "name": "Expungement",
+  "tags": [
+    "Expungement",
+    "Criminal justice",
+    "Legalization"
+  ],
+  "short": "The legal clearing or sealing of past criminal records, often for cannabis offences that later became legal.",
+  "definition": [
+    "Expungement is the removal of an offence from a person's criminal record, or in some states the sealing of that record from public view. In cannabis policy it usually refers to clearing past convictions for conduct, such as small-scale possession, that a later law made legal. A criminal record can block access to jobs, housing, education loans and professional licences, so record relief is a major part of legalisation debates and of social equity programs.",
+    "States handle it in two main ways. In petition-based systems, a person must apply to a court, sometimes paying fees, as in Arizona or Utah. In automatic systems, the state identifies and clears eligible records itself; according to the National Conference of State Legislatures, 11 states, Washington, D.C. and the US Virgin Islands have adopted automatic expungement for some cannabis offences. California's justice department reviews old convictions, and Missouri's 2022 constitutional amendment ordered courts to expunge eligible records, though old paper files slowed the work.",
+    "Expungement is different from a pardon, which forgives an offence but usually leaves the record in place. Federal law has no general expungement procedure for cannabis convictions."
+  ],
+  "example": "Under the new law, eligible cannabis convictions will be cleared automatically, with no petition or fee required.",
+  "related": [
+    "Decriminalization",
+    "Legalization",
+    "Social equity license",
+    "Adult-use"
+  ],
+  "sources": [
+    {
+      "name": "National Conference of State Legislatures, Cannabis Overview (record clearance)",
+      "url": "https://www.ncsl.org/civil-and-criminal-justice/cannabis-overview"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

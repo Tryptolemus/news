@@ -1,0 +1,38 @@
+{
+  "id": "glossary/track-and-trace",
+  "type": "glossary",
+  "name": "Track and trace",
+  "tags": [
+    "Track and trace",
+    "Compliance"
+  ],
+  "short": "Government-mandated systems that record every movement of licensed cannabis from plant to sale, to prevent diversion and support recalls.",
+  "definition": [
+    "Track and trace refers to the inventory-tracking systems that state regulators require licensed cannabis businesses to use. Each plant, harvest batch and package receives a unique identifier, typically a barcoded or RFID tag, and licensees report every step: planting, harvest, transfers between businesses, testing, processing, destruction and retail sale. California's regulations define the system as the program for reporting the movement of cannabis and cannabis products through the distribution chain, and its unique identifiers are tied to individual plants and everything made from them.",
+    "The aim is to keep legal product from leaking into the illicit market and illicit product from entering stores, to enforce tax collection and to make recalls possible. Federal enforcement guidance in the Cole Memo era encouraged states to build tightly regulated, tracked markets, and most adult-use and medical states now run such a system, many through the vendor Metrc.",
+    "For businesses, track and trace is a major compliance cost and a frequent source of violations, from mislabelled tags to data-entry delays. Regulators increasingly use the data to spot diversion patterns, while outages or vendor changes can disrupt entire markets. The DEA's new registration system for state medical businesses adds its own recordkeeping duties on top."
+  ],
+  "example": "Regulators said the track-and-trace data showed thousands of plants that had never been reported as harvested or destroyed.",
+  "related": [
+    "Seed-to-sale",
+    "METRC",
+    "Cole Memo",
+    "Cultivator"
+  ],
+  "sources": [
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "California Department of Cannabis Control, 5 steps to using the track and trace system",
+      "url": "https://cannabis.ca.gov/2023/10/5-steps-to-using-the-track-and-trace-system"
+    },
+    {
+      "name": "Metrc (company website)",
+      "url": "https://www.metrc.com/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

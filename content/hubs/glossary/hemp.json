@@ -1,0 +1,40 @@
+{
+  "id": "glossary/hemp",
+  "type": "glossary",
+  "name": "Hemp",
+  "tags": [
+    "Hemp",
+    "Hemp-derived THC",
+    "Total THC"
+  ],
+  "short": "Cannabis with very low THC; under US law, plants and derivatives at or below 0.3% THC by dry weight, now moving to a total-THC test.",
+  "definition": [
+    "Hemp and marijuana are the same species, Cannabis sativa L.; the difference is legal, not botanical. Hemp has historically been grown for fibre, seed and oil. The 2018 Farm Bill defined it as cannabis, including its derivatives and extracts, with no more than 0.3% delta-9 THC on a dry-weight basis, and removed it from the Controlled Substances Act's definition of marijuana. USDA licenses production through state, tribal or federal plans, while the FDA keeps authority over hemp-derived food, supplements and drugs.",
+    "Because the definition covered derivatives and named only delta-9 THC, a large market grew up in intoxicating products made from hemp: delta-8, THCA flower, HHC and hemp-derived delta-9 edibles and drinks, many sold outside licensed dispensaries.",
+    "In November 2025 Congress rewrote the definition in a funding law (Public Law 119-37). It applies the 0.3% limit to total THC including THCA, excludes cannabinoids that the plant cannot produce naturally or that are made outside it, and caps final consumer products at 0.4 mg of total THC per container. The synthetic-cannabinoid exclusion starts on 12 November 2026; a September 2026 law pushed the rest to 11 December 2026. Fibre and grain hemp are not the target."
+  ],
+  "example": "Hemp farmers growing for fibre say the new federal definition should not touch them, but processors are less sure.",
+  "related": [
+    "2018 Farm Bill",
+    "Total THC",
+    "Delta-8 THC",
+    "Marijuana",
+    "CBD"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    },
+    {
+      "name": "Congressional Research Service, Delay in Changes to Hemp Definition (LSB11496, October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_2a4809149da4fb31c7c2e387e239a244e0e80157.html"
+    },
+    {
+      "name": "U.S. Food and Drug Administration, FDA Regulation of Cannabis and Cannabis-Derived Products, Including Cannabidiol (CBD)",
+      "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

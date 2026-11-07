@@ -1,0 +1,40 @@
+{
+  "id": "glossary/cbd",
+  "type": "glossary",
+  "name": "CBD",
+  "tags": [
+    "CBD",
+    "Hemp",
+    "Novel food"
+  ],
+  "short": "Cannabidiol, a major non-intoxicating cannabinoid sold in hemp products and approved in purified form as the prescription drug Epidiolex.",
+  "definition": [
+    "CBD, or cannabidiol, is the second best-known cannabinoid after THC. It does not cause a high, which is why it became the backbone of the hemp consumer market after the 2018 Farm Bill: oils, creams, capsules, drinks and pet products. A purified CBD medicine, Epidiolex, is the only FDA-approved drug derived from the cannabis plant and is prescribed for certain rare seizure disorders.",
+    "The retail picture is messier. The FDA has concluded that CBD cannot be marketed as a dietary supplement and that adding it to food sold across state lines is prohibited, although enforcement has focused mainly on companies making disease claims. Federal health researchers note that over-the-counter products may contain more or less CBD than labelled and sometimes contain THC, and that CBD can cause side effects and interact with other medicines.",
+    "In the European Union, CBD foods are treated as novel foods that need authorisation before sale. In February 2026 the European Food Safety Authority set a cautious provisional safe level for highly purified CBD supplements while repeating that important safety data gaps remain. In the US, hemp CBD products also face the new 0.4 mg total-THC per-container cap from 11 December 2026, which matters for full-spectrum products containing traces of THC."
+  ],
+  "example": "The ruling means CBD snacks must clear EU novel-food approval before they can carry an organic label.",
+  "related": [
+    "Cannabinoids",
+    "Hemp",
+    "THC",
+    "Entourage effect",
+    "2018 Farm Bill"
+  ],
+  "sources": [
+    {
+      "name": "U.S. Food and Drug Administration, FDA Regulation of Cannabis and Cannabis-Derived Products, Including Cannabidiol (CBD)",
+      "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"
+    },
+    {
+      "name": "National Center for Complementary and Integrative Health (NIH), Cannabis (Marijuana) and Cannabinoids: What You Need To Know",
+      "url": "https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know"
+    },
+    {
+      "name": "European Food Safety Authority, Provisional safe level for cannabidiol as a novel food (February 2026)",
+      "url": "https://www.efsa.europa.eu/en/news/provisional-safe-level-cannabidiol-novel-food"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

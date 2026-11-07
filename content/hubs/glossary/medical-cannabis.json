@@ -1,0 +1,38 @@
+{
+  "id": "glossary/medical-cannabis",
+  "type": "glossary",
+  "name": "Medical cannabis",
+  "tags": [
+    "Medical cannabis"
+  ],
+  "short": "Cannabis used under a doctor's recommendation through a state or national program; in the US, state-licensed medical marijuana is now in Schedule III.",
+  "definition": [
+    "Medical cannabis refers to cannabis products used by patients under a recommendation, certification or prescription from a health professional, within a government program. In the US, 40 states and Washington, D.C. had comprehensive medical programs as of early 2026, and several more allowed only low-THC or CBD products. Programs differ widely in qualifying conditions, product types, patient registration and whether patients may grow their own.",
+    "The FDA has not approved the cannabis plant for any condition; it has approved a purified CBD medicine and synthetic THC-based drugs. Federal policy nonetheless changed in April 2026, when an order placed marijuana covered by a state medical licence in Schedule III. State-licensed medical businesses can now register with the DEA, gaining federal legal standing and relief from the Section 280E tax penalty, while adult-use cannabis stays in Schedule I. Since 2015 Congress has also barred the Justice Department from spending money to interfere with state medical programs.",
+    "Outside the US, medical cannabis is prescribed through pharmacies in Germany and several other European countries, and licensed for medical sale in Canada. Evidence on effectiveness varies by condition, and coverage should avoid overstating benefits or giving treatment advice."
+  ],
+  "example": "Federal registration now gives medical-only operators in Florida and Texas legal footing that adult-use businesses lack.",
+  "related": [
+    "Medical marijuana card",
+    "Schedule III",
+    "Adult-use",
+    "Rohrabacher-Farr amendment",
+    "Dispensary"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "National Center for Complementary and Integrative Health (NIH), Cannabis (Marijuana) and Cannabinoids: What You Need To Know",
+      "url": "https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

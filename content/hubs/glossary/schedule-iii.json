@@ -1,0 +1,41 @@
+{
+  "id": "glossary/schedule-iii",
+  "type": "glossary",
+  "name": "Schedule III",
+  "tags": [
+    "Rescheduling",
+    "DEA",
+    "Schedule III",
+    "Section 280E"
+  ],
+  "short": "A federal drug category for substances with accepted medical use and moderate to low dependence risk; state-licensed medical marijuana moved here in 2026.",
+  "definition": [
+    "Schedule III of the Controlled Substances Act covers drugs the DEA considers to have moderate to low potential for physical and psychological dependence and an accepted medical use. Examples include ketamine, anabolic steroids, testosterone and some codeine combinations. Schedule III drugs can be prescribed, but makers and distributors must register with the DEA and follow security and recordkeeping rules.",
+    "On 23 April 2026 Acting Attorney General Todd Blanche signed an order moving FDA-approved marijuana products and marijuana covered by a state medical licence into Schedule III. The order relied on US treaty obligations rather than ordinary rulemaking. It created a DEA registration pathway for state-licensed medical cultivators, manufacturers, distributors and dispensaries; the Justice Department said on 30 October that the DEA had registered more than 900 dispensaries in seven states, with nearly 7,000 applications filed.",
+    "The biggest financial consequence is tax: Section 280E applies only to Schedule I and II substances, so registered or licensed medical operations can generally deduct business expenses again, with Treasury guidance still pending. Schedule III status does not legalise adult-use sales, which remain in Schedule I. A hearing on moving all marijuana to Schedule III is ongoing."
+  ],
+  "example": "Moving medical marijuana to Schedule III is expected to cut the industry's federal tax bill sharply.",
+  "related": [
+    "Schedule I",
+    "Rescheduling",
+    "Section 280E",
+    "Medical cannabis",
+    "Controlled Substances Act"
+  ],
+  "sources": [
+    {
+      "name": "U.S. Drug Enforcement Administration, Drug Scheduling",
+      "url": "https://www.dea.gov/drug-information/drug-scheduling"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "Associated Press (via News4JAX), DEA approvals could bring big tax benefits for medical marijuana businesses (30 October 2026)",
+      "url": "https://www.news4jax.com/health/2026/10/30/dea-approvals-could-bring-big-tax-benefits-for-medical-marijuana-businesses/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

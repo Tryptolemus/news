@@ -1,0 +1,35 @@
+{
+  "id": "glossary/vape-cartridge",
+  "type": "glossary",
+  "name": "Vape cartridge",
+  "tags": [
+    "Vaping",
+    "Concentrates"
+  ],
+  "short": "A pre-filled cartridge of cannabis oil, usually distillate or live resin, that attaches to a battery-powered pen for vaporising.",
+  "definition": [
+    "A vape cartridge, or cart, is a small pre-filled container of cannabis oil that screws onto a battery-powered device which heats the oil into vapour. Disposable all-in-one pens combine the two. California's regulations list vape cartridges within the concentrate category. Most cartridges are filled with distillate, sometimes with added terpenes, while premium lines use live resin or live rosin.",
+    "Cartridges are a major sales category because they are discreet, portable and odour-light. They also carry particular safety concerns. By February 2020 the CDC had counted 2,807 hospitalised cases or deaths from a vaping-associated lung injury known as EVALI, including 68 deaths. Federal investigators strongly linked the outbreak to vitamin E acetate, a thickener found in many THC cartridges, most of which patients had obtained from informal or illicit sources.",
+    "Since then many state regulators have restricted additives and tightened testing of cartridge contents. Cartridges are also a common format for HHC and other semi-synthetic cannabinoids, which several countries have banned and which lose US hemp status under the 2025 federal redefinition."
+  ],
+  "example": "Inspectors pulled counterfeit vape cartridges that copied the packaging of a licensed brand.",
+  "related": [
+    "Distillate",
+    "Live resin",
+    "Concentrate",
+    "HHC",
+    "Potency testing"
+  ],
+  "sources": [
+    {
+      "name": "Centers for Disease Control and Prevention (archive), Outbreak of Lung Injury Associated with the Use of E-Cigarette, or Vaping, Products",
+      "url": "https://archive.cdc.gov/www_cdc_gov/tobacco/basic_information/e-cigarettes/severe-lung-disease.html"
+    },
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

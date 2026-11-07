@@ -1,0 +1,41 @@
+{
+  "id": "glossary/delta-8-thc",
+  "type": "glossary",
+  "name": "Delta-8 THC",
+  "tags": [
+    "Delta-8 THC",
+    "Hemp-derived THC",
+    "Hemp",
+    "Total THC"
+  ],
+  "short": "An intoxicating THC isomer found only in trace amounts in cannabis, usually made by chemically converting hemp-derived CBD and sold in hemp markets.",
+  "definition": [
+    "Delta-8 THC is a close chemical cousin of delta-9 THC; the two differ only in where one double bond sits in the molecule. The plant makes very little of it, so nearly all commercial delta-8 is produced by treating CBD extracted from hemp with chemicals that rearrange it. The FDA has warned that some manufacturers use unsafe processes, leave behind byproducts and mislabel potency, and it has never evaluated or approved delta-8 products. Between late 2020 and early 2022 the agency logged 104 adverse event reports and poison centres recorded more than 2,300 exposure cases, many involving children who ate gummies or other foods.",
+    "Delta-8 boomed because the 2018 Farm Bill capped only delta-9 THC in hemp. Federal appeals courts, including the Ninth Circuit in 2022, treated hemp-derived delta-8 as legal hemp, while many states banned or restricted it on their own.",
+    "The federal hemp redefinition signed in November 2025 ends that gap by applying the 0.3% limit to total THC, including delta-8, and capping finished products at 0.4 mg per container. For naturally occurring cannabinoids such as delta-8, those rules take effect on 11 December 2026."
+  ],
+  "example": "Delta-8 gummies have vanished from several state markets ahead of the federal total-THC deadline.",
+  "related": [
+    "Delta-9 THC",
+    "Hemp",
+    "Total THC",
+    "2018 Farm Bill",
+    "CBD"
+  ],
+  "sources": [
+    {
+      "name": "U.S. Food and Drug Administration, 5 Things to Know about Delta-8 Tetrahydrocannabinol",
+      "url": "https://www.fda.gov/consumers/consumer-updates/5-things-know-about-delta-8-tetrahydrocannabinol-delta-8-thc"
+    },
+    {
+      "name": "Congressional Research Service, Delay in Changes to Hemp Definition (LSB11496, October 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-10-28_LSB11496_2a4809149da4fb31c7c2e387e239a244e0e80157.html"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

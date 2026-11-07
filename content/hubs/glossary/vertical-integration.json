@@ -1,0 +1,35 @@
+{
+  "id": "glossary/vertical-integration",
+  "type": "glossary",
+  "name": "Vertical integration",
+  "tags": [
+    "Licensing",
+    "MSO"
+  ],
+  "short": "A business model, sometimes required by law, in which one company controls cultivation, processing and retail sale of its cannabis.",
+  "definition": [
+    "Vertical integration means one company owns several stages of the supply chain, typically growing, processing and selling its own cannabis. Some states require it. Florida's medical program, for example, obliges each licensed medical marijuana treatment centre to cultivate, process, transport and dispense its own product, with only narrow exceptions. Other states, such as California, license each stage separately and allow integration by choice, while some limit cross-ownership to protect independent businesses.",
+    "Supporters say integration improves quality control, traceability and margins, and it made it easier for early medical programs to start. Critics argue that mandatory integration raises the cost of entry, concentrates markets among a few well-funded companies and squeezes out small growers and social equity licensees. Florida's requirement survived a state Supreme Court challenge in 2021.",
+    "Integration gained new importance in 2026. DEA registration under the April rescheduling order requires a federally compliant supply chain, which favours companies that control their own cultivation and processing. Many of the largest US multi-state operators are vertically integrated across several states, and several were among the first to report DEA registrations for their medical stores."
+  ],
+  "example": "Vertically integrated operators were best placed to meet the DEA's new supplier requirements.",
+  "related": [
+    "Multi-state operator (MSO)",
+    "Cultivator",
+    "Processor",
+    "Dispensary",
+    "Social equity license"
+  ],
+  "sources": [
+    {
+      "name": "Florida Statutes 381.986, Medical use of marijuana",
+      "url": "https://florida.public.law/statutes/fla._stat._381.986"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

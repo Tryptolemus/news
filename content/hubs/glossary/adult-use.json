@@ -1,0 +1,39 @@
+{
+  "id": "glossary/adult-use",
+  "type": "glossary",
+  "name": "Adult-use",
+  "tags": [
+    "Adult-use",
+    "Legalization"
+  ],
+  "short": "Legal, non-medical cannabis for adults, usually 21 and over in the US; the industry's preferred term for recreational cannabis.",
+  "definition": [
+    "Adult-use is the term regulators and businesses use for cannabis sold to adults without a medical recommendation, what many people call recreational cannabis. In US states the minimum age is typically 21; in Canada it ranges from 18 to 21 depending on the province, and in Germany 18. Adult-use programs usually license separate or combined categories of growers, manufacturers and stores, and apply excise and sales taxes higher than those for medical cannabis.",
+    "As of early 2026, 24 states and Washington, D.C. had adult-use laws, according to congressional researchers. Federally, adult-use marijuana is still in Schedule I. The April 2026 rescheduling order covered only state-licensed medical marijuana, so adult-use businesses remain subject to the Section 280E tax penalty and cannot obtain the new DEA registrations.",
+    "That split matters for companies. Many states have merged medical and adult-use sales in the same stores, and how the DEA will treat businesses serving both markets has been a major open question. The distinction between adult-use and medical operations, once mostly a state tax issue, is likely to shape corporate structures, supply chains and tax filings until any broader federal change."
+  ],
+  "example": "The company's adult-use stores remain subject to 280E while its medical-only stores now qualify for deductions.",
+  "related": [
+    "Legalization",
+    "Medical cannabis",
+    "Schedule I",
+    "Section 280E",
+    "Dispensary"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "German Federal Ministry of Health, FAQ on the Cannabis Act",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

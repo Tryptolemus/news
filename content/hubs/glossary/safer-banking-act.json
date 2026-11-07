@@ -1,0 +1,38 @@
+{
+  "id": "glossary/safer-banking-act",
+  "type": "glossary",
+  "name": "SAFER Banking Act",
+  "tags": [
+    "Banking",
+    "Congress"
+  ],
+  "short": "Proposed US legislation that would protect banks and financial firms serving state-legal cannabis businesses from federal penalties.",
+  "definition": [
+    "The SAFER Banking Act, short for Secure and Fair Enforcement Regulation Banking Act, is the Senate-revised version of the long-running SAFE Banking Act. Both would stop federal banking regulators from penalising banks, credit unions and insurers for serving state-legal cannabis businesses and their vendors, protect those institutions' deposit insurance, and create a safe harbour from prosecution and asset forfeiture. Without such a law, many banks avoid the industry and those that serve it rely on 2014 Treasury guidance requiring special suspicious-activity reports.",
+    "The House passed versions of SAFE Banking seven times between 2019 and 2022, but each stalled in the Senate. In September 2023 the Senate Banking Committee approved the reworked SAFER Banking Act, the furthest any version had gone in that chamber, but it never reached a floor vote.",
+    "In June 2026 a bipartisan group led by Sen. Jeff Merkley and Rep. Dave Joyce reintroduced the bill, under the SAFE Banking name, with protections extended to hemp and CBD businesses. Rescheduling medical marijuana to Schedule III reduced some risk for banks but did not give them a statutory safe harbour, so the industry still treats banking legislation as a top priority for the new Congress."
+  ],
+  "example": "Bankers say rescheduling alone will not bring them into the market without SAFER Banking.",
+  "related": [
+    "Cole Memo",
+    "Rescheduling",
+    "Multi-state operator (MSO)",
+    "Section 280E"
+  ],
+  "sources": [
+    {
+      "name": "National Law Review, The Long and Winding Road: SAFE Banking Returns to Congress Again",
+      "url": "https://natlawreview.com/article/long-and-winding-road-safe-banking-returns-congress-again"
+    },
+    {
+      "name": "Office of Sen. Jeff Merkley, Merkley, Bipartisan Senators Reintroduce Cannabis Banking Reform (June 2026)",
+      "url": "https://www.merkley.senate.gov/merkley-bipartisan-senators-reintroduce-cannabis-banking-reform/"
+    },
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

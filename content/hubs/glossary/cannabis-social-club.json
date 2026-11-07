@@ -1,0 +1,35 @@
+{
+  "id": "glossary/cannabis-social-club",
+  "type": "glossary",
+  "name": "Cannabis social club",
+  "tags": [
+    "Cannabis clubs",
+    "Europe",
+    "Germany"
+  ],
+  "short": "A non-profit members' association that grows cannabis collectively and distributes it only to its adult members, as permitted in Germany and Malta.",
+  "definition": [
+    "A cannabis social club is a members-only, non-profit association that grows cannabis collectively and shares the harvest among its adult members, without commercial sales. The model began in Spain, where clubs have long operated in a legal grey area, and has since been written into law in some countries as an alternative to retail markets.",
+    "Germany's version, the Anbauvereinigung or cultivation association, has been allowed since July 2024. Associations need a state permit, may have at most 500 members aged 18 or over who have lived in Germany for at least six months, must be registered non-profit associations or cooperatives, and must be located at least 200 metres from schools and playgrounds. They may hand out only pure flower or hash, in person, up to 25 grams a day and 50 grams a month per adult member, with lower limits and a 10% THC cap for members under 21. Consumption on site and within 100 metres of the entrance is banned.",
+    "Malta, which in 2021 became the first EU country to legalise personal cannabis use, licenses non-profit 'harm reduction associations' with up to 500 members; the first licences were granted in 2023. Clubs face high start-up costs and slow permitting, and their output is small compared with medical and illicit supply."
+  ],
+  "example": "The association can begin distributing to its members once the state issues its cultivation permit.",
+  "related": [
+    "Home grow",
+    "Legalization",
+    "Decriminalization",
+    "Craft cannabis"
+  ],
+  "sources": [
+    {
+      "name": "German Federal Ministry of Health, FAQ on the Cannabis Act",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    },
+    {
+      "name": "Marijuana Moment, Malta issues EU's first licenses allowing nonprofit cannabis associations to begin growing marijuana (2023)",
+      "url": "https://www.marijuanamoment.net/malta-issues-eus-first-licenses-allowing-nonprofit-cannabis-associations-to-begin-growing-marijuana/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

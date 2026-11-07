@@ -1,0 +1,34 @@
+{
+  "id": "glossary/potency-testing",
+  "type": "glossary",
+  "name": "Potency testing",
+  "tags": [
+    "Testing",
+    "Total THC"
+  ],
+  "short": "Laboratory measurement of cannabinoid content, mainly THC and CBD, used for product labels, pricing and legal compliance.",
+  "definition": [
+    "Potency testing is the lab work that tells regulators, sellers and buyers how much THC, CBD and other cannabinoids a product contains. Licensed labs usually use liquid chromatography, which measures acid forms such as THCA separately from THC, or gas chromatography, whose heat converts acids during the test. Results feed product labels, the certificate of analysis and, for hemp, the legal determination of whether a crop is hemp or marijuana.",
+    "Because shoppers often pay more for higher THC, potency numbers carry financial pressure. A 2023 PLOS ONE study that retested 23 flower samples from Colorado dispensaries found that 18 contained less THC than the lowest value on their label, with an average measured level of about 15% against labelled ranges of 20% to 24%. The authors pointed to non-random sampling, variation in lab methods, weak oversight and an incentive to report high numbers. The industry calls it lab shopping when producers steer samples to labs known for generous results.",
+    "For hemp, USDA requires a pre-harvest total-THC test with a reported measurement of uncertainty, and the federal redefinition taking effect on 11 December 2026 adds total-THC limits for finished products. Testing capacity and standards are therefore becoming a bigger story."
+  ],
+  "example": "The regulator suspended a lab's licence after finding it had inflated potency results for dozens of clients.",
+  "related": [
+    "Certificate of analysis (COA)",
+    "Total THC",
+    "THC",
+    "Flower"
+  ],
+  "sources": [
+    {
+      "name": "Schwabe AL et al., Uncomfortably high: Testing reveals inflated THC potency on retail Cannabis labels, PLOS ONE (2023)",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282396"
+    },
+    {
+      "name": "Federal Register, USDA Establishment of a Domestic Hemp Production Program, final rule (19 January 2021)",
+      "url": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "glossary/marijuana",
+  "type": "glossary",
+  "name": "Marijuana",
+  "tags": [
+    "Marijuana",
+    "Legalization",
+    "Rescheduling"
+  ],
+  "short": "The US legal term for cannabis containing more THC than the hemp limit; federally controlled under the Controlled Substances Act.",
+  "definition": [
+    "Marijuana, spelled 'marihuana' in older statutes, is the legal name US federal law uses for the cannabis plant and its products when they exceed the hemp limit. The Controlled Substances Act defines it as all parts of Cannabis sativa L. and the compounds made from them, then carves out hemp, mature stalks, fibre, seed oil and sterilised seed. Congress placed marijuana in Schedule I in 1970.",
+    "That status changed only partly in 2026. An order signed in April 2026 by Acting Attorney General Todd Blanche moved FDA-approved marijuana products and marijuana covered by a state medical licence into Schedule III. Marijuana sold under adult-use laws, and unlicensed marijuana, remain in Schedule I, and a DEA hearing on moving all marijuana to Schedule III is still pending. Federal law still overrides state law, so no state can fully legalise it in a federal sense.",
+    "Many outlets, regulators and companies now prefer 'cannabis' as the neutral, scientific term and use 'marijuana' when quoting laws, agencies or official program names, such as a state's medical marijuana card."
+  ],
+  "example": "The order leaves adult-use marijuana in Schedule I, the same category as heroin.",
+  "related": [
+    "Hemp",
+    "Controlled Substances Act",
+    "Schedule I",
+    "Schedule III",
+    "Legalization"
+  ],
+  "sources": [
+    {
+      "name": "21 U.S. Code 802, Definitions (Legal Information Institute, Cornell Law School)",
+      "url": "https://www.law.cornell.edu/uscode/text/21/802"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

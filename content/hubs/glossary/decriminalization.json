@@ -1,0 +1,34 @@
+{
+  "id": "glossary/decriminalization",
+  "type": "glossary",
+  "name": "Decriminalization",
+  "tags": [
+    "Decriminalization",
+    "Legalization"
+  ],
+  "short": "Removing or reducing criminal penalties for minor cannabis offences, often replacing them with fines, without creating a legal market.",
+  "definition": [
+    "Decriminalisation means a jurisdiction stops treating some cannabis conduct, usually possession of small amounts for personal use, as a crime. Penalties may be reduced to a civil fine, a ticket or a referral, much like a traffic violation, and the person usually does not get a criminal record. Cultivation and sale typically remain illegal, so there is no licensed supply chain.",
+    "That is the key difference from legalisation, which creates lawful channels to grow, buy and sell cannabis under regulation. Congressional researchers note that many states and municipalities have decriminalised marijuana over the past five decades by removing or lowering penalties, while civil penalties may remain. Some cities have used local ordinances or police priorities to decriminalise even in states where cannabis is otherwise illegal.",
+    "Outside the US, several European countries have decriminalised personal possession of drugs, including cannabis, while keeping supply illegal. Malta's 2021 law, for example, combined legal personal possession up to 7 grams with fines rather than criminal records for somewhat larger amounts. Decriminalisation does not change federal law in the US; possession remains a federal offence, though federal prosecution of small-scale users is rare."
+  ],
+  "example": "The city council voted to decriminalise possession of up to an ounce, replacing arrests with a fine.",
+  "related": [
+    "Legalization",
+    "Expungement",
+    "Adult-use",
+    "Home grow"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    },
+    {
+      "name": "Marijuana Moment, Malta issues EU's first licenses allowing nonprofit cannabis associations to begin growing marijuana (2023)",
+      "url": "https://www.marijuanamoment.net/malta-issues-eus-first-licenses-allowing-nonprofit-cannabis-associations-to-begin-growing-marijuana/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

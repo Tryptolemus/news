@@ -1,0 +1,34 @@
+{
+  "id": "glossary/descheduling",
+  "type": "glossary",
+  "name": "Descheduling",
+  "tags": [
+    "Descheduling",
+    "Congress"
+  ],
+  "short": "Removing a substance from the Controlled Substances Act altogether, so it is no longer federally controlled as a drug.",
+  "definition": [
+    "Descheduling means taking a substance out of the Controlled Substances Act's schedules entirely, rather than moving it to a less restrictive one. A descheduled substance is no longer a federally controlled drug, although other laws, such as FDA food and drug rules, alcohol-style regulation or taxation, could still apply. Hemp is the leading cannabis example: the 2018 Farm Bill removed hemp from the act's definition of marijuana.",
+    "For marijuana, descheduling is the goal of most legalisation advocates because it would largely close the gap between federal and state law, allowing interstate commerce, normal banking and standard tax treatment. It could be done by Congress or through the scheduling process, though congressional researchers note that international drug treaties could complicate a full decontrol. The House passed descheduling bills, versions of the MORE Act, in 2020 and 2022, but they did not advance in the Senate.",
+    "Descheduling returned to the agenda after the 2026 midterm elections. A senior White House adviser said in November that President Trump would sign a clean descheduling bill but would likely oppose broader reform packages, and Democrats will hold majorities in both chambers from January. Coverage should distinguish descheduling from rescheduling, which keeps marijuana federally controlled."
+  ],
+  "example": "Advocates said the new Congress should pursue descheduling rather than settle for Schedule III.",
+  "related": [
+    "Rescheduling",
+    "Controlled Substances Act",
+    "Legalization",
+    "2018 Farm Bill"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

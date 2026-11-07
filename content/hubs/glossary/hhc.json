@@ -1,0 +1,39 @@
+{
+  "id": "glossary/hhc",
+  "type": "glossary",
+  "name": "HHC",
+  "tags": [
+    "HHC",
+    "Hemp-derived THC",
+    "Europe"
+  ],
+  "short": "Hexahydrocannabinol, a semi-synthetic THC-like cannabinoid usually made by chemically altering hemp-derived CBD, now controlled under a UN drug convention.",
+  "definition": [
+    "HHC, or hexahydrocannabinol, is a cannabinoid related to THC that produces broadly similar effects but has been little studied in humans. Commercial HHC is not extracted from the plant in useful amounts; it is made by chemically altering cannabinoids, mostly CBD from low-THC hemp, so the finished compound is classed as semi-synthetic. Health authorities have reported poisonings, psychosis and dependence linked to its use.",
+    "HHC spread rapidly through European vape shops and kiosks from about 2022 because many national drug laws listed THC by name but not this newer molecule. The EU's drugs agency tracked it alongside other semi-synthetic cannabinoids as countries began banning it. In March 2025 the UN Commission on Narcotic Drugs voted to add HHC to Schedule II of the 1971 Convention on Psychotropic Substances, obliging signatory countries to license and control it. Ireland, for example, listed HHC as a Schedule 1 controlled drug in July 2025.",
+    "In the US, HHC sold as a hemp product. The November 2025 federal hemp redefinition removes hemp status from cannabinoids that are synthesised or made outside the plant, which puts most commercial HHC outside the legal hemp market once those provisions apply."
+  ],
+  "example": "Customs officers seized HHC vapes that had been marketed as a legal alternative to cannabis.",
+  "related": [
+    "Delta-8 THC",
+    "Cannabinoids",
+    "Hemp",
+    "Vape cartridge"
+  ],
+  "sources": [
+    {
+      "name": "Government of Ireland, Department of Health, HHC (Hexahydrocannabinol)",
+      "url": "https://www.gov.ie/en/department-of-health/campaigns/hhc-hexahydrovannabinol"
+    },
+    {
+      "name": "Business of Cannabis, UN places HHC under same regulations as cannabis and methamphetamine",
+      "url": "https://businessofcannabis.com/un-places-hhc-under-same-regulations-as-cannabis-and-methamphetamine/"
+    },
+    {
+      "name": "European Union Drugs Agency, Hexahydrocannabinol (HHC) and related substances (technical report)",
+      "url": "https://euda.europa.eu/publications/technical-reports/hhc-and-related-substances_en"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

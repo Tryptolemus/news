@@ -1,0 +1,39 @@
+{
+  "id": "glossary/terpenes",
+  "type": "glossary",
+  "name": "Terpenes",
+  "tags": [
+    "Terpenes",
+    "Research"
+  ],
+  "short": "Aromatic compounds that give cannabis strains their smell and flavour, such as myrcene, limonene and pinene, and that some researchers think shape effects.",
+  "definition": [
+    "Terpenes are a large family of fragrant compounds made by many plants, from pine trees to citrus fruit. In cannabis they are produced in the same resin glands as cannabinoids and account for the differences in aroma between varieties: earthy, piney, citrus, floral or fuel-like. Common examples include myrcene, limonene, alpha-pinene, linalool and beta-caryophyllene, the last of which also binds one of the body's cannabinoid receptors.",
+    "Terpenes are volatile and break down with heat, light and time, which is why drying, curing and extraction methods affect a product's profile and why some concentrates are marketed on terpene preservation. Labs can measure them, and some regulators and researchers argue that a terpene profile tells consumers more than the familiar indica and sativa labels; a study by Dutch and Canadian scientists found those labels did not reliably track a plant's genetics or chemistry.",
+    "Claims that particular terpenes relax or energise people are widespread in marketing but rest mostly on animal and laboratory studies. NIH-funded research on terpenes and minor cannabinoids is ongoing, and reporters should treat effect claims tied to a single terpene with caution."
+  ],
+  "example": "The brand now prints a terpene breakdown on every jar instead of calling its strains indica or sativa.",
+  "related": [
+    "Entourage effect",
+    "Cannabinoids",
+    "Live resin",
+    "Sativa",
+    "Indica"
+  ],
+  "sources": [
+    {
+      "name": "Russo EB, Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology (2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+    },
+    {
+      "name": "National Center for Complementary and Integrative Health (NIH), Cannabis (Marijuana) and Cannabinoids: What You Need To Know",
+      "url": "https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know"
+    },
+    {
+      "name": "Wageningen University & Research, Cannabis labels often wrong and misleading (on the Nature Plants study with Dalhousie University)",
+      "url": "https://www.wur.nl/en/newsarticle/cannabis-labels-often-wrong-and-misleading.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "glossary/licensed-producer-lp",
+  "type": "glossary",
+  "name": "Licensed producer (LP)",
+  "tags": [
+    "Canada",
+    "Licensing",
+    "Earnings"
+  ],
+  "short": "A Canadian company licensed by Health Canada to grow and process cannabis; the term is industry shorthand for Canada's federally licensed producers.",
+  "definition": [
+    "Licensed producer, or LP, is the shorthand investors and journalists use for companies licensed by Health Canada to cultivate and process cannabis. Canada regulates production federally under the Cannabis Act: licence classes include cultivation, micro-cultivation, processing, micro-processing, nursery and sale for medical purposes. Licence holders sell adult-use products to provincial and territorial wholesalers and distributors, which supply retailers, and sell medical cannabis directly to registered patients.",
+    "Because cannabis is federally legal in Canada, LPs can operate nationally, export medical cannabis to countries such as Germany, and list on major exchanges, including in the United States, unlike US multi-state operators. Well-known LPs include Canopy Growth, Aurora Cannabis, Organigram, Tilray and SNDL.",
+    "The LP sector went through a boom and bust after national legalisation in 2018: heavy investment in capacity, then oversupply, falling prices, write-downs and consolidation. Recent coverage focuses on export growth to Europe's medical markets, mergers such as the contest for Aurora, and federal and provincial excise duties, which producers say take too large a share of revenue. The term is informal; Health Canada's own pages generally refer to licence holders."
+  ],
+  "example": "Canadian LPs are leaning on German medical exports as domestic prices stay weak.",
+  "related": [
+    "Multi-state operator (MSO)",
+    "Cultivator",
+    "Processor",
+    "Excise tax",
+    "Legalization"
+  ],
+  "sources": [
+    {
+      "name": "Health Canada, Licensed cannabis cultivators, processors and sellers",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/licensed-cultivators-processors-sellers.html"
+    },
+    {
+      "name": "Foley Hoag, Cannabis Rescheduling and the Path to U.S. Exchange Listings (May 2026)",
+      "url": "https://www.foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/may/cannabis-rescheduling-and-the-path-to-u-s-exchange-listings-what-management-teams-need-to-know-now/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

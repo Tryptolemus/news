@@ -1,0 +1,34 @@
+{
+  "id": "glossary/pre-roll",
+  "type": "glossary",
+  "name": "Pre-roll",
+  "tags": [
+    "Pre-rolls",
+    "Market data"
+  ],
+  "short": "A ready-made joint sold at retail, typically filled with ground flower, shake or kief and sometimes infused with concentrates.",
+  "definition": [
+    "A pre-roll is a factory- or hand-rolled joint sold ready to smoke. California's regulations describe it as any combination of flower, shake, leaf or kief rolled in paper, and other states use similar definitions. Infused pre-rolls add concentrates such as distillate, hash or kief to raise potency, and some states regulate them as a separate product type with different testing, labelling or tax treatment.",
+    "Pre-rolls are a popular category in many legal markets because they are convenient and give producers an outlet for smaller buds and trim. That raises recurring questions for regulators and journalists: what plant material is inside, whether the THC figure on the label reflects the actual blend, and whether infused products are tested as flower or as concentrates.",
+    "Because pre-rolls are made from flower, they are tested and tracked through the same seed-to-sale systems, and they face the same hemp-versus-marijuana issues: hemp pre-rolls made from THCA-rich flower will fall outside the federal hemp definition when total-THC rules take effect on 11 December 2026. State rule changes on pre-roll sizes, packaging and multipacks are common news items."
+  ],
+  "example": "The state regulator changed its rules to let licensed retailers sell pre-rolls.",
+  "related": [
+    "Flower",
+    "Concentrate",
+    "Distillate",
+    "Track and trace"
+  ],
+  "sources": [
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "glossary/home-grow",
+  "type": "glossary",
+  "name": "Home grow",
+  "tags": [
+    "Home grow",
+    "Legalization"
+  ],
+  "short": "Legal cultivation of a limited number of cannabis plants at home for personal use, allowed in many but not all legal jurisdictions.",
+  "definition": [
+    "Home grow refers to laws that let adults or registered patients grow a small number of cannabis plants at home for their own use. Rules usually set a plant limit per person or per household, require plants to be out of public view and secured from children, and ban selling the harvest. Many US adult-use states permit it, but not all: Washington, for example, allows registered medical patients to grow up to six plants, or more with a doctor's authorisation, while adult-use home cultivation remains illegal there.",
+    "Internationally, home grow is the backbone of non-commercial legalisation. Germany's Cannabis Act lets adults resident for at least six months grow three plants each and keep up to 50 grams at home, with the plants secured against access by children and third parties; the harvest cannot be passed on. Malta allows four plants per household. Canada permits four plants per household under federal law, though Quebec and Manitoba prohibit it.",
+    "Home grow matters for markets because it gives consumers a legal alternative to stores and for policy because it is one of the clearest tests of how far a legalisation law goes. Regulators debate plant counts, landlord rights, odour complaints and how to stop home harvests from feeding illicit sales."
+  ],
+  "example": "The legalisation bill drops home grow, a concession to lawmakers worried about diversion.",
+  "related": [
+    "Legalization",
+    "Cannabis social club",
+    "Decriminalization",
+    "Medical marijuana card"
+  ],
+  "sources": [
+    {
+      "name": "German Federal Ministry of Health, FAQ on the Cannabis Act",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    },
+    {
+      "name": "Harris Sliwoski, Washington State's New Cannabis Homegrow Rules",
+      "url": "https://harris-sliwoski.com/cannalawblog/washington-states-new-cannabis-homegrow-rules/"
+    },
+    {
+      "name": "Marijuana Moment, Malta issues EU's first licenses allowing nonprofit cannabis associations to begin growing marijuana (2023)",
+      "url": "https://www.marijuanamoment.net/malta-issues-eus-first-licenses-allowing-nonprofit-cannabis-associations-to-begin-growing-marijuana/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

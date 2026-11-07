@@ -1,0 +1,38 @@
+{
+  "id": "glossary/edibles",
+  "type": "glossary",
+  "name": "Edibles",
+  "tags": [
+    "Edibles"
+  ],
+  "short": "Foods and drinks infused with cannabis, such as gummies, chocolates and beverages, whose effects start more slowly than smoked cannabis.",
+  "definition": [
+    "Edibles are cannabis products meant to be eaten or drunk: gummies, chocolates, baked goods, mints, beverages and similar items. California's regulations define an edible cannabis product as one intended to be used orally for human consumption, distinct from tinctures and other concentrates. Manufacturers usually infuse them with distillate or other extracts that have already been decarboxylated so the THC is active.",
+    "Because edibles are digested, effects begin later and last longer than with smoking or vaping. Federal health researchers note that the delay can lead people to take more before the first amount takes hold, and the FDA has highlighted accidental ingestion by children, since many products look like ordinary sweets. For those reasons legal states regulate edibles closely: limits on THC per serving and per package, child-resistant packaging, warning symbols and bans on shapes or branding that appeal to children.",
+    "Edibles are also at the centre of the hemp fight. Hemp-derived gummies and THC drinks sold outside dispensaries will largely lose federal legality when the 0.4 mg per-container cap takes effect on 11 December 2026, and some states have already moved. Under FDA policy, adding THC or CBD to food sold across state lines is prohibited."
+  ],
+  "example": "The state now bans edibles shaped like animals, fruit or cartoon characters.",
+  "related": [
+    "Tincture",
+    "Distillate",
+    "Decarboxylation",
+    "Hemp",
+    "Delta-8 THC"
+  ],
+  "sources": [
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    },
+    {
+      "name": "U.S. Food and Drug Administration, FDA Regulation of Cannabis and Cannabis-Derived Products, Including Cannabidiol (CBD)",
+      "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

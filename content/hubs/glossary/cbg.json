@@ -1,0 +1,35 @@
+{
+  "id": "glossary/cbg",
+  "type": "glossary",
+  "name": "CBG",
+  "tags": [
+    "CBG",
+    "Cannabinoids",
+    "Hemp"
+  ],
+  "short": "Cannabigerol, a non-intoxicating cannabinoid whose acid form, CBGA, is the precursor from which the plant builds THC and CBD.",
+  "definition": [
+    "CBG, or cannabigerol, is sometimes called the parent cannabinoid. The plant first makes its acid form, CBGA, then uses enzymes to convert it into the acid forms of THC, CBD and other compounds. Because most CBGA is converted as flowers mature, typical cannabis contains only small amounts of CBG, although breeders have developed hemp varieties in which it is the dominant cannabinoid.",
+    "CBG does not produce a high. Laboratory work shows it acts weakly on the main cannabinoid receptors and on several other targets in the body, and animal and cell studies have explored anti-inflammatory and appetite effects. Reviews stress that almost all of this evidence is preclinical; there are no large human trials establishing what CBG does in people.",
+    "In business terms, CBG is part of the 'minor cannabinoid' wave that hemp brands used to differentiate products after CBD prices fell. It is legal as a hemp derivative when it comes from compliant hemp, but finished products remain subject to the total-THC limits that take effect under the federal hemp redefinition on 11 December 2026, and states may impose their own testing and labelling rules."
+  ],
+  "example": "Some hemp growers have switched to high-CBG varieties to escape a glutted CBD market.",
+  "related": [
+    "Cannabinoids",
+    "CBD",
+    "CBN",
+    "Hemp"
+  ],
+  "sources": [
+    {
+      "name": "Walsh KB, McKinney AE, Holmes AE, Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses, Frontiers in Pharmacology (2021)",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.777804/full"
+    },
+    {
+      "name": "Russo EB, Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology (2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

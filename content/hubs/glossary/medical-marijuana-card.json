@@ -1,0 +1,37 @@
+{
+  "id": "glossary/medical-marijuana-card",
+  "type": "glossary",
+  "name": "Medical marijuana card",
+  "tags": [
+    "Medical cannabis"
+  ],
+  "short": "A state-issued registry ID card that lets a qualified patient or caregiver buy, possess and sometimes grow medical cannabis.",
+  "definition": [
+    "A medical marijuana card is the identification document a state issues to patients and caregivers registered in its medical cannabis program. The usual process is that a qualified physician or other authorised practitioner certifies that the patient has a qualifying condition, the patient registers with the state and pays a fee, and the state issues a card that dispensaries check at each purchase. Florida's statute, for instance, requires cards that resist counterfeiting, carry a photo and a unique registry number, and are renewed every year.",
+    "Card benefits vary. They can include access to higher possession limits or stronger products than adult-use buyers, lower taxes, access for patients under 21 and, in some states, the right to grow plants at home. Washington, for example, allows registered patients to grow more plants than unregistered ones and to join cooperatives, while adult-use home growing is not allowed there.",
+    "The federal rescheduling order of April 2026 gave state medical certifications a new role: they can support dispensing under Schedule III if they include the patient's name and address, are signed and dated, and identify the practitioner."
+  ],
+  "example": "Card registrations rose after the state cut its annual fee and allowed telehealth certifications.",
+  "related": [
+    "Medical cannabis",
+    "Dispensary",
+    "Home grow",
+    "Schedule III"
+  ],
+  "sources": [
+    {
+      "name": "Florida Statutes 381.986, Medical use of marijuana",
+      "url": "https://florida.public.law/statutes/fla._stat._381.986"
+    },
+    {
+      "name": "Harris Sliwoski, Washington State's New Cannabis Homegrow Rules",
+      "url": "https://harris-sliwoski.com/cannalawblog/washington-states-new-cannabis-homegrow-rules/"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

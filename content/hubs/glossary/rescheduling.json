@@ -1,0 +1,40 @@
+{
+  "id": "glossary/rescheduling",
+  "type": "glossary",
+  "name": "Rescheduling",
+  "tags": [
+    "Rescheduling",
+    "DEA",
+    "Section 280E"
+  ],
+  "short": "Moving a drug to a different schedule of the Controlled Substances Act; for marijuana, the shift from Schedule I toward Schedule III.",
+  "definition": [
+    "Rescheduling means moving a controlled substance from one federal schedule to another. In cannabis coverage it refers to the multi-year effort to take marijuana out of Schedule I. In 2022 the White House asked federal agencies to review marijuana's classification; health officials recommended Schedule III in 2023, and the Justice Department proposed that move in 2024. The formal hearing stalled amid procedural disputes.",
+    "The process then split in two. On 23 April 2026 Acting Attorney General Todd Blanche ordered that state-licensed medical marijuana and FDA-approved marijuana products be placed in Schedule III immediately, using treaty-based authority. The DEA opened a registration pathway for medical businesses and began approving dispensaries in October. The order is being challenged in the US Court of Appeals for the D.C. Circuit, which declined to pause it.",
+    "Separately, the DEA started a new administrative hearing on 29 June 2026 on moving all marijuana to Schedule III. Final briefs were filed on 5 November, and the chief administrative law judge's non-binding recommendation goes to the DEA Administrator, who makes the decision. Rescheduling does not legalise adult-use cannabis federally, but it removes the Section 280E tax penalty for covered businesses. It differs from descheduling, which would remove marijuana from the act."
+  ],
+  "example": "The rescheduling hearing's paper fight is over; the judge's recommendation could come at any time.",
+  "related": [
+    "Schedule III",
+    "Schedule I",
+    "Descheduling",
+    "Section 280E",
+    "Controlled Substances Act"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "Foley Hoag, Cannabis Rescheduling and the Path to U.S. Exchange Listings (May 2026)",
+      "url": "https://www.foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/may/cannabis-rescheduling-and-the-path-to-u-s-exchange-listings-what-management-teams-need-to-know-now/"
+    },
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

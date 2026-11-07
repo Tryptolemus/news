@@ -1,0 +1,40 @@
+{
+  "id": "glossary/schedule-i",
+  "type": "glossary",
+  "name": "Schedule I",
+  "tags": [
+    "Rescheduling",
+    "DEA",
+    "Schedule I"
+  ],
+  "short": "The most restrictive category of the US Controlled Substances Act, for drugs deemed to have high abuse potential and no accepted medical use.",
+  "definition": [
+    "Schedule I is the first of five categories in the federal Controlled Substances Act. The DEA describes Schedule I drugs as having a high potential for abuse and no currently accepted medical use; heroin, LSD and MDMA are examples. Schedule I substances can be handled only under tightly controlled research registrations, and businesses that traffic in them cannot deduct ordinary expenses for federal tax purposes under Section 280E.",
+    "Congress put marijuana in Schedule I when it passed the act in 1970, and it stayed there for more than five decades, a status critics said ignored state medical programs and research. In April 2026 an order from Acting Attorney General Todd Blanche moved two categories out of Schedule I and into Schedule III: FDA-approved marijuana products and marijuana subject to a state medical licence.",
+    "Everything else stays in Schedule I for now, including marijuana sold under state adult-use laws, unlicensed marijuana and synthetically derived THC. A DEA administrative hearing on moving all marijuana to Schedule III began in June 2026 and was awaiting the judge's recommendation in November. The April order is also being challenged in federal court."
+  ],
+  "example": "Adult-use sales remain a Schedule I activity under federal law even after the April order.",
+  "related": [
+    "Schedule III",
+    "Controlled Substances Act",
+    "Rescheduling",
+    "Section 280E",
+    "Marijuana"
+  ],
+  "sources": [
+    {
+      "name": "U.S. Drug Enforcement Administration, Drug Scheduling",
+      "url": "https://www.dea.gov/drug-information/drug-scheduling"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

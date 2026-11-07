@@ -1,0 +1,35 @@
+{
+  "id": "glossary/craft-cannabis",
+  "type": "glossary",
+  "name": "Craft cannabis",
+  "tags": [
+    "Craft cannabis",
+    "Licensing"
+  ],
+  "short": "Cannabis grown or made by small, often independent producers in limited batches; in some places a defined licence category with size caps.",
+  "definition": [
+    "Craft cannabis describes products from small-scale producers who emphasise particular genetics, hand cultivation, careful drying and curing, or solventless processing, much as 'craft beer' does for brewing. In most markets it is a marketing term with no legal definition, which means a large company can also use it.",
+    "Some governments have turned it into a licence category to protect small operators. Illinois issues craft grower licences limited to 5,000 square feet of flowering canopy, which the state can expand in steps up to 14,000 square feet. Canada offers micro-cultivation and micro-processing licences with lighter requirements than its standard classes. Other states use microbusiness licences that let small companies grow, make and sell under one permit. Advocates also push for direct-to-consumer sales, farmers' markets and appellation-of-origin rules.",
+    "Craft producers say they struggle against larger, vertically integrated companies with bigger shelf presence and lower costs, and they have been hit hard by price declines in oversupplied markets. Germany's non-commercial cultivation clubs and home-grow rules have created a different kind of small-batch sector in Europe, though one that cannot be sold commercially."
+  ],
+  "example": "Craft growers want the state to let them sell directly to customers at events.",
+  "related": [
+    "Cultivator",
+    "Home grow",
+    "Rosin",
+    "Vertical integration",
+    "Cannabis social club"
+  ],
+  "sources": [
+    {
+      "name": "Illinois Cannabis Regulation and Tax Act, 410 ILCS 705/1-10 (Definitions)",
+      "url": "https://ilga.gov/legislation/ilcs/documents/041007050K1-10.htm"
+    },
+    {
+      "name": "Health Canada, Licensed cannabis cultivators, processors and sellers",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/licensed-cultivators-processors-sellers.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

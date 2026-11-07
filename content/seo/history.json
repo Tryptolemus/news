@@ -79,5 +79,32 @@
   "score_structure": 96.2,
   "score_scale": 23.5,
   "score_total": 72.0
+ },
+ {
+  "at": "2026-11-07T09:55:18+00:00",
+  "label": "Round 3a: 22 countries + 60-term glossary",
+  "pages_indexable": 198,
+  "articles": 22,
+  "hub_pages": 162,
+  "evergreen_ratio_pct": 81.8,
+  "sitemap_coverage_pct": 100.0,
+  "title_ok_pct": 99.0,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 99.5,
+  "single_h1_pct": 100.0,
+  "self_canonical_pct": 100.0,
+  "jsonld_pct": 100.0,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 100.0,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 0,
+  "avg_internal_links_per_article": 32.5,
+  "avg_inbound_links_per_article": 21.8,
+  "avg_inbound_links_per_hub": 14.4,
+  "avg_words_per_article": 1457,
+  "score_technical": 99.8,
+  "score_structure": 96.2,
+  "score_scale": 36.9,
+  "score_total": 76.7
  }
 ]

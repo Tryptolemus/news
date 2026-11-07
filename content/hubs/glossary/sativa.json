@@ -1,0 +1,34 @@
+{
+  "id": "glossary/sativa",
+  "type": "glossary",
+  "name": "Sativa",
+  "tags": [
+    "Strains",
+    "Research"
+  ],
+  "short": "A strain label traditionally applied to tall, narrow-leaved cannabis said to be energising, though studies show it poorly predicts genetics or chemistry.",
+  "definition": [
+    "Sativa is one of the two classic labels used to sort cannabis varieties. In shop talk it describes plants that grow tall with thin leaves and longer flowering times, and products marketed as uplifting or energising. The word comes from Cannabis sativa, the scientific name botanists gave the species in the eighteenth century, and US law still uses Cannabis sativa L. as the umbrella name for both hemp and marijuana.",
+    "Modern commercial cannabis has been crossbred for decades, and research has undercut the label. A study led by scientists at Wageningen University in the Netherlands and Dalhousie University in Canada, published in Nature Plants, analysed hundreds of samples and found that neither genetics nor overall chemistry reliably distinguished sativa-labelled from indica-labelled products. Samples sold under the same strain name could be as different as those with different names. Sativa-labelled samples did lean toward fruitier, tea-like terpenes, but the differences were small.",
+    "The authors suggested that producers report cannabinoid and terpene profiles instead. Reporters should treat 'sativa' as a marketing category rather than a botanical or medical claim."
+  ],
+  "example": "The study found that a sativa label told buyers little about what was actually in the jar.",
+  "related": [
+    "Indica",
+    "Hybrid",
+    "Terpenes",
+    "Flower"
+  ],
+  "sources": [
+    {
+      "name": "Wageningen University & Research, Cannabis labels often wrong and misleading (on the Nature Plants study with Dalhousie University)",
+      "url": "https://www.wur.nl/en/newsarticle/cannabis-labels-often-wrong-and-misleading.htm"
+    },
+    {
+      "name": "21 U.S. Code 802, Definitions (Legal Information Institute, Cornell Law School)",
+      "url": "https://www.law.cornell.edu/uscode/text/21/802"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

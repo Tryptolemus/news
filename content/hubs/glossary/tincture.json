@@ -1,0 +1,33 @@
+{
+  "id": "glossary/tincture",
+  "type": "glossary",
+  "name": "Tincture",
+  "tags": [
+    "Tinctures"
+  ],
+  "short": "A liquid cannabis extract dissolved in alcohol, glycerin or oil, usually taken by dropper under the tongue or mixed into food or drink.",
+  "definition": [
+    "A tincture is cannabis extract dissolved in a liquid carrier, traditionally alcohol and today also vegetable glycerin or oils such as MCT oil. California's regulations define it as a solution of cannabis extract in alcohol, glycerin or vegetable oil, and classify it as a concentrate rather than an edible. Tinctures are typically sold in small bottles with a dropper and taken under the tongue or added to food and drinks.",
+    "Tinctures are popular with medical patients because they are smoke-free and allow measured servings, and they are a core product in many CBD lines.",
+    "From a regulatory view, tinctures sit between categories. Some states apply concentrate rules and others treat them as ingestible products with per-serving limits. CBD tinctures sold as hemp products face FDA restrictions on marketing ingestible CBD as food or supplements, and under the federal hemp redefinition taking effect on 11 December 2026, a bottle containing more than 0.4 mg of total THC would no longer count as hemp. Label accuracy, including THC content in supposedly THC-free products, is a recurring testing issue."
+  ],
+  "example": "The regulator proposed new labelling rules for tinctures after tests found THC in products sold as THC-free.",
+  "related": [
+    "Edibles",
+    "Concentrate",
+    "CBD",
+    "Medical cannabis"
+  ],
+  "sources": [
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

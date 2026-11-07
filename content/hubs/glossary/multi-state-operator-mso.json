@@ -1,0 +1,36 @@
+{
+  "id": "glossary/multi-state-operator-mso",
+  "type": "glossary",
+  "name": "Multi-state operator (MSO)",
+  "tags": [
+    "MSO",
+    "Earnings",
+    "Markets"
+  ],
+  "short": "A US cannabis company holding licences in several states, usually vertically integrated and publicly traded in Canada or over the counter.",
+  "definition": [
+    "A multi-state operator, or MSO, is a cannabis company that holds licences to grow, process or sell marijuana in more than one US state. Because federal law prohibits moving marijuana across state lines, MSOs must build separate supply chains in every state, often as vertically integrated businesses with their own cultivation, processing and stores. Well-known MSOs include Curaleaf, Green Thumb Industries and Trulieve.",
+    "MSOs face financial constraints that their Canadian peers and ancillary businesses do not. Major US exchanges have said they will not list companies whose activities break federal law, so the largest MSOs trade on Canadian exchanges and US over-the-counter markets, with thinner liquidity and less institutional ownership. They have also carried heavy Section 280E tax bills and limited access to bank lending.",
+    "The April 2026 order moving state-licensed medical marijuana to Schedule III changes some of that for medical operations, which can register with the DEA and claim normal tax deductions. Adult-use businesses remain in Schedule I. Law firms advising MSOs expect US exchanges to consider listings only for companies whose activities comply fully with federal law, so many MSOs may need to separate medical and adult-use operations or wait for broader reform."
+  ],
+  "example": "The MSO said its Florida medical stores were among the first registered by the DEA.",
+  "related": [
+    "Vertical integration",
+    "Licensed producer (LP)",
+    "Section 280E",
+    "Schedule III",
+    "SAFER Banking Act"
+  ],
+  "sources": [
+    {
+      "name": "Foley Hoag, Cannabis Rescheduling and the Path to U.S. Exchange Listings (May 2026)",
+      "url": "https://www.foleyhoag.com/news-and-insights/blogs/cannabis-and-the-law/2026/may/cannabis-rescheduling-and-the-path-to-u-s-exchange-listings-what-management-teams-need-to-know-now/"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

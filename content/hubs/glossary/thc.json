@@ -1,0 +1,36 @@
+{
+  "id": "glossary/thc",
+  "type": "glossary",
+  "name": "THC",
+  "tags": [
+    "THC",
+    "Total THC",
+    "Hemp-derived THC"
+  ],
+  "short": "Tetrahydrocannabinol, the main intoxicating compound in cannabis and the number most laws and product labels use to separate regulated cannabis from hemp.",
+  "definition": [
+    "THC is short for tetrahydrocannabinol. In everyday and legal usage it usually means delta-9 THC, the form the plant makes in the largest amounts and the one chiefly responsible for the altered mood, perception and thinking people associate with being high. Other THC forms exist, including delta-8 and the acid precursor THCA, which is why regulators increasingly spell out exactly which ones they mean.",
+    "THC content drives both price and law. Shoppers and growers often treat a high percentage as a sign of quality, and federal researchers report that the average delta-9 THC level in illicit cannabis seized by US law enforcement rose roughly fourfold between 1995 and 2022, while some dispensary flower and concentrates now exceed 40%. On the legal side, the US separates hemp from marijuana by THC concentration. The 2018 Farm Bill measured delta-9 THC only; a law enacted in November 2025 replaces that with a total-THC test and a per-container cap for finished products, most of which takes effect on 11 December 2026.",
+    "When stories cite a THC figure, it is worth asking which compound was measured, whether acid forms were counted, and whether the number is a share of weight or an amount per package."
+  ],
+  "example": "Regulators said several products seized from convenience stores contained far more THC than their labels claimed.",
+  "related": [
+    "THCA",
+    "Delta-9 THC",
+    "Total THC",
+    "Potency testing",
+    "Hemp"
+  ],
+  "sources": [
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

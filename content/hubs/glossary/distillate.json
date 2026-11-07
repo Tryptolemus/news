@@ -1,0 +1,35 @@
+{
+  "id": "glossary/distillate",
+  "type": "glossary",
+  "name": "Distillate",
+  "tags": [
+    "Concentrates",
+    "Vaping"
+  ],
+  "short": "A highly refined cannabis oil, often above 90% of a single cannabinoid, used mainly in vape cartridges, edibles and infused products.",
+  "definition": [
+    "Distillate is one of the most refined cannabis products. Producers first extract crude oil, usually with ethanol or carbon dioxide, then remove fats and waxes in a step called winterisation, heat the oil to decarboxylate it, and distil it under vacuum using short-path, thin-film or wiped-film equipment. The result is a clear to golden oil that can contain 90% or more of a single cannabinoid such as THC or CBD.",
+    "Distillation strips out most of the plant's terpenes and other compounds. Manufacturers often add terpenes back, either from cannabis or from other botanicals, to restore flavour, which has become a labelling issue in some markets. Because it is consistent, nearly odourless and easy to dose into products, distillate is the workhorse ingredient for many vape cartridges, gummies, drinks and infused pre-rolls.",
+    "Distillate made from hemp CBD has also been the starting material for converted cannabinoids such as delta-8 THC. Regulators focus on residual solvents, pesticides concentrated during processing and additives in vape products. The 2019 lung-injury outbreak tied to vitamin E acetate in illicit THC cartridges made cartridge ingredients a lasting regulatory priority."
+  ],
+  "example": "Processors say falling distillate prices have pushed more brands toward premium live resin lines.",
+  "related": [
+    "Concentrate",
+    "Vape cartridge",
+    "Edibles",
+    "Decarboxylation",
+    "Live resin"
+  ],
+  "sources": [
+    {
+      "name": "Technology Networks, Cannabis Distillate: What Is It and How To Make It",
+      "url": "https://www.technologynetworks.com/applied-sciences/articles/cannabis-distillate-what-is-it-and-how-to-make-it-390014"
+    },
+    {
+      "name": "Journal of Cannabis Research, narrative review of drying, extraction and post-extraction methods for Cannabis sativa L. (2021)",
+      "url": "https://link.springer.com/article/10.1186/s42238-021-00087-9"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

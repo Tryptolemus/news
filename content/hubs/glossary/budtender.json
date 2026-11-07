@@ -1,0 +1,30 @@
+{
+  "id": "glossary/budtender",
+  "type": "glossary",
+  "name": "Budtender",
+  "tags": [
+    "Retail",
+    "Workforce"
+  ],
+  "short": "A dispensary sales associate who helps customers choose cannabis products and checks IDs and purchase limits.",
+  "definition": [
+    "Budtender is the common job title for front-line staff in cannabis stores, a play on bartender. Budtenders check identification and medical cards, explain product categories and potency, recommend items, process sales and record each transaction in the state's tracking system. In many states they must hold a worker permit or agent registration and complete training on rules such as purchase limits and sales to minors.",
+    "Budtenders occupy an awkward position in medical markets. Patients often turn to them for advice, yet most are not health professionals. A 2017 study by RTI International researchers surveyed 158 budtenders in California and found that only about 56% had formal training, and that trained and untrained staff differed in how they approached patients' medical decisions and communication. The authors called for more research into how these interactions shape care.",
+    "Budtenders are also a labour story. Pay is often close to minimum wage plus commissions or tips, turnover is high, and unionisation drives have reached stores in several states. As the industry consolidates and automates, how stores train and staff the counter remains a key indicator of retail health."
+  ],
+  "example": "Budtenders at the chain's three stores voted to unionise, citing scheduling and pay.",
+  "related": [
+    "Dispensary",
+    "Medical cannabis",
+    "Adult-use",
+    "Track and trace"
+  ],
+  "sources": [
+    {
+      "name": "Peiper NC et al., Medical Decision-Making Processes and Online Behaviors Among Cannabis Dispensary Staff, Substance Abuse: Research and Treatment (2017)",
+      "url": "https://www.rti.org/publication/medical-decision-making-processes-online-behaviors-among-cannabis-dispensary-staff"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "glossary/controlled-substances-act",
+  "type": "glossary",
+  "name": "Controlled Substances Act",
+  "tags": [
+    "Controlled Substances Act",
+    "DEA",
+    "Rescheduling"
+  ],
+  "short": "The 1970 US federal law that classifies drugs into five schedules and governs their manufacture, distribution and possession.",
+  "definition": [
+    "The Controlled Substances Act, or CSA, is the main federal drug law in the United States. Enacted in 1970, it sorts regulated substances into five schedules based on abuse potential, accepted medical use and dependence risk, from Schedule I (most restricted) to Schedule V. The DEA enforces it within the Justice Department, and the Food and Drug Administration, part of the Department of Health and Human Services, provides the scientific and medical evaluation used in scheduling decisions.",
+    "Substances can be moved between schedules, or removed, by Congress or by the Attorney General through formal rulemaking with a hearing, temporary emergency scheduling, or actions needed to meet international drug treaties. The April 2026 order moving state-licensed medical marijuana into Schedule III used the treaty route. The broader proposal to move all marijuana is going through the formal hearing process.",
+    "The CSA's definition of marijuana covers the cannabis plant and its derivatives but excludes hemp, mature stalks, fibre and sterilised seed. Because federal law is supreme, state legalisation does not change federal status: growing and selling marijuana outside the CSA's rules remains a federal crime, even if prosecutors rarely pursue state-compliant businesses."
+  ],
+  "example": "Only Congress can remove marijuana from the Controlled Substances Act entirely without going through the DEA.",
+  "related": [
+    "Schedule I",
+    "Schedule III",
+    "Rescheduling",
+    "Descheduling",
+    "Marijuana"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "21 U.S. Code 802, Definitions (Legal Information Institute, Cornell Law School)",
+      "url": "https://www.law.cornell.edu/uscode/text/21/802"
+    },
+    {
+      "name": "U.S. Drug Enforcement Administration, Drug Scheduling",
+      "url": "https://www.dea.gov/drug-information/drug-scheduling"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

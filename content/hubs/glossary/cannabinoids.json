@@ -1,0 +1,39 @@
+{
+  "id": "glossary/cannabinoids",
+  "type": "glossary",
+  "name": "Cannabinoids",
+  "tags": [
+    "Cannabinoids",
+    "Research"
+  ],
+  "short": "The family of chemical compounds, including THC and CBD, that are found in cannabis or act on the body's cannabinoid receptors.",
+  "definition": [
+    "Cannabinoids are the chemical compounds that make cannabis distinctive. Scientists have identified more than 100 in the plant beyond the two best known, THC and CBD, among a total of roughly 540 chemical substances the plant contains. Plant-made cannabinoids are often called phytocannabinoids to distinguish them from endocannabinoids, which the human body produces itself, and from synthetic cannabinoids made in laboratories.",
+    "Most cannabinoids act at least partly through two receptor types, CB1 and CB2, though many also hit other targets. THC's strong action at CB1 explains its intoxicating effect; most so-called minor cannabinoids, such as CBG and CBN, bind far more weakly. The plant makes them mainly in acid forms, such as THCA and CBDA, that change into their better-known neutral forms when heated.",
+    "In regulation the word does a lot of work. US federal law approves only a handful of cannabinoid medicines, such as Epidiolex and synthetic THC drugs, and has not approved the cannabis plant itself for any condition. The November 2025 hemp redefinition caps total THC and 'similar-effect' cannabinoids in hemp products and excludes those that cannot be produced naturally by the plant, which makes careful naming of each compound important in news coverage."
+  ],
+  "example": "The bill would ask the FDA to publish a list of cannabinoids that count toward the new hemp limit.",
+  "related": [
+    "THC",
+    "CBD",
+    "CBG",
+    "CBN",
+    "Terpenes"
+  ],
+  "sources": [
+    {
+      "name": "National Center for Complementary and Integrative Health (NIH), Cannabis (Marijuana) and Cannabinoids: What You Need To Know",
+      "url": "https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know"
+    },
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    },
+    {
+      "name": "Walsh KB, McKinney AE, Holmes AE, Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses, Frontiers in Pharmacology (2021)",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.777804/full"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

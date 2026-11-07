@@ -1,0 +1,35 @@
+{
+  "id": "glossary/entourage-effect",
+  "type": "glossary",
+  "name": "Entourage effect",
+  "tags": [
+    "Entourage effect",
+    "Research",
+    "Terpenes"
+  ],
+  "short": "The hypothesis that cannabinoids and terpenes in whole-plant cannabis work together to produce effects different from any single compound alone.",
+  "definition": [
+    "The entourage effect is the idea that the many compounds in cannabis modify one another, so that whole-plant products behave differently from isolated THC or CBD. The term was coined in 1998 by Israeli researchers, including Raphael Mechoulam, to describe how inactive molecules in the body's own endocannabinoid system boosted the activity of active ones. In 2011 neurologist Ethan Russo extended the concept to the plant, arguing in the British Journal of Pharmacology that terpenes and minor cannabinoids might enhance or temper THC; he cited CBD's apparent ability to reduce some of THC's unwanted effects.",
+    "Much of the supporting evidence is preclinical or indirect, and Russo himself called for controlled human trials. A 2021 review of minor cannabinoids concluded that the entourage effect still lacks definitive experimental support, and some studies have found no difference between isolated compounds and mixtures.",
+    "The concept is commercially powerful. It underpins marketing for 'full-spectrum' CBD oils, live resin and strain-specific terpene blends, and it shapes debates over whether regulators should judge products by single-compound limits. Coverage should present it as a hypothesis under study, not settled science."
+  ],
+  "example": "The company's full-spectrum line leans heavily on the entourage effect, though the science remains unsettled.",
+  "related": [
+    "Terpenes",
+    "Cannabinoids",
+    "CBD",
+    "THC"
+  ],
+  "sources": [
+    {
+      "name": "Russo EB, Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology (2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+    },
+    {
+      "name": "Walsh KB, McKinney AE, Holmes AE, Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses, Frontiers in Pharmacology (2021)",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.777804/full"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

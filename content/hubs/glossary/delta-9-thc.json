@@ -1,0 +1,41 @@
+{
+  "id": "glossary/delta-9-thc",
+  "type": "glossary",
+  "name": "Delta-9 THC",
+  "tags": [
+    "THC",
+    "Hemp-derived THC",
+    "Hemp",
+    "Total THC"
+  ],
+  "short": "The most abundant and best-studied form of THC, and the compound the 2018 Farm Bill used to draw the legal line between hemp and marijuana.",
+  "definition": [
+    "Delta-9 tetrahydrocannabinol is the THC molecule most people mean when they say THC. It is the main driver of cannabis intoxication and the compound behind most potency figures on dispensary labels. Federal health agencies describe it as the most abundant THC form in the plant, and FDA-approved synthetic versions, sold under the generic name dronabinol, have been on the market for decades.",
+    "Delta-9 matters legally because of a single phrase in the 2018 Farm Bill: hemp was cannabis with a delta-9 THC concentration of no more than 0.3% on a dry-weight basis. Because the test named only delta-9 and measured it as a share of weight, businesses built markets around products that met the letter of the rule, such as THCA flower, delta-8 products and heavy hemp gummies whose total delta-9 content was meaningful even though their percentage stayed low.",
+    "Congress changed course in November 2025. The new definition swaps the delta-9 measure for total THC and caps finished hemp products at 0.4 mg of total THC per container, with most provisions effective 11 December 2026. In news copy, 'hemp-derived delta-9' usually refers to that soon-to-close category of intoxicating hemp products."
+  ],
+  "example": "Hemp-derived delta-9 drinks were among the products lawmakers said the new federal definition would remove from shelves.",
+  "related": [
+    "THC",
+    "Delta-8 THC",
+    "Total THC",
+    "Hemp",
+    "2018 Farm Bill"
+  ],
+  "sources": [
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    },
+    {
+      "name": "U.S. Food and Drug Administration, FDA Regulation of Cannabis and Cannabis-Derived Products, Including Cannabidiol (CBD)",
+      "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

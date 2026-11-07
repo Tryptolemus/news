@@ -1,0 +1,36 @@
+{
+  "id": "glossary/section-280e",
+  "type": "glossary",
+  "name": "Section 280E",
+  "tags": [
+    "Section 280E",
+    "Taxes",
+    "Rescheduling"
+  ],
+  "short": "A 1982 US tax provision barring businesses that traffic in Schedule I or II drugs from deducting ordinary expenses; it has burdened cannabis firms.",
+  "definition": [
+    "Section 280E of the Internal Revenue Code says that no deduction or credit is allowed for a business that consists of trafficking in Schedule I or Schedule II controlled substances in violation of federal or state law. Congress added it in 1982 after a convicted drug dealer successfully deducted business expenses. Because marijuana sat in Schedule I, state-licensed cannabis companies could subtract the cost of goods sold but not ordinary costs such as rent, wages for sales staff or advertising, which often left them paying taxes far above a normal business's effective rate.",
+    "Rescheduling changes that because the provision applies only to Schedules I and II. After the April 2026 order placed state-licensed medical marijuana in Schedule III, Treasury and the IRS said affected businesses would generally no longer be subject to 280E, and Treasury signalled it would consider relief for past years. Detailed guidance on timing, mixed medical and adult-use operations and the role of DEA registration was still awaited in late 2026.",
+    "Adult-use operations remain in Schedule I and stay subject to 280E. If courts vacate the April order, the provision would apply again across the industry. The tax change is one of the biggest swing factors in cannabis company earnings and valuations."
+  ],
+  "example": "The company said it would stop accruing 280E taxes on its medical operations from the second quarter.",
+  "related": [
+    "Schedule III",
+    "Rescheduling",
+    "Schedule I",
+    "Multi-state operator (MSO)",
+    "Adult-use"
+  ],
+  "sources": [
+    {
+      "name": "26 U.S. Code 280E (Legal Information Institute, Cornell Law School)",
+      "url": "https://www.law.cornell.edu/uscode/text/26/280E"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "glossary/total-thc",
+  "type": "glossary",
+  "name": "Total THC",
+  "tags": [
+    "Total THC",
+    "Hemp",
+    "Hemp-derived THC",
+    "Testing"
+  ],
+  "short": "A potency measure that counts delta-9 THC plus the THC that THCA would become when heated, and increasingly other THC isomers.",
+  "definition": [
+    "Total THC is a way of reporting potency that reflects what a product can deliver once it is heated, not just what it contains in the jar. Because raw cannabis holds most of its THC as THCA, a test that counts only delta-9 THC can make strong flower look weak. A total-THC result adds the delta-9 THC already present to the THC that the THCA would yield after decarboxylation, adjusting for the small amount of mass the molecule loses in that reaction. Labs either calculate this or use methods that convert the acid during testing.",
+    "USDA's 2021 hemp production rule required growers to have crops tested for total THC within 30 days before harvest, with a 0.3% limit and a 1% threshold for negligent violations. Finished hemp products, however, were often sold on delta-9 numbers alone.",
+    "The November 2025 federal law extends the concept across the hemp supply chain. It applies the 0.3% limit to total THC, explicitly including THCA, counts other THC isomers and similar cannabinoids, and caps final consumer products at 0.4 mg of combined total THC per container. Those provisions take effect on 11 December 2026. Illinois and Missouri have adopted total-THC rules of their own that start earlier."
+  ],
+  "example": "Illinois will treat any hemp product with more than 0.4 mg of total THC per container as cannabis from 12 November.",
+  "related": [
+    "THC",
+    "THCA",
+    "Decarboxylation",
+    "Hemp",
+    "Potency testing"
+  ],
+  "sources": [
+    {
+      "name": "Federal Register, USDA Establishment of a Domestic Hemp Production Program, final rule (19 January 2021)",
+      "url": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "glossary/excise-tax",
+  "type": "glossary",
+  "name": "Excise tax",
+  "tags": [
+    "Excise tax",
+    "Taxes"
+  ],
+  "short": "A tax levied specifically on cannabis sales or production, on top of general sales tax, often as a percentage of price or by weight or THC.",
+  "definition": [
+    "An excise tax is a tax on a particular product rather than on sales generally, the same tool governments use for alcohol, tobacco and fuel. Cannabis excise taxes are usually charged as a percentage of the retail or wholesale price, by weight of flower, or increasingly by THC content. They come on top of ordinary sales taxes and local levies, and the revenue is often earmarked for programs such as enforcement, prevention, research or community reinvestment.",
+    "California's cannabis excise tax is a good example of the policy fights involved. It is charged at 15% of gross receipts, collected by retailers from buyers. A scheduled rise to 19% took effect in July 2025 but was reversed by a new law, returning the rate to 15% from October 2025. In Canada, the federal government charges excise duty at the higher of a flat rate per gram or a percentage of the price, and most provinces add their own share; producers must also apply provincial excise stamps.",
+    "Excise rates are a central industry complaint because high taxes widen the price gap with the illicit market. Proposals to tax by potency, cut stamp requirements or extend excise to hemp-derived products are common news items."
+  ],
+  "example": "Retailers say the excise tax increase pushed price-sensitive customers back to the illicit market.",
+  "related": [
+    "Adult-use",
+    "Legalization",
+    "Licensed producer (LP)",
+    "Section 280E"
+  ],
+  "sources": [
+    {
+      "name": "California Department of Tax and Fee Administration, news release 25-09 on the cannabis excise tax rate",
+      "url": "https://cdtfa.ca.gov/news/25-09.htm"
+    },
+    {
+      "name": "Department of Finance Canada, Cannabis Excise Duty Rates in Provinces and Territories (2018)",
+      "url": "https://www.canada.ca/en/department-finance/news/2018/09/cannabis-excise-duty-rates-in-provinces-and-territories.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

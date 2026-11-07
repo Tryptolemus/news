@@ -1,0 +1,39 @@
+{
+  "id": "glossary/cultivator",
+  "type": "glossary",
+  "name": "Cultivator",
+  "tags": [
+    "Licensing",
+    "Cultivation"
+  ],
+  "short": "A licensed business that grows cannabis plants, indoors, in greenhouses or outdoors, and sells harvested flower or biomass.",
+  "definition": [
+    "A cultivator is a business licensed to grow cannabis. Licences are usually tiered by canopy size, meaning the square footage of flowering plants, and by method: indoor, greenhouse, mixed-light or outdoor. Illinois, for example, licenses large cultivation centres and smaller craft growers capped at 5,000 square feet of flowering canopy, expandable in steps to 14,000. Canada's federal regime distinguishes standard cultivation from micro-cultivation and nursery licences.",
+    "Cultivators must tag plants with state tracking identifiers, follow pesticide and security rules, and send harvest batches for testing before sale. Most sell flower to retailers or distributors and lower-grade material to processors for extraction, unless they are part of a vertically integrated company that does all three.",
+    "Economics dominate cultivation coverage. Rapid, lightly capped licensing in some states led to oversupply and falling wholesale prices, pushing many growers out of business, while limited-licence states kept prices higher. Energy costs, crop failures and the Section 280E tax penalty have added pressure. Under the April 2026 federal order, state-licensed medical cultivators can register with the DEA, which brings Schedule III recordkeeping duties along with tax relief."
+  ],
+  "example": "The cultivator laid off a third of its staff after wholesale flower prices fell below production costs.",
+  "related": [
+    "Processor",
+    "Craft cannabis",
+    "Flower",
+    "Vertical integration",
+    "Track and trace"
+  ],
+  "sources": [
+    {
+      "name": "Illinois Cannabis Regulation and Tax Act, 410 ILCS 705/1-10 (Definitions)",
+      "url": "https://ilga.gov/legislation/ilcs/documents/041007050K1-10.htm"
+    },
+    {
+      "name": "Health Canada, Licensed cannabis cultivators, processors and sellers",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/licensed-cultivators-processors-sellers.html"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

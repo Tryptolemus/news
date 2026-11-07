@@ -1,0 +1,37 @@
+{
+  "id": "glossary/certificate-of-analysis-coa",
+  "type": "glossary",
+  "name": "Certificate of analysis (COA)",
+  "tags": [
+    "Testing"
+  ],
+  "short": "A laboratory report showing a product batch's tested cannabinoid levels and safety results, such as pesticides, solvents, metals and microbes.",
+  "definition": [
+    "A certificate of analysis, or COA, is the document a testing lab issues for a specific batch of cannabis or hemp. It typically lists cannabinoid potency, often including THC, THCA, CBD and total THC, and pass or fail results for contaminants such as pesticides, residual solvents, heavy metals, mould and bacteria. Regulated markets require each batch to be tested before sale, and a batch is defined narrowly; California's rules, for example, tie it to material harvested or produced together under the same conditions.",
+    "COAs have become a consumer-facing document. Many brands print a QR code linking to the COA, and some new state hemp laws require one on the label. They are also central to wholesale deals, since buyers rely on them to price product and check compliance.",
+    "A COA is only as good as the sample and the lab. Researchers who retested Colorado flower in 2023 noted that COAs often omit raw data and methods and that samples submitted for testing may not represent the whole batch. In the hemp market, many COAs reported delta-9 THC only, leaving out THCA. Checking the lab's accreditation, the batch number and whether total THC was reported is basic due diligence."
+  ],
+  "example": "The label's QR code linked to a certificate of analysis from a lab the state had never licensed.",
+  "related": [
+    "Potency testing",
+    "Total THC",
+    "Track and trace",
+    "Hemp"
+  ],
+  "sources": [
+    {
+      "name": "Schwabe AL et al., Uncomfortably high: Testing reveals inflated THC potency on retail Cannabis labels, PLOS ONE (2023)",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282396"
+    },
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "Vicente LLP, Frequently Asked Questions About THCA Flower",
+      "url": "https://vicentellp.com/?p=5607"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

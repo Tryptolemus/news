@@ -1,0 +1,41 @@
+{
+  "id": "glossary/thca",
+  "type": "glossary",
+  "name": "THCA",
+  "tags": [
+    "THCA",
+    "Hemp",
+    "Total THC",
+    "Hemp-derived THC"
+  ],
+  "short": "Tetrahydrocannabinolic acid, the non-intoxicating acid form of THC that raw cannabis produces and that turns into THC when heated.",
+  "definition": [
+    "THCA, or tetrahydrocannabinolic acid, is what the living cannabis plant mostly makes instead of THC itself. In raw flower it is abundant while THC is present only in small amounts. Heat from smoking, vaping or baking strips a carboxyl group from the molecule, a reaction called decarboxylation, and the result is THC. Slow conversion can also happen as flower ages or is stored warm.",
+    "That chemistry created one of the biggest legal grey areas in the US market. The 2018 Farm Bill defined hemp by its delta-9 THC concentration, not by THCA. Sellers argued that flower which tested low in delta-9 THC qualified as hemp even if it contained high THCA, so it could be sold online and in smoke shops outside the licensed cannabis system. USDA rules already required growers to test total THC, counting THCA, within 30 days before harvest, but post-harvest products were often marketed on the delta-9 figure alone.",
+    "The federal hemp redefinition enacted in November 2025 counts THCA toward a total-THC limit, closing that route. Its main provisions take effect on 11 December 2026, and several states, including Missouri and Illinois, have moved earlier with their own total-THC rules."
+  ],
+  "example": "Shops selling THCA flower as hemp face a federal deadline of 11 December, when THCA starts counting toward the legal THC limit.",
+  "related": [
+    "THC",
+    "Decarboxylation",
+    "Total THC",
+    "Hemp",
+    "2018 Farm Bill"
+  ],
+  "sources": [
+    {
+      "name": "Vicente LLP, Frequently Asked Questions About THCA Flower",
+      "url": "https://vicentellp.com/?p=5607"
+    },
+    {
+      "name": "Federal Register, USDA Establishment of a Domestic Hemp Production Program, final rule (19 January 2021)",
+      "url": "https://www.federalregister.gov/documents/2021/01/19/2021-00967/establishment-of-a-domestic-hemp-production-program"
+    },
+    {
+      "name": "Congressional Research Service, Changes to the Statutory Definition of Hemp and Implications for Agricultural Policy (IF13136, September 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-09-28_IF13136_aa36fad7d69289127cbbbafef54e2aede431b2c4.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

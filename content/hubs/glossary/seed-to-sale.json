@@ -1,0 +1,38 @@
+{
+  "id": "glossary/seed-to-sale",
+  "type": "glossary",
+  "name": "Seed-to-sale",
+  "tags": [
+    "Track and trace",
+    "Compliance"
+  ],
+  "short": "Describes tracking cannabis through its full life cycle, from seed or clone to retail sale, and the software that does it.",
+  "definition": [
+    "Seed-to-sale is the industry shorthand for following a cannabis product through its entire life: from seed or clone, through cultivation, harvest, processing, lab testing and distribution, to the final retail transaction. The phrase describes both the regulatory requirement and the software built to meet it.",
+    "There are two layers. State governments contract for a central track-and-trace system, such as Metrc, which pioneered Colorado's system in 2011, or California's Metrc-based system that went live in early 2018. Businesses then use their own seed-to-sale or enterprise software for cultivation management, point of sale and inventory, which connects to the state system through an interface. Discrepancies between the two are a common source of regulatory trouble.",
+    "Seed-to-sale tracking is one reason state-licensed cannabis can make credible claims about where a product came from, compared with the largely untracked hemp-derived THC market. It also matters for federal policy: DEA registration for state-licensed medical businesses after the April 2026 rescheduling order requires recordkeeping and inventory controls, and companies with mature seed-to-sale data are better placed to comply. Debates over the cost, data ownership and reliability of state vendors continue in many markets."
+  ],
+  "example": "The company said its seed-to-sale records helped it clear the DEA's pre-registration inspection quickly.",
+  "related": [
+    "Track and trace",
+    "METRC",
+    "Vertical integration",
+    "Dispensary"
+  ],
+  "sources": [
+    {
+      "name": "Metrc (company website)",
+      "url": "https://www.metrc.com/"
+    },
+    {
+      "name": "California Department of Cannabis Control, 5 steps to using the track and trace system",
+      "url": "https://cannabis.ca.gov/2023/10/5-steps-to-using-the-track-and-trace-system"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

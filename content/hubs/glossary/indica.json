@@ -1,0 +1,34 @@
+{
+  "id": "glossary/indica",
+  "type": "glossary",
+  "name": "Indica",
+  "tags": [
+    "Strains",
+    "Research"
+  ],
+  "short": "A strain label traditionally applied to short, broad-leaved cannabis said to be relaxing, though research finds it does not reliably reflect genetics.",
+  "definition": [
+    "Indica is the counterpart to sativa in the traditional way cannabis varieties are sorted. The name goes back to Cannabis indica, a separate species proposed in the eighteenth century for plants from South Asia. In today's retail vocabulary it describes compact plants with broad leaves and faster flowering, and products sold as calming or body-heavy, sometimes with the slang 'couch-lock'.",
+    "Whether the label means much is doubtful. Most commercial cannabis is the product of decades of crossbreeding, and a study by researchers from Wageningen University and Dalhousie University, published in Nature Plants, found that indica and sativa labels did not consistently match differences in a plant's genome or overall chemical makeup. Indica-labelled samples tended to carry slightly more earthy-smelling terpenes, and only a few genome regions were linked to that aroma.",
+    "Some scientists and regulators argue for replacing the labels with standardised reporting of cannabinoid and terpene content, especially for medical patients. Until then, indica remains a widely used sales term, and coverage should avoid presenting it as a guide to how a product will affect any individual."
+  ],
+  "example": "Dispensary menus still sort products into indica, sativa and hybrid, despite the research.",
+  "related": [
+    "Sativa",
+    "Hybrid",
+    "Terpenes",
+    "Flower"
+  ],
+  "sources": [
+    {
+      "name": "Wageningen University & Research, Cannabis labels often wrong and misleading (on the Nature Plants study with Dalhousie University)",
+      "url": "https://www.wur.nl/en/newsarticle/cannabis-labels-often-wrong-and-misleading.htm"
+    },
+    {
+      "name": "Russo EB, Taming THC: potential cannabis synergy and phytocannabinoid-terpenoid entourage effects, British Journal of Pharmacology (2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3165946/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "glossary/flower",
+  "type": "glossary",
+  "name": "Flower",
+  "tags": [
+    "Flower",
+    "Market data"
+  ],
+  "short": "The dried, cured buds of the female cannabis plant, sold for smoking or vaporising and still the core product category in most markets.",
+  "definition": [
+    "Flower is the industry's term for the harvested, dried and cured buds of female cannabis plants, where most of the cannabinoids and terpenes are concentrated in tiny resin glands called trichomes. California's regulations define dried flower as harvested cannabis that has been dried, cured or otherwise processed, excluding leaves and stems. Trim, shake and leaf are lower-value plant material often used for pre-rolls or extraction.",
+    "Flower is usually priced by weight, strain and THC percentage, which gives growers and retailers a strong incentive to show high potency numbers. A 2023 study in PLOS ONE that retested flower from Colorado dispensaries found most samples contained substantially less THC than their labels stated, highlighting weaknesses in sampling and lab oversight. Federal researchers also note that average THC in flower has risen sharply over three decades.",
+    "Legally, flower sits at the centre of the hemp-versus-marijuana fight. So-called THCA flower, sold as hemp because it tested low in delta-9 THC, loses that status under the federal total-THC rules that take effect on 11 December 2026."
+  ],
+  "example": "Wholesale flower prices fell again as new cultivation capacity came online.",
+  "related": [
+    "Pre-roll",
+    "Potency testing",
+    "THCA",
+    "Cultivator",
+    "Concentrate"
+  ],
+  "sources": [
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "Schwabe AL et al., Uncomfortably high: Testing reveals inflated THC potency on retail Cannabis labels, PLOS ONE (2023)",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0282396"
+    },
+    {
+      "name": "National Institute on Drug Abuse, Cannabis (Marijuana) DrugFacts",
+      "url": "https://nida.nih.gov/publications/drugfacts/cannabis-marijuana"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

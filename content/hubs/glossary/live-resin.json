@@ -1,0 +1,34 @@
+{
+  "id": "glossary/live-resin",
+  "type": "glossary",
+  "name": "Live resin",
+  "tags": [
+    "Concentrates"
+  ],
+  "short": "A concentrate made from cannabis frozen right after harvest instead of dried, to preserve more of the plant's terpenes and aroma.",
+  "definition": [
+    "Live resin is a concentrate made from 'fresh frozen' cannabis: plants that are frozen immediately after harvest and kept cold through storage and extraction, rather than being dried and cured first. The extraction itself typically uses light hydrocarbon solvents such as butane or propane, the same family used for shatter and wax, but at low temperatures and with gentler purging.",
+    "The point is flavour and aroma. Terpenes are volatile and can evaporate or change during days or weeks of drying, so freezing the plant early generally preserves a fuller terpene profile. The process is credited to Colorado extractors in the early 2010s and has since become a premium category for dabbing and for higher-priced vape cartridges.",
+    "Live rosin is a separate product with a similar name: it is solventless, made by pressing ice-water hash from fresh-frozen material, and usually costs more. Because 'live' is a marketing term, not one most regulators define, states vary in whether they police how it is used on labels. Like other hydrocarbon extracts, live resin must be made by licensed processors in closed-loop systems and tested for residual solvents."
+  ],
+  "example": "The brand's live resin cartridges sell at a premium over its distillate line.",
+  "related": [
+    "Concentrate",
+    "Rosin",
+    "Terpenes",
+    "Distillate",
+    "Vape cartridge"
+  ],
+  "sources": [
+    {
+      "name": "Terpenes and Testing Magazine, Live resin cannabis concentrates",
+      "url": "https://terpenesandtesting.com/live-resin-cannabis-concentrates/"
+    },
+    {
+      "name": "Journal of Cannabis Research, narrative review of drying, extraction and post-extraction methods for Cannabis sativa L. (2021)",
+      "url": "https://link.springer.com/article/10.1186/s42238-021-00087-9"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

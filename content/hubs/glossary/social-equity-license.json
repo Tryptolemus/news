@@ -1,0 +1,34 @@
+{
+  "id": "glossary/social-equity-license",
+  "type": "glossary",
+  "name": "Social equity license",
+  "tags": [
+    "Social equity",
+    "Licensing"
+  ],
+  "short": "A cannabis business licence, or licensing priority, reserved for people and communities most harmed by past drug enforcement.",
+  "definition": [
+    "A social equity licence is a cannabis permit, or a priority in the licensing process, designed to give people disproportionately harmed by drug prohibition a stake in the legal industry. Eligibility usually turns on residence in a 'disproportionately impacted area', a past cannabis arrest or conviction, or a family member's conviction. Illinois, for example, defines a social equity applicant as one at least 51% owned by people who meet those tests, or, for larger employers, one whose workforce largely does.",
+    "Benefits vary: reserved licences, reduced fees, technical assistance, access to grants or low-interest loans and, in some states, exclusive rights to categories such as delivery for a period. Massachusetts runs a free statewide training program for social equity participants and a trust fund that offers grants and loans.",
+    "The results have been mixed. Many states saw long delays from litigation, high start-up costs, difficulty raising money without bank loans, and deals in which investors effectively controlled licences awarded to equity applicants. Critics also say vertical integration requirements and market oversupply hurt small entrants. Reporters covering new legalisation laws should look at how licences are scored, what capital support exists and how ownership rules are enforced."
+  ],
+  "example": "Half of the new dispensary licences are reserved for social equity applicants, but few have found financing.",
+  "related": [
+    "Expungement",
+    "Dispensary",
+    "Legalization",
+    "Vertical integration"
+  ],
+  "sources": [
+    {
+      "name": "Illinois Cannabis Regulation and Tax Act, 410 ILCS 705/1-10 (Definitions)",
+      "url": "https://ilga.gov/legislation/ilcs/documents/041007050K1-10.htm"
+    },
+    {
+      "name": "Massachusetts Cannabis Control Commission, Equity programs",
+      "url": "https://masscannabiscontrol.com/equity/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

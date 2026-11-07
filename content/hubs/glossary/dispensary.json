@@ -1,0 +1,39 @@
+{
+  "id": "glossary/dispensary",
+  "type": "glossary",
+  "name": "Dispensary",
+  "tags": [
+    "Retail",
+    "Licensing"
+  ],
+  "short": "A licensed store that sells cannabis products to registered patients, adult consumers or both.",
+  "definition": [
+    "A dispensary is a licensed retail outlet for cannabis. The word originally referred to medical stores serving registered patients, and it is still used for adult-use shops, which some states call retailers. Illinois law, for example, defines a dispensing organisation as a business licensed to buy cannabis from cultivators, craft growers, processors or other dispensaries and sell it, along with paraphernalia, to purchasers and registered patients. States set rules on location, security cameras, ID checks, purchase limits, packaging and advertising, and require every sale to be recorded in the state tracking system.",
+    "Ownership models differ. Some states cap the number of stores or require vertical integration, so a company must grow, process and sell its own products; others license retail separately. Local governments often decide whether stores can open at all.",
+    "Dispensaries became federally relevant in a new way in 2026. After the April order moved state-licensed medical marijuana to Schedule III, the DEA began registering medical dispensaries: more than 900 in seven states by 30 October, with nearly 7,000 businesses in the queue. Adult-use dispensaries remain outside that system and still pay the Section 280E tax penalty."
+  ],
+  "example": "The state will license 50 new dispensaries next year, with half reserved for social equity applicants.",
+  "related": [
+    "Budtender",
+    "Vertical integration",
+    "Medical marijuana card",
+    "Track and trace",
+    "Social equity license"
+  ],
+  "sources": [
+    {
+      "name": "Illinois Cannabis Regulation and Tax Act, 410 ILCS 705/1-10 (Definitions)",
+      "url": "https://ilga.gov/legislation/ilcs/documents/041007050K1-10.htm"
+    },
+    {
+      "name": "Congressional Research Service, Department of Justice Eases Control of Medical Marijuana (LSB11424, April 2026)",
+      "url": "https://www.everycrsreport.com/reports/LSB11424.html"
+    },
+    {
+      "name": "Associated Press (via News4JAX), DEA approvals could bring big tax benefits for medical marijuana businesses (30 October 2026)",
+      "url": "https://www.news4jax.com/health/2026/10/30/dea-approvals-could-bring-big-tax-benefits-for-medical-marijuana-businesses/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

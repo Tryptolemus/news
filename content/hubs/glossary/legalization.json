@@ -1,0 +1,38 @@
+{
+  "id": "glossary/legalization",
+  "type": "glossary",
+  "name": "Legalization",
+  "tags": [
+    "Legalization"
+  ],
+  "short": "Making cannabis production, sale and possession lawful under a regulatory system, as opposed to merely reducing penalties.",
+  "definition": [
+    "Legalisation means a government creates lawful ways for people to obtain and use cannabis, typically through licensed growers, processors and stores, with rules on age, product safety, advertising and taxes. It goes further than decriminalisation, which only softens penalties. Legalisation can cover medical use, adult (recreational) use, or both.",
+    "In the US, legalisation happens state by state. As of early 2026, congressional researchers counted 24 states and Washington, D.C. with adult-use laws and 40 states with comprehensive medical programs. Federal law has not followed: adult-use marijuana remains in Schedule I, and state legalisation does not shield businesses from federal law. The April 2026 order moved only state-licensed medical marijuana to Schedule III. Voters in the November 2026 elections rejected repeal efforts in Massachusetts and Idaho, while new Democratic majorities in several states have pledged legalisation bills.",
+    "Internationally, Canada legalised adult-use cannabis nationally in 2018 with federal licensing of producers. In Europe, Malta and Germany have chosen non-commercial models built on home growing and non-profit clubs rather than shops. Coverage should specify which activities a law actually makes legal: possession, home grow, retail sales or all three."
+  ],
+  "example": "The state's legalisation bill would allow retail sales starting in 2028 but leaves home grow off the table.",
+  "related": [
+    "Decriminalization",
+    "Adult-use",
+    "Medical cannabis",
+    "Descheduling",
+    "Cannabis social club"
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service, The Federal Status of Marijuana and the Policy Gap with States (IF12270, March 2026)",
+      "url": "https://www.everycrsreport.com/files/2026-03-10_IF12270_a03f4250a3fddc8d36d434ba7d69f7cbc80a9034.html"
+    },
+    {
+      "name": "Health Canada, Licensed cannabis cultivators, processors and sellers",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/licensed-cultivators-processors-sellers.html"
+    },
+    {
+      "name": "German Federal Ministry of Health, FAQ on the Cannabis Act",
+      "url": "https://www.bundesgesundheitsministerium.de/themen/cannabis/faq-cannabisgesetz"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

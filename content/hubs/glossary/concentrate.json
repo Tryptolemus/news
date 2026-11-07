@@ -1,0 +1,38 @@
+{
+  "id": "glossary/concentrate",
+  "type": "glossary",
+  "name": "Concentrate",
+  "tags": [
+    "Concentrates"
+  ],
+  "short": "Any cannabis product processed to concentrate cannabinoids, such as hash, wax, shatter, rosin, live resin and distillate, often far more potent than flower.",
+  "definition": [
+    "A concentrate is cannabis that has been processed to pull cannabinoids and terpenes away from the plant material, leaving a far more potent product. California's regulations define the category broadly, including kief, tinctures, capsules, extracts, vape cartridges and other inhaled products. Common forms include hash and kief, wax, budder, shatter, live resin, rosin and distillate. Some dispensary concentrates exceed 40% THC, and many are much higher.",
+    "Methods fall into two families. Solvent-based extraction uses butane, propane, ethanol or carbon dioxide to dissolve the resin, followed by purging. Illinois law, for example, lists the solvents processors may use. Solventless methods use heat, pressure, sieving or ice water. The DEA has warned about explosions from amateur butane extraction, which is why legal markets require licensed, closed-loop equipment.",
+    "Concentrates are usually inhaled by 'dabbing' on a heated surface or in vape devices, or used as ingredients in edibles. Federal health researchers link the very high THC doses they deliver to a greater risk of adverse effects, and several states have debated potency caps or extra taxes on them. Licences, testing rules and excise rates often differ from those for flower."
+  ],
+  "example": "Lawmakers proposed a THC cap on concentrates, a category that now makes up a growing share of sales.",
+  "related": [
+    "Distillate",
+    "Live resin",
+    "Rosin",
+    "Vape cartridge",
+    "Processor"
+  ],
+  "sources": [
+    {
+      "name": "California Code of Regulations, Title 4, Section 15000, Definitions (Department of Cannabis Control)",
+      "url": "https://www.law.cornell.edu/regulations/california/4-CCR-15000"
+    },
+    {
+      "name": "DEA Get Smart About Drugs, What You Should Know About Marijuana Concentrates/Honey Butane Oil",
+      "url": "https://www.getsmartaboutdrugs.gov/content/what-you-should-know-about-marijuana-concentrates-honey-butane-oil"
+    },
+    {
+      "name": "Illinois Cannabis Regulation and Tax Act, 410 ILCS 705/1-10 (Definitions)",
+      "url": "https://ilga.gov/legislation/ilcs/documents/041007050K1-10.htm"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

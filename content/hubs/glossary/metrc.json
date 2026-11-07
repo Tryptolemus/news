@@ -1,0 +1,34 @@
+{
+  "id": "glossary/metrc",
+  "type": "glossary",
+  "name": "METRC",
+  "tags": [
+    "Track and trace",
+    "Compliance"
+  ],
+  "short": "The cannabis track-and-trace platform, run by the company Metrc, that many US state regulators require licensed businesses to use.",
+  "definition": [
+    "METRC, now usually written Metrc, is the most widely used government cannabis tracking system in the United States. The name originally stood for Marijuana Enforcement Tracking Reporting Compliance. The company combines web software, RFID-enabled plant and package tags and a central database so that regulators can follow cannabis from seed to sale. It built Colorado's tracking system in 2011, and its partner login currently lists more than two dozen jurisdictions, including California, whose state track-and-trace system runs on Metrc software.",
+    "Licensed businesses in Metrc states must tag plants and packages with Metrc identifiers and report events such as harvests, transfers, lab results and sales, usually by connecting their own point-of-sale or cultivation software to the platform. The fees for tags and the data-entry burden are a regular complaint, especially for small operators.",
+    "Because one vendor holds data for so many markets, Metrc is a recurring news subject: contract awards and renewals, system outages that halt sales, debates over data access, and expansion into hemp tracking as states adopt total-THC rules. When a state switches vendors or tightens reporting rules, the change can ripple through supply chains quickly."
+  ],
+  "example": "A Metrc outage left retailers unable to record sales for most of the afternoon.",
+  "related": [
+    "Track and trace",
+    "Seed-to-sale",
+    "Cultivator",
+    "Dispensary"
+  ],
+  "sources": [
+    {
+      "name": "Metrc (company website)",
+      "url": "https://www.metrc.com/"
+    },
+    {
+      "name": "California Department of Cannabis Control, 5 steps to using the track and trace system",
+      "url": "https://cannabis.ca.gov/2023/10/5-steps-to-using-the-track-and-trace-system"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
