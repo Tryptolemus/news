@@ -83,11 +83,17 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <meta property="og:description" content="{escape(desc)}">
 <meta property="og:url" content="{SITE}{path}">
 <meta property="og:image" content="{img}">
+<meta property="og:image:secure_url" content="{img}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{escape(title)} · MetaFlora News">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{X_HANDLE}">
 <meta name="twitter:title" content="{escape(title)}">
 <meta name="twitter:description" content="{escape(desc)}">
 <meta name="twitter:image" content="{img}">
+<meta name="twitter:image:alt" content="{escape(title)} · MetaFlora News">
 <meta name="theme-color" content="#131313">
 <link rel="icon" href="/assets/metaflora-white-logo-just-icon.png" type="image/png">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="/feed.xml">
