@@ -1,0 +1,42 @@
+{
+  "id": "country/france",
+  "type": "country",
+  "name": "France",
+  "tags": ["France"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
+  "headline_status": "Recreational cannabis is illegal in France, and medical cannabis is still limited to patients left over from a state trial while a permanent framework is prepared.",
+  "summary": "Using cannabis in France is a criminal offence carrying up to one year in prison and a €3,750 fine, though since September 2020 police can instead issue a €200 on-the-spot fine that still goes on the criminal record. A state medical cannabis trial began on 26 March 2021 and stopped taking new patients in March 2024. Enrolled patients' access was extended past March 2026, while the decrees for a permanent medical programme were still being finalised in 2026.",
+  "facts": {
+    "penalties": {"value": "Use is punishable by up to one year in prison and a €3,750 fine. Since 1 September 2020 police can issue a €200 fixed fine instead (€150 if paid within 15 days, €450 after 45 days), which is still recorded on the criminal record.", "source": "https://www.cidj.com/vie-quotidienne/justice/detention-de-cannabis-je-risque-quoi", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None for recreational cannabis.", "source": "https://www.cidj.com/vie-quotidienne/justice/detention-de-cannabis-je-risque-quoi", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Experimental programme only, launched 26 March 2021; no new patients admitted since 27 March 2024.", "source": "https://www.service-public.gouv.fr/particuliers/actualites/A16479?lang=fr", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Only patients already in the trial (just under 700 in April 2026) still receive reimbursed cannabis medicines, for conditions such as treatment-resistant neuropathic pain, drug-resistant epilepsy and some cancer symptoms; the health minister guaranteed continued access potentially until early 2027.", "source": "https://www.newsweed.fr/en/france-extends-medical-cannabis-access-to-2027/", "as_of": "2026-11-07"},
+    "regulator": {"value": "National Agency for the Safety of Medicines (ANSM) runs the medical trial; the High Authority for Health (HAS) is assessing reimbursement.", "source": "https://www.service-public.gouv.fr/particuliers/actualites/A16479?lang=fr", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount. Cases over 100 g or repeat arrests go to criminal court rather than a fixed fine.", "source": "https://www.cidj.com/vie-quotidienne/justice/detention-de-cannabis-je-risque-quoi", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors are subject to the same ban and penalties as residents, including the on-the-spot fine.", "source": "https://www.cidj.com/vie-quotidienne/justice/detention-de-cannabis-je-risque-quoi", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2020-09-01", "event": "€200 on-the-spot fine for drug use introduced nationwide", "source": "https://www.cidj.com/vie-quotidienne/justice/detention-de-cannabis-je-risque-quoi"},
+    {"date": "2021-03-26", "event": "State medical cannabis trial begins", "source": "https://www.service-public.gouv.fr/particuliers/actualites/A16479?lang=fr"},
+    {"date": "2024-03-27", "event": "Medical trial closes to new patients", "source": "https://www.service-public.gouv.fr/particuliers/actualites/A16479?lang=fr"},
+    {"date": "2025-12-17", "event": "President Macron announces plan to raise the drug-use fine from €200 to €500", "source": "https://lebonbon.fr/paris/societe/cannabis-macron-veut-faire-passer-l-amende-200-a-500-euros/"},
+    {"date": "2026-04", "event": "Health minister guarantees continued access for trial patients, potentially until early 2027", "source": "https://www.newsweed.fr/en/france-extends-medical-cannabis-access-to-2027/"}
+  ],
+  "pending": [
+    {"item": "Permanent medical cannabis framework: draft decree, product specifications order and reimbursement rules, with a final HAS opinion expected in late 2026.", "status": "Decrees not yet published as of April 2026; first prescriptions possible in 2027 if adopted in time.", "source": "https://www.newsweed.fr/en/france-extends-medical-cannabis-access-to-2027/"},
+    {"item": "Government plan to raise the on-the-spot drug-use fine from €200 to €500.", "status": "Announced December 2025; enactment not confirmed.", "source": "https://lebonbon.fr/paris/societe/cannabis-macron-veut-faire-passer-l-amende-200-a-500-euros/"}
+  ],
+  "faq": [
+    {"q": "Is weed legal in France?", "a": "No. Use is a criminal offence, usually punished with a €200 on-the-spot fine but carrying up to a year in prison."},
+    {"q": "Is medical cannabis legal in France?", "a": "Only within a state trial that closed to new patients in 2024. A permanent programme is being prepared but was not in place as of 2026."},
+    {"q": "Can tourists use cannabis in France?", "a": "No. Visitors face the same penalties as residents."}
+  ],
+  "sources": [
+    {"name": "CIDJ", "url": "https://www.cidj.com/vie-quotidienne/justice/detention-de-cannabis-je-risque-quoi"},
+    {"name": "Service-Public.fr", "url": "https://www.service-public.gouv.fr/particuliers/actualites/A16479?lang=fr"},
+    {"name": "Newsweed", "url": "https://www.newsweed.fr/en/france-extends-medical-cannabis-access-to-2027/"},
+    {"name": "Le Bonbon", "url": "https://lebonbon.fr/paris/societe/cannabis-macron-veut-faire-passer-l-amende-200-a-500-euros/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
