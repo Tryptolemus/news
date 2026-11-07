@@ -156,6 +156,15 @@ def clip(text, n=155):
     return text[: n - 1].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
 
 
+def short_fact(v, n=110):
+    """Table-sized version of a fact: first sentence, clipped. The full text lives on the state page."""
+    if not v:
+        return "–"
+    v = " ".join(str(v).split())
+    first = re.split(r"(?<=[.;])\s", v, 1)[0].rstrip(".;")
+    return clip(first, n)
+
+
 def has_glossary():
     return any(h["type"] == "glossary" and complete(h) for h in HUBS)
 
@@ -577,9 +586,11 @@ def us_index(arts):
     states = sorted([h for h in HUBS if h["type"] == "us_state"], key=lambda h: h["name"])
     counts = {k: sum(1 for h in states if tone(h) == k) for k in TONE_LABEL}
     rows = "".join(
-        f'<tr><td><a href="{h["_url"]}">{escape(h["name"])}</a></td><td class="t-{tone(h)}-txt">{ADULT.get(st(h).get("adult_use"), "–")}</td>'
-        f'<td>{MED.get(st(h).get("medical"), "–")}</td><td>{DECRIM.get(st(h).get("decriminalized"), "–")}</td>'
-        f'<td>{escape(str(((h.get("facts") or {}).get("possession_limit") or {}).get("value", "–")))}</td><td>{fmt_date(verified(h))}</td></tr>'
+        f'<tr><td class="tr-name" data-label="State"><a href="{h["_url"]}">{escape(h["name"])}</a><i class="tr-dot t-{tone(h)}" aria-hidden="true"></i></td>'
+        f'<td data-label="Adult use" class="t-{tone(h)}-txt">{ADULT.get(st(h).get("adult_use"), "–")}</td>'
+        f'<td data-label="Medical">{MED.get(st(h).get("medical"), "–")}</td><td data-label="Decriminalized">{DECRIM.get(st(h).get("decriminalized"), "–")}</td>'
+        f'<td data-label="Possession" class="tr-long">{escape(short_fact(((h.get("facts") or {}).get("possession_limit") or {}).get("value")))}</td>'
+        f'<td data-label="Verified" class="tr-date">{fmt_date(verified(h))}</td></tr>'
         for h in states)
     # CSV for journalists and researchers
     buf = io.StringIO()
@@ -633,8 +644,11 @@ def world_index():
     if not cs:
         return None
     rows = "".join(
-        f'<tr><td><a href="{h["_url"]}">{escape(h["name"])}</a></td><td class="t-{tone(h)}-txt">{ADULT.get(st(h).get("adult_use"), "–")}</td>'
-        f'<td>{MED.get(st(h).get("medical"), "–")}</td><td>{escape(str(((h.get("facts") or {}).get("tourists") or {}).get("value", "–")))}</td><td>{fmt_date(verified(h))}</td></tr>'
+        f'<tr><td class="tr-name" data-label="Country"><a href="{h["_url"]}">{escape(h["name"])}</a><i class="tr-dot t-{tone(h)}" aria-hidden="true"></i></td>'
+        f'<td data-label="Adult use" class="t-{tone(h)}-txt">{ADULT.get(st(h).get("adult_use"), "–")}</td>'
+        f'<td data-label="Medical">{MED.get(st(h).get("medical"), "–")}</td>'
+        f'<td data-label="Tourists" class="tr-long">{escape(short_fact(((h.get("facts") or {}).get("tourists") or {}).get("value")))}</td>'
+        f'<td data-label="Verified" class="tr-date">{fmt_date(verified(h))}</td></tr>'
         for h in cs)
     latest = max(verified(h) for h in cs)
     crumbs = [("MetaFlora News", "/"), ("Cannabis laws", "/legal/"), ("World", "/legal/world/")]

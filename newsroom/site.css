@@ -651,3 +651,32 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .az-list{columns:3 180px;list-style:none;padding:0;margin:0}
 .az-list li{padding:3px 0;break-inside:avoid}
 .mfn-title{font-weight:700;font-size:18px}
+/* tracker + facts: card layout on phones (no sideways scrolling, no 3-word columns) */
+.tr-dot{display:none}
+@media (max-width:760px){
+  .table-wrap{overflow:visible;margin-top:16px}
+  .tracker,.tracker tbody,.tracker tr,.tracker td{display:block;width:100%}
+  .tracker thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+  .tracker tr{border:1px solid var(--rule);border-radius:12px;padding:14px 16px 6px;margin:0 0 12px;background:rgba(255,255,255,.02)}
+  .tracker td{border:0;padding:0 0 8px;display:grid;grid-template-columns:118px 1fr;gap:10px;font-size:15px;line-height:1.45}
+  .tracker td::before{content:attr(data-label);font-size:11.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--meta);padding-top:2px}
+  .tracker td.tr-name{display:flex;align-items:center;justify-content:space-between;padding:0 0 10px;margin-bottom:10px;border-bottom:1px solid var(--rule)}
+  .tracker td.tr-name::before{content:none}
+  .tracker td.tr-name a{font-size:20px;font-weight:600;text-decoration:none}
+  .tr-dot{display:inline-block;width:12px;height:12px;border-radius:50%;flex:none}
+  .tr-dot.t-rec{background:#a3e635}.tr-dot.t-rec-ns{background:#7cd470}.tr-dot.t-med{background:#a78bfa}.tr-dot.t-lim{background:#6e6585}.tr-dot.t-none{background:#3a3a3a;border:1px solid #666}
+  .tracker td.tr-date{color:var(--meta);font-size:13px}
+  .facts,.facts tbody,.facts tr,.facts th,.facts td{display:block;width:100%}
+  .facts tr{border-top:1px solid var(--rule);padding:12px 0}
+  .facts th,.facts td{border:0;padding:0;width:100%}
+  .facts th{margin-bottom:4px}
+  .facts td{font-size:16px}
+  .quick-answers{grid-template-columns:1fr 1fr}
+  .az-list{columns:2}
+}
+@media (max-width:380px){.quick-answers{grid-template-columns:1fr}.tracker td{grid-template-columns:100px 1fr}}
+.quick-answers dt{font-family:var(--sans);font-weight:700;font-size:11.5px;letter-spacing:.07em;color:var(--meta)}
+.quick-answers dd{font-family:var(--sans);font-size:15.5px;color:var(--body)}
+.hub-latest,.hub-latest time,.hub-by time,.timeline time{font-family:var(--sans)}
+.hub-latest{font-size:14.5px;color:var(--dek)}
+@media (max-width:760px){.quick-answers{grid-template-columns:1fr;gap:8px}.quick-answers .qa{padding:12px 14px}}
