@@ -1,0 +1,136 @@
+{
+  "id": "us/massachusetts",
+  "type": "us_state",
+  "name": "Massachusetts",
+  "abbr": "MA",
+  "tags": [
+    "Massachusetts"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+, and voters kept legal sales in November 2026.",
+  "summary": "Massachusetts allows adults 21 and older to possess, grow and buy cannabis from licensed stores, and runs a separate medical program dating to 2012. A 2026 law signed in April doubled the public possession limit to two ounces and restructured the Cannabis Control Commission. On November 3, 2026, voters rejected Question 8, which would have ended adult-use sales and home growing, by roughly three to one.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Legalized by voters via Question 4 in November 2016; took effect December 15, 2016.",
+      "source": "https://www.mpp.org/massachusetts",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Voters approved medical cannabis in 2012.",
+      "source": "https://www.mpp.org/massachusetts",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Up to 2 ounces in public (raised from 1 ounce effective April 19, 2026); up to 10 ounces inside a primary residence plus whatever home-grown plants produce.",
+      "source": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 6 plants per adult, with no more than 12 plants on one premises.",
+      "source": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://masscannabiscontrol.com/adult-consumers/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed adult-use stores have operated since November 20, 2018, when the first two opened.",
+      "source": "https://www.mpp.org/massachusetts",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "10.75% state marijuana excise plus 6.25% state sales tax on retail sales; many cities and towns add a local marijuana tax.",
+      "source": "https://www.mass.gov/info-details/form-mrt-instructions-marijuana-retail-taxes-return",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Cannabis Control Commission (CCC).",
+      "source": "https://www.mpp.org/massachusetts",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2012-11-06",
+      "event": "Voters approve medical cannabis.",
+      "source": "https://www.mpp.org/massachusetts"
+    },
+    {
+      "date": "2016-12-15",
+      "event": "Question 4 adult-use legalization takes effect.",
+      "source": "https://www.mpp.org/massachusetts"
+    },
+    {
+      "date": "2018-11-20",
+      "event": "First two adult-use retail stores open.",
+      "source": "https://www.mpp.org/massachusetts"
+    },
+    {
+      "date": "2026-04-19",
+      "event": "Gov. Healey signs H. 5350, doubling the public possession limit to 2 ounces and overhauling the CCC.",
+      "source": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7"
+    },
+    {
+      "date": "2026-11-03",
+      "event": "Voters reject Question 8, which would have repealed adult-use sales and home growing (about 76% no).",
+      "source": "https://www.boston.com/news/local-news/2026/11/03/question-8-appears-to-fall-short-recreational-marijuana-sales-likely-to-remain-legal/"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Massachusetts?",
+      "a": "Yes. Adults 21 and older can legally possess, grow and buy cannabis, and patients can use it under the medical program."
+    },
+    {
+      "q": "How much weed can you carry in Massachusetts?",
+      "a": "Since April 19, 2026, adults may carry up to 2 ounces in public. At home you may keep up to 10 ounces, plus the harvest from your own plants."
+    },
+    {
+      "q": "Did Massachusetts vote to end legal marijuana sales?",
+      "a": "No. Question 8 on the November 3, 2026 ballot would have ended adult-use sales and home growing, but voters rejected it by a wide margin."
+    },
+    {
+      "q": "Can you grow cannabis at home in Massachusetts?",
+      "a": "Yes. Each adult may grow up to 6 plants, with a cap of 12 plants per home."
+    },
+    {
+      "q": "What is the tax on marijuana in Massachusetts?",
+      "a": "Retail purchases carry a 10.75% state excise tax and the 6.25% state sales tax, and many municipalities add a local tax on top."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Massachusetts General Laws c. 94G § 7",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter94G/Section7"
+    },
+    {
+      "name": "Massachusetts DOR, Form MRT instructions",
+      "url": "https://www.mass.gov/info-details/form-mrt-instructions-marijuana-retail-taxes-return"
+    },
+    {
+      "name": "Cannabis Control Commission, Adult Consumers",
+      "url": "https://masscannabiscontrol.com/adult-consumers/"
+    },
+    {
+      "name": "Marijuana Policy Project, Massachusetts",
+      "url": "https://www.mpp.org/massachusetts"
+    },
+    {
+      "name": "NORML, April 2026 possession-limit law",
+      "url": "https://norml.org/news/2026/04/23/massachusetts-governor-signs-legislation-into-law-doubling-adult-use-marijuana-possession-limits/"
+    },
+    {
+      "name": "Boston.com, Question 8 result",
+      "url": "https://www.boston.com/news/local-news/2026/11/03/question-8-appears-to-fall-short-recreational-marijuana-sales-likely-to-remain-legal/"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

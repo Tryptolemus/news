@@ -1,0 +1,129 @@
+{
+  "id": "us/montana",
+  "type": "us_state",
+  "name": "Montana",
+  "abbr": "MT",
+  "tags": [
+    "Montana"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+.",
+  "summary": "Montana voters approved medical cannabis in 2004 and adult-use legalization (I-190) in 2020, and licensed adult-use businesses opened in January 2022. Adults can carry 1 ounce and grow a small number of plants at home. Adult-use purchases carry a 20% state tax and medical purchases 4%. In 2025 lawmakers banned synthetic THC products such as delta-8 and rejected proposals for a THC potency cap and a consumer registry.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Legalized by Initiative 190, approved by 57% of voters in November 2020.",
+      "source": "https://www.mpp.org/montana",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Voters approved medical cannabis in 2004.",
+      "source": "https://www.mpp.org/montana",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Up to 1 ounce, of which no more than 8 grams may be concentrate; edibles capped at 800 mg THC.",
+      "source": "https://law.justia.com/codes/montana/current/title-16/chapter-12/part-1/section-16-12-106/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 2 mature plants and 2 seedlings per adult (4 and 4 for registered patients), with no more than double that per residence; plants must be locked and out of public view.",
+      "source": "https://law.justia.com/codes/montana/current/title-16/chapter-12/part-1/section-16-12-106/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://revenue.mt.gov/cannabis/education/legal-is-legit",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Smoking in public outside a licensed area is a civil infraction with a fine of up to $50.",
+      "source": "https://law.justia.com/codes/montana/current/title-16/chapter-12/part-1/section-16-12-106/",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Adult-use businesses first opened in January 2022.",
+      "source": "https://www.mpp.org/montana",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "20% state tax on adult-use sales and 4% on medical sales, collected at retail; counties may add up to 3%.",
+      "source": "https://revenue.mt.gov/taxes/miscellaneous-taxes-and-fees/cannabis/",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Cannabis and Alcohol Regulation Division of the Montana Department of Revenue.",
+      "source": "https://revenue.mt.gov/cannabis/education/legal-is-legit",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Synthetic THC products such as delta-8 were banned by the 2025 Legislature.",
+      "source": "https://www.mpp.org/montana",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2004-11-02",
+      "event": "Voters approve medical cannabis.",
+      "source": "https://www.mpp.org/montana"
+    },
+    {
+      "date": "2020-11-03",
+      "event": "Voters approve adult-use legalization (I-190).",
+      "source": "https://www.mpp.org/montana"
+    },
+    {
+      "date": "2022-01",
+      "event": "Licensed adult-use businesses open.",
+      "source": "https://www.mpp.org/montana"
+    },
+    {
+      "date": "2025-04-07",
+      "event": "HB 49, a synthetic cannabinoid regulation bill, is signed.",
+      "source": "https://revenue.mt.gov/taxes/miscellaneous-taxes-and-fees/cannabis/"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Montana?",
+      "a": "Yes. Adults 21 and older can buy and possess cannabis, and medical cannabis has been legal since 2004."
+    },
+    {
+      "q": "How much weed can you carry in Montana?",
+      "a": "Up to 1 ounce, including no more than 8 grams of concentrate."
+    },
+    {
+      "q": "Can you grow weed in Montana?",
+      "a": "Yes. Adults may grow 2 mature plants and 2 seedlings, locked and out of public view; registered patients may grow more."
+    },
+    {
+      "q": "What is the marijuana tax in Montana?",
+      "a": "20% on adult-use purchases and 4% on medical purchases, plus up to 3% in counties that adopt a local tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Montana Code Annotated § 16-12-106 (via Justia)",
+      "url": "https://law.justia.com/codes/montana/current/title-16/chapter-12/part-1/section-16-12-106/"
+    },
+    {
+      "name": "Montana Department of Revenue, Cannabis taxes",
+      "url": "https://revenue.mt.gov/taxes/miscellaneous-taxes-and-fees/cannabis/"
+    },
+    {
+      "name": "Montana Department of Revenue, Legal is Legit",
+      "url": "https://revenue.mt.gov/cannabis/education/legal-is-legit"
+    },
+    {
+      "name": "Marijuana Policy Project, Montana",
+      "url": "https://www.mpp.org/montana"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

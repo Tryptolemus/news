@@ -1,0 +1,125 @@
+{
+  "id": "us/minnesota",
+  "type": "us_state",
+  "name": "Minnesota",
+  "abbr": "MN",
+  "tags": [
+    "Minnesota"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+.",
+  "summary": "Minnesota legalized adult-use cannabis in 2023, with possession and home growing allowed since August 1, 2023, and the first licensed stores, all tribally operated, opening in 2025. The Office of Cannabis Management regulates both marijuana and lower-potency hemp edibles. The state's cannabis gross receipts tax now stands at 15%, up from 10% under the original law.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Signed May 30, 2023 (HF 100); possession and use became legal August 1, 2023.",
+      "source": "https://mn.gov/ocm/consumers/adult-use/index.jsp",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Medical program enacted in 2014; smokable flower allowed for adult patients since 2021.",
+      "source": "https://www.mpp.org/minnesota",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "In public: 2 ounces of flower, 8 grams of concentrate, and edibles (including hemp edibles) totaling 800 mg THC. At home: up to 2 pounds of flower.",
+      "source": "https://mn.gov/ocm/consumers/adult-use/index.jsp",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Up to 8 plants per residence, no more than 4 flowering, in an enclosed, locked space out of public view.",
+      "source": "https://mn.gov/ocm/consumers/adult-use/index.jsp",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://mn.gov/ocm/consumers/adult-use/index.jsp",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Allowed on private property and at licensed businesses or permitted events; banned while driving, where indoor smoking is banned, in schools, on federal property and employer premises, and (for smoking or vaping) in multifamily buildings.",
+      "source": "https://mn.gov/ocm/consumers/adult-use/index.jsp",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "First licensed adult-use stores opened in 2025; the initial retailers were tribal operations.",
+      "source": "https://www.mpp.org/minnesota",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "15% cannabis gross receipts tax plus 6.875% state sales tax and any local sales tax. Registered medical patients buying from endorsed retailers are exempt.",
+      "source": "https://www.revenue.state.mn.us/book/export/html/21076",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Office of Cannabis Management (OCM).",
+      "source": "https://www.mpp.org/minnesota",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Lower-potency hemp edibles remain legal and regulated; they count toward the 800 mg possession cap and are subject to the 15% cannabis tax.",
+      "source": "https://www.revenue.state.mn.us/book/export/html/21076",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2014",
+      "event": "Medical cannabis program enacted under Gov. Mark Dayton.",
+      "source": "https://www.mpp.org/minnesota"
+    },
+    {
+      "date": "2023-05-30",
+      "event": "Gov. Walz signs HF 100 legalizing adult-use cannabis.",
+      "source": "https://www.mpp.org/minnesota"
+    },
+    {
+      "date": "2023-08-01",
+      "event": "Adult possession, use and home growing become legal.",
+      "source": "https://mn.gov/ocm/consumers/adult-use/index.jsp"
+    },
+    {
+      "date": "2025",
+      "event": "First licensed adult-use stores open, and the cannabis tax rises from 10% to 15%.",
+      "source": "https://www.mpp.org/minnesota"
+    }
+  ],
+  "pending": [],
+  "faq": [
+    {
+      "q": "Is weed legal in Minnesota?",
+      "a": "Yes. Adults 21 and older have been able to possess, use and grow cannabis since August 1, 2023, and licensed stores began opening in 2025."
+    },
+    {
+      "q": "How much weed can you carry in Minnesota?",
+      "a": "Up to 2 ounces of flower, 8 grams of concentrate and 800 mg of THC in edibles in public, and up to 2 pounds of flower at home."
+    },
+    {
+      "q": "Can you grow weed in Minnesota?",
+      "a": "Yes. Up to 8 plants per home, with no more than 4 flowering, kept in a locked space out of public view."
+    },
+    {
+      "q": "What is the cannabis tax in Minnesota?",
+      "a": "A 15% cannabis gross receipts tax plus regular sales tax. Enrolled medical patients are exempt."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Office of Cannabis Management, Adult-Use Cannabis",
+      "url": "https://mn.gov/ocm/consumers/adult-use/index.jsp"
+    },
+    {
+      "name": "Minnesota Department of Revenue, Cannabis Guide",
+      "url": "https://www.revenue.state.mn.us/book/export/html/21076"
+    },
+    {
+      "name": "Marijuana Policy Project, Minnesota",
+      "url": "https://www.mpp.org/minnesota"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "country/luxembourg",
+  "type": "country",
+  "name": "Luxembourg",
+  "tags": ["Luxembourg"],
+  "legal": {"adult_use": "legal_no_sales", "medical": "limited", "decriminalized": "partial"},
+  "headline_status": "Adults in Luxembourg may grow up to four plants and use cannabis at home, but public use is banned and there are no legal sales.",
+  "summary": "Luxembourg's law of 10 July 2023 took effect on 21 July 2023, letting adults 18+ grow up to four plants per household and consume at home out of sight of minors. Public consumption is still prohibited, and carrying up to 3 g is punished with a fine rather than prosecution, while larger amounts can bring criminal charges. A planned state-regulated supply chain has not been set up. Medical cannabis is available for serious illnesses through hospital pharmacies.",
+  "facts": {
+    "adult_use_since": {"value": "21 July 2023 (home growing and private use only).", "source": "https://www.themayor.eu/en/a/view/from-friday-smoking-pot-at-home-becomes-legal-in-luxembourg-11978", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to four plants per household, grown at the usual residence by adults 18+ and not visible from public space.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 3 g in public draws a reduced fine (a EUR 145 warning fee is reported); more than 3 g can lead to criminal sanctions.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "18 for home growing and private consumption.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"},
+    "public_use": {"value": "Public consumption remains prohibited, and using cannabis in front of a minor is an offence.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None. A state-controlled production and sales chain has been proposed as a second step but not enacted.", "source": "https://luxtoday.lu/en/luxembourg-en/cannabis-legalised-in-luxembourg", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Prescribed by Luxembourg doctors with specific training for serious, advanced or terminal illness (e.g. chronic pain, chemotherapy nausea, MS spasticity), dispensed only by hospital pharmacies; requires Luxembourg residence, health insurance or citizenship.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Industrial hemp must contain less than 0.3% THC.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"},
+    "tourists": {"value": "There is no legal way for visitors to buy cannabis, public use is banned, and the medical programme is limited to residents, insured persons or citizens.", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2023-07-10", "event": "Law adopted allowing home growing and private use", "source": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg"},
+    {"date": "2023-07-21", "event": "Home growing and private consumption become legal", "source": "https://www.themayor.eu/en/a/view/from-friday-smoking-pot-at-home-becomes-legal-in-luxembourg-11978"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Luxembourg?", "a": "Partly. Adults can grow up to four plants and use cannabis at home, but public use is banned and there are no shops."},
+    {"q": "Can tourists buy cannabis in Luxembourg?", "a": "No. There are no legal sales, and public consumption is prohibited."},
+    {"q": "What happens if you are caught with cannabis in public in Luxembourg?", "a": "Up to 3 g is dealt with by a fine; larger amounts can lead to criminal charges."}
+  ],
+  "sources": [
+    {"name": "CMS Expert Guide – Luxembourg", "url": "https://cms.law/en/int/expert-guides/cms-expert-guide-to-a-legal-roadmap-to-cannabis/luxembourg"},
+    {"name": "Luxtoday", "url": "https://luxtoday.lu/en/luxembourg-en/cannabis-legalised-in-luxembourg"},
+    {"name": "TheMayor.EU", "url": "https://www.themayor.eu/en/a/view/from-friday-smoking-pot-at-home-becomes-legal-in-luxembourg-11978"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

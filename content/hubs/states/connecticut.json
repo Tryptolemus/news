@@ -1,0 +1,95 @@
+{
+  "id": "us/connecticut",
+  "type": "us_state",
+  "name": "Connecticut",
+  "abbr": "CT",
+  "tags": ["Connecticut"],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+, with licensed adult-use sales since January 2023.",
+  "summary": "Connecticut legalized adult-use cannabis through SB 1201, signed June 22, 2021, with possession legal from July 1, 2021 and retail sales starting January 10, 2023. Adults 21+ may carry 1.5 ounces and keep up to 5 ounces at home, and since July 2023 all adults may grow a small number of plants. In 2026 lawmakers replaced the THC-based cannabis tax with a flat 10.75% tax from October 1, 2026, and passed a broad cannabis and hemp law (Public Act 26-8) that also opens the medical market to qualifying out-of-state patients.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Gov. Ned Lamont signed SB 1201 on June 22, 2021; adult possession became legal July 1, 2021.",
+      "source": "https://housedems.ct.gov/node/18632",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Up to 1.5 ounces on your person, and up to 5 ounces at home or locked in a car's trunk or glove box.",
+      "source": "https://housedems.ct.gov/node/18632",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Since July 1, 2023, adults 21+ may grow up to 3 mature and 3 immature plants indoors in a locked area out of public view, with a household cap of 12 plants.",
+      "source": "https://ctmirror.org/2023/07/01/ct-growing-at-home-marijuana-recreational-cannabis/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://portal.ct.gov/cannabis",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Smoking in public is generally not allowed, and smoking in a vehicle or driving while impaired is prohibited.",
+      "source": "https://housedems.ct.gov/node/18632",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed adult-use retail sales began Jan. 10, 2023.",
+      "source": "https://www.mpp.org/states/connecticut/",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "From Oct. 1, 2026, a flat 10.75% cannabis tax on gross receipts replaces the former THC-per-milligram tax (Public Act 26-68). Adult-use buyers also pay the 3% municipal cannabis tax and state sales tax; registered medical patients are exempt.",
+      "source": "https://ctmirror.org/2026/09/16/the-looming-revenue-cliff-for-connecticut-cannabis-lou/",
+      "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "Patients certified by a provider for a qualifying condition register with the Department of Consumer Protection and buy tax-free. Public Act 26-8 (2026) lets qualifying out-of-state patients use the medical market starting Oct. 1, 2026.",
+      "source": "https://gigafact.org/fact-briefs/ct-cannabis-tax-medical-marijuana",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Department of Consumer Protection (DCP), with the Social Equity Council overseeing equity licensing.",
+      "source": "https://www.cbia.com/?p=177261",
+      "as_of": "2026-11-07"
+    },
+    "hemp_thc": {
+      "value": "Public Act 26-8 (HB 5350, signed May 20, 2026) tightens rules on hemp-derived and manufactured cannabinoids effective Dec. 1, 2026, and raises allowable THC in infused beverages from Oct. 1, 2026.",
+      "source": "https://www.cbia.com/?p=177261",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {"date": "2021-06-22", "event": "Gov. Ned Lamont signs SB 1201 legalizing adult-use cannabis", "source": "https://www.mpp.org/states/connecticut/"},
+    {"date": "2021-07-01", "event": "Adult possession becomes legal", "source": "https://housedems.ct.gov/node/18632"},
+    {"date": "2023-01-10", "event": "Adult-use retail sales begin", "source": "https://www.mpp.org/states/connecticut/"},
+    {"date": "2023-07-01", "event": "Home cultivation opens to all adults 21+", "source": "https://ctmirror.org/2023/07/01/ct-growing-at-home-marijuana-recreational-cannabis/"},
+    {"date": "2026-05-20", "event": "Public Act 26-8 on cannabis, hemp and infused beverages signed", "source": "https://prdext2.cga.ct.gov/2026/cbs/H/pdf/HB-5350.pdf"},
+    {"date": "2026-10-01", "event": "Flat 10.75% cannabis tax replaces THC-based tax; out-of-state medical patients allowed", "source": "https://www.cbia.com/?p=177261"},
+    {"date": "2026-12-01", "event": "New hemp and manufactured-cannabinoid rules take effect", "source": "https://www.cbia.com/?p=177261"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Connecticut?", "a": "Yes. Adults 21 and older can possess cannabis and buy it from licensed retailers, which have sold to adults since January 2023."},
+    {"q": "How much weed can you have in Connecticut?", "a": "Up to 1.5 ounces on your person and up to 5 ounces at home or locked in your car's trunk or glove box."},
+    {"q": "Can you grow weed at home in Connecticut?", "a": "Yes. Since July 2023 adults may grow three mature and three immature plants indoors in a locked space, with no more than 12 plants per household."},
+    {"q": "What is the cannabis tax in Connecticut?", "a": "Since Oct. 1, 2026 the state charges a flat 10.75% cannabis tax plus a 3% municipal tax and sales tax. Registered medical patients do not pay these taxes."},
+    {"q": "Can out-of-state medical patients buy cannabis in Connecticut?", "a": "A 2026 law (Public Act 26-8) allows qualifying out-of-state patients and caregivers to use Connecticut's medical market starting Oct. 1, 2026."}
+  ],
+  "sources": [
+    {"name": "CT.gov - Cannabis in Connecticut", "url": "https://portal.ct.gov/cannabis"},
+    {"name": "Connecticut General Assembly - HB 5350 bill summary (Public Act 26-8)", "url": "https://prdext2.cga.ct.gov/2026/cbs/H/pdf/HB-5350.pdf"},
+    {"name": "Connecticut House Democrats - CT cannabis law takes effect", "url": "https://housedems.ct.gov/node/18632"},
+    {"name": "Marijuana Policy Project - Connecticut", "url": "https://www.mpp.org/states/connecticut/"},
+    {"name": "CT Mirror - cannabis tax change (Sept. 2026)", "url": "https://ctmirror.org/2026/09/16/the-looming-revenue-cliff-for-connecticut-cannabis-lou/"},
+    {"name": "CT Mirror - home grow begins July 1, 2023", "url": "https://ctmirror.org/2023/07/01/ct-growing-at-home-marijuana-recreational-cannabis/"},
+    {"name": "CBIA - Connecticut's cannabis law update", "url": "https://www.cbia.com/?p=177261"},
+    {"name": "Gigafact - CT cannabis tax and medical marijuana", "url": "https://gigafact.org/fact-briefs/ct-cannabis-tax-medical-marijuana"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}

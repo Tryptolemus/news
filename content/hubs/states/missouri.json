@@ -1,0 +1,140 @@
+{
+  "id": "us/missouri",
+  "type": "us_state",
+  "name": "Missouri",
+  "abbr": "MO",
+  "tags": [
+    "Missouri"
+  ],
+  "legal": {
+    "adult_use": "legal",
+    "medical": "comprehensive",
+    "decriminalized": "yes"
+  },
+  "headline_status": "Recreational and medical cannabis are legal for adults 21+.",
+  "summary": "Missouri voters approved medical cannabis in 2018 and adult-use legalization through constitutional Amendment 3 in November 2022, with licensed adult-use sales starting in February 2023. Adults can possess up to three ounces and may grow at home with a state registration. A 2026 initiative to fold marijuana and hemp under alcohol-style regulation did not make the ballot, and regulators proposed new rule changes in November 2026.",
+  "facts": {
+    "adult_use_since": {
+      "value": "Legalized by Amendment 3, approved by voters November 8, 2022 (53.1%).",
+      "source": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)",
+      "as_of": "2026-11-07"
+    },
+    "medical_since": {
+      "value": "Voters approved medical cannabis (Amendment 2) in 2018.",
+      "source": "https://www.mpp.org/missouri",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Up to 3 ounces for adults 21+.",
+      "source": "https://www.mpp.org/missouri",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Allowed with a state cultivation registration: up to 6 flowering plants, 6 non-flowering plants and 6 clones per registrant, and no more than 12 flowering plants per residence.",
+      "source": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older.",
+      "source": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Consumption in public places is prohibited except at approved venues; a first offense carries a civil fine of up to $100.",
+      "source": "https://www.mpp.org/missouri",
+      "as_of": "2026-11-07"
+    },
+    "retail_sales": {
+      "value": "Licensed adult-use sales began in February 2023.",
+      "source": "https://www.mpp.org/missouri",
+      "as_of": "2026-11-07"
+    },
+    "taxes": {
+      "value": "6% state tax on adult-use retail sales; local governments may add up to 3%, plus regular sales tax.",
+      "source": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)",
+      "as_of": "2026-11-07"
+    },
+    "regulator": {
+      "value": "Division of Cannabis Regulation (DCR), part of the Department of Health and Senior Services.",
+      "source": "https://health.mo.gov/business-professionals/cannabis-regulation",
+      "as_of": "2026-11-07"
+    }
+  },
+  "timeline": [
+    {
+      "date": "2018-11-06",
+      "event": "Voters approve medical cannabis (Amendment 2).",
+      "source": "https://www.mpp.org/missouri"
+    },
+    {
+      "date": "2022-11-08",
+      "event": "Voters approve adult-use legalization (Amendment 3).",
+      "source": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)"
+    },
+    {
+      "date": "2023-02",
+      "event": "Licensed adult-use sales begin.",
+      "source": "https://www.mpp.org/missouri"
+    },
+    {
+      "date": "2026-05-03",
+      "event": "Signature deadline passes; an initiative to regulate marijuana and hemp like alcohol does not make the 2026 ballot.",
+      "source": "https://ballotpedia.org/Missouri_Marijuana_Regulations_Amendment_(2026)"
+    },
+    {
+      "date": "2026-11-02",
+      "event": "DCR publishes proposed rule amendments; public comment runs through December 2, 2026.",
+      "source": "https://health.mo.gov/business-professionals/cannabis-regulation"
+    }
+  ],
+  "pending": [
+    {
+      "item": "Proposed amendments to DCR rules 19 CSR 100-1.070 and 1.100.",
+      "status": "Public comment open November 2 to December 2, 2026.",
+      "source": "https://health.mo.gov/business-professionals/cannabis-regulation"
+    },
+    {
+      "item": "SB 1187 would make public cannabis use a misdemeanor punishable by up to six months in jail.",
+      "status": "Introduced in 2026.",
+      "source": "https://www.mpp.org/missouri"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is weed legal in Missouri?",
+      "a": "Yes. Adults 21 and older can buy and possess cannabis, and medical cannabis has been legal since 2018."
+    },
+    {
+      "q": "How much weed can you have in Missouri?",
+      "a": "Adults may possess up to 3 ounces."
+    },
+    {
+      "q": "Can you grow weed in Missouri?",
+      "a": "Yes, with a state cultivation registration, up to 6 flowering plants per registrant and 12 per home."
+    },
+    {
+      "q": "What is the marijuana tax in Missouri?",
+      "a": "Adult-use purchases carry a 6% state tax, up to 3% in local tax, and regular sales tax."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Missouri DHSS, Division of Cannabis Regulation",
+      "url": "https://health.mo.gov/business-professionals/cannabis-regulation"
+    },
+    {
+      "name": "Ballotpedia, Missouri Amendment 3 (2022)",
+      "url": "https://ballotpedia.org/Missouri_Amendment_3,_Marijuana_Legalization_Initiative_(2022)"
+    },
+    {
+      "name": "Ballotpedia, Missouri Marijuana Regulations Amendment (2026)",
+      "url": "https://ballotpedia.org/Missouri_Marijuana_Regulations_Amendment_(2026)"
+    },
+    {
+      "name": "Marijuana Policy Project, Missouri",
+      "url": "https://www.mpp.org/missouri"
+    }
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
