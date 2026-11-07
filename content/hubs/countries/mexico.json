@@ -1,0 +1,39 @@
+{
+  "id": "country/mexico",
+  "type": "country",
+  "name": "Mexico",
+  "tags": ["Mexico"],
+  "legal": {"adult_use": "legal_no_sales", "medical": "limited", "decriminalized": "partial"},
+  "headline_status": "Recreational cannabis use is constitutionally protected in Mexico and possession of up to 5 g is not a crime, but there is no legal market and selling remains a serious offence.",
+  "summary": "Mexico's Supreme Court struck down the ban on adult recreational use in 2021 through a general declaration of unconstitutionality, but Congress never passed a law to regulate a market. Adults can apply to the health regulator Cofepris for individual permits to grow and possess cannabis for their own use, while possession of up to 5 g is treated as personal consumption. In February 2026 the Court fell one vote short of scrapping the 5 g threshold nationwide, so larger amounts can still lead to prosecution.",
+  "facts": {
+    "adult_use_since": {"value": "June 2021, when the Supreme Court decriminalised adult recreational use (General Declaration of Unconstitutionality 1/2018); no commercial regulation followed.", "source": "https://www.ultimahora.com/corte-suprema-mexico-flexibiliza-criterio-posesion-marihuana-uso-personal-n3001098.html", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "5 g is the legal threshold for personal consumption; more may trigger an investigation if there are signs of dealing, and the Supreme Court left the limit in place in February 2026.", "source": "https://www.elimparcial.com/mexico/2026/02/06/suprema-corte-fallo-en-contra-de-cambiar-el-limite-de-posesion-personal-de-mariguana-de-5-gramos-por-un-solo-voto-que-resolvio-y-que-significa-para-los-consumidores/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Allowed only for adults holding an individual Cofepris permit, which covers growing, harvesting, preparing, possessing and transporting cannabis for the holder's own use.", "source": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "None. Selling, distributing and supplying recreational cannabis remain illegal.", "source": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/", "as_of": "2026-11-07"},
+    "penalties": {"value": "Drug trafficking or dealing can bring 10 to 25 years in prison.", "source": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Federal Commission for the Protection against Sanitary Risks (Cofepris).", "source": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors have no legal place to buy cannabis; the 5 g personal-use threshold applies to everyone, and self-use permits are issued only to named individual holders.", "source": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/", "as_of": "2026-11-07"}
+  },
+  "timeline": [
+    {"date": "2021-03", "event": "Chamber of Deputies passes a cannabis regulation bill (28 g, six plants) that never became law", "source": "https://mexiconewsdaily.com/news/lower-house-votes-to-legalize-marijuana-senate-vote-to-follow/"},
+    {"date": "2021-06", "event": "Supreme Court declares the ban on adult recreational use unconstitutional", "source": "https://www.ultimahora.com/corte-suprema-mexico-flexibiliza-criterio-posesion-marihuana-uso-personal-n3001098.html"},
+    {"date": "2022-05-11", "event": "Supreme Court First Chamber rules prosecutors cannot charge a consumer for possessing over 5 g for personal use (single case)", "source": "https://www.ultimahora.com/corte-suprema-mexico-flexibiliza-criterio-posesion-marihuana-uso-personal-n3001098.html"},
+    {"date": "2026-02", "event": "Supreme Court falls one vote short of removing the 5 g limit with general effect", "source": "https://www.elimparcial.com/mexico/2026/02/06/suprema-corte-fallo-en-contra-de-cambiar-el-limite-de-posesion-personal-de-mariguana-de-5-gramos-por-un-solo-voto-que-resolvio-y-que-significa-para-los-consumidores/"},
+    {"date": "2026-07", "event": "Cofepris clarifies that self-use permits do not allow any sales", "source": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/"}
+  ],
+  "pending": [],
+  "faq": [
+    {"q": "Is weed legal in Mexico?", "a": "Personal use is protected by court rulings and up to 5 g is treated as personal possession, but there are no legal stores and selling is a serious crime."},
+    {"q": "Can tourists buy weed in Mexico?", "a": "No. There is no legal market, so any purchase is illegal, and carrying more than 5 g can lead to an investigation."},
+    {"q": "Can you grow cannabis in Mexico?", "a": "Only with an individual self-use permit from Cofepris, which covers growing and possessing cannabis for the holder's own use."}
+  ],
+  "sources": [
+    {"name": "Riviera Maya News", "url": "https://www.rivieramayanews.mx/cofepris-clarifies-what-cannabis-self-consumption-permits-allow-in-mexico/"},
+    {"name": "El Imparcial", "url": "https://www.elimparcial.com/mexico/2026/02/06/suprema-corte-fallo-en-contra-de-cambiar-el-limite-de-posesion-personal-de-mariguana-de-5-gramos-por-un-solo-voto-que-resolvio-y-que-significa-para-los-consumidores/"},
+    {"name": "Última Hora", "url": "https://www.ultimahora.com/corte-suprema-mexico-flexibiliza-criterio-posesion-marihuana-uso-personal-n3001098.html"},
+    {"name": "Mexico News Daily", "url": "https://mexiconewsdaily.com/news/lower-house-votes-to-legalize-marijuana-senate-vote-to-follow/"}
+  ],
+  "last_verified": "2026-11-07",
+  "page_status": "complete"
+}
