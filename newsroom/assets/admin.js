@@ -91,7 +91,7 @@ async function load(user, me) {
   const list = $("adm-xlist");
   const draw = () => {
     list.innerHTML = (CFG.xready || []).map((x) => `<li class="${done[x.key] ? "is-done" : ""}">
-      <p class="adm-xmeta">${esc(x.edition)} · rank ${x.rank}${done[x.key] ? " · <b>posted</b>" : ""}</p>
+      <p class="adm-xmeta">${esc(x.edition)} · ${x.label ? esc(x.label) : "rank " + x.rank}${done[x.key] ? " · <b>posted</b>" : ""}</p>
       <p class="adm-xtext">${esc(x.text)}</p><p class="adm-xurl">${esc(x.url)}</p>
       <p class="adm-xbtns"><a class="mfn-primary" href="${esc(x.intent)}" target="_blank" rel="noopener" data-k="${esc(x.key)}">Post on X</a>
       <button type="button" class="mfn-ghost" data-mark="${esc(x.key)}">${done[x.key] ? "Undo" : "Mark posted"}</button></p></li>`).join("")

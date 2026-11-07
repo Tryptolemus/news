@@ -146,3 +146,61 @@ def render_card(a, out_png, out_jpg=None):
     if out_jpg:
         img.save(out_jpg, quality=85, optimize=True, progressive=True)
     return img
+
+
+UP, DOWN = (124, 212, 112), (239, 107, 107)
+
+
+def render_stock_card(r, out_png, out_jpg=None, title=None, kicker="Cannabis stocks"):
+    """Stock page card: nameplate, kicker, company + ticker, close and day move, one-year chart."""
+    img = Image.new("RGB", (W, H), BG)
+    d = ImageDraw.Draw(img)
+    y = nameplate(img, d, X0, 52) + 40
+    tracked(d, (X0, y), kicker.upper(), sans(18, 700), GREEN, 2.5)
+    y += 40
+    name = title or r["full"]
+    tick = r["sym"]
+    tf = mono(26)
+    room = X1 - X0 - d.textlength("  " + tick, font=tf) - 12
+    size = 62
+    while size > 40 and d.textlength(name, font=serif(size)) > room:
+        size -= 2
+    nf = serif(size)
+    d.text((X0, y), name, font=nf, fill=FG)
+    if not title:
+        d.text((X0 + d.textlength(name, font=nf) + 18, y + size * 0.42), tick, font=tf, fill=META)
+    y += round(size * 1.18)
+    price = f"${r['price']:,.2f}" if r["price"] >= 1 else f"${r['price']:,.3f}"
+    pf = mono(46, 600)
+    d.text((X0, y), price, font=pf, fill=FG)
+    chg = r["chg"]
+    d.text((X0 + d.textlength(price, font=pf) + 22, y + 10), f"{chg:+.1f}%", font=mono(34, 600), fill=UP if chg >= 0 else DOWN)
+    y += 74
+
+    # one-year chart, full width above the footer rule
+    pts = [p["c"] for p in r["points"]]
+    top, bot = y + 6, FOOT_RULE - 18
+    lo, hi = min(pts), max(pts)
+    pad = (hi - lo) * 0.08 or 1
+    lo, hi = lo - pad, hi + pad
+    xs = [X0 + i * (X1 - X0) / (len(pts) - 1) for i in range(len(pts))]
+    ys = [bot - (c - lo) / (hi - lo) * (bot - top) for c in pts]
+    col = UP if pts[-1] >= pts[0] else DOWN
+    for k in (1, 2, 3):
+        gy = top + (bot - top) * k / 4
+        d.line([(X0, gy), (X1, gy)], fill=(34, 34, 34), width=1)
+    fill = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(fill).polygon([(X0, bot)] + list(zip(xs, ys)) + [(X1, bot)], fill=col + (26,))
+    img.paste(fill, (0, 0), fill)
+    d.line(list(zip(xs, ys)), fill=col, width=3, joint="curve")
+
+    d.line([(X0, FOOT_RULE), (X1, FOOT_RULE)], fill=RULE, width=1)
+    d.text((X0, FOOT_RULE + 18), "1 YEAR · DAILY CLOSES", font=mono(17), fill=META)
+    dt = datetime.fromisoformat(r["date"])
+    d.text((X1, FOOT_RULE + 18), f"CLOSE {dt.day} {dt:%b %Y}".upper(), font=mono(19), fill=META, anchor="ra")
+    out_png = Path(out_png)
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_png, optimize=True)
+    if out_jpg:
+        img.save(out_jpg, quality=85, optimize=True, progressive=True)
+    return img

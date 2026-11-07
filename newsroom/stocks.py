@@ -146,6 +146,42 @@ SOURCE = ('<p class="stk-src">End-of-day closing prices from Yahoo Finance, in U
           '<a href="/how-we-report/">How we report</a></p>')
 
 
+def share_row(url, text):
+    from urllib.parse import quote
+    return (f'<p class="share stk-share"><a href="https://x.com/intent/post?text={quote(text)}&url={quote(url)}&via={T.X_HANDLE}" target="_blank" rel="noopener">Post on X</a>'
+            f'<a href="https://www.linkedin.com/sharing/share-offsite/?url={quote(url)}" target="_blank" rel="noopener">LinkedIn</a>'
+            f'<button type="button" data-copy="{escape(url)}">Copy link</button></p>')
+
+
+def stock_post(r):
+    return f'{r["full"]} ({r["sym"]}) {moved(r["chg"])} to {money(r["price"])} at the close on {day(r["date"])}.'
+
+
+def x_posts(m):
+    """Ready-for-X posts for the stocks desk: the daily wrap and the day's biggest mover (facts only)."""
+    from urllib.parse import urlencode
+    import notify_logic as L
+    if not m:
+        return []
+    rows = m["rows"]
+    asof = max(r["date"] for r in rows)
+    ranked = sorted([x for x in rows if x["sym"] != "MSOS"], key=lambda x: x["chg"], reverse=True)
+    etf = next((x for x in rows if x["sym"] == "MSOS"), None)
+    ups = sum(1 for x in ranked if x["chg"] > 0)
+    wrap = (f"Cannabis stocks at the close, {day(asof)}: {ups} of {len(ranked)} higher. "
+            f"{ranked[0]['name']} {pct(ranked[0]['chg'])}, {ranked[-1]['name']} {pct(ranked[-1]['chg'])}"
+            + (f"; MSOS {pct(etf['chg'])}" if etf else "") + ". Charts and news for every name:")
+    mover = max(ranked, key=lambda x: abs(x["chg"]))
+    mtext = stock_post(mover) + " The biggest move among the cannabis stocks we track."
+    out = []
+    for key, label, text, url in ((f"stocks-{asof}", "Stocks wrap", wrap, f"{T.SITE}/stocks/"),
+                                  (f"mover-{asof}", f"Biggest mover · {mover['sym']}", mtext, f"{T.SITE}/stocks/{mover['sym'].lower()}/")):
+        text = L.X_TAGS.join([text[: L.X_LIMIT - L.X_URL_LEN - 2 - len(L.X_TAGS)], ""]) if len(text) > 200 else text + L.X_TAGS
+        out.append({"key": key, "edition": f"Close {short(asof)}", "label": label, "rank": 0, "headline": label, "text": text, "url": url,
+                    "intent": "https://x.com/intent/post?" + urlencode({"text": text, "url": url})})
+    return out
+
+
 def build_stocks(arts, m):
     """Returns [(path, lastmod)] for the sitemap."""
     if not m:
@@ -168,6 +204,9 @@ def build_stocks(arts, m):
             cov_html = (f'<section class="block"><h2 class="sec-label">Latest cannabis markets news</h2>'
                         f'<ol class="latest-list">{"".join(T.list_item(a) for a in mk)}</ol></section>')
         peers = [x for x in rows if x["sym"] != r["sym"]]
+        from card import render_stock_card
+        og = T.ctx["out"] / "og" / "stocks" / f"{sym}.png"
+        render_stock_card(r, og, og.with_suffix(".jpg"))
         title = f'{r["name"]} stock ({r["sym"]}) today: price, chart and news'
         desc = (f'{r["full"]} ({r["sym"]}) {moved(r["chg"])} to {money(r["price"])} on {short(r["date"])}. '
                 f'One-year chart, 52-week range and cannabis industry news, updated every trading day.')
@@ -177,6 +216,7 @@ def build_stocks(arts, m):
     <h1>{escape(r["full"])} <span class="tk">{r["sym"]}</span></h1>
     <p class="stk-price"><b>{money(r["price"])}</b> <span class="{cls(r["chg"])}">{pct(r["chg"])}</span>
       <span class="meta">Close, {day(r["date"], True)}</span></p>
+    {share_row(T.SITE + path, stock_post(r))}
   </header>
   {chart(r)}
   <div class="stk-cols">
@@ -187,8 +227,9 @@ def build_stocks(arts, m):
       <div class="story-body"><p>{escape(r["about"])}</p></div>
       {SOURCE}
     </div>
-    <aside class="stk-side">{stats(r)}{ads.slot("stock-" + sym, 0, "stock")}</aside>
+    <aside class="stk-side">{stats(r)}</aside>
   </div>
+  {ads.slot("stock-" + sym, 0, "list")}
   {cov_html}
   <section class="block"><h2 class="sec-label">Other cannabis stocks</h2>{table(peers)}</section>
 </article>"""
@@ -202,6 +243,7 @@ def build_stocks(arts, m):
             {"@type": "ListItem", "position": 3, "name": f'{r["name"]} ({r["sym"]})', "item": T.SITE + path}]}
         extra = f'<script type="application/ld+json">{json.dumps(ld)}</script><script type="application/ld+json">{json.dumps(crumbs)}</script>'
         T.ctx["write"](f"stocks/{sym}/index.html", T.page(title, body, desc=desc, path=path, extra_head=extra, active="Stocks",
+                                                         og_image=f"{T.SITE}/og/stocks/{sym}.png",
                                                          dateline=T.dl("Cannabis stocks", f"Close {short(r['date'])}")))
         out.append((path, r["date"]))
     asof = max(r["date"] for r in rows)
@@ -211,11 +253,17 @@ def build_stocks(arts, m):
     lead = (f'<p>{ups} of {len(ranked)} cannabis stocks closed higher on {day(asof)}. '
             f'{escape(ranked[0]["name"])} led ({pct(ranked[0]["chg"])}) and {escape(ranked[-1]["name"])} lagged ({pct(ranked[-1]["chg"])}).'
             + (f' MSOS, the US cannabis ETF, {moved(etf["chg"])}.' if etf else "") + "</p>")
-    body = (f'<div class="page-h"><h1>Cannabis stocks today</h1><p class="meta">Close {day(asof, True)} · updated every trading day</p></div>'
+    if etf:
+        from card import render_stock_card
+        og = T.ctx["out"] / "og" / "stocks" / "index.png"
+        render_stock_card(etf, og, og.with_suffix(".jpg"), title="Cannabis stocks today", kicker="MSOS · US cannabis ETF")
+    body = (f'<div class="page-h"><h1>Cannabis stocks today</h1><p class="meta">Close {day(asof, True)} · updated every trading day</p>'
+            f'{share_row(T.SITE + "/stocks/", "Cannabis stocks today: closing prices, charts and news.")}</div>'
             f'<div class="story-body stk-lead">{lead}</div>{table(rows)}{ads.slot("stocks-index", 0, "list")}{SOURCE}')
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis stocks today", "url": T.SITE + "/stocks/", "dateModified": asof,
           "hasPart": [{"@type": "WebPage", "url": f'{T.SITE}/stocks/{r["sym"].lower()}/', "name": f'{r["name"]} ({r["sym"]})'} for r in rows]}
     T.ctx["write"]("stocks/index.html", T.page("Cannabis stocks today", body, path="/stocks/", active="Stocks",
+                                               og_image=f"{T.SITE}/og/stocks/index.png" if etf else None,
                                                desc=f"Cannabis stocks today: closing prices, daily and year-to-date moves for {len(ranked)} cannabis companies and the MSOS ETF, with charts and news.",
                                                extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>',
                                                dateline=T.dl("Cannabis stocks", f"Close {short(asof)}")))

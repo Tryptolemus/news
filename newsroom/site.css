@@ -519,6 +519,9 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
   .node-cta h2{font-size:22px}
 }
 
+/* stock pages: share row */
+.stk-share{margin-top:12px}
+
 /* alerts admin: Ready for X */
 .adm-x{margin-top:8px}
 .adm-xlist{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:14px}
