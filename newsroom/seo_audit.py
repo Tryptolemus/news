@@ -44,7 +44,9 @@ class Page(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
-        if tag == "title":
+        if tag == "svg":
+            self._svg = getattr(self, "_svg", 0) + 1
+        if tag == "title" and not getattr(self, "_svg", 0) and not self.title:
             self._in = "title"
         elif tag == "meta":
             n = (a.get("name") or a.get("property") or "").lower()
@@ -77,6 +79,8 @@ class Page(HTMLParser):
             self._skip += 1
 
     def handle_endtag(self, tag):
+        if tag == "svg":
+            self._svg = max(0, getattr(self, "_svg", 0) - 1)
         if tag == "title" and self._in == "title":
             self._in = None
         elif tag == "script" and self._in == "ld":

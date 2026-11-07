@@ -189,14 +189,14 @@
   "score_total": 80.2
  },
  {
-  "at": "2026-11-07T11:27:25+00:00",
+  "at": "2026-11-07T11:27:40+00:00",
   "label": "Round 4c: CA + NJ quarterly sales pages indexable",
   "pages_indexable": 243,
   "articles": 22,
   "hub_pages": 207,
   "evergreen_ratio_pct": 85.2,
   "sitemap_coverage_pct": 100.0,
-  "title_ok_pct": 94.2,
+  "title_ok_pct": 99.2,
   "unique_title_pct": 100.0,
   "meta_desc_ok_pct": 99.6,
   "single_h1_pct": 100.0,
@@ -210,9 +210,9 @@
   "avg_inbound_links_per_article": 22.5,
   "avg_inbound_links_per_hub": 17.3,
   "avg_words_per_article": 1588,
-  "score_technical": 99.4,
+  "score_technical": 99.9,
   "score_structure": 97.2,
   "score_scale": 46.6,
-  "score_total": 80.3
+  "score_total": 80.5
  }
 ]
