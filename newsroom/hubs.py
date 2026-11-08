@@ -675,6 +675,15 @@ def recent_changes(hubs, n=10):
     return f'<h2 class="sec-label">What changed recently</h2><ol class="timeline">{lis}</ol>'
 
 
+def by_state_strip():
+    """Links to every by-state comparison table (built by bystate.py)."""
+    import bystate
+    lis = "".join(f'<li><a href="/legal/us/{t["slug"]}/">{escape(t["short"])} by state</a></li>' for t in bystate.TOPICS)
+    lis += f'<li><a href="{bystate.SALES_URL}">Cannabis sales by state</a></li>'
+    return (f'<section class="hub-sec"><h2><a href="{bystate.INDEX_URL}">Compare every state</a></h2>'
+            f'<ul class="sib">{lis}</ul></section>')
+
+
 def us_index(arts):
     states = sorted([h for h in HUBS if h["type"] == "us_state"], key=lambda h: h["name"])
     counts = {k: sum(1 for h in states if tone(h) == k) for k in TONE_LABEL}
@@ -728,6 +737,7 @@ def us_index(arts):
           "creator": T.PUBLISHER, "isAccessibleForFree": True, "spatialCoverage": {"@type": "Country", "name": "United States"},
           "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": SITE + "/legal/us/cannabis-laws-by-state.csv"}]}
     extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (ld, crumbs_ld(crumbs)))
+    body += by_state_strip()
     T.ctx["write"]("legal/us/index.html", T.page(title, body, desc=desc, path="/legal/us/", extra_head=extra, active="Laws"))
     return latest
 
@@ -800,6 +810,7 @@ def legal_index():
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis laws: US states, countries and federal rules",
           "url": SITE + "/legal/", "mainEntity": {"@type": "ItemList", "numberOfItems": len(items),
           "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": u} for i, u in enumerate(items)]}}
+    body += by_state_strip()
     T.ctx["write"]("legal/index.html", T.page("Cannabis laws: US states, countries and federal rules", body,
                    desc="Is cannabis legal where you are? Current cannabis laws for all 50 US states, key countries and federal rules, with sources and the latest changes.",
                    path="/legal/", active="Laws", extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))
@@ -1216,5 +1227,6 @@ def sales_index():
           "mainEntity": {"@type": "ItemList", "numberOfItems": len(ss), "itemListElement": [
               {"@type": "ListItem", "position": i + 1, "url": SITE + h["_url"], "name": f'{h["state"]} cannabis sales'} for i, h in enumerate(ss)]}}
     extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (il, crumbs_ld(crumbs)))
+    body += by_state_strip()
     T.ctx["write"]("data/index.html", T.page(title, body, desc=desc, path="/data/", extra_head=extra, active="Laws"))
     return max(verified(h) for h in ss)
