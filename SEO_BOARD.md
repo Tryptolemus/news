@@ -30,8 +30,14 @@ Every fact is `{value, source, as_of}`; bump `last_verified` only when something
 - Self-hosted subset WOFF2 fonts (`newsroom/webfonts.py`), Newsreader italic via a non-blocking Google Fonts link; SW navigation preload; titles never truncated; descriptions end on whole sentences; small footer/mast images; 404 has no canonical.
 - `STOCK_PAGES` comes from `market.TICKERS`. Board files: scratchpad seo-board/r7_*.md.
 
+## Round 8 (8 Nov 2026) – shipped
+- Discover lead images (`card.render_lead`): 16:9/4:3/1:1 + 960px JPEG per story from its `visual` motif, no headline text; article <figure> (eager, fetchpriority high), NewsArticle image array, RSS media:content. CI caches docs/img (hash in docs/img/.leads.json). og:image stays the 1200x630 card.
+- Entities: verified Wikidata ids (`wikidata` key) on 51 states, 22 countries, 8 companies (none found for SNDL, Jushi, Verano, Village Farms, MSOS); shared @ids (`/company/<slug>/#org`, `#place`, `/#org`); NewsArticle about/mentions.
+- Archive (`newsroom/archive.py`): /section|topic/<x>/page/N/ (30 per page), /YYYY/, /YYYY/MM/, /YYYY/MM/DD/ in sitemap-archive.xml; visible breadcrumbs. `newsroom/sourcecheck.py` warns only (docs/admin/sourcecheck.json); NEWSROOM.md "Source mix" rule. `indexnow_changed.py` submits changed hub pages after each push.
+- Hemp THC facts for 21 more states (48/51); /legal/us/hemp-thc-by-state/ now indexable. Missing: Delaware, Nebraska, Wisconsin (no primary source yet).
+
 ## Next rounds (from the board)
-1. Round 8: 16:9/4:3/1:1 lead images rendered from each story's visual motif (Discover); source-mix build check (>=1 primary source, <=60% from one outlet, link the named report/bill/ruling); Wikidata sameAs (verified ids only) + NewsArticle about/mentions; archive pagination + daily edition pages; feeds per state/company; IndexNow for changed hubs.
-2. Data: source `hemp_thc` and `taxes` for the 24 states missing each; Village Farms Q3 (9 Nov), Organigram FY.
+1. Done in round 8 (see above). Next: 16:9/4:3/1:1 lead images rendered from each story's visual motif (Discover); source-mix build check (>=1 primary source, <=60% from one outlet, link the named report/bill/ruling); Wikidata sameAs (verified ids only) + NewsArticle about/mentions; archive pagination + daily edition pages; feeds per state/company; IndexNow for changed hubs.
+2. Data: `taxes` for the 24 states missing it; hemp_thc for DE, NE, WI; re-check New Jersey hemp beverages after 13 Nov 2026 and Missouri after its 12 Nov act; federal hemp cap now 11 Dec 2026 (Pub. L. 119-103); Village Farms Q3 (9 Nov), Organigram FY.
 3. Owner decisions: a named human reviewer for top stories (Google AI-content guidance); Google News Publisher Center + Bing Webmaster Tools; Cloudflare proxy for caching.
 4. Watch Search Console (Pages, Performance) and plan rounds around real queries.
