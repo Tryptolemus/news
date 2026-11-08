@@ -1,0 +1,112 @@
+{
+  "id": "tribes-rescheduling-consultation",
+  "edition": "2026-11-08-am",
+  "rank": 5,
+  "published": "2026-11-08T10:56:23+02:00",
+  "cat": "Federal",
+  "headline": "Tribes ask DOJ to extend Schedule III order to tribal cannabis",
+  "dek": "The National Congress of American Indians says the April order moving medical marijuana to Schedule III skipped tribal consultation and omits tribal licences.",
+  "key_points": [
+    "The National Congress of American Indians adopted a resolution saying the Justice Department failed to consult tribes before its April order moving state-licensed medical marijuana into Schedule III.",
+    "The order does not mention tribes or tribally regulated medical programmes, so tribe-licensed cannabis may still sit in Schedule I, the group says.",
+    "NCAI wants the department to amend the order or issue a separate rule rescheduling tribally licensed cannabis, and to include tribes in any future federal cannabis action.",
+    "More than a quarter of Indigenous communities in the continental US are involved in marijuana or hemp programmes, according to a 2025 industry map."
+  ],
+  "body": [
+    "The largest national organisation of tribal governments says the federal government left tribes out of marijuana rescheduling. In a resolution adopted at its annual convention in October, the National Congress of American Indians (NCAI) said the Justice Department failed to hold required consultation with tribes while writing the order that moved state-licensed medical marijuana into Schedule III, Marijuana Moment reported on 6 November.",
+    "The practical worry is coverage. The April order, signed by Attorney General Todd Blanche, applies to marijuana products regulated under a state medical cannabis licence. NCAI says it does not mention tribes or tribally regulated medical programmes at all, which means cannabis licensed by a tribal government may not have moved out of Schedule I.",
+    "## What NCAI is asking for",
+    "The resolution asks the Justice Department to begin tribal consultation immediately with tribes active in the cannabis industry. It sets out two remedies: amend the existing order so it explicitly covers tribally licensed cannabis, or issue a separate rule moving tribally licensed cannabis and cannabis products from Schedule I to Schedule III. NCAI also wants tribes included in any future federal cannabis action, whether under the Controlled Substances Act or another route.",
+    "On consultation, the group says the department relied on a Clinton-era executive order on working with tribes but concluded that rescheduling would not have substantial direct effects on them. NCAI rejects that conclusion, pointing to the number of tribes that engaged with the department and that already license cannabis on their own lands.",
+    "> State licences got a federal on-ramp in April. Tribal licences, issued by sovereign governments, were not named at all.",
+    "## Why a missing word matters",
+    "Rescheduling is not symbolic for operators. As we have reported, the April order is what allowed the Drug Enforcement Administration to begin registering state-licensed medical businesses. On 30 October the agency issued its first registrations to more than 900 medical dispensaries in seven medical-only states, out of nearly 7,000 applications, according to our DEA registration explainer. Registrants and applicants must limit their trading to other registrants or timely applicants by 29 November.",
+    "Schedule III status also changes the tax picture. Businesses dealing in Schedule I or II substances cannot deduct ordinary business costs under Section 280E of the tax code; medical operators covered by the April order have begun deducting them. Cresco Labs, for example, says in its latest quarterly filing that medical costs became deductible from 22 April.",
+    "If tribally licensed operators fall outside the order, they could be left without a registration path and without the tax relief their state-licensed competitors now enjoy, even where they serve the same patients. Where a tribal dispensary competes with state-licensed stores nearby, a gap in the federal text could become a competitive disadvantage on the ground.",
+    "## The size of the tribal industry",
+    "Tribal participation is not marginal. A map published last year by the Indigenous Cannabis Industry Association and the law firm Vicente found that more than a quarter of Indigenous communities in the continental United States are involved in marijuana or hemp programmes.",
+    "A separate estimate published in late October by HedgeRow Analysis argues the opportunity could grow much larger. Its model suggests tribes that move early could earn $300 million to $600 million a year within five years, eventually building towards about $2 billion a year, with the biggest potential in states that still ban cannabis, where it estimates a tribe could earn more than $25 million a year. It points to the Eastern Band of Cherokee Indians, which opened North Carolina's first marijuana dispensary in 2024, as an example. These are projections from a consultancy, not reported revenue.",
+    "## Where this fits in the rescheduling fight",
+    "NCAI's request lands while the broader rescheduling case is still open. The administrative hearing on moving all marijuana to Schedule III closed its written arguments on 5 November, as we reported on 7 November, and the judge's recommendation could come at any time. Challengers to the April order are also pursuing a consolidated case in the US Court of Appeals for the D.C. Circuit.",
+    "Both processes create openings for tribes. A final rule on broader rescheduling would be a natural place to address tribal licences explicitly, and NCAI's resolution puts the Justice Department on notice that tribes expect to be named this time.",
+    "## What to watch",
+    "Watch for any response from the Justice Department or the DEA on consultation, and whether the DEA's registration guidance addresses tribally licensed businesses. The 29 November trading restriction for registrants is the first practical deadline that could expose the gap. Further out, the judge's recommendation and the administrator's final rule on broader rescheduling are the next chances to fix the wording."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/trump-administration-should-rewrite-marijuana-rescheduling-rule-to-include-tribes-american-indian-group-says/"
+    },
+    {
+      "name": "NCAI resolution",
+      "url": "https://ncai.assetbank-server.com/assetbank-ncai/action/viewAsset?id=6120"
+    },
+    {
+      "name": "Marijuana Moment (HedgeRow tribal revenue analysis)",
+      "url": "https://www.marijuanamoment.net/entering-the-marijuana-market-provides-native-american-tribes-with-opportunity-for-2-billion-a-year-in-new-revenue-analysis-shows/"
+    },
+    {
+      "name": "Cresco Labs Q3 2026 MD&A (SEC Form 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001832928/000183292826000018/q32026mda.htm"
+    },
+    {
+      "name": "MetaFlora News (DEA registrations)",
+      "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"
+    },
+    {
+      "name": "MetaFlora News (rescheduling briefs)",
+      "url": "https://news.metaflora.xyz/2026/11/07/rescheduling-final-briefs/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "DOJ",
+    "sub": "SCHEDULE III",
+    "big": "1 in 4+",
+    "label": "Indigenous communities in cannabis or hemp"
+  },
+  "banner": {
+    "title": "Tribes Seek Schedule III Fix",
+    "highlight": [
+      "TRIBES"
+    ],
+    "sub": "NCAI says the April order skipped tribal consultation",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Resolution adopted Oct"
+      },
+      {
+        "icon": "shield",
+        "text": "Order omits tribal licences"
+      },
+      {
+        "icon": "globe",
+        "text": "Asks for consultation"
+      }
+    ],
+    "corner": [
+      "FEDERAL",
+      "TRIBES",
+      "DOJ",
+      "SCHEDULE"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-29",
+      "text": "DEA medical registrants and applicants must limit trading to other registrants or timely applicants"
+    }
+  ],
+  "tags": [
+    "Rescheduling",
+    "DEA",
+    "Tribal cannabis",
+    "Medical cannabis",
+    "Section 280E"
+  ],
+  "image_prompt": "Rows of young cannabis plants in a modest greenhouse on rural reservation land in late afternoon, wooden fence posts and open prairie beyond the plastic walls, a pair of work gloves resting on a potting bench.",
+  "image_alt": "Young cannabis plants in a rural greenhouse with work gloves on a bench",
+  "breaking": false
+}

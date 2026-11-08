@@ -1,0 +1,104 @@
+{
+  "id": "science-pain-glaucoma",
+  "edition": "2026-11-08-am",
+  "rank": 6,
+  "published": "2026-11-08T10:56:23+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: THC-CBD aids sleep in pain trials, glaucoma link",
+  "dek": "A 28-trial review finds THC-CBD improves sleep in chronic pain, a 25,480-person study links daily use to lower glaucoma odds, and South Korea funds research.",
+  "key_points": [
+    "A network meta-analysis of 28 randomised trials with 3,058 adults found THC beat placebo for chronic pain, though with low-certainty evidence, while THC-CBD combinations improved sleep with moderate certainty.",
+    "A case-control study of 25,480 people in the NIH All of Us programme found daily cannabis users had 39% lower odds of primary open-angle glaucoma than non-users.",
+    "Neither study proves cause: the pain review had no trial longer than five and a half months, and the glaucoma study is observational.",
+    "South Korea plans a ₩29.5 billion (about $22 million) programme from 2027 to 2030 in Andong to produce minor cannabinoids such as CBG, CBN and CBC at pharmaceutical purity."
+  ],
+  "body": [
+    "Two new papers this week add to the evidence on cannabis for chronic pain, sleep and eye disease, and both come with clear limits. A review of 28 randomised trials published in Frontiers in Pharmacology found measurable but modest pain relief from THC and stronger evidence that THC-CBD combinations improve sleep. A large US case-control study in the Journal of Glaucoma linked daily cannabis use to lower odds of the most common form of glaucoma.",
+    "Meanwhile, South Korea, which keeps strict cannabis laws, is putting about $22 million into a four-year programme to make minor cannabinoids at pharmaceutical purity. This roundup follows our 6 November science report on an earlier pain meta-analysis.",
+    "## Chronic pain: THC helps a little, THC-CBD helps sleep more",
+    "The Frontiers review, led by researchers from Hubei University of Medicine and other Chinese institutions and published on 3 November, pooled 28 randomised controlled trials involving 3,058 adults with pain lasting more than three months, including neuropathic, cancer-related and fibromyalgia pain. It compared THC, CBD, THC-CBD combinations and palmitoylethanolamide (PEA), a naturally occurring lipid that is not from cannabis.",
+    "THC outperformed placebo for pain, with a standardised mean difference of minus 0.41, an effect usually considered small to moderate. The authors rated that evidence low certainty. The more solid finding was on sleep: across 13 trials with 1,679 participants, THC-CBD combinations improved sleep quality compared with placebo, rated moderate certainty, and ranked first of the treatments for sleep. In subgroup analyses, THC-CBD sprays and sublingual products improved pain, though the authors called those comparisons preliminary. CBD alone helped cancer-related pain in a subgroup but not chronic pain as a whole. PEA ranked highest for pain relief, on very low-certainty evidence.",
+    "The trade-offs were familiar. THC-containing treatments brought more dizziness and drowsiness, and THC-CBD combinations more nausea. There were no significant differences in physical or emotional functioning, anxiety or depression. No trial followed patients for longer than five and a half months.",
+    "> Across two meta-analyses in a week, the steadiest signal is not pain relief but better sleep for people in pain.",
+    "Read alongside the review of 13 inhaled-cannabis trials we covered on 6 November, which found short-term pain relief for about one patient in five, the picture is consistent: a real but modest benefit for some patients, with sleep emerging as a reliable secondary gain.",
+    "## Glaucoma: an association worth testing",
+    "The glaucoma study, published online on 3 November by researchers including a team at the University of California, San Diego, used the National Institutes of Health's All of Us Research Program. It compared 5,096 people with primary open-angle glaucoma against 20,384 without it, combining health records with survey answers.",
+    "More frequent cannabis use was associated with progressively lower odds of the disease. After adjusting for other factors, daily users had 39% lower odds of glaucoma than people who reported no use. The association was strongest among white participants.",
+    "THC is known to lower pressure inside the eye temporarily, and raised eye pressure is a major glaucoma risk factor. But a lower likelihood of having a diagnosis is not the same as prevention. The authors call for prospective studies to test whether the link is causal. Earlier, smaller clinical studies focused on THC's immediate, temporary effect on eye pressure; this one looks at diagnosis across a large population, which is why it is a lead for research rather than a treatment finding.",
+    "## South Korea funds minor cannabinoids",
+    "South Korea is moving in a different direction from its strict drug laws, within narrow limits. A ₩29.5 billion programme, roughly $22 million, will run from 2027 to 2030 in Andong, in North Gyeongsang Province, inside an expanded industrial hemp regulatory free zone covering about 218,000 square metres. Funding comes from the national government (about ₩14.7 billion), local governments (about ₩12.5 billion) and private investment (about ₩2.3 billion), according to The Marijuana Herald.",
+    "The aim is to move beyond CBD to the minor cannabinoids CBG, CBN and CBC, building a production platform for high-purity pharmaceutical ingredients and a safety system covering production through disposal. Minister of SMEs and Startups Lee So-young visited on 30 October. The programme does not create any adult-use or general commercial market.",
+    "## What to watch",
+    "For clinicians and product makers, the next useful evidence would be longer pain trials, beyond six months, comparing standardised THC-CBD products head-to-head with existing sleep and pain treatments. For glaucoma, a prospective study tracking eye pressure and disease progression in regular users would test whether the All of Us association holds. In South Korea, watch for which companies win production roles in Andong as the 2027 start approaches."
+  ],
+  "sources": [
+    {
+      "name": "Frontiers in Pharmacology (network meta-analysis)",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1895235/full"
+    },
+    {
+      "name": "The Marijuana Herald (28-trial review)",
+      "url": "https://themarijuanaherald.com/2026/11/trials-thc-cbd/"
+    },
+    {
+      "name": "Journal of Glaucoma via PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42980159/"
+    },
+    {
+      "name": "The Marijuana Herald (glaucoma study)",
+      "url": "https://themarijuanaherald.com/2026/11/study-of-over-25000-people-finds-daily-marijuana-use-associated-with-39-lower-odds-of-glaucoma/"
+    },
+    {
+      "name": "The Marijuana Herald (South Korea research)",
+      "url": "https://themarijuanaherald.com/2026/11/south-korea-cannabinoid-research/"
+    },
+    {
+      "name": "MetaFlora News (6 November science)",
+      "url": "https://news.metaflora.xyz/2026/11/06/science/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "-39%",
+    "label": "glaucoma odds for daily cannabis users"
+  },
+  "banner": {
+    "title": "Pain, Sleep And Glaucoma",
+    "highlight": [
+      "SLEEP"
+    ],
+    "sub": "New reviews find modest pain relief and better sleep",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "28 trials, 3,058 adults"
+      },
+      {
+        "icon": "chart",
+        "text": "39% lower glaucoma odds"
+      },
+      {
+        "icon": "globe",
+        "text": "South Korea funds research"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "PAIN",
+      "SLEEP",
+      "RESEARCH"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Pain",
+    "Sleep",
+    "Glaucoma",
+    "South Korea"
+  ],
+  "image_prompt": "An ophthalmology examination room at a university clinic, a slit lamp microscope and a tonometer on a white desk, eye charts out of focus, a clinician's hand adjusting a dial, clean daylight.",
+  "image_alt": "Slit lamp microscope and tonometer in an eye clinic examination room",
+  "breaking": false
+}
