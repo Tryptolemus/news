@@ -5,11 +5,7 @@
   "wikidata": "Q1207",
   "abbr": "ND",
   "tags": ["North Dakota"],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "comprehensive",
-    "decriminalized": "partial"
-  },
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
   "headline_status": "Medical cannabis is legal in North Dakota, but recreational use is not; small-amount possession is a fine-only infraction.",
   "summary": "North Dakota allows medical cannabis under a program voters approved in 2016, run through the state health department with licensed dispensaries. Recreational marijuana remains illegal: voters rejected Measure 5 on November 5, 2024 by about 52.6% to 47.5%. Since a 2019 law, possessing a half ounce or less is a criminal infraction punishable by a fine rather than jail. In April 2025 the governor signed HB 1203, letting practitioners recommend edible lozenges to qualifying patients.",
   "facts": {
@@ -22,7 +18,8 @@
     "purchase_age": {"value": "Medical only. Patients under 19 count as minors: they need a provider's documentation, a parent's or guardian's written consent and a designated caregiver, and are limited to pediatric medical marijuana.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
     "public_use": {"value": "There is no legal recreational use. Patients may not use cannabis on school grounds or buses, at school events, in correctional or child care facilities, or where smoke or vapor would reach a minor, and the state smoke-free law applies.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
     "dui": {"value": "Impairment-based: driving under the influence of marijuana is illegal, but North Dakota has no THC per se limit, and a registered patient is not considered impaired solely because of metabolites too low to cause impairment.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
-    "tourists": {"value": "Medical patients only. Nonresidents with a valid medical card from their home state can apply for a North Dakota registry card, valid for 60 days, using that card in place of a written certification; there are no adult-use sales.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"}
+    "tourists": {"value": "Medical patients only. Nonresidents with a valid medical card from their home state can apply for a North Dakota registry card, valid for 60 days, using that card in place of a written certification; there are no adult-use sales.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "North Dakota bans hemp products containing chemically derived cannabinoids such as delta-8 THC, THC-O, HHC and THCP, as well as inhalants made from hemp extracts (vapes), and the Department of Agriculture treats products that contain only delta-9 THC or are meant to produce a high as illegal. Hemp flower must test under 0.3% total THC, calculated as delta-9 THC plus 0.877 times THCA, which the department says rules out most THCA flower; CBD, CBG and CBN edibles, tinctures and topicals without synthetic cannabinoids may be sold.", "source": "https://www.ndda.nd.gov/divisions/plant-industries/hemp", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2016-11-08", "event": "Voters approve Initiated Statute Measure 5, creating the medical cannabis program", "source": "https://mpp.org/nd"},
@@ -44,8 +41,9 @@
     {"name": "Ballotpedia, North Dakota Measure 5 (2024)", "url": "https://ballotpedia.org/North_Dakota_Marijuana_Legalization_Initiative_(2024)"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

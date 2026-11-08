@@ -4,153 +4,51 @@
   "name": "South Dakota",
   "wikidata": "Q1211",
   "abbr": "SD",
-  "tags": [
-    "South Dakota"
-  ],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "comprehensive",
-    "decriminalized": "no"
-  },
+  "tags": ["South Dakota"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},
   "headline_status": "Medical cannabis is legal for registered patients; recreational use remains illegal.",
   "summary": "South Dakota runs a voter-created medical cannabis program, in effect since July 1, 2021, and overseen by the state Department of Health. Voters approved recreational legalization in 2020, but the courts struck it down, and later legalization measures failed at the ballot in 2022 and 2024. Possessing marijuana without a patient card is still a crime, starting at a Class 1 misdemeanor for two ounces or less. No cannabis measure was on the November 2026 ballot.",
   "facts": {
-    "medical_since": {
-      "value": "July 1, 2021, after voters approved Initiated Measure 26 in November 2020 (about 70% yes).",
-      "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "Registered patients may hold up to 3 ounces of cannabis, plus cannabis products in amounts set by Department of Health rules.",
-      "source": "https://sdlegislature.gov/Statutes/34-20G-1",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Patients whose card allows cultivation may keep 2 flowering and 2 non-flowering plants, plus what those plants produce, at the grow site.",
-      "source": "https://sdlegislature.gov/Statutes/34-20G-1",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "A South Dakota-licensed physician, PA or APRN certifies a debilitating condition (e.g. cancer, chronic pain, epilepsy, MS, PTSD); the patient then applies online and pays a fee. About 19,800 patients were registered as of September 2026.",
-      "source": "https://doh.sd.gov/programs/medical-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "South Dakota Department of Health (Medical Cannabis Program).",
-      "source": "https://doh.sd.gov/programs/medical-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Only state-certified medical dispensaries may sell, and only to cardholders; there is no adult-use retail.",
-      "source": "https://norml.org/laws/south-dakota-medical-marijuana-law",
-      "as_of": "2026-11-07"
-    },
-    "penalties": {
-      "value": "Without a card, possessing 2 oz or less is a Class 1 misdemeanor; more than 2 oz is a felony, and courts may add civil penalties of up to $10,000.",
-      "source": "https://sdlegislature.gov/Statutes/22-42-6",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "Medical only. Patients under 18 qualify only if a custodial parent or legal guardian consents in writing and serves as their designated caregiver, controlling the dosage.",
-      "source": "https://sdlegislature.gov/Statutes/34-20G-33",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Smoking or vaping cannabis is banned on public transportation, in any public place or place open to the public, and for anyone under 21; medical use is also barred in correctional facilities.",
-      "source": "https://sdlegislature.gov/Statutes/34-20G-18",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based for adults: South Dakota has no THC per se limit, and driving under the influence of cannabis is illegal even for patients. Drivers under 21 face zero tolerance: driving while physical evidence of marijuana use remains in the body is a Class 2 misdemeanor.",
-      "source": "https://sdlegislature.gov/Statutes/32-23-21",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Medical patients only. Nonresident cardholders are protected when buying, possessing or using up to 3 ounces of cannabis plus allowed products, but may not cultivate; there are no adult-use sales.",
-      "source": "https://sdlegislature.gov/Statutes/34-20G-3",
-      "as_of": "2026-11-07"
-    }
+    "medical_since": {"value": "July 1, 2021, after voters approved Initiated Measure 26 in November 2020 (about 70% yes).", "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Registered patients may hold up to 3 ounces of cannabis, plus cannabis products in amounts set by Department of Health rules.", "source": "https://sdlegislature.gov/Statutes/34-20G-1", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Patients whose card allows cultivation may keep 2 flowering and 2 non-flowering plants, plus what those plants produce, at the grow site.", "source": "https://sdlegislature.gov/Statutes/34-20G-1", "as_of": "2026-11-07"},
+    "medical_program": {"value": "A South Dakota-licensed physician, PA or APRN certifies a debilitating condition (e.g. cancer, chronic pain, epilepsy, MS, PTSD); the patient then applies online and pays a fee. About 19,800 patients were registered as of September 2026.", "source": "https://doh.sd.gov/programs/medical-cannabis", "as_of": "2026-11-07"},
+    "regulator": {"value": "South Dakota Department of Health (Medical Cannabis Program).", "source": "https://doh.sd.gov/programs/medical-cannabis", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Only state-certified medical dispensaries may sell, and only to cardholders; there is no adult-use retail.", "source": "https://norml.org/laws/south-dakota-medical-marijuana-law", "as_of": "2026-11-07"},
+    "penalties": {"value": "Without a card, possessing 2 oz or less is a Class 1 misdemeanor; more than 2 oz is a felony, and courts may add civil penalties of up to $10,000.", "source": "https://sdlegislature.gov/Statutes/22-42-6", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only. Patients under 18 qualify only if a custodial parent or legal guardian consents in writing and serves as their designated caregiver, controlling the dosage.", "source": "https://sdlegislature.gov/Statutes/34-20G-33", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking or vaping cannabis is banned on public transportation, in any public place or place open to the public, and for anyone under 21; medical use is also barred in correctional facilities.", "source": "https://sdlegislature.gov/Statutes/34-20G-18", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based for adults: South Dakota has no THC per se limit, and driving under the influence of cannabis is illegal even for patients. Drivers under 21 face zero tolerance: driving while physical evidence of marijuana use remains in the body is a Class 2 misdemeanor.", "source": "https://sdlegislature.gov/Statutes/32-23-21", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Nonresident cardholders are protected when buying, possessing or using up to 3 ounces of cannabis plus allowed products, but may not cultivate; there are no adult-use sales.", "source": "https://sdlegislature.gov/Statutes/34-20G-3", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "South Dakota's Attorney General (Official Opinion 25-04, November 3, 2025) says state law makes it illegal to sell any synthetic cannabinoids, naturally occurring cannabinoids with more than 0.3% delta-9 THC, or hemp products containing chemically derived, modified or converted cannabinoids, which covers most hemp-derived THC on the market. Delta-8, delta-10, THC-O, HHC and THCP are excluded from the legal definition of an industrial hemp product, products with delta-8, THC-O or HHC may not be sold to anyone under 21, and hemp may not be sold for smoking or inhaling.", "source": "https://atg.sd.gov/OurOffice/OfficialOpinions/opinionhtml.aspx?id=1770", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2020-11-03",
-      "event": "Voters approve medical cannabis (IM 26) and recreational legalization (Amendment A).",
-      "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"
-    },
-    {
-      "date": "2021-02-08",
-      "event": "A circuit judge strikes down Amendment A. The state Supreme Court later upholds that ruling.",
-      "source": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"
-    },
-    {
-      "date": "2021-07-01",
-      "event": "The medical cannabis law takes effect.",
-      "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"
-    },
-    {
-      "date": "2021-10-26",
-      "event": "Legislative rules committee approves the Department of Health's program rules.",
-      "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"
-    },
-    {
-      "date": "2022-11-08",
-      "event": "Voters reject recreational measure IM 27 (47% yes).",
-      "source": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"
-    },
-    {
-      "date": "2024-11-05",
-      "event": "Voters reject recreational measure IM 29 (44.5% yes).",
-      "source": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"
-    }
+    {"date": "2020-11-03", "event": "Voters approve medical cannabis (IM 26) and recreational legalization (Amendment A).", "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"},
+    {"date": "2021-02-08", "event": "A circuit judge strikes down Amendment A. The state Supreme Court later upholds that ruling.", "source": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"},
+    {"date": "2021-07-01", "event": "The medical cannabis law takes effect.", "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"},
+    {"date": "2021-10-26", "event": "Legislative rules committee approves the Department of Health's program rules.", "source": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"},
+    {"date": "2022-11-08", "event": "Voters reject recreational measure IM 27 (47% yes).", "source": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"},
+    {"date": "2024-11-05", "event": "Voters reject recreational measure IM 29 (44.5% yes).", "source": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"}
   ],
   "pending": [],
   "faq": [
-    {
-      "q": "Is weed legal in South Dakota?",
-      "a": "Only for registered medical patients. Recreational cannabis is illegal: a 2020 voter-approved amendment was struck down in court, and legalization measures failed in 2022 and 2024."
-    },
-    {
-      "q": "How much can a South Dakota medical patient possess?",
-      "a": "Up to 3 ounces of cannabis, plus products in amounts set by Department of Health rules. Patients with a cultivation endorsement may also grow 2 flowering and 2 non-flowering plants."
-    },
-    {
-      "q": "What is the penalty for possession without a card?",
-      "a": "Two ounces or less is a Class 1 misdemeanor. Larger amounts are felonies, and courts can add a civil penalty of up to $10,000."
-    },
-    {
-      "q": "How do I get a South Dakota medical card?",
-      "a": "A South Dakota-licensed physician, PA or nurse practitioner must certify a qualifying condition. You then apply through the Department of Health's online system and pay a fee."
-    }
+    {"q": "Is weed legal in South Dakota?", "a": "Only for registered medical patients. Recreational cannabis is illegal: a 2020 voter-approved amendment was struck down in court, and legalization measures failed in 2022 and 2024."},
+    {"q": "How much can a South Dakota medical patient possess?", "a": "Up to 3 ounces of cannabis, plus products in amounts set by Department of Health rules. Patients with a cultivation endorsement may also grow 2 flowering and 2 non-flowering plants."},
+    {"q": "What is the penalty for possession without a card?", "a": "Two ounces or less is a Class 1 misdemeanor. Larger amounts are felonies, and courts can add a civil penalty of up to $10,000."},
+    {"q": "How do I get a South Dakota medical card?", "a": "A South Dakota-licensed physician, PA or nurse practitioner must certify a qualifying condition. You then apply through the Department of Health's online system and pay a fee."}
   ],
   "sources": [
-    {
-      "name": "South Dakota Codified Laws 34-20G-1",
-      "url": "https://sdlegislature.gov/Statutes/34-20G-1"
-    },
-    {
-      "name": "South Dakota Codified Laws 22-42-6",
-      "url": "https://sdlegislature.gov/Statutes/22-42-6"
-    },
-    {
-      "name": "SD Department of Health – Medical Cannabis Program",
-      "url": "https://doh.sd.gov/programs/medical-cannabis"
-    },
-    {
-      "name": "Ballotpedia – IM 26 (2020)",
-      "url": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"
-    },
-    {
-      "name": "Ballotpedia – IM 29 (2024)",
-      "url": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"
-    },
-    {
-      "name": "NORML – South Dakota medical law",
-      "url": "https://norml.org/laws/south-dakota-medical-marijuana-law"
-    }
+    {"name": "South Dakota Codified Laws 34-20G-1", "url": "https://sdlegislature.gov/Statutes/34-20G-1"},
+    {"name": "South Dakota Codified Laws 22-42-6", "url": "https://sdlegislature.gov/Statutes/22-42-6"},
+    {"name": "SD Department of Health – Medical Cannabis Program", "url": "https://doh.sd.gov/programs/medical-cannabis"},
+    {"name": "Ballotpedia – IM 26 (2020)", "url": "https://ballotpedia.org/South_Dakota_Medical_Marijuana_Initiative_(2020)"},
+    {"name": "Ballotpedia – IM 29 (2024)", "url": "https://ballotpedia.org/South_Dakota_Initiated_Measure_29,_Marijuana_Legalization_Initiative_(2024)"},
+    {"name": "NORML – South Dakota medical law", "url": "https://norml.org/laws/south-dakota-medical-marijuana-law"}
   ],
   "page_status": "complete",
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07"
+  "last_verified": "2026-11-08"
 }

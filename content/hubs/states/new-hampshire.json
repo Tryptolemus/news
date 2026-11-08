@@ -4,140 +4,48 @@
   "name": "New Hampshire",
   "wikidata": "Q759",
   "abbr": "NH",
-  "tags": [
-    "New Hampshire"
-  ],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "tags": ["New Hampshire"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Medical cannabis is legal; recreational use is illegal but possession of small amounts is decriminalized.",
   "summary": "New Hampshire is the only New England state without legal adult-use cannabis. Possessing three-quarters of an ounce or less has been a civil violation rather than a crime since 2017, and the Therapeutic Cannabis Program, created in 2013, lets certified patients buy from nonprofit Alternative Treatment Centers. The House has repeatedly passed legalization bills, but the Senate has blocked them, and Gov. Kelly Ayotte has said she would veto legalization.",
   "facts": {
-    "medical_since": {
-      "value": "Therapeutic Cannabis Program created in 2013 (HB 573, RSA 126-X).",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "Since October 2024, adult patients can be certified for any debilitating or terminal condition by a NH-licensed prescriber; patients may possess 2 ounces and buy up to 2 ounces per 10 days. Visiting patients with valid out-of-state documentation may also buy.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "No adult-use stores. Patients buy from Alternative Treatment Centers, nonprofit operators with seven dispensary locations.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Not allowed; 2025 bills to permit patient home cultivation were tabled.",
-      "source": "https://www.mpp.org/new-hampshire",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "NH Department of Health and Human Services, Therapeutic Cannabis Program.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "penalties": {
-      "value": "Possessing 3/4 ounce or less is a civil violation punishable by a fine (since HB 640 in 2017), not a crime; transporting cannabis outside the trunk can bring a $150 fine.",
-      "source": "https://www.mpp.org/new-hampshire",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "No legal amount for adults without a card; possessing 3/4 ounce or less is a civil violation. Patients may buy no more than 2 ounces in any 10-day period, and visiting patients may possess up to 2 ounces.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "Medical only; there are no adult-use sales. Minors under 18 can be certified as patients, including by pediatric care providers.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based: New Hampshire has no THC per se limit. Unsealed cannabis in a vehicle must be kept in the trunk, though registered patients' therapeutic cannabis is exempt from the open container law.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Medical patients only. Visitors allowed to use cannabis therapeutically in their home state or province can buy at Alternative Treatment Centers by showing that card and matching photo ID, up to 2 ounces per 10 days; there are no adult-use sales.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "There is no legal recreational use. Patients may not smoke or vaporize cannabis in a public place, including public buses and other public vehicles, parks, beaches and fields.",
-      "source": "https://www.mpp.org//assets/pdf/states/new-hampshire/an-overview-of-new-hampshires-medical-marijuana-law.pdf",
-      "as_of": "2026-11-07"
-    }
+    "medical_since": {"value": "Therapeutic Cannabis Program created in 2013 (HB 573, RSA 126-X).", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Since October 2024, adult patients can be certified for any debilitating or terminal condition by a NH-licensed prescriber; patients may possess 2 ounces and buy up to 2 ounces per 10 days. Visiting patients with valid out-of-state documentation may also buy.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No adult-use stores. Patients buy from Alternative Treatment Centers, nonprofit operators with seven dispensary locations.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; 2025 bills to permit patient home cultivation were tabled.", "source": "https://www.mpp.org/new-hampshire", "as_of": "2026-11-07"},
+    "regulator": {"value": "NH Department of Health and Human Services, Therapeutic Cannabis Program.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "penalties": {"value": "Possessing 3/4 ounce or less is a civil violation punishable by a fine (since HB 640 in 2017), not a crime; transporting cannabis outside the trunk can bring a $150 fine.", "source": "https://www.mpp.org/new-hampshire", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount for adults without a card; possessing 3/4 ounce or less is a civil violation. Patients may buy no more than 2 ounces in any 10-day period, and visiting patients may possess up to 2 ounces.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only; there are no adult-use sales. Minors under 18 can be certified as patients, including by pediatric care providers.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: New Hampshire has no THC per se limit. Unsealed cannabis in a vehicle must be kept in the trunk, though registered patients' therapeutic cannabis is exempt from the open container law.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Visitors allowed to use cannabis therapeutically in their home state or province can buy at Alternative Treatment Centers by showing that card and matching photo ID, up to 2 ounces per 10 days; there are no adult-use sales.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis", "as_of": "2026-11-07"},
+    "public_use": {"value": "There is no legal recreational use. Patients may not smoke or vaporize cannabis in a public place, including public buses and other public vehicles, parks, beaches and fields.", "source": "https://www.mpp.org//assets/pdf/states/new-hampshire/an-overview-of-new-hampshires-medical-marijuana-law.pdf", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Under RSA 439-A:4, New Hampshire's hemp law does not authorize the sale of hemp-derived products containing more than 0.3% natural or synthetic THC on a dry-weight basis in any formulation, including delta-8 THC, delta-9 THC or any other THC isomer. A version of the statute taking effect January 1, 2027 adds THCA to that list and states that such products are prohibited.", "source": "https://www.gencourt.state.nh.us/rsa/html/XL/439-A/439-A-4.htm", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2013-07-23",
-      "event": "Gov. Maggie Hassan signs HB 573 creating the therapeutic cannabis program.",
-      "source": "https://www.mpp.org/new-hampshire"
-    },
-    {
-      "date": "2017-07-18",
-      "event": "Gov. Chris Sununu signs HB 640 decriminalizing up to 3/4 ounce.",
-      "source": "https://www.mpp.org/new-hampshire"
-    },
-    {
-      "date": "2024-10",
-      "event": "Eligibility expands to any debilitating or terminal condition in a provider's judgment.",
-      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis"
-    },
-    {
-      "date": "2025-05",
-      "event": "Senate tables a House-passed legalization bill, 12-10.",
-      "source": "https://www.ganjapreneur.com/new-hampshire-senate-blocks-adult-use-cannabis-legalization-bill"
-    },
-    {
-      "date": "2026",
-      "event": "Senate tables HB 186, another House-passed legalization bill.",
-      "source": "https://www.mpp.org/new-hampshire"
-    }
+    {"date": "2013-07-23", "event": "Gov. Maggie Hassan signs HB 573 creating the therapeutic cannabis program.", "source": "https://www.mpp.org/new-hampshire"},
+    {"date": "2017-07-18", "event": "Gov. Chris Sununu signs HB 640 decriminalizing up to 3/4 ounce.", "source": "https://www.mpp.org/new-hampshire"},
+    {"date": "2024-10", "event": "Eligibility expands to any debilitating or terminal condition in a provider's judgment.", "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis"},
+    {"date": "2025-05", "event": "Senate tables a House-passed legalization bill, 12-10.", "source": "https://www.ganjapreneur.com/new-hampshire-senate-blocks-adult-use-cannabis-legalization-bill"},
+    {"date": "2026", "event": "Senate tables HB 186, another House-passed legalization bill.", "source": "https://www.mpp.org/new-hampshire"}
   ],
   "pending": [],
   "faq": [
-    {
-      "q": "Is weed legal in New Hampshire?",
-      "a": "Not for recreational use. Medical cannabis is legal for certified patients, and possessing 3/4 ounce or less is a civil violation with a fine rather than a crime."
-    },
-    {
-      "q": "Will New Hampshire legalize marijuana?",
-      "a": "Not soon. The House has passed legalization bills, but the Senate has tabled them, and Gov. Kelly Ayotte has said she would veto one."
-    },
-    {
-      "q": "Who qualifies for medical marijuana in New Hampshire?",
-      "a": "Since October 2024, an adult with any debilitating or terminal condition can be certified by a NH-licensed provider with prescribing authority."
-    },
-    {
-      "q": "Can out-of-state patients buy medical cannabis in New Hampshire?",
-      "a": "Yes. Visiting patients with valid therapeutic cannabis documentation from another state or Canada may buy from New Hampshire's treatment centers."
-    }
+    {"q": "Is weed legal in New Hampshire?", "a": "Not for recreational use. Medical cannabis is legal for certified patients, and possessing 3/4 ounce or less is a civil violation with a fine rather than a crime."},
+    {"q": "Will New Hampshire legalize marijuana?", "a": "Not soon. The House has passed legalization bills, but the Senate has tabled them, and Gov. Kelly Ayotte has said she would veto one."},
+    {"q": "Who qualifies for medical marijuana in New Hampshire?", "a": "Since October 2024, an adult with any debilitating or terminal condition can be certified by a NH-licensed provider with prescribing authority."},
+    {"q": "Can out-of-state patients buy medical cannabis in New Hampshire?", "a": "Yes. Visiting patients with valid therapeutic cannabis documentation from another state or Canada may buy from New Hampshire's treatment centers."}
   ],
   "sources": [
-    {
-      "name": "NH DHHS, Therapeutic Cannabis Program",
-      "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis"
-    },
-    {
-      "name": "Marijuana Policy Project, New Hampshire",
-      "url": "https://www.mpp.org/new-hampshire"
-    },
-    {
-      "name": "Ganjapreneur, NH Senate blocks legalization bill (2025)",
-      "url": "https://www.ganjapreneur.com/new-hampshire-senate-blocks-adult-use-cannabis-legalization-bill"
-    },
-    {
-      "name": "NHPR, marijuana legislation in New Hampshire",
-      "url": "https://www.nhpr.org/nh-news/2025-12-26/marijuana-legislation-policy-new-hampshire"
-    }
+    {"name": "NH DHHS, Therapeutic Cannabis Program", "url": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis"},
+    {"name": "Marijuana Policy Project, New Hampshire", "url": "https://www.mpp.org/new-hampshire"},
+    {"name": "Ganjapreneur, NH Senate blocks legalization bill (2025)", "url": "https://www.ganjapreneur.com/new-hampshire-senate-blocks-adult-use-cannabis-legalization-bill"},
+    {"name": "NHPR, marijuana legislation in New Hampshire", "url": "https://www.nhpr.org/nh-news/2025-12-26/marijuana-legislation-policy-new-hampshire"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

@@ -5,79 +5,24 @@
   "wikidata": "Q61",
   "abbr": "DC",
   "tags": ["District of Columbia"],
-  "legal": {
-    "adult_use": "legal_no_sales",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "legal": {"adult_use": "legal_no_sales", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Adults 21+ may possess and grow cannabis, but adult-use sales are blocked by Congress; only licensed medical sales are legal.",
   "summary": "District of Columbia voters approved Initiative 71 in November 2014, and since February 2015 adults 21+ may possess up to two ounces, grow a few plants at home and give away up to one ounce. A congressional budget rider in place since 2014 bars the District from taxing and regulating adult-use sales, so the only legal stores are licensed medical dispensaries. Since a 2022 law, adults 21+ can self-certify as medical patients without a doctor's recommendation, and since mid-2024 regulators have used new powers to close unlicensed cannabis shops.",
   "facts": {
-    "adult_use_since": {
-      "value": "Initiative 71 approved Nov. 4, 2014; took effect Feb. 26, 2015 after Congress's review period passed without action.",
-      "source": "https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)",
-      "as_of": "2026-11-07"
-    },
-    "medical_since": {
-      "value": "Voters approved medical cannabis in 1998, but Congress blocked it from taking effect until 2009.",
-      "source": "https://www.mpp.org/states/district-of-columbia/",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "Adults 21+ may possess up to 2 ounces and give up to 1 ounce to another adult with no payment involved.",
-      "source": "https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Up to 6 plants, no more than 3 of them mature and flowering.",
-      "source": "https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "21 and older to possess or grow; adults 21+ may self-certify to buy at medical dispensaries.",
-      "source": "https://www.mpp.org/states/district-of-columbia/",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "No legal adult-use sales: the congressional 'Harris rider,' renewed in the fiscal 2026 budget, bars DC from regulating and taxing them. Only licensed medical dispensaries may sell.",
-      "source": "https://www.mpp.org/states/district-of-columbia/",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "Under the Medical Cannabis Amendment Act of 2022 (signed Jan. 31, 2023), residents 21+ can self-certify with no doctor or qualifying condition required. Non-residents can get temporary registration, and visitors may use their home-state medical ID.",
-      "source": "https://www.mpp.org/states/district-of-columbia/",
-      "as_of": "2026-11-07"
-    },
-    "taxes": {
-      "value": "Medical cannabis is taxed at 6%; the DC Council rejected a proposed increase to 10% on June 9, 2026.",
-      "source": "https://www.mpp.org/states/district-of-columbia/",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Alcoholic Beverage and Cannabis Administration (ABCA) and the ABC Board.",
-      "source": "https://abca.dc.gov/page/medical-cannabis-program",
-      "as_of": "2026-11-07"
-    },
-    "unlicensed_shops": {
-      "value": "Since July 15, 2024, ABCA can padlock unlicensed cannabis shops, and the ABC Board can fine property owners $10,000 and require a remediation plan.",
-      "source": "https://abca.dc.gov/release/abca-mpd-padlock-unlicensed-cannabis-shop-northeast-dc",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Smoking or consuming marijuana is illegal in public space, including streets, parks, sidewalks, vehicles on public ways and any place the public is invited (including private clubs); violations are misdemeanors punishable by up to 60 days in jail.",
-      "source": "https://code.dccouncil.gov/us/dc/council/code/sections/48-911.01",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based: D.C. has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
-      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Partly. D.C. has no adult-use stores, but non-residents, including international visitors, can get a 90-day temporary medical patient registration to buy at licensed dispensaries, and patient cards from dozens of states are honored through reciprocity.",
-      "source": "https://abca.dc.gov/node/1626311",
-      "as_of": "2026-11-07"
-    }
+    "adult_use_since": {"value": "Initiative 71 approved Nov. 4, 2014; took effect Feb. 26, 2015 after Congress's review period passed without action.", "source": "https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Voters approved medical cannabis in 1998, but Congress blocked it from taking effect until 2009.", "source": "https://www.mpp.org/states/district-of-columbia/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Adults 21+ may possess up to 2 ounces and give up to 1 ounce to another adult with no payment involved.", "source": "https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 6 plants, no more than 3 of them mature and flowering.", "source": "https://ballotpedia.org/Washington_D.C._Marijuana_Legalization,_Initiative_71_(November_2014)", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older to possess or grow; adults 21+ may self-certify to buy at medical dispensaries.", "source": "https://www.mpp.org/states/district-of-columbia/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No legal adult-use sales: the congressional 'Harris rider,' renewed in the fiscal 2026 budget, bars DC from regulating and taxing them. Only licensed medical dispensaries may sell.", "source": "https://www.mpp.org/states/district-of-columbia/", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Under the Medical Cannabis Amendment Act of 2022 (signed Jan. 31, 2023), residents 21+ can self-certify with no doctor or qualifying condition required. Non-residents can get temporary registration, and visitors may use their home-state medical ID.", "source": "https://www.mpp.org/states/district-of-columbia/", "as_of": "2026-11-07"},
+    "taxes": {"value": "Medical cannabis is taxed at 6%; the DC Council rejected a proposed increase to 10% on June 9, 2026.", "source": "https://www.mpp.org/states/district-of-columbia/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Alcoholic Beverage and Cannabis Administration (ABCA) and the ABC Board.", "source": "https://abca.dc.gov/page/medical-cannabis-program", "as_of": "2026-11-07"},
+    "unlicensed_shops": {"value": "Since July 15, 2024, ABCA can padlock unlicensed cannabis shops, and the ABC Board can fine property owners $10,000 and require a remediation plan.", "source": "https://abca.dc.gov/release/abca-mpd-padlock-unlicensed-cannabis-shop-northeast-dc", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking or consuming marijuana is illegal in public space, including streets, parks, sidewalks, vehicles on public ways and any place the public is invited (including private clubs); violations are misdemeanors punishable by up to 60 days in jail.", "source": "https://code.dccouncil.gov/us/dc/council/code/sections/48-911.01", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: D.C. has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "Partly. D.C. has no adult-use stores, but non-residents, including international visitors, can get a 90-day temporary medical patient registration to buy at licensed dispensaries, and patient cards from dozens of states are honored through reciprocity.", "source": "https://abca.dc.gov/node/1626311", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "The Alcoholic Beverage and Cannabis Board's position is that commercial sale of any cannabis product, including hemp-derived CBD, delta-8 THC and THCA products, is illegal in the District unless the seller holds a Board-issued medical cannabis license, because such products are still classified as cannabis under the District's Controlled Substances Act. Alcohol licensees may not sell any product containing THC or CBD.", "source": "https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/W&SLiquorandDeli-5152024.pdf", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "1998", "event": "Voters approve medical cannabis; Congress blocks implementation until 2009", "source": "https://www.mpp.org/states/district-of-columbia/"},
@@ -102,8 +47,9 @@
     {"name": "Marijuana Policy Project - District of Columbia", "url": "https://www.mpp.org/states/district-of-columbia/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

@@ -5,11 +5,7 @@
   "wikidata": "Q1522",
   "abbr": "NM",
   "tags": ["New Mexico"],
-  "legal": {
-    "adult_use": "legal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational cannabis is legal for adults 21+, and New Mexico also runs a medical cannabis program.",
   "summary": "New Mexico legalized adult-use cannabis through the Cannabis Regulation Act, with possession and home growing allowed from June 29, 2021 and licensed retail sales starting April 1, 2022. Adults 21+ may carry up to 2 ounces of flower, 16 grams of concentrate and 800 mg of edibles, and may grow at home. The state's medical program dates to 2007. The adult-use excise tax rose from 12% to 13% on July 1, 2025 and is scheduled to climb one point a year until it reaches 18% in 2030.",
   "facts": {
@@ -25,7 +21,8 @@
     "regulator": {"value": "Cannabis Control Division of the New Mexico Regulation and Licensing Department (business licensing for adult-use and medical).", "source": "https://www.rld.nm.gov/?p=39409", "as_of": "2026-11-07"},
     "penalties": {"value": "Public possession of more than 2 oz up to 8 oz is a misdemeanor; 8 oz or more is a fourth-degree felony.", "source": "https://norml.org/laws/new-mexico-laws-and-penalties", "as_of": "2026-11-07"},
     "dui": {"value": "Impairment-based: New Mexico has no THC per se or zero-tolerance law, so a cannabis DWI requires evidence of impairment. Using cannabis while driving is illegal.", "source": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/", "as_of": "2026-11-07"},
-    "tourists": {"value": "Yes. Adult-use sales are open to anyone 21+ with valid ID, up to 2 ounces of cannabis, 16 grams of concentrate and 800 mg of edibles at a time. Out-of-state patients can enroll as reciprocal participants for medical purchases.", "source": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/", "as_of": "2026-11-07"}
+    "tourists": {"value": "Yes. Adult-use sales are open to anyone 21+ with valid ID, up to 2 ounces of cannabis, 16 grams of concentrate and 800 mg of edibles at a time. Out-of-state patients can enroll as reciprocal participants for medical purchases.", "source": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Under New Mexico Environment Department rules (20.10.2 NMAC, effective January 28, 2026), hemp finished products may contain no more than 0.3% total THC and no more than 2 mg total THC per serving and 20 mg per package (100 mg per package for tinctures; vapes and cosmetics are exempt from the milligram caps). Permitted hemp facilities may not receive, make or sell products containing semi-synthetic or synthetic cannabinoids, meaning cannabinoids made by chemically converting one cannabinoid into another, except nine listed ones such as CBD, CBG and CBN. The rule covers hemp extraction, manufacturing and processing in the state.", "source": "https://www.env.nm.gov/cannabis-hemp/wp-content/uploads/sites/34/2025/12/20.10.2-NMAC-Final-Rule-1_28_2026.pdf", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2007", "event": "Lynn and Erin Compassionate Use Act creates the medical cannabis program", "source": "https://norml.org/laws/new-mexico-medical-marijuana-law"},
@@ -52,8 +49,9 @@
     {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/article/new-mexico-adult-use-cannabis-april-sales/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

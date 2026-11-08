@@ -4,164 +4,54 @@
   "name": "Michigan",
   "wikidata": "Q1166",
   "abbr": "MI",
-  "tags": [
-    "Michigan"
-  ],
-  "legal": {
-    "adult_use": "legal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "tags": ["Michigan"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational and medical cannabis are legal for adults 21+.",
   "summary": "Michigan voters legalized adult-use cannabis in 2018, a decade after approving medical use, and licensed stores have sold to adults since December 2019. Adults may carry 2.5 ounces and grow up to 12 plants at home. The biggest recent change is a new 24% wholesale tax that took effect January 1, 2026; the industry is challenging it in court.",
   "facts": {
-    "adult_use_since": {
-      "value": "Approved by voters as Proposal 1 on November 6, 2018; the law took effect December 6, 2018.",
-      "source": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act",
-      "as_of": "2026-11-07"
-    },
-    "medical_since": {
-      "value": "Voters approved medical marijuana in 2008; a 2016 law added licensed medical businesses.",
-      "source": "https://www.mpp.org/michigan",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "Up to 2.5 ounces outside the home, of which no more than 15 grams may be concentrate; up to 10 ounces at home plus the harvest from home-grown plants.",
-      "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Up to 12 plants per residence.",
-      "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "21 and older.",
-      "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Adult-use sales began December 1, 2019, at three Ann Arbor stores.",
-      "source": "https://www.clickondetroit.com/news/2019/12/01/recreational-marijuana-being-sold-for-the-first-time-in-michigan-today/",
-      "as_of": "2026-11-07"
-    },
-    "taxes": {
-      "value": "10% excise plus 6% sales tax on adult-use retail sales; a separate 24% wholesale tax took effect January 1, 2026 and is being challenged in court. Medical sales are exempt from the excise taxes.",
-      "source": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Cannabis Regulatory Agency (CRA), within the Department of Licensing and Regulatory Affairs.",
-      "source": "https://www.michigan.gov/cra",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Consuming marijuana in a public place is illegal, except in local designated consumption areas closed to under-21s; property owners may ban smoking, and using it in a vehicle or on school grounds is prohibited.",
-      "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27954",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Zero tolerance: Michigan bars driving with any amount of a Schedule 1 controlled substance, which includes marijuana, in the body; driving under the influence of marijuana is also illegal.",
-      "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Yes. Any adult 21+ may buy and possess up to 2.5 ounces, no more than 15 grams of it concentrate, with no residency requirement.",
-      "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955",
-      "as_of": "2026-11-07"
-    }
+    "adult_use_since": {"value": "Approved by voters as Proposal 1 on November 6, 2018; the law took effect December 6, 2018.", "source": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Voters approved medical marijuana in 2008; a 2016 law added licensed medical businesses.", "source": "https://www.mpp.org/michigan", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 2.5 ounces outside the home, of which no more than 15 grams may be concentrate; up to 10 ounces at home plus the harvest from home-grown plants.", "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 12 plants per residence.", "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Adult-use sales began December 1, 2019, at three Ann Arbor stores.", "source": "https://www.clickondetroit.com/news/2019/12/01/recreational-marijuana-being-sold-for-the-first-time-in-michigan-today/", "as_of": "2026-11-07"},
+    "taxes": {"value": "10% excise plus 6% sales tax on adult-use retail sales; a separate 24% wholesale tax took effect January 1, 2026 and is being challenged in court. Medical sales are exempt from the excise taxes.", "source": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act", "as_of": "2026-11-07"},
+    "regulator": {"value": "Cannabis Regulatory Agency (CRA), within the Department of Licensing and Regulatory Affairs.", "source": "https://www.michigan.gov/cra", "as_of": "2026-11-07"},
+    "public_use": {"value": "Consuming marijuana in a public place is illegal, except in local designated consumption areas closed to under-21s; property owners may ban smoking, and using it in a vehicle or on school grounds is prohibited.", "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27954", "as_of": "2026-11-07"},
+    "dui": {"value": "Zero tolerance: Michigan bars driving with any amount of a Schedule 1 controlled substance, which includes marijuana, in the body; driving under the influence of marijuana is also illegal.", "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-257-625", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Any adult 21+ may buy and possess up to 2.5 ounces, no more than 15 grams of it concentrate, with no residency requirement.", "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Michigan classifies delta-8 as marijuana: since October 11, 2021 it has been illegal for businesses to sell delta-8 without a license from the state cannabis regulator (now the Cannabis Regulatory Agency), so it can be sold only through licensed marijuana businesses.", "source": "https://www.michigan.gov/cra/resources/consumer-connection/delta-8-information", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2008-11-04",
-      "event": "Voters approve medical marijuana.",
-      "source": "https://www.mpp.org/michigan"
-    },
-    {
-      "date": "2018-12-06",
-      "event": "Adult-use legalization (Proposal 1) takes effect.",
-      "source": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act"
-    },
-    {
-      "date": "2019-12-01",
-      "event": "First adult-use retail sales.",
-      "source": "https://www.clickondetroit.com/news/2019/12/01/recreational-marijuana-being-sold-for-the-first-time-in-michigan-today/"
-    },
-    {
-      "date": "2025-10-03",
-      "event": "Senate approves HB 4951, creating a 24% wholesale marijuana tax.",
-      "source": "https://www.mpp.org/michigan"
-    },
-    {
-      "date": "2026-01-01",
-      "event": "24% wholesale tax takes effect after a court declines to block it.",
-      "source": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"
-    },
-    {
-      "date": "2026-04-22",
-      "event": "Michigan Supreme Court orders the Court of Appeals to expedite review of the wholesale tax challenge.",
-      "source": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"
-    }
+    {"date": "2008-11-04", "event": "Voters approve medical marijuana.", "source": "https://www.mpp.org/michigan"},
+    {"date": "2018-12-06", "event": "Adult-use legalization (Proposal 1) takes effect.", "source": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act"},
+    {"date": "2019-12-01", "event": "First adult-use retail sales.", "source": "https://www.clickondetroit.com/news/2019/12/01/recreational-marijuana-being-sold-for-the-first-time-in-michigan-today/"},
+    {"date": "2025-10-03", "event": "Senate approves HB 4951, creating a 24% wholesale marijuana tax.", "source": "https://www.mpp.org/michigan"},
+    {"date": "2026-01-01", "event": "24% wholesale tax takes effect after a court declines to block it.", "source": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"},
+    {"date": "2026-04-22", "event": "Michigan Supreme Court orders the Court of Appeals to expedite review of the wholesale tax challenge.", "source": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"}
   ],
   "pending": [
-    {
-      "item": "Industry lawsuits arguing the 24% wholesale tax was passed improperly and amounts to an unconstitutional disguised sales tax.",
-      "status": "Before the Court of Appeals on an expedited basis (as of April 2026); a second suit was filed in March 2026.",
-      "source": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"
-    },
-    {
-      "item": "SB 810 would repeal the 24% wholesale tax.",
-      "status": "Introduced; bipartisan sponsorship.",
-      "source": "https://www.mpp.org/michigan"
-    }
+    {"item": "Industry lawsuits arguing the 24% wholesale tax was passed improperly and amounts to an unconstitutional disguised sales tax.", "status": "Before the Court of Appeals on an expedited basis (as of April 2026); a second suit was filed in March 2026.", "source": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"},
+    {"item": "SB 810 would repeal the 24% wholesale tax.", "status": "Introduced; bipartisan sponsorship.", "source": "https://www.mpp.org/michigan"}
   ],
   "faq": [
-    {
-      "q": "Is weed legal in Michigan?",
-      "a": "Yes. Adults 21 and older can buy, carry and grow cannabis, and medical marijuana has been legal since 2008."
-    },
-    {
-      "q": "How much weed can you have in Michigan?",
-      "a": "Up to 2.5 ounces in public, with no more than 15 grams of that as concentrate, and up to 10 ounces at home."
-    },
-    {
-      "q": "Can you grow weed in Michigan?",
-      "a": "Yes. Adults may grow up to 12 plants at their residence."
-    },
-    {
-      "q": "What is the new marijuana tax in Michigan?",
-      "a": "A 24% wholesale tax took effect January 1, 2026, on top of the 10% retail excise and 6% sales tax. Industry groups are challenging it in court."
-    }
+    {"q": "Is weed legal in Michigan?", "a": "Yes. Adults 21 and older can buy, carry and grow cannabis, and medical marijuana has been legal since 2008."},
+    {"q": "How much weed can you have in Michigan?", "a": "Up to 2.5 ounces in public, with no more than 15 grams of that as concentrate, and up to 10 ounces at home."},
+    {"q": "Can you grow weed in Michigan?", "a": "Yes. Adults may grow up to 12 plants at their residence."},
+    {"q": "What is the new marijuana tax in Michigan?", "a": "A 24% wholesale tax took effect January 1, 2026, on top of the 10% retail excise and 6% sales tax. Industry groups are challenging it in court."}
   ],
   "sources": [
-    {
-      "name": "Michigan Legislature, MCL 333.27955",
-      "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955"
-    },
-    {
-      "name": "Michigan Department of Treasury notice on MRTMA",
-      "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act"
-    },
-    {
-      "name": "Cannabis Regulatory Agency",
-      "url": "https://www.michigan.gov/cra"
-    },
-    {
-      "name": "Marijuana Policy Project, Michigan",
-      "url": "https://www.mpp.org/michigan"
-    },
-    {
-      "name": "CPA Practice Advisor, Supreme Court order on cannabis tax",
-      "url": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"
-    },
-    {
-      "name": "ClickOnDetroit, first adult-use sales",
-      "url": "https://www.clickondetroit.com/news/2019/12/01/recreational-marijuana-being-sold-for-the-first-time-in-michigan-today/"
-    }
+    {"name": "Michigan Legislature, MCL 333.27955", "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-27955"},
+    {"name": "Michigan Department of Treasury notice on MRTMA", "url": "https://www.michigan.gov/treasury/reference/taxpayer-notices/2019/01/29/the-michigan-regulation-and-taxation-of-marihuana-act"},
+    {"name": "Cannabis Regulatory Agency", "url": "https://www.michigan.gov/cra"},
+    {"name": "Marijuana Policy Project, Michigan", "url": "https://www.mpp.org/michigan"},
+    {"name": "CPA Practice Advisor, Supreme Court order on cannabis tax", "url": "https://www.cpapracticeadvisor.com/2026/04/23/michigan-supreme-court-orders-review-of-states-cannabis-tax/182140/"},
+    {"name": "ClickOnDetroit, first adult-use sales", "url": "https://www.clickondetroit.com/news/2019/12/01/recreational-marijuana-being-sold-for-the-first-time-in-michigan-today/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

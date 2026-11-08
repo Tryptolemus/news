@@ -4,138 +4,48 @@
   "name": "New Jersey",
   "wikidata": "Q1408",
   "abbr": "NJ",
-  "tags": [
-    "New Jersey"
-  ],
-  "legal": {
-    "adult_use": "legal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "tags": ["New Jersey"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational and medical cannabis are legal for adults 21+.",
   "summary": "New Jersey voters approved legalization in November 2020, Gov. Phil Murphy signed the implementing laws on February 22, 2021, and licensed adult-use sales began in April 2022. Adults may possess up to 6 ounces and buy up to 1 ounce per transaction, but home growing remains illegal. The medical program dates to 2010, and bills to allow home cultivation are under consideration.",
   "facts": {
-    "adult_use_since": {
-      "value": "Voters approved legalization in November 2020; Gov. Murphy signed the implementing laws February 22, 2021.",
-      "source": "https://www.mpp.org/new-jersey",
-      "as_of": "2026-11-07"
-    },
-    "medical_since": {
-      "value": "Medical program established in 2010.",
-      "source": "https://www.mpp.org/new-jersey",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "Adults may possess up to 6 ounces; purchases are capped at 1 ounce of flower (or 4 g concentrate, or 1,000 mg of edibles) per transaction.",
-      "source": "https://www.nj.gov/cannabis/adult-personal/",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Prohibited.",
-      "source": "https://www.mpp.org/new-jersey",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "21 and older, for residents and visitors alike.",
-      "source": "https://www.nj.gov/cannabis/adult-personal/",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Allowed in private spaces (unless a landlord forbids it), wherever cigarette smoking is allowed, and in licensed consumption areas.",
-      "source": "https://www.nj.gov/cannabis/adult-personal/",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Licensed adult-use sales began in April 2022.",
-      "source": "https://www.mpp.org/new-jersey",
-      "as_of": "2026-11-07"
-    },
-    "taxes": {
-      "value": "6.625% sales tax plus a social equity excise fee of one-third of one percent.",
-      "source": "https://www.nj.gov/cannabis/adult-personal/",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Cannabis Regulatory Commission (CRC).",
-      "source": "https://www.mpp.org/new-jersey",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based: New Jersey has no THC per se limit, but its impaired-driving laws apply to cannabis.",
-      "source": "https://www.nj.gov/cannabis/adult-personal/",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Yes. Anyone 21+, resident or visitor, can buy at licensed dispensaries, up to 1 ounce of flower, 4 grams of concentrate or 1,000 mg of edibles per transaction.",
-      "source": "https://www.nj.gov/cannabis/adult-personal/",
-      "as_of": "2026-11-07"
-    }
+    "adult_use_since": {"value": "Voters approved legalization in November 2020; Gov. Murphy signed the implementing laws February 22, 2021.", "source": "https://www.mpp.org/new-jersey", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Medical program established in 2010.", "source": "https://www.mpp.org/new-jersey", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Adults may possess up to 6 ounces; purchases are capped at 1 ounce of flower (or 4 g concentrate, or 1,000 mg of edibles) per transaction.", "source": "https://www.nj.gov/cannabis/adult-personal/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Prohibited.", "source": "https://www.mpp.org/new-jersey", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older, for residents and visitors alike.", "source": "https://www.nj.gov/cannabis/adult-personal/", "as_of": "2026-11-07"},
+    "public_use": {"value": "Allowed in private spaces (unless a landlord forbids it), wherever cigarette smoking is allowed, and in licensed consumption areas.", "source": "https://www.nj.gov/cannabis/adult-personal/", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Licensed adult-use sales began in April 2022.", "source": "https://www.mpp.org/new-jersey", "as_of": "2026-11-07"},
+    "taxes": {"value": "6.625% sales tax plus a social equity excise fee of one-third of one percent.", "source": "https://www.nj.gov/cannabis/adult-personal/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Cannabis Regulatory Commission (CRC).", "source": "https://www.mpp.org/new-jersey", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: New Jersey has no THC per se limit, but its impaired-driving laws apply to cannabis.", "source": "https://www.nj.gov/cannabis/adult-personal/", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Anyone 21+, resident or visitor, can buy at licensed dispensaries, up to 1 ounce of flower, 4 grams of concentrate or 1,000 mg of edibles per transaction.", "source": "https://www.nj.gov/cannabis/adult-personal/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Under P.L.2025, c.215, as amended by P.L.2026, c.7, since April 13, 2026 hemp products over 0.3% total THC (counting delta-8, delta-10 and THCA) or over 0.4 mg total THC per container are treated as cannabis and cannot be sold without a Cannabis Regulatory Commission license; chemically synthesized cannabinoids are banned outright. Products with any detectable THC may not be sold to anyone under 21. Intoxicating hemp beverages, capped at 5 mg total THC per serving and 10 mg per container, may be sold by certain alcohol licensees and Class 5 cannabis retailers only until November 13, 2026.", "source": "https://www.nj.gov/cannabis/resources/faqs/intoxicating-hemp/index.shtml", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2010",
-      "event": "Medical cannabis program established.",
-      "source": "https://www.mpp.org/new-jersey"
-    },
-    {
-      "date": "2020-11-03",
-      "event": "Voters approve a legalization referendum with more than two-thirds support.",
-      "source": "https://www.mpp.org/new-jersey"
-    },
-    {
-      "date": "2021-02-22",
-      "event": "Gov. Murphy signs the legalization and decriminalization laws.",
-      "source": "https://www.mpp.org/new-jersey"
-    },
-    {
-      "date": "2022-04",
-      "event": "Licensed adult-use sales begin.",
-      "source": "https://www.mpp.org/new-jersey"
-    }
+    {"date": "2010", "event": "Medical cannabis program established.", "source": "https://www.mpp.org/new-jersey"},
+    {"date": "2020-11-03", "event": "Voters approve a legalization referendum with more than two-thirds support.", "source": "https://www.mpp.org/new-jersey"},
+    {"date": "2021-02-22", "event": "Gov. Murphy signs the legalization and decriminalization laws.", "source": "https://www.mpp.org/new-jersey"},
+    {"date": "2022-04", "event": "Licensed adult-use sales begin.", "source": "https://www.mpp.org/new-jersey"}
   ],
   "pending": [
-    {
-      "item": "S2564 would allow adults to grow cannabis at home.",
-      "status": "Under consideration in the Legislature.",
-      "source": "https://www.mpp.org/new-jersey"
-    },
-    {
-      "item": "A1674/S1758 would let medical patients grow up to 4 mature and 4 immature plants.",
-      "status": "Under consideration in the Legislature.",
-      "source": "https://www.mpp.org/new-jersey"
-    }
+    {"item": "S2564 would allow adults to grow cannabis at home.", "status": "Under consideration in the Legislature.", "source": "https://www.mpp.org/new-jersey"},
+    {"item": "A1674/S1758 would let medical patients grow up to 4 mature and 4 immature plants.", "status": "Under consideration in the Legislature.", "source": "https://www.mpp.org/new-jersey"}
   ],
   "faq": [
-    {
-      "q": "Is weed legal in New Jersey?",
-      "a": "Yes. Adults 21 and older can buy and possess cannabis, and patients can use it under the medical program."
-    },
-    {
-      "q": "How much weed can you buy in New Jersey?",
-      "a": "Up to 1 ounce of flower per transaction, or equivalent amounts of concentrate or edibles; adults may possess up to 6 ounces."
-    },
-    {
-      "q": "Can you grow weed in New Jersey?",
-      "a": "No. Home cultivation is still illegal, though bills to allow it have been introduced."
-    },
-    {
-      "q": "Can tourists buy weed in New Jersey?",
-      "a": "Yes. Anyone 21 or older with a valid government ID can buy, but taking cannabis across state lines is illegal."
-    }
+    {"q": "Is weed legal in New Jersey?", "a": "Yes. Adults 21 and older can buy and possess cannabis, and patients can use it under the medical program."},
+    {"q": "How much weed can you buy in New Jersey?", "a": "Up to 1 ounce of flower per transaction, or equivalent amounts of concentrate or edibles; adults may possess up to 6 ounces."},
+    {"q": "Can you grow weed in New Jersey?", "a": "No. Home cultivation is still illegal, though bills to allow it have been introduced."},
+    {"q": "Can tourists buy weed in New Jersey?", "a": "Yes. Anyone 21 or older with a valid government ID can buy, but taking cannabis across state lines is illegal."}
   ],
   "sources": [
-    {
-      "name": "NJ Cannabis Regulatory Commission, Adult Personal Use",
-      "url": "https://www.nj.gov/cannabis/adult-personal/"
-    },
-    {
-      "name": "Marijuana Policy Project, New Jersey",
-      "url": "https://www.mpp.org/new-jersey"
-    }
+    {"name": "NJ Cannabis Regulatory Commission, Adult Personal Use", "url": "https://www.nj.gov/cannabis/adult-personal/"},
+    {"name": "Marijuana Policy Project, New Jersey", "url": "https://www.mpp.org/new-jersey"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

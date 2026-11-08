@@ -5,11 +5,7 @@
   "wikidata": "Q1387",
   "abbr": "RI",
   "tags": ["Rhode Island"],
-  "legal": {
-    "adult_use": "legal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational and medical cannabis are legal in Rhode Island for adults 21+.",
   "summary": "Rhode Island legalized adult-use cannabis when Gov. Dan McKee signed the Rhode Island Cannabis Act on May 25, 2022, and licensed sales began in December 2022 at medical compassion centers holding hybrid licenses. Adults 21+ may carry 1 ounce, keep up to 10 ounces at home and grow a small number of plants. Purchases carry a 10% cannabis excise tax, the 7% state sales tax and a 3% local tax. The Cannabis Control Commission regulates the market and is moving to issue additional retail licenses, with part of them set aside for social equity applicants and worker-owned cooperatives.",
   "facts": {
@@ -23,7 +19,8 @@
     "regulator": {"value": "Rhode Island Cannabis Control Commission (CCC).", "source": "https://ccc.ri.gov/", "as_of": "2026-11-07"},
     "public_use": {"value": "The law does not authorize smoking or vaping cannabis in any public place; it is banned wherever tobacco smoking or vaping is banned and wherever a rule or local ordinance prohibits it.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm", "as_of": "2026-11-07"},
     "dui": {"value": "Impairment-based: Rhode Island's former 'any amount' drug provision was deleted in 2021, so prosecutors must show cannabis impaired the driver, often through a drug recognition expert. A legal right to use cannabis is no defense.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-27/31-27-2.htm", "as_of": "2026-11-07"},
-    "tourists": {"value": "Yes. Adults 21+ may buy up to 1 ounce of cannabis, or the equivalent in concentrate, from licensed retailers; the law sets no residency requirement.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm", "as_of": "2026-11-07"}
+    "tourists": {"value": "Yes. Adults 21+ may buy up to 1 ounce of cannabis, or the equivalent in concentrate, from licensed retailers; the law sets no residency requirement.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Under Cannabis Control Commission hemp rules (560-RICR-10-20-1, amended effective December 8, 2025), hemp-derived consumable products may contain no more than 1 mg total THC per serving, 5 mg per package, or 0.3% total THC by dry weight (counting THCA and all isomers), unless the Commission permits otherwise. Retail licensees may sell them only to people 21 and older after checking government ID, and converting CBD or other cannabinoids into THC or its derivatives, or selling such synthetic cannabinoids, is prohibited without a Commission variance.", "source": "https://rules.sos.ri.gov/Regulations/part/560-10-20-1", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2006", "event": "Hawkins-Slater Medical Marijuana Act creates the medical program", "source": "https://www.mpp.org/states/rhode-island"},
@@ -45,8 +42,9 @@
     {"name": "Marijuana Policy Project, Summary of the Rhode Island Cannabis Act", "url": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

@@ -19,7 +19,8 @@
     "medical_program": {"value": "Patients 18 and older can register and keep buying from licensed dispensaries. Maryland does not honor out-of-state medical cards.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
     "regulator": {"value": "Maryland Cannabis Administration (MCA). The Alcohol, Tobacco, and Cannabis Commission (ATCC) handles field enforcement.", "source": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf", "as_of": "2026-11-07"},
     "dui": {"value": "Impairment-based: there is no THC per se limit, and officers make cannabis DUI arrests based on observed impairment and field sobriety tests. Using cannabis in a vehicle, by the driver or a passenger, is illegal.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
-    "tourists": {"value": "Yes. Out-of-state adults 21+ with a government-issued photo ID may buy adult-use cannabis at licensed dispensaries, up to the personal-use amount. Maryland does not accept out-of-state medical cards.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"}
+    "tourists": {"value": "Yes. Out-of-state adults 21+ with a government-issued photo ID may buy adult-use cannabis at licensed dispensaries, up to the personal-use amount. Maryland does not accept out-of-state medical cards.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "A THC product counts as intoxicating if it has more than 0.5 mg of THC per serving or more than 2.5 mg per package. Intoxicating products must follow Maryland cannabis law and be sold through a licensed dispensary, and sales to anyone under 21 are prohibited.", "source": "https://atcc.maryland.gov/licenses-permits/industries-we-regulate/cannabis-hemp-and-thc-laws-maryland", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2022-11-08", "event": "Voters approve Question 4 legalizing adult-use cannabis (67.2%)", "source": "https://www.mpp.org/states/maryland/"},
@@ -43,8 +44,9 @@
     {"name": "NORML", "url": "https://norml.org/news/2025/04/10/maryland-lawmakers-approve-marijuana-sales-tax-hike/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

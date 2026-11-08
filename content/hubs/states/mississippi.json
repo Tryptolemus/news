@@ -4,140 +4,48 @@
   "name": "Mississippi",
   "wikidata": "Q1494",
   "abbr": "MS",
-  "tags": [
-    "Mississippi"
-  ],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "comprehensive",
-    "decriminalized": "partial"
-  },
+  "tags": ["Mississippi"],
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
   "headline_status": "Medical cannabis is legal for registered patients; recreational use remains illegal.",
   "summary": "Mississippi allows medical cannabis under the Mississippi Medical Cannabis Act, signed in February 2022 after the state Supreme Court threw out the voter-approved Initiative 65. Patients with qualifying conditions buy from licensed dispensaries; there is no home growing and no adult-use market. A first offense for possessing 30 grams or less is handled with a fine rather than jail. In 2026 the governor vetoed two bills that would have loosened the program, and override attempts failed.",
   "facts": {
-    "medical_since": {
-      "value": "Mississippi Medical Cannabis Act (SB 2095) signed by Gov. Tate Reeves on February 2, 2022.",
-      "source": "https://www.mpp.org/mississippi",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Medical dispensary sales began in January 2023; there are no adult-use sales.",
-      "source": "https://www.mpp.org/mississippi",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "Patients need certification for a listed condition such as cancer, PTSD, Crohn's disease, sickle cell anemia or certain chronic pain; purchases are capped at about 3 ounces (84 g) per month, with flower limited to 30% THC.",
-      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Not allowed for patients or caregivers.",
-      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Patients may not smoke or vape cannabis in public or in a motor vehicle.",
-      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
-      "as_of": "2026-11-07"
-    },
-    "taxes": {
-      "value": "5% excise tax on the wholesale price, plus regular sales tax.",
-      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Mississippi State Department of Health runs the program, working with the Department of Revenue, which handles dispensaries.",
-      "source": "https://www.mmcp.ms.gov/",
-      "as_of": "2026-11-07"
-    },
-    "penalties": {
-      "value": "Non-patients: a first offense for up to 30 grams brings a fine of up to $250; repeat offenses can bring jail time, and larger amounts are felonies.",
-      "source": "https://www.findlaw.com/state/mississippi-law/mississippi-marijuana-laws.html",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "No legal amount without a medical card. Patients may possess up to 28 equivalency units at a time (98 grams of flower, under 3.5 ounces) and buy no more than 6 units a week.",
-      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "Medical only. Only MDs and DOs may certify minors, who need a parent's or guardian's consent, and patients under 21 cannot enter a dispensary without a parent or guardian.",
-      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based: Mississippi has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
-      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Medical patients only. Visitors with an active medical card from their home state can apply up to 30 days ahead for a 15-day nonresident card, then buy up to 6 units a week and 12 per 15 days; there are no adult-use sales.",
-      "source": "https://www.mmcp.ms.gov/faq?category=1",
-      "as_of": "2026-11-07"
-    }
+    "medical_since": {"value": "Mississippi Medical Cannabis Act (SB 2095) signed by Gov. Tate Reeves on February 2, 2022.", "source": "https://www.mpp.org/mississippi", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Medical dispensary sales began in January 2023; there are no adult-use sales.", "source": "https://www.mpp.org/mississippi", "as_of": "2026-11-07"},
+    "medical_program": {"value": "Patients need certification for a listed condition such as cancer, PTSD, Crohn's disease, sickle cell anemia or certain chronic pain; purchases are capped at about 3 ounces (84 g) per month, with flower limited to 30% THC.", "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed for patients or caregivers.", "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf", "as_of": "2026-11-07"},
+    "public_use": {"value": "Patients may not smoke or vape cannabis in public or in a motor vehicle.", "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf", "as_of": "2026-11-07"},
+    "taxes": {"value": "5% excise tax on the wholesale price, plus regular sales tax.", "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf", "as_of": "2026-11-07"},
+    "regulator": {"value": "Mississippi State Department of Health runs the program, working with the Department of Revenue, which handles dispensaries.", "source": "https://www.mmcp.ms.gov/", "as_of": "2026-11-07"},
+    "penalties": {"value": "Non-patients: a first offense for up to 30 grams brings a fine of up to $250; repeat offenses can bring jail time, and larger amounts are felonies.", "source": "https://www.findlaw.com/state/mississippi-law/mississippi-marijuana-laws.html", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount without a medical card. Patients may possess up to 28 equivalency units at a time (98 grams of flower, under 3.5 ounces) and buy no more than 6 units a week.", "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only. Only MDs and DOs may certify minors, who need a parent's or guardian's consent, and patients under 21 cannot enter a dispensary without a parent or guardian.", "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Mississippi has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Visitors with an active medical card from their home state can apply up to 30 days ahead for a 15-day nonresident card, then buy up to 6 units a week and 12 per 15 days; there are no adult-use sales.", "source": "https://www.mmcp.ms.gov/faq?category=1", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "A June 11, 2025 Attorney General opinion concludes that selling an ingestible hemp-derived product that the FDA has not approved is prohibited under Mississippi's Uniform Controlled Substances Law, unless it is sold through a licensed medical cannabis dispensary in strict accordance with the Medical Cannabis Act. Possession of such products with intent to sell is likewise prohibited.", "source": "https://attorneygenerallynnfitch.com/wp-content/uploads/2025/06/L.-Yancey-June-11-2025-Legality-of-Hemp-Products-for-Human-Ingestion-and-or-Consumption.pdf", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2020-11-03",
-      "event": "Voters approve medical cannabis Initiative 65; the state Supreme Court later voids it along with the ballot initiative process.",
-      "source": "https://www.mpp.org/mississippi"
-    },
-    {
-      "date": "2022-02-02",
-      "event": "Gov. Reeves signs the Mississippi Medical Cannabis Act.",
-      "source": "https://www.mpp.org/mississippi"
-    },
-    {
-      "date": "2023-01",
-      "event": "First medical cannabis dispensary sales.",
-      "source": "https://www.mpp.org/mississippi"
-    },
-    {
-      "date": "2026",
-      "event": "Gov. Reeves vetoes HB 895 and HB 1152, which would have eased program rules; override attempts fail.",
-      "source": "https://www.mpp.org/mississippi"
-    }
+    {"date": "2020-11-03", "event": "Voters approve medical cannabis Initiative 65; the state Supreme Court later voids it along with the ballot initiative process.", "source": "https://www.mpp.org/mississippi"},
+    {"date": "2022-02-02", "event": "Gov. Reeves signs the Mississippi Medical Cannabis Act.", "source": "https://www.mpp.org/mississippi"},
+    {"date": "2023-01", "event": "First medical cannabis dispensary sales.", "source": "https://www.mpp.org/mississippi"},
+    {"date": "2026", "event": "Gov. Reeves vetoes HB 895 and HB 1152, which would have eased program rules; override attempts fail.", "source": "https://www.mpp.org/mississippi"}
   ],
   "pending": [],
   "faq": [
-    {
-      "q": "Is weed legal in Mississippi?",
-      "a": "Only for registered medical patients. Recreational use is illegal."
-    },
-    {
-      "q": "Who qualifies for medical marijuana in Mississippi?",
-      "a": "Patients certified for a qualifying condition, such as cancer, PTSD, Crohn's disease, sickle cell anemia, or chronic pain that meets the law's definition."
-    },
-    {
-      "q": "Is weed decriminalized in Mississippi?",
-      "a": "Partly. A first offense for 30 grams or less is punished by a fine of up to $250, but repeat offenses can bring jail time."
-    },
-    {
-      "q": "Can you grow your own medical marijuana in Mississippi?",
-      "a": "No. Patients and caregivers must buy from licensed dispensaries."
-    }
+    {"q": "Is weed legal in Mississippi?", "a": "Only for registered medical patients. Recreational use is illegal."},
+    {"q": "Who qualifies for medical marijuana in Mississippi?", "a": "Patients certified for a qualifying condition, such as cancer, PTSD, Crohn's disease, sickle cell anemia, or chronic pain that meets the law's definition."},
+    {"q": "Is weed decriminalized in Mississippi?", "a": "Partly. A first offense for 30 grams or less is punished by a fine of up to $250, but repeat offenses can bring jail time."},
+    {"q": "Can you grow your own medical marijuana in Mississippi?", "a": "No. Patients and caregivers must buy from licensed dispensaries."}
   ],
   "sources": [
-    {
-      "name": "Mississippi Medical Cannabis Program (MSDH)",
-      "url": "https://www.mmcp.ms.gov/"
-    },
-    {
-      "name": "Marijuana Policy Project, Mississippi",
-      "url": "https://www.mpp.org/mississippi"
-    },
-    {
-      "name": "MPP summary of the Mississippi Medical Cannabis Act",
-      "url": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf"
-    },
-    {
-      "name": "FindLaw, Mississippi marijuana laws",
-      "url": "https://www.findlaw.com/state/mississippi-law/mississippi-marijuana-laws.html"
-    }
+    {"name": "Mississippi Medical Cannabis Program (MSDH)", "url": "https://www.mmcp.ms.gov/"},
+    {"name": "Marijuana Policy Project, Mississippi", "url": "https://www.mpp.org/mississippi"},
+    {"name": "MPP summary of the Mississippi Medical Cannabis Act", "url": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf"},
+    {"name": "FindLaw, Mississippi marijuana laws", "url": "https://www.findlaw.com/state/mississippi-law/mississippi-marijuana-laws.html"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

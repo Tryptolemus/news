@@ -5,74 +5,23 @@
   "wikidata": "Q816",
   "abbr": "AZ",
   "tags": ["Arizona"],
-  "legal": {
-    "adult_use": "legal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational and medical cannabis are legal for adults 21+, with licensed stores selling since January 2021.",
   "summary": "Arizona voters approved adult-use cannabis through Proposition 207 in November 2020, and licensed sales started on January 22, 2021; medical cannabis has been legal since 2010. Adults 21+ may carry up to one ounce, including no more than 5 grams of concentrate, and grow up to six plants at home. Adult-use purchases carry a 16% excise tax on top of regular sales tax. A Republican-backed initiative to end adult-use sales was abandoned in May 2026 before it gathered signatures, so it did not reach the November 2026 ballot.",
   "facts": {
-    "adult_use_since": {
-      "value": "Proposition 207 passed Nov. 3, 2020 with 60% of the vote; possession became legal when results were certified on Nov. 30, 2020.",
-      "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)",
-      "as_of": "2026-11-07"
-    },
-    "medical_since": {
-      "value": "Medical marijuana has been legal since 2010.",
-      "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "Up to 1 ounce, of which no more than 5 grams may be concentrate. Holding between 1 and 2.5 ounces is a petty offense with a maximum $300 fine.",
-      "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Up to 6 plants per adult, kept in a locked, enclosed area out of public view.",
-      "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "21 and older.",
-      "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Smoking cannabis in public places and open spaces is illegal and treated as a petty offense.",
-      "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Adult-use sales began Jan. 22, 2021, when the state approved 86 licenses, mostly to existing medical dispensaries. Home delivery has been allowed since Nov. 1, 2024.",
-      "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries",
-      "as_of": "2026-11-07"
-    },
-    "taxes": {
-      "value": "16% excise tax on adult-use sales plus the regular state sales (transaction privilege) tax of 5.6%.",
-      "source": "https://www.mpp.org/states/arizona/",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Arizona Department of Health Services (ADHS), Bureau of Marijuana Licensing.",
-      "source": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php",
-      "as_of": "2026-11-07"
-    },
-    "expungement": {
-      "value": "People can petition to expunge past records for possessing up to 2.5 ounces, growing up to six plants at home, and related paraphernalia offenses.",
-      "source": "https://www.mpp.org/states/arizona/",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Zero tolerance: Arizona bans driving with any amount of a listed drug, including marijuana, or its metabolite in the body, even without proof of impairment.",
-      "source": "https://www.azleg.gov/ars/28/01381.htm",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Yes. Prop 207 lets any adult 21+ buy and possess up to 1 ounce, of which no more than 5 grams may be concentrate, with no residency requirement.",
-      "source": "https://www.azleg.gov/ars/36/02852.htm",
-      "as_of": "2026-11-07"
-    }
+    "adult_use_since": {"value": "Proposition 207 passed Nov. 3, 2020 with 60% of the vote; possession became legal when results were certified on Nov. 30, 2020.", "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Medical marijuana has been legal since 2010.", "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 1 ounce, of which no more than 5 grams may be concentrate. Holding between 1 and 2.5 ounces is a petty offense with a maximum $300 fine.", "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 6 plants per adult, kept in a locked, enclosed area out of public view.", "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)", "as_of": "2026-11-07"},
+    "public_use": {"value": "Smoking cannabis in public places and open spaces is illegal and treated as a petty offense.", "source": "https://ballotpedia.org/Arizona_Proposition_207,_Marijuana_Legalization_Initiative_(2020)", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Adult-use sales began Jan. 22, 2021, when the state approved 86 licenses, mostly to existing medical dispensaries. Home delivery has been allowed since Nov. 1, 2024.", "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries", "as_of": "2026-11-07"},
+    "taxes": {"value": "16% excise tax on adult-use sales plus the regular state sales (transaction privilege) tax of 5.6%.", "source": "https://www.mpp.org/states/arizona/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Arizona Department of Health Services (ADHS), Bureau of Marijuana Licensing.", "source": "https://www.azdhs.gov/licensing/marijuana/adult-use-marijuana/index.php", "as_of": "2026-11-07"},
+    "expungement": {"value": "People can petition to expunge past records for possessing up to 2.5 ounces, growing up to six plants at home, and related paraphernalia offenses.", "source": "https://www.mpp.org/states/arizona/", "as_of": "2026-11-07"},
+    "dui": {"value": "Zero tolerance: Arizona bans driving with any amount of a listed drug, including marijuana, or its metabolite in the body, even without proof of impairment.", "source": "https://www.azleg.gov/ars/28/01381.htm", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Prop 207 lets any adult 21+ buy and possess up to 1 ounce, of which no more than 5 grams may be concentrate, with no residency requirement.", "source": "https://www.azleg.gov/ars/36/02852.htm", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Arizona has no statute licensing hemp-derived intoxicants. A formal Attorney General opinion (I24-005, March 11, 2024) concludes that state law does not allow delta-8, delta-10 or other THC synthetically converted from hemp CBD to be sold by businesses that are not licensed by the Department of Health Services, which rules out sales in convenience stores, smoke shops and other unlicensed shops.", "source": "https://www.azag.gov/opinions/i24-005-r24-001", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2010", "event": "Medical marijuana becomes legal", "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries"},
@@ -98,8 +47,9 @@
     {"name": "MJBizDaily - Arizona repeal effort abandoned (May 2026)", "url": "https://mjbizdaily.com/news/second-state-level-effort-to-recriminalize-adult-use-marijuana-sales-fails/615867/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

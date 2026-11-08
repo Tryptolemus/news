@@ -4,149 +4,50 @@
   "name": "Nevada",
   "wikidata": "Q1227",
   "abbr": "NV",
-  "tags": [
-    "Nevada"
-  ],
-  "legal": {
-    "adult_use": "legal",
-    "medical": "comprehensive",
-    "decriminalized": "yes"
-  },
+  "tags": ["Nevada"],
+  "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational and medical cannabis are legal for adults 21+.",
   "summary": "Nevada voters approved medical cannabis in 2000 and adult-use legalization in 2016, with retail sales starting July 1, 2017. Since January 1, 2024, adults can buy and possess up to 2.5 ounces of flower or a quarter ounce of concentrate. Public consumption is banned except in licensed consumption lounges, and home growing is allowed only for people living more than 25 miles from a dispensary.",
   "facts": {
-    "adult_use_since": {
-      "value": "Legalized by voters in November 2016.",
-      "source": "https://www.mpp.org/nevada",
-      "as_of": "2026-11-07"
-    },
-    "medical_since": {
-      "value": "Voters approved medical cannabis in 2000; dispensaries were authorized in 2014.",
-      "source": "https://www.mpp.org/nevada",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "Up to 2.5 ounces of flower or 1/4 ounce of concentrate, raised from 1 ounce and 1/8 ounce by SB 277 effective January 1, 2024.",
-      "source": "https://norml.org/news/2023/06/29/nevada-governor-signs-legislation-raising-marijuana-possession-limits",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Only for adults living at least 25 miles from the nearest dispensary: up to 6 plants per person and 12 per household, out of public view.",
-      "source": "https://www.mpp.org/nevada",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "21 and older.",
-      "source": "https://ccb.nv.gov/nevada-cannabis-program/",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Illegal in public except in licensed consumption lounges; public use can bring a fine of up to $600.",
-      "source": "https://www.mpp.org/nevada",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Adult-use retail sales began July 1, 2017.",
-      "source": "https://www.pbs.org/newshour/nation/nevada-starts-sale-recreational-marijuana",
-      "as_of": "2026-11-07"
-    },
-    "taxes": {
-      "value": "10% retail excise tax on adult-use sales, with proceeds going to the State Education Fund, plus sales tax.",
-      "source": "https://www.mpp.org/nevada",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Nevada Cannabis Compliance Board (CCB), created by AB 533 in 2019.",
-      "source": "https://ccb.nv.gov/",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Mostly impairment-based: driving under the influence of cannabis is illegal and a medical card is no defense. Per se blood limits of 2 ng/ml THC and 5 ng/ml 11-OH-THC apply only to felony-level cases such as a third offense or a crash causing injury or death.",
-      "source": "https://www.leg.state.nv.us/nrs/NRS-484C.html",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Yes. Adults 21+ can buy with a valid ID from any U.S. state or a passport, up to 2.5 ounces of cannabis or 1/4 ounce of concentrate. Nevada also extends medical reciprocity to patients from some states.",
-      "source": "https://tax.nv.gov/ccb-faqs",
-      "as_of": "2026-11-07"
-    }
+    "adult_use_since": {"value": "Legalized by voters in November 2016.", "source": "https://www.mpp.org/nevada", "as_of": "2026-11-07"},
+    "medical_since": {"value": "Voters approved medical cannabis in 2000; dispensaries were authorized in 2014.", "source": "https://www.mpp.org/nevada", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 2.5 ounces of flower or 1/4 ounce of concentrate, raised from 1 ounce and 1/8 ounce by SB 277 effective January 1, 2024.", "source": "https://norml.org/news/2023/06/29/nevada-governor-signs-legislation-raising-marijuana-possession-limits", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Only for adults living at least 25 miles from the nearest dispensary: up to 6 plants per person and 12 per household, out of public view.", "source": "https://www.mpp.org/nevada", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "21 and older.", "source": "https://ccb.nv.gov/nevada-cannabis-program/", "as_of": "2026-11-07"},
+    "public_use": {"value": "Illegal in public except in licensed consumption lounges; public use can bring a fine of up to $600.", "source": "https://www.mpp.org/nevada", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Adult-use retail sales began July 1, 2017.", "source": "https://www.pbs.org/newshour/nation/nevada-starts-sale-recreational-marijuana", "as_of": "2026-11-07"},
+    "taxes": {"value": "10% retail excise tax on adult-use sales, with proceeds going to the State Education Fund, plus sales tax.", "source": "https://www.mpp.org/nevada", "as_of": "2026-11-07"},
+    "regulator": {"value": "Nevada Cannabis Compliance Board (CCB), created by AB 533 in 2019.", "source": "https://ccb.nv.gov/", "as_of": "2026-11-07"},
+    "dui": {"value": "Mostly impairment-based: driving under the influence of cannabis is illegal and a medical card is no defense. Per se blood limits of 2 ng/ml THC and 5 ng/ml 11-OH-THC apply only to felony-level cases such as a third offense or a crash causing injury or death.", "source": "https://www.leg.state.nv.us/nrs/NRS-484C.html", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Adults 21+ can buy with a valid ID from any U.S. state or a passport, up to 2.5 ounces of cannabis or 1/4 ounce of concentrate. Nevada also extends medical reciprocity to patients from some states.", "source": "https://tax.nv.gov/ccb-faqs", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Nevada has no statewide framework for intoxicating hemp-derived THC: hemp products sold outside the licensed cannabis market must meet state testing and labeling rules, but no state statute sets a minimum purchase age (unincorporated Clark County requires buyers to be 21), and state law creates no retail pathway for intoxicating hemp THC beverages. A state advisory subcommittee recommended a statewide age-21 minimum in September 2026.", "source": "https://www.leg.state.nv.us/Division/Research/Documents/RTTL_2025_AB076_Sec54.3_2026.pdf", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2000-11-07",
-      "event": "Voters approve medical cannabis.",
-      "source": "https://www.mpp.org/nevada"
-    },
-    {
-      "date": "2016-11-08",
-      "event": "Voters approve adult-use legalization.",
-      "source": "https://www.mpp.org/nevada"
-    },
-    {
-      "date": "2017-07-01",
-      "event": "Adult-use retail sales begin.",
-      "source": "https://www.pbs.org/newshour/nation/nevada-starts-sale-recreational-marijuana"
-    },
-    {
-      "date": "2019",
-      "event": "AB 533 creates the Cannabis Compliance Board.",
-      "source": "https://ccb.nv.gov/"
-    },
-    {
-      "date": "2021",
-      "event": "AB 341 authorizes licensed consumption lounges.",
-      "source": "https://www.mpp.org/nevada"
-    },
-    {
-      "date": "2024-01-01",
-      "event": "SB 277 raises possession and purchase limits to 2.5 ounces of flower and 1/4 ounce of concentrate.",
-      "source": "https://norml.org/news/2023/06/29/nevada-governor-signs-legislation-raising-marijuana-possession-limits"
-    }
+    {"date": "2000-11-07", "event": "Voters approve medical cannabis.", "source": "https://www.mpp.org/nevada"},
+    {"date": "2016-11-08", "event": "Voters approve adult-use legalization.", "source": "https://www.mpp.org/nevada"},
+    {"date": "2017-07-01", "event": "Adult-use retail sales begin.", "source": "https://www.pbs.org/newshour/nation/nevada-starts-sale-recreational-marijuana"},
+    {"date": "2019", "event": "AB 533 creates the Cannabis Compliance Board.", "source": "https://ccb.nv.gov/"},
+    {"date": "2021", "event": "AB 341 authorizes licensed consumption lounges.", "source": "https://www.mpp.org/nevada"},
+    {"date": "2024-01-01", "event": "SB 277 raises possession and purchase limits to 2.5 ounces of flower and 1/4 ounce of concentrate.", "source": "https://norml.org/news/2023/06/29/nevada-governor-signs-legislation-raising-marijuana-possession-limits"}
   ],
   "pending": [],
   "faq": [
-    {
-      "q": "Is weed legal in Nevada?",
-      "a": "Yes. Adults 21 and older, including visitors, can buy and possess cannabis, and medical cannabis has been legal since 2000."
-    },
-    {
-      "q": "How much weed can you buy in Nevada?",
-      "a": "Up to 2.5 ounces of flower or a quarter ounce of concentrate, under limits that took effect January 1, 2024."
-    },
-    {
-      "q": "Can you smoke weed in Las Vegas in public?",
-      "a": "No. Public consumption is illegal and can bring a fine; use is allowed in private residences with permission and in licensed consumption lounges."
-    },
-    {
-      "q": "Can you grow weed in Nevada?",
-      "a": "Only if you live at least 25 miles from the nearest dispensary, up to 6 plants per adult and 12 per household."
-    }
+    {"q": "Is weed legal in Nevada?", "a": "Yes. Adults 21 and older, including visitors, can buy and possess cannabis, and medical cannabis has been legal since 2000."},
+    {"q": "How much weed can you buy in Nevada?", "a": "Up to 2.5 ounces of flower or a quarter ounce of concentrate, under limits that took effect January 1, 2024."},
+    {"q": "Can you smoke weed in Las Vegas in public?", "a": "No. Public consumption is illegal and can bring a fine; use is allowed in private residences with permission and in licensed consumption lounges."},
+    {"q": "Can you grow weed in Nevada?", "a": "Only if you live at least 25 miles from the nearest dispensary, up to 6 plants per adult and 12 per household."}
   ],
   "sources": [
-    {
-      "name": "Nevada Cannabis Compliance Board",
-      "url": "https://ccb.nv.gov/"
-    },
-    {
-      "name": "Nevada Cannabis Compliance Board, Nevada Cannabis Program",
-      "url": "https://ccb.nv.gov/nevada-cannabis-program/"
-    },
-    {
-      "name": "NORML, SB 277 possession limits",
-      "url": "https://norml.org/news/2023/06/29/nevada-governor-signs-legislation-raising-marijuana-possession-limits"
-    },
-    {
-      "name": "PBS NewsHour, Nevada starts recreational sales",
-      "url": "https://www.pbs.org/newshour/nation/nevada-starts-sale-recreational-marijuana"
-    },
-    {
-      "name": "Marijuana Policy Project, Nevada",
-      "url": "https://www.mpp.org/nevada"
-    }
+    {"name": "Nevada Cannabis Compliance Board", "url": "https://ccb.nv.gov/"},
+    {"name": "Nevada Cannabis Compliance Board, Nevada Cannabis Program", "url": "https://ccb.nv.gov/nevada-cannabis-program/"},
+    {"name": "NORML, SB 277 possession limits", "url": "https://norml.org/news/2023/06/29/nevada-governor-signs-legislation-raising-marijuana-possession-limits"},
+    {"name": "PBS NewsHour, Nevada starts recreational sales", "url": "https://www.pbs.org/newshour/nation/nevada-starts-sale-recreational-marijuana"},
+    {"name": "Marijuana Policy Project, Nevada", "url": "https://www.mpp.org/nevada"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

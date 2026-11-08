@@ -20,7 +20,8 @@
     "regulator": {"value": "Office of Cannabis Policy (OCP), within the Department of Administrative and Financial Services, created in February 2019.", "source": "https://www.maine.gov/dafs/ocp/adult-use", "as_of": "2026-11-07"},
     "public_use": {"value": "Adults may consume only in a private residence or on private property not open to the public with the owner's permission. Using cannabis as a driver or passenger in a vehicle on a public way, or smoking in public, is a civil violation with a fine of up to $100.", "source": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html", "as_of": "2026-11-07"},
     "dui": {"value": "Impairment-based: Maine has no THC per se or zero-tolerance law, so a cannabis OUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
-    "tourists": {"value": "Yes. Adults 21+, residents or not, may buy up to 2.5 ounces of adult-use cannabis (including no more than 10 grams of concentrate) from licensed stores.", "source": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html", "as_of": "2026-11-07"}
+    "tourists": {"value": "Yes. Adults 21+, residents or not, may buy up to 2.5 ounces of adult-use cannabis (including no more than 10 grams of concentrate) from licensed stores.", "source": "https://legislature.maine.gov/statutes/28-B/title28-Bsec1501.html", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Hemp products containing potentially intoxicating cannabinoids (delta-8, delta-9, delta-10 THC and related compounds) may be sold, but not to anyone under 21, under 7 M.R.S. §2231 as amended in 2025. Such products, other than beverages, salves and topicals, must come in child-resistant, tamper-evident packaging, and sellers of ingestible hemp products must hold a state license; the statute sets no per-serving milligram cap.", "source": "https://legislature.maine.gov/legis/statutes/7/title7sec2231.html", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "1999", "event": "Voters approve medical cannabis", "source": "https://www.mpp.org/states/Maine"},
@@ -47,8 +48,9 @@
   ],
   "changelog": [
     {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
-    {"date": "2026-11-07", "note": "Corrected concentrate limit in possession_limit to 10 grams per 28-B M.R.S. §1501"}
+    {"date": "2026-11-07", "note": "Corrected concentrate limit in possession_limit to 10 grams per 28-B M.R.S. §1501"},
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }
