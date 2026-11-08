@@ -221,7 +221,11 @@ def build_media(arts, eds):
         src = CONTENT / a["_file"]
         # lead images (article figure, NewsArticle image, RSS): the visual motif in 16:9, 4:3 and 1:1, no headline
         try:
-            write_leads(a, OUT / "img")
+            if T.LEAD_IMAGES:
+                write_leads(a, OUT / "img")
+            else:  # plates are off: remove any cached copies so they are no longer served
+                for old in (OUT / "img").glob(f"{a['id']}-*.jpg"):
+                    old.unlink()
         except Exception as e:  # noqa: BLE001  a missing lead image falls back to the social card; never block a publish
             print(f"WARNING: lead image for {a['id']} failed: {e}")
         ban = OUT / "banners" / f"{a['id']}.jpg"

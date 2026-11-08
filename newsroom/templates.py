@@ -206,12 +206,17 @@ def image(a, eager=False, plate=True):
     return plate_svg(a) if plate else ""
 
 
+# Key-figure plate lead images are OFF: Greg's design board rejected the plate look (6 Nov 2026, card A won 2-1)
+# and he turned them down again on 8 Nov. Articles, JSON-LD and RSS use the editorial social card instead.
+LEAD_IMAGES = False
 LEAD_DIMS = {"16x9": (1600, 900), "4x3": (1200, 900), "1x1": (1200, 1200)}  # card.LEAD_SIZES
 
 
 def lead(a):
     """The story's rendered lead images (card.render_lead, written by full builds into docs/img/) as {ratio: url},
     or None when they are not on disk (a fresh --no-media build), so no page ever points at a missing file."""
+    if not LEAD_IMAGES:
+        return None
     names = {r: f"{a['id']}-{r}.jpg" for r in list(LEAD_DIMS) + ["16x9-960"]}
     if not all((ctx["out"] / "img" / n).exists() for n in names.values()):
         return None
