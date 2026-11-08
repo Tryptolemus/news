@@ -11,39 +11,44 @@
     "decriminalized": "no"
   },
   "headline_status": "Cannabis is illegal in the UAE, and personal use can bring prison, heavy fines and deportation for foreigners.",
-  "summary": "The UAE's narcotics law, Federal Decree-Law No. 30 of 2021, punishes unauthorised personal drug use with at least three months in prison or a fine of AED 20,000 to 100,000, with harsher penalties for repeat offences and trafficking. Foreigners convicted must generally be deported. Since 2024 a Cabinet resolution sets administrative fines, and for repeat cases deportation and entry bans, for non-resident visitors caught with small quantities at entry points. Users who seek treatment before an arrest order can avoid prosecution.",
+  "summary": "The UAE's narcotics law, Federal Decree-Law No. 30 of 2021, punishes unauthorised personal cannabis use with at least three months in prison or a fine of AED 10,000 to 100,000 (AED 20,000 and up for most other drugs), with harsher penalties for repeat offences and trafficking. Foreigners convicted must generally be deported. Since 2024 a Cabinet resolution sets administrative fines, and for repeat cases deportation and entry bans, for non-resident visitors caught with small quantities at entry points. Users who seek treatment before an arrest order can avoid prosecution.",
   "facts": {
     "penalties": {
-      "value": "Unauthorised personal use of scheduled drugs carries a minimum of three months in prison or a fine of AED 20,000 to 100,000; repeat offences raise the penalty, and trafficking can carry the death penalty in aggravated cases.",
-      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "value": "A first offence of personal cannabis use (Article 42 of Federal Decree-Law No. 30 of 2021) carries at least three months in prison or a fine of AED 10,000 to 100,000; other scheduled drugs start at AED 20,000. A third offence within three years brings prison and a fine together, and trafficking can carry the death penalty in aggravated cases.",
+      "source": "https://www.mondaq.com/crime/1835052/the-uae-narcotics-law-explained",
       "as_of": "2026-11-07"
     },
     "retail_sales": {
-      "value": "None.",
-      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "value": "None. Recreational drugs are banned, and controlled medicines are not freely available or importable.",
+      "source": "https://u.ae/en/information-and-services/health-and-fitness/health-and-wellbeing/drugs-and-controlled-medicines",
       "as_of": "2026-11-07"
     },
     "possession_limit": {
-      "value": "No legal amount; any unauthorised possession or use is an offence.",
-      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "value": "No legal amount; possession, acquisition and use of narcotic and psychotropic substances are criminal unless part of supervised, regulated medical or scientific activity, and trace amounts in the body can support a use charge.",
+      "source": "https://u.ae/en/information-and-services/health-and-fitness/health-and-wellbeing/drugs-and-controlled-medicines",
       "as_of": "2026-11-07"
     },
     "regulator": {
-      "value": "Governed by Federal Decree-Law No. 30 of 2021 on narcotics and psychotropic substances, amended by Federal Decree-Law No. 53 of 2023.",
-      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
+      "value": "Governed by Federal Decree-Law No. 30 of 2021 on Combating Narcotics and Psychotropic Substances, amended by Federal Decree-Law No. 53 of 2023; the Ministry of Health and Prevention (MOHAP) licenses controlled medicines and their import.",
+      "source": "https://u.ae/en/information-and-services/health-and-fitness/health-and-wellbeing/drugs-and-controlled-medicines",
       "as_of": "2026-11-07"
     },
     "tourists": {
       "value": "Cabinet Resolution No. 43 of 2024 lets non-resident visitors caught with small quantities at entry points be fined (from AED 5,000 for a first offence for some substances), with deportation and entry bans for repeat or more serious cases. Foreigners convicted in court must generally be deported.",
       "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences",
       "as_of": "2026-11-07"
+    },
+    "medical_program": {
+      "value": "None for cannabis. The narcotics law allows controlled substances only within supervised, regulated medical or scientific use, there is no medical cannabis program, and controlled medicines need MOHAP authorisation before they can be brought into the country.",
+      "source": "https://u.ae/en/information-and-services/health-and-fitness/health-and-wellbeing/drugs-and-controlled-medicines",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
     {
-      "date": "2021",
-      "event": "Federal Decree-Law No. 30 of 2021 replaces the 1995 narcotics law",
-      "source": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences"
+      "date": "2022-01-02",
+      "event": "Federal Decree-Law No. 30 of 2021 on Combating Narcotics and Psychotropic Substances takes effect, replacing the 1995 narcotics law",
+      "source": "https://www.mondaq.com/crime/1835052/the-uae-narcotics-law-explained"
     },
     {
       "date": "2023",
@@ -60,7 +65,7 @@
   "faq": [
     {
       "q": "Is weed legal in Dubai or the UAE?",
-      "a": "No. Personal use is punishable by at least three months in prison or a fine of AED 20,000 to 100,000."
+      "a": "No. Personal cannabis use is punishable by at least three months in prison or a fine of AED 10,000 to 100,000, and foreigners are generally deported."
     },
     {
       "q": "What happens to tourists caught with cannabis in the UAE?",
@@ -75,8 +80,22 @@
     {
       "name": "Mondaq (Al Khouri)",
       "url": "https://www.mondaq.com/crime/1806434/drug-possession-and-personal-use-in-the-uae-key-legal-consequences"
+    },
+    {
+      "name": "UAE Government Portal (u.ae) – Drugs and controlled medicines",
+      "url": "https://u.ae/en/information-and-services/health-and-fitness/health-and-wellbeing/drugs-and-controlled-medicines"
+    },
+    {
+      "name": "Mondaq (MIO Law Firm) – The UAE narcotics law explained",
+      "url": "https://www.mondaq.com/crime/1835052/the-uae-narcotics-law-explained"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-07",
+      "note": "Corrected first-offence cannabis fine to AED 10,000–100,000 (Article 42); added medical status from the UAE Government Portal and marked page complete"
     }
   ],
   "last_verified": "2026-11-07",
-  "page_status": "partial"
+  "page_status": "complete"
 }

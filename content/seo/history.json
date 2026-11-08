@@ -214,5 +214,32 @@
   "score_structure": 97.2,
   "score_scale": 46.6,
   "score_total": 80.5
+ },
+ {
+  "at": "2026-11-08T08:45:12+00:00",
+  "label": "Round 5: 185 state quick-answer facts, 4 states + UAE complete, official country sources",
+  "pages_indexable": 249,
+  "articles": 22,
+  "hub_pages": 212,
+  "evergreen_ratio_pct": 85.1,
+  "sitemap_coverage_pct": 99.6,
+  "title_ok_pct": 98.8,
+  "unique_title_pct": 100.0,
+  "meta_desc_ok_pct": 99.2,
+  "single_h1_pct": 99.6,
+  "self_canonical_pct": 99.6,
+  "jsonld_pct": 99.6,
+  "newsarticle_complete_pct": 100.0,
+  "max_image_preview_pct": 99.6,
+  "img_alt_pct": 100.0,
+  "orphan_pages": 1,
+  "avg_internal_links_per_article": 34.5,
+  "avg_inbound_links_per_article": 22.5,
+  "avg_inbound_links_per_hub": 17.4,
+  "avg_words_per_article": 1588,
+  "score_technical": 99.6,
+  "score_structure": 96.2,
+  "score_scale": 47.8,
+  "score_total": 80.5
  }
 ]
