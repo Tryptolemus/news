@@ -212,16 +212,31 @@ GLOSSARY_SKIP = {"marijuana", "hemp", "thc", "flower", "dispensary", "legalizati
 AMBIGUOUS = {"Washington", "Georgia", "Jersey"}
 
 
+def in_proper_name(before, after):
+    """True when a match sits inside a longer proper name ("Texas Hemp Business Council", "RESTART CBD",
+    "Expungement (MORE) Act"): a capitalised word right before it (mid-sentence) or right after it, or a bracket."""
+    if re.search(r"\b[A-Z][A-Za-z]+ $", before) and not re.search(r"(?:^|[.!?>:] ?)[A-Z][a-z]+ $", before[-40:]):
+        return True
+    return bool(re.match(r"^ (?:[A-Z][A-Za-z]|\()", after))
+
+
+def place_ok(before, after):
+    """Extra checks before linking a place the story isn't tagged with: other meanings of the name."""
+    if re.match(r"^(?:&#x27;s|'s)? (?:ruling|court|judges?|judgment|parent|corporation|company|holding|entity|subsidiary)", after):
+        # "the Luxembourg ruling" = EU court; "a Delaware parent" = company law
+        return False
+    if re.search(r"(?:domicil|incorporat|redomesticat)\w*\W+(?:\w+\W+){0,6}$", before[-90:]):  # company law, not cannabis law
+        return False
+    return True
+
+
 def _names(h, tagged):
-    """Names to look for: tagged hubs match any of their tags; others only their own name (fewer false hits)."""
+    """Names to look for: tagged hubs match any of their tags; others only their full name ("Aurora" alone is a town)."""
     if tagged:
         return sorted({h["name"], *h.get("tags", [])}, key=len, reverse=True)
     if h["name"] in AMBIGUOUS:
         return []  # "Washington" usually means the federal government; link it only when the story is tagged with it
-    names = {h["name"]}
-    if h["type"] == "company" and h.get("short_name"):
-        names.add(h["short_name"])
-    return sorted(names, key=len, reverse=True)
+    return [h["name"]]
 
 
 def link_targets(a):
@@ -265,6 +280,8 @@ def glossary_link(html_paras, limit=3):
                     tail = block[:cand.start()]
                     if "<a " in tail[-300:].split("</a>")[-1]:
                         continue
+                    if in_proper_name(tail, block[cand.end():]):
+                        continue
                     hit = cand
                     break
                 if hit:
@@ -285,6 +302,7 @@ def _autolink(html_paras, a, limit):
     hubs = link_targets(a)
     if not hubs:
         return html_paras
+    tagged_urls = {x["_url"] for x in article_hubs(a)}
     done, n = set(), 0
     out = []
     for block in html_paras:
@@ -299,10 +317,11 @@ def _autolink(html_paras, a, limit):
                 m = None
                 for cand in pat.finditer(block):
                     before, after = block[:cand.start()], block[cand.end():]
-                    # skip matches inside proper names ("Texas Hemp Business Council"): a capitalised word right next to it
-                    if re.search(r"\b[A-Z][a-z]+ $", before) and not re.search(r"(?:^|[.!?>] ?)[A-Z][a-z]+ $", before[-40:]):
+                    # skip matches inside proper names ("Texas Hemp Business Council") and, for places the story
+                    # isn't tagged with, other meanings ("the Luxembourg ruling", "domicile ... to Delaware")
+                    if in_proper_name(before, after):
                         continue
-                    if re.match(r"^ [A-Z][a-z]", after):
+                    if h["_url"] not in tagged_urls and h["type"] != "company" and not place_ok(before, after):
                         continue
                     if "<a " in before[-300:].split("</a>")[-1]:
                         continue
@@ -334,18 +353,25 @@ def covered_box(a):
 
 # ---------- page pieces ----------
 
-def _mentions(a, name):
+def _mentions(a, name, place=False):
+    """Does the story name this hub in the sense we mean (same checks as autolink)?"""
     body = a.get("body") or ""
     text = " ".join(body) if isinstance(body, list) else str(body)
-    text = a.get("headline", "") + " " + text
-    return re.search(r"(?<![\w-])" + re.escape(name) + r"(?![\w-])", text) is not None
+    text = a.get("headline", "") + ". " + text
+    for m in re.finditer(r"(?<![\w-])" + re.escape(name) + r"(?![\w-])", text):
+        before, after = text[:m.start()], text[m.end():]
+        if in_proper_name(before, after) or (place and not place_ok(before, after)):
+            continue
+        return True
+    return False
 
 
 def coverage(h, arts, n=8):
     tags = {t.lower() for t in {h["name"], *h.get("tags", [])}}
-    by_name = h["type"] in ("us_state", "country", "company")
+    by_name = h["type"] in ("us_state", "country", "company") and h["name"] not in AMBIGUOUS
+    place = h["type"] != "company"
     items = [a for a in arts if tags & {t.lower() for t in a.get("tags", [])}
-             or (by_name and (_mentions(a, h["name"]) or (h.get("short_name") and _mentions(a, h["short_name"]))))]
+             or (by_name and _mentions(a, h["name"], place))]
     items.sort(key=lambda a: a["_dt"], reverse=True)
     return items[:n]
 
