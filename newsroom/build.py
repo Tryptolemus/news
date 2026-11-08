@@ -220,7 +220,10 @@ def build_media(arts, eds):
         render_card(a, og, og.with_suffix(".jpg"))
         src = CONTENT / a["_file"]
         # lead images (article figure, NewsArticle image, RSS): the visual motif in 16:9, 4:3 and 1:1, no headline
-        write_leads(a, OUT / "img")
+        try:
+            write_leads(a, OUT / "img")
+        except Exception as e:  # noqa: BLE001  a missing lead image falls back to the social card; never block a publish
+            print(f"WARNING: lead image for {a['id']} failed: {e}")
         ban = OUT / "banners" / f"{a['id']}.jpg"
         photo = photo_path(a)
         newest = max(src.stat().st_mtime, photo.stat().st_mtime if photo else 0, Path(__file__).with_name("banner.py").stat().st_mtime)

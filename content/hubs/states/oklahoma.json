@@ -21,7 +21,7 @@
     "purchase_age": {"value": "Medical only. Adult patient licenses are for Oklahoma residents 18 and older; younger patients need a minor patient license.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html", "as_of": "2026-11-07"},
     "dui": {"value": "Zero tolerance: Oklahoma is among the states that ban driving with any amount of THC or its metabolites in the body.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
     "tourists": {"value": "Medical patients only. Non-residents of any age with a state-issued medical marijuana license can get an Oklahoma out-of-state patient license, valid up to 30 days, for $100; there are no adult-use sales.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "The Oklahoma Department of Agriculture, Food and Forestry says hemp products must test at no more than 0.3% total THC, counting THC plus 87.7% of THCA. Its January 2026 guidance says that from November 12, 2026, under the amended federal hemp definition, final hemp-derived cannabinoid products may contain no more than 0.4 mg total THC per container, and synthesized cannabinoids such as delta-8 are no longer hemp; products over those limits cannot be marketed as hemp.", "source": "https://ag.ok.gov/wp-content/uploads/2026/01/2026-Hemp-Clarification-Letter.pdf", "as_of": "2026-11-08"}
+    "hemp_thc": {"value": "The Oklahoma Department of Agriculture, Food and Forestry says hemp products must test at no more than 0.3% total THC, counting THC plus 87.7% of THCA, and its January 2026 guidance says products that fall outside the amended federal hemp definition, including synthesized cannabinoids such as delta-8, cannot be marketed as hemp.", "source": "https://ag.ok.gov/wp-content/uploads/2026/01/2026-Hemp-Clarification-Letter.pdf", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2018-06-26", "event": "Voters approve State Question 788, legalizing medical cannabis", "source": "https://www.mpp.org/states/oklahoma/sq788/"},
@@ -42,7 +42,7 @@
   ],
   "changelog": [
     {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
-    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule; removed federal effective dates that have since changed"}
   ],
   "last_verified": "2026-11-08",
   "page_status": "complete"

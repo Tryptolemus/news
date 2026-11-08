@@ -228,7 +228,7 @@ def lead_figure(a):
     v = a.get("visual") or {}
     return (f'<figure class="story-fig lead-fig"><img src="{L["16x9"]}" srcset="{up}{L["16x9-960"][1:]} 960w, {up}{L["16x9"][1:]} 1600w" '
             f'sizes="(max-width: 1080px) 100vw, 1040px" width="1600" height="900" fetchpriority="high" alt="{escape(lead_alt(a))}">'
-            f'<figcaption>{escape(str(v.get("label") or ""))} <span class="credit">MetaFlora News graphic</span></figcaption></figure>')
+            f'<figcaption>{escape(" ".join(x for x in (str(v.get("big") or ""), str(v.get("label") or "")) if x))} <span class="credit">MetaFlora News graphic</span></figcaption></figure>')
 
 
 def lead_ld(a):

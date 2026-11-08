@@ -21,7 +21,7 @@
     "expungement": {"value": "People can petition to expunge past records for possessing up to 2.5 ounces, growing up to six plants at home, and related paraphernalia offenses.", "source": "https://www.mpp.org/states/arizona/", "as_of": "2026-11-07"},
     "dui": {"value": "Zero tolerance: Arizona bans driving with any amount of a listed drug, including marijuana, or its metabolite in the body, even without proof of impairment.", "source": "https://www.azleg.gov/ars/28/01381.htm", "as_of": "2026-11-07"},
     "tourists": {"value": "Yes. Prop 207 lets any adult 21+ buy and possess up to 1 ounce, of which no more than 5 grams may be concentrate, with no residency requirement.", "source": "https://www.azleg.gov/ars/36/02852.htm", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Arizona has no statute licensing hemp-derived intoxicants. A formal Attorney General opinion (I24-005, March 11, 2024) concludes that state law does not allow delta-8, delta-10 or other THC synthetically converted from hemp CBD to be sold by businesses that are not licensed by the Department of Health Services, which rules out sales in convenience stores, smoke shops and other unlicensed shops.", "source": "https://www.azag.gov/opinions/i24-005-r24-001", "as_of": "2026-11-08"}
+    "hemp_thc": {"value": "A formal Attorney General opinion (I24-005, March 11, 2024) concludes that Arizona's industrial hemp law does not cover hemp extracts and derivatives, that delta-8 THC is a Schedule I substance under state law, and that delta-8, delta-10 or other THC synthetically converted from hemp CBD may be sold only by businesses licensed by the Department of Health Services, which rules out sales in convenience stores, smoke shops and other unlicensed shops.", "source": "https://www.azag.gov/opinions/i24-005-r24-001", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2010", "event": "Medical marijuana becomes legal", "source": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries"},
@@ -48,7 +48,7 @@
   ],
   "changelog": [
     {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
-    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule"}
+    {"date": "2026-11-08", "note": "Round 8: added sourced hemp THC rule; limited to what AG Opinion I24-005 states"}
   ],
   "last_verified": "2026-11-08",
   "page_status": "complete"
