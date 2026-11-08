@@ -2,6 +2,7 @@
   "id": "country/germany",
   "type": "country",
   "name": "Germany",
+  "wikidata": "Q183",
   "tags": [
     "Germany"
   ],

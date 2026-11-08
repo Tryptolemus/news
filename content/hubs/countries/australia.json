@@ -2,6 +2,7 @@
   "id": "country/australia",
   "type": "country",
   "name": "Australia",
+  "wikidata": "Q408",
   "tags": ["Australia"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
   "headline_status": "Recreational cannabis is illegal under Australian federal law, though the ACT exempts small personal amounts and home growing; medicinal cannabis has been prescribable since 2016.",

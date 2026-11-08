@@ -2,6 +2,7 @@
   "id": "country/canada",
   "type": "country",
   "name": "Canada",
+  "wikidata": "Q16",
   "tags": ["Canada"],
   "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Recreational and medical cannabis are legal nationwide for adults, with a minimum age of 18 or higher depending on the province.",

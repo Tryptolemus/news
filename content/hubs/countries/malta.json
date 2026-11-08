@@ -2,6 +2,7 @@
   "id": "country/malta",
   "type": "country",
   "name": "Malta",
+  "wikidata": "Q233",
   "tags": ["Malta"],
   "legal": {"adult_use": "legal_no_sales", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Adults in Malta may possess small amounts, grow four plants at home and join licensed non-profit cannabis clubs, but there are no commercial shops.",

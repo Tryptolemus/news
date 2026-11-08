@@ -2,6 +2,7 @@
   "id": "us/maine",
   "type": "us_state",
   "name": "Maine",
+  "wikidata": "Q724",
   "abbr": "ME",
   "tags": ["Maine"],
   "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},

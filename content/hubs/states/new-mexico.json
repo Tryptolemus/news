@@ -2,6 +2,7 @@
   "id": "us/new-mexico",
   "type": "us_state",
   "name": "New Mexico",
+  "wikidata": "Q1522",
   "abbr": "NM",
   "tags": ["New Mexico"],
   "legal": {

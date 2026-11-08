@@ -2,6 +2,7 @@
   "id": "country/romania",
   "type": "country",
   "name": "Romania",
+  "wikidata": "Q218",
   "tags": ["Romania"],
   "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},
   "headline_status": "Cannabis is illegal in Romania, possession for personal use can bring prison, and medical cannabis exists on paper but is not available in practice.",

@@ -2,6 +2,7 @@
   "id": "country/switzerland",
   "type": "country",
   "name": "Switzerland",
+  "wikidata": "Q39",
   "tags": ["Switzerland"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
   "headline_status": "Recreational cannabis with 1% THC or more is illegal in Switzerland, but small personal possession is not a crime, low-THC CBD flower is legal, and doctors can prescribe medical cannabis.",

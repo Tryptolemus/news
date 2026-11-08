@@ -2,6 +2,7 @@
   "id": "us/arizona",
   "type": "us_state",
   "name": "Arizona",
+  "wikidata": "Q816",
   "abbr": "AZ",
   "tags": ["Arizona"],
   "legal": {

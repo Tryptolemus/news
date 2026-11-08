@@ -2,6 +2,7 @@
   "id": "country/czech-republic",
   "type": "country",
   "name": "Czech Republic",
+  "wikidata": "Q213",
   "tags": ["Czech Republic"],
   "legal": {"adult_use": "legal_no_sales", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Since 1 January 2026 adults 21+ in Czechia may grow three plants and possess limited amounts, but selling cannabis remains illegal.",

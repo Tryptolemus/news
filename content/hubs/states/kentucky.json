@@ -2,6 +2,7 @@
   "id": "us/kentucky",
   "type": "us_state",
   "name": "Kentucky",
+  "wikidata": "Q1603",
   "abbr": "KY",
   "tags": ["Kentucky"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},

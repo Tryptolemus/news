@@ -2,6 +2,7 @@
   "id": "country/thailand",
   "type": "country",
   "name": "Thailand",
+  "wikidata": "Q869",
   "tags": [
     "Thailand"
   ],

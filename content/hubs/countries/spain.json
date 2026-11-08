@@ -2,6 +2,7 @@
   "id": "country/spain",
   "type": "country",
   "name": "Spain",
+  "wikidata": "Q29",
   "tags": ["Spain"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "partial"},
   "headline_status": "Cannabis is not legal in Spain, but private use is not a crime and public use draws administrative fines; a hospital-only medical programme was created in October 2025.",

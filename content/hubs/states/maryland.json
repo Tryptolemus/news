@@ -2,6 +2,7 @@
   "id": "us/maryland",
   "type": "us_state",
   "name": "Maryland",
+  "wikidata": "Q1391",
   "abbr": "MD",
   "tags": ["Maryland"],
   "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},

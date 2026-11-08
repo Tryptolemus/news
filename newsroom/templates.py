@@ -105,8 +105,8 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     desc = meta_desc(desc)
     if "application/ld+json" not in extra_head and "noindex" not in robots:
         extra_head += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc,
-                                                                          "url": SITE + path, "isPartOf": {"@type": "WebSite", "name": NAME, "url": SITE + "/"},
-                                                                          "publisher": {"@type": "Organization", "name": NAME, "url": SITE + "/"}}) + "</script>"
+                                                                          "url": SITE + path, "isPartOf": {"@type": "WebSite", "@id": f"{SITE}/#website", "name": NAME, "url": SITE + "/"},
+                                                                          "publisher": PUBLISHER}) + "</script>"
     img = og_image or f"{SITE}/assets/og-default.png"
     nav = "".join(f'<a href="/section/{c.lower()}/"{" aria-current=page" if c == active else ""}>{c}</a>' for c in CATS)
     nav += f'<a href="/stocks/"{" aria-current=page" if active == "Stocks" else ""}>Stocks</a>'
@@ -453,6 +453,11 @@ def build_article(a, arts):
     ld["keywords"] = a.get("tags", [])
     ld["articleSection"] = a["cat"]
     ld["wordCount"] = sum(len(x.split()) for x in a["body"])
+    about, mentions = hubs.article_entities(a)  # after render_body: mentions are the hubs autolinked in the body
+    if about:
+        ld["about"] = about
+    if mentions:
+        ld["mentions"] = mentions
     crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": NAME, "item": SITE + "/"},
         {"@type": "ListItem", "position": 2, "name": a["cat"], "item": f"{SITE}/section/{a['cat'].lower()}/"},
@@ -625,7 +630,7 @@ def build_about(arts):
 <h2>Contact</h2>
 <p>Corrections, tips and questions: <a href="mailto:support@metaflora.xyz">support@metaflora.xyz</a> · <a href="{X_URL}" target="_blank" rel="noopener">@{X_HANDLE}</a> on X. Advertising: see <a href="/advertise/">Advertise</a>.</p>
 </div></div></article>"""
-    ld = {"@context": "https://schema.org", "@type": "AboutPage", "name": "About MetaFlora News", "url": SITE + "/about/", "mainEntity": {"@id": f"{SITE}/#org"}}
+    ld = {"@context": "https://schema.org", "@type": "AboutPage", "name": "About MetaFlora News", "url": SITE + "/about/", "mainEntity": ORG, "publisher": {"@id": f"{SITE}/#org"}}
     ctx["write"]("about/index.html", page("About MetaFlora News", body, path="/about/",
                  desc="About MetaFlora News: cannabis industry news, laws and market data published twice a day by MetaFlora, with every source linked.",
                  extra_head=f'<script type="application/ld+json">{json.dumps(ld)}</script>'))

@@ -2,6 +2,7 @@
   "id": "us/iowa",
   "type": "us_state",
   "name": "Iowa",
+  "wikidata": "Q1546",
   "abbr": "IA",
   "tags": ["Iowa"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},

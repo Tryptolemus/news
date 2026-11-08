@@ -2,6 +2,7 @@
   "id": "us/delaware",
   "type": "us_state",
   "name": "Delaware",
+  "wikidata": "Q1393",
   "abbr": "DE",
   "tags": ["Delaware"],
   "legal": {

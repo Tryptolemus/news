@@ -2,6 +2,7 @@
   "id": "country/botswana",
   "type": "country",
   "name": "Botswana",
+  "wikidata": "Q963",
   "tags": ["Botswana"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
   "headline_status": "Recreational cannabis is illegal in Botswana, but since January 2026 licensed companies may grow and process cannabis for industrial, medicinal and research purposes.",

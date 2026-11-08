@@ -2,6 +2,7 @@
   "id": "us/indiana",
   "type": "us_state",
   "name": "Indiana",
+  "wikidata": "Q1415",
   "abbr": "IN",
   "tags": ["Indiana"],
   "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},

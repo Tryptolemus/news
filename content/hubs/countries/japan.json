@@ -2,6 +2,7 @@
   "id": "country/japan",
   "type": "country",
   "name": "Japan",
+  "wikidata": "Q17",
   "tags": ["Japan"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
   "headline_status": "Cannabis is strictly illegal in Japan, where using it has been a crime punishable by up to seven years in prison since December 2024.",

@@ -2,6 +2,7 @@
   "id": "us/montana",
   "type": "us_state",
   "name": "Montana",
+  "wikidata": "Q1212",
   "abbr": "MT",
   "tags": [
     "Montana"

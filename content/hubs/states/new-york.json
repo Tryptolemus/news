@@ -2,6 +2,7 @@
   "id": "us/new-york",
   "type": "us_state",
   "name": "New York",
+  "wikidata": "Q1384",
   "abbr": "NY",
   "tags": ["New York"],
   "legal": {

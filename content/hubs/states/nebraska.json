@@ -2,6 +2,7 @@
   "id": "us/nebraska",
   "type": "us_state",
   "name": "Nebraska",
+  "wikidata": "Q1553",
   "abbr": "NE",
   "tags": ["Nebraska"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "partial"},

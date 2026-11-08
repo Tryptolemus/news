@@ -2,6 +2,7 @@
   "id": "us/hawaii",
   "type": "us_state",
   "name": "Hawaii",
+  "wikidata": "Q782",
   "abbr": "HI",
   "tags": ["Hawaii"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},

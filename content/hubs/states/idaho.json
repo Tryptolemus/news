@@ -2,6 +2,7 @@
   "id": "us/idaho",
   "type": "us_state",
   "name": "Idaho",
+  "wikidata": "Q1221",
   "abbr": "ID",
   "tags": ["Idaho"],
   "legal": {"adult_use": "illegal", "medical": "none", "decriminalized": "no"},

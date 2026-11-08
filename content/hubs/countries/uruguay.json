@@ -2,6 +2,7 @@
   "id": "country/uruguay",
   "type": "country",
   "name": "Uruguay",
+  "wikidata": "Q77",
   "tags": ["Uruguay"],
   "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Uruguay was the first country to fully legalise recreational cannabis; registered adult citizens and residents can grow it, join clubs or buy it in pharmacies.",

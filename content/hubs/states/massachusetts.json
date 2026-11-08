@@ -2,6 +2,7 @@
   "id": "us/massachusetts",
   "type": "us_state",
   "name": "Massachusetts",
+  "wikidata": "Q771",
   "abbr": "MA",
   "tags": [
     "Massachusetts"

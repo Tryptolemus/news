@@ -2,6 +2,7 @@
   "id": "us/washington",
   "type": "us_state",
   "name": "Washington",
+  "wikidata": "Q1223",
   "abbr": "WA",
   "tags": [
     "Washington"

@@ -2,6 +2,7 @@
   "id": "us/oregon",
   "type": "us_state",
   "name": "Oregon",
+  "wikidata": "Q824",
   "abbr": "OR",
   "tags": ["Oregon"],
   "legal": {

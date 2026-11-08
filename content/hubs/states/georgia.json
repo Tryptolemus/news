@@ -2,6 +2,7 @@
   "id": "us/georgia",
   "type": "us_state",
   "name": "Georgia",
+  "wikidata": "Q1428",
   "abbr": "GA",
   "tags": ["Georgia"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},

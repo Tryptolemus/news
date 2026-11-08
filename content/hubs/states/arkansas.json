@@ -2,6 +2,7 @@
   "id": "us/arkansas",
   "type": "us_state",
   "name": "Arkansas",
+  "wikidata": "Q1612",
   "abbr": "AR",
   "tags": ["Arkansas"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},

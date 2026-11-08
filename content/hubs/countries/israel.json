@@ -2,6 +2,7 @@
   "id": "country/israel",
   "type": "country",
   "name": "Israel",
+  "wikidata": "Q801",
   "tags": ["Israel"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},
   "headline_status": "Recreational cannabis is illegal in Israel, but possessing up to 15 g for personal use draws only a fine, and the country runs one of the world's largest medical cannabis programmes.",

@@ -2,6 +2,7 @@
   "id": "us/pennsylvania",
   "type": "us_state",
   "name": "Pennsylvania",
+  "wikidata": "Q1400",
   "abbr": "PA",
   "tags": ["Pennsylvania"],
   "legal": {

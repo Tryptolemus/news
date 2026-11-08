@@ -193,6 +193,95 @@ def src_link(url, label="Source"):
     return f'<a class="src" href="{escape(url)}" target="_blank" rel="noopener">{label}</a>' if url else ""
 
 
+# ---------- entities (JSON-LD identity) ----------
+
+ENTITY_TYPES = {"us_state": "State", "country": "Country", "company": "Corporation"}
+EXCHANGE_CODE = {"Nasdaq": "NASDAQ", "NYSE": "NYSE", "NYSE Arca": "NYSEARCA", "TSX": "TSX", "CSE": "CSE", "OTCQX": "OTCQX", "Cboe Canada": "NEO"}
+
+
+def wikidata_url(h):
+    q = h.get("wikidata") or ""
+    return f"https://www.wikidata.org/wiki/{q}" if re.fullmatch(r"Q\d+", q) else None
+
+
+def entity_id(h):
+    """One stable @id per entity, shared by its hub page, stock page and every story that names it."""
+    return SITE + h["_url"] + ("#org" if h["type"] == "company" else "#place")
+
+
+def ticker_symbols(h):
+    return [f'{EXCHANGE_CODE.get(t.get("exchange"), t.get("exchange"))}:{t.get("symbol")}' for t in h.get("tickers") or [] if t.get("symbol")]
+
+
+def entity(h, full=False):
+    """Schema.org node for a state, country or company hub (no @context). `full` adds page-only details."""
+    kind = ENTITY_TYPES.get(h["type"])
+    if not kind:
+        return None
+    if h["name"] == "District of Columbia":
+        kind = "AdministrativeArea"  # a federal district, not a state
+    e = {"@type": kind, "@id": entity_id(h), "name": h["name"]}
+    if h["type"] == "company":
+        e["url"] = h.get("website") or SITE + h["_url"]
+        short = h.get("short_name")
+        if short and short != h["name"]:
+            e["alternateName"] = short
+        ticks = ticker_symbols(h)
+        if ticks:
+            e["tickerSymbol"] = ticks if len(ticks) > 1 else ticks[0]
+        if full:
+            if h.get("founded"):
+                e["foundingDate"] = str(h["founded"])
+            if h.get("hq"):
+                e["address"] = h["hq"]
+    else:
+        e["url"] = SITE + h["_url"]  # the place has no single official site in our data: its legal hub is our reference page
+    if h["type"] == "us_state":
+        e["containedInPlace"] = {"@type": "Country", "name": "United States", "sameAs": "https://www.wikidata.org/wiki/Q30"}
+    same = [x for x in (wikidata_url(h), h.get("website") if h["type"] == "company" else None) if x]
+    if same:
+        e["sameAs"] = same
+    return e
+
+
+def entity_ref(h):
+    """Compact node for NewsArticle about/mentions: @id, name, the hub URL and sameAs."""
+    e = entity(h)
+    if not e:
+        return {"@type": "DefinedTerm", "name": h["name"], "url": SITE + h["_url"]} if h["type"] == "glossary" else None
+    ref = {"@type": e["@type"], "@id": e["@id"], "name": e["name"], "url": e["url"]}
+    if e.get("sameAs"):
+        ref["sameAs"] = e["sameAs"]
+    return ref
+
+
+def company_by_slug(slug):
+    return next((x for x in HUBS if x["type"] == "company" and x["_slug"] == slug), None)
+
+
+LINKED = {}  # article id -> hub URLs autolinked in its body, in order (filled by autolink)
+
+
+def article_entities(a, max_mentions=10):
+    """(about, mentions) for NewsArticle JSON-LD: tagged state/country/company hubs, then other hubs linked in the body."""
+    tagged = [h for h in article_hubs(a) if h["type"] in ENTITY_TYPES]
+    about = [entity_ref(h) for h in tagged]
+    seen = {h["_url"] for h in article_hubs(a)}
+    by_url = {h["_url"]: h for h in HUBS}
+    mentions = []
+    linked = [by_url[u] for u in LINKED.get(a.get("id"), []) if u in by_url]
+    linked.sort(key=lambda h: h["type"] not in ENTITY_TYPES)  # places and companies before glossary terms
+    for h in linked:
+        u = h["_url"]
+        if u in seen or len(mentions) >= max_mentions:
+            continue
+        seen.add(u)
+        r = entity_ref(h)
+        if r:
+            mentions.append(r)
+    return about, mentions
+
+
 # ---------- article integration ----------
 
 def article_hubs(a):
@@ -295,7 +384,9 @@ def glossary_link(html_paras, limit=3):
 def autolink(html_paras, a, limit=10):
     """Link the first in-body mention of each hub: tagged hubs first, then any other state, country or company
     named in the story, then a few glossary terms. Works on escaped HTML <p> blocks."""
-    return glossary_link(_autolink(html_paras, a, limit))
+    out = glossary_link(_autolink(html_paras, a, limit))
+    LINKED[a.get("id")] = list(dict.fromkeys(re.findall(r'<a class="hub-link" href="([^"]+)"', "".join(out))))
+    return out
 
 
 def _autolink(html_paras, a, limit):
@@ -607,9 +698,7 @@ def jurisdiction_page(h, arts):
     {disclaimer(h)}
   </div>
 </article>"""
-    place = {"@type": "State" if is_state else "Country", "name": name}
-    if is_state:
-        place["containedInPlace"] = {"@type": "Country", "name": "United States"}
+    place = entity(h)
     ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "headline": f"{name} cannabis laws",
           "description": desc, "url": SITE + h["_url"], "dateModified": verified(h), "about": place,
           "publisher": T.PUBLISHER, "isAccessibleForFree": True,
@@ -1027,12 +1116,9 @@ def company_page(h, arts):
     <p class="hub-note">Last verified {fmt_date(verified(h))}. Company profile for news and reference only; not investment advice. Figures come from company filings and releases linked above.</p>
   </div>
 </article>"""
-    org = {"@context": "https://schema.org", "@type": "Corporation", "name": h["name"], "alternateName": name, "url": h.get("website"),
-           "foundingDate": str(h.get("founded", "")) or None, "address": h.get("hq"),
-           "tickerSymbol": " ".join(f'{t.get("exchange")}: {t.get("symbol")}' for t in h.get("tickers") or []) or None}
-    org = {k: v for k, v in org.items() if v}
-    page_ld = {"@context": "https://schema.org", "@type": "ProfilePage", "name": title, "description": desc, "url": SITE + h["_url"],
-               "dateModified": verified(h), "publisher": T.PUBLISHER, "mainEntity": {k: v for k, v in org.items() if k != "@context"}}
+    # WebPage, not ProfilePage: Google scopes ProfilePage to creators' own profiles, not third-party company profiles
+    page_ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc, "url": SITE + h["_url"],
+               "dateModified": verified(h), "publisher": T.PUBLISHER, "mainEntity": entity(h, full=True)}
     extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (page_ld, crumbs_ld(crumbs), f_ld) if x)
     T.ctx["write"](h["_url"].strip("/") + "/index.html",
                    T.page(title, body, desc=desc, path=h["_url"], extra_head=extra, active="Companies",

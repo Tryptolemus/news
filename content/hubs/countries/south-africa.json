@@ -2,6 +2,7 @@
   "id": "country/south-africa",
   "type": "country",
   "name": "South Africa",
+  "wikidata": "Q258",
   "tags": ["South Africa"],
   "legal": {"adult_use": "legal_no_sales", "medical": "limited", "decriminalized": "yes"},
   "headline_status": "Adult private use, possession and growing of cannabis are constitutionally protected in South Africa, but buying and selling remain illegal and the 2024 law setting limits is not yet in force.",

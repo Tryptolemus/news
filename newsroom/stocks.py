@@ -166,6 +166,17 @@ def profiles():
 PROFILES, ALL_COMPANIES = profiles()
 
 
+def company_entity(r):
+    """The company this stock page is about: the same node (shared @id) as its /company/ profile, never a second Corporation."""
+    if r["sym"] == "MSOS":
+        return {"@type": "FinancialProduct", "name": r["full"], "category": "Exchange-traded fund"}
+    import hubs
+    h = hubs.company_by_slug(PROFILES[r["sym"]][0]) if r["sym"] in PROFILES else None
+    if h:
+        return hubs.entity(h)
+    return {"@type": "Corporation", "name": r["full"], "tickerSymbol": r["sym"]}
+
+
 def profile_link(sym, cls="stk-profile"):
     p = PROFILES.get(sym)
     if not p:
@@ -271,8 +282,7 @@ def build_stocks(arts, m):
 </article>"""
         ld = {"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc, "url": T.SITE + path,
               "dateModified": r["date"], "isPartOf": {"@id": T.SITE + "/#website"}, "publisher": {"@id": T.SITE + "/#org"},
-              "about": {"@type": "Corporation", "name": r["full"], "tickerSymbol": r["sym"]} if r["sym"] != "MSOS"
-              else {"@type": "FinancialProduct", "name": r["full"], "category": "Exchange-traded fund"}}
+              "about": company_entity(r)}
         crumbs = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": T.NAME, "item": T.SITE + "/"},
             {"@type": "ListItem", "position": 2, "name": "Cannabis stocks", "item": T.SITE + "/stocks/"},

@@ -2,6 +2,7 @@
   "id": "us/illinois",
   "type": "us_state",
   "name": "Illinois",
+  "wikidata": "Q1204",
   "abbr": "IL",
   "tags": ["Illinois"],
   "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},

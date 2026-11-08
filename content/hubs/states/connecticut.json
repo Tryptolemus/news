@@ -2,6 +2,7 @@
   "id": "us/connecticut",
   "type": "us_state",
   "name": "Connecticut",
+  "wikidata": "Q779",
   "abbr": "CT",
   "tags": ["Connecticut"],
   "legal": {

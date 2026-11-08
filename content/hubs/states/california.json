@@ -2,6 +2,7 @@
   "id": "us/california",
   "type": "us_state",
   "name": "California",
+  "wikidata": "Q99",
   "abbr": "CA",
   "tags": ["California"],
   "legal": {

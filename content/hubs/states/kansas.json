@@ -2,6 +2,7 @@
   "id": "us/kansas",
   "type": "us_state",
   "name": "Kansas",
+  "wikidata": "Q1558",
   "abbr": "KS",
   "tags": ["Kansas"],
   "legal": {"adult_use": "illegal", "medical": "cbd_only", "decriminalized": "no"},

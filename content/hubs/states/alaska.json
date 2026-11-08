@@ -2,6 +2,7 @@
   "id": "us/alaska",
   "type": "us_state",
   "name": "Alaska",
+  "wikidata": "Q797",
   "abbr": "AK",
   "tags": [
     "Alaska"

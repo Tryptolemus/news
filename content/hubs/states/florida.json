@@ -2,6 +2,7 @@
   "id": "us/florida",
   "type": "us_state",
   "name": "Florida",
+  "wikidata": "Q812",
   "abbr": "FL",
   "tags": ["Florida"],
   "legal": {

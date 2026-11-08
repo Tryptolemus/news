@@ -2,6 +2,7 @@
   "id": "us/district-of-columbia",
   "type": "us_state",
   "name": "District of Columbia",
+  "wikidata": "Q61",
   "abbr": "DC",
   "tags": ["District of Columbia"],
   "legal": {

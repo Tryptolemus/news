@@ -2,6 +2,7 @@
   "id": "us/texas",
   "type": "us_state",
   "name": "Texas",
+  "wikidata": "Q1439",
   "abbr": "TX",
   "tags": ["Texas"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},

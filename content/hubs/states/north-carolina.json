@@ -2,6 +2,7 @@
   "id": "us/north-carolina",
   "type": "us_state",
   "name": "North Carolina",
+  "wikidata": "Q1454",
   "abbr": "NC",
   "tags": ["North Carolina"],
   "legal": {

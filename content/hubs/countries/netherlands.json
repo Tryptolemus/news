@@ -2,6 +2,7 @@
   "id": "country/netherlands",
   "type": "country",
   "name": "Netherlands",
+  "wikidata": "Q55",
   "tags": ["Netherlands"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Cannabis remains technically illegal in the Netherlands, but small-scale possession and sales in licensed coffee shops are tolerated for adults 18+.",

@@ -2,6 +2,7 @@
   "id": "country/colombia",
   "type": "country",
   "name": "Colombia",
+  "wikidata": "Q739",
   "tags": ["Colombia"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Colombia allows adults to carry a personal dose of up to 20 g and grow up to 20 plants, and has a licensed medical cannabis industry, but recreational sales are illegal.",

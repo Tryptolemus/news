@@ -2,6 +2,7 @@
   "id": "us/ohio",
   "type": "us_state",
   "name": "Ohio",
+  "wikidata": "Q1397",
   "abbr": "OH",
   "tags": ["Ohio"],
   "legal": {

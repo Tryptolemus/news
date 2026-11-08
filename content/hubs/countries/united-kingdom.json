@@ -2,6 +2,7 @@
   "id": "country/united-kingdom",
   "type": "country",
   "name": "United Kingdom",
+  "wikidata": "Q145",
   "tags": ["United Kingdom"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
   "headline_status": "Recreational cannabis is illegal in the UK, but specialist doctors have been able to prescribe cannabis-based medicines since November 2018.",

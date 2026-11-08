@@ -2,6 +2,7 @@
   "id": "country/luxembourg",
   "type": "country",
   "name": "Luxembourg",
+  "wikidata": "Q32",
   "tags": ["Luxembourg"],
   "legal": {"adult_use": "legal_no_sales", "medical": "limited", "decriminalized": "partial"},
   "headline_status": "Adults in Luxembourg may grow up to four plants and use cannabis at home, but public use is banned and there are no legal sales.",

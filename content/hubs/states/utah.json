@@ -2,6 +2,7 @@
   "id": "us/utah",
   "type": "us_state",
   "name": "Utah",
+  "wikidata": "Q829",
   "abbr": "UT",
   "tags": [
     "Utah"

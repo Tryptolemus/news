@@ -2,6 +2,7 @@
   "id": "country/mexico",
   "type": "country",
   "name": "Mexico",
+  "wikidata": "Q96",
   "tags": ["Mexico"],
   "legal": {"adult_use": "legal_no_sales", "medical": "limited", "decriminalized": "partial"},
   "headline_status": "Recreational cannabis use is constitutionally protected in Mexico and possession of up to 5 g is not a crime, but there is no legal market and selling remains a serious offence.",

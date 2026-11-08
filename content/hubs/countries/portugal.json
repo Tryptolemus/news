@@ -2,6 +2,7 @@
   "id": "country/portugal",
   "type": "country",
   "name": "Portugal",
+  "wikidata": "Q45",
   "tags": ["Portugal"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Cannabis is not legal in Portugal, but possessing a personal-use amount has been decriminalised since 2001, and medical cannabis is sold in pharmacies.",

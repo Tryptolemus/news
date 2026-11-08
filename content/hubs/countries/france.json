@@ -2,6 +2,7 @@
   "id": "country/france",
   "type": "country",
   "name": "France",
+  "wikidata": "Q142",
   "tags": ["France"],
   "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "no"},
   "headline_status": "Recreational cannabis is illegal in France, and medical cannabis is still limited to patients left over from a state trial while a permanent framework is prepared.",

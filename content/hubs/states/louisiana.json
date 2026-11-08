@@ -2,6 +2,7 @@
   "id": "us/louisiana",
   "type": "us_state",
   "name": "Louisiana",
+  "wikidata": "Q1588",
   "abbr": "LA",
   "tags": ["Louisiana"],
   "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "partial"},

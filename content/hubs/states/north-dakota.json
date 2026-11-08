@@ -2,6 +2,7 @@
   "id": "us/north-dakota",
   "type": "us_state",
   "name": "North Dakota",
+  "wikidata": "Q1207",
   "abbr": "ND",
   "tags": ["North Dakota"],
   "legal": {
