@@ -5,6 +5,11 @@ name: Photo test (design board)
 #   {"style": "...", "items": [{"name": "dea-A", "prompt": "..."}, ...]}
 on:
   workflow_dispatch:
+    inputs:
+      wait_for_reset:
+        description: "Wait until just after 00:00 UTC (Cloudflare's free daily allowance resets) before rendering"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -12,9 +17,15 @@ permissions:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
+      - name: Wait for the free allowance to reset
+        if: ${{ inputs.wait_for_reset }}
+        run: |
+          now=$(date -u +%s); target=$(date -u -d 'tomorrow 00:05' +%s)
+          wait=$(( target - now )); echo "waiting ${wait}s until $(date -u -d @$target)"
+          if [ $wait -gt 0 ] && [ $wait -lt 17000 ]; then sleep $wait; fi
       - name: Render prompts
         env:
           CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
