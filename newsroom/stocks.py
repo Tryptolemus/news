@@ -133,7 +133,7 @@ def stats(r):
 
 def table(rows, current=None):
     def prof(sym):
-        return f' <a class="tk-prof" href="/company/{PROFILES[sym][0]}/">Profile</a>' if sym in PROFILES else ""
+        return f' <a class="tk-prof" href="/company/{PROFILES[sym][0]}/">{escape(PROFILES[sym][1])} profile</a>' if sym in PROFILES else ""
     body = "".join(
         f'<tr{" aria-current=true" if r["sym"] == current else ""}><th scope="row"><a href="/stocks/{r["sym"].lower()}/">{escape(r["name"])}</a>'
         f'<span class="tk">{r["sym"]}</span>{prof(r["sym"])}</th><td>{money(r["price"])}</td><td class="{cls(r["chg"])}">{pct(r["chg"])}</td>'
@@ -231,8 +231,9 @@ def build_stocks(arts, m):
         cov = coverage(r, arts)
         if cov:
             cov_html = (f'<section class="block"><h2 class="sec-label">MetaFlora News on {escape(r["name"])}</h2>'
-                        f'<ol class="latest-list">{"".join(T.list_item(a) for a in cov[:12])}</ol>'
-                        f'<p class="more-link"><a href="/topic/{T.slug(r["tags"][0])}/">All {escape(r["tags"][0])} coverage</a></p></section>')
+                        f'<ol class="latest-list">{"".join(T.list_item(a) for a in cov[:12])}</ol>' +
+                        (f'<p class="more-link"><a href="/company/{PROFILES[r["sym"]][0]}/">{escape(PROFILES[r["sym"]][1])}: profile and all coverage</a></p></section>'
+                         if r["sym"] in PROFILES else f'<p class="more-link"><a href="/topic/{T.slug(r["tags"][0])}/">All {escape(r["tags"][0])} coverage</a></p></section>'))
         else:
             mk = [a for a in arts if a["cat"] == "Markets"][:6] or arts[:6]
             cov_html = (f'<section class="block"><h2 class="sec-label">Latest cannabis markets news</h2>'

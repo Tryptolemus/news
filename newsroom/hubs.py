@@ -150,9 +150,14 @@ def verified(h):
 
 
 def clip(text, n=155):
+    """Shorten to n chars: at the last full sentence if one fits in most of the space, else at a word boundary."""
     text = " ".join(str(text).split())
     if len(text) <= n:
         return text
+    head = text[:n]
+    cut = max(head.rfind(". "), head.rfind("? "), head.rfind("! "))
+    if cut >= n * 0.55:
+        return head[:cut + 1]
     return text[: n - 1].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
 
 
@@ -200,9 +205,84 @@ def article_hubs(a):
     return out
 
 
-def autolink(html_paras, a, limit=8):
-    """Link the first in-body mention of each hub the story is tagged with. Works on escaped HTML <p> blocks."""
-    hubs = article_hubs(a)
+GLOSSARY_SKIP = {"marijuana", "hemp", "thc", "flower", "dispensary", "legalization", "medical cannabis", "hybrid", "edibles",
+                 "cannabinoids", "indica", "sativa", "concentrate", "cultivator", "processor", "adult-use", "terpenes"}
+
+
+AMBIGUOUS = {"Washington", "Georgia", "Jersey"}
+
+
+def _names(h, tagged):
+    """Names to look for: tagged hubs match any of their tags; others only their own name (fewer false hits)."""
+    if tagged:
+        return sorted({h["name"], *h.get("tags", [])}, key=len, reverse=True)
+    if h["name"] in AMBIGUOUS:
+        return []  # "Washington" usually means the federal government; link it only when the story is tagged with it
+    names = {h["name"]}
+    if h["type"] == "company" and h.get("short_name"):
+        names.add(h["short_name"])
+    return sorted(names, key=len, reverse=True)
+
+
+def link_targets(a):
+    """(hub, names) pairs for autolink: the story's tagged hubs, then every other complete state, country and company."""
+    tagged = article_hubs(a)
+    seen = {x["_url"] for x in tagged}
+    out = [(x, _names(x, True)) for x in tagged]
+    for x in HUBS:
+        if x["type"] in ("us_state", "country", "company") and complete(x) and x["_url"] not in seen:
+            seen.add(x["_url"])
+            out.append((x, _names(x, False)))
+    return out
+
+
+def glossary_link(html_paras, limit=3):
+    """Link the first mention of up to `limit` specific glossary terms (generic words like 'hemp' are skipped)."""
+    terms = []
+    for g in HUBS:
+        if g["type"] != "glossary" or not complete(g) or g["name"].lower() in GLOSSARY_SKIP:
+            continue
+        names = {g["name"]}
+        m = re.match(r"^(.*?) \(([^)]+)\)$", g["name"])
+        if m:
+            names = {m.group(1), m.group(2)}
+        terms.append((g, sorted(names, key=len, reverse=True)))
+    already = {x.lower() for x in re.findall(r'<a class="hub-link" href="[^"]+">([^<]+)</a>', "".join(html_paras))}
+    terms = [(g, [n for n in names if n.lower() not in already]) for g, names in terms]
+    done, out = set(), []
+    for block in html_paras:
+        if not block.startswith("<p>") or len(done) >= limit:
+            out.append(block)
+            continue
+        for g, names in terms:
+            if g["_url"] in done or len(done) >= limit:
+                continue
+            for name in names:
+                flags = 0 if name.isupper() else re.I
+                pat = re.compile(r"(?<![\w>/-])(" + re.escape(escape(name)) + r")(?![\w<-])", flags)
+                hit = None
+                for cand in pat.finditer(block):
+                    tail = block[:cand.start()]
+                    if "<a " in tail[-300:].split("</a>")[-1]:
+                        continue
+                    hit = cand
+                    break
+                if hit:
+                    block = block[:hit.start()] + f'<a class="hub-link" href="{g["_url"]}">{hit.group(1)}</a>' + block[hit.end():]
+                    done.add(g["_url"])
+                    break
+        out.append(block)
+    return out
+
+
+def autolink(html_paras, a, limit=10):
+    """Link the first in-body mention of each hub: tagged hubs first, then any other state, country or company
+    named in the story, then a few glossary terms. Works on escaped HTML <p> blocks."""
+    return glossary_link(_autolink(html_paras, a, limit))
+
+
+def _autolink(html_paras, a, limit):
+    hubs = link_targets(a)
     if not hubs:
         return html_paras
     done, n = set(), 0
@@ -211,10 +291,10 @@ def autolink(html_paras, a, limit=8):
         if not block.startswith("<p>") or n >= limit:
             out.append(block)
             continue
-        for h in hubs:
+        for h, names in hubs:
             if h["_url"] in done or n >= limit:
                 continue
-            for name in sorted({h["name"], *h.get("tags", [])}, key=len, reverse=True):
+            for name in names:
                 pat = re.compile(r"(?<![\w>/-])(" + re.escape(escape(name)) + r")(?![\w<-])")
                 m = None
                 for cand in pat.finditer(block):
@@ -224,7 +304,9 @@ def autolink(html_paras, a, limit=8):
                         continue
                     if re.match(r"^ [A-Z][a-z]", after):
                         continue
-                    if "<a " in before[-200:].split("</a>")[-1]:
+                    if "<a " in before[-300:].split("</a>")[-1]:
+                        continue
+                    if h["name"] == "Washington" and re.match(r"^,? ?D\.?C", after):
                         continue
                     m = cand
                     break
@@ -252,9 +334,18 @@ def covered_box(a):
 
 # ---------- page pieces ----------
 
+def _mentions(a, name):
+    body = a.get("body") or ""
+    text = " ".join(body) if isinstance(body, list) else str(body)
+    text = a.get("headline", "") + " " + text
+    return re.search(r"(?<![\w-])" + re.escape(name) + r"(?![\w-])", text) is not None
+
+
 def coverage(h, arts, n=8):
     tags = {t.lower() for t in {h["name"], *h.get("tags", [])}}
-    items = [a for a in arts if tags & {t.lower() for t in a.get("tags", [])}]
+    by_name = h["type"] in ("us_state", "country", "company")
+    items = [a for a in arts if tags & {t.lower() for t in a.get("tags", [])}
+             or (by_name and (_mentions(a, h["name"]) or (h.get("short_name") and _mentions(a, h["short_name"]))))]
     items.sort(key=lambda a: a["_dt"], reverse=True)
     return items[:n]
 
@@ -821,7 +912,9 @@ def build(arts):
 
 # ---------- companies ----------
 
-STOCK_PAGES = {"MSOS", "CURLF", "GTBIF", "VRNO", "TLRY", "CGC", "SNDL", "OGI", "ACB"}
+import market as _market
+
+STOCK_PAGES = {t[0] for t in _market.TICKERS}
 
 
 def companies():
