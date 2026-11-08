@@ -17,7 +17,12 @@
     "possession_limit": {"value": "No legal possession amount for adults under state law.", "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html", "as_of": "2026-11-07"},
     "penalties": {"value": "Up to 0.5 oz is a Class 3 misdemeanor with any jail sentence suspended; over 0.5 oz is a Class 1 misdemeanor; over 1.5 oz (or over 3/20 oz of hashish) is a Class I felony.", "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html", "as_of": "2026-11-07"},
     "retail_sales": {"value": "No state-licensed sales. The Eastern Band of Cherokee Indians has sold adult-use cannabis to adults 21+ on its land since September 7, 2024.", "source": "https://mpp.org/nc", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Intoxicating hemp-derived THC products are sold with no clear state rules on potency, testing or labeling; the governor's cannabis council called this a dangerous policy gap in April 2026.", "source": "https://www.cannabisbusinesstimes.com/us-states/north-carolina/news/15837705/nc-adults-back-cannabis-legalization-as-state-tees-up-2027-reform", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Intoxicating hemp-derived THC products are sold with no clear state rules on potency, testing or labeling; the governor's cannabis council called this a dangerous policy gap in April 2026.", "source": "https://www.cannabisbusinesstimes.com/us-states/north-carolina/news/15837705/nc-adults-back-cannabis-legalization-as-state-tees-up-2027-reform", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "No state-legal purchase. The Eastern Band of Cherokee Indians has sold adult-use cannabis to adults 21+ on its tribal land since September 2024; state law still bans possession elsewhere.", "source": "https://mpp.org/nc", "as_of": "2026-11-07"},
+    "public_use": {"value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.", "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html", "as_of": "2026-11-07"},
+    "tourists": {"value": "Only on Cherokee tribal land, where the Eastern Band sells to adults 21+. Elsewhere in North Carolina there are no legal sales, out-of-state medical cards are not recognized, and possession is a crime.", "source": "https://mpp.org/nc", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; manufacturing, including cultivating, marijuana is a felony under state law.", "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_90/GS_90-95.html", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: North Carolina has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2014", "event": "HB 1220 allows low-THC hemp extract for intractable epilepsy", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
@@ -43,6 +48,9 @@
     {"name": "NCSL, State Medical Cannabis Laws", "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
     {"name": "Marijuana Policy Project, North Carolina", "url": "https://mpp.org/nc"},
     {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/us-states/north-carolina/news/15837705/nc-adults-back-cannabis-legalization-as-state-tees-up-2027-reform"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

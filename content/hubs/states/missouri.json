@@ -58,6 +58,16 @@
       "value": "Division of Cannabis Regulation (DCR), part of the Department of Health and Senior Services.",
       "source": "https://health.mo.gov/business-professionals/cannabis-regulation",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Missouri has no THC per se or zero-tolerance law, so a cannabis DWI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Adults 21+ may buy up to 3 ounces per transaction. Visitors with an out-of-state medical card are protected from arrest for possessing up to Missouri's patient limits.",
+      "source": "https://health.mo.gov/safety/cannabis/faqs-patient.php",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -134,6 +144,9 @@
       "name": "Marijuana Policy Project, Missouri",
       "url": "https://www.mpp.org/missouri"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

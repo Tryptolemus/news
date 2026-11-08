@@ -61,6 +61,16 @@
       "value": "Office of the Marijuana Commissioner (OMC), which now oversees both adult-use and medical programs.",
       "source": "https://omc.delaware.gov/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Zero tolerance: Delaware is among the states that ban driving with any amount of THC or its metabolites in the body.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Adults 21+ may buy up to the personal-use quantity (1 ounce of flower, 12 grams of concentrate or 750 mg of THC in products). Out-of-state medical patients can register at a dispensary for a visiting-patient card; products may not leave Delaware.",
+      "source": "https://omc.delaware.gov/faq/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -85,6 +95,9 @@
     {"name": "Delaware News - strong start to recreational sales (Aug. 2025)", "url": "https://news.delaware.gov/2025/08/06/delaware-reports-strong-start-to-recreational-marijuana-sales/"},
     {"name": "Marijuana Policy Project - Delaware", "url": "https://www.mpp.org/states/delaware/"},
     {"name": "Spotlight Delaware - recreational sales explained", "url": "https://spotlightdelaware.org/2025/07/30/delaware-explained-recreational-marijuana-sales/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

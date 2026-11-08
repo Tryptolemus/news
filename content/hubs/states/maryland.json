@@ -16,7 +16,9 @@
     "retail_sales": {"value": "Licensed dispensaries have sold adult-use cannabis since July 1, 2023, and must offer patient-only hours or lines for medical patients.", "source": "https://www.mpp.org/states/maryland/", "as_of": "2026-11-07"},
     "taxes": {"value": "12% sales tax on adult-use cannabis since fiscal year 2026 (up from 9%), under budget bill HB 352 (2025).", "source": "https://norml.org/news/2025/04/10/maryland-lawmakers-approve-marijuana-sales-tax-hike/", "as_of": "2026-11-07"},
     "medical_program": {"value": "Patients 18 and older can register and keep buying from licensed dispensaries. Maryland does not honor out-of-state medical cards.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
-    "regulator": {"value": "Maryland Cannabis Administration (MCA). The Alcohol, Tobacco, and Cannabis Commission (ATCC) handles field enforcement.", "source": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf", "as_of": "2026-11-07"}
+    "regulator": {"value": "Maryland Cannabis Administration (MCA). The Alcohol, Tobacco, and Cannabis Commission (ATCC) handles field enforcement.", "source": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: there is no THC per se limit, and officers make cannabis DUI arrests based on observed impairment and field sobriety tests. Using cannabis in a vehicle, by the driver or a passenger, is illegal.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Out-of-state adults 21+ with a government-issued photo ID may buy adult-use cannabis at licensed dispensaries, up to the personal-use amount. Maryland does not accept out-of-state medical cards.", "source": "https://cannabis.maryland.gov/Pages/cannabisfaq.aspx", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2022-11-08", "event": "Voters approve Question 4 legalizing adult-use cannabis (67.2%)", "source": "https://www.mpp.org/states/maryland/"},
@@ -38,6 +40,9 @@
     {"name": "Maryland Cannabis Administration – 2026 Legislative Updates", "url": "https://cannabis.maryland.gov/Documents/2026_OP%26GA_Summer_Series/MCA%202026%20Legislative%20Updates%20PPT_Draft_6.17.26_DG.pptx.pdf"},
     {"name": "Marijuana Policy Project – Maryland", "url": "https://www.mpp.org/states/maryland/"},
     {"name": "NORML", "url": "https://norml.org/news/2025/04/10/maryland-lawmakers-approve-marijuana-sales-tax-hike/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

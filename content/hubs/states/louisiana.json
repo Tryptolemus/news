@@ -14,7 +14,12 @@
     "regulator": {"value": "Louisiana Department of Health, for both the medical program and consumable hemp registration.", "source": "https://www.americanbar.org/groups/tort_trial_insurance_practice/resources/brief/2026-spring/rebellion-resolution-where-louisiana-hemp-law-stands-now-whats-next", "as_of": "2026-11-07"},
     "penalties": {"value": "Since 2021, possession of up to 14 grams is a ticketable offense with a fine of up to $100. Larger amounts remain criminal.", "source": "https://www.mpp.org/states/louisiana", "as_of": "2026-11-07"},
     "public_use": {"value": "Public smoking is ticketable under the Smoke-Free Air Act. Under HB 568 (signed May 22, 2026), using cannabis within 2,000 feet of a school or university, or on a school bus, carries up to 1 year in jail and a $1,000 fine.", "source": "https://www.mpp.org/states/louisiana", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Since January 1, 2025, hemp edibles are capped at 5 mg THC per serving and 40 mg per package, drinks at one 5 mg serving per container, and tinctures at 30 mg. Inhalable hemp and hemp flower are banned, sales at fuel-selling convenience stores are banned, and buyers must be 21+.", "source": "https://lailluminator.com/2024/06/03/pulling-weeds-legislators-make-big-changes-to-louisianas-cannabis-industries/", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Since January 1, 2025, hemp edibles are capped at 5 mg THC per serving and 40 mg per package, drinks at one 5 mg serving per container, and tinctures at 30 mg. Inhalable hemp and hemp flower are banned, sales at fuel-selling convenience stores are banned, and buyers must be 21+.", "source": "https://lailluminator.com/2024/06/03/pulling-weeds-legislators-make-big-changes-to-louisianas-cannabis-industries/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount for people without a medical recommendation. Pharmacies may sell a patient no more than 2.5 ounces (71 grams) of raw marijuana every 14 days.", "source": "https://legis.la.gov/legis/Law.aspx?d=96986", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only: a clinician's recommendation is required. Raw flower may not be dispensed to anyone under 21 unless the physician specifically recommends it.", "source": "https://www.mpp.org/states/louisiana/overview-of-louisianas-medical-cannabis-law/", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Louisiana has no THC per se or zero-tolerance law, so a cannabis DWI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "No adult-use sales. Medical marijuana requires a recommendation from a Louisiana-licensed physician, nurse practitioner or medical psychologist (telehealth is allowed); the law makes no provision for out-of-state cards.", "source": "https://legis.la.gov/legis/Law.aspx?d=96986", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; only state-licensed facilities may cultivate therapeutic marijuana.", "source": "https://legis.la.gov/legis/Law.aspx?d=96986", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "1978", "event": "Louisiana first enacts a medical cannabis law", "source": "https://www.mpp.org/states/louisiana"},
@@ -35,6 +40,9 @@
     {"name": "Marijuana Policy Project – Louisiana", "url": "https://www.mpp.org/states/louisiana"},
     {"name": "Louisiana Illuminator", "url": "https://lailluminator.com/2024/06/03/pulling-weeds-legislators-make-big-changes-to-louisianas-cannabis-industries/"},
     {"name": "American Bar Association – The Brief", "url": "https://www.americanbar.org/groups/tort_trial_insurance_practice/resources/brief/2026-spring/rebellion-resolution-where-louisiana-hemp-law-stands-now-whats-next"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

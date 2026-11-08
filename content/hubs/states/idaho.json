@@ -13,7 +13,11 @@
     "home_grow": {"value": "Not allowed. Growing any amount is a felony, with mandatory minimum prison terms starting at 25 plants or 1 pound.", "source": "https://norml.org/laws/idaho-penalties/", "as_of": "2026-11-07"},
     "retail_sales": {"value": "None. Idaho licenses no cannabis businesses of any kind.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"},
     "medical_program": {"value": "None. A 2026 medical cannabis initiative fell short of the ballot with 58,024 verified signatures against 70,725 required.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Idaho was the last state to legalize hemp production and allows no THC at all in hemp products.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Idaho was the last state to legalize hemp production and allows no THC at all in hemp products.", "source": "https://www.mpp.org/states/idaho/?state=ID", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "No legal purchase of marijuana for any age; there are no licensed adult-use or medical marijuana sales.", "source": "https://norml.org/laws/idaho-penalties/", "as_of": "2026-11-07"},
+    "public_use": {"value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.", "source": "https://norml.org/laws/idaho-penalties/", "as_of": "2026-11-07"},
+    "tourists": {"value": "No. There are no legal marijuana sales, out-of-state medical cards are not recognized, and visitors face the same possession penalties as residents.", "source": "https://norml.org/laws/idaho-penalties/", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Idaho has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2025-03", "event": "Legislature refers HJR 4, an amendment to bar citizen-initiated drug legalization, to the 2026 ballot", "source": "https://idahocapitalsun.com/2025/03/11/idaho-senate-signs-off-on-proposed-anti-marijuana-constitutional-amendment/"},
@@ -33,6 +37,9 @@
     {"name": "Marijuana Policy Project – Idaho", "url": "https://www.mpp.org/states/idaho/?state=ID"},
     {"name": "NORML – Idaho penalties", "url": "https://norml.org/laws/idaho-penalties/"},
     {"name": "Idaho Capital Sun", "url": "https://idahocapitalsun.com/2025/03/11/idaho-senate-signs-off-on-proposed-anti-marijuana-constitutional-amendment/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

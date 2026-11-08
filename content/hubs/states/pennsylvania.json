@@ -18,7 +18,12 @@
     "possession_limit": {"value": "No legal possession amount for adults without a medical card.", "source": "https://norml.org/laws/pennsylvania-penalties-2/", "as_of": "2026-11-07"},
     "penalties": {"value": "30 g or less of marijuana (8 g of hashish) is a misdemeanor punishable by up to 30 days in jail and a $500 fine; larger amounts carry heavier misdemeanor penalties. First offenders may qualify for conditional release.", "source": "https://norml.org/laws/pennsylvania-penalties-2/", "as_of": "2026-11-07"},
     "regulator": {"value": "Office of Medical Marijuana, Pennsylvania Department of Health.", "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Intoxicating hemp products are unregulated at the state level, according to the Shapiro administration; a bill to regulate them (SB 49) failed in the Senate in June 2026.", "source": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Intoxicating hemp products are unregulated at the state level, according to the Shapiro administration; a bill to regulate them (SB 49) failed in the Senate in June 2026.", "source": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only. Patients under 18 get medical marijuana through a registered caregiver, who generally must be 21 or older; patients and caregivers must be Pennsylvania residents.", "source": "https://www.pa.gov/en/agencies/health/programs/medical-marijuana/medical-marijuana-patients.html", "as_of": "2026-11-07"},
+    "public_use": {"value": "There is no legal recreational use anywhere. Registered patients may vaporize dried leaf but are still prohibited from smoking medical marijuana.", "source": "https://norml.org/laws/medical-laws/pennsylvania-medical-marijuana-law/", "as_of": "2026-11-07"},
+    "dui": {"value": "Zero tolerance: Pennsylvania is among the states that ban driving with any amount of THC or its metabolites in the body.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "No. Only Pennsylvania residents with a state driver's license or ID can register as patients, so out-of-state medical cards cannot be used to buy, and there are no adult-use sales.", "source": "https://www.pa.gov/en/agencies/health/programs/medical-marijuana/medical-marijuana-patients.html", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not permitted, including for registered patients.", "source": "https://norml.org/laws/medical-laws/pennsylvania-medical-marijuana-law/", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2016-04-17", "event": "Medical Marijuana Act signed into law", "source": "https://www.pa.gov/agencies/health/programs/medical-marijuana"},
@@ -41,6 +46,9 @@
     {"name": "Marijuana Policy Project, Pennsylvania", "url": "https://www.mpp.org/states/pennsylvania"},
     {"name": "NORML, Pennsylvania penalties", "url": "https://norml.org/laws/pennsylvania-penalties-2/"},
     {"name": "PhillyVoice", "url": "https://www.phillyvoice.com/pennsylvania-marijuana-hemp-senate-democrats-laughlin-shapiro/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

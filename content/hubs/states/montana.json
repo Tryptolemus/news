@@ -63,6 +63,16 @@
       "value": "Synthetic THC products such as delta-8 were banned by the 2025 Legislature.",
       "source": "https://www.mpp.org/montana",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Per se limit: driving with 5 ng/ml or more of active THC in the blood (inactive metabolites excluded) is a DUI. For drivers under 21, any amount of active THC is a DUI.",
+      "source": "https://archive.legmt.gov/bills/MCA/title_0610/chapter_0080/part_0100/section_0020/0610-0080-0100-0020.html",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Licensed adult-use dispensaries sell to anyone 21+, checking ID at every transaction rather than residency; adults may possess up to 1 ounce.",
+      "source": "https://revenue.mt.gov/cannabis/education/legal-is-legit",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -123,6 +133,9 @@
       "name": "Marijuana Policy Project, Montana",
       "url": "https://www.mpp.org/montana"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

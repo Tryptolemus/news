@@ -22,7 +22,9 @@
     "taxes": {"value": "Cannabis excise tax rose from 12% to 13% on July 1, 2025, with 1-point annual increases scheduled until it reaches 18% in July 2030; gross receipts tax also applies. Medical sales are exempt from the excise tax.", "source": "https://www.tax.newmexico.gov/wp-content/uploads/2025/06/2025.06.04_New-tax-and-fee-changes-beginning-July-1.pdf", "as_of": "2026-11-07"},
     "medical_program": {"value": "Patients with a listed qualifying condition (about 30, including cancer, epilepsy, PTSD and severe chronic pain) can enroll; the Department of Health runs patient registration and patients buy tax-free.", "source": "https://norml.org/laws/new-mexico-medical-marijuana-law", "as_of": "2026-11-07"},
     "regulator": {"value": "Cannabis Control Division of the New Mexico Regulation and Licensing Department (business licensing for adult-use and medical).", "source": "https://www.rld.nm.gov/?p=39409", "as_of": "2026-11-07"},
-    "penalties": {"value": "Public possession of more than 2 oz up to 8 oz is a misdemeanor; 8 oz or more is a fourth-degree felony.", "source": "https://norml.org/laws/new-mexico-laws-and-penalties", "as_of": "2026-11-07"}
+    "penalties": {"value": "Public possession of more than 2 oz up to 8 oz is a misdemeanor; 8 oz or more is a fourth-degree felony.", "source": "https://norml.org/laws/new-mexico-laws-and-penalties", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: New Mexico has no THC per se or zero-tolerance law, so a cannabis DWI requires evidence of impairment. Using cannabis while driving is illegal.", "source": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Adult-use sales are open to anyone 21+ with valid ID, up to 2 ounces of cannabis, 16 grams of concentrate and 800 mg of edibles at a time. Out-of-state patients can enroll as reciprocal participants for medical purchases.", "source": "https://www.rld.nm.gov/cannabis/cannabis-in-new-mexico/faqs/", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2007", "event": "Lynn and Erin Compassionate Use Act creates the medical cannabis program", "source": "https://norml.org/laws/new-mexico-medical-marijuana-law"},
@@ -47,6 +49,9 @@
     {"name": "NORML, New Mexico laws and penalties", "url": "https://norml.org/laws/new-mexico-laws-and-penalties"},
     {"name": "NORML, New Mexico medical law", "url": "https://norml.org/laws/new-mexico-medical-marijuana-law"},
     {"name": "Cannabis Business Times", "url": "https://www.cannabisbusinesstimes.com/article/new-mexico-adult-use-cannabis-april-sales/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

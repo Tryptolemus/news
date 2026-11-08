@@ -21,7 +21,9 @@
     "retail_sales": {"value": "Adult-use sales began August 6, 2024 at existing medical dispensaries; SB 56 caps dispensaries at 400 statewide.", "source": "https://www.mpp.org/states/ohio", "as_of": "2026-11-07"},
     "taxes": {"value": "10% adult-use excise tax plus state sales tax (5.75%) and local sales tax (0 to 2.25%).", "source": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf", "as_of": "2026-11-07"},
     "regulator": {"value": "Division of Cannabis Control (Ohio Department of Commerce), which oversees both medical and adult-use marijuana.", "source": "https://www.ohiosenate.gov/news/on-the-record/update-governor-signs-senate-bill-56-reforming-ohios-marijuana-and-intoxicating-hemp-laws", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "SB 56 redefines hemp and effectively bans intoxicating hemp products, including THC drinks, outside licensed marijuana dispensaries; the governor vetoed a carve-out for THC beverages.", "source": "https://www.ohiosenate.gov/news/on-the-record/update-governor-signs-senate-bill-56-reforming-ohios-marijuana-and-intoxicating-hemp-laws", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "SB 56 redefines hemp and effectively bans intoxicating hemp products, including THC drinks, outside licensed marijuana dispensaries; the governor vetoed a carve-out for THC beverages.", "source": "https://www.ohiosenate.gov/news/on-the-record/update-governor-signs-senate-bill-56-reforming-ohios-marijuana-and-intoxicating-hemp-laws", "as_of": "2026-11-07"},
+    "dui": {"value": "Per se limits: 2 ng/ml of THC in blood (10 ng/ml in urine), or 50 ng/ml of THC metabolite in blood (35 ng/ml in urine); lower metabolite limits apply when a driver is also under the influence.", "source": "https://codes.ohio.gov/ohio-revised-code/section-4511.19", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Dispensaries may sell to adults 21+ up to 2.5 ounces of plant material and up to 15,000 mg of total THC in other products per day.", "source": "https://dam.assets.ohio.gov/image/upload/com.ohio.gov/DCC/Non-Medical_Sales_Limits.pdf", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2016", "event": "Legislature creates Ohio's medical marijuana program", "source": "https://www.mpp.org/states/ohio"},
@@ -45,6 +47,9 @@
     {"name": "Ohio State University Moritz College of Law, Drug Enforcement and Policy Center", "url": "https://moritzlaw.osu.edu/sites/default/files/2026-01/Ohio%20reforms_SB56%20and%20Issue%202_January%208%202026_final.pdf"},
     {"name": "Marijuana Policy Project, Ohio", "url": "https://www.mpp.org/states/ohio"},
     {"name": "WYSO", "url": "https://www.wyso.org/2026-03-18/ohio-effort-to-repeal-hemp-ban-falls-short-on-signatures"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

@@ -5,18 +5,18 @@
   "tags": ["Uruguay"],
   "legal": {"adult_use": "legal", "medical": "comprehensive", "decriminalized": "yes"},
   "headline_status": "Uruguay was the first country to fully legalise recreational cannabis; registered adult citizens and residents can grow it, join clubs or buy it in pharmacies.",
-  "summary": "Law 19.172, signed on 23 December 2013, created a state-regulated cannabis market overseen by the IRCCA. Registered adults 18+ can choose one of three routes: growing up to six plants at home, joining a cannabis club, or buying up to 40 g a month in licensed pharmacies, which began selling in 2017. Visitors are currently excluded, but in early 2026 the regulator said it was studying ways to let non-residents buy legally.",
+  "summary": "Law 19.172, promulgated on 20 December 2013, created a state-regulated cannabis market overseen by the IRCCA. Registered adults 18+ can choose one of three routes: growing up to six plants at home, joining a cannabis club, or buying up to 40 g a month in licensed pharmacies, which began selling in 2017. Visitors are currently excluded, but in early 2026 the regulator said it was studying ways to let non-residents buy legally.",
   "facts": {
-    "adult_use_since": {"value": "Law 19.172 signed 23 December 2013; pharmacy sales began in 2017.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay", "as_of": "2026-11-07"},
-    "possession_limit": {"value": "Registered pharmacy buyers may purchase up to 40 g per month.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay", "as_of": "2026-11-07"},
-    "home_grow": {"value": "Up to six plants per household, with an annual harvest of no more than 480 g; growers must register.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay", "as_of": "2026-11-07"},
-    "purchase_age": {"value": "18.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay", "as_of": "2026-11-07"},
-    "retail_sales": {"value": "Sold in licensed pharmacies to registered users, verified by fingerprint at purchase; registered cannabis clubs of 15 to 45 members may grow up to 99 plants a year.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay", "as_of": "2026-11-07"},
-    "regulator": {"value": "Institute for the Regulation and Control of Cannabis (IRCCA), created in August 2014.", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay", "as_of": "2026-11-07"},
-    "tourists": {"value": "Non-residents cannot register and so cannot legally buy, and taking cannabis across borders is banned. In 2026 the IRCCA said it was studying allowing tourists, students and temporary workers to buy under controlled conditions.", "source": "https://www.mmjdaily.com/article/9815582/uruguay-considers-legalizing-cannabis-sales-to-tourists", "as_of": "2026-11-07"}
+    "adult_use_since": {"value": "Law 19.172 was promulgated on 20 December 2013 and published on 7 January 2014; pharmacy sales began in 2017.", "source": "https://www.impo.com.uy/bases/leyes/19172-2013", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Up to 40 g of marijuana is presumed to be for personal use, plus the harvest of up to six home-grown plants kept at home or a club member's share. Registered pharmacy buyers may purchase up to 10 g a week and 40 g a month.", "source": "https://www.impo.com.uy/bases/decretos-ley/14294-1974", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to six flowering plants per household, with a harvest of no more than 480 g a year; growers must be adult Uruguayan citizens or permanent residents registered with the IRCCA.", "source": "https://www.impo.com.uy/bases/decretos/120-2014", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "18. People under 18 may not access psychoactive cannabis for recreational use.", "source": "https://www.impo.com.uy/bases/leyes/19172-2013", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "Sold in IRCCA-licensed pharmacies to registered buyers, up to 10 g a week and 40 g a month. Membership clubs of 15 to 45 members may grow up to 99 plants.", "source": "https://www.impo.com.uy/bases/decretos/120-2014", "as_of": "2026-11-07"},
+    "regulator": {"value": "Institute for the Regulation and Control of Cannabis (IRCCA), created by Law 19.172.", "source": "https://www.impo.com.uy/bases/leyes/19172-2013", "as_of": "2026-11-07"},
+    "tourists": {"value": "Non-residents cannot buy legally: pharmacy buyers, home growers and club members must be Uruguayan citizens or permanent residents registered with the IRCCA. In 2026 the IRCCA said it was studying allowing tourists, students and temporary workers to buy under controlled conditions.", "source": "https://www.impo.com.uy/bases/decretos/120-2014", "as_of": "2026-11-07"}
   },
   "timeline": [
-    {"date": "2013-12-23", "event": "President Mujica signs Law 19.172 legalising and regulating cannabis", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay"},
+    {"date": "2013-12-20", "event": "President Mujica promulgates Law 19.172 legalising and regulating cannabis", "source": "https://www.impo.com.uy/bases/leyes/19172-2013"},
     {"date": "2014-08", "event": "Regulator IRCCA created", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay"},
     {"date": "2017", "event": "Pharmacy sales to registered users begin", "source": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay"},
     {"date": "2026-02", "event": "IRCCA says it is evaluating legal sales to non-resident foreigners", "source": "https://www.mmjdaily.com/article/9815582/uruguay-considers-legalizing-cannabis-sales-to-tourists"}
@@ -31,7 +31,13 @@
   ],
   "sources": [
     {"name": "Wikipedia – Cannabis in Uruguay", "url": "https://en.wikipedia.org/wiki/Cannabis_in_Uruguay"},
-    {"name": "MMJ Daily", "url": "https://www.mmjdaily.com/article/9815582/uruguay-considers-legalizing-cannabis-sales-to-tourists"}
+    {"name": "MMJ Daily", "url": "https://www.mmjdaily.com/article/9815582/uruguay-considers-legalizing-cannabis-sales-to-tourists"},
+    {"name": "IMPO – Law 19.172", "url": "https://www.impo.com.uy/bases/leyes/19172-2013"},
+    {"name": "IMPO – Decree-Law 14.294 (consolidated)", "url": "https://www.impo.com.uy/bases/decretos-ley/14294-1974"},
+    {"name": "IMPO – Decree 120/014", "url": "https://www.impo.com.uy/bases/decretos/120-2014"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Replaced Wikipedia sources with IMPO texts of Law 19.172, Decree-Law 14.294 and Decree 120/014; corrected promulgation date to 20 December 2013 and added the 10 g weekly pharmacy limit and residency rule"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

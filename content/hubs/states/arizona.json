@@ -61,6 +61,16 @@
       "value": "People can petition to expunge past records for possessing up to 2.5 ounces, growing up to six plants at home, and related paraphernalia offenses.",
       "source": "https://www.mpp.org/states/arizona/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Zero tolerance: Arizona bans driving with any amount of a listed drug, including marijuana, or its metabolite in the body, even without proof of impairment.",
+      "source": "https://www.azleg.gov/ars/28/01381.htm",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Prop 207 lets any adult 21+ buy and possess up to 1 ounce, of which no more than 5 grams may be concentrate, with no residency requirement.",
+      "source": "https://www.azleg.gov/ars/36/02852.htm",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -85,6 +95,9 @@
     {"name": "Marijuana Policy Project - Arizona", "url": "https://www.mpp.org/states/arizona/"},
     {"name": "PBS NewsHour / AP - Arizona launches legal marijuana sales", "url": "https://www.pbs.org/newshour/economy/arizona-launches-legal-marijuana-sales-with-dozens-of-licenses-for-dispensaries"},
     {"name": "MJBizDaily - Arizona repeal effort abandoned (May 2026)", "url": "https://mjbizdaily.com/news/second-state-level-effort-to-recriminalize-adult-use-marijuana-sales-fails/615867/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

@@ -14,7 +14,12 @@
     "retail_sales": {"value": "Only state-licensed medical dispensaries may sell, and only to patients showing a valid 329 card plus a driver license or passport. There are no adult-use stores.", "source": "https://health.hawaii.gov/medicalcannabis/", "as_of": "2026-11-07"},
     "regulator": {"value": "Hawaii Department of Health, Office of Medical Cannabis Control and Regulation (OMCCR).", "source": "https://health.hawaii.gov/medicalcannabis/", "as_of": "2026-11-07"},
     "penalties": {"value": "Possession of 3 grams or less is a civil violation carrying a $130 fine (since January 11, 2020). Larger amounts remain criminal.", "source": "https://www.civilbeat.org/beat/hawaiis-pot-decriminalization-takes-effect-jan-11/", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Under HB 1482 (effective January 1, 2026), hemp product retailers and distributors must register with the Department of Health, and hemp tinctures may be sold only to people 21 and older.", "source": "https://themarijuanaherald.com/2025/07/hawaii-governor-signs-law-requiring-hemp-retailers-to-register-with-state-sets-age-restriction-on-tinctures/", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Under HB 1482 (effective January 1, 2026), hemp product retailers and distributors must register with the Department of Health, and hemp tinctures may be sold only to people 21 and older.", "source": "https://themarijuanaherald.com/2025/07/hawaii-governor-signs-law-requiring-hemp-retailers-to-register-with-state-sets-age-restriction-on-tinctures/", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only; there is no adult-use market. Minors can qualify as patients, with a parent, guardian or custodian serving as primary caregiver, and caregivers must be 18 or older.", "source": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0329/HRS_0329-0121.htm", "as_of": "2026-11-07"},
+    "public_use": {"value": "Medical use is banned in any moving vehicle or bus, on school grounds, at public parks, beaches and recreation centers, and at any other place open to the public.", "source": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0329/HRS_0329-0122.htm", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Hawaii has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Visitors with a valid medical cannabis card from their home state, certified for a condition Hawaii recognizes, can apply for an out-of-state 329 registration to buy at dispensaries; there are no adult-use sales.", "source": "https://health.hawaii.gov/medicalcannabisregistry/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Registered patients, or their caregivers, may grow up to 10 cannabis plants at a grow site listed on the patient's 329 card. Home growing is not allowed for anyone else.", "source": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0329/HRS_0329-0121.htm", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2000", "event": "Legislature legalizes medical cannabis", "source": "https://norml.org/news/2025/07/10/hawaii-governor-signs-medical-cannabis-expansion-bill-despite-privacy-concerns/"},
@@ -38,6 +43,9 @@
     {"name": "Honolulu Civil Beat", "url": "https://www.civilbeat.org/beat/hawaiis-pot-decriminalization-takes-effect-jan-11/"},
     {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/hawaii-senators-approve-limited-marijuana-legalization-bill-after-house-punts-on-reform-for-2026/"},
     {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2025/07/hawaii-governor-signs-law-requiring-hemp-retailers-to-register-with-state-sets-age-restriction-on-tinctures/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

@@ -61,6 +61,16 @@
       "value": "Public Act 26-8 (HB 5350, signed May 20, 2026) tightens rules on hemp-derived and manufactured cannabinoids effective Dec. 1, 2026, and raises allowable THC in infused beverages from Oct. 1, 2026.",
       "source": "https://www.cbia.com/?p=177261",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Connecticut's DUI law does not depend on a THC level, and driving under the influence of cannabis carries the same penalties as drunk driving. Cannabis may be transported in a locked glove box or trunk.",
+      "source": "https://portal.ct.gov/dot/ctdot-press-releases/archive/2023/driving-high-equals-dui",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Any adult 21+ with a valid government photo ID can buy at adult-use or hybrid retailers regardless of residency, with the same 1.5-ounce possession limit and taxes as residents.",
+      "source": "https://portal.ct.gov/cannabis/knowledge-base/articles/oos-patients/can-a-person-who-lives-out-of-state-and-does-not-have-a-medical-card-buy-cannabis",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -89,6 +99,9 @@
     {"name": "CT Mirror - home grow begins July 1, 2023", "url": "https://ctmirror.org/2023/07/01/ct-growing-at-home-marijuana-recreational-cannabis/"},
     {"name": "CBIA - Connecticut's cannabis law update", "url": "https://www.cbia.com/?p=177261"},
     {"name": "Gigafact - CT cannabis tax and medical marijuana", "url": "https://gigafact.org/fact-briefs/ct-cannabis-tax-medical-marijuana"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

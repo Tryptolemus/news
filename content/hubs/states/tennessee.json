@@ -43,6 +43,31 @@
       "value": "Marijuana sales are illegal. Hemp-derived products may be sold only at 21+ venues such as package stores and bars; grocery, convenience and gas-station sales are excluded, and online sales and delivery are prohibited.",
       "source": "https://thelynchburgtimes.com/hemp-law-changes-060426/",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No amount of marijuana is legal to possess; half an ounce or less is a misdemeanor punishable by up to 1 year in jail.",
+      "source": "https://norml.org/laws/tennessee-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.",
+      "source": "https://norml.org/laws/tennessee-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. There are no legal marijuana sales, out-of-state medical cards are not recognized, and visitors face the same possession penalties as residents.",
+      "source": "https://norml.org/laws/tennessee-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed; cultivating marijuana is a crime.",
+      "source": "https://norml.org/laws/tennessee-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Tennessee has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -124,5 +149,8 @@
     }
   ],
   "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

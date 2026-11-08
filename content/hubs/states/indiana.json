@@ -13,7 +13,12 @@
     "medical_program": {"value": "None. Indiana is among the few states with no medical marijuana program; Gov. Mike Braun has said he is open to discussing it but has not acted.", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill", "as_of": "2026-11-07"},
     "retail_sales": {"value": "No legal marijuana sales of any kind.", "source": "https://indianacapitalchronicle.com/2026/02/02/indiana-keeps-bucking-marijuana-legalization-tightening-related-laws-instead/", "as_of": "2026-11-07"},
     "hemp_thc": {"value": "CBD with up to 0.3% THC has been legal since 2018. Intoxicating hemp products such as delta-8 and THCA are unregulated with no state age limit after SB 250 died in 2026.", "source": "https://indianapublicradio.org/?p=121949", "as_of": "2026-11-07"},
-    "regulator": {"value": "No cannabis regulator. The Indiana Board of Pharmacy must review any finalized federal rescheduling and recommend whether the state should follow.", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill", "as_of": "2026-11-07"}
+    "regulator": {"value": "No cannabis regulator. The Indiana Board of Pharmacy must review any finalized federal rescheduling and recommend whether the state should follow.", "source": "https://www.ipm.org/news/2026-05-12/indiana-regulators-awaiting-final-federal-marijuana-action-as-lawmaker-drafts-legalization-bill", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "No legal purchase of marijuana for any age; there are no licensed adult-use or medical marijuana sales.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
+    "public_use": {"value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
+    "tourists": {"value": "No. There are no legal marijuana sales, out-of-state medical cards are not recognized, and visitors face the same possession penalties as residents.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; growing marijuana is a crime treated like possession or dealing, depending on the amount.", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/", "as_of": "2026-11-07"},
+    "dui": {"value": "Zero tolerance: Indiana is among the states that ban driving with any amount of THC or its metabolites in the body, even without proof of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2018", "event": "Law signed allowing sale and possession of CBD oil with up to 0.3% THC", "source": "https://www.indyjustice.com/blog/indiana-marijuana-laws/"},
@@ -36,6 +41,9 @@
     {"name": "Indiana Public Radio", "url": "https://indianapublicradio.org/?p=121949"},
     {"name": "Indiana Courts legislative update – SB 250", "url": "https://legislativeupdate.courts.in.gov/2026/02/20/regulation-of-hemp-2"},
     {"name": "Keffer Hirschauer (law firm)", "url": "https://www.indyjustice.com/blog/indiana-marijuana-laws/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

@@ -15,7 +15,11 @@
     "retail_sales": {"value": "Licensed medical dispensaries have sold since December 2025; 12 were open as of May 2026.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
     "regulator": {"value": "Office of Medical Cannabis, Cabinet for Health and Family Services (KRS Chapter 218B).", "source": "https://kymedcan.ky.gov/", "as_of": "2026-11-07"},
     "penalties": {"value": "Without a medical card, possessing any amount can bring up to 45 days in jail and/or a fine of up to $250. Kentucky has no decriminalization law.", "source": "https://www.mpp.org/states/kentucky", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Hemp-derived THC beverages are capped at 5 mg per 12-ounce serving, limited to buyers 21+, and since June 1, 2025 sold only by the package at licensed liquor package stores under ABC oversight.", "source": "https://abc.ky.gov/Documents/Cannabis%20Infused%20Beverages%20FAQ%20tm.pdf", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Hemp-derived THC beverages are capped at 5 mg per 12-ounce serving, limited to buyers 21+, and since June 1, 2025 sold only by the package at licensed liquor package stores under ABC oversight.", "source": "https://abc.ky.gov/Documents/Cannabis%20Infused%20Beverages%20FAQ%20tm.pdf", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount without a registry card. Patients may carry a 10-day supply (37.5 grams of raw plant material) and keep a 30-day supply (112 grams) at home.", "source": "https://kymedcan.ky.gov/patients-and-caregivers/Documents/Qualified%20Patient%20%26%20Designated%20Caregiver%20Guide%202026_06.pdf", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only. In-state patients 18+ may possess and buy; minors can qualify but may not possess, so a registered caregiver handles their medicine. Visiting patients must be 21+.", "source": "https://kymedcan.ky.gov/patients-and-caregivers/Documents/Qualified%20Patient%20%26%20Designated%20Caregiver%20Guide%202026_06.pdf", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Kentucky has no THC per se or zero-tolerance law for cannabis, so a DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Visitors 21+ with a valid out-of-state medical card and proof of a condition Kentucky recognizes can register as visiting patients for $25 and buy or carry up to a 10-day supply; there are no adult-use sales.", "source": "https://kymedcan.ky.gov/patients-and-caregivers/Documents/Qualified%20Patient%20%26%20Designated%20Caregiver%20Guide%202026_06.pdf", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2023-03-31", "event": "Gov. Beshear signs SB 47 legalizing medical cannabis", "source": "https://kymedcan.ky.gov/"},
@@ -35,6 +39,9 @@
     {"name": "Kentucky Office of Medical Cannabis", "url": "https://kymedcan.ky.gov/"},
     {"name": "Kentucky ABC – Cannabis-Infused Beverages FAQ", "url": "https://abc.ky.gov/Documents/Cannabis%20Infused%20Beverages%20FAQ%20tm.pdf"},
     {"name": "Marijuana Policy Project – Kentucky", "url": "https://www.mpp.org/states/kentucky"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

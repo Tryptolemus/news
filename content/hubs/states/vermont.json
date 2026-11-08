@@ -53,6 +53,21 @@
       "value": "Vermont Cannabis Control Board, a three-member board created by Act 164 of 2020.",
       "source": "https://www.mpp.org/states/Vermont",
       "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Retailers may sell to anyone 21+ with a valid government-issued photo ID, up to 1 ounce of cannabis or the equivalent in products per transaction.",
+      "source": "https://ccb.vermont.gov/faq",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Vermont has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "No one may consume cannabis in a public place unless specifically authorized by law; violations are punished under 18 V.S.A. § 4230a.",
+      "source": "https://legislature.vermont.gov/statutes/section/07/031/00833",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -121,5 +136,8 @@
     }
   ],
   "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

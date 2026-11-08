@@ -53,6 +53,26 @@
       "value": "Washington State Liquor and Cannabis Board (LCB).",
       "source": "https://www.mpp.org/states/washington",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "Adults 21+ may possess up to 1 ounce of useable cannabis, 7 grams of concentrate, 16 ounces of solid infused products and 72 ounces of liquid infused products.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.4013",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "21 and older. Registered medical patients aged 18 to 20 with a recognition card may buy at stores holding a medical endorsement.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.357",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Per se limit: a blood THC concentration of 5.00 ng/ml or more within two hours of driving is a DUI, as is driving while affected by cannabis at any level.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=46.61.502",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Any adult 21+ with valid ID can buy at licensed stores, up to 1 ounce of useable cannabis, 7 grams of concentrate, 16 ounces of solid edibles or 72 ounces of liquid edibles at a time.",
+      "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=69.50.360",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -119,5 +139,8 @@
     }
   ],
   "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

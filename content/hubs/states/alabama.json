@@ -53,6 +53,36 @@
       "value": "State law caps licenses at 5 vertically integrated operators (up to 5 stores each), 12 cultivators, 4 processors and 4 dispensary-only permits (up to 3 stores each).",
       "source": "https://mjbizdaily.com/news/alabama-medical-cannabis-market-to-finally-launch/615401/",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount for anyone without an Alabama medical cannabis card. Registered patients may hold only approved medical forms such as capsules, tinctures and lozenges; raw plant material is prohibited.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only: patients must be 19 or older, or have a parent or legal guardian serve as their registered caregiver. Only registered patients and caregivers may enter a dispensary.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "There is no legal recreational use. Registered patients may use only non-smokable medical forms; products that can be smoked or vaped are banned.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Alabama has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment; the state runs roadside oral fluid screening.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. Only Alabama residents can get a medical cannabis card, and only registered patients and caregivers may enter dispensaries.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed. Only licensed cultivators may grow, and raw plant material is a prohibited product for patients.",
+      "source": "https://amcc.alabama.gov/patients/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -125,6 +155,9 @@
       "name": "WBHM - Ivey signs a bill regulating the sale of hemp products",
       "url": "https://wbhm.org/2025/ivey-signs-a-bill-regulating-the-sale-of-hemp-products"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

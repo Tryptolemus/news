@@ -68,6 +68,16 @@
       "value": "Since 2023, intoxicating hemp-derived products may be sold only through state-licensed marijuana stores; a federal judge upheld the restriction in May 2025.",
       "source": "https://norml.org/news/2025/06/05/alaska-district-court-judge-says-state-imposed-restrictions-on-sale-of-hemp-derived-intoxicants-dont-violate-federal-farm-act/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Alaska has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence that the driver was under the influence.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Adults 21+ can buy at licensed retail stores regardless of residency; a store may sell one person no more than 1 ounce of usable marijuana, 7 grams of inhalable concentrate or 5,600 mg of THC in total per day.",
+      "source": "https://www.law.cornell.edu/regulations/alaska/3-AAC-306.355",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -169,6 +179,9 @@
       "name": "NORML - court upholds Alaska hemp restrictions",
       "url": "https://norml.org/news/2025/06/05/alaska-district-court-judge-says-state-imposed-restrictions-on-sale-of-hemp-derived-intoxicants-dont-violate-federal-farm-act/"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

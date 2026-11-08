@@ -63,6 +63,16 @@
       "value": "Lower-potency hemp edibles remain legal and regulated; they count toward the 800 mg possession cap and are subject to the 15% cannabis tax.",
       "source": "https://www.revenue.state.mn.us/book/export/html/21076",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Minnesota has no THC per se limit. Using cannabis in a motor vehicle on a street or highway is a misdemeanor, and an open cannabis package must be kept in the trunk or another area not occupied by the driver and passengers.",
+      "source": "https://www.revisor.mn.gov/statutes/cite/169A.36",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Retailers may sell any customer 21+ up to 2 ounces of flower, 8 grams of concentrate and edibles totaling 800 mg of THC in a single transaction, with no residency requirement.",
+      "source": "https://www.revisor.mn.gov/statutes/cite/342.27",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -119,6 +129,9 @@
       "name": "Marijuana Policy Project, Minnesota",
       "url": "https://www.mpp.org/minnesota"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

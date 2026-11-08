@@ -58,6 +58,16 @@
       "value": "Nevada Cannabis Compliance Board (CCB), created by AB 533 in 2019.",
       "source": "https://ccb.nv.gov/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Mostly impairment-based: driving under the influence of cannabis is illegal and a medical card is no defense. Per se blood limits of 2 ng/ml THC and 5 ng/ml 11-OH-THC apply only to felony-level cases such as a third offense or a crash causing injury or death.",
+      "source": "https://www.leg.state.nv.us/nrs/NRS-484C.html",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Adults 21+ can buy with a valid ID from any U.S. state or a passport, up to 2.5 ounces of cannabis or 1/4 ounce of concentrate. Nevada also extends medical reciprocity to patients from some states.",
+      "source": "https://tax.nv.gov/ccb-faqs",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -132,6 +142,9 @@
       "name": "Marijuana Policy Project, Nevada",
       "url": "https://www.mpp.org/nevada"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

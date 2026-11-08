@@ -48,6 +48,26 @@
       "value": "Without a card, possessing 2 oz or less is a Class 1 misdemeanor; more than 2 oz is a felony, and courts may add civil penalties of up to $10,000.",
       "source": "https://sdlegislature.gov/Statutes/22-42-6",
       "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only. Patients under 18 qualify only if a custodial parent or legal guardian consents in writing and serves as their designated caregiver, controlling the dosage.",
+      "source": "https://sdlegislature.gov/Statutes/34-20G-33",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Smoking or vaping cannabis is banned on public transportation, in any public place or place open to the public, and for anyone under 21; medical use is also barred in correctional facilities.",
+      "source": "https://sdlegislature.gov/Statutes/34-20G-18",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based for adults: South Dakota has no THC per se limit, and driving under the influence of cannabis is illegal even for patients. Drivers under 21 face zero tolerance: driving while physical evidence of marijuana use remains in the body is a Class 2 misdemeanor.",
+      "source": "https://sdlegislature.gov/Statutes/32-23-21",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Medical patients only. Nonresident cardholders are protected when buying, possessing or using up to 3 ounces of cannabis plus allowed products, but may not cultivate; there are no adult-use sales.",
+      "source": "https://sdlegislature.gov/Statutes/34-20G-3",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -128,5 +148,8 @@
     }
   ],
   "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

@@ -53,6 +53,26 @@
       "value": "Non-patients: a first offense for up to 30 grams brings a fine of up to $250; repeat offenses can bring jail time, and larger amounts are felonies.",
       "source": "https://www.findlaw.com/state/mississippi-law/mississippi-marijuana-laws.html",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount without a medical card. Patients may possess up to 28 equivalency units at a time (98 grams of flower, under 3.5 ounces) and buy no more than 6 units a week.",
+      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only. Only MDs and DOs may certify minors, who need a parent's or guardian's consent, and patients under 21 cannot enter a dispensary without a parent or guardian.",
+      "source": "https://www.mpp.org//assets/pdf/states/mississippi/mississippi-medical-cannabis-act-summary.pdf",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Mississippi has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Medical patients only. Visitors with an active medical card from their home state can apply up to 30 days ahead for a 15-day nonresident card, then buy up to 6 units a week and 12 per 15 days; there are no adult-use sales.",
+      "source": "https://www.mmcp.ms.gov/faq?category=1",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -113,6 +133,9 @@
       "name": "FindLaw, Mississippi marijuana laws",
       "url": "https://www.findlaw.com/state/mississippi-law/mississippi-marijuana-laws.html"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

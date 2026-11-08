@@ -46,6 +46,36 @@
       "value": "Adult-use legalization (Issue 4) failed in 2022, 56.3% to 43.7%. In October 2024 the state Supreme Court ruled votes on a medical expansion measure would not be counted.",
       "source": "https://www.mpp.org/states/arkansas/",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount for anyone without a registry card. Registered patients may possess up to 2.5 ounces of cannabis.",
+      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only: patients need a written certification from an Arkansas-licensed physician and a state registry card. There is no adult-use market.",
+      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Patients may not possess or use cannabis in public places, schools, day care centers, treatment facilities or correctional facilities, and may not smoke it in a vehicle or near anyone under 14.",
+      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Arkansas has no THC per se or zero-tolerance law, but operating a vehicle under the influence of cannabis is illegal, including for patients.",
+      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Medical patients only. Visitors registered in another state's program can apply online for a 90-day visiting patient card for $50; there are no adult-use sales.",
+      "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed; patients must buy from licensed dispensaries.",
+      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -70,6 +100,9 @@
     {"name": "Arkansas Attorney General - Act 629 ruling release", "url": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/"},
     {"name": "Marijuana Policy Project - Arkansas", "url": "https://www.mpp.org/states/arkansas/"},
     {"name": "MJBizDaily - Medical marijuana sales begin in Arkansas", "url": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

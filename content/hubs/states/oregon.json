@@ -22,7 +22,9 @@
     "taxes": {"value": "17% state retail tax on recreational cannabis, plus up to 3% local tax where cities or counties adopt it.", "source": "https://www.oregon.gov/dor/programs/businesses/pages/marijuana.aspx", "as_of": "2026-11-07"},
     "medical_program": {"value": "Registered patients may possess up to 24 oz and grow up to six mature and 12 immature plants; the annual patient fee is $200, with reductions for veterans, SNAP/SSI recipients and Oregon Health Plan members.", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"},
     "regulator": {"value": "Oregon Liquor and Cannabis Commission (OLCC).", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "HB 3825 (2025) reinforces Oregon's prohibition on CBN, delta-8 THC and other artificially derived cannabinoids and calls for clearer testing and labeling standards.", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "HB 3825 (2025) reinforces Oregon's prohibition on CBN, delta-8 THC and other artificially derived cannabinoids and calls for clearer testing and labeling standards.", "source": "https://www.mpp.org/states/oregon", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Oregon has no THC per se limit; driving under the influence of intoxicants (DUII) includes impairment from marijuana.", "source": "https://oregon.gov/olcc/marijuana/pages/frequently-asked-questions.aspx", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Licensed retailers sell to customers 21+ with valid ID, up to 2 ounces of usable marijuana, 16 ounces of solid edibles, 72 fluid ounces of liquid products and 10 grams of extracts per day.", "source": "https://oregon.gov/olcc/marijuana/pages/frequently-asked-questions.aspx", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "1998", "event": "Voters approve Measure 67, creating the medical marijuana program", "source": "https://www.mpp.org/states/oregon"},
@@ -47,6 +49,9 @@
     {"name": "Marijuana Policy Project, Oregon", "url": "https://www.mpp.org/states/oregon"},
     {"name": "NORML", "url": "https://norml.org/blog/2022/01/10/oregon-new-rules-increase-the-amount-of-cannabis-adults-can-purchase-per-transaction/"},
     {"name": "Drug Policy Alliance", "url": "https://drugpolicy.org/?p=2592"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

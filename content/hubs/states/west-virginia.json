@@ -38,6 +38,36 @@
       "value": "Simple possession is a misdemeanor punishable by 90 days to 6 months in jail, a fine of up to $1,000, or both. First offenders may be eligible for conditional discharge.",
       "source": "https://code.wvlegislature.gov/60A-4-401/",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount for anyone without a West Virginia patient or caregiver card. Patients may possess only certified medical forms, and dry leaf may be dispensed only if bureau rules allow it.",
+      "source": "https://code.wvlegislature.gov/16A-3-2/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only. Patients must be West Virginia residents certified by a state-licensed physician; patients under 18 receive medical cannabis through an authorized caregiver.",
+      "source": "https://code.wvlegislature.gov/16A-2-1/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "There is no legal recreational use, and smoking medical cannabis is illegal; patients may use vaporized, oral, topical and other approved forms.",
+      "source": "https://code.wvlegislature.gov/16A-3-3/",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Registered patients may not drive with more than 3 ng/ml of active THC in their blood serum. For everyone else, cannabis DUI cases turn on impairment.",
+      "source": "https://code.wvlegislature.gov/16A-5-10/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. Only West Virginia residents qualify as medical patients, so out-of-state cards cannot be used to buy, and there are no adult-use sales.",
+      "source": "https://code.wvlegislature.gov/16A-2-1/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed; growing cannabis without a state grower or processor permit is unlawful.",
+      "source": "https://code.wvlegislature.gov/16A-3-3/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -100,6 +130,9 @@
       "url": "https://www.mpp.org/states/west-virginia"
     }
   ],
-  "page_status": "partial",
+  "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

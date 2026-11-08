@@ -20,7 +20,10 @@
     "taxes": {"value": "7% excise tax on medical cannabis retail sales.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"},
     "retail_sales": {"value": "Licensed medical dispensaries serve patients; a moratorium on new business licenses was extended in 2026 by HB 3143. As of June 2026 there were about 1,361 dispensaries.", "source": "https://www.mpp.org/states/oklahoma", "as_of": "2026-11-07"},
     "regulator": {"value": "Oklahoma Medical Marijuana Authority (OMMA).", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html", "as_of": "2026-11-07"},
-    "penalties": {"value": "Without a patient license, possessing up to 1.5 oz while able to state a medical condition is capped at a $400 fine; otherwise possession is a misdemeanor punishable by up to a year in jail and a $1,000 fine.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"}
+    "penalties": {"value": "Without a patient license, possessing up to 1.5 oz while able to state a medical condition is capped at a $400 fine; otherwise possession is a misdemeanor punishable by up to a year in jail and a $1,000 fine.", "source": "https://www.mpp.org/states/oklahoma/sq788/", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only. Adult patient licenses are for Oklahoma residents 18 and older; younger patients need a minor patient license.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html", "as_of": "2026-11-07"},
+    "dui": {"value": "Zero tolerance: Oklahoma is among the states that ban driving with any amount of THC or its metabolites in the body.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Non-residents of any age with a state-issued medical marijuana license can get an Oklahoma out-of-state patient license, valid up to 30 days, for $100; there are no adult-use sales.", "source": "https://oklahoma.gov/omma/patients-caregivers/patient-licenses.html", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2018-06-26", "event": "Voters approve State Question 788, legalizing medical cannabis", "source": "https://www.mpp.org/states/oklahoma/sq788/"},
@@ -38,6 +41,9 @@
     {"name": "Oklahoma Medical Marijuana Authority, Patient Rights and Responsibilities", "url": "https://oklahoma.gov/omma/patients-caregivers/patient-rights-and-responsibilities.html"},
     {"name": "Marijuana Policy Project, Oklahoma", "url": "https://www.mpp.org/states/oklahoma"},
     {"name": "Marijuana Policy Project, SQ 788 summary", "url": "https://www.mpp.org/states/oklahoma/sq788/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

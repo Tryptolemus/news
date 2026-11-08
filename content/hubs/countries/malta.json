@@ -7,18 +7,18 @@
   "headline_status": "Adults in Malta may possess small amounts, grow four plants at home and join licensed non-profit cannabis clubs, but there are no commercial shops.",
   "summary": "In December 2021 Malta became the first EU country to legalise personal cannabis, through the Authority on the Responsible Use of Cannabis Act. Adults may carry up to 7 g, keep up to 50 g at home and grow four plants out of public view. Supply is limited to licensed non-profit associations for registered members, overseen by the Authority for the Responsible Use of Cannabis. Smoking in public and near children brings fines.",
   "facts": {
-    "adult_use_since": {"value": "December 2021, under Act LXVI of 2021.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "possession_limit": {"value": "Up to 7 g in public and up to 50 g at home; carrying over 7 g but under 28 g is an administrative offence.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "home_grow": {"value": "Up to 4 plants per household, grown privately and not visible from outside (e.g. balconies).", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "purchase_age": {"value": "18 for possession.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "public_use": {"value": "Smoking in public is fined €235; smoking in front of minors is fined €300–€500.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "retail_sales": {"value": "No shops. Licensed non-profit cannabis associations may supply registered resident members up to 7 g a day and 50 g a month.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "regulator": {"value": "Authority for the Responsible Use of Cannabis (ARUC), which licenses associations.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "penalties": {"value": "Trafficking and supply remain criminal offences; repeat possession offenders may be sent before a drugs tribunal.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"},
-    "tourists": {"value": "Clubs are for residents only, so visitors cannot buy legally. Bringing cannabis into Malta, even if legal at home, can lead to criminal charges unless properly declared and authorised for medical use.", "source": "https://expatax.mt/?p=9308", "as_of": "2026-11-07"}
+    "adult_use_since": {"value": "18 December 2021, under Act LXVI of 2021, which created the Authority on the Responsible Use of Cannabis and amended the drug laws.", "source": "https://legislation.mt/eli/cap/628/eng/pdf", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "Adults 18+ may carry up to 7 g without committing an offence and keep up to 50 g of dried cannabis at their registered home address. Carrying more than 7 g but no more than 28 g brings a €50–€100 penalty before a Commissioner for Justice.", "source": "https://legislation.mt/eli/cap/537/eng/pdf", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Up to 4 plants per registered residential address, however many adults live there, kept out of public view, without causing odour nuisance and out of reach of minors; breaching those conditions brings a €300–€500 penalty.", "source": "https://legislation.mt/eli/cap/537/eng/pdf", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "18 for possession and for membership of a cannabis association.", "source": "https://legislation.mt/eli/cap/537/eng/pdf", "as_of": "2026-11-07"},
+    "public_use": {"value": "Consuming cannabis in a public place, a place open to the public or where the smell causes a nuisance is fined €235; consuming it in front of a minor, in public or private, is fined €300–€500.", "source": "https://legislation.mt/eli/cap/537/eng/pdf", "as_of": "2026-11-07"},
+    "retail_sales": {"value": "No shops. Licensed non-profit cannabis harm reduction associations (up to 500 members, all Maltese residents aged 18+) may supply each member no more than 7 g a day and 50 g a month.", "source": "https://aruc.mt/licensing-guidelines-2/", "as_of": "2026-11-07"},
+    "regulator": {"value": "Authority on the Responsible Use of Cannabis (ARUC), set up under Chapter 628 of the Laws of Malta, which registers and licenses associations.", "source": "https://legislation.mt/eli/cap/628/eng/pdf", "as_of": "2026-11-07"},
+    "penalties": {"value": "Trafficking and supply remain criminal offences. A person habitually resident in Malta who is convicted a second time within two years for personal-use possession is ordered to appear before the Drug Offenders Rehabilitation Board.", "source": "https://legislation.mt/eli/cap/537/eng/pdf", "as_of": "2026-11-07"},
+    "tourists": {"value": "Visitors cannot buy legally: tourists may not join cannabis associations, which require a Maltese ID card or residence card, and there are no shops. Importing cannabis remains illegal unless authorised for medical use.", "source": "https://aruc.mt/operational-chras/", "as_of": "2026-11-07"}
   },
   "timeline": [
-    {"date": "2021-12", "event": "Parliament passes the Authority on the Responsible Use of Cannabis Act, legalising personal possession and home growing", "source": "https://expatax.mt/?p=9308"}
+    {"date": "2021-12-18", "event": "Act LXVI of 2021 (Authority on the Responsible Use of Cannabis Act) takes effect, legalising personal possession and home growing", "source": "https://legislation.mt/eli/cap/628/eng/pdf"}
   ],
   "pending": [],
   "faq": [
@@ -27,7 +27,14 @@
     {"q": "Can you smoke weed in public in Malta?", "a": "No. Public smoking is fined €235, and smoking in front of children €300 to €500."}
   ],
   "sources": [
-    {"name": "Expatax Malta", "url": "https://expatax.mt/?p=9308"}
+    {"name": "Expatax Malta", "url": "https://expatax.mt/?p=9308"},
+    {"name": "Laws of Malta – Chapter 628, Authority on the Responsible Use of Cannabis Act", "url": "https://legislation.mt/eli/cap/628/eng/pdf"},
+    {"name": "Laws of Malta – Chapter 537, Drug Dependence (Treatment not Imprisonment) Act", "url": "https://legislation.mt/eli/cap/537/eng/pdf"},
+    {"name": "ARUC – Licensing guidelines", "url": "https://aruc.mt/licensing-guidelines-2/"},
+    {"name": "ARUC – Operational CHRAs", "url": "https://aruc.mt/operational-chras/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Replaced secondary sources with Laws of Malta (Cap. 628, Cap. 537) and ARUC; added the €50–€100 penalty for 7–28 g and corrected the repeat-offence rule (Drug Offenders Rehabilitation Board)"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

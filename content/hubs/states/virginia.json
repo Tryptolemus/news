@@ -58,6 +58,21 @@
       "value": "The 2026 framework puts hemp-derived products under CCA regulation alongside cannabis.",
       "source": "https://www.mpp.org/states/virginia",
       "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "No adult-use purchases until licensed stores open, scheduled for July 1, 2027. Medical patients must be 18 or older, or have a parent's or guardian's consent, and need a practitioner's written certification.",
+      "source": "https://www.cca.virginia.gov/medicalcannabis/patients",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Virginia has no THC per se limit. Using marijuana while driving, or as a passenger, on a public highway is a Class 4 misdemeanor, and an opened container in the passenger area can support an inference of use.",
+      "source": "https://law.lis.virginia.gov/vacode/title4.1/chapter11/section4.1-1107/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. Virginia has no adult-use stores yet, and its medical program is open only to permanent or temporary Virginia residents.",
+      "source": "https://www.cca.virginia.gov/medicalcannabis/patients",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -135,5 +150,8 @@
     }
   ],
   "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

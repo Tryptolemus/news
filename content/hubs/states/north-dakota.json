@@ -17,7 +17,11 @@
     "home_grow": {"value": "Not allowed, including for registered medical patients.", "source": "https://mpp.org/nd", "as_of": "2026-11-07"},
     "possession_limit": {"value": "No legal possession amount for non-patients; under 0.5 oz is a fine-only criminal infraction.", "source": "https://norml.org/laws/north-dakota-laws-and-penalties", "as_of": "2026-11-07"},
     "penalties": {"value": "Under 0.5 oz: infraction with a fine up to $1,000 and no jail. Over 0.5 oz to under 500 g: misdemeanor, up to 30 days and $1,500. Over 500 g: misdemeanor, up to 360 days and $3,000. Ingesting any amount is a misdemeanor.", "source": "https://norml.org/laws/north-dakota-laws-and-penalties", "as_of": "2026-11-07"},
-    "regulator": {"value": "North Dakota state health department (Health and Human Services), which issues compassionate use cards.", "source": "https://mpp.org/nd", "as_of": "2026-11-07"}
+    "regulator": {"value": "North Dakota state health department (Health and Human Services), which issues compassionate use cards.", "source": "https://mpp.org/nd", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only. Patients under 19 count as minors: they need a provider's documentation, a parent's or guardian's written consent and a designated caregiver, and are limited to pediatric medical marijuana.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
+    "public_use": {"value": "There is no legal recreational use. Patients may not use cannabis on school grounds or buses, at school events, in correctional or child care facilities, or where smoke or vapor would reach a minor, and the state smoke-free law applies.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: driving under the influence of marijuana is illegal, but North Dakota has no THC per se limit, and a registered patient is not considered impaired solely because of metabolites too low to cause impairment.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"},
+    "tourists": {"value": "Medical patients only. Nonresidents with a valid medical card from their home state can apply for a North Dakota registry card, valid for 60 days, using that card in place of a written certification; there are no adult-use sales.", "source": "https://www.ndlegis.gov/cencode/t19c24-1.pdf", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2016-11-08", "event": "Voters approve Initiated Statute Measure 5, creating the medical cannabis program", "source": "https://mpp.org/nd"},
@@ -37,6 +41,9 @@
     {"name": "Marijuana Policy Project, North Dakota", "url": "https://mpp.org/nd"},
     {"name": "NORML, North Dakota laws and penalties", "url": "https://norml.org/laws/north-dakota-laws-and-penalties"},
     {"name": "Ballotpedia, North Dakota Measure 5 (2024)", "url": "https://ballotpedia.org/North_Dakota_Marijuana_Legalization_Initiative_(2024)"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

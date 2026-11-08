@@ -19,7 +19,10 @@
     "purchase_age": {"value": "21 and older.", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)", "as_of": "2026-11-07"},
     "retail_sales": {"value": "Adult-use sales began in December 2022 through existing medical compassion centers with hybrid licenses; additional retail licenses are being awarded by lottery.", "source": "https://www.mpp.org/states/rhode-island", "as_of": "2026-11-07"},
     "taxes": {"value": "10% cannabis retail excise tax plus the 7% state sales tax and a 3% local tax.", "source": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)", "as_of": "2026-11-07"},
-    "regulator": {"value": "Rhode Island Cannabis Control Commission (CCC).", "source": "https://ccc.ri.gov/", "as_of": "2026-11-07"}
+    "regulator": {"value": "Rhode Island Cannabis Control Commission (CCC).", "source": "https://ccc.ri.gov/", "as_of": "2026-11-07"},
+    "public_use": {"value": "The law does not authorize smoking or vaping cannabis in any public place; it is banned wherever tobacco smoking or vaping is banned and wherever a rule or local ordinance prohibits it.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Rhode Island's former 'any amount' drug provision was deleted in 2021, so prosecutors must show cannabis impaired the driver, often through a drug recognition expert. A legal right to use cannabis is no defense.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE31/31-27/31-27-2.htm", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Adults 21+ may buy up to 1 ounce of cannabis, or the equivalent in concentrate, from licensed retailers; the law sets no residency requirement.", "source": "https://webserver.rilegislature.gov/Statutes/TITLE21/21-28.11/21-28.11-22.htm", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2006", "event": "Hawkins-Slater Medical Marijuana Act creates the medical program", "source": "https://www.mpp.org/states/rhode-island"},
@@ -39,6 +42,9 @@
     {"name": "Rhode Island Cannabis Control Commission", "url": "https://ccc.ri.gov/"},
     {"name": "Marijuana Policy Project, Rhode Island", "url": "https://www.mpp.org/states/rhode-island"},
     {"name": "Marijuana Policy Project, Summary of the Rhode Island Cannabis Act", "url": "https://mpp.org/states/rhode-island/summary-of-the-rhode-island-cannabis-act-(s-2430/h-7593)"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

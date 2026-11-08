@@ -46,6 +46,36 @@
       "value": "SB 33 (signed May 11, 2026) bans selling hemp products whose total THC or other intoxicating cannabinoids exceed 0.3%.",
       "source": "https://www.jdsupra.com/legalnews/georgia-passes-new-laws-regulating-hemp-7616979/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based in practice: the statute bans driving with any marijuana in the blood or urine, but the Georgia Supreme Court held that rule unconstitutional as applied in Love v. State (1999), so cases turn on proof the driver was impaired.",
+      "source": "https://law.justia.com/cases/georgia/supreme-court/1999/s99a0509-1.html",
+      "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount for the general public. Registered patients and caregivers may possess medical cannabis products containing up to 12,000 mg of THC in total.",
+      "source": "https://dph.georgia.gov/low-thc-oil-registry",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only: Georgia residents 18 and older with a qualifying condition register as patients; patients under 18 are registered through a parent, guardian or legal custodian.",
+      "source": "https://dph.georgia.gov/low-thc-oil-registry",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Public use of medical cannabis is banned, as is smoking. SB 220 allows patients over 21 to vaporize approved products.",
+      "source": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Limited. There are no adult-use sales, but visitors holding a medical registration card from a state with equivalent rules may possess up to 12,000 mg of THC in medical products; the card stops counting once they have been in Georgia 45 days or more.",
+      "source": "https://www.legis.ga.gov/api/legislation/document/20252026/247231",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed, including for registered patients and caregivers.",
+      "source": "https://www.mpp.org/states/georgia/georgia-medical-cannabis-law-summary/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -70,6 +100,9 @@
     {"name": "Marijuana Policy Project - Georgia", "url": "https://www.mpp.org/states/georgia/"},
     {"name": "NORML - Georgia expands patients' access (May 2026)", "url": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/"},
     {"name": "JD Supra - Georgia passes new laws regulating hemp and medical cannabis", "url": "https://www.jdsupra.com/legalnews/georgia-passes-new-laws-regulating-hemp-7616979/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

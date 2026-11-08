@@ -12,7 +12,12 @@
     "penalties": {"value": "First-time possession of any amount is a Class B misdemeanor punishable by up to 6 months in jail and a fine of up to $1,000.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
     "medical_program": {"value": "None. Claire and Lola's Law (SB 28, 2019) gives an affirmative defense for possessing CBD oil with up to 5% THC, which prevents conviction but not arrest, and does not permit sales or production.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
     "retail_sales": {"value": "No legal marijuana sales of any kind.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "CBD products with little to no THC are generally sold legally. New federal hemp limits, most of which take effect on 11 December 2026, are expected to remove most consumable hemp-derived THC products from shelves.", "source": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "CBD products with little to no THC are generally sold legally. New federal hemp limits, most of which take effect on 11 December 2026, are expected to remove most consumable hemp-derived THC products from shelves.", "source": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "No legal purchase of marijuana for any age; there are no licensed adult-use or medical marijuana sales.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "public_use": {"value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "tourists": {"value": "No. There are no legal marijuana sales, out-of-state medical cards are not recognized, and visitors face the same possession penalties as residents.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; there is no legal way to grow marijuana in Kansas.", "source": "https://www.mpp.org/states/kansas/", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: Kansas has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2019", "event": "Claire and Lola's Law (SB 28) creates an affirmative defense for low-THC CBD oil", "source": "https://www.mpp.org/states/kansas/"},
@@ -30,6 +35,9 @@
     {"name": "Marijuana Policy Project – Kansas", "url": "https://www.mpp.org/states/kansas/"},
     {"name": "High Plains Public Radio", "url": "https://www.hppr.org/hppr-news/2025-12-23/cbd-shops-across-kansas-could-have-to-close-after-a-change-to-federal-hemp-law"}
   ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07",
-  "page_status": "partial"
+  "page_status": "complete"
 }

@@ -43,6 +43,31 @@
       "value": "Possessing 3/4 ounce or less is a civil violation punishable by a fine (since HB 640 in 2017), not a crime; transporting cannabis outside the trunk can bring a $150 fine.",
       "source": "https://www.mpp.org/new-hampshire",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount for adults without a card; possessing 3/4 ounce or less is a civil violation. Patients may buy no more than 2 ounces in any 10-day period, and visiting patients may possess up to 2 ounces.",
+      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only; there are no adult-use sales. Minors under 18 can be certified as patients, including by pediatric care providers.",
+      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: New Hampshire has no THC per se limit. Unsealed cannabis in a vehicle must be kept in the trunk, though registered patients' therapeutic cannabis is exempt from the open container law.",
+      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Medical patients only. Visitors allowed to use cannabis therapeutically in their home state or province can buy at Alternative Treatment Centers by showing that card and matching photo ID, up to 2 ounces per 10 days; there are no adult-use sales.",
+      "source": "https://www.dhhs.nh.gov/programs-services/population-health/therapeutic-cannabis",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "There is no legal recreational use. Patients may not smoke or vaporize cannabis in a public place, including public buses and other public vehicles, parks, beaches and fields.",
+      "source": "https://www.mpp.org//assets/pdf/states/new-hampshire/an-overview-of-new-hampshires-medical-marijuana-law.pdf",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -108,6 +133,9 @@
       "name": "NHPR, marijuana legislation in New Hampshire",
       "url": "https://www.nhpr.org/nh-news/2025-12-26/marijuana-legislation-policy-new-hampshire"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

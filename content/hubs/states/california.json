@@ -66,6 +66,16 @@
       "value": "Since Jan. 1, 2024, most employers may not penalize off-duty cannabis use or act on non-psychoactive metabolite drug tests (AB 2188 and SB 700), with exceptions such as construction jobs.",
       "source": "https://www.mpp.org/states/california/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: California has no THC per se limit, and officers can stop and test drivers they suspect of being under the influence of cannabis. Open containers of cannabis are illegal in a vehicle; it must be in a sealed package or the trunk.",
+      "source": "https://cannabis.ca.gov/consumers/whats-legal/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Any adult 21+ can buy adult-use cannabis at licensed retailers, with no state residency requirement; medical purchases require a physician's recommendation. Most hotels ban cannabis use in rooms.",
+      "source": "https://cannabis.ca.gov/consumers/whats-legal/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -92,6 +102,9 @@
     {"name": "Ballotpedia - California Proposition 64 (2016)", "url": "https://ballotpedia.org/California_Proposition_64,_Marijuana_Legalization_(2016)"},
     {"name": "California NORML - AB 564 tax rollback", "url": "https://www.canorml.org/rollbackthetax/"},
     {"name": "Marijuana Policy Project - California", "url": "https://www.mpp.org/states/california/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

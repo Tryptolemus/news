@@ -58,6 +58,16 @@
       "value": "Cannabis Regulatory Commission (CRC).",
       "source": "https://www.mpp.org/new-jersey",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: New Jersey has no THC per se limit, but its impaired-driving laws apply to cannabis.",
+      "source": "https://www.nj.gov/cannabis/adult-personal/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Anyone 21+, resident or visitor, can buy at licensed dispensaries, up to 1 ounce of flower, 4 grams of concentrate or 1,000 mg of edibles per transaction.",
+      "source": "https://www.nj.gov/cannabis/adult-personal/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -121,6 +131,9 @@
       "name": "Marijuana Policy Project, New Jersey",
       "url": "https://www.mpp.org/new-jersey"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

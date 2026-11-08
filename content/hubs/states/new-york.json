@@ -22,7 +22,9 @@
     "taxes": {"value": "9% state retail excise tax plus a 4% local excise tax paid by consumers, and a 9% wholesale excise tax paid by distributors.", "source": "https://cannabis.ny.gov/adult-use-information", "as_of": "2026-11-07"},
     "medical_program": {"value": "Since January 24, 2022, registered practitioners may certify patients for any condition they believe cannabis can help, rather than a fixed list.", "source": "https://mpp.org/ny", "as_of": "2026-11-07"},
     "regulator": {"value": "Office of Cannabis Management, overseen by the Cannabis Control Board.", "source": "https://cannabis.ny.gov/adult-use", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "Businesses that process, make or sell cannabinoid hemp products must hold a license from OCM's Cannabinoid Hemp Program.", "source": "https://cannabis.ny.gov/cannabinoid-hemp", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "Businesses that process, make or sell cannabinoid hemp products must hold a license from OCM's Cannabinoid Hemp Program.", "source": "https://cannabis.ny.gov/cannabinoid-hemp", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: New York has no THC per se limit, but driving under the influence of cannabis is a DUI. Open containers of cannabis are illegal in a vehicle, and no one may smoke cannabis in a car, moving or parked.", "source": "https://cannabis.ny.gov/adult-use-information", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Licensed dispensaries sell to adults 21+ with accepted ID, which includes driver's licenses from any U.S. state or Canadian province and passports from any country.", "source": "https://cannabis.ny.gov/consumers", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2014", "event": "Legislature enacts New York's first, restrictive medical cannabis law", "source": "https://mpp.org/ny"},
@@ -47,6 +49,9 @@
     {"name": "Office of the Governor, S.10113/A.11217 signing", "url": "https://www.governor.ny.gov/news/governor-hochul-signs-cannabis-bill-law-expanding-opportunities-microbusinesses-and"},
     {"name": "Marijuana Policy Project, New York", "url": "https://mpp.org/ny"},
     {"name": "Nixon Peabody", "url": "https://www.nixonpeabody.com/insights/alerts/2021/04/01/cuomo-signs-legislation-legalizing-adult-use-marijuana"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

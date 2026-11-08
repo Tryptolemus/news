@@ -33,6 +33,36 @@
       "value": "No legal marijuana sales; Wyoming lacks medical, decriminalization and legalization laws.",
       "source": "https://www.mpp.org/states/wyoming",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No amount of marijuana is legal to possess. Possessing 3 ounces or less is a misdemeanor (up to 12 months and/or a $1,000 fine); more is a felony.",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "No legal purchase of marijuana for any age; there are no licensed adult-use or medical marijuana sales.",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. There are no legal marijuana sales, out-of-state medical cards are not recognized, and visitors face the same possession penalties as residents.",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed; cultivating marijuana is a crime.",
+      "source": "https://norml.org/laws/wyoming-penalties-2/",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Wyoming has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -80,6 +110,9 @@
       "url": "https://mjbizdaily.com/wyoming-joins-states-that-ban-hemp-derived-thc/"
     }
   ],
-  "page_status": "partial",
+  "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

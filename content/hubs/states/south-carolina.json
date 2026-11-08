@@ -17,7 +17,11 @@
     "possession_limit": {"value": "No legal possession amount for marijuana under state law.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
     "penalties": {"value": "1 oz or less, first offense: misdemeanor, up to 30 days in jail and a $100 to $200 fine (pretrial diversion may be available). Subsequent offense: up to 1 year in jail.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
     "hemp_thc": {"value": "Hemp-derived THC drinks and edibles are sold without a state age limit or THC cap after a bill to restrict them failed in the House on June 25, 2026.", "source": "https://abcnews4.com/news/local/sc-bills-to-restrict-thc-products-strengthen-dui-laws-wont-be-revived-this-year", "as_of": "2026-11-07"},
-    "home_grow": {"value": "Not allowed; cultivating fewer than 100 plants is a felony punishable by up to 5 years and a $5,000 fine.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"}
+    "home_grow": {"value": "Not allowed; cultivating fewer than 100 plants is a felony punishable by up to 5 years and a $5,000 fine.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "No legal purchase of marijuana for any age; there are no licensed adult-use or medical marijuana sales.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
+    "public_use": {"value": "Not allowed anywhere: there is no legal recreational or medical marijuana use, so using it in public or private can lead to possession charges.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
+    "tourists": {"value": "No. There are no legal marijuana sales, out-of-state medical cards are not recognized, and visitors face the same possession penalties as residents.", "source": "https://norml.org/laws/south-carolina-penalties-2/", "as_of": "2026-11-07"},
+    "dui": {"value": "Impairment-based: South Carolina has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "1980", "event": "Controlled Substances Therapeutic Research Act allows state-supplied cannabis for certain cancer and glaucoma patients", "source": "https://www.mpp.org/states/south-carolina"},
@@ -40,6 +44,9 @@
     {"name": "Marijuana Policy Project, South Carolina", "url": "https://www.mpp.org/states/south-carolina"},
     {"name": "NORML, South Carolina penalties", "url": "https://norml.org/laws/south-carolina-penalties-2/"},
     {"name": "ABC News 4", "url": "https://abcnews4.com/news/local/sc-bills-to-restrict-thc-products-strengthen-dui-laws-wont-be-revived-this-year"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

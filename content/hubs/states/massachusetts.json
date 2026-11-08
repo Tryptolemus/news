@@ -53,6 +53,21 @@
       "value": "Cannabis Control Commission (CCC).",
       "source": "https://www.mpp.org/massachusetts",
       "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Consuming cannabis in any form, including smoking, vaping or eating, is illegal in public places and on federal land; use is allowed in private residences, subject to landlord, employer and local policies.",
+      "source": "https://masscannabiscontrol.com/know-the-laws/",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Massachusetts has no THC per se limit, but driving under the influence of cannabis is illegal. An open container of marijuana in a car's passenger area can bring a civil fine of up to $500; keep it closed in the trunk or a locked glove box.",
+      "source": "https://masscannabiscontrol.com/know-the-laws/",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Visitors 21+ with a valid government ID can buy at adult-use stores, but must consume it in Massachusetts. Out-of-state residents cannot buy medical marijuana.",
+      "source": "https://masscannabiscontrol.com/know-the-laws/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -130,6 +145,9 @@
       "name": "Boston.com, Question 8 result",
       "url": "https://www.boston.com/news/local-news/2026/11/03/question-8-appears-to-fall-short-recreational-marijuana-sales-likely-to-remain-legal/"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

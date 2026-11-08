@@ -63,6 +63,16 @@
       "value": "Employers may still fire workers for lawful off-duty cannabis use; the state's off-duty conduct law does not cover it.",
       "source": "https://www.mpp.org/states/colorado/",
       "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Permissible inference: 5 ng/ml or more of active THC in whole blood lets a court infer impairment, and drivers can be charged at lower levels if impairment is observed. Drivers and passengers may not open cannabis packaging or use it in a vehicle.",
+      "source": "https://codot.gov/safety/impaired-driving/druggeddriving/faqs",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "Yes. Retail stores sell to adults 21+, with no residency requirement; a store may sell one person no more than 8 grams of concentrate per day.",
+      "source": "https://content.leg.colorado.gov/sites/default/files/Retail%20Marijuana%20-%20Colorado%20Law%20Summary-accessible.pdf",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -162,6 +172,9 @@
       "name": "Summit Daily / Post Independent - Colorado legalization timeline",
       "url": "https://www.postindependent.com/explore-summit/entertainment/a-look-back-the-timeline-of-the-marijuana-legalization-movement-in-colorado/"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

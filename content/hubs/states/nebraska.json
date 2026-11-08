@@ -43,6 +43,31 @@
       "value": "Not permitted; patients may not obtain raw cannabis under the Commission's rules.",
       "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount for most adults; a first offense for 1 ounce or less is a citation with a fine of up to $300. Qualified patients with a practitioner's declaration may possess up to 5 ounces under Initiative 437.",
+      "source": "https://www.mpp.org/nebraska",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "No legal purchase yet: adult-use sales are illegal, and as of 2026 no medical dispensaries had been licensed.",
+      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "There is no legal recreational use, and Medical Cannabis Commission rules ban smokable and vaporizable medical products.",
+      "source": "https://www.mpp.org/nebraska",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Nebraska has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. There are no legal cannabis sales in Nebraska yet, and visitors face the same possession penalties as residents.",
+      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -110,6 +135,9 @@
       "name": "Cannabis Market Cap, Commission approves regulations",
       "url": "https://cannabismarketcap.io/news/nebraska-finalizes-medical-cannabis-rules-after-year-long-regulatory-process"
     }
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

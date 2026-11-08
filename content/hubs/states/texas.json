@@ -48,6 +48,26 @@
       "value": "21 or older for hemp-derived THC products, with ID required for every sale at TABC-licensed retailers.",
       "source": "https://www.texastribune.org/2026/01/20/texas-tabc-hemp-rules-finalized/",
       "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "There is no legal recreational use. Compassionate Use Program patients may use only low-THC products; raw flower and smoking are prohibited.",
+      "source": "https://www.mpp.org/states/texas/hb46-expands-compassionate-use-program/",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Texas has no THC per se or zero-tolerance law, so a cannabis DWI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. There are no adult-use marijuana sales, and low-THC medical products are available only through the Compassionate Use Program, so visitors face the same possession penalties as residents.",
+      "source": "https://www.mpp.org/states/texas/hb46-expands-compassionate-use-program/",
+      "as_of": "2026-11-07"
+    },
+    "home_grow": {
+      "value": "Not allowed. Growing marijuana is prosecuted as possession, with penalties scaled by weight.",
+      "source": "https://texas.public.law/statutes/tex._health_and_safety_code_section_481.121",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -134,5 +154,8 @@
     }
   ],
   "page_status": "complete",
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+  ],
   "last_verified": "2026-11-07"
 }

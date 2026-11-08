@@ -51,6 +51,31 @@
       "value": "Amendment 3 (2024 adult-use) won 56% but needed 60%. The 2026 Smart & Safe Florida initiative failed to qualify after signatures were struck; the Florida Supreme Court declined review in March 2026.",
       "source": "https://www.insurancejournal.com/news/southeast/2026/03/11/861432.htm",
       "as_of": "2026-11-07"
+    },
+    "possession_limit": {
+      "value": "No legal amount without a Florida medical registry card. Registered patients may hold up to a 70-day supply, with no more than 4 ounces of smokable marijuana at a time, kept in its original packaging.",
+      "source": "https://www.flsenate.gov/Laws/Statutes/2025/381.986",
+      "as_of": "2026-11-07"
+    },
+    "purchase_age": {
+      "value": "Medical only. Patients must be on Florida's registry and caregivers must be 21+; smokable marijuana cannot be certified for patients under 18 unless they are terminally ill and a board-certified pediatrician concurs.",
+      "source": "https://www.flsenate.gov/Laws/Statutes/2025/381.986",
+      "as_of": "2026-11-07"
+    },
+    "public_use": {
+      "value": "Medical use is not allowed in any public place, on public transportation or in a vehicle, boat or aircraft, except for low-THC cannabis that is not smoked.",
+      "source": "https://www.flsenate.gov/Laws/Statutes/2025/381.986",
+      "as_of": "2026-11-07"
+    },
+    "dui": {
+      "value": "Impairment-based: Florida has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
+      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
+      "as_of": "2026-11-07"
+    },
+    "tourists": {
+      "value": "No. Only Florida residents can join the medical registry, including seasonal residents who live in the state at least 31 consecutive days a year; out-of-state medical cards are not accepted.",
+      "source": "https://www.flsenate.gov/Laws/Statutes/2025/381.986",
+      "as_of": "2026-11-07"
     }
   },
   "timeline": [
@@ -76,6 +101,9 @@
     {"name": "NCSL - State Medical Cannabis Laws", "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
     {"name": "Marijuana Policy Project - Florida", "url": "https://www.mpp.org/states/florida/"},
     {"name": "Insurance Journal / News Service of Florida - recreational marijuana effort fizzles (Mar. 2026)", "url": "https://www.insurancejournal.com/news/southeast/2026/03/11/861432.htm"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"

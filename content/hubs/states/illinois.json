@@ -18,7 +18,9 @@
     "taxes": {"value": "Purchaser excise tax: 10% on flower with 35% THC or less, 25% above 35% THC, and 20% on infused products. Add the 7% cultivation privilege tax, state and local sales tax, and optional county and municipal cannabis taxes. Medical cannabis is exempt from the excise tax.", "source": "https://tax.illinois.gov/research/taxinformation/other/cannabis-taxes.html", "as_of": "2026-11-07"},
     "medical_program": {"value": "Patients with a qualifying debilitating condition register with the Department of Public Health; there is a separate Opioid Alternative Patient Program. Medical purchases of a patient's adequate supply are exempt from local cannabis taxes from September 10, 2026.", "source": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html", "as_of": "2026-11-07"},
     "regulator": {"value": "IDFPR licenses dispensaries; cultivation centers, craft growers and infusers are licensed separately; and the Department of Public Health runs the medical registry. The Cannabis Regulation Oversight Office coordinates.", "source": "https://idfpr.illinois.gov/profs/adultusecan.html", "as_of": "2026-11-07"},
-    "hemp_thc": {"value": "SB 3222 (June 2026) bans intoxicating hemp sales to anyone under 21, brings intoxicating hemp under cannabis law, and requires child-resistant, non-kid-appealing packaging. Non-intoxicating CBD with under 0.4 mg THC may be sold outside the cannabis market.", "source": "https://capitolnewsillinois.com/news/new-regulations-on-intoxicating-hemp-are-long-overdue-pritzker-says/", "as_of": "2026-11-07"}
+    "hemp_thc": {"value": "SB 3222 (June 2026) bans intoxicating hemp sales to anyone under 21, brings intoxicating hemp under cannabis law, and requires child-resistant, non-kid-appealing packaging. Non-intoxicating CBD with under 0.4 mg THC may be sold outside the cannabis market.", "source": "https://capitolnewsillinois.com/news/new-regulations-on-intoxicating-hemp-are-long-overdue-pritzker-says/", "as_of": "2026-11-07"},
+    "dui": {"value": "Per se limit: 5 ng/ml of THC in whole blood or 10 ng/ml in another bodily substance within two hours of driving. Cannabis in a moving vehicle must be in a sealed, odor-proof, child-resistant container, and using it in a vehicle is banned.", "source": "https://cannabis.illinois.gov/about/faqs", "as_of": "2026-11-07"},
+    "tourists": {"value": "Yes. Non-residents 21+ may buy and possess up to 30 g of flower, 5 g of concentrate and 500 mg of THC in infused products, half the resident limits.", "source": "https://cannabis.illinois.gov/about/faqs", "as_of": "2026-11-07"}
   },
   "timeline": [
     {"date": "2013-08", "event": "Compassionate Use of Medical Cannabis Act authorizes the medical program", "source": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html"},
@@ -42,6 +44,9 @@
     {"name": "Illinois Department of Public Health – Medical Cannabis", "url": "https://dph.illinois.gov/topics-services/prevention-wellness/medical-cannabis.html"},
     {"name": "Capitol News Illinois", "url": "https://capitolnewsillinois.com/news/new-regulations-on-intoxicating-hemp-are-long-overdue-pritzker-says/"},
     {"name": "NORML", "url": "https://norml.org/news/2026/06/18/illinois-governor-signs-law-raising-adult-use-marijuana-possession-limits-expanding-expungement-opportunities-and-restricting-sales-of-hemp-derived-products/"}
+  ],
+  "changelog": [
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
   ],
   "last_verified": "2026-11-07",
   "page_status": "complete"
