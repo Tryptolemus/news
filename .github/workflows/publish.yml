@@ -8,6 +8,11 @@ on:
     branches: [main]
     paths: ["content/**", "newsroom/**", ".github/workflows/publish.yml"]
   workflow_dispatch:
+    inputs:
+      alert_latest:
+        description: "Also send push alerts and X-ready posts for the latest 9 stories (normally off: a manual run just rebuilds)"
+        type: boolean
+        default: false
   schedule:
     - cron: "20 22 * * 1-5"
 
@@ -89,7 +94,11 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ]; then
             files=""
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            files=$(ls content/articles/*.json | tail -n 9 | tr '\n' ' ')
+            if [ "${{ inputs.alert_latest }}" = "true" ]; then
+              files=$(ls content/articles/*.json | tail -n 9 | tr '\n' ' ')
+            else
+              files=""  # manual rebuild: never re-alert readers about old stories
+            fi
           elif [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$before" 2>/dev/null; then
             files=""  # unknown previous head: never re-post old stories
           else
