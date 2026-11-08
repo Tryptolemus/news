@@ -132,9 +132,11 @@ def stats(r):
 
 
 def table(rows, current=None):
+    def prof(sym):
+        return f' <a class="tk-prof" href="/company/{PROFILES[sym][0]}/">Profile</a>' if sym in PROFILES else ""
     body = "".join(
         f'<tr{" aria-current=true" if r["sym"] == current else ""}><th scope="row"><a href="/stocks/{r["sym"].lower()}/">{escape(r["name"])}</a>'
-        f'<span class="tk">{r["sym"]}</span></th><td>{money(r["price"])}</td><td class="{cls(r["chg"])}">{pct(r["chg"])}</td>'
+        f'<span class="tk">{r["sym"]}</span>{prof(r["sym"])}</th><td>{money(r["price"])}</td><td class="{cls(r["chg"])}">{pct(r["chg"])}</td>'
         f'<td class="{cls(r["m1"])}">{pct(r["m1"])}</td><td class="{cls(r["ytd"])}">{pct(r["ytd"])}</td><td class="sp">{spark(r)}</td></tr>'
         for r in rows)
     return ('<div class="stk-table-wrap"><table class="stk-table"><thead><tr><th scope="col">Company</th><th scope="col">Close</th><th scope="col">Day</th>'
@@ -144,6 +146,31 @@ def table(rows, current=None):
 SOURCE = ('<p class="stk-src">End-of-day closing prices from Yahoo Finance, in US dollars. '
           'This page is generated automatically from market data every trading day. It is not investment advice. '
           '<a href="/how-we-report/">How we report</a></p>')
+
+
+def profiles():
+    """Ticker symbol -> (company hub slug, short name, full name) for every company profile."""
+    import glob
+    from pathlib import Path
+    out, seen = {}, []
+    root = Path(__file__).resolve().parent.parent / "content" / "hubs" / "companies"
+    for f in sorted(root.glob("*.json")):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        slug = d["id"].split("/")[-1]
+        seen.append((slug, d.get("short_name") or d["name"], d["name"], [t["symbol"] for t in d.get("tickers", [])]))
+        for t in d.get("tickers", []):
+            out.setdefault(t["symbol"], (slug, d.get("short_name") or d["name"], d["name"]))
+    return out, seen
+
+
+PROFILES, ALL_COMPANIES = profiles()
+
+
+def profile_link(sym, cls="stk-profile"):
+    p = PROFILES.get(sym)
+    if not p:
+        return ""
+    return f'<p class="{cls}"><a href="/company/{p[0]}/">{escape(p[2])}: company profile &rarr;</a></p>'
 
 
 def share_row(url, text):
@@ -182,6 +209,13 @@ def x_posts(m):
     return out
 
 
+def companies_block():
+    lis = "".join(f'<li><a href="/company/{slug}/">{escape(full)}</a><span class="tk">{" · ".join(dict.fromkeys(syms))}</span></li>'
+                  for slug, short, full, syms in ALL_COMPANIES)
+    return (f'<section class="block stk-companies"><h2 class="sec-label"><a href="/company/">Company profiles</a></h2>'
+            f'<ul class="co-grid">{lis}</ul></section>')
+
+
 def build_stocks(arts, m):
     """Returns [(path, lastmod)] for the sitemap."""
     if not m:
@@ -217,6 +251,7 @@ def build_stocks(arts, m):
     <p class="stk-price"><b>{money(r["price"])}</b> <span class="{cls(r["chg"])}">{pct(r["chg"])}</span>
       <span class="meta">Close, {day(r["date"], True)}</span></p>
     {share_row(T.SITE + path, stock_post(r))}
+    {profile_link(r["sym"])}
   </header>
   {chart(r)}
   <div class="stk-cols">
@@ -259,7 +294,7 @@ def build_stocks(arts, m):
         render_stock_card(etf, og, og.with_suffix(".jpg"), title="Cannabis stocks today", kicker="MSOS · US cannabis ETF")
     body = (f'<div class="page-h"><h1>Cannabis stocks today</h1><p class="meta">Close {day(asof, True)} · updated every trading day</p>'
             f'{share_row(T.SITE + "/stocks/", "Cannabis stocks today: closing prices, charts and news.")}</div>'
-            f'<div class="story-body stk-lead">{lead}</div>{table(rows)}{ads.slot("stocks-index", 0, "list")}{SOURCE}')
+            f'<div class="story-body stk-lead">{lead}</div>{table(rows)}{companies_block()}{ads.slot("stocks-index", 0, "list")}{SOURCE}')
     ld = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "Cannabis stocks today", "url": T.SITE + "/stocks/", "dateModified": asof,
           "hasPart": [{"@type": "WebPage", "url": f'{T.SITE}/stocks/{r["sym"].lower()}/', "name": f'{r["name"]} ({r["sym"]})'} for r in rows]}
     T.ctx["write"]("stocks/index.html", T.page("Cannabis stocks today", body, path="/stocks/", active="Stocks",

@@ -77,6 +77,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     img = og_image or f"{SITE}/assets/og-default.png"
     nav = "".join(f'<a href="/section/{c.lower()}/"{" aria-current=page" if c == active else ""}>{c}</a>' for c in CATS)
     nav += f'<a href="/stocks/"{" aria-current=page" if active == "Stocks" else ""}>Stocks</a>'
+    nav += f'<a href="/company/"{" aria-current=page" if active == "Companies" else ""}>Companies</a>'
     nav += f'<a href="/legal/"{" aria-current=page" if active == "Laws" else ""}>Laws</a>'
     social = "".join(f'<a href="{u}" target="_blank" rel="noopener" aria-label="{n}"><img src="/assets/{i}.png" alt="" width="47" height="44"></a>' for i, u, n in SOCIAL)
     return f"""<!doctype html>

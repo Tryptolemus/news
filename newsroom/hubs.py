@@ -905,7 +905,7 @@ def company_page(h, arts):
                "dateModified": verified(h), "publisher": T.PUBLISHER, "mainEntity": {k: v for k, v in org.items() if k != "@context"}}
     extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (page_ld, crumbs_ld(crumbs), f_ld) if x)
     T.ctx["write"](h["_url"].strip("/") + "/index.html",
-                   T.page(title, body, desc=desc, path=h["_url"], extra_head=extra, active="Stocks",
+                   T.page(title, body, desc=desc, path=h["_url"], extra_head=extra, active="Companies",
                           robots=T.ROBOTS if complete(h) else "noindex, follow"))
 
 
@@ -942,7 +942,7 @@ def companies_index():
           "mainEntity": {"@type": "ItemList", "numberOfItems": len(cs), "itemListElement": [
               {"@type": "ListItem", "position": i + 1, "url": SITE + c["_url"], "name": c["name"]} for i, c in enumerate(cs)]}}
     extra = "".join(f'<script type="application/ld+json">{json.dumps(x)}</script>' for x in (il, crumbs_ld(crumbs)))
-    T.ctx["write"]("company/index.html", T.page(title, body, desc=desc, path="/company/", extra_head=extra, active="Stocks"))
+    T.ctx["write"]("company/index.html", T.page(title, body, desc=desc, path="/company/", extra_head=extra, active="Companies"))
     return max(verified(c) for c in cs)
 
 

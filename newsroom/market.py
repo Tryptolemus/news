@@ -31,6 +31,14 @@ TICKERS = [
      "A Canadian licensed producer of cannabis flower, vapes, pre-rolls and edibles."),
     ("ACB", "Aurora", "Aurora Cannabis", ["Aurora Cannabis"],
      "A Canadian cannabis company focused on medical cannabis in Canada and international markets."),
+    ("TRLV", "Trulieve", "Trulieve Cannabis", ["Trulieve"],
+     "A US medical cannabis operator listed on the New York Stock Exchange."),
+    ("CRON", "Cronos", "Cronos Group", ["Cronos Group"],
+     "A cannabis brand company with businesses in Canada, Israel and Germany."),
+    ("VFF", "Village Farms", "Village Farms International", ["Village Farms"],
+     "A greenhouse grower that now runs mainly cannabis businesses in Canada and Europe."),
+    ("JUSH", "Jushi", "Jushi Holdings", ["Jushi Holdings"],
+     "A vertically integrated US multi-state cannabis operator."),
 ]
 META = {t[0]: {"name": t[1], "full": t[2], "tags": t[3], "about": t[4]} for t in TICKERS}
 

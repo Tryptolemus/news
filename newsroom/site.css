@@ -519,8 +519,15 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
   .node-cta h2{font-size:22px}
 }
 
-/* stock pages: share row */
+/* stock pages: share row, company profile links */
 .stk-share{margin-top:12px}
+.stk-profile{margin-top:10px;font-family:var(--sans);font-weight:600;font-size:14.5px}
+.stk-profile a{color:var(--green)}
+.tk-prof{font-family:var(--sans);font-size:11.5px;font-weight:600;color:var(--green);margin-left:8px}
+.co-grid{list-style:none;margin:12px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0 24px}
+.co-grid li{display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--rule);font-family:var(--sans);font-weight:600;font-size:15px}
+.co-grid a{color:var(--fg)}
+.co-grid .tk{font-size:11px;margin:0;white-space:nowrap}
 
 /* alerts admin: Ready for X */
 .adm-x{margin-top:8px}
