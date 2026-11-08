@@ -708,3 +708,8 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
   .tracker.sales-t th{font-size:10.5px}
   .tracker.sales-t td::before{content:none}
 }
+
+/* by-state pages */
+.bys-t td.bys-nv{color:var(--meta);font-style:italic}
+.bys-t td.tr-long{max-width:520px;line-height:1.45}
+.bys-t td .src{white-space:nowrap}

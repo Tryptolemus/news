@@ -307,6 +307,8 @@ def main():
     global TOPICS
     TOPICS = T.build_topics(arts)
     HUB_URLS[:] = hubs.build(arts)
+    import bystate
+    HUB_URLS.extend(bystate.build(arts))  # /legal/us/<topic>-by-state/, /legal/us/by-state/, /data/cannabis-sales-by-state/
     import stocks
     STOCKS[:] = stocks.build_stocks(arts, T.ctx["market"])
     T.build_how()
