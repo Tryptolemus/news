@@ -23,7 +23,7 @@ SOCIAL = [("x", X_URL, "X"), ("telegram", "https://t.me/MetaFloraLabs", "Telegra
           ("discord", "https://discord.com/invite/BvsTfQZNzn", "Discord"), ("medium", "https://meta-flora.medium.com/", "Medium"),
           ("youtube", "https://www.youtube.com/@metafloralabs", "YouTube")]
 WORDMARK = ('<a class="wordmark" href="/" aria-label="MetaFlora News home">'
-            '<span class="wm-top"><img src="/assets/metaflora-cube-mark.png" alt="" width="111" height="120">'
+            '<span class="wm-top"><img src="/assets/metaflora-cube-mark-92.png" alt="" width="85" height="92">'
             '<span class="wm-text">METAFLORA</span></span><span class="wm-news">NEWS</span></a>')
 
 LOGO = f"{SITE}/assets/metaflora-news-logo.png"
@@ -55,21 +55,50 @@ SECTION_DESC = {
 
 ctx = {"market": None, "photo_path": lambda a: None, "write": None, "out": None, "edition_label": None}
 
-FONTS = ("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400"
-         "&family=Inter+Tight:wght@500;600;700&family=JetBrains+Mono:wght@500&display=swap")
+# Self-hosted WOFF2 subsets (newsroom/webfonts.py; @font-face at the top of site.css). Preload the faces every page
+# paints above the fold: Newsreader (H1 + body text: the LCP element on articles), Inter Tight (nav) and the wordmark.
+FONT_PRELOAD = "".join(f'<link rel="preload" href="/assets/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>'
+                       for f in ("newsreader", "inter-tight", "casanova-scotia"))
+
+_ABBR = re.compile(r"(?:\b(?:[A-Z]\.){1,3}|\b(?:Mr|Mrs|Ms|Dr|St|Jr|Sr|vs|No|Inc|Corp|Co|Ltd|Gov|Sen|Rep|approx|est|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.)$")
+
+
+def meta_desc(text, limit=155):
+    """Meta description that ends on a whole sentence: the longest run of full sentences within `limit` characters.
+    If the first sentence alone is too long, cut at the last clause break (; – , → full stop), else at the last whole
+    word (→ "…"); never mid-word."""
+    text = " ".join(str(text).split())
+    clipped = text.endswith(("…", "...")) and len(text) > 60   # arrived pre-cut by a caller: drop the broken tail
+    if len(text) <= limit and not clipped:
+        return text
+    head = text.rstrip(".…") + " " if clipped else text[:limit + 1]
+    best = 0
+    for m in re.finditer(r"""[.!?]['"’”)]?(?=\s)""", head):
+        end = m.end()
+        if end <= limit and not _ABBR.search(text[:end]):
+            best = end
+    if best >= 70:   # under ~70 characters a snippet is too thin: prefer a longer clause cut
+        return text[:best]
+    if clipped and len(text) <= limit:
+        return text
+    cut = text[:limit]
+    for brk in ("; ", " – ", " — ", ", "):
+        i = cut.rfind(brk)
+        if i >= 70:
+            return cut[:i].rstrip(" ,;:–—-") + "."
+    return cut[:limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:–—-(") + "…"
 
 COPY_JS = ("<script>document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){"
            "try{navigator.clipboard.writeText(b.dataset.copy).then(function(){b.textContent='Link copied'},function(){})}catch(e){}})});</script>")
 
 
-def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head="", active=None, dateline="", robots=ROBOTS):
+def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", extra_head="", active=None, dateline="", robots=ROBOTS,
+         canonical=True, feeds=()):
+    """canonical=False omits <link rel=canonical> (404 page). feeds: extra (title, url) RSS feeds to advertise, e.g. a section feed."""
     # brand suffix only where it fits in ~60 characters of search-result title
     full = "Cannabis News Today: Policy, Markets, Hemp & Laws · MetaFlora News" if title == NAME else (f"{title} · {NAME}" if len(title) <= 44 else title)
-    if len(full) > 68:  # search shows ~60-70 chars: cut at a word boundary rather than let Google truncate mid-word
-        full = full[:66].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
-    desc = " ".join(str(desc).split())
-    if len(desc) > 160:
-        desc = desc[:157].rsplit(" ", 1)[0].rstrip(",;:.") + "…"
+    # never cut the <title>: Google truncates by pixel width anyway, and a build-time cut only loses ranking words
+    desc = meta_desc(desc)
     if "application/ld+json" not in extra_head and "noindex" not in robots:
         extra_head += '<script type="application/ld+json">' + json.dumps({"@context": "https://schema.org", "@type": "WebPage", "name": title, "description": desc,
                                                                           "url": SITE + path, "isPartOf": {"@type": "WebSite", "name": NAME, "url": SITE + "/"},
@@ -88,8 +117,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <title>{escape(full)}</title>
 <meta name="description" content="{escape(desc)}">
 <meta name="robots" content="{robots}">
-<link rel="canonical" href="{SITE}{path}">
-<meta property="og:site_name" content="{NAME}">
+{f'<link rel="canonical" href="{SITE}{path}">' + chr(10) if canonical else ""}<meta property="og:site_name" content="{NAME}">
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="{kind}">
 <meta property="og:title" content="{escape(title)}">
@@ -111,8 +139,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/assets/icons/icon-192.png" type="image/png" sizes="192x192">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="/feed.xml">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="{FONTS}">
+{"".join(f'<link rel="alternate" type="application/rss+xml" title="{escape(t)}" href="{u}">' + chr(10) for t, u in feeds)}{FONT_PRELOAD}
 <link rel="stylesheet" href="/assets/site.css?v={CSS_VERSION}">
 {notify_site.head_tags(CSS_VERSION)}
 {extra_head}
@@ -131,7 +158,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
 </main>
 <footer class="foot"><div class="wrap">
   <section class="node-cta" aria-labelledby="node-cta-h">
-    <img src="/assets/metaflora-cube.png" alt="" width="337" height="363" loading="lazy">
+    <img src="/assets/metaflora-cube-128.png" alt="" width="128" height="138" loading="lazy" decoding="async">
     <div class="node-copy">
       <p class="node-k">The MetaFlora node network</p>
       <h2 id="node-cta-h">Help decentralize MetaFlora.</h2>
@@ -146,7 +173,7 @@ def page(title, body, desc=TAGLINE, path="/", og_image=None, kind="website", ext
     {WORDMARK}
     <nav class="foot-links" aria-label="About MetaFlora News">
       <a href="/about/">About</a><a href="/how-we-report/">How we report</a><a href="/corrections/">Corrections</a><a href="/advertise/">Advertise</a>
-      <a href="/stocks/">Cannabis stocks</a><a href="/legal/us/">Cannabis laws by state</a><a href="/explainers/">Explainers</a><a href="/company/">Cannabis companies</a><a href="/data/">Cannabis sales data</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
+      <a href="/stocks/">Cannabis stocks</a><a href="/legal/us/">Cannabis laws by state</a><a href="/explainers/">Explainers</a><a href="/company/">Cannabis companies</a><a href="/data/">Cannabis sales data</a><a href="/legal/us/by-state/">Cannabis laws: state by state</a><a href="/glossary/">Cannabis glossary</a><button type="button" class="foot-app" data-app-open aria-haspopup="dialog" aria-expanded="false" aria-controls="mfa-panel">Get the app</button><a href="/archive/">Archive</a><a href="/topic/">Topics</a><a href="/feed.xml">RSS</a><a href="https://metaflora.xyz">MetaFlora</a>
     </nav>
   </div>
   <div class="foot-bottom">
@@ -450,6 +477,7 @@ def build_sections(arts):
         body = f'<div class="page-h"><h1>{c}</h1><p class="meta">{len(items)} stories</p></div>{inner}'
         ctx["write"](f"section/{c.lower()}/index.html", page(f"{c} cannabis news", body, desc=SECTION_DESC.get(c, TAGLINE), path=f"/section/{c.lower()}/", active=c,
                                                              robots=ROBOTS if items else "noindex, follow",
+                                                             feeds=[(f"{NAME}: {c}", f"/section/{c.lower()}/feed.xml")],
                                                              extra_head=collection_ld(f"{c} cannabis news", f"/section/{c.lower()}/", items)))
 
 

@@ -1,14 +1,23 @@
 /* MetaFlora News — editorial system.
-   Newsreader (headlines/body) · Inter Tight (UI, kickers) · JetBrains Mono (times only).
+   Newsreader (headlines/body) · Inter Tight (UI, kickers) · JetBrains Mono (times and figures).
    #131313 ground, 1px #2a2a2a rules, no boxes, no radii on images. Lime only on the one button and NEWS in the nameplate.
    Green #7cd470 for kickers and link hover. Violet only on the pull-quote rule. Casanova Scotia only in the wordmark. */
-@font-face{font-family:"Casanova Scotia";src:url(fonts/CasanovaScotia.otf) format("opentype");font-display:swap}
+/* Self-hosted Latin subsets (newsroom/webfonts.py writes them; no third-party font requests).
+   Newsreader is variable: wght 400-600, opsz 12-72 (font-optical-sizing:auto). No italic file: italics are synthesised.
+   The "Fallback" faces are Georgia/Arial resized to the web fonts' metrics, so swapping in the web font does not move text. */
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader.woff2) format("woff2");font-weight:400 600;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+20AC,U+2122,U+2190-2193,U+2212}
+@font-face{font-family:"Inter Tight";src:url(fonts/inter-tight.woff2) format("woff2");font-weight:500 700;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+20AC,U+2122,U+2190-2193,U+2212}
+@font-face{font-family:"JetBrains Mono";src:url(fonts/jetbrains-mono-500.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+20AC,U+2122,U+2190-2193,U+2212}
+@font-face{font-family:"Casanova Scotia";src:url(fonts/casanova-scotia.woff2) format("woff2");font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2013-2014,U+2018-201A,U+201C-201E,U+2022,U+2026,U+20AC,U+2122,U+2190-2193,U+2212}
+@font-face{font-family:"Newsreader Fallback";src:local("Georgia");size-adjust:91.52%;ascent-override:80.31%;descent-override:28.95%;line-gap-override:0%}
+@font-face{font-family:"Inter Tight Fallback";src:local("Arial"),local("ArialMT");size-adjust:101.51%;ascent-override:95.43%;descent-override:23.76%;line-gap-override:0%}
+@font-face{font-family:"Casanova Fallback";src:local("Arial"),local("ArialMT");size-adjust:115.04%;ascent-override:72.83%;descent-override:17.74%;line-gap-override:0%}
 :root{
   --bg:#131313; --surface:#1a1a1b; --rule:#2a2a2a; --rule-strong:#f2f2f2;
   --fg:#f2f2f2; --body:#e6e6e6; --dek:#c9c9c9; --meta:#9a9a9a; --faint:#6f6f6f;
   --lime:#a3e635; --green:#7cd470; --violet:#a78bfa; --up:#7cd470; --down:#ef6b6b;
-  --serif:"Newsreader",Georgia,"Times New Roman",serif;
-  --sans:"Inter Tight","Helvetica Neue",Arial,sans-serif;
+  --serif:"Newsreader","Newsreader Fallback",Georgia,"Times New Roman",serif;
+  --sans:"Inter Tight","Inter Tight Fallback","Helvetica Neue",Arial,sans-serif;
   --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
   color-scheme:dark;
 }
@@ -37,7 +46,7 @@ p{margin:0}
 .wordmark:hover{text-decoration:none}
 .wm-top{display:flex;align-items:center;justify-content:center;gap:14px}
 .wordmark img{height:46px;width:auto}
-.wm-text{font-family:"Casanova Scotia",var(--sans);font-size:44px;line-height:1;color:var(--fg);letter-spacing:.04em;padding-top:3px}
+.wm-text{font-family:"Casanova Scotia","Casanova Fallback",var(--sans);font-size:44px;line-height:1;color:var(--fg);letter-spacing:.04em;padding-top:3px}
 .wm-news{display:flex;align-items:center;gap:16px;margin-inline:-28px;font-family:var(--sans);font-weight:700;font-size:12px;line-height:1;letter-spacing:.42em;color:var(--lime)}
 .wm-news::before,.wm-news::after{content:"";flex:1;height:1px;background:#3a3a3a}
 .wm-news::after{margin-left:-.42em}
@@ -346,7 +355,7 @@ a.mk-label:hover{color:var(--dek);text-decoration:none}
 .nad-copy{display:grid;align-content:center;gap:12px;padding:28px 30px}
 .nad-brand{display:flex;align-items:center;gap:8px}
 .nad-brand img{height:20px;width:auto}
-.nad-brand span{font-family:"Casanova Scotia",var(--sans);font-size:15px;letter-spacing:.06em;color:var(--fg);padding-top:2px}
+.nad-brand span{font-family:"Casanova Scotia","Casanova Fallback",var(--sans);font-size:15px;letter-spacing:.06em;color:var(--fg);padding-top:2px}
 .nad-h{font-family:var(--serif);font-weight:500;font-size:29px;line-height:1.12;color:var(--fg);letter-spacing:-.005em;text-wrap:balance}
 .nad-b{font-family:var(--sans);font-weight:500;font-size:15px;line-height:1.5;color:var(--dek);max-width:46ch}
 .nad-cta{justify-self:start;margin-top:4px;font-family:var(--sans);font-weight:700;font-size:14px;color:#0d0d0d;background:var(--lime);padding:9px 16px;border-radius:4px}

@@ -131,7 +131,7 @@ button{font:700 15px Helvetica,Arial,sans-serif;background:#a3e635;color:#0d0d0d
 SW_JS = """// MetaFlora News service worker: the installable app (offline page) and news alerts.
 // Network-first for pages with a small offline fallback; nothing else is cached, so readers always get fresh news.
 // Alerts are displayed here directly (Firebase's own worker hands them to an open tab, which would swallow them).
-const SHELL = "mfn-shell-v1";
+const SHELL = "mfn-shell-v2";
 const OFFLINE = "/offline/";
 const ORIGIN = self.location.origin;
 
@@ -139,12 +139,23 @@ self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll([OFFLINE, "/assets/icons/icon-192.png"])).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== SHELL).map((k) => caches.delete(k)))).then(() => self.clients.claim()));
+  e.waitUntil(Promise.all([
+    // navigation preload: the page request starts while the worker boots, so a returning reader never waits on it
+    self.registration.navigationPreload ? self.registration.navigationPreload.enable().catch(() => {}) : null,
+    caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== SHELL).map((k) => caches.delete(k)))),
+  ]).then(() => self.clients.claim()));
 });
 self.addEventListener("fetch", (e) => {
   const r = e.request;
   if (r.mode !== "navigate" || r.method !== "GET") return;   // only page loads; assets go straight to the network
-  e.respondWith(fetch(r).catch(() => caches.match(OFFLINE)));
+  e.respondWith((async () => {
+    try {
+      const pre = await e.preloadResponse;   // undefined when preload is off or unsupported
+      return pre || await fetch(r);
+    } catch (_) {
+      return caches.match(OFFLINE);
+    }
+  })());
 });
 
 self.addEventListener("push", (event) => {

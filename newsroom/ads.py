@@ -24,7 +24,7 @@ SHAPE_SLOTS = {"wide": {"article", "front", "list"},
                "card": {"end", "stock"},
                "native": {"article", "front", "list", "end", "stock"}}  # native ads lay out wide or as a card per slot
 CARD_SLOTS = {"end", "stock"}
-CUBE = '<span class="nad-brand"><img src="/assets/metaflora-cube-mark.png" alt="" width="111" height="120"><span>METAFLORA</span></span>'
+CUBE = '<span class="nad-brand"><img src="/assets/metaflora-cube-mark-92.png" alt="" width="85" height="92"><span>METAFLORA</span></span>'
 
 
 def native_art(ad, card):

@@ -165,7 +165,7 @@ def build_feeds(arts):
     # Google Search Console ownership (owner: gt.elysium@gmail.com). Never remove.
     write("google9150a2b1ed3521a0.html", "google-site-verification: google9150a2b1ed3521a0.html")
     write(".nojekyll", "")
-    write("404.html", page("Page not found", robots="noindex", desc="This page moved or never existed. Go to the MetaFlora News front page for the latest cannabis news.", body= '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html"))
+    write("404.html", page("Page not found", robots="noindex", desc="This page moved or never existed. Go to the MetaFlora News front page for the latest cannabis news.", body= '<div class="page-h"><h1>Page not found</h1><p class="dek">That page moved or never existed. <a href="/">Go to the front page</a>.</p></div>', path="/404.html", canonical=False))
 
 
 def relativize():
@@ -285,7 +285,10 @@ def main():
     assets = OUT / "assets"
     assets.mkdir(exist_ok=True)
     shutil.copy(ROOT / "newsroom" / "site.css", assets / "site.css")
-    shutil.copytree(ROOT / "newsroom" / "assets", assets, dirs_exist_ok=True)
+    # the site serves subset WOFF2 fonts only; the full .ttf/.otf sources stay in the repo for card.py/og.py/banner.py
+    shutil.copytree(ROOT / "newsroom" / "assets", assets, dirs_exist_ok=True, ignore=shutil.ignore_patterns("*.ttf", "*.otf"))
+    for stale in (assets / "fonts").glob("*.[ot]tf"):
+        stale.unlink()
     if IMAGES.exists():
         shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
     install_fonts()
