@@ -1,0 +1,117 @@
+{
+  "id": "dea-dc-dispensary-denial",
+  "edition": "2026-11-08-pm",
+  "rank": 1,
+  "published": "2026-11-08T18:09:31+02:00",
+  "cat": "Federal",
+  "headline": "DEA rejects D.C. medical dispensary, says no District operator qualifies",
+  "dek": "A DEA order says self-certified patients in Washington, D.C. breach US treaty duties, after a Minnesota denial; 3,298 dispensary bids are pending.",
+  "key_points": [
+    "The DEA has moved to deny a Washington, D.C.-area medical dispensary and says it cannot register any operator under the District's rules, because patients there can self-certify.",
+    "The agency rested the denial on the Single Convention's prescription requirement, the same treaty logic it used days earlier against a Minneapolis dual-license store.",
+    "The DEA's own list shows 6,083 pending medical applications, 3,298 of them dispensaries; about one in ten of those dispensaries sit in D.C., Minnesota, Missouri or Ohio, where license structures look similar.",
+    "Registered and pending operators must finish vetting their supply chains by 29 November or risk denial or revocation."
+  ],
+  "body": [
+    "The Drug Enforcement Administration has proposed to deny federal registration to a medical cannabis dispensary in the Washington, D.C. area, and its order goes further than the one store. According to a copy of the Order to Show Cause reported by MJBizDaily on 6 November, the agency said it cannot register any medical marijuana dispensary operating under the District's program, because D.C. lets patients self-certify their condition instead of obtaining a written recommendation.",
+    "It is the second documented denial since the DEA began issuing Schedule III registrations on 30 October, and the clearest statement yet of a rule the agency has applied without announcing it: where a state or district's medical program does not look like prescription medicine, its operators are outside the new federal framework, and outside the tax relief that comes with it. The DEA has not said how many applications it has rejected, in which states, or why.",
+    "## What the order says",
+    "The order ties the decision to international drug law. It cites the United States' obligations under the 1961 Single Convention on Narcotic Drugs, which requires medical prescriptions for dispensing controlled substances. Because the District allows dispensing without a written certification, the DEA said such dispensing violates that treaty duty. In the order's words, the agency \"cannot register any medical marijuana dispensary operating under the District of Columbia's regime.\"",
+    "That reasoning matters because it does not depend on anything the applicant did. The order does not allege diversion, missing inventory or a sale to the wrong customer. It rests on the design of the District's law. The DEA's list of timely applicants shows 24 pending dispensary applications from D.C., per MJBizDaily's count, all of which now look exposed to the same objection.",
+    "## The Minnesota precedent",
+    "The D.C. order follows a similar move against In-Dispensary, a Minneapolis store, which received an Order to Show Cause on 30 October, the same day the Justice Department announced the first wave of registrations. Law firm Vicente LLP, summarising that order, said the DEA gave three reasons: Minnesota lets one license serve both medical and adult-use customers, which the agency says lacks robust protection against diversion; it lets veterans join the patient registry without a practitioner's certification; and it allows artificially derived cannabinoids in medical products, which the DEA treats as synthetic THC still in Schedule I.",
+    "Minnesota's Office of Cannabis Management told the Star Tribune, as reported by GreenState, that the letter does not affect the availability of regulated cannabis in the state. Applicants who receive such an order can request a hearing and submit a corrective action plan by the deadline in the order, Vicente noted, but whether that leads to registration is unclear and may end up before a federal appeals court.",
+    "> The DEA is not grading companies so much as grading state laws, and some states are failing the test their operators cannot fix alone.",
+    "## Who is in, who is waiting",
+    "Every one of the more than 900 dispensaries registered so far is in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia or West Virginia, according to the Justice Department. Six of those states run medical-only programs; Virginia has legalised adult-use sales but has not started licensing them. The department's release said plainly that state licensure alone does not grant federal registration, and that applicants must operate under a framework consistent with federal law and treaty obligations.",
+    "The DEA's public list, as counted by MJBizDaily, still holds 6,083 pending applications from dispensaries, manufacturers and distributors across 40 states and Puerto Rico, including 3,298 dispensaries. The largest dispensary queues are in Oklahoma (939), California (491), Pennsylvania (181), Missouri (156), Maine (148) and Ohio (125).",
+    "By MetaFlora's count from those figures, dispensary applications from D.C. (24), Minnesota (26), Missouri (156) and Ohio (125) total 331, about 10% of everything pending. Missouri and Ohio issue licenses that cover both medical and adult-use sales, the feature the DEA objected to in Minnesota, according to analyses by GreenState and Cannabis.inc. Neither outlet has reported orders in those states, and the DEA has not said it will treat them the same way, but the logic of the Minnesota order would reach them.",
+    "California shows one way out. State regulators adopted emergency rules in June that let businesses split medical and adult-use licenses, and 95 have done so out of roughly 1,600 that may be eligible, GreenState reported.",
+    "## Why operators care: tax and trading partners",
+    "Registration is the gateway to the biggest financial prize of rescheduling. Treasury and the IRS have said Schedule III generally removes Section 280E as a bar to deductions for businesses that no longer traffic in Schedule I or II substances. Operators that cannot register stay on the wrong side of that line until broader rescheduling, which is still before a DEA administrative law judge.",
+    "There is also a nearer deadline. A DEA notice to timely applicants, summarised by Vicente, says registrants and pending applicants may trade Schedule III medical marijuana only with each other, and must verify their partners' status by 29 November 2026. Dealing with anyone outside that closed loop could be grounds for denial or revocation. A denied D.C. or Minnesota applicant drops out of that loop, which means its suppliers and buyers may need to cut it off.",
+    "## What to watch",
+    "Watch for hearing requests and corrective plans from the D.C. and Minnesota applicants, and whether any order reaches a federal appeals court. Watch for the second wave of registrations: if it skips states with combined licenses again, the pattern will be hard to read any other way. And watch 29 November, when the supply-chain verification deadline takes effect. MetaFlora reported the first registrations and the closed-loop trading rule on 6 November."
+  ],
+  "sources": [
+    {
+      "name": "MJBizDaily",
+      "url": "https://mjbizdaily.com/news/medical-cannabis-dispensary-rejected-for-dea-registration-as-more-federal-marijuana-rescheduling-details-emerge/619130/"
+    },
+    {
+      "name": "US Department of Justice press release, 30 October 2026",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+    },
+    {
+      "name": "Vicente LLP",
+      "url": "https://vicentellp.com/insights/dea-medical-cannabis-shake-ups-orders-to-show-cause-and-due-diligence-timeline-for-supply-chain/"
+    },
+    {
+      "name": "GreenState",
+      "url": "https://www.greenstate.com/news/dea-cannabis-registration-denial/"
+    },
+    {
+      "name": "Cannabis.inc",
+      "url": "https://cannabis.inc/article/dea-order-to-show-cause-in-dispensary-minneapolis-dual-license-minnesota-missouri-ohio"
+    },
+    {
+      "name": "MetaFlora News (DEA registrations)",
+      "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "DEA",
+    "sub": "DENIED",
+    "big": "3,298",
+    "label": "dispensary applications still pending at the DEA"
+  },
+  "banner": {
+    "title": "DEA Shuts Out D.C. Dispensaries",
+    "highlight": [
+      "D.C."
+    ],
+    "sub": "Self-certified patients break treaty rules, DEA says",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Order to Show Cause issued"
+      },
+      {
+        "icon": "doc",
+        "text": "3,298 dispensaries pending"
+      },
+      {
+        "icon": "shield",
+        "text": "29 Nov supply-chain deadline"
+      }
+    ],
+    "corner": [
+      "FEDERAL",
+      "MEDICAL",
+      "REGISTRATION",
+      "TREATY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-29",
+      "text": "DEA deadline for registrants and pending applicants to verify supply-chain partners"
+    }
+  ],
+  "tags": [
+    "DEA",
+    "Rescheduling",
+    "District of Columbia",
+    "Minnesota",
+    "Missouri",
+    "Ohio",
+    "Section 280E",
+    "Medical cannabis"
+  ],
+  "image_prompt": "A stack of official letters and a manila envelope on a plain office desk in a small medical dispensary back office, a closed laptop and a desk lamp, late afternoon window light.",
+  "image_alt": "Official letters and an envelope on a dispensary back-office desk",
+  "x_post": "The DEA says it cannot register any medical dispensary in Washington, D.C., because patients there self-certify. It is the second denial on state-law grounds; 3,298 dispensary applications are still pending.",
+  "breaking": false
+}

@@ -1,0 +1,97 @@
+{
+  "id": "cannabis-nb-q2",
+  "edition": "2026-11-08-pm",
+  "rank": 6,
+  "published": "2026-11-08T18:09:31+02:00",
+  "cat": "Markets",
+  "headline": "Cannabis NB sales rise 6.8% as $2 Tuesday pre-rolls pull in shoppers",
+  "dek": "New Brunswick's Crown cannabis retailer sold C$28.6 million in its second quarter and lifted net income 7.8%, reversing a weak first quarter.",
+  "key_points": [
+    "Cannabis NB's product sales rose 6.8% to C$28.6 million in the quarter to 27 September, with gross profit up 10.4% to C$13.9 million and net income up 7.8% to C$6.1 million.",
+    "Corporate store transactions reached 483,000, about 11% more than a year earlier, at an average ticket of C$54.24.",
+    "The turnaround follows a first quarter in which net income fell 20.4%, and the launch of $2 pre-rolls every Tuesday to compete with illicit stores.",
+    "Dried flower made up 51% of sales and concentrates 34%."
+  ],
+  "body": [
+    "Cannabis NB, the Crown corporation that runs New Brunswick's public cannabis stores, reported product sales of C$28.6 million for its second fiscal quarter, the three months to 27 September 2026, up 6.8% from a year earlier. Gross profit rose 10.4% to C$13.9 million and net income 7.8% to C$6.1 million, according to the agency's quarterly release.",
+    "The numbers mark a sharp turn from the first quarter, when sales slipped and profit fell by a fifth. The difference, management says, is a deliberate bet on cheaper products to win customers back from unregulated sellers, led by $2 pre-rolled joints sold every Tuesday.",
+    "## The numbers",
+    "Public store transactions reached 483,000 in the quarter, with an average ticket of C$54.24. CEO Lori Stickles told StratCann that traffic at corporate stores rose more than 11%, about 49,000 more transactions than a year earlier, and that the quarter beat both budget and last year's result.",
+    "Dried flower brought in C$14.5 million, or 51% of sales, up from C$13.3 million a year earlier. Concentrates rose to C$9.8 million (34%) from C$9.3 million. Edibles were C$2.1 million and all other categories C$2.3 million. Seeds, accessories and topicals declined.",
+    "Against the first quarter, the improvement is larger. Cannabis NB sold C$25.4 million in the quarter to 28 June, with net income of C$4.6 million and 433,000 transactions at an average of C$53.67, StratCann reported in August. By MetaFlora's arithmetic, second-quarter sales were about 13% higher than the first quarter and net income about 33% higher, with 50,000 more transactions and a slightly bigger average basket.",
+    "## The $2 strategy",
+    "Cannabis NB introduced the $2 Tuesday pre-roll at the end of its first quarter. Stickles told CBC News in August that the idea came after an unregulated store in Moncton offering the same deal was raided and closed in the spring, and that the agency saw many of that store's customers arrive at its own shops. The promotion sold 100,000 pre-rolls in its first month and 188,000 by August, CBC reported, and is now offered province-wide. The agency told StratCann it has also cut prices on vape cartridges.",
+    "Stickles had said earlier that she did not want to compete on price with the illicit market. The second quarter suggests the shift worked on volume without destroying margin: gross profit grew faster than sales.",
+    "> A provincial monopoly is now copying the illicit market's own promotion, and for one quarter at least, it paid.",
+    "## The wider picture",
+    "Cannabis NB operates 32 stores. Twelve private retail locations and eight farmgate retailers also sell in the province. In its 2025-26 fiscal year, the agency's total sales were C$101.0 million and it returned C$23.7 million to the province. That figure excludes New Brunswick's share of federal excise duty, C$0.75 per gram of dried flower equivalent, which the province collects directly and estimates at C$13.5 million for 2026-27.",
+    "Excise is a live issue for provincial retailers. As we reported on 7 November, Ottawa's 2026 budget would cut the number of cannabis excise stamps from 13 to six, with some provinces invited to opt in. Fewer stamp variations would simplify inventory for producers who supply several provinces.",
+    "Cannabis NB's performance also fits a broader pattern in Canadian retail: more transactions at lower prices, with customers trading down. In the first quarter the agency said shoppers were moving from dried flower to convenience products and spending less per visit, and that average whole-bud prices were down 2% year on year.",
+    "## What to watch",
+    "The third quarter, which runs to late December and covers the holiday season, will show whether the traffic gains hold once the promotion is no longer new. Watch also for Cannabis NB's next strategic plan, which CBC reported is due in 2027 after the first plan ended with many goals unmet, and for how the province responds to the federal excise stamp proposal."
+  ],
+  "sources": [
+    {
+      "name": "Cannabis NB Q2 results release",
+      "url": "https://www.cannabis-nb.com/contentassets/b3d688defea240bab1f5c3e39e8d5a5f/cnb---2nd-quarter-results---english.pdf"
+    },
+    {
+      "name": "StratCann (Q2)",
+      "url": "https://stratcann.com/financials/dried-flower-concentrates-2-pre-rolls-help-drive-cannabis-nb-sales-in-q2/"
+    },
+    {
+      "name": "StratCann (Q1)",
+      "url": "https://stratcann.com/news/cannabis-nb-sales-cool-2-pre-rolls/"
+    },
+    {
+      "name": "CBC News",
+      "url": "https://www.cbc.ca/news/canada/new-brunswick/cannabis-nb-new-strategic-plan-9.7304920"
+    },
+    {
+      "name": "MetaFlora News (Canada excise stamps)",
+      "url": "https://news.metaflora.xyz/2026/11/07/canada-excise-stamp/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "C$28.6M",
+    "label": "Cannabis NB product sales, second quarter"
+  },
+  "banner": {
+    "title": "Cheap Joints Lift Cannabis NB",
+    "highlight": [
+      "CANNABIS NB"
+    ],
+    "sub": "Q2 sales C$28.6M as $2 Tuesday pre-rolls draw traffic",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "Sales up 6.8%"
+      },
+      {
+        "icon": "coin",
+        "text": "Net income C$6.1M"
+      },
+      {
+        "icon": "pin",
+        "text": "483K store transactions"
+      }
+    ],
+    "corner": [
+      "CANADA",
+      "RETAIL",
+      "PRICES",
+      "PROVINCES"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Canada",
+    "Market data",
+    "Earnings"
+  ],
+  "image_prompt": "A small-town Canadian cannabis store at dusk seen from the parking lot, warm light from the windows, a customer's back walking in, wet pavement after rain.",
+  "image_alt": "Small-town cannabis store at dusk with a customer walking in",
+  "breaking": false
+}

@@ -1,0 +1,117 @@
+{
+  "id": "texas-hemp-appeal-reset",
+  "edition": "2026-11-08-pm",
+  "rank": 3,
+  "published": "2026-11-08T18:09:31+02:00",
+  "cat": "Hemp",
+  "headline": "Texas appeals court drops 8 December hemp hearing for new Democratic bench",
+  "dek": "Texas's 15th Court of Appeals cancelled arguments on state hemp THC rules after voters ousted all three justices; new judges start in January.",
+  "key_points": [
+    "The 15th Court of Appeals cancelled the 8 December oral argument in the hemp industry's challenge to Texas health department rules, saying the case will be reset at a later date.",
+    "All three Republican justices lost on 3 November; three Democrats take over in early January and will decide the appeal.",
+    "The rules, in force since 31 March, count THCA toward total THC and raised licence fees to $10,000 for manufacturers and $5,000 for retailers.",
+    "The federal total-THC definition takes effect on 11 December, weeks before the new court can hear the case."
+  ],
+  "body": [
+    "The Texas appeals court hearing the hemp industry's challenge to the state's THC rules has cancelled its 8 December oral argument and told lawyers the case will be reset at a later date. The move, first reported by Bloomberg Law and the Texas Tribune on 6 November, came three days after voters removed all three Republican justices on the 15th Court of Appeals and replaced them with Democrats who take office in early January.",
+    "For hemp retailers the practical effect is delay. The Texas Department of State Health Services rules that pulled smokable hemp from most shelves remain in force while the appeal waits for the new bench. The Texas Hemp Business Council, the lead plaintiff, said in a social media post quoted by WFAA that the case will now be heard by the new court in 2027 and that it is optimistic about the chance.",
+    "## Why the court stood down",
+    "The 15th Court of Appeals opened in 2024 with statewide jurisdiction over cases involving state laws and agencies. The 3 November vote was its first general election, and it flipped every seat. Chief Justice Scott Brister told the Texas Lawbook he did not think any appeals court had ever had all its judges replaced on one day.",
+    "Justice Scott Field explained the reasoning to Bloomberg Law: the outgoing court could not issue opinions on newly argued cases before the end of the year, and the new justices might want to hear argument themselves. The court is instead focusing on 39 cases that were already argued or submitted and are awaiting opinions. Three other December arguments were also cancelled, including two tax disputes brought by Comptroller Don Huffines and Attorney General Ken Paxton.",
+    "## What the rules do",
+    "The challenged rules took effect on 31 March. According to the Texas Tribune and the council's own summary of the lawsuit, they count THCA when calculating total delta-9 THC, which removed most smokable hemp flower from the legal market, and they restrict bringing some hemp ingredients into the state. They also set the purchase age at 21, added child-resistant packaging, labelling, testing and record-keeping requirements, and raised annual fees from $258 to $10,000 per manufacturing facility and from $155 to $5,000 per retail registration. Industry groups have said the fees amount to a ban for small shops.",
+    "A Travis County district judge temporarily blocked the rules on 10 April. The state appealed, which put the rules back in force, and the council's attempt to restore the injunction is what the 15th Court was due to hear. The underlying lawsuit, which argues the department exceeded the authority the legislature gave it, cannot go to trial until the appeal is decided. A trial set for 27 July did not go ahead for that reason.",
+    "> The new judges may be friendlier to hemp sellers, but the federal calendar runs faster than the Texas one.",
+    "## A new bench, the same federal deadline",
+    "The election result has raised hopes in the industry, as we reported on 7 November, when Democrat Vikki Goodwin's defeat of Lt. Gov. Dan Patrick, the main backer of a Texas THC ban, was read as a mandate for hemp access. A friendlier court is a second opening. But there is no sign the outgoing justices will rule before they leave, and a newly seated court will need time to schedule and decide a reset argument.",
+    "Meanwhile the federal clock keeps moving. Under a funding law signed in September, a new federal definition of hemp that counts total THC and caps finished products at 0.4 milligrams per container takes effect on 11 December, according to Marijuana Moment. That rule would make most THCA flower and intoxicating hemp products illegal nationwide, whatever a Texas court later decides about the state's own rules. The Texas legislature, which could rewrite the hemp program by statute, meets on 12 January.",
+    "By MetaFlora's count, the federal rule lands about four weeks before the new justices are seated and about a month before lawmakers convene. Unless Congress delays or replaces the federal ban, a win in the Texas appeal would mainly matter for the parts of the rules that go beyond federal law, such as licence fees and transport limits.",
+    "## What to watch",
+    "Watch for the new court's first scheduling orders in January and whether it resets argument quickly. Watch Congress before 11 December: Republican Rep. Morgan Griffith has floated putting a hemp regulatory bill into a lame-duck reconciliation package. And watch the 12 January start of the Texas legislative session, where Democrats who campaigned on THC access will have their first chance to act."
+  ],
+  "sources": [
+    {
+      "name": "The Texas Tribune",
+      "url": "https://www.texastribune.org/2026/11/06/texas-15th-court-appeals-arguments-cancel-hemp/"
+    },
+    {
+      "name": "Bloomberg Law",
+      "url": "https://news.bloomberglaw.com/litigation/texas-appeals-court-that-turned-blue-cancels-december-arguments"
+    },
+    {
+      "name": "The Texas Lawbook",
+      "url": "https://texaslawbook.net/triage-mode-15th-coa-cancels-four-oral-arguments-set-for-december/"
+    },
+    {
+      "name": "WFAA",
+      "url": "https://www.wfaa.com/article/money/business/texas-thc-ban-hearing-cancelled-following-midterm-election-15th-court-of-appeals/287-ab4e56c6-9fca-460b-99cb-d4d65404a802"
+    },
+    {
+      "name": "Texas Hemp Business Council (lawsuit status)",
+      "url": "https://texashempbusinesscouncil.com/thbc-v-dshs-where-the-lawsuit-stands/"
+    },
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/congress-should-put-hemp-thc-product-regulations-into-filibuster-proof-reconciliation-bill-after-elections-gop-lawmaker-says/"
+    },
+    {
+      "name": "MetaFlora News (Texas hemp outlook)",
+      "url": "https://news.metaflora.xyz/2026/11/07/texas-hemp-outlook/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "39",
+    "label": "argued cases the outgoing Texas court must finish"
+  },
+  "banner": {
+    "title": "Texas Hemp Case Waits",
+    "highlight": [
+      "HEMP"
+    ],
+    "sub": "Ousted justices hand THC rules appeal to new bench",
+    "divider": "Hemp desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "8 Dec hearing cancelled"
+      },
+      {
+        "icon": "doc",
+        "text": "Rules stay in force"
+      },
+      {
+        "icon": "leaf",
+        "text": "Federal ban due 11 Dec"
+      }
+    ],
+    "corner": [
+      "HEMP",
+      "TEXAS",
+      "COURTS",
+      "THCA"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "Federal total-THC hemp definition takes effect unless Congress acts"
+    },
+    {
+      "date": "2027-01-12",
+      "text": "Texas legislature convenes"
+    }
+  ],
+  "tags": [
+    "Texas",
+    "Hemp",
+    "Total THC",
+    "Courts",
+    "Hemp-derived THC",
+    "Midterms 2026"
+  ],
+  "image_prompt": "An empty appellate courtroom with wooden benches and a raised bench of three leather chairs, afternoon light through tall windows, dust in the air.",
+  "image_alt": "Empty appellate courtroom with three chairs behind the bench",
+  "x_post": "Texas's 15th Court of Appeals cancelled the 8 December hearing on the state's hemp THC rules after voters replaced all three justices. The new bench sits in January; the federal hemp ban lands 11 December.",
+  "breaking": false
+}

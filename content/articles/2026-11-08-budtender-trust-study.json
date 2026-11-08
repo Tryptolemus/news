@@ -1,0 +1,102 @@
+{
+  "id": "budtender-trust-study",
+  "edition": "2026-11-08-pm",
+  "rank": 5,
+  "published": "2026-11-08T18:09:31+02:00",
+  "cat": "Science",
+  "headline": "Cannabis users trust dispensary staff over doctors, NIDA-funded study finds",
+  "dek": "A survey of 1,023 US cannabis users rated dispensary staff 3.7 of 5 for trust, above doctors, though most still pick doctors for medical questions.",
+  "key_points": [
+    "In a NIDA-funded survey of 1,023 adults who used THC in the past month, dispensary staff scored 3.7 out of 5 for trust, ahead of friends (3.5) and healthcare providers (3.4).",
+    "For medical use, 55% picked healthcare providers as their most trusted source; for fun or relaxation, 47% picked dispensary staff and only 4% picked providers.",
+    "People who used cannabis for medical reasons were three times as likely to name dispensary staff rather than providers as their top source, after adjustment.",
+    "The authors call for cannabis training standards for clinicians; an NFL-funded study found team medical staff feel unqualified to advise athletes."
+  ],
+  "body": [
+    "People who use cannabis trust the person behind the dispensary counter more than their doctor, according to a study funded by the National Institute on Drug Abuse. In an online survey of 1,023 US adults who had used a THC product in the past month, dispensary staff were the most trusted of seven sources of cannabis information, ahead of friends and healthcare providers, while state and federal government officials and social media ranked lowest.",
+    "The paper, by Meredith Meacham and colleagues and published on 22 October in the journal Drugs: Education, Prevention and Policy, adds a twist: trust depends on why people use cannabis. For medical questions, a majority still turn to clinicians. For everything else, budtenders win by a wide margin. The authors read that as a gap in medical education, not a verdict on dispensaries.",
+    "## What the survey found",
+    "Participants rated each source on a scale from 1 (not at all) to 5 (a great deal). Dispensary staff averaged 3.7, friends 3.5 and healthcare providers 3.4. People in state and federal government both averaged 2.9, and people on social media and other sellers 2.6. The gap between dispensary staff and providers was statistically significant; friends and providers were statistically level.",
+    "Asked whom they trusted most for using cannabis medicinally, 55% chose healthcare providers and 20% dispensary staff. Asked about fun or relaxation, 47% chose dispensary staff, 37% friends and just 4% providers. For avoiding unwanted effects, a safety question, dispensary staff again led with 39%, against 28% for providers.",
+    "The most striking result runs against intuition. In the adjusted analysis, participants who used cannabis for medical reasons were significantly more likely to name dispensary staff as their most trusted source rather than healthcare providers, with an adjusted odds ratio of 3.00.",
+    "## The limits",
+    "The authors are clear about what the study cannot show. The sample came from an online research platform and is not representative of all cannabis users. The survey was run in 2024, answers were self-reported, and the trust questions were written by the authors rather than drawn from a validated scale. Participants were paid $10. Crucially, the study measured trust, not accuracy: it does not show whether advice from budtenders or doctors was correct, or whether anyone acted on it.",
+    "> For many patients the budtender is already the de facto clinician; the question is whether either side is trained for that job.",
+    "## A pattern in sport too",
+    "A separate study published in October in the journal Sports Health, partly funded by the pain management committee of the National Football League and its players' union, points to the same knowledge gap on the clinical side. Researchers at the University of Saskatchewan and the University of Regina interviewed 10 medical staff working with professional and college athletes. As reported by Marijuana Moment, most said they felt unqualified to advise athletes on cannabis because of limited education, and many avoided the subject altogether amid confusion over league rules. Several saw cannabis as safer than opioids for pain. The sample is very small, and the work is qualitative.",
+    "## Why it matters for the industry",
+    "The findings land as US medical cannabis moves into a federal framework. Dispensaries registered by the DEA under Schedule III now operate as federal registrants handling a controlled substance, with security, record-keeping and inventory duties. Yet the people customers trust most for advice are retail staff, not the clinicians the federal treaty framework assumes will guide medical use. That tension is likely to grow if more medical operators win registration.",
+    "It also bears on prices and expectations. In a separate poll of 654 consumers in legal states, run from 8 to 15 October by telehealth platform NuggMD, 74% said they expect companies to pass on rescheduling tax savings through lower prices, Marijuana Moment reported. Budtenders will be the ones fielding that question at the counter.",
+    "The Meacham study's authors aim their recommendation at medicine: core cannabis competencies and minimum knowledge standards in healthcare provider education. The paper does not examine training for dispensary staff, which the survey asked about only as a source of information.",
+    "## What to watch",
+    "Watch for state regulators and medical boards to respond with training requirements, on either side of the counter, and for follow-up studies that test the accuracy of advice rather than trust alone. Also watch whether the DEA's registration rules, which so far focus on security and supply chains, say anything about who may counsel patients."
+  ],
+  "sources": [
+    {
+      "name": "Drugs: Education, Prevention and Policy (Meacham et al., 2026)",
+      "url": "https://doi.org/10.1080/09687637.2026.2748012"
+    },
+    {
+      "name": "Marijuana Moment (trust study)",
+      "url": "https://www.marijuanamoment.net/marijuana-users-trust-dispensary-staff-more-than-doctors-or-the-government-for-cannabis-info-federally-funded-study-shows/"
+    },
+    {
+      "name": "Marijuana Moment (NFL-funded study)",
+      "url": "https://www.marijuanamoment.net/anti-marijuana-attitudes-in-sports-are-easing-up-but-ongoing-stigma-makes-athletic-trainers-jobs-harder-nfl-funded-study-shows/"
+    },
+    {
+      "name": "Marijuana Moment (NuggMD poll)",
+      "url": "https://www.marijuanamoment.net/three-out-of-four-consumers-expect-marijuana-businesses-to-lower-prices-as-federal-rescheduling-provides-tax-relief-poll-shows/"
+    },
+    {
+      "name": "Cannabis Professional",
+      "url": "https://cannabisprofessional.com/p/customers-trust-your-budtenders-more-than-their-healthcare-providers-now-what"
+    },
+    {
+      "name": "US Department of Justice press release, 30 October 2026",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "3.7/5",
+    "label": "average trust score for dispensary staff"
+  },
+  "banner": {
+    "title": "Budtenders Beat Doctors on Trust",
+    "highlight": [
+      "BUDTENDERS"
+    ],
+    "sub": "NIDA-funded survey of 1,023 US cannabis users",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Staff 3.7, doctors 3.4"
+      },
+      {
+        "icon": "shield",
+        "text": "55% pick doctors for medical"
+      },
+      {
+        "icon": "doc",
+        "text": "Authors urge clinician training"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "RETAIL",
+      "MEDICAL",
+      "TRUST"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Medical cannabis",
+    "DEA"
+  ],
+  "image_prompt": "A dispensary consultation counter seen from the customer side, a staff member's hands resting near a printed product guide and sealed sample jars, soft daylight, background out of focus.",
+  "image_alt": "Hands at a dispensary consultation counter beside a product guide and sealed jars",
+  "breaking": false
+}

@@ -1,0 +1,105 @@
+{
+  "id": "aurora-q2-exports",
+  "edition": "2026-11-08-pm",
+  "rank": 2,
+  "published": "2026-11-08T18:09:31+02:00",
+  "cat": "Markets",
+  "headline": "Aurora Cannabis export sales jump 44% on Germany and Poland demand",
+  "dek": "Aurora's international medical revenue hit a record C$61.4 million in its fiscal second quarter, now 71% of sales, as Organigram moves to buy the company.",
+  "key_points": [
+    "Aurora Cannabis grew net revenue 9% to C$86.0 million in the quarter to 30 September, with international medical sales up 44% to a record C$61.4 million.",
+    "Canadian medical revenue fell 24% to C$21.2 million after federal reimbursement changes on 1 April, and medical margins slipped to 62% from 69%.",
+    "Adjusted EBITDA was C$14.0 million and the company holds C$133.0 million of cash and short-term investments with no debt.",
+    "Aurora cancelled its 12 November call because of Organigram's C$7.80-a-share takeover, which is expected to go to a shareholder vote in December."
+  ],
+  "body": [
+    "Aurora Cannabis reported net revenue of C$86.0 million for its fiscal second quarter, the three months to 30 September 2026, up 9% from C$78.8 million a year earlier. The growth came almost entirely from abroad: international medical cannabis revenue rose 44% to a record C$61.4 million from C$42.7 million, which the Edmonton company attributed mainly to higher patient demand in Germany and Poland.",
+    "The results, released on 5 November, arrive in an unusual setting. Two days earlier Aurora agreed to be acquired by Organigram, and it has cancelled the investor call it had planned for 12 November. The numbers are effectively the last full look at Aurora as a standalone company before shareholders vote, and they show what both Organigram and Curaleaf, which still has a rival bid open, are competing for.",
+    "## An export business with a Canadian tail",
+    "By MetaFlora's arithmetic from the release, international medical sales made up about 71% of Aurora's revenue in the quarter, up from about 54% a year earlier. Total medical cannabis revenue rose 17% to C$82.5 million.",
+    "At home the picture is weaker. Canadian medical revenue fell 24% to C$21.2 million, which Aurora put down mainly to changes in the federal reimbursement program that took effect on 1 April 2026. Consumer cannabis, which Aurora is winding down to focus on medical sales, brought in just C$1.6 million against C$6.9 million a year ago, and was sold at reduced prices as inventory cleared.",
+    "## Margins under pressure",
+    "Growth did not come free. Adjusted gross margin before fair value adjustments on medical cannabis fell to 62% from 69%, which Aurora blamed on price compression from the reimbursement changes and competition. Consolidated adjusted gross margin slipped to 61% from 65%, though adjusted gross profit still edged up to C$52.3 million from C$51.2 million.",
+    "Adjusted SG&A rose to C$37.4 million from C$34.9 million, and adjusted EBITDA fell to C$14.0 million from C$15.4 million. The net loss from continuing operations narrowed to C$21.1 million from C$27.2 million, largely because the prior-year quarter carried C$13.7 million of impairment charges. Adjusted net income dropped to C$3.1 million from C$12.0 million, hit by C$4.7 million of unfavourable foreign exchange moves.",
+    "Cash use improved. Free cash flow was an outflow of C$17.5 million, against C$39.9 million a year earlier, mainly because Aurora put less into working capital. The company ended the quarter with C$133.0 million of cash, cash equivalents and short-term investments and no debt.",
+    "> Aurora's growth now depends on German and Polish pharmacies more than Canadian patients, and on European inspectors as much as on demand.",
+    "## How it compares",
+    "Aurora's international business dwarfs those of its Canadian peers. Canopy Growth, as we reported on 7 November, grew international cannabis revenue 141% to C$12.3 million in its own fiscal second quarter, also led by Germany and Poland. Aurora's international line was about five times that size. Both companies point to the same driver: EU-GMP certification, which lets Canadian flower enter European pharmacies.",
+    "That driver comes with risk. Germany's medical market has become crowded, with flower prices falling, and supply rules are tightening. In an analysis for Krautinvest on 6 November, Arnau Valdovinos noted that Hessen's inspectorate now requires flower released in the state to be dried and trimmed where it is harvested, and that most German states share that reading. He estimated Germany expects around 300 tonnes of medical cannabis imports in 2026, and that much of the supply chain relies on converting flower grown under lower standards. He also noted that Aurora's site in Leuna is certified by Saxony-Anhalt, which still allows simple pre-drying. A grower with its own EU-GMP processing at origin is better placed if the stricter reading spreads.",
+    "## The deal hanging over the numbers",
+    "Under the agreement announced on 3 November, Organigram will pay C$7.80 in cash, 5.8626 Organigram shares, or a mix of C$3.75 and 3.0431 shares for each Aurora share, subject to proration. Aurora says a special meeting to approve the deal is expected in December 2026 and that closing is expected in January 2027, subject to shareholder, court and regulatory approvals. As we reported on 6 November, the offer values Aurora at about C$561 million, and Curaleaf says its competing offer remains open.",
+    "These results strengthen the case that Aurora's value lies in its European medical channel. They also show the cost of keeping it: thinner margins and a shrinking Canadian base.",
+    "## What to watch",
+    "The joint information circular, which will set out the full terms and board reasoning, is due before the December meeting. Watch whether Curaleaf raises or withdraws its bid before the vote. And watch German supply rules: any wider move to require GMP processing at the place of harvest would reshape which exporters can keep shipping."
+  ],
+  "sources": [
+    {
+      "name": "Aurora Cannabis Q2 fiscal 2027 results (Business Wire)",
+      "url": "https://www.businesswire.com/news/home/20261105890209/en/Aurora-Cannabis-Announces-Fiscal-2027-Second-Quarter-Results"
+    },
+    {
+      "name": "Aurora Cannabis Form 6-K (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1683541/000162828026070546/form6-k20260930q22027.htm"
+    },
+    {
+      "name": "Krautinvest",
+      "url": "https://krautinvest.de/germanys-300-tonne-question-who-supplies-the-market-if-conversion-goes/"
+    },
+    {
+      "name": "MetaFlora News (Organigram-Aurora deal)",
+      "url": "https://news.metaflora.xyz/2026/11/06/aurora-deal/"
+    },
+    {
+      "name": "MetaFlora News (Canopy Growth and Cronos)",
+      "url": "https://news.metaflora.xyz/2026/11/07/canopy-cronos-germany/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "+44%",
+    "label": "Aurora international medical sales, year on year"
+  },
+  "banner": {
+    "title": "Aurora Exports Surge 44%",
+    "highlight": [
+      "44%"
+    ],
+    "sub": "Record C$61.4M abroad as Germany and Poland demand grows",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "globe",
+        "text": "71% of sales now abroad"
+      },
+      {
+        "icon": "coin",
+        "text": "C$133M cash, no debt"
+      },
+      {
+        "icon": "handshake",
+        "text": "Organigram vote in December"
+      }
+    ],
+    "corner": [
+      "EARNINGS",
+      "EXPORTS",
+      "GERMANY",
+      "MEDICAL"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Aurora Cannabis",
+    "Organigram",
+    "Curaleaf",
+    "Canopy Growth",
+    "Germany",
+    "Canada",
+    "Earnings",
+    "Medical cannabis"
+  ],
+  "image_prompt": "A pharmaceutical warehouse loading bay with sealed cardboard export cartons on a pallet, shrink wrap catching overhead light, a hand truck nearby, cold grey morning.",
+  "image_alt": "Sealed export cartons on a pallet in a pharmaceutical warehouse",
+  "x_post": "Aurora's sales abroad rose 44% to a record C$61.4M last quarter, now 71% of revenue, led by Germany and Poland. Canadian medical sales fell 24%. Shareholders vote on Organigram's offer in December.",
+  "breaking": false
+}
