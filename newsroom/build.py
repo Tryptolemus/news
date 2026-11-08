@@ -100,6 +100,10 @@ IMAGES = ROOT / "content" / "images"
 
 
 def photo_path(a):
+    # Story photos show on the site only when the PHOTOS_LIVE repo variable is 1 (Greg approves the look first);
+    # until then they are generated and kept in content/images for review, and stories keep the editorial card.
+    if os.environ.get("PHOTOS_LIVE") != "1":
+        return None
     p = IMAGES / f"{a['id']}.jpg"
     return p if p.exists() else None
 

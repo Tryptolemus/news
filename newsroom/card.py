@@ -155,18 +155,26 @@ def render_photo_card(a, photo, out_png, out_jpg=None):
     when there is no photo."""
     if not photo:
         return render_card(a, out_png, out_jpg)
-    import numpy as np
+    from PIL import ImageChops
     src = Image.open(photo).convert("RGB")
     s = max(W / src.width, H / src.height)
     src = src.resize((round(src.width * s), round(src.height * s)), Image.LANCZOS)
     left, top = (src.width - W) // 2, (src.height - H) // 2
     img = src.crop((left, top, left + W, top + H))
     # fade to #131313: from the left (0.94 -> 0.80 at 38% -> 0.15 at 72% -> 0) and from the bottom (0.85 -> 0 at 45%)
-    ax = np.interp(np.linspace(0, 1, W), [0, .38, .72, 1], [.94, .80, .15, 0])
-    ay = np.interp(np.linspace(0, 1, H), [0, .55, 1], [0, 0, .85])
-    alpha = 1 - (1 - ax[None, :]) * (1 - ay[:, None])
-    out = np.asarray(img, dtype=np.float32) * (1 - alpha[..., None]) + np.array(BG, dtype=np.float32) * alpha[..., None]
-    img = Image.fromarray(out.clip(0, 255).astype("uint8"))
+    def ramp(n, xs, ys):  # piecewise-linear 0..1 ramp sampled at n points
+        out = []
+        for i in range(n):
+            t = i / (n - 1)
+            for k in range(len(xs) - 1):
+                if xs[k] <= t <= xs[k + 1]:
+                    out.append(ys[k] + (ys[k + 1] - ys[k]) * (t - xs[k]) / (xs[k + 1] - xs[k]))
+                    break
+        return out
+    ax = Image.new("L", (W, 1)); ax.putdata([round(255 * (1 - v)) for v in ramp(W, [0, .38, .72, 1], [.94, .80, .15, 0])])
+    ay = Image.new("L", (1, H)); ay.putdata([round(255 * (1 - v)) for v in ramp(H, [0, .55, 1], [0, 0, .85])])
+    keep = ImageChops.multiply(ax.resize((W, H)), ay.resize((W, H)))  # share of the photo that shows through
+    img = Image.composite(img, Image.new("RGB", (W, H), BG), keep)
     d = ImageDraw.Draw(img)
     nameplate(img, d, 64, 52)
 
