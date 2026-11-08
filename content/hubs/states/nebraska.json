@@ -3,142 +3,48 @@
   "type": "us_state",
   "name": "Nebraska",
   "abbr": "NE",
-  "tags": [
-    "Nebraska"
-  ],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "limited",
-    "decriminalized": "partial"
-  },
+  "tags": ["Nebraska"],
+  "legal": {"adult_use": "illegal", "medical": "limited", "decriminalized": "partial"},
   "headline_status": "Medical cannabis is legal on paper after a 2024 vote, but no dispensaries are open; recreational use is illegal.",
   "summary": "Nebraska voters approved two medical cannabis initiatives in November 2024, one protecting qualified patients and one creating a regulatory commission. The Nebraska Medical Cannabis Commission has adopted restrictive rules that bar smokable flower and edibles, and as of spring 2026 no dispensaries or manufacturers were licensed and no sales had occurred. Adult-use cannabis remains illegal, though a first offense for an ounce or less is a citation with a fine.",
   "facts": {
-    "medical_since": {
-      "value": "Voters approved Initiatives 437 (70.7%) and 438 (67.0%) in November 2024.",
-      "source": "https://www.mpp.org/nebraska",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "Patients need a signed declaration from a licensed practitioner and may possess up to 5 ounces under Initiative 437; Commission rules prohibit raw cannabis, smokable or vaporizable products, and edibles.",
-      "source": "https://www.mpp.org/nebraska",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "None yet. As of April 2026, one of four cultivators had a variance, no manufacturers or dispensaries were licensed, and lawmakers had floated spring 2027 for first sales.",
-      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Nebraska Medical Cannabis Commission.",
-      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
-      "as_of": "2026-11-07"
-    },
-    "penalties": {
-      "value": "A first offense for 1 ounce or less is a citation with a fine of up to $300 and possible drug education; a second offense can bring up to 5 days in jail, and concentrates remain a felony.",
-      "source": "https://www.mpp.org/nebraska",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Not permitted; patients may not obtain raw cannabis under the Commission's rules.",
-      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "No legal amount for most adults; a first offense for 1 ounce or less is a citation with a fine of up to $300. Qualified patients with a practitioner's declaration may possess up to 5 ounces under Initiative 437.",
-      "source": "https://www.mpp.org/nebraska",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "No legal purchase yet: adult-use sales are illegal, and as of 2026 no medical dispensaries had been licensed.",
-      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "There is no legal recreational use, and Medical Cannabis Commission rules ban smokable and vaporizable medical products.",
-      "source": "https://www.mpp.org/nebraska",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based: Nebraska has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.",
-      "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "No. There are no legal cannabis sales in Nebraska yet, and visitors face the same possession penalties as residents.",
-      "source": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/",
-      "as_of": "2026-11-07"
-    }
+    "medical_since": {"value": "Voters approved Initiatives 437 (71.0%, 637,126 to 259,643) and 438 (67.3%, 600,481 to 291,867) on November 5, 2024, according to the Secretary of State's official canvass.", "source": "https://sos.nebraska.gov/sites/default/files/doc/elections/2024/2024%20General%20Canvass%20Book.pdf", "as_of": "2026-11-08"},
+    "medical_program": {"value": "Patients need a written recommendation from a licensed health care practitioner and may possess up to 5 ounces under Initiative 437. The Commission's permanent rules allow tablets, capsules, tinctures, topicals, suppositories, patches, nasal sprays and nebulizer or inhaler liquids; they prohibit raw plant material, smoked or vaped products, and cannabis-infused food or drink, and cap dispensary sales at 5 grams of total THC per patient every 90 days.", "source": "https://mcc.nebraska.gov/sites/default/files/medical_cannabis/Revised%20-%20238%20NAC%201%20DRAFT.3.31.pdf", "as_of": "2026-11-08"},
+    "retail_sales": {"value": "None yet. As of November 2026 the Commission was accepting only manufacturer license applications (through December 14, 2026), and dispensary applications had not opened, pending legislative action.", "source": "https://mcc.nebraska.gov/how-to-apply", "as_of": "2026-11-08"},
+    "regulator": {"value": "Nebraska Medical Cannabis Commission.", "source": "https://mcc.nebraska.gov/about-us", "as_of": "2026-11-08"},
+    "penalties": {"value": "A first offense for 1 ounce or less is a citation with a fine of up to $300 and possible drug education; a second offense can bring up to 5 days in jail, and concentrates remain a felony.", "source": "https://www.mpp.org/nebraska", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not permitted. Initiative 437 protects patients' use, possession and acquisition of cannabis but not cultivation, and Commission rules bar dispensaries from selling raw plant material.", "source": "https://sos.nebraska.gov/sites/default/files/doc/elections/Petitions/2024/Nebraska%20Medical%20Cannabis%20Patient%20Protection%20Initiative.pdf", "as_of": "2026-11-08"},
+    "possession_limit": {"value": "No legal amount for most adults; a first offense for 1 ounce or less is a citation with a fine of up to $300. Qualified patients with a practitioner's declaration may possess up to 5 ounces under Initiative 437.", "source": "https://www.mpp.org/nebraska", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "No legal purchase yet: adult-use sales are illegal, and as of November 2026 dispensary license applications had not opened.", "source": "https://mcc.nebraska.gov/how-to-apply", "as_of": "2026-11-08"},
+    "public_use": {"value": "There is no legal recreational use, and Medical Cannabis Commission rules ban smokable and vaporizable medical products.", "source": "https://mcc.nebraska.gov/sites/default/files/medical_cannabis/Revised%20-%20238%20NAC%201%20DRAFT.3.31.pdf", "as_of": "2026-11-08"},
+    "dui": {"value": "Impairment-based: Nebraska has no THC per se or zero-tolerance law, so a cannabis DUI requires evidence of impairment.", "source": "https://www.ncsl.org/transportation/drugged-driving-marijuana-impaired-driving", "as_of": "2026-11-07"},
+    "tourists": {"value": "No. There are no legal cannabis sales in Nebraska yet (dispensary applications had not opened as of November 2026), and visitors face the same possession penalties as residents.", "source": "https://mcc.nebraska.gov/how-to-apply", "as_of": "2026-11-08"}
   },
   "timeline": [
-    {
-      "date": "2024-11-05",
-      "event": "Voters approve medical cannabis Initiatives 437 and 438.",
-      "source": "https://www.mpp.org/nebraska"
-    },
-    {
-      "date": "2025-07-01",
-      "event": "Commission issues emergency rules by its statutory deadline, barring smokable cannabis and edibles.",
-      "source": "https://www.mpp.org/nebraska"
-    },
-    {
-      "date": "2026-04-01",
-      "event": "Legislature passes its first medical cannabis bill (46-2), setting license fees and background checks.",
-      "source": "https://nebraskapublicmedia.org/es/news/news-articles/legislature-makes-history-passes-nebraskas-first-bill-on-medical-cannabis/"
-    },
-    {
-      "date": "2026-04-14",
-      "event": "Commission approves comprehensive regulations, sending them to the Attorney General and Governor for review.",
-      "source": "https://cannabismarketcap.io/news/nebraska-finalizes-medical-cannabis-rules-after-year-long-regulatory-process"
-    }
+    {"date": "2024-11-05", "event": "Voters approve medical cannabis Initiatives 437 and 438.", "source": "https://www.mpp.org/nebraska"},
+    {"date": "2025-07-01", "event": "Commission issues emergency rules by its statutory deadline, barring smokable cannabis and edibles.", "source": "https://www.mpp.org/nebraska"},
+    {"date": "2026-04-01", "event": "Legislature passes its first medical cannabis bill (46-2), setting license fees and background checks.", "source": "https://nebraskapublicmedia.org/es/news/news-articles/legislature-makes-history-passes-nebraskas-first-bill-on-medical-cannabis/"},
+    {"date": "2026-04-14", "event": "Commission approves comprehensive regulations, sending them to the Attorney General and Governor for review.", "source": "https://cannabismarketcap.io/news/nebraska-finalizes-medical-cannabis-rules-after-year-long-regulatory-process"},
+    {"date": "2026-07-01", "event": "Permanent Medical Cannabis Commission rules (238 NAC 1) approved by the Attorney General (June 30) and the Governor (July 1).", "source": "https://mcc.nebraska.gov/rules-regulations"}
   ],
   "pending": [
-    {
-      "item": "LB 1235, a Commission-backed bill, would add patient and practitioner registration and expand the Commission's rulemaking power.",
-      "status": "Introduced in the 2026 session.",
-      "source": "https://www.mpp.org/nebraska"
-    },
-    {
-      "item": "Commission regulations approved April 14, 2026.",
-      "status": "Awaiting Attorney General and Governor review as of April 2026.",
-      "source": "https://cannabismarketcap.io/news/nebraska-finalizes-medical-cannabis-rules-after-year-long-regulatory-process"
-    }
+    {"item": "LB 1235, a Commission-backed bill, would add patient and practitioner registration and expand the Commission's rulemaking power.", "status": "Introduced in the 2026 session.", "source": "https://www.mpp.org/nebraska"}
   ],
   "faq": [
-    {
-      "q": "Is weed legal in Nebraska?",
-      "a": "Recreational cannabis is illegal. Medical cannabis was approved by voters in 2024, but no dispensaries were open as of spring 2026."
-    },
-    {
-      "q": "Can you buy medical marijuana in Nebraska yet?",
-      "a": "No. As of April 2026 no dispensaries were licensed, and officials had floated spring 2027 for first sales."
-    },
-    {
-      "q": "Is weed decriminalized in Nebraska?",
-      "a": "Partly. A first offense for an ounce or less is a citation with a fine of up to $300, but repeat offenses can bring jail and concentrates are a felony."
-    }
+    {"q": "Is weed legal in Nebraska?", "a": "Recreational cannabis is illegal. Medical cannabis was approved by voters in 2024, but no dispensaries were open as of spring 2026."},
+    {"q": "Can you buy medical marijuana in Nebraska yet?", "a": "No. As of November 2026 no dispensary had been licensed: the Commission was accepting manufacturer license applications through December 14, 2026, and dispensary applications had not opened."},
+    {"q": "Is weed decriminalized in Nebraska?", "a": "Partly. A first offense for an ounce or less is a citation with a fine of up to $300, but repeat offenses can bring jail and concentrates are a felony."}
   ],
   "sources": [
-    {
-      "name": "Marijuana Policy Project, Nebraska",
-      "url": "https://www.mpp.org/nebraska"
-    },
-    {
-      "name": "MJBizDaily, Nebraska market launch status (April 2026)",
-      "url": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/"
-    },
-    {
-      "name": "Nebraska Public Media, first medical cannabis bill",
-      "url": "https://nebraskapublicmedia.org/es/news/news-articles/legislature-makes-history-passes-nebraskas-first-bill-on-medical-cannabis/"
-    },
-    {
-      "name": "Cannabis Market Cap, Commission approves regulations",
-      "url": "https://cannabismarketcap.io/news/nebraska-finalizes-medical-cannabis-rules-after-year-long-regulatory-process"
-    }
+    {"name": "Marijuana Policy Project, Nebraska", "url": "https://www.mpp.org/nebraska"},
+    {"name": "MJBizDaily, Nebraska market launch status (April 2026)", "url": "https://mjbizdaily.com/news/first-nebraska-medical-cannabis-harvest-could-come-by-fall-but-market-launch-uncertain/615467/"},
+    {"name": "Nebraska Public Media, first medical cannabis bill", "url": "https://nebraskapublicmedia.org/es/news/news-articles/legislature-makes-history-passes-nebraskas-first-bill-on-medical-cannabis/"},
+    {"name": "Cannabis Market Cap, Commission approves regulations", "url": "https://cannabismarketcap.io/news/nebraska-finalizes-medical-cannabis-rules-after-year-long-regulatory-process"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 6: re-sourced 8 facts to primary sources; corrected Initiative 437/438 vote shares, retail sales status, medical program rules, home grow and purchase status; moved the approved rules from pending to the timeline and updated the FAQ"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

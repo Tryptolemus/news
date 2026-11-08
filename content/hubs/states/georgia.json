@@ -4,86 +4,29 @@
   "name": "Georgia",
   "abbr": "GA",
   "tags": ["Georgia"],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "comprehensive",
-    "decriminalized": "no"
-  },
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},
   "headline_status": "Recreational marijuana is illegal; registered patients can buy medical cannabis products, and a 2026 law removed the 5% THC cap.",
-  "summary": "Georgia began with a 2015 law letting registered patients possess low-THC oil, and the 2019 Hope Act created licensed production, with pharmacy and dispensary sales starting in summer 2023. In May 2026 Gov. Brian Kemp signed SB 220, which removes the 5% THC cap in favor of a 12,000 mg possession limit, allows vaporization for patients over 21 (smoking stays banned), and adds conditions such as lupus and inflammatory bowel disease. Recreational use remains illegal, and possessing an ounce or less is a misdemeanor that can bring up to a year in jail. A separate 2026 hemp law, SB 33, bans hemp products above 0.3% total THC.",
+  "summary": "Georgia began with a 2015 law letting registered patients possess low-THC oil, and the 2019 Hope Act created licensed production, and the first licensed dispensaries opened on April 28, 2023. In May 2026 Gov. Brian Kemp signed SB 220, which removes the 5% THC cap in favor of a 12,000 mg possession limit, allows vaporization for patients over 21 (smoking stays banned), and adds conditions such as lupus and inflammatory bowel disease. Recreational use remains illegal, and possessing an ounce or less is a misdemeanor that can bring up to a year in jail. Under the Georgia Hemp Farming Act, hemp products may not exceed 0.3% total delta-9 THC.",
   "facts": {
-    "medical_since": {
-      "value": "A 2015 law allowed registered patients to possess up to 20 fluid ounces of low-THC oil; the 2019 Hope Act (HB 324) authorized in-state production, and sales began in summer 2023.",
-      "source": "https://www.mpp.org/states/georgia/",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "Patients with a qualifying condition and a physician's certification join the Department of Public Health's registry. Under SB 220 (signed May 12, 2026) the 5% THC cap is gone, patients may hold up to 12,000 mg of THC, and qualifying out-of-state patients are recognized.",
-      "source": "https://www.mpp.org/states/georgia/",
-      "as_of": "2026-11-07"
-    },
-    "medical_product_forms": {
-      "value": "Oils, tinctures, capsules, lozenges, patches and lotions are allowed; SB 220 adds vaporization for patients over 21 once rules are in place. Smoking, cannabis-infused foods and public use remain banned.",
-      "source": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Medical-only. As of 2025, 63 independent pharmacies and 19 outlets run by vertically integrated licensees served about 33,300 active patients; six producers hold cultivation licenses.",
-      "source": "https://www.mpp.org/states/georgia/",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Georgia Access to Medical Cannabis Commission licenses producers and dispensaries; the Department of Public Health runs the patient registry.",
-      "source": "https://www.gmcc.ga.gov/",
-      "as_of": "2026-11-07"
-    },
-    "penalties": {
-      "value": "A first offense for possessing one ounce or less is a misdemeanor punishable by up to one year in jail. Some cities and counties have adopted local decriminalization ordinances.",
-      "source": "https://www.mpp.org/states/georgia/",
-      "as_of": "2026-11-07"
-    },
-    "hemp_thc": {
-      "value": "SB 33 (signed May 11, 2026) bans selling hemp products whose total THC or other intoxicating cannabinoids exceed 0.3%.",
-      "source": "https://www.jdsupra.com/legalnews/georgia-passes-new-laws-regulating-hemp-7616979/",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based in practice: the statute bans driving with any marijuana in the blood or urine, but the Georgia Supreme Court held that rule unconstitutional as applied in Love v. State (1999), so cases turn on proof the driver was impaired.",
-      "source": "https://law.justia.com/cases/georgia/supreme-court/1999/s99a0509-1.html",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "No legal amount for the general public. Registered patients and caregivers may possess medical cannabis products containing up to 12,000 mg of THC in total.",
-      "source": "https://dph.georgia.gov/low-thc-oil-registry",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "Medical only: Georgia residents 18 and older with a qualifying condition register as patients; patients under 18 are registered through a parent, guardian or legal custodian.",
-      "source": "https://dph.georgia.gov/low-thc-oil-registry",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Public use of medical cannabis is banned, as is smoking. SB 220 allows patients over 21 to vaporize approved products.",
-      "source": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Limited. There are no adult-use sales, but visitors holding a medical registration card from a state with equivalent rules may possess up to 12,000 mg of THC in medical products; the card stops counting once they have been in Georgia 45 days or more.",
-      "source": "https://www.legis.ga.gov/api/legislation/document/20252026/247231",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Not allowed, including for registered patients and caregivers.",
-      "source": "https://www.mpp.org/states/georgia/georgia-medical-cannabis-law-summary/",
-      "as_of": "2026-11-07"
-    }
+    "medical_since": {"value": "A 2015 law (HB 1, signed April 16, 2015) allowed registered patients to possess up to 20 fluid ounces of low-THC oil; the 2019 Georgia's Hope Act (HB 324) authorized licensed in-state production and dispensing, and the first two licensed dispensaries opened on April 28, 2023.", "source": "https://www.legis.ga.gov/api/document/docs/default-source/house-budget-and-research-office-document-library/newsandhighlights/2019/2019_policy_brief_low_thc_update.pdf", "as_of": "2026-11-08"},
+    "medical_program": {"value": "Patients with a qualifying condition and a physician's certification join the Department of Public Health's registry. Under SB 220 (signed May 12, 2026, effective July 1, 2026) the 5% THC cap is gone and patients may hold products containing up to 12,000 mg of THC; cards from other states with equivalent rules are recognized for visitors present fewer than 45 days.", "source": "https://gov.georgia.gov/document/2026-signed-legislation/sb-220/download", "as_of": "2026-11-08"},
+    "medical_product_forms": {"value": "Since July 1, 2026, licensed producers may make oils, tinctures, transdermal patches, lotions, capsules, ingestibles and vaporizer products, including flower for vaporization; each package is capped at 1,200 mg of THC. Smoking remains banned, as do cannabis candies and cookies.", "source": "https://www.gmcc.ga.gov/faqs", "as_of": "2026-11-08"},
+    "retail_sales": {"value": "Medical-only. Registered patients buy from dispensaries licensed by the Commission (28 active dispensing licenses as of November 4, 2026) or from independent pharmacies licensed by the Georgia Board of Pharmacy; six companies hold Class 1 or Class 2 production licenses.", "source": "https://www.gmcc.ga.gov/licensing/verify-a-license", "as_of": "2026-11-08"},
+    "regulator": {"value": "Georgia Access to Medical Cannabis Commission licenses producers and dispensaries; the Department of Public Health runs the patient registry.", "source": "https://www.gmcc.ga.gov/", "as_of": "2026-11-07"},
+    "penalties": {"value": "Possessing one ounce or less of marijuana is a misdemeanor punishable by up to 12 months in jail, a fine of up to $1,000, or both, or up to 12 months of public works.", "source": "https://law.justia.com/codes/georgia/title-16/chapter-13/article-1/section-16-13-2/", "as_of": "2026-11-08"},
+    "hemp_thc": {"value": "Under the Georgia Hemp Farming Act, hemp and hemp products may not exceed 0.3% total delta-9-THC, and consumable hemp products must carry a THC warning and a full-panel certificate of analysis.", "source": "https://agr.georgia.gov/sites/default/files/documents/assets/legal/ocga/ocga-georgia-hemp-farming-act_0.pdf", "as_of": "2026-11-08"},
+    "dui": {"value": "Impairment-based in practice: the statute bans driving with any marijuana in the blood or urine, but the Georgia Supreme Court held that rule unconstitutional as applied in Love v. State (1999), so cases turn on proof the driver was impaired.", "source": "https://law.justia.com/cases/georgia/supreme-court/1999/s99a0509-1.html", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount for the general public. Registered patients and caregivers may possess medical cannabis products containing up to 12,000 mg of THC in total.", "source": "https://dph.georgia.gov/low-thc-oil-registry", "as_of": "2026-11-07"},
+    "purchase_age": {"value": "Medical only: Georgia residents 18 and older with a qualifying condition register as patients; patients under 18 are registered through a parent, guardian or legal custodian.", "source": "https://dph.georgia.gov/low-thc-oil-registry", "as_of": "2026-11-07"},
+    "public_use": {"value": "Using medical cannabis in any public place is banned, as is smoking or combustion. Since SB 220 took effect on July 1, 2026, vaporization is allowed for patients over 21.", "source": "https://gov.georgia.gov/document/2026-signed-legislation/sb-220/download", "as_of": "2026-11-08"},
+    "tourists": {"value": "Limited. There are no adult-use sales, but visitors holding a medical registration card from a state with equivalent rules may possess up to 12,000 mg of THC in medical products; the card stops counting once they have been in Georgia 45 days or more.", "source": "https://www.legis.ga.gov/api/legislation/document/20252026/247231", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed, including for registered patients and caregivers; only businesses licensed by the Georgia Access to Medical Cannabis Commission may grow cannabis.", "source": "https://www.gmcc.ga.gov/faqs", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2015-04-16", "event": "Gov. Nathan Deal signs HB 1 letting registered patients possess low-THC oil", "source": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
     {"date": "2019", "event": "Gov. Brian Kemp signs the Hope Act (HB 324) authorizing in-state production", "source": "https://www.mpp.org/states/georgia/"},
     {"date": "2021", "event": "SB 195 adds tinctures, patches, lotions and capsules", "source": "https://www.mpp.org/states/georgia/"},
     {"date": "2023", "event": "Licensed medical cannabis sales begin in the summer", "source": "https://www.mpp.org/states/georgia/"},
-    {"date": "2026-05-11", "event": "SB 33 signed, banning hemp products above 0.3% total THC", "source": "https://www.jdsupra.com/legalnews/georgia-passes-new-laws-regulating-hemp-7616979/"},
     {"date": "2026-05-12", "event": "SB 220 signed, removing the 5% THC cap and allowing vaporization", "source": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/"}
   ],
   "pending": [],
@@ -91,19 +34,19 @@
     {"q": "Is weed legal in Georgia?", "a": "Recreational marijuana is illegal. Registered medical patients can buy and possess cannabis products from licensed pharmacies and dispensaries."},
     {"q": "Did Georgia remove the 5% THC limit?", "a": "Yes. SB 220, signed May 12, 2026, replaces the 5% cap with a 12,000 mg total THC possession limit for registered patients."},
     {"q": "Can medical patients smoke or vape cannabis in Georgia?", "a": "Smoking stays banned. SB 220 allows patients over 21 to vaporize approved products once state rules are in place."},
-    {"q": "What is the penalty for weed possession in Georgia?", "a": "Possessing an ounce or less is a misdemeanor that can bring up to a year in jail for a first offense, though some cities have local ordinances with lighter penalties."},
-    {"q": "Is delta-8 or hemp THC legal in Georgia?", "a": "SB 33, signed in May 2026, bans selling hemp products with more than 0.3% total THC or other intoxicating cannabinoids."}
+    {"q": "What is the penalty for weed possession in Georgia?", "a": "Possessing an ounce or less is a misdemeanor punishable by up to 12 months in jail, a fine of up to $1,000, or both."},
+    {"q": "Is delta-8 or hemp THC legal in Georgia?", "a": "Hemp products are legal if they stay within the Georgia Hemp Farming Act's limit of 0.3% total delta-9 THC and carry the required THC warning and certificate of analysis."}
   ],
   "sources": [
     {"name": "Georgia Access to Medical Cannabis Commission", "url": "https://www.gmcc.ga.gov/"},
     {"name": "NCSL - State Medical Cannabis Laws", "url": "https://www.ncsl.org/health/state-medical-cannabis-laws"},
     {"name": "Marijuana Policy Project - Georgia", "url": "https://www.mpp.org/states/georgia/"},
-    {"name": "NORML - Georgia expands patients' access (May 2026)", "url": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/"},
-    {"name": "JD Supra - Georgia passes new laws regulating hemp and medical cannabis", "url": "https://www.jdsupra.com/legalnews/georgia-passes-new-laws-regulating-hemp-7616979/"}
+    {"name": "NORML - Georgia expands patients' access (May 2026)", "url": "https://norml.org/blog/2026/05/13/georgia-expands-patients-access-to-medical-cannabis-products/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 6: re-sourced 8 facts to primary sources; corrected first-sale date (April 28, 2023), product forms, dispensary and producer counts and possession penalty; removed the unsupported SB 33 hemp claim and aligned summary, timeline and FAQ"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

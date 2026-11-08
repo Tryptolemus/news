@@ -4,79 +4,23 @@
   "name": "Arkansas",
   "abbr": "AR",
   "tags": ["Arkansas"],
-  "legal": {
-    "adult_use": "illegal",
-    "medical": "comprehensive",
-    "decriminalized": "no"
-  },
+  "legal": {"adult_use": "illegal", "medical": "comprehensive", "decriminalized": "no"},
   "headline_status": "Medical cannabis is legal for registered patients; recreational use remains illegal.",
   "summary": "Arkansas voters approved a medical cannabis constitutional amendment in 2016, and dispensary sales began in Hot Springs in May 2019; the program now serves more than 115,000 patients. Voters rejected adult-use legalization in 2022, and the state Supreme Court blocked the count on a 2024 medical expansion measure. Possessing up to four ounces without a card is a misdemeanor that can bring jail time. A 2023 law (Act 629) banning intoxicating hemp products such as delta-8 became enforceable after a federal appeals court ruling in June 2025.",
   "facts": {
-    "medical_since": {
-      "value": "Voters approved the medical cannabis amendment in 2016; first dispensary sales took place in May 2019.",
-      "source": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/",
-      "as_of": "2026-11-07"
-    },
-    "retail_sales": {
-      "value": "Medical-only. The first sales were at Doctors Orders Rx in Hot Springs in May 2019. No adult-use stores exist.",
-      "source": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/",
-      "as_of": "2026-11-07"
-    },
-    "medical_program": {
-      "value": "Patients with a physician certification apply online to the Department of Health for a registry card ($50 application or renewal). Visiting patients can get a 90-day card for $50. More than 115,000 patients are enrolled.",
-      "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
-      "as_of": "2026-11-07"
-    },
-    "regulator": {
-      "value": "Arkansas Department of Health issues patient cards; the Medical Marijuana Commission and Alcoholic Beverage Control oversee and license cultivators and dispensaries.",
-      "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
-      "as_of": "2026-11-07"
-    },
-    "penalties": {
-      "value": "Possessing up to four ounces without legal protection is a Class A misdemeanor carrying up to one year in jail and a fine up to $2,500, plus an automatic six-month driver's license suspension on conviction.",
-      "source": "https://www.mpp.org/states/arkansas/",
-      "as_of": "2026-11-07"
-    },
-    "hemp_thc": {
-      "value": "Act 629 of 2023 bans psychoactive hemp products such as delta-8 and delta-9 THC; the Eighth Circuit lifted an injunction against it on June 24, 2025, allowing enforcement.",
-      "source": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/",
-      "as_of": "2026-11-07"
-    },
-    "ballot_history": {
-      "value": "Adult-use legalization (Issue 4) failed in 2022, 56.3% to 43.7%. In October 2024 the state Supreme Court ruled votes on a medical expansion measure would not be counted.",
-      "source": "https://www.mpp.org/states/arkansas/",
-      "as_of": "2026-11-07"
-    },
-    "possession_limit": {
-      "value": "No legal amount for anyone without a registry card. Registered patients may possess up to 2.5 ounces of cannabis.",
-      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
-      "as_of": "2026-11-07"
-    },
-    "purchase_age": {
-      "value": "Medical only: patients need a written certification from an Arkansas-licensed physician and a state registry card. There is no adult-use market.",
-      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
-      "as_of": "2026-11-07"
-    },
-    "public_use": {
-      "value": "Patients may not possess or use cannabis in public places, schools, day care centers, treatment facilities or correctional facilities, and may not smoke it in a vehicle or near anyone under 14.",
-      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
-      "as_of": "2026-11-07"
-    },
-    "dui": {
-      "value": "Impairment-based: Arkansas has no THC per se or zero-tolerance law, but operating a vehicle under the influence of cannabis is illegal, including for patients.",
-      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
-      "as_of": "2026-11-07"
-    },
-    "tourists": {
-      "value": "Medical patients only. Visitors registered in another state's program can apply online for a 90-day visiting patient card for $50; there are no adult-use sales.",
-      "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana",
-      "as_of": "2026-11-07"
-    },
-    "home_grow": {
-      "value": "Not allowed; patients must buy from licensed dispensaries.",
-      "source": "https://mpp.org/states/arkansas/overview-arkansass-medical-marijuana-amendment",
-      "as_of": "2026-11-07"
-    }
+    "medical_since": {"value": "Voters approved the medical cannabis amendment in 2016; first dispensary sales took place in May 2019.", "source": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/", "as_of": "2026-11-08"},
+    "retail_sales": {"value": "Medical-only. The first sales were at Doctors Orders Rx in Hot Springs in May 2019. No adult-use stores exist.", "source": "https://www.dfa.arkansas.gov/wp-content/uploads/Est.OperationsReportUpload_.pdf", "as_of": "2026-11-08"},
+    "medical_program": {"value": "Patients with a physician certification apply online to the Department of Health for a registry card ($50 application or renewal). Visiting patients can get a 90-day card for $50. More than 115,000 patients are enrolled.", "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana", "as_of": "2026-11-07"},
+    "regulator": {"value": "Arkansas Department of Health issues patient cards; the Medical Marijuana Commission and Alcoholic Beverage Control oversee and license cultivators and dispensaries.", "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana", "as_of": "2026-11-07"},
+    "penalties": {"value": "Possessing up to four ounces without legal protection is a Class A misdemeanor carrying up to one year in jail and a fine up to $2,500, plus an automatic six-month driver's license suspension on conviction.", "source": "https://www.mpp.org/states/arkansas/", "as_of": "2026-11-07"},
+    "hemp_thc": {"value": "Act 629 of 2023 bans psychoactive hemp products such as delta-8 and delta-9 THC; the Eighth Circuit lifted an injunction against it on June 24, 2025, allowing enforcement.", "source": "https://arkansasag.gov/news-release/attorney-general-griffin-successfully-defends-arkansass-ban-on-dangerous-psychoactive-hemp-products/", "as_of": "2026-11-07"},
+    "ballot_history": {"value": "Adult-use legalization (Issue 4) failed in 2022, 56.3% to 43.7%. In October 2024 the state Supreme Court ruled votes on a medical expansion measure would not be counted.", "source": "https://www.mpp.org/states/arkansas/", "as_of": "2026-11-07"},
+    "possession_limit": {"value": "No legal amount for anyone without a registry card. Registered patients may possess up to 2.5 ounces of cannabis.", "source": "https://healthy.arkansas.gov/wp-content/uploads/Amendment_98_Sections_1-8.pdf", "as_of": "2026-11-08"},
+    "purchase_age": {"value": "Medical only: patients need a written certification from an Arkansas-licensed physician and a state registry card. There is no adult-use market.", "source": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/", "as_of": "2026-11-08"},
+    "public_use": {"value": "Patients may not possess or use cannabis in public places, schools, day care centers, treatment facilities or correctional facilities, and may not smoke it in a vehicle or near anyone under 14.", "source": "https://healthy.arkansas.gov/wp-content/uploads/Amendment_98_Sections_1-8.pdf", "as_of": "2026-11-08"},
+    "dui": {"value": "Operating a vehicle while under the influence of marijuana is illegal, including for registered medical patients.", "source": "https://healthy.arkansas.gov/wp-content/uploads/Amendment_98_Sections_1-8.pdf", "as_of": "2026-11-08"},
+    "tourists": {"value": "Medical patients only. Visitors registered in another state's program can apply online for a 90-day visiting patient card for $50; there are no adult-use sales.", "source": "https://www.healthy.arkansas.gov/programs-services/topics/medical-marijuana", "as_of": "2026-11-07"},
+    "home_grow": {"value": "Not allowed; patients must buy from licensed dispensaries.", "source": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana/faqs/", "as_of": "2026-11-08"}
   },
   "timeline": [
     {"date": "2016-11", "event": "Voters approve the medical cannabis constitutional amendment", "source": "https://www.mpp.org/states/arkansas/"},
@@ -102,8 +46,9 @@
     {"name": "MJBizDaily - Medical marijuana sales begin in Arkansas", "url": "https://mjbizdaily.com/medical-marijuana-sales-begin-in-arkansas/"}
   ],
   "changelog": [
-    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"}
+    {"date": "2026-11-07", "note": "Added DUI, visitor and public-use facts"},
+    {"date": "2026-11-08", "note": "Round 6: re-sourced 7 facts to primary sources; limited the DUI fact to what Amendment 98 states"}
   ],
-  "last_verified": "2026-11-07",
+  "last_verified": "2026-11-08",
   "page_status": "complete"
 }

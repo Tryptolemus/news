@@ -4,12 +4,328 @@
   "state": "New York",
   "regulator": "New York Office of Cannabis Management",
   "data_source": {
-    "name": "OCM 2025 Annual Report, Table 8: Annual Retail Sales by Program",
-    "url": "https://cannabis.ny.gov/system/files/documents/2025/12/ocm-annual-report_final-2025.pdf",
-    "notes": "New York does not publish a downloadable monthly sales series; OCM's Metrc 'Cannabis Market Landscape' dashboard shows monthly charts but no export. Annual figures are OCM chart labels (published in millions to one decimal, converted to whole dollars). The 2025 row covers January-November only (year to date). The Governor's office separately reported $1.41 billion in retail sales through Q3 2026 and more than $4.1 billion since December 2022; those totals are not broken out by program."
+    "name": "OCM Cannabis Control Board meeting presentations (monthly sales charts) and OCM's Metrc 'Cannabis Market Landscape' dashboard",
+    "url": "https://data-ny.metrc.com/cannabis-market-landscape",
+    "notes": "New York has no downloadable monthly sales file. Monthly rows are read from official charts: January 2023-November 2025 are adult-use sales self-reported by retailers, from the December 18, 2025 Cannabis Control Board deck (OCM rounds to $0.1 million; some months are marked with an asterisk in OCM's chart, with no legend on the slide). From January 2026 OCM moved to Metrc data: monthly totals (adult-use and medical combined) are the exact figures shown in OCM's Metrc-hosted Cannabis Market Landscape dashboard, and the adult-use/medical split is from OCM's July 2 and October 1, 2026 board presentations, so the split may not add exactly to the total. December 2025 is missing because no official source shows a full-month total. The break between self-reported adult-use data (to 2025) and Metrc adult-use plus medical data (2026) means the two periods are not strictly comparable. Annual figures are from the OCM 2025 Annual Report, Table 8 (2025 covers January-November)."
   },
   "sales_start": "2022-12",
-  "monthly": [],
+  "monthly": [
+    {
+      "month": "2023-01",
+      "adult_use": 2200000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-02",
+      "adult_use": 2800000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-03",
+      "adult_use": 3800000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-04",
+      "adult_use": 7500000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2023-05",
+      "adult_use": 6700000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-06",
+      "adult_use": 9100000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-07",
+      "adult_use": 16400000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-08",
+      "adult_use": 18000000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-09",
+      "adult_use": 23200000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2023-10",
+      "adult_use": 18400000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-11",
+      "adult_use": 19200000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2023-12",
+      "adult_use": 28000000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2024-01",
+      "adult_use": 24400000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-02",
+      "adult_use": 32100000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-03",
+      "adult_use": 44800000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2024-04",
+      "adult_use": 43300000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-05",
+      "adult_use": 48800000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-06",
+      "adult_use": 76700000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2024-07",
+      "adult_use": 73900000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-08",
+      "adult_use": 104500000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2024-09",
+      "adult_use": 93200000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-10",
+      "adult_use": 100200000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2024-11",
+      "adult_use": 136700000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2024-12",
+      "adult_use": 104800000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-01",
+      "adult_use": 99900000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-02",
+      "adult_use": 103000000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-03",
+      "adult_use": 136600000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2025-04",
+      "adult_use": 117600000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-05",
+      "adult_use": 149300000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2025-06",
+      "adult_use": 124500000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-07",
+      "adult_use": 131800000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-08",
+      "adult_use": 173000000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2025-09",
+      "adult_use": 134700000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-10",
+      "adult_use": 135400000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal)"
+    },
+    {
+      "month": "2025-11",
+      "adult_use": 176500000,
+      "medical": null,
+      "total": null,
+      "note": "OCM CCB meeting deck 2025-12-18, chart 'New York Cannabis Reported Retail Sales by Month' (adult-use, self-reported, $M to one decimal) (month marked * in the chart)"
+    },
+    {
+      "month": "2026-01",
+      "adult_use": 131500000,
+      "medical": 5300000,
+      "total": 136456774,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-07-02, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-02",
+      "adult_use": 128400000,
+      "medical": 5000000,
+      "total": 133080641,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-07-02, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-03",
+      "adult_use": 145100000,
+      "medical": 5200000,
+      "total": 150018169,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-07-02, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-04",
+      "adult_use": 148700000,
+      "medical": 5500000,
+      "total": 154031724,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-07-02, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-05",
+      "adult_use": 157800000,
+      "medical": 5100000,
+      "total": 163027667,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-07-02, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-06",
+      "adult_use": 157400000,
+      "medical": 4800000,
+      "total": 162046702,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-10-01, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-07",
+      "adult_use": 168700000,
+      "medical": 5000000,
+      "total": 173541309,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-10-01, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-08",
+      "adult_use": 166200000,
+      "medical": 4900000,
+      "total": 170975249,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-10-01, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-09",
+      "adult_use": 163000000,
+      "medical": 4700000,
+      "total": 167219748,
+      "note": "adult-use and medical: OCM CCB meeting presentation 2026-10-01, chart 'Monthly Retail Sales by Program' ($M to one decimal); total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08"
+    },
+    {
+      "month": "2026-10",
+      "adult_use": null,
+      "medical": null,
+      "total": 174352120,
+      "note": "total: Metrc Cannabis Market Landscape dashboard (OCM), viewed 2026-11-08; no program split published yet"
+    }
+  ],
   "annual": [
     {
       "year": 2023,
@@ -43,7 +359,7 @@
     },
     {
       "q": "Does New York publish monthly cannabis sales?",
-      "a": "Not as a downloadable series. The OCM's Metrc dashboard shows recent months as charts, and its annual report gives yearly totals."
+      "a": "Not as a downloadable file. The OCM shows monthly sales as charts in its Cannabis Control Board presentations and in its Metrc-hosted Cannabis Market Landscape dashboard; this page records those figures, for example $174.4 million in October 2026 (adult-use and medical combined)."
     },
     {
       "q": "How much is the cannabis tax in New York?",
@@ -62,9 +378,31 @@
     {
       "name": "NYS Department of Taxation and Finance: Adult-use cannabis products tax",
       "url": "https://www.tax.ny.gov/bus/auc/"
+    },
+    {
+      "name": "OCM Cannabis Control Board deck, December 18, 2025 (PDF)",
+      "url": "https://cannabis.ny.gov/system/files/documents/2025/12/12.18.25-ccb-meeting-deck.pdf"
+    },
+    {
+      "name": "OCM Cannabis Control Board presentation, July 2, 2026",
+      "url": "https://cannabis.ny.gov/ccb-meeting-presentation-7-2-26"
+    },
+    {
+      "name": "OCM Cannabis Control Board presentation, October 1, 2026",
+      "url": "https://cannabis.ny.gov/ccb-meeting-presentation-10-1-26"
+    },
+    {
+      "name": "OCM / Metrc Cannabis Market Landscape dashboard",
+      "url": "https://data-ny.metrc.com/cannabis-market-landscape"
+    }
+  ],
+  "changelog": [
+    {
+      "date": "2026-11-08",
+      "note": "Round 6: added monthly sales from official OCM charts: adult-use Jan 2023-Nov 2025 (CCB deck 2025-12-18) and Jan-Oct 2026 totals from the OCM Metrc dashboard with adult-use/medical split from CCB presentations of 2026-07-02 and 2026-10-01; December 2025 not published as a full month, so page stays partial"
     }
   ],
   "page_status": "partial",
   "currency": "USD",
-  "last_verified": "2026-11-07"
+  "last_verified": "2026-11-08"
 }
