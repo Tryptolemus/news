@@ -148,6 +148,53 @@ def render_card(a, out_png, out_jpg=None):
     return img
 
 
+def render_photo_card(a, photo, out_png, out_jpg=None):
+    """Design board pick "A Cover" (8 Nov 2026): the story's photo full-bleed, a dark fade from the left and the
+    bottom, the nameplate top-left, green section kicker and Newsreader headline bottom-left, and
+    "AI illustration · date" bottom-right (X puts its own domain label bottom-left). Falls back to render_card
+    when there is no photo."""
+    if not photo:
+        return render_card(a, out_png, out_jpg)
+    import numpy as np
+    src = Image.open(photo).convert("RGB")
+    s = max(W / src.width, H / src.height)
+    src = src.resize((round(src.width * s), round(src.height * s)), Image.LANCZOS)
+    left, top = (src.width - W) // 2, (src.height - H) // 2
+    img = src.crop((left, top, left + W, top + H))
+    # fade to #131313: from the left (0.94 -> 0.80 at 38% -> 0.15 at 72% -> 0) and from the bottom (0.85 -> 0 at 45%)
+    ax = np.interp(np.linspace(0, 1, W), [0, .38, .72, 1], [.94, .80, .15, 0])
+    ay = np.interp(np.linspace(0, 1, H), [0, .55, 1], [0, 0, .85])
+    alpha = 1 - (1 - ax[None, :]) * (1 - ay[:, None])
+    out = np.asarray(img, dtype=np.float32) * (1 - alpha[..., None]) + np.array(BG, dtype=np.float32) * alpha[..., None]
+    img = Image.fromarray(out.clip(0, 255).astype("uint8"))
+    d = ImageDraw.Draw(img)
+    nameplate(img, d, 64, 52)
+
+    # headline: bottom-anchored in a 640 px column; 60 px up to 3 lines, then 54, then 48 px up to 4
+    col = 640
+    for size, max_lines in ((60, 3), (54, 3), (48, 4)):
+        hf = serif(size)
+        lines = balanced(d, a["headline"], hf, col)
+        if len(lines) <= max_lines:
+            break
+    else:
+        lines = clamp(d, a["headline"], hf, col, 4)
+    step = round(hf.size * 1.08)
+    y = H - 70 - step * len(lines)
+    tracked(d, (64, y - 38), a["cat"].upper(), sans(17, 700), GREEN, 2.5)
+    for ln in lines:
+        d.text((64, y), ln, font=hf, fill=FG)
+        y += step
+    dt = datetime.fromisoformat(a["published"])
+    d.text((W - 56, H - 28), f"AI ILLUSTRATION · {dt.day} {dt:%b %Y}".upper(), font=mono(15), fill=META, anchor="rs")
+
+    out_png = Path(out_png)
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_png, optimize=True)
+    if out_jpg:
+        img.save(out_jpg, quality=86, optimize=True, progressive=True)
+    return img
+
 UP, DOWN = (124, 212, 112), (239, 107, 107)
 
 

@@ -96,8 +96,12 @@ jobs:
             files=$(git diff --name-only --diff-filter=A "$before" "${{ github.sha }}" -- content/articles | tr '\n' ' ')
           fi
           echo "files=$files" >> "$GITHUB_OUTPUT"
-      - name: Generate AI banners
+      - name: Generate story photos
+        continue-on-error: true
         env:
+          CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          CF_IMAGE_MODEL: ${{ vars.CF_IMAGE_MODEL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           IMAGE_MODEL: ${{ vars.IMAGE_MODEL }}
           IMAGE_QUALITY: ${{ vars.IMAGE_QUALITY }}

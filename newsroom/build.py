@@ -212,12 +212,17 @@ def render_png(svg_text, out_path, width=1200):
 
 def build_media(arts, eds):
     from banner import render_banner
-    from card import render_card, write_leads
+    from card import render_card, render_photo_card, write_leads
     from PIL import Image
     for a in arts:
-        # social card (og:image, X, LinkedIn, push alerts): the editorial card, design board pick A
+        # social card (og:image, X, LinkedIn, push alerts): "A Cover" photo card when the story has a photo
+        # (design board 8 Nov 2026), otherwise the editorial card (design board 6 Nov 2026)
         og = OUT / "og" / f"{a['id']}.png"
-        render_card(a, og, og.with_suffix(".jpg"))
+        try:
+            render_photo_card(a, photo_path(a), og, og.with_suffix(".jpg"))
+        except Exception as e:  # noqa: BLE001  never block a publish on a card
+            print(f"WARNING: photo card for {a['id']} failed ({e}); using the editorial card")
+            render_card(a, og, og.with_suffix(".jpg"))
         src = CONTENT / a["_file"]
         # lead images (article figure, NewsArticle image, RSS): the visual motif in 16:9, 4:3 and 1:1, no headline
         try:

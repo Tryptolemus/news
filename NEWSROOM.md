@@ -148,15 +148,11 @@ The banner is the story's **X / social card and reel shot only** (never shown on
 - `points`: three short facts (≤ 28 characters each) with icons from: shield, leaf, chart, gavel, flask, pin, ballot, coin, globe, doc, handshake, chip, megaphone, drop, cube.
 - Names of real people may appear in `sub` (e.g. "Gov. Gavin Newsom signs AB 2250"); their likeness never appears in the image.
 
-## AI banner images (`image_prompt`)
+## Story photos (`image_prompt`)
 
-On every push, GitHub Actions sends each new story's `image_prompt` to the image model (OpenAI `gpt-image-1` by default) with a fixed documentary-photo art direction: shot like a photojournalist on 35mm, available light, muted grade with a faint green cast, subject off-centre, no text, no neon, no smoke, no CGI look. The photo is saved to `content/images/<id>.jpg`. The site shows it clean; `newsroom/banner.py` composes the loud social banner on top of it. Without a photo the site shows a typographic plate (the story's key figure).
+On every push, GitHub Actions (`newsroom/gen_images.py`) turns each new story's `image_prompt` into a photo, using Cloudflare Workers AI (FLUX.2 klein 4B, free daily allowance) when `CF_ACCOUNT_ID` + `CF_AI_TOKEN` are set, else OpenAI if `OPENAI_API_KEY` is set. The fixed art direction is design board pick "A Cover" (8 Nov 2026): a premium editorial still life lit like a high-end product commercial, subject in the right half, darker space on the left for the headline, no text, no logos, no people. The photo is saved to `content/images/<id>.jpg`; the site shows it clean, and `card.render_photo_card` builds the share card (photo, nameplate, kicker, headline, "AI illustration" credit). Without a photo the story keeps the editorial card.
 
-Write a real, specific place or object, not a metaphor:
-- Good: "A dispensary counter at closing time, sealed medical jars on the shelf behind, a hand turning the sign." "Long greenhouse rows at dawn in the Canadian prairie." "Ballot counting table, hands sorting envelopes under fluorescent light."
-- Bad: glowing seals, holograms, neon leaves, epic skylines, anything "cinematic".
-- Never request text, logos, flags or signage. Never depict real, identifiable people: hands, backs and out-of-focus figures only.
-- No minors, no consumption close-ups, no weapons, nothing graphic. Vary scenes across the edition.
+Write `image_prompt` as one concrete scene of objects or an empty place tied to the story (a stamp on a government file, amber pharmacy jars, an empty committee room), never real people, events that did not happen, or anything that could pass as a news photo of a real moment. `image_alt` describes that scene.
 
 ## Posting to X
 
