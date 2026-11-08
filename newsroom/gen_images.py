@@ -30,14 +30,15 @@ ROOT = Path(__file__).resolve().parent.parent
 ARTICLES = ROOT / "content" / "articles"
 IMAGES = ROOT / "content" / "images"
 
-# Written positively on purpose: FLUX models tend to draw what a prompt names, even after "no", so the style
-# describes an empty, unmarked still life instead of listing what to leave out.
+# Design board round 3 (8 Nov 2026): subject first, house style last (FLUX.2 weights the start of a prompt most),
+# written positively (klein has no negative prompt and tends to draw whatever a prompt names, even after "no").
 STYLE = (
-    "Premium product-commercial photograph in the style of an Apple advertisement: clean, bright and minimal, "
-    "one hero object or a calm unoccupied space, soft diffused studio light with a gentle gradient, crisp detail, "
-    "subtle reflections, refined muted palette with deep charcoal and soft indigo tones, shallow depth of field, "
-    "real materials. The hero subject sits in the right half of the frame; the left half is calm, plain and slightly darker. "
-    "The scene is completely unoccupied and every surface is plain and unmarked. 16:9 landscape photograph. Subject: "
+    "Shot as a MetaFlora News editorial photograph: hyperreal, full-frame camera, 85mm lens at f/2.8, eye level, 16:9. "
+    "Low-key chiaroscuro lighting: one soft cool-white key light from the upper right, and the left 45% of the frame falls "
+    "into deep indigo-black shadow (#0b0b14). A single thin rim light in violet color #a78bfa traces the back edge of the "
+    "hero subject, the only saturated colour in the frame. Palette of near-black indigo, natural plant greens and warm wood. "
+    "Matte tactile materials, fine film grain, calm premium restraint. Hero subject sharp in the right half. "
+    "Every surface is plain, matte and unprinted."
 )
 
 
@@ -60,14 +61,14 @@ def _post(req, timeout=300):
 def cloudflare(prompt, account, token, model):
     """Workers AI. FLUX.2 models take multipart/form-data; FLUX.1 schnell takes JSON. Both return base64 in result.image."""
     url = f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{model}"
-    fields = {"prompt": STYLE + prompt, "width": "1536", "height": "864"}
+    fields = {"prompt": prompt.strip() + " " + STYLE, "width": "1536", "height": "864"}
     if "flux-2" in model:
         b = uuid.uuid4().hex
         body = "".join(f'--{b}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n' for k, v in fields.items())
         body = (body + f"--{b}--\r\n").encode()
         ctype = f"multipart/form-data; boundary={b}"
     else:
-        body = json.dumps({"prompt": (STYLE + prompt)[:2048], "steps": 8}).encode()
+        body = json.dumps({"prompt": (prompt.strip() + " " + STYLE)[:2048], "steps": 8}).encode()
         ctype = "application/json"
     req = urllib.request.Request(url, data=body, headers={"Authorization": f"Bearer {token}", "Content-Type": ctype})
     raw, rtype = _post(req)
@@ -80,7 +81,7 @@ def cloudflare(prompt, account, token, model):
 
 
 def openai(prompt, key, model, quality):
-    body = json.dumps({"model": model, "prompt": STYLE + prompt, "size": "1536x1024", "quality": quality, "n": 1}).encode()
+    body = json.dumps({"model": model, "prompt": prompt.strip() + " " + STYLE, "size": "1536x1024", "quality": quality, "n": 1}).encode()
     req = urllib.request.Request("https://api.openai.com/v1/images/generations", data=body,
                                  headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
     item = json.loads(_post(req)[0])["data"][0]

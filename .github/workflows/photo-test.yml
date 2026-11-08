@@ -1,0 +1,30 @@
+name: Photo test (design board)
+
+# Renders candidate photo prompts on Cloudflare Workers AI and uploads them as a run artifact.
+# Never touches content/ or the site. Prompts come from tools/photo_tests/prompts.json:
+#   {"style": "...", "items": [{"name": "dea-A", "prompt": "..."}, ...]}
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render prompts
+        env:
+          CF_ACCOUNT_ID: ${{ vars.CF_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}
+          CF_IMAGE_MODEL: ${{ vars.CF_IMAGE_MODEL }}
+        run: |
+          python3 -m pip install --quiet pillow
+          python3 tools/photo_tests/render.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: photo-test
+          path: tools/photo_tests/out/
+          retention-days: 7
