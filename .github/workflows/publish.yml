@@ -111,8 +111,20 @@ jobs:
             git commit -m "Add AI banners [skip ci]"
             git pull --rebase -q origin main && git push -q origin HEAD:main
           fi
+      # Lead images (card.write_leads) are redrawn only when a story's visual changes: keep docs/img between runs.
+      - name: Restore rendered lead images
+        uses: actions/cache/restore@v4
+        with:
+          path: docs/img
+          key: lead-images-v1-${{ github.run_id }}
+          restore-keys: lead-images-v1-
       - name: Build site
         run: python3 newsroom/build.py
+      - name: Save rendered lead images
+        uses: actions/cache/save@v4
+        with:
+          path: docs/img
+          key: lead-images-v1-${{ github.run_id }}
       - name: Keep the market data cache in the repo
         run: |
           git add content/market.json

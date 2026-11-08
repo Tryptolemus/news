@@ -206,6 +206,47 @@ def image(a, eager=False, plate=True):
     return plate_svg(a) if plate else ""
 
 
+LEAD_DIMS = {"16x9": (1600, 900), "4x3": (1200, 900), "1x1": (1200, 1200)}  # card.LEAD_SIZES
+
+
+def lead(a):
+    """The story's rendered lead images (card.render_lead, written by full builds into docs/img/) as {ratio: url},
+    or None when they are not on disk (a fresh --no-media build), so no page ever points at a missing file."""
+    names = {r: f"{a['id']}-{r}.jpg" for r in list(LEAD_DIMS) + ["16x9-960"]}
+    if not all((ctx["out"] / "img" / n).exists() for n in names.values()):
+        return None
+    return {r: f"/img/{n}" for r, n in names.items()}
+
+
+def lead_figure(a):
+    """16:9 lead graphic at the top of a story: the LCP element, so eager and fetchpriority=high, never lazy."""
+    L = lead(a)
+    if not L:
+        return ""
+    from card import lead_alt
+    up = "../" * len(a["_path"].strip("/").split("/"))  # srcset is not rewritten by relativize(): write it page-relative
+    v = a.get("visual") or {}
+    return (f'<figure class="story-fig lead-fig"><img src="{L["16x9"]}" srcset="{up}{L["16x9-960"][1:]} 960w, {up}{L["16x9"][1:]} 1600w" '
+            f'sizes="(max-width: 1080px) 100vw, 1040px" width="1600" height="900" fetchpriority="high" alt="{escape(lead_alt(a))}">'
+            f'<figcaption>{escape(str(v.get("label") or ""))} <span class="credit">MetaFlora News graphic</span></figcaption></figure>')
+
+
+def lead_ld(a):
+    """NewsArticle image: the 16:9, 4:3 and 1:1 lead images (Google's three ratios); the 1200x630 card when absent."""
+    L = lead(a)
+    if not L:
+        return [{"@type": "ImageObject", "url": f"{SITE}/og/{a['id']}.png", "width": 1200, "height": 630}]
+    return [{"@type": "ImageObject", "url": SITE + L[r], "width": w, "height": h} for r, (w, h) in LEAD_DIMS.items()]
+
+
+def rss_image(a):
+    """RSS media:content: the 16:9 lead image, else the social card."""
+    L = lead(a)
+    if L:
+        return f'<media:content url="{SITE}{L["16x9"]}" medium="image" type="image/jpeg" width="1600" height="900"/>'
+    return f'<media:content url="{SITE}/og/{a["id"]}.png" medium="image" type="image/png" width="1200" height="630"/>'
+
+
 def caption(a):
     return f'{escape(a.get("image_alt") or "")} <span class="credit">Photo illustration: AI-generated</span>'
 
@@ -382,7 +423,8 @@ def build_article(a, arts):
     kp = ""
     if a.get("key_points"):
         v = a.get("visual") or {}
-        stat = f'<p class="kp-stat"><b>{escape(str(v.get("big", "")))}</b><span>{escape(str(v.get("label", "")))}</span></p>' if v.get("big") else ""
+        # the lead graphic already shows the figure: no second copy of it right below
+        stat = f'<p class="kp-stat"><b>{escape(str(v.get("big", "")))}</b><span>{escape(str(v.get("label", "")))}</span></p>' if v.get("big") and (has_photo(a) or not lead(a)) else ""
         kp = '<aside class="keypoints"><h2>Key points</h2>' + stat + '<ul>' + "".join(f"<li>{escape(k)}</li>" for k in a["key_points"]) + "</ul></aside>"
     srcs = "".join(f'<li><a href="{escape(s["url"])}" rel="noopener" target="_blank">{escape(s["name"])}</a>'
                    f'{(" · " + escape(s["title"])) if s.get("title") else ""}{(" · " + escape(s["date"])) if s.get("date") else ""}</li>'
@@ -399,8 +441,7 @@ def build_article(a, arts):
         updated = f' · Updated {datetime.fromisoformat(a["updated"]).day} {datetime.fromisoformat(a["updated"]):%b, %H:%M} EET'
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": a["headline"], "description": a["dek"],
           "datePublished": a["published"], "dateModified": a.get("updated", a["published"]),
-          "image": ([f"{SITE}/img/{a['id']}.jpg"] if has_photo(a) else [])
-                   + [{"@type": "ImageObject", "url": f"{SITE}/og/{a['id']}.png", "width": 1200, "height": 630}],
+          "image": ([f"{SITE}/img/{a['id']}.jpg"] if has_photo(a) else []) + lead_ld(a),
           "author": {"@type": "Organization", "name": "MetaFlora News Desk", "url": f"{SITE}/how-we-report/"},
           "publisher": PUBLISHER, "mainEntityOfPage": url, "isAccessibleForFree": True}
     tags_html = ""
@@ -411,7 +452,7 @@ def build_article(a, arts):
         tags_html += ('<nav class="tags tickers" aria-label="Stocks in this story"><span class="tk-label">Stocks in this story</span>'
                       + "".join(f'<a href="/stocks/{r["sym"].lower()}/" title="Close {r["date"]}">{escape(r["name"])} <span class="tk">{r["sym"]}</span> '
                                 f'<span class="{"up" if r["chg"] >= 0 else "down"}">{r["chg"]:+.1f}%</span></a>' for r in ticks) + "</nav>")
-    fig = ""
+    fig = lead_figure(a)
     if has_photo(a):
         fig = f'<figure class="story-fig">{image(a, eager=True)}<figcaption>{caption(a)}</figcaption></figure>'
     import ads
