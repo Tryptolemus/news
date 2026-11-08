@@ -30,13 +30,14 @@ ROOT = Path(__file__).resolve().parent.parent
 ARTICLES = ROOT / "content" / "articles"
 IMAGES = ROOT / "content" / "images"
 
+# Written positively on purpose: FLUX models tend to draw what a prompt names, even after "no", so the style
+# describes an empty, unmarked still life instead of listing what to leave out.
 STYLE = (
-    "Premium editorial still photograph for a serious news publication, lit like a high-end product commercial: "
-    "a single soft key light from the upper left, deep natural shadows, rich but restrained colour, crisp detail, "
-    "shallow depth of field, real materials and real places. The main subject sits in the right half of the frame, "
-    "with calm, darker negative space in the left half. 16:9 landscape. "
-    "Strictly no text, letters, numbers, signage, labels, logos or watermarks. No people, no faces, no hands. "
-    "No neon, no smoke effects, no glow, no holograms, no illustration or CGI look. Scene: "
+    "Premium product-commercial photograph in the style of an Apple advertisement: clean, bright and minimal, "
+    "one hero object or a calm unoccupied space, soft diffused studio light with a gentle gradient, crisp detail, "
+    "subtle reflections, refined muted palette with deep charcoal and soft indigo tones, shallow depth of field, "
+    "real materials. The hero subject sits in the right half of the frame; the left half is calm, plain and slightly darker. "
+    "The scene is completely unoccupied and every surface is plain and unmarked. 16:9 landscape photograph. Subject: "
 )
 
 
