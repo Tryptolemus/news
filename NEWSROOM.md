@@ -29,6 +29,7 @@ The AI newsroom runs twice a day: the **morning edition** (`am`, ~06:00 EET) and
 - **Quotes:** at most one short quote per source, under 15 words, and only when the exact words matter.
 - **Facts only from sources you actually opened.** Never invent figures, names, dates or URLs. If unsure, leave it out.
 - **Link every source** you drew on, at least one per story.
+- **Source mix** (checked by the build, `newsroom/sourcecheck.py`; it warns in the log and never blocks): every story links **at least one primary source** (the regulator, agency, court, legislature, Federal Register, SEC/SEDAR filing, company press release or investor page, or the journal/DOI/PubMed record); **no single outlet supplies more than 60%** of the sources; and when the headline names a **report, study, filing, ruling, bill or lawsuit, link that document itself**, not only the coverage of it. Fix any story the build flags before pushing when you can.
 - **Tone:** sharp, plain, useful to operators and investors. No hype, no puns in headlines, no advice ("buy", "you should").
 - **No photos of real people**, no other outlets' images or logos.
 
@@ -100,7 +101,7 @@ Every story is permanent: it keeps its dated URL forever and is never deleted or
 - Proper names for entities ("Aurora Cannabis", "Illinois", "Section 280E"); short title-case themes for subjects ("Rescheduling", "M&A", "Licensing", "Hemp").
 - Headlines say plainly who did what, using the names people search for. No puns or teasers.
 
-The build publishes a sitemap index (pages, a Google News sitemap for the last 48 hours, and every article ever published), per-section RSS feeds, NewsArticle and Breadcrumb schema on every story, and a monthly archive.
+The build publishes a sitemap index (pages, archive pages, a Google News sitemap for the last 48 hours, and every article ever published), per-section RSS feeds, NewsArticle and Breadcrumb schema on every story, a monthly archive, daily edition pages (`/YYYY/MM/DD/`, `/YYYY/MM/`, `/YYYY/`) and paginated section and topic pages (`/section/<s>/page/2/`, 30 stories a page).
 
 ### SEO rules for every edition (from the SEO board, 6 Nov 2026)
 - **Company tags use the stock-page names** so stories link to `/stocks/<sym>/` automatically: Curaleaf, Green Thumb, Verano, Tilray, Canopy Growth, SNDL, Organigram, Aurora Cannabis, MSOS. `TAG_ALIASES` in `newsroom/templates.py` maps known variants; add a line there rather than inventing a new spelling.

@@ -418,17 +418,20 @@ def build_article(a, arts):
     import hubs
     covered = hubs.covered_box(a)
     end_ad = ads.slot(a["id"], "end", "end", a["cat"])
+    import archive as A
+    crumb_trail, day_link = A.article_crumbs_html(a), A.day_path(a["_dt"])
     after_same = ""
     if len(same) >= 2:
         after_same = f'<div><h2 class="sec-label">More on {escape(a["cat"])}</h2><ol class="latest-list">{"".join(list_item(x) for x in same)}</ol></div>'
     body = f"""
 <article class="story">
   <header class="story-head">
+    {crumb_trail}
     {kicker(a['cat'])}
     <h1>{escape(a['headline'])}</h1>
     <p class="dek">{escape(a['dek'])}</p>
     <div class="byline">
-      <p><span class="by">By <a href="/how-we-report/">MetaFlora News Desk</a></span> · <time datetime="{a['published']}">{t_long(a)}</time>{updated} · <span class="nowrap">{minutes(a)} min read</span></p>
+      <p><span class="by">By <a href="/how-we-report/">MetaFlora News Desk</a></span> · <a class="dateline" href="{day_link}"><time datetime="{a['published']}">{t_long(a)}</time></a>{updated} · <span class="nowrap">{minutes(a)} min read</span></p>
       <p class="share">{share}</p>
     </div>
     <p class="disclosure">Produced by MetaFlora's AI newsroom from the sources listed at the end of this article. <a href="/how-we-report/">How we report</a></p>
@@ -468,25 +471,44 @@ def build_article(a, arts):
 
 
 def build_sections(arts):
+    """/section/<c>/ plus /section/<c>/page/N/ (archive.PER_PAGE stories per page, newest first)."""
+    import archive as A
     for c in CATS:
         items = [a for a in arts if a["cat"] == c]
-        if items:
-            import ads
-            inner = (f'<div class="sec-lead">{card(items[0], "wide")}</div>{ads.slot("section-" + c, 0, "list", c)}'
-                     f'<div class="grid4">{"".join(card(a) for a in items[1:13])}</div>')
-            if len(items) > 13:
-                inner += f'<ol class="latest-list">{"".join(list_item(a) for a in items[13:40])}</ol>'
-        else:
-            inner = '<p class="empty">No stories in this section yet. New editions publish every morning and evening.</p>'
-        body = f'<div class="page-h"><h1>{c}</h1><p class="meta">{len(items)} stories</p></div>{inner}'
-        ctx["write"](f"section/{c.lower()}/index.html", page(f"{c} cannabis news", body, desc=SECTION_DESC.get(c, TAGLINE), path=f"/section/{c.lower()}/", active=c,
-                                                             robots=ROBOTS if items else "noindex, follow",
-                                                             feeds=[(f"{NAME}: {c}", f"/section/{c.lower()}/feed.xml")],
-                                                             extra_head=collection_ld(f"{c} cannabis news", f"/section/{c.lower()}/", items)))
+        base = f"/section/{c.lower()}/"
+        pages = A.chunks(items)
+        for n, chunk in enumerate(pages, 1):
+            path = A.page_path(base, n)
+            if not items:
+                inner = '<p class="empty">No stories in this section yet. New editions publish every morning and evening.</p>'
+            elif n == 1:
+                import ads
+                inner = (f'<div class="sec-lead">{card(chunk[0], "wide")}</div>{ads.slot("section-" + c, 0, "list", c)}'
+                         f'<div class="grid4">{"".join(card(a) for a in chunk[1:13])}</div>')
+                if len(chunk) > 13:
+                    inner += f'<ol class="latest-list">{"".join(list_item(a) for a in chunk[13:])}</ol>'
+            else:
+                inner = f'<ol class="latest-list">{"".join(list_item(a) for a in chunk)}</ol>'
+            if items:
+                inner += A.pager_html(base, n, len(pages), extra='<a href="/archive/">Archive by date</a>')
+            title = A.paged_title(f"{c} cannabis news", n)
+            c_html, c_ld = A.crumbs([A.HOME, (c, base)] + ([(f"Page {n}", path)] if n > 1 else []))
+            first = (n - 1) * A.PER_PAGE + 1
+            meta = f"{len(items)} stories" if n == 1 else f"Stories {first}–{first + len(chunk) - 1} of {len(items)}"
+            body = f'{c_html}<div class="page-h"><h1>{escape(A.paged_title(c, n))}</h1><p class="meta">{meta}</p></div>{inner}'
+            desc = SECTION_DESC.get(c, TAGLINE) if n == 1 else f"Older {c} cannabis news from MetaFlora News, page {n}: stories {first} to {first + len(chunk) - 1} of {len(items)}, newest first."
+            ctx["write"](path.strip("/") + "/index.html", page(title, body, desc=desc, path=path, active=c,
+                                                                robots=ROBOTS if items else "noindex, follow",
+                                                                feeds=[(f"{NAME}: {c}", f"{base}feed.xml")] if items else (),
+                                                                extra_head=collection_ld(title, path, chunk) + c_ld))
+            if n > 1:
+                A.note(path, chunk)
 
 
 def build_archive(eds):
-    """/archive/ lists months; /archive/YYYY/MM/ lists every edition in that month. Pages stay small as the archive grows."""
+    """/archive/ lists months; /archive/YYYY/MM/ lists every edition in that month. Pages stay small as the archive grows.
+    Also writes the date-path pages /YYYY/MM/DD/, /YYYY/MM/ and /YYYY/ (archive.build_dates)."""
+    import archive as A
     months = {}
     for ed, items in eds.items():
         months.setdefault(ed[:7], {})[ed] = items
@@ -495,13 +517,23 @@ def build_archive(eds):
         dt = datetime.fromisoformat(ym + "-01")
         n = sum(len(v) for v in med.values())
         rows.append(f'<li><a class="li-title" href="/archive/{dt:%Y/%m}/">{dt:%B %Y}</a><span class="meta">{len(med)} editions · {n} stories</span></li>')
-        blocks = "".join(f'<section class="block"><h2 class="sec-label">{escape(ctx["edition_label"](ed))}</h2>'
+        blocks = "".join(f'<section class="block"><h2 class="sec-label"><a href="/{items[0]["_dt"]:%Y/%m/%d}/">{escape(ctx["edition_label"](ed))}</a></h2>'
                          f'<ol class="latest-list">{"".join(list_item(a) for a in items)}</ol></section>' for ed, items in sorted(med.items(), reverse=True))
         title = f"{dt:%B %Y} archive"
-        body = f'<div class="page-h"><h1>{dt:%B %Y}</h1><p class="meta"><a href="/archive/">All months</a></p></div>{blocks}'
-        ctx["write"](f"archive/{dt:%Y/%m}/index.html", page(title, body, desc=f"Every MetaFlora News story from {dt:%B %Y}: {n} cannabis news stories across {len(med)} morning and evening editions.", path=f"/archive/{dt:%Y/%m}/"))
-    body = f'<div class="page-h"><h1>Archive</h1><p class="meta">{len(eds)} editions</p></div><ol class="month-list">{"".join(rows)}</ol>'
-    ctx["write"]("archive/index.html", page("Archive", body, desc="Every MetaFlora News edition by month: morning and evening cannabis news since November 2026, each story with its sources.", path="/archive/"))
+        c_html, c_ld = A.crumbs([A.HOME, ("Archive", "/archive/"), (f"{dt:%B %Y}", f"/archive/{dt:%Y/%m}/")])
+        body = f'{c_html}<div class="page-h"><h1>{dt:%B %Y}</h1><p class="meta"><a href="/archive/">All months</a> · <a href="/{dt:%Y/%m}/">{dt:%B %Y} by day</a></p></div>{blocks}'
+        ctx["write"](f"archive/{dt:%Y/%m}/index.html", page(title, body, desc=f"Every MetaFlora News story from {dt:%B %Y}: {n} cannabis news stories across {len(med)} morning and evening editions.", path=f"/archive/{dt:%Y/%m}/",
+                                                            extra_head=collection_ld(title, f"/archive/{dt:%Y/%m}/", [a for _, v in sorted(med.items(), reverse=True) for a in v]) + c_ld))
+    years = sorted({ed[:4] for ed in eds}, reverse=True)
+    by_year = " · ".join(f'<a href="/{y}/">{y} by month and day</a>' for y in years)
+    c_html, c_ld = A.crumbs([A.HOME, ("Archive", "/archive/")])
+    body = f'{c_html}<div class="page-h"><h1>Archive</h1><p class="meta">{len(eds)} editions · {by_year}</p></div><ol class="month-list">{"".join(rows)}</ol>'
+    ctx["write"]("archive/index.html", page("Archive", body, desc="Every MetaFlora News edition by month: morning and evening cannabis news since November 2026, each story with its sources.", path="/archive/",
+                                            extra_head=c_ld))
+    try:  # /YYYY/MM/DD/, /YYYY/MM/, /YYYY/: an error here must not stop an edition from publishing
+        A.build_dates(eds)
+    except Exception as e:  # noqa: BLE001
+        print(f"WARNING date archive pages skipped: {e}")
 
 
 def slug(t):
@@ -558,20 +590,38 @@ def build_topics(arts):
             continue
         lead = items[0]
         import ads
-        inner = f'<div class="sec-lead">{card(lead, "wide")}</div>{ads.slot("topic-" + t, 0, "list", lead["cat"])}'
-        if len(items) > 1:
-            inner += f'<ol class="latest-list">{"".join(list_item(a) for a in items[1:])}</ol>'
+        import archive as A
         n = len(items)
-        desc = f"{t} news from MetaFlora News: {n} {'story' if n == 1 else 'stories'}, newest first. Latest: {lead['headline']}"
-        if len(desc) > 160:
-            desc = desc[:157].rsplit(" ", 1)[0] + "..."
-        stock = "".join(f'<p class="hub-stock"><a href="/stocks/{r["sym"].lower()}/">{escape(r["full"])} stock ({r["sym"]}): price, chart and daily market note</a></p>'
-                        for r in tickers_for([t]))
-        intro = f'<p class="dek">Every MetaFlora News story about {escape(t)}, newest first, with links to the original reporting.</p>'
-        body = f'<div class="page-h"><h1>{escape(t)} news</h1><p class="meta">{n} {"story" if n == 1 else "stories"}</p>{intro}{stock}</div>{inner}'
-        ctx["write"](f"topic/{slug(t)}/index.html", page(f"{t} news", body, desc=desc, path=f"/topic/{slug(t)}/",
-                                                        robots=ROBOTS if n >= HUB_MIN else "noindex, follow",
-                                                        extra_head=collection_ld(f"{t} news", f"/topic/{slug(t)}/", items)))
+        base = f"/topic/{slug(t)}/"
+        pages = A.chunks(items)
+        for pn, chunk in enumerate(pages, 1):
+            path = A.page_path(base, pn)
+            if pn == 1:
+                inner = f'<div class="sec-lead">{card(lead, "wide")}</div>{ads.slot("topic-" + t, 0, "list", lead["cat"])}'
+                if len(chunk) > 1:
+                    inner += f'<ol class="latest-list">{"".join(list_item(a) for a in chunk[1:])}</ol>'
+                desc = f"{t} news from MetaFlora News: {n} {'story' if n == 1 else 'stories'}, newest first. Latest: {lead['headline']}"
+                if len(desc) > 160:
+                    desc = desc[:157].rsplit(" ", 1)[0] + "..."
+                stock = "".join(f'<p class="hub-stock"><a href="/stocks/{r["sym"].lower()}/">{escape(r["full"])} stock ({r["sym"]}): price, chart and daily market note</a></p>'
+                                for r in tickers_for([t]))
+                intro = f'<p class="dek">Every MetaFlora News story about {escape(t)}, newest first, with links to the original reporting.</p>'
+                meta = f'{n} {"story" if n == 1 else "stories"}'
+            else:
+                inner = f'<ol class="latest-list">{"".join(list_item(a) for a in chunk)}</ol>'
+                first = (pn - 1) * A.PER_PAGE + 1
+                desc = f"Older {t} news from MetaFlora News, page {pn}: stories {first} to {first + len(chunk) - 1} of {n}, newest first."
+                stock = intro = ""
+                meta = f"Stories {first}–{first + len(chunk) - 1} of {n}"
+            inner += A.pager_html(base, pn, len(pages))
+            title = A.paged_title(f"{t} news", pn)
+            c_html, c_ld = A.crumbs([A.HOME, ("Topics", "/topic/"), (t, base)] + ([(f"Page {pn}", path)] if pn > 1 else []))
+            body = f'{c_html}<div class="page-h"><h1>{escape(title)}</h1><p class="meta">{meta}</p>{intro}{stock}</div>{inner}'
+            ctx["write"](path.strip("/") + "/index.html", page(title, body, desc=desc, path=path,
+                                                                robots=ROBOTS if n >= HUB_MIN else "noindex, follow",
+                                                                extra_head=collection_ld(title, path, chunk) + c_ld))
+            if pn > 1 and n >= HUB_MIN:
+                A.note(path, chunk)
     rows = "".join(f'<li><a class="li-title" href="/topic/{slug(t)}/">{escape(t)}</a><span class="meta">{len(v)}</span></li>'
                    for t, v in sorted(topics.items(), key=lambda kv: (-len(kv[1]), kv[0])))
     ctx["write"]("topic/index.html", page("Topics", f'<div class="page-h"><h1>Topics</h1></div><ol class="month-list">{rows}</ol>',

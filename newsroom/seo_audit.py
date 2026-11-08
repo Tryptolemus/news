@@ -130,8 +130,10 @@ def norm(base, href):
 def kind(url):
     if url == "/":
         return "home"
-    if re.match(r"^/\d{4}/\d{2}/\d{2}/", url):
+    if re.match(r"^/\d{4}/\d{2}/\d{2}/[^/]+/", url):
         return "article"
+    if re.match(r"^/\d{4}/(\d{2}/(\d{2}/)?)?$", url):
+        return "archive"  # date pages: /YYYY/, /YYYY/MM/, /YYYY/MM/DD/
     for k in ("topic", "section", "stocks", "archive", "legal", "explainers", "glossary", "company", "guide", "data"):
         if url.startswith(f"/{k}/"):
             return k

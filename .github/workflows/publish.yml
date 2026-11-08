@@ -140,11 +140,19 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # indexnow_changed.py diffs the push against the previous head
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Ping IndexNow with changed URLs
         run: python3 newsroom/indexnow.py ${{ needs.build.outputs.new_articles }}
+      # Hub/aggregate pages whose content changed in this push (edited hub JSON, edited stories, the tag hubs,
+      # topic and date pages a new story feeds), capped at 200 URLs. Exits 0 on any error; never blocks a publish.
+      - name: Ping IndexNow with changed hub and aggregate pages
+        if: github.event_name == 'push'
+        continue-on-error: true
+        run: python3 newsroom/indexnow_changed.py --before "${{ github.event.before }}" --after "${{ github.sha }}" --max 200
 
   push-alerts:
     # Web push alerts for new stories (newsroom/push.py). Dry run unless the repo variable PUSH_LIVE is 1.

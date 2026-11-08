@@ -125,7 +125,8 @@ def build_feeds(arts):
     for c in CATS:
         its = [a for a in arts if a["cat"] == c][:40]
         write(f"section/{c.lower()}/feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>{NAME}: {c}</title><link>{SITE}/section/{c.lower()}/</link><description>{c} news from {NAME}</description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>{NAME}: {c}</title><link>{SITE}/section/{c.lower()}/</link><description>{c} news from {NAME}</description>
+<language>en</language><atom:link href="{SITE}/section/{c.lower()}/feed.xml" rel="self" type="application/rss+xml"/>
 <lastBuildDate>{now}</lastBuildDate>{''.join(f"<item><title>{escape(a['headline'])}</title><link>{SITE}{a['_path']}</link><guid>{SITE}{a['_path']}</guid><pubDate>{format_datetime(a['_dt'])}</pubDate><description>{escape(a['dek'])}</description></item>" for a in its)}</channel></rss>""")
     newest = arts[0]["_dt"].isoformat()
     def u(loc, mod):
@@ -143,6 +144,10 @@ def build_feeds(arts):
     pages += [u(f"{SITE}/archive/{m.replace('-', '/')}/", max(a["_dt"] for a in arts if a["edition"][:7] == m).isoformat()) for m in months]
     ns = 'xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"'
     write("sitemap-pages.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns}>{"".join(pages)}</urlset>')
+    # date pages (/YYYY/, /YYYY/MM/, /YYYY/MM/DD/) and section/topic pages 2+ (newsroom/archive.py)
+    import archive
+    arch = [u(f"{SITE}{p}", mod) for p, mod in dict(archive.ARCHIVE_URLS).items()]
+    write("sitemap-archive.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns}>{"".join(arch)}</urlset>')
     # every article ever published, newest first (split at 40k URLs per file)
     allart = [u(f"{SITE}{a['_path']}", a.get("updated", a["published"])) for a in sorted(arts, key=lambda a: a["_dt"], reverse=True)]
     parts = [allart[i:i + 40000] for i in range(0, len(allart), 40000)] or [[]]
@@ -156,7 +161,7 @@ def build_feeds(arts):
                    f'</news:publication><news:publication_date>{a["published"]}</news:publication_date><news:title>{escape(a["headline"])}</news:title>'
                    f'</news:news></url>' for a in recent)
     write("sitemap-news.xml", f'<?xml version="1.0" encoding="UTF-8"?><urlset {ns} xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">{news}</urlset>')
-    maps = ["sitemap-pages.xml", "sitemap-news.xml"] + [f"sitemap-articles-{i}.xml" for i in range(1, len(parts) + 1)]
+    maps = ["sitemap-pages.xml", "sitemap-archive.xml", "sitemap-news.xml"] + [f"sitemap-articles-{i}.xml" for i in range(1, len(parts) + 1)]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
           + "".join(f"<sitemap><loc>{SITE}/{m}</loc><lastmod>{newest}</lastmod></sitemap>" for m in maps) + "</sitemapindex>")
     write(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
@@ -302,6 +307,8 @@ def main():
         T.ctx["market"] = market.fetch() if media else market.cached()
     except Exception:  # noqa: BLE001
         T.ctx["market"] = None
+    import archive
+    archive.ARCHIVE_URLS.clear()
     T.build_front(arts, eds)
     for a in arts:
         T.build_article(a, arts)
@@ -323,6 +330,11 @@ def main():
     notify_site.write_static(OUT, write)
     import notify_admin
     notify_admin.build(arts, write)
+    try:  # source-mix warnings + docs/admin/sourcecheck.json (newsroom/sourcecheck.py): warns, never fails the build
+        import sourcecheck
+        sourcecheck.run(arts, write)
+    except Exception as e:  # noqa: BLE001
+        print(f"WARNING sourcecheck skipped: {e}")
     relativize()
     print(f"Built {len(arts)} articles across {len(eds)} editions -> {OUT}")
 
