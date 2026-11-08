@@ -59,6 +59,10 @@ ctx = {"market": None, "photo_path": lambda a: None, "write": None, "out": None,
 # paints above the fold: Newsreader (H1 + body text: the LCP element on articles), Inter Tight (nav) and the wordmark.
 FONT_PRELOAD = "".join(f'<link rel="preload" href="/assets/fonts/{f}.woff2" as="font" type="font/woff2" crossorigin>'
                        for f in ("newsreader", "inter-tight", "casanova-scotia"))
+# True Newsreader italic (pull quotes, glossary examples) from Google Fonts, loaded without blocking render:
+# the roman, sans and wordmark faces are self-hosted above.
+FONT_PRELOAD += ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,400&amp;display=swap" '
+                 '''media="print" onload="this.media='all'">''')
 
 _ABBR = re.compile(r"(?:\b(?:[A-Z]\.){1,3}|\b(?:Mr|Mrs|Ms|Dr|St|Jr|Sr|vs|No|Inc|Corp|Co|Ltd|Gov|Sen|Rep|approx|est|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.)$")
 
