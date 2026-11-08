@@ -204,3 +204,364 @@ def render_stock_card(r, out_png, out_jpg=None, title=None, kicker="Cannabis sto
     if out_jpg:
         img.save(out_jpg, quality=85, optimize=True, progressive=True)
     return img
+
+
+# ---------- lead images (Discover / Top Stories): the story's visual motif, no headline ----------
+# The three ratios Google asks for (16:9, 4:3, 1:1), each >= 1200 px wide, drawn in the site's own system:
+# #131313 ground with a faint violet wash, hatch and grain; the `visual` motif (the covers.py motifs,
+# redrawn in PIL); the `big` figure in Newsreader with a short accent rule and its label; and a small
+# header row (cube + METAFLORA NEWS, section). The only words are the figure, its label and the motif's own.
+
+LEAD_SIZES = {"16x9": (1600, 900), "4x3": (1200, 900), "1x1": (1200, 1200)}
+VIOLET, PAPER, INK = (167, 139, 250), (242, 242, 242), (19, 19, 19)
+LEAD_ACCENT = {"Federal": VIOLET, "Europe": VIOLET, "Tech": VIOLET, "Hemp": GREEN, "Science": GREEN}  # else lime
+ARROWS = set("→←↑↓↗↘")  # not in Newsreader: drawn in Inter Tight
+K = 2  # supersampling: PIL shapes have no anti-aliasing, so draw at 2x and downsample
+
+# per ratio: motif centre x, y and radius (fractions of W, H, H); text box x0, top, x1, bottom (fractions of W/H);
+# figure size cap and label size (fractions of H)
+LEAD_LAYOUT = {
+    "16x9": {"motif": (.72, .52, .39), "text": (.06, .22, .50, .885), "fs": .34, "label": .042},
+    "4x3": {"motif": (.69, .37, .27), "text": (.067, .66, .933, .905), "fs": .21, "label": .038},
+    "1x1": {"motif": (.60, .38, .26), "text": (.073, .67, .927, .925), "fs": .20, "label": .033},
+}
+
+
+def lead_accent(cat):
+    return LEAD_ACCENT.get(cat, LIME)
+
+
+def _rgba(c, a=1.0):
+    return tuple(c[:3]) + (round(255 * a),)
+
+
+def _radial(size, color, alpha, center, radius):
+    """RGBA layer: a soft radial glow of `color`, `alpha` at the centre fading to 0 at `radius`."""
+    g = Image.radial_gradient("L").resize((round(radius * 2), round(radius * 2)), Image.BILINEAR)
+    g = g.point(lambda v: round(max(0, 255 - v * 2) * alpha))  # radial_gradient: 0 at the centre, 128 at the inscribed edge
+    mask = Image.new("L", size, 0)
+    mask.paste(g, (round(center[0] - radius), round(center[1] - radius)))
+    layer = Image.new("RGBA", size, tuple(color) + (0,))
+    layer.putalpha(mask)
+    return layer
+
+
+def _fit(text, maker, size, max_w, d):
+    while size > 12 and d.textlength(text, font=maker(size)) > max_w:
+        size -= 2
+    return maker(size)
+
+
+def _spaced(d, x, y, text, font, fill, track):
+    """Letter-spaced text, vertically centred on y; returns the end x."""
+    for ch in text:
+        d.text((x, y), ch, font=font, fill=fill, anchor="lm")
+        x += d.textlength(ch, font=font) + track
+    return x - track
+
+
+def _motif(img, v, cx, cy, R, c, seed):
+    """Draw visual['motif'] onto the RGBA layer `img` (supersampled coordinates). Unknown motifs draw the leaf."""
+    import math
+    import random
+    from PIL import ImageChops
+    d = ImageDraw.Draw(img)
+    m = v.get("motif") or "leaf"
+    paper, ink, acc = _rgba(PAPER), _rgba(INK), _rgba(c)
+
+    def layer():
+        lay = Image.new("RGBA", img.size, (0, 0, 0, 0))
+        return lay, ImageDraw.Draw(lay)
+
+    def ctext(xy, text, font, fill=ink):
+        d.text(xy, text, font=font, fill=fill, anchor="mm")
+
+    if m == "ballot":
+        lay, ld = layer()
+        px, py = cx + R * .05, cy - R * .32
+        ld.rounded_rectangle([px - R * .38, py - R * .5, px + R * .38, py + R * .28], R * .04, fill=paper)
+        ld.line([(px - R * .18, py - R * .12), (px - R * .04, py + R * .04), (px + R * .22, py - R * .3)], fill=ink, width=round(R * .07), joint="curve")
+        for i in range(3):
+            ld.rectangle([px - R * .26, py + R * (.1 + i * .05), px - R * .26 + R * .52 * (1 - i * .2), py + R * (.12 + i * .05)], fill=_rgba(INK, .25))
+        img.alpha_composite(lay.rotate(7, resample=Image.BICUBIC, center=(px, py)))
+        d.rounded_rectangle([cx - R * .62, cy + R * .02, cx + R * .62, cy + R * .74], R * .06, fill=acc)
+        d.rounded_rectangle([cx - R * .4, cy + R * .1, cx + R * .4, cy + R * .17], R * .03, fill=ink)
+        band, bd = layer()
+        bd.rectangle([cx - R * .62, cy + R * .6, cx + R * .62, cy + R * .68], fill=_rgba(INK, .3))
+        img.alpha_composite(band)
+    elif m == "seal":
+        d.ellipse([cx - R * .86, cy - R * .86, cx + R * .86, cy + R * .86], outline=_rgba(c, .4), width=max(2, round(R * .012)))
+        d.ellipse([cx - R * .72, cy - R * .72, cx + R * .72, cy + R * .72], fill=acc)
+        for r in (.62, .44):
+            d.ellipse([cx - R * r, cy - R * r, cx + R * r, cy + R * r], outline=ink, width=round(R * .025))
+        for i in range(18):
+            a = i / 18 * math.tau
+            sx, sy, sr = cx + math.cos(a) * R * .53, cy + math.sin(a) * R * .53, R * .045
+            d.polygon([(sx + math.cos(-math.pi / 2 + j * math.pi / 5) * (sr * .45 if j % 2 else sr),
+                        sy + math.sin(-math.pi / 2 + j * math.pi / 5) * (sr * .45 if j % 2 else sr)) for j in range(10)], fill=ink)
+        word = str(v.get("word") or "FEDERAL").upper()
+        ctext((cx, cy - R * .05), word, _fit(word, lambda s: sans(s, 800), round(R * .17), R * .74, d))
+        sub = str(v.get("sub") or "").upper()
+        if sub:
+            ctext((cx, cy + R * .14), sub, _fit(sub, lambda s: mono(s, 600), round(R * .075), R * .76, d))
+    elif m == "calendar":
+        w, h = R * 1.05, R * 1.15
+        X, Y = cx - w / 2, cy - h / 2
+        d.rounded_rectangle([X, Y, X + w, Y + h], R * .07, fill=paper)
+        d.rounded_rectangle([X, Y, X + w, Y + h * .28], R * .07, fill=acc, corners=(True, True, False, False))
+        mon = str(v.get("mon") or "").upper()
+        if mon:
+            ctext((cx, Y + h * .15), mon, _fit(mon, lambda s: sans(s, 800), round(R * .17), w * .8, d))
+        day = str(v.get("day") or "")
+        if day:
+            ctext((cx, Y + h * .64), day, _fit(day, lambda s: serif(s, 600), round(R * .56), w * .8, d))
+        for o in (-.25, .25):
+            x = cx + o * w
+            d.rounded_rectangle([x - R * .045, Y - R * .1, x + R * .045, Y + R * .11], R * .045, fill=ink, outline=paper, width=2 * K)
+    elif m == "merge":
+        other = GREEN if tuple(c) == VIOLET else VIOLET
+        r = R * .5
+        ax, bx = cx - R * .28, cx + R * .28
+        for x, col, op in ((ax, c, .92), (bx, other, .8)):
+            lay, ld = layer()
+            ld.ellipse([x - r, cy - r, x + r, cy + r], fill=_rgba(col, op))
+            img.alpha_composite(lay)
+        ma, mb = Image.new("L", img.size, 0), Image.new("L", img.size, 0)
+        ImageDraw.Draw(ma).ellipse([ax - r, cy - r, ax + r, cy + r], fill=255)
+        ImageDraw.Draw(mb).ellipse([bx - r, cy - r, bx + r, cy + r], fill=140)
+        lens = Image.new("RGBA", img.size, paper)
+        lens.putalpha(ImageChops.multiply(ma, mb))
+        img.alpha_composite(lens)
+        for lbl, dx in ((v.get("a", ""), -.52), (v.get("b", ""), .52)):
+            lbl = str(lbl)
+            if lbl:
+                ctext((cx + R * dx, cy), lbl, _fit(lbl, lambda s: sans(s, 800), round(R * .15), R * .4, d))
+        ctext((cx, cy), "+", sans(round(R * .2), 800))
+    elif m == "gavel":
+        base, bd = layer()
+        bd.rounded_rectangle([cx - R * .6, cy + R * .42, cx + R * .5, cy + R * .58], R * .04, fill=_rgba(PAPER, .15))
+        img.alpha_composite(base)
+        d.rounded_rectangle([cx - R * .42, cy + R * .3, cx + R * .32, cy + R * .44], R * .03, fill=acc)
+        lay, ld = layer()
+        gx, gy = cx, cy - R * .05
+        ld.rounded_rectangle([gx - R * .05, gy - R * .02, gx + R * .9, gy + R * .08], R * .04, fill=paper)
+        ld.rounded_rectangle([gx - R * .32, gy - R * .26, gx, gy + R * .32], R * .06, fill=acc)
+        ld.rectangle([gx - R * .32, gy - R * .12, gx, gy - R * .08], fill=ink)
+        ld.rectangle([gx - R * .32, gy + R * .14, gx, gy + R * .18], fill=ink)
+        img.alpha_composite(lay.rotate(37, resample=Image.BICUBIC, center=(gx, gy)))
+        for l in ((-.55, .2, -.75, .12), (-.5, .05, -.7, -.08), (.45, .25, .62, .18)):
+            d.line([(cx + R * l[0], cy + R * l[1]), (cx + R * l[2], cy + R * l[3])], fill=acc, width=round(R * .025))
+    elif m == "pins":
+        rnd = random.Random("pins" + seed)
+        dots, dd = layer()
+        for i in range(11):
+            for j in range(7):
+                if rnd.random() < .82:
+                    x, y, r = cx - R * .8 + i * R * .16, cy - R * .45 + j * R * .16, R * .025
+                    dd.ellipse([x - r, y - r, x + r, y + r], fill=_rgba(PAPER, .25))
+        img.alpha_composite(dots)
+        for k, p in enumerate(((-.45, -.2), (.1, .15), (.5, -.3), (.3, .35))):
+            px, py = cx + p[0] * R, cy + p[1] * R
+            s = R * (.2 if k == 0 else .13)
+            col = acc if k == 0 else paper
+            d.polygon([(px, py), (px - s * .62, py - s * .75), (px + s * .62, py - s * .75)], fill=col)
+            d.ellipse([px - s * .7, py - s * 1.075 - s * .7, px + s * .7, py - s * 1.075 + s * .7], fill=col)
+            d.ellipse([px - s * .28, py - s * 1.05 - s * .28, px + s * .28, py - s * 1.05 + s * .28], fill=ink)
+    elif m == "molecule":
+        def hexp(x, y, r):
+            return [(x + math.cos(math.pi / 6 + i * math.pi / 3) * r, y + math.sin(math.pi / 6 + i * math.pi / 3) * r) for i in range(6)]
+        p1, p2 = hexp(cx - R * .15, cy, R * .38), hexp(cx + R * .5, cy - R * .4, R * .3)
+        lw = round(R * .04)
+        for P in (p1, p2):
+            d.line(P + [P[0], P[1]], fill=paper, width=lw, joint="curve")
+        d.line([p1[5], p2[2]], fill=paper, width=lw)
+        tail = (p1[2][0] - R * .35, p1[2][1] + R * .15)
+        d.line([p1[2], tail], fill=paper, width=lw)
+        for i, (a, b) in enumerate(p1 + p2):
+            r = R * (.07 if i % 4 == 0 else .045)
+            d.ellipse([a - r, b - r, a + r, b + r], fill=acc if i % 4 == 0 else paper)
+        r = R * .08
+        d.ellipse([tail[0] - r, tail[1] - r, tail[0] + r, tail[1] + r], fill=acc)
+    elif m == "chart":
+        try:
+            vals = [max(.05, min(1.0, float(x))) for x in (v.get("vals") or [])][:12]
+        except (TypeError, ValueError):
+            vals = []
+        if len(vals) < 2:
+            vals = [.35, .5, .42, .62, .58, .8, 1]
+        n = len(vals)
+        w, h = R * 1.5, R * 1.0
+        X, Y = cx - w / 2, cy + h / 2
+        grid, gd = layer()
+        for g in range(4):
+            gd.line([(X, Y - g * h / 3), (X + w, Y - g * h / 3)], fill=_rgba(PAPER, .15), width=K)
+        bw = w / n * .6
+        for i, val in enumerate(vals):
+            x = X + i * w / n + (w / n - bw) / 2
+            gd.rectangle([x, Y - val * h, x + bw, Y], fill=acc if i == n - 1 else _rgba(PAPER, .28))
+        img.alpha_composite(grid)
+        pts = [(X + i * w / n + w / n / 2, Y - val * h - R * .08) for i, val in enumerate(vals)]
+        d.line(pts, fill=acc, width=round(R * .03), joint="curve")
+        ex, ey = pts[-1]
+        r = R * .05
+        d.ellipse([ex - r, ey - r, ex + r, ey + r], fill=paper)
+    else:  # leaf
+        by = cy + R * .45
+        for a in (-1.25, -.8, -.4, 0, .4, .8, 1.25):
+            L = R * (1 - abs(a) * .38) * .95
+            ang = -math.pi / 2 + a
+            ca, sa = math.cos(ang), math.sin(ang)
+            half = [(u / 20 * L, math.sin(math.pi * u / 20) * L * .11 * (1 + (u % 2) * .35)) for u in range(21)]
+            outline = [(p, -q) for p, q in half] + [(p, q) for p, q in reversed(half)]
+            d.polygon([(cx + p * ca - q * sa, by + p * sa + q * ca) for p, q in outline], fill=acc)
+            d.line([(cx, by), (cx + L * .95 * ca, by + L * .95 * sa)], fill=_rgba(INK, .4), width=max(2, round(R * .012)))
+        d.line([(cx, by), (cx, by + R * .3)], fill=acc, width=round(R * .04))
+
+
+def _big_fonts(size):
+    return serif(size, 500), sans(round(size * .8), 500)
+
+
+def _big_width(d, text, size):
+    f, fb = _big_fonts(size)
+    return sum(d.textlength(ch, font=fb if ch in ARROWS else f) for ch in text)
+
+
+def _draw_big(d, x, y, text, size):
+    """The big figure in Newsreader on baseline y; glyphs Newsreader lacks (arrows) fall back to Inter Tight."""
+    f, fb = _big_fonts(size)
+    for ch in text:
+        font = fb if ch in ARROWS else f
+        d.text((x, y), ch, font=font, fill=PAPER, anchor="ls")
+        x += d.textlength(ch, font=font)
+
+
+def lead_alt(a):
+    """Plain description of the lead graphic (image_alt describes the AI photo scene, not this picture)."""
+    v = a.get("visual") or {}
+    big, label = str(v.get("big") or "").strip(), str(v.get("label") or "").strip()
+    fig = f"{big}, {label}" if big and label else (big or label)
+    return f"MetaFlora News graphic: {fig}" if fig else "MetaFlora News graphic"
+
+
+def render_lead(a, size="16x9"):
+    """Clean editorial lead image for an article: its visual motif and key figure, no headline. Returns an RGB Image."""
+    from PIL import ImageChops, ImageFilter
+    W_, H_ = LEAD_SIZES[size]
+    L = LEAD_LAYOUT[size]
+    v = a.get("visual") or {}
+    c = lead_accent(a.get("cat", ""))
+    seed = str(a.get("id", "x"))
+    SW, SH = W_ * K, H_ * K
+    img = Image.new("RGBA", (SW, SH), BG + (255,))
+
+    # ground: violet wash from the top-left, accent glow behind the motif, faint diagonal hatch
+    img.alpha_composite(_radial((SW, SH), (59, 42, 90), .6, (0, 0), SW * .7))
+    mx, my, mr = L["motif"]
+    cx, cy, R = SW * mx, SH * my, SH * mr
+    big = str(v.get("big") or "").strip()
+    if not big:  # no figure: the motif carries the picture alone, centred and larger
+        cx, cy, R = SW * .5, SH * .54, SH * mr * 1.3
+    img.alpha_composite(_radial((SW, SH), c, .2, (cx, cy), R * 2.1))
+    hatch = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
+    hd = ImageDraw.Draw(hatch)
+    for i in range(-SH, SW, 26 * K):
+        hd.line([(i, SH), (i + SH, 0)], fill=_rgba(PAPER, .03), width=K)
+    img.alpha_composite(hatch)
+
+    # motif, with the soft glow cover_svg uses (a blurred copy underneath)
+    mot = Image.new("RGBA", (SW, SH), (0, 0, 0, 0))
+    _motif(mot, v, cx, cy, R, c, "".join(ch for ch in seed if ch.isalnum())[:24] or "x")
+    glow = mot.filter(ImageFilter.GaussianBlur(R * .08))
+    glow.putalpha(glow.getchannel("A").point(lambda x: round(x * .5)))
+    img.alpha_composite(glow)
+    img.alpha_composite(mot)
+
+    d = ImageDraw.Draw(img)
+    x0 = round(SW * L["text"][0])
+
+    # header row: cube + METAFLORA NEWS | SECTION
+    hy = round(SH * (.09 if size == "16x9" else .075))
+    cube = Image.open(HERE / "assets" / "metaflora-cube.png").convert("RGBA")
+    chh = 30 * K
+    cube = cube.resize((round(chh * cube.width / cube.height), chh), Image.LANCZOS)
+    img.alpha_composite(cube, (x0, hy - chh // 2))
+    x = x0 + cube.width + 12 * K
+    wf = ImageFont.truetype(str(FONTS / "CasanovaScotia.otf"), 25 * K)
+    d.text((x, hy), "METAFLORA", font=wf, fill=PAPER, anchor="lm")
+    x += d.textlength("METAFLORA", font=wf) + 10 * K
+    x = _spaced(d, x, hy, "NEWS", sans(14 * K, 700), LIME, 4 * K) + 18 * K
+    d.line([(x, hy - 11 * K), (x, hy + 11 * K)], fill=(74, 74, 74), width=K)
+    _spaced(d, x + 18 * K, hy, str(a.get("cat", "")).upper(), sans(15 * K, 700), c, 3 * K)
+
+    # figure block, bottom-aligned in the text box: big figure, accent rule, label (max 2 lines)
+    if big:
+        bx0, top, bx1, bottom = SW * L["text"][0], SH * L["text"][1], SW * L["text"][2], SH * L["text"][3]
+        max_w = bx1 - bx0
+        lf = sans(round(SH * L["label"]), 500)
+        label = str(v.get("label") or "").strip()
+        llines = balanced(d, label, lf, max_w) if label else []
+        if len(llines) > 2:
+            llines = clamp(d, label, lf, max_w, 2)
+        lstep = round(lf.size * 1.3)
+        gap1, rule_h, gap2 = round(SH * .032), 4 * K, round(SH * .03)
+        below = gap1 + rule_h + gap2 + (round(lf.size * .78) + lstep * (len(llines) - 1) if llines else 0)
+        size_px = round(SH * L["fs"])
+
+        def cap(s):
+            return -serif(s, 500).getbbox("0", anchor="ls")[1]
+        while size_px > 40 and (_big_width(d, big, size_px) > max_w or cap(size_px) + below > bottom - top):
+            size_px -= 4
+        y = bottom - below  # baseline of the figure
+        _draw_big(d, bx0 - size_px * .02, y, big, size_px)
+        ry = y + gap1
+        d.rectangle([bx0, ry, bx0 + 64 * K, ry + rule_h], fill=c)
+        ly = ry + rule_h + gap2 + round(lf.size * .78)
+        for ln in llines:
+            d.text((bx0, ly), ln, font=lf, fill=(178, 178, 178), anchor="ls")
+            ly += lstep
+
+    out = img.convert("RGB").resize((W_, H_), Image.LANCZOS)
+    # grain: fine noise of about +-2 levels so the flat ground doesn't band
+    noise = Image.effect_noise((W_, H_), 18)
+    pos = Image.merge("RGB", (noise.point(lambda n: max(0, n - 128) // 9),) * 3)
+    neg = Image.merge("RGB", (noise.point(lambda n: max(0, 128 - n) // 9),) * 3)
+    return ImageChops.subtract(ImageChops.add(out, pos), neg)
+
+
+def lead_paths(out_dir, aid):
+    """{ratio: Path} of an article's lead images in docs/img/, plus "16x9-960" (the phone-size 16:9)."""
+    out_dir = Path(out_dir)
+    p = {r: out_dir / f"{aid}-{r}.jpg" for r in LEAD_SIZES}
+    p["16x9-960"] = out_dir / f"{aid}-16x9-960.jpg"
+    return p
+
+
+LEAD_MANIFEST = ".leads.json"  # in docs/img: {id: hash of the inputs}, so CI can restore docs/img from cache and skip unchanged stories
+
+
+def write_leads(a, out_dir):
+    """Render the three ratios (and the 960 px 16:9) as JPEG, unless the files exist and the story's id, section,
+    visual and this module are unchanged since they were drawn. Returns {ratio: Path}."""
+    import hashlib
+    import json
+    out_dir = Path(out_dir)
+    paths = lead_paths(out_dir, a["id"])
+    key = hashlib.sha1(json.dumps([a["id"], a.get("cat"), a.get("visual")], sort_keys=True).encode()
+                       + Path(__file__).read_bytes()).hexdigest()[:16]
+    man_path = out_dir / LEAD_MANIFEST
+    try:
+        man = json.loads(man_path.read_text())
+    except (OSError, ValueError):
+        man = {}
+    if man.get(a["id"]) == key and all(p.exists() for p in paths.values()):
+        return paths
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for r in LEAD_SIZES:
+        im = render_lead(a, r)
+        im.save(paths[r], quality=82, optimize=True, progressive=True, subsampling=0)
+        if r == "16x9":
+            im.resize((960, 540), Image.LANCZOS).save(paths["16x9-960"], quality=80, optimize=True, progressive=True, subsampling=0)
+    man[a["id"]] = key
+    man_path.write_text(json.dumps(man, sort_keys=True, indent=0))
+    return paths

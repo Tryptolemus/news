@@ -116,7 +116,7 @@ def build_feeds(arts):
     for a in arts[:60]:
         items.append(f"""<item><title>{escape(a['headline'])}</title><link>{SITE}{a['_path']}</link><guid>{SITE}{a['_path']}</guid>
 <pubDate>{format_datetime(a['_dt'])}</pubDate><category>{a['cat']}</category><description>{escape(a['dek'])}</description>
-<dc:creator>MetaFlora News Desk</dc:creator><media:content url="{SITE}/og/{a['id']}.png" medium="image" width="1200" height="630"/></item>""")
+<dc:creator>MetaFlora News Desk</dc:creator>{T.rss_image(a)}</item>""")
     now = format_datetime(datetime.now(timezone.utc))
     write("feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>{NAME}</title><link>{SITE}/</link><description>{escape(TAGLINE)}</description>
@@ -125,9 +125,9 @@ def build_feeds(arts):
     for c in CATS:
         its = [a for a in arts if a["cat"] == c][:40]
         write(f"section/{c.lower()}/feed.xml", f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>{NAME}: {c}</title><link>{SITE}/section/{c.lower()}/</link><description>{c} news from {NAME}</description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>{NAME}: {c}</title><link>{SITE}/section/{c.lower()}/</link><description>{c} news from {NAME}</description>
 <language>en</language><atom:link href="{SITE}/section/{c.lower()}/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>{now}</lastBuildDate>{''.join(f"<item><title>{escape(a['headline'])}</title><link>{SITE}{a['_path']}</link><guid>{SITE}{a['_path']}</guid><pubDate>{format_datetime(a['_dt'])}</pubDate><description>{escape(a['dek'])}</description></item>" for a in its)}</channel></rss>""")
+<lastBuildDate>{now}</lastBuildDate>{''.join(f"<item><title>{escape(a['headline'])}</title><link>{SITE}{a['_path']}</link><guid>{SITE}{a['_path']}</guid><pubDate>{format_datetime(a['_dt'])}</pubDate><description>{escape(a['dek'])}</description>{T.rss_image(a)}</item>" for a in its)}</channel></rss>""")
     newest = arts[0]["_dt"].isoformat()
     def u(loc, mod):
         return f"<url><loc>{loc}</loc><lastmod>{mod}</lastmod></url>"
@@ -212,13 +212,15 @@ def render_png(svg_text, out_path, width=1200):
 
 def build_media(arts, eds):
     from banner import render_banner
-    from card import render_card
+    from card import render_card, write_leads
     from PIL import Image
     for a in arts:
         # social card (og:image, X, LinkedIn, push alerts): the editorial card, design board pick A
         og = OUT / "og" / f"{a['id']}.png"
         render_card(a, og, og.with_suffix(".jpg"))
         src = CONTENT / a["_file"]
+        # lead images (article figure, NewsArticle image, RSS): the visual motif in 16:9, 4:3 and 1:1, no headline
+        write_leads(a, OUT / "img")
         ban = OUT / "banners" / f"{a['id']}.jpg"
         photo = photo_path(a)
         newest = max(src.stat().st_mtime, photo.stat().st_mtime if photo else 0, Path(__file__).with_name("banner.py").stat().st_mtime)
@@ -283,7 +285,7 @@ def main():
         raise SystemExit("No articles in content/articles")
     eds = editions(arts)
     OUT.mkdir(exist_ok=True)
-    for sub in ("section", "archive", "img", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers", "glossary", "company", "data", "about", "corrections"):
+    for sub in ("section", "archive", "reels", "advertise", "how-we-report", "topic", "stocks", "admin", "legal", "explainers", "glossary", "company", "data", "about", "corrections"):
         shutil.rmtree(OUT / sub, ignore_errors=True)
     for d in OUT.glob("[0-9][0-9][0-9][0-9]"):
         shutil.rmtree(d)
@@ -294,6 +296,12 @@ def main():
     shutil.copytree(ROOT / "newsroom" / "assets", assets, dirs_exist_ok=True, ignore=shutil.ignore_patterns("*.ttf", "*.otf"))
     for stale in (assets / "fonts").glob("*.[ot]tf"):
         stale.unlink()
+    # docs/img: photos are re-copied below; rendered lead images (card.write_leads) are kept as a cache,
+    # except those of stories that are gone or drafts
+    leads = {f"{a['id']}-{r}.jpg" for a in arts for r in ("16x9", "4x3", "1x1", "16x9-960")} | {".leads.json"}
+    for f in (OUT / "img").glob("*"):
+        if f.is_file() and f.name not in leads:
+            f.unlink()
     if IMAGES.exists():
         shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
     install_fonts()
