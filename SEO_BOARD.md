@@ -24,7 +24,14 @@ Every fact is `{value, source, as_of}`; bump `last_verified` only when something
 - Topic pages owned by a hub are 1 KB redirect stubs (canonical + refresh), not noindex.
 - Titles use `TITLE_YEAR` in hubs.py (bump in a dated sweep, not per build).
 
+## Round 7 (8 Nov 2026) – shipped
+- By-state tables (`newsroom/bystate.py`): /legal/us/by-state/ + possession, home grow, hemp THC (noindex until 41/51 states have a sourced `hemp_thc`), public consumption, DUI, where tourists can buy; /data/cannabis-sales-by-state/ (official full-year totals only). Each has CSV, Dataset/FAQPage/ItemList JSON-LD.
+- Autolink: every state, country and company a story names (full name only for untagged hubs; `AMBIGUOUS` names like Washington only when tagged; `in_proper_name`/`place_ok` skip other meanings), plus up to 3 specific glossary terms. Hub "Latest coverage" also counts stories that name the place/company.
+- Self-hosted subset WOFF2 fonts (`newsroom/webfonts.py`), Newsreader italic via a non-blocking Google Fonts link; SW navigation preload; titles never truncated; descriptions end on whole sentences; small footer/mast images; 404 has no canonical.
+- `STOCK_PAGES` comes from `market.TICKERS`. Board files: scratchpad seo-board/r7_*.md.
+
 ## Next rounds (from the board)
-1. Round 6: refresh Village Farms and Organigram results; re-source the secondary-source facts (Arkansas, Texas, Nebraska, Georgia) when state sites load; WA/NY monthly sales.
-2. Self-hosted WOFF2 fonts; 16:9 article photos (needs OPENAI_API_KEY secret).
-3. Watch Search Console (Pages, Performance) and plan rounds around real queries.
+1. Round 8: 16:9/4:3/1:1 lead images rendered from each story's visual motif (Discover); source-mix build check (>=1 primary source, <=60% from one outlet, link the named report/bill/ruling); Wikidata sameAs (verified ids only) + NewsArticle about/mentions; archive pagination + daily edition pages; feeds per state/company; IndexNow for changed hubs.
+2. Data: source `hemp_thc` and `taxes` for the 24 states missing each; Village Farms Q3 (9 Nov), Organigram FY.
+3. Owner decisions: a named human reviewer for top stories (Google AI-content guidance); Google News Publisher Center + Bing Webmaster Tools; Cloudflare proxy for caching.
+4. Watch Search Console (Pages, Performance) and plan rounds around real queries.
