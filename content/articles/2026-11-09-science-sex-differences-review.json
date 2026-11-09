@@ -1,0 +1,100 @@
+{
+  "id": "science-sex-differences-review",
+  "edition": "2026-11-09-pm",
+  "rank": 7,
+  "published": "2026-11-09T18:09:03+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: UCLA trial finds men feel THC more than women",
+  "dek": "A UCLA trial finds occasional male users feel cannabis most, a 200-study review finds weak mental health evidence, and Siberian hair shows ancient use.",
+  "key_points": [
+    "In a UCLA randomised trial, men who used cannabis weekly felt more high, sedated and impaired than women with similar habits, at similar blood THC levels.",
+    "A review of 82 experimental and 118 observational studies found cannabinoids modestly reduced anxiety, with no clear benefit for depression and very low certainty overall.",
+    "THC was linked to more patients dropping out of trials because of side effects, the review found.",
+    "Researchers writing in Science found cannabis compounds in human hair from a 2,800-year-old Siberian tomb, the earliest direct evidence of use."
+  ],
+  "body": [
+    "Three studies published in the past week push against common assumptions about cannabis: who feels it most, what it can treat, and how long people have been using it for its effects. One is a controlled trial from UCLA, one a large review of mental health evidence, and one an archaeological find in Science.",
+    "None changes clinical practice on its own. Together they are a reminder that much of what the market says about cannabis rests on thin evidence, and that better-designed studies can overturn it.",
+    "## Men, not women, felt it more",
+    "The UCLA trial, published in Neuropsychopharmacology, set out to test how sex and frequency of use together shape the short-term effects of smoked cannabis. Researchers at the UCLA Center for Cannabis and Cannabinoids enrolled healthy adults split evenly by sex and by whether they used weekly or daily. Each smoked placebo, lower-THC and higher-THC cannabis in three sessions without knowing which was which. Women were not using hormonal contraception and were tested in the same phase of the menstrual cycle.",
+    "Men who used occasionally reported feeling more high, sedated and impaired than any other group, along with more unpleasant effects such as anxiety, and they were the only group whose heart rate rose significantly. Frequent users of both sexes responded similarly. Blood THC did not explain the gap: frequent male users tended to have the highest THC levels but felt less than occasional male users. In an exploratory finding, frequent users of either sex were more likely to choose extra cannabis during the study.",
+    "The result runs against earlier work suggesting women are more sensitive, much of which came from animal studies or pooled human data, said principal investigator Ziva Cooper. The authors suggest women may build tolerance with less use than men. They note the sample was modest, several findings were exploratory, and the THC strengths tested were lower than many products now sold.",
+    "> Dosing advice built on the idea that women need less may simply be wrong. Use history appears to matter as much as sex.",
+    "## Mental health: modest signals, low certainty",
+    "A systematic review and meta-analysis in Psychiatry Research, led by researchers including Chrianna Bharat, pooled 82 experimental and 118 observational studies of cannabinoids for ADHD, anxiety, depression, PTSD, psychosis, Tourette syndrome and alcohol, cannabis, opioid and tobacco use disorders.",
+    "In randomised trials, cannabinoids reduced anxiety symptoms by a modest amount, and one small trial of 20 people found a large effect on PTSD symptoms. There was little or no effect on depression, ADHD, psychosis or Tourette syndrome. In one trial, cannabinoids worsened the severity of cannabis use disorder. Observational studies looked more positive but carried a high risk of bias. The one clear safety finding was that THC raised the odds of patients withdrawing from trials because of side effects, by nearly three times.",
+    "The authors rated certainty as mostly very low and concluded the evidence does not support cannabinoids as a first-line treatment. Much of the anxiety and depression evidence came from secondary outcomes in trials of other conditions. The findings sit alongside a review we covered on 8 November, which found THC with CBD improved sleep in pain trials: the strongest signals keep coming from symptoms like sleep and pain rather than psychiatric diagnoses.",
+    "## 2,800 years of use",
+    "In Science, a team led by Gino Caspari reported cannabis plant parts placed as offerings in a monumental tomb in Siberia, together with cannabis compounds detected in human hair from the same burial. The authors describe it as the earliest direct evidence of cannabis consumption, dating it to at least 2,800 years ago. They suggest the plant was used for its psychoactive effects across Eurasia, possibly from wild populations with naturally higher levels of active compounds. Plant remains alone have long been hard to interpret, since cannabis was also grown for fibre and seed; the hair chemistry is what ties this find to consumption.",
+    "## What to watch",
+    "The UCLA team says it is now studying high-potency products and adults aged 55 and over, whose use is rising. Watch for larger trials that test sex and tolerance together, and for regulators and clinicians to cite the Psychiatry Research review as anxiety and PTSD claims spread in medical cannabis marketing."
+  ],
+  "sources": [
+    {
+      "name": "Neuropsychopharmacology (DOI)",
+      "url": "https://doi.org/10.1038/s41386-026-02571-3"
+    },
+    {
+      "name": "UCLA Health via Medical Xpress",
+      "url": "https://medicalxpress.com/news/2026-11-belief-women-sensitive-effects-cannabis.html"
+    },
+    {
+      "name": "Psychiatry Research (DOI)",
+      "url": "https://doi.org/10.1016/j.psychres.2026.117380"
+    },
+    {
+      "name": "University of Western Australia research repository",
+      "url": "https://research-repository.uwa.edu.au/en/publications/cannabis-and-cannabinoids-for-the-treatment-of-mental-and-substan/"
+    },
+    {
+      "name": "Science",
+      "url": "https://www.science.org/doi/10.1126/science.aeg3800"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/science-pain-glaucoma/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "200",
+    "label": "studies pooled in the mental health review"
+  },
+  "banner": {
+    "title": "Men Felt Cannabis More",
+    "highlight": [
+      "MEN"
+    ],
+    "sub": "UCLA trial upends a sex-difference assumption",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Randomised, placebo-led"
+      },
+      {
+        "icon": "doc",
+        "text": "200-study review"
+      },
+      {
+        "icon": "globe",
+        "text": "2,800-year-old evidence"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "RESEARCH",
+      "HEALTH",
+      "THC"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Medical cannabis",
+    "Mental health"
+  ],
+  "image_prompt": "A single glass laboratory beaker holding a small dried cannabis flower on a plain white lab bench, soft violet edge light.",
+  "image_alt": "A glass beaker holding a dried cannabis flower on a white lab bench.",
+  "breaking": false
+}

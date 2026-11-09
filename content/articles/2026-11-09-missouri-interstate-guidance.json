@@ -1,0 +1,103 @@
+{
+  "id": "missouri-interstate-guidance",
+  "edition": "2026-11-09-pm",
+  "rank": 5,
+  "published": "2026-11-09T18:09:03+02:00",
+  "cat": "States",
+  "headline": "Missouri says rescheduling does not allow interstate cannabis sales",
+  "dek": "Missouri's cannabis regulator says DEA registration adds federal duties but no right to import, export or ship across state lines until state rules change.",
+  "key_points": [
+    "Missouri's Division of Cannabis Regulation says federal rescheduling adds a second layer of rules and does not replace the state programme.",
+    "Even if a DEA registration allows it, licensees may not import, export or trade across state lines until Missouri updates its rules.",
+    "Regulators will treat product leaving the state system as diversion and outside product coming in as inversion.",
+    "Missouri has not said when import or export rules might follow, or whether its combined medical and adult-use licences qualify federally."
+  ],
+  "body": [
+    "Missouri's cannabis regulator has warned licensed businesses not to move cannabis across state lines, even if a federal registration under the Trump administration's rescheduling order appears to allow it. The guidance, dated 2 November and reported by Marijuana Moment on 9 November, is one of the first by a state regulator to address how federal Schedule III status fits with a state-run market.",
+    "The Division of Cannabis Regulation, part of the Department of Health and Senior Services, says rescheduling of state-licensed medical marijuana does not replace Missouri's programme. It adds federal requirements on top of the state system for any licensee that chooses to register with the Drug Enforcement Administration, creating what the division calls a dual-layer system.",
+    "## No interstate trade, for now",
+    "The core message is about borders. Missouri law does not authorise import, export or interstate commerce in regulated cannabis, the division says. A federal registration might grant that authority, but licensees will not be able to use it until Missouri updates its rules and infrastructure.",
+    "Regulators spelled out how they will treat breaches. Moving Missouri-regulated product outside the state's tracked system counts as illegal diversion. Bringing in marijuana from outside the regulated system counts as inversion, which is also prohibited. The division told licensees to avoid any import, export or interstate activity until the rules change, and said it will issue more guidance if and when that happens. It gave no timetable.",
+    "## State licence first",
+    "The guidance also tells businesses that the state licence comes first. Federal registration depends on keeping a Missouri licence, so where state and federal expectations conflict, licensees are told to work with the department to stay compliant with state rules. Track-and-trace, testing and facility visitor rules all continue unchanged. According to a summary by GreenArk, DEA inspectors may enter licensed premises with credentials but must follow Missouri's check-in and escort rules, and new confidentiality provisions under state bill HB 2641 take effect on 11 November.",
+    "> Rescheduling opened a federal door that states still control the key to. Missouri is the first to say so in writing.",
+    "## The comprehensive licence problem",
+    "Missouri's guidance does not resolve the biggest question for its market. Most Missouri dispensaries hold comprehensive licences that cover both medical and adult-use sales from the same inventory. The April federal order moved only marijuana subject to a state medical licence into Schedule III; adult-use marijuana remains in Schedule I. In May, the division told licensees that DEA registration was optional and that it was up to the DEA to decide whether a combined licence qualifies, MJBizDaily reported in September.",
+    "That uncertainty has kept most Missouri operators on the sidelines. Only about a third of the Missouri Cannabis Trade Association's more than 90 members applied for DEA registration, and none had been approved as of mid-September, the association's executive director told MJBizDaily. Medical sales are a small slice of the state's market: GreenArk, citing the division's annual report, put program year 2024 medical sales at $182 million against $1.26 billion in adult-use sales. By that count, medical cannabis was about 13% of combined sales in that year.",
+    "The guidance therefore leaves a registered Missouri business with federal paperwork and inspections but few new freedoms. It cannot sell across the border, it must keep every gram inside the state's tracking system, and it still does not know whether the federal government regards its licence as medical at all. For operators weighing whether to file the DEA's forms, that is a thin return for the added oversight, which helps explain why so many have held back.",
+    "## Why it matters beyond Missouri",
+    "Interstate commerce is one of the potential prizes of federal rescheduling. A registered medical operator in one state could, in principle, buy from or sell to registered businesses in another. Missouri's guidance shows that state law can block that even where federal law allows it, and that regulators will treat cross-border movement as a compliance breach until they say otherwise. Other states with constitutionally fixed cannabis programmes may follow the same line. As we reported on 6 November, the DEA's first dispensary registrations also came with limits on who those businesses may trade with.",
+    "## What to watch",
+    "Watch for Missouri to propose import and export rules, and for the DEA to say whether comprehensive licences can register. Watch other state regulators for similar guidance as manufacturers and distributors file the DEA's newer registration forms. And watch Missouri's enforcement posture more broadly: the attorney general's office has been filing actions against unlicensed sellers as the state's hemp THC law takes effect."
+  ],
+  "sources": [
+    {
+      "name": "Missouri Department of Health and Senior Services, Division of Cannabis Regulation",
+      "url": "https://health.mo.gov/business-professionals/cannabis-regulation/dcr-communication-resource-center"
+    },
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/missouri-officials-warn-marijuana-businesses-that-interstate-commerce-is-not-allowed-even-under-federal-rescheduling/"
+    },
+    {
+      "name": "GreenArk",
+      "url": "https://www.greenark.io/articles/missouri-dcr-dea-registration-adds-more-burden-onto-state-license-holders"
+    },
+    {
+      "name": "MJBizDaily",
+      "url": "https://mjbizdaily.com/news/most-missouri-cannabis-operators-opted-out-of-dea-registration-was-it-a-mistake/618220/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "1/3",
+    "label": "of Missouri trade group members sought DEA status"
+  },
+  "banner": {
+    "title": "Missouri Shuts Interstate Door",
+    "highlight": [
+      "MISSOURI"
+    ],
+    "sub": "Federal registration grants no cross-border sales yet",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "shield",
+        "text": "State licence comes first"
+      },
+      {
+        "icon": "gavel",
+        "text": "No import or export"
+      },
+      {
+        "icon": "doc",
+        "text": "Guidance dated 2 November"
+      }
+    ],
+    "corner": [
+      "MISSOURI",
+      "DEA",
+      "COMPLIANCE",
+      "STATES"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-11",
+      "text": "Missouri HB 2641 confidentiality provisions take effect"
+    }
+  ],
+  "tags": [
+    "Missouri",
+    "DEA",
+    "Rescheduling",
+    "Medical cannabis"
+  ],
+  "image_prompt": "A closed wooden crate with a plain brass padlock resting on a pale concrete loading dock, soft violet edge light.",
+  "image_alt": "A padlocked wooden crate on a concrete loading dock.",
+  "breaking": false
+}

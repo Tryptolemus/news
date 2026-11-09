@@ -1,0 +1,104 @@
+{
+  "id": "germany-telemedicine-pushback",
+  "edition": "2026-11-09-pm",
+  "rank": 6,
+  "published": "2026-11-09T18:09:03+02:00",
+  "cat": "Europe",
+  "headline": "German medical cannabis firms dispute Berlin's telemedicine curbs",
+  "dek": "German pharmacies and telemedicine groups say Berlin has shown no data on abuse, as its in-person prescription and mail-order ban stalls in coalition.",
+  "key_points": [
+    "Germany's draft law would require in-person first prescriptions for flower and end mail-order supply; the SPD is blocking it as drafted.",
+    "Grünhorn data presented in Frankfurt found 70.1 million Germans live more than 20 km from a specialist cannabis pharmacy.",
+    "Industry speakers conceded real abuses by some platforms but argued for certification rather than a ban.",
+    "Prohibition Partners estimates the package could shrink the German market by as much as 50% if passed as written."
+  ],
+  "body": [
+    "Germany's medical cannabis industry used its first major domestic conference to pick apart the government's case for restricting telemedicine prescribing. At the Cannabis Health Symposium in Frankfurt on 4 November, executives from pharmacy group Grünhorn, telemedicine operator Bloomwell and the association of cannabis-supplying pharmacies argued that Berlin has asserted widespread abuse without showing evidence of harm, Business of Cannabis reported on 9 November.",
+    "The stakes are large. The cabinet's bill to amend the Medical Cannabis Act would require an in-person consultation before a first flower prescription and ban mail-order pharmacies from supplying flower. Prohibition Partners has estimated that, passed as drafted, the package could cut the German market by as much as half.",
+    "## Where the bill stands",
+    "The draft has been with the Bundestag's health committee since its first reading in December 2025, with no committee recommendation and no further readings, according to a regulatory digest from Elite Organic Global. Business of Cannabis reports that the Social Democrats, the junior coalition partner, are blocking it: SPD lawmaker Carmen Wegge has said the party will not approve it as drafted, and her colleague Matthias Mieves has campaigned publicly for telemedicine platforms. Trade press now expects a decision no earlier than late autumn or winter. Until then, telemedicine prescribing and pharmacy mail order remain lawful.",
+    "## The industry's concessions",
+    "The speakers did not claim the sector was clean. Grünhorn's Tobias Bosse listed problems the ministry can point to: a leak of 1.7 million patient records at a telemedicine operator, platforms that founded a political party to defend their model, and platforms using rappers' names and faces to market prescriptions on Instagram. Grünhorn's own test orders, he said, found platforms with no age or identity checks and no quantity limits, and prescriber networks abroad whose licences could not be traced. His argument was that identifiable bad actors should be dealt with directly rather than through rules that hit every patient.",
+    "## The access argument",
+    "Grünhorn's data lead, Patrick Möbius, presented a map of every cannabis-dispensing pharmacy in Germany against population density. It found 70.1 million people, more than 80% of the population, live more than 20 kilometres from a specialist cannabis pharmacy. Ending mail order would push those patients toward long journeys or out of the legal system, the panel argued, with elderly and seriously ill patients, shift workers, carers and people without cars hit hardest.",
+    "Bloomwell's Julian Wichmann said the abuse claims are not matched by measurable harm, pointing to flat hospitalisation and traffic-accident rates among patients. He argued telemedicine is not less safe, only more visible, citing Bloomwell research showing some statutory-insurance patients receiving up to 800 grams a month from a single in-person prescriber.",
+    "> Berlin is trying to fix a marketing problem with a supply-chain ban. The industry's offer of certification is the compromise the SPD is likely to want on paper.",
+    "## Pharmacies squeezed from both sides",
+    "Christiane Neubauer of the cannabis-supplying pharmacies' association said her members face pressure from two directions. Pharmacy chambers are asking pharmacists to check how each prescription was generated, which she said is not their job. Meanwhile, prices have fallen so far that margins are vanishing: flower selling at €2.99 a gram leaves little after platform fees. She pointed to the insolvency of the Lux 99 cannabis pharmacy in Hürth as the first visible casualty. Grünhorn counted more than 2,000 flower strains on German shelves, with the top 20 importers holding 88% of market share by its measure.",
+    "That squeeze fits the numbers. As we reported on 8 November, German medical cannabis prices have fallen sharply this year. The Global Cannabis Exchange's autumn report put the fall in lower-end German wholesale prices at about 30% to 35% since spring.",
+    "## What the industry wants instead",
+    "The panel proposed a certification regime for telemedicine platforms covering age and identity checks, minimum consultation standards, documentation and approved prescriber jurisdictions. Neubauer also called for the long-delayed second pillar of legalisation: legal adult-use sales through pharmacies, with THC and quantity limits. Wichmann said a meeting with CDU General Secretary Carsten Linnemann was cancelled on the morning of the symposium, and that industry dialogue routine under the previous health ministry has not happened under Health Minister Nina Warken.",
+    "## What to watch",
+    "Watch the Bundestag health committee for any movement on the bill before the end of the year, and whether the SPD secures a certification model in place of an outright mail-order ban. Watch the federal drug agency's quarterly import figures, the first test of demand after insurers stopped paying for flower on 30 July. And watch for more pharmacy and distributor insolvencies as prices fall."
+  ],
+  "sources": [
+    {
+      "name": "Business of Cannabis",
+      "url": "https://businessofcannabis.com/we-hear-about-the-abuse-we-dont-see-the-data-german-cannabis-industry-challenges-berlins-case-for-restrictions/"
+    },
+    {
+      "name": "Elite Organic Global regulatory digest",
+      "url": "https://www.elite-organic.com/regulatory-digest-2026-10"
+    },
+    {
+      "name": "Cannabis Health News",
+      "url": "https://cannabishealthnews.co.uk/2026/11/05/evidence-access-and-the-future-of-cannabinoid-medicine-key-takeaways-from-cannabis-health-symposium-frankfurt-part-1/"
+    },
+    {
+      "name": "Prohibition Partners",
+      "url": "https://prohibitionpartners.com/international-cannabis-weekly/474"
+    },
+    {
+      "name": "MMJDaily",
+      "url": "https://www.mmjdaily.com/article/9888885/rising-supply-resets-wholesale-medical-cannabis-flower-prices-in-international-markets/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/germany-medical-squeeze/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "70.1M",
+    "label": "Germans living 20+ km from a cannabis pharmacy"
+  },
+  "banner": {
+    "title": "German Cannabis Firms Push Back",
+    "highlight": [
+      "PUSH",
+      "BACK"
+    ],
+    "sub": "Industry disputes Berlin's case for telemedicine curbs",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "pin",
+        "text": "70.1M far from pharmacy"
+      },
+      {
+        "icon": "doc",
+        "text": "Bill stalled in coalition"
+      },
+      {
+        "icon": "shield",
+        "text": "Certification proposed"
+      }
+    ],
+    "corner": [
+      "GERMANY",
+      "MEDICAL",
+      "TELEMEDICINE",
+      "EUROPE"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Germany",
+    "Medical cannabis",
+    "Telemedicine",
+    "Europe"
+  ],
+  "image_prompt": "A plain white pharmacy paper bag sealed and resting on a dark wooden counter beside a small amber glass jar, soft violet edge light.",
+  "image_alt": "A sealed white pharmacy bag beside an amber glass jar on a wooden counter.",
+  "breaking": false
+}

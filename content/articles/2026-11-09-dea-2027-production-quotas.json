@@ -1,0 +1,110 @@
+{
+  "id": "dea-2027-production-quotas",
+  "edition": "2026-11-09-pm",
+  "rank": 2,
+  "published": "2026-11-09T18:09:03+02:00",
+  "cat": "Federal",
+  "headline": "DEA to set separate Schedule III marijuana quotas, holds research cap",
+  "dek": "DEA's draft 2027 production quotas keep Schedule I marijuana flat at 6,675 kg and promise a separate notice for medical cannabis moved to Schedule III.",
+  "key_points": [
+    "DEA's proposed 2027 quotas, due in the Federal Register on 10 November, keep Schedule I marijuana at 6,675 kg and marijuana extract at 1,000 kg.",
+    "The agency says it will publish separate quotas for the three Schedule III marijuana drug codes once it works out the country's legitimate need.",
+    "DEA is still registering the manufacturers and distributors that will handle Schedule III cannabis, after licensing 900+ dispensaries in October.",
+    "MDMA, ibogaine and psilocybin quotas rise sharply, in line with the White House push on psychedelic research."
+  ],
+  "body": [
+    "The Drug Enforcement Administration has told the industry for the first time how it plans to cap the supply of medical marijuana that moved to Schedule III this year: with a separate quota notice, still to come. The statement sits in the agency's draft 2027 aggregate production quotas, filed for public inspection on 9 November and due to be published in the Federal Register on 10 November.",
+    "For the marijuana that remains in Schedule I, the proposal changes nothing. DEA would allow up to 6,675,000 grams of marijuana and 1,000,000 grams of marijuana extract to be produced in 2027, the same as in 2026, along with 1,523,040 grams of delta-9 THC and 1,166,130 grams of other THC, Marijuana Moment reported. Those limits govern the small federally authorised research supply chain, not state-licensed markets.",
+    "## A new quota for a new schedule",
+    "The April order signed by Acting Attorney General Todd Blanche, effective 28 April, moved marijuana subject to a state medical licence and FDA-approved marijuana products into Schedule III. It created three new drug codes for that material: marijuana, marijuana extract and naturally derived delta-9 THC. Aggregate production quotas are normally set for Schedule I and II substances, as the title of this notice itself reflects, which is why DEA's approach to rescheduled cannabis has been an open question.",
+    "The draft notice answers part of it. DEA says it is registering the manufacturers and distributors that will handle the rescheduled material and, at the same time, assessing which data sources and methods best estimate the United States' legitimate need for it. A separate notice will follow once proposed quotas for drug codes 7362, 7353 and 7386 are determined, the agency wrote, according to The Marijuana Herald. It gave no date.",
+    "> A federal production cap on state medical cannabis would be a first. How DEA counts 'legitimate need' will decide whether it is a formality or a ceiling.",
+    "## Why the quota matters to operators",
+    "Under the Controlled Substances Act, quotas limit how much of a drug registered manufacturers may produce in a year. If DEA applies that logic to Schedule III medical cannabis, registered cultivators and processors in medical states could find their output tied to a federal estimate rather than to state demand alone. The estimate will depend on the data DEA chooses: state sales figures, patient counts and dispensary volumes all give different answers.",
+    "The notice also shows how early the federal system still is. As we reported on 6 November, DEA registered more than 900 medical dispensaries in seven states last month and limited who they may buy from. Manufacturers, distributors and laboratories have only recently gained their own registration forms. A production quota is one more step those businesses will have to clear before a federal supply chain for medical cannabis works end to end.",
+    "## Psychedelics get the big increases",
+    "Most of the notice's growth goes to psychedelics. DEA proposes raising MDMA from 12,000 grams to 33,296 grams and ibogaine from 210 grams to 12,002 grams, citing the increase in research and clinical trials for conditions including PTSD and depression. Psilocybin would rise from 50,000 to 60,000 grams and psilocyn from 80,000 to 93,600 grams. The agency said the changes align with President Trump's executive orders, including an April order on psychedelic research and access.",
+    "## The wider rescheduling track",
+    "The quota notice covers only the medical slice of the cannabis market. Adult-use marijuana remains in Schedule I while a separate DEA administrative hearing considers moving it to Schedule III. As we reported on 7 November, final briefs in that hearing have now been filed and the judge's recommendation is the next step. If the broader move goes ahead, the separate Schedule III quota DEA is now designing could end up covering far more of the industry than the medical programmes it was written for.",
+    "## What to watch",
+    "Once the notice is published on 10 November, DEA will take public comments for 30 days, which puts the deadline around 10 December. Watch whether medical cannabis companies or state regulators comment on how the Schedule III need should be measured, even though this notice only sets the Schedule I figures. Then watch for the separate Schedule III quota notice, the first sign of how much medical cannabis DEA thinks the country needs, and for the administrative judge's recommendation on wider rescheduling."
+  ],
+  "sources": [
+    {
+      "name": "Federal Register (public inspection), DEA proposed 2027 aggregate production quotas",
+      "url": "https://www.federalregister.gov/public-inspection/2026-22843/proposed-aggregate-production-quotas-schedule-i-and-ii-controlled-substances-and-assessment-of"
+    },
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/dea-boosts-psychedelic-production-quotas-for-2027-while-previewing-separate-marijuana-proposal-under-rescheduling/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/dea-proposes-2027-marijuana-production-quotas-confirms-separate-schedule-iii-limits-are-being-developed/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/07/rescheduling-final-briefs/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "DEA",
+    "sub": "QUOTAS",
+    "big": "6,675kg",
+    "label": "Schedule I marijuana quota proposed for 2027"
+  },
+  "banner": {
+    "title": "DEA Plans Schedule III Quotas",
+    "highlight": [
+      "SCHEDULE",
+      "III"
+    ],
+    "sub": "Separate cap for medical cannabis would follow",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Notice due 10 November"
+      },
+      {
+        "icon": "leaf",
+        "text": "Schedule I cap held flat"
+      },
+      {
+        "icon": "flask",
+        "text": "Psychedelic quotas rise"
+      }
+    ],
+    "corner": [
+      "DEA",
+      "QUOTAS",
+      "MEDICAL",
+      "FEDERAL"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-10",
+      "text": "DEA 2027 production quota proposal published in the Federal Register"
+    },
+    {
+      "date": "2026-12-10",
+      "text": "Approximate close of the 30-day comment period on DEA's 2027 quotas"
+    }
+  ],
+  "tags": [
+    "DEA",
+    "Rescheduling",
+    "Medical cannabis",
+    "Psychedelics"
+  ],
+  "image_prompt": "A brass balance scale on a plain cream surface holding a small glass jar of cannabis flower, the Capitol dome softly blurred behind.",
+  "image_alt": "A brass scale holding a small jar of cannabis flower, with a blurred Capitol dome behind.",
+  "x_post": "DEA says medical cannabis moved to Schedule III will get its own federal production quota, in a separate notice still to come. Its draft 2027 numbers hold Schedule I marijuana flat at 6,675 kg.",
+  "breaking": false
+}
