@@ -24,10 +24,11 @@ def build(arts, write):
     recent = [dict(L.payload(a), cat=a["cat"], breaking=bool(a.get("breaking")), push=a.get("push", True),
                    topic=L.topic_for(a), published=a["published"]) for a in arts[:24]]
     cfg = {"sdk": c["sdk"], "firebase": c["firebase"], "topics": [[t, lbl] for t, lbl, _ in L.TOPICS],
-           "freqs": [list(f) for f in L.FREQUENCIES], "recent": recent, "actions": REPO_ACTIONS, "xready": L.x_ready(arts) + stocks.x_posts(T.ctx.get("market"))}
+           "freqs": [list(f) for f in L.FREQUENCIES], "recent": recent, "actions": REPO_ACTIONS, "xready": L.x_ready(arts) + stocks.x_posts(T.ctx.get("market")),
+           "built": __import__("time").strftime("%Y%m%d%H%M")}
     body = f"""<div class="page-h adm-h"><h1>News alerts</h1><p class="dek">Subscribers, deliveries and clicks. Sending happens in GitHub Actions; this page only reads.</p></div>
 <section class="block adm-x" id="x" aria-labelledby="x-h"><h2 class="sec-label" id="x-h">Ready for X</h2>
-  <p class="mfn-note">The latest edition's top stories, written for @MetaFloraLabs. Tap <b>Post on X</b>: X opens with the text and link filled in; press Post. For a story X hasn't seen yet, the card can take 10–20 seconds to appear in the compose window (or type a space after the link); either way X attaches it when the post is published. Free, from your own account.</p>
+  <p class="mfn-note">The latest edition's top stories, written for @MetaFloraLabs. Tap <b>Post on X</b>: X opens with the text and link filled in; press Post. For a story X hasn't seen yet, the card can take 10–20 seconds to appear in the compose window (or type a space after the link); either way X attaches it when the post is published. Free, from your own account. The image under each post is the card X will show with it.</p>
   <ol class="adm-xlist" id="adm-xlist"></ol></section>
 <div id="adm" class="adm">
   <section class="adm-auth"><button type="button" class="mfn-primary" id="adm-signin">Sign in with Google</button>

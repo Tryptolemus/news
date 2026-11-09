@@ -203,5 +203,6 @@ def x_ready(articles, n=3):
         url = article_url(a)
         text = x_text(a)
         out.append({"key": send_key(a), "id": a["id"], "edition": ed, "rank": a.get("rank", 99), "headline": a["headline"], "text": text, "url": url,
+                    "image": f"/og/{a['id']}.png", "image_alt": a.get("image_alt") or a["headline"],
                     "intent": "https://x.com/intent/post?" + urlencode({"text": text, "url": url})})
     return out

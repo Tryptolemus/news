@@ -92,7 +92,11 @@ async function load(user, me) {
   const draw = () => {
     list.innerHTML = (CFG.xready || []).map((x) => `<li class="${done[x.key] ? "is-done" : ""}">
       <p class="adm-xmeta">${esc(x.edition)} · ${x.label ? esc(x.label) : "rank " + x.rank}${done[x.key] ? " · <b>posted</b>" : ""}</p>
-      <p class="adm-xtext">${esc(x.text)}</p><p class="adm-xurl">${esc(x.url)}</p>
+      <p class="adm-xtext">${esc(x.text)}</p>
+      ${x.image ? `<a class="adm-xcard" href="${esc(x.image)}" target="_blank" rel="noopener" title="The image card X shows under this post (opens full size)">
+        <img src="${esc(x.image)}?v=${esc(CFG.built || "")}" alt="${esc(x.image_alt || "")}" width="1200" height="630" loading="lazy">
+        <span>${esc(x.url.replace(/^https?:\/\//, "").split("/")[0])}</span></a>` : ""}
+      <p class="adm-xurl">${esc(x.url)}</p>
       <p class="adm-xbtns"><a class="mfn-primary" href="${esc(x.intent)}" target="_blank" rel="noopener" data-k="${esc(x.key)}">Post on X</a>
       <button type="button" class="mfn-ghost" data-mark="${esc(x.key)}">${done[x.key] ? "Undo" : "Mark posted"}</button></p></li>`).join("")
       || "<li>No stories yet.</li>";
