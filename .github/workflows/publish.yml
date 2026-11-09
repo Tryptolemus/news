@@ -206,6 +206,22 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
         run: python3 newsroom/push.py xready ${{ needs.build.outputs.new_articles }}
 
+  post-to-discord:
+    # The edition's top 3 stories to the Discord news channel (newsroom/post_to_discord.py); never fails the publish.
+    needs: [build, deploy]
+    if: needs.build.outputs.new_articles != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post top stories to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_AUTO: ${{ vars.DISCORD_AUTO }}
+          DISCORD_POSTS_PER_EDITION: ${{ vars.DISCORD_POSTS_PER_EDITION }}
+        run: python3 newsroom/post_to_discord.py --new ${{ needs.build.outputs.new_articles }}
+
   post-to-x:
     needs: [build, deploy]
     if: needs.build.outputs.new_articles != ''
