@@ -98,10 +98,13 @@ async function load(user, me) {
         <span>${esc(x.url.replace(/^https?:\/\//, "").split("/")[0])}</span></a>` : ""}
       <p class="adm-xurl">${esc(x.url)}</p>
       <p class="adm-xbtns"><a class="mfn-primary" href="${esc(x.intent)}" target="_blank" rel="noopener" data-k="${esc(x.key)}">Post on X</a>
+      ${x.id ? `<a class="mfn-ghost" href="${esc(CFG.discord)}" target="_blank" rel="noopener" data-discord="${esc(x.id)}" title="Copies the story id, then opens the Discord workflow: Run workflow, paste, Run">Post to Discord</a>` : ""}
       <button type="button" class="mfn-ghost" data-mark="${esc(x.key)}">${done[x.key] ? "Undo" : "Mark posted"}</button></p></li>`).join("")
       || "<li>No stories yet.</li>";
   };
   list.addEventListener("click", (e) => {
+    const dc = e.target.closest("[data-discord]");
+    if (dc) { try { navigator.clipboard.writeText(dc.dataset.discord); } catch {} dc.textContent = "Id copied: paste it in Run workflow"; return; }
     const m = e.target.closest("[data-mark]");
     if (m) { const k = m.dataset.mark; if (done[k]) delete done[k]; else done[k] = Date.now(); save(); draw(); }
   });

@@ -1,0 +1,29 @@
+name: Post to Discord
+
+# Manual only: posts stories to the Discord news channel via the DISCORD_WEBHOOK_URL secret.
+on:
+  workflow_dispatch:
+    inputs:
+      stories:
+        description: "top3 = latest edition's top 3 (same as Ready for X), or story ids separated by commas"
+        type: string
+        default: top3
+
+permissions:
+  contents: read
+
+concurrency:
+  group: discord
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Post
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          STORIES: ${{ inputs.stories }}
+        run: python3 newsroom/post_to_discord.py "$STORIES"
