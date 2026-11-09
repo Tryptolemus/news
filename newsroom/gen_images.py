@@ -11,7 +11,7 @@ Providers, first one configured wins:
   Cloudflare Workers AI (free daily allowance)  CF_ACCOUNT_ID + CF_AI_TOKEN; CF_IMAGE_MODEL
                                                  (default @cf/black-forest-labs/flux-2-klein-4b, Apache-2.0 weights)
   OpenAI (paid)                                  OPENAI_API_KEY; IMAGE_MODEL (gpt-image-1), IMAGE_QUALITY (high)
-Skips cleanly when neither is set. MAX_IMAGES (default 40) caps one run so the free allowance is never exceeded.
+Skips cleanly when neither is set. MAX_IMAGES (default 50) caps one run so the free allowance is never exceeded.
 """
 import base64
 import io
@@ -30,15 +30,14 @@ ROOT = Path(__file__).resolve().parent.parent
 ARTICLES = ROOT / "content" / "articles"
 IMAGES = ROOT / "content" / "images"
 
-# Design board round 3 (8 Nov 2026): subject first, house style last (FLUX.2 weights the start of a prompt most),
-# written positively (klein has no negative prompt and tends to draw whatever a prompt names, even after "no").
+# Design board round 4 (9 Nov 2026, model test 4B / 9B / dev: Greg picked klein 4B, free): subject first, house style last
+# (FLUX.2 weights the start of a prompt most), written positively (klein has no negative prompt). Keep prompts to one hero
+# object and at most one supporting object: 4B drops extra elements.
 STYLE = (
-    "Shot as a MetaFlora News editorial photograph: hyperreal, full-frame camera, 85mm lens at f/2.8, eye level, 16:9. "
-    "Low-key chiaroscuro lighting: one soft cool-white key light from the upper right, and the left 45% of the frame falls "
-    "into deep indigo-black shadow (#0b0b14). A single thin rim light in violet color #a78bfa traces the back edge of the "
-    "hero subject, the only saturated colour in the frame. Palette of near-black indigo, natural plant greens and warm wood. "
-    "Matte tactile materials, fine film grain, calm premium restraint. Hero subject sharp in the right half. "
-    "Every surface is plain, matte and unprinted."
+    "Premium product-commercial photograph in the style of an Apple advertisement: clean and minimal, one hero object, "
+    "soft diffused studio light, crisp detail, subtle reflections, refined palette of deep charcoal and soft indigo with a "
+    "faint violet edge light on the hero object, shallow depth of field, real materials. The hero subject sits in the right "
+    "half of the frame; the left half is calm and darker. Every surface is plain and unprinted. 16:9 landscape photograph."
 )
 
 
@@ -106,7 +105,7 @@ def main():
     if not gen:
         print("No image provider configured (CF_ACCOUNT_ID + CF_AI_TOKEN, or OPENAI_API_KEY); stories keep their designed cards.")
         return 0
-    cap = int(os.environ.get("MAX_IMAGES") or 40)
+    cap = int(os.environ.get("MAX_IMAGES") or 50)
     IMAGES.mkdir(parents=True, exist_ok=True)
     made = failed = 0
     # newest stories first, so a capped run always covers the latest edition

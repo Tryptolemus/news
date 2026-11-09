@@ -33,11 +33,26 @@
     "Watch the final count in the remaining Senate races, Democratic leadership and committee assignments for the January session, and whether Shapiro's next budget proposal again books cannabis revenue. The biggest signal will be which bill the new Senate leadership moves first: SB 120's private-market model or a state-store alternative."
   ],
   "sources": [
-    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/pennsylvania-is-teed-up-to-finally-legalize-marijuana-as-democrats-claim-majority-in-state-senate/"},
-    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/pennsylvania-democrats-marijuana-legalization/"},
-    {"name": "WHYY", "url": "https://whyy.org/articles/pennsylvania-democrats-trifecta/"},
-    {"name": "The Conversation", "url": "https://theconversation.com/pennsylvania-democrats-now-have-power-to-push-forward-on-election-reform-marijuana-legalization-and-minimum-wage-increases-295731"},
-    {"name": "Green Thumb Industries Q3 2026 results (via Stock Titan)", "url": "https://www.stocktitan.net/sec-filings/GTBIF/8-k-green-thumb-industries-inc-reports-material-event-46c449b99b8e.html"}
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/pennsylvania-is-teed-up-to-finally-legalize-marijuana-as-democrats-claim-majority-in-state-senate/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/pennsylvania-democrats-marijuana-legalization/"
+    },
+    {
+      "name": "WHYY",
+      "url": "https://whyy.org/articles/pennsylvania-democrats-trifecta/"
+    },
+    {
+      "name": "The Conversation",
+      "url": "https://theconversation.com/pennsylvania-democrats-now-have-power-to-push-forward-on-election-reform-marijuana-legalization-and-minimum-wage-increases-295731"
+    },
+    {
+      "name": "Green Thumb Industries Q3 2026 results (via Stock Titan)",
+      "url": "https://www.stocktitan.net/sec-filings/GTBIF/8-k-green-thumb-industries-inc-reports-material-event-46c449b99b8e.html"
+    }
   ],
   "visual": {
     "motif": "ballot",
@@ -46,19 +61,40 @@
   },
   "banner": {
     "title": "Pennsylvania Flips The Senate",
-    "highlight": ["PENNSYLVANIA"],
+    "highlight": [
+      "PENNSYLVANIA"
+    ],
     "sub": "Gov. Josh Shapiro gets a trifecta; legalization is next",
     "divider": "State desk",
     "points": [
-      {"icon": "ballot", "text": "Senate 26-24 projected"},
-      {"icon": "doc", "text": "SB 120 on the table"},
-      {"icon": "coin", "text": "8% excise proposed"}
+      {
+        "icon": "ballot",
+        "text": "Senate 26-24 projected"
+      },
+      {
+        "icon": "doc",
+        "text": "SB 120 on the table"
+      },
+      {
+        "icon": "coin",
+        "text": "8% excise proposed"
+      }
     ],
-    "corner": ["STATES", "VOTE", "ADULT-USE", "2027"]
+    "corner": [
+      "STATES",
+      "VOTE",
+      "ADULT-USE",
+      "2027"
+    ]
   },
-  "tags": ["Pennsylvania", "Legalization", "Midterms 2026", "Green Thumb"],
-  "image_prompt": "The steps of a state capitol in Harrisburg-style beaux-arts architecture on a grey November morning, wet stone, a few out-of-focus figures with umbrellas at the bottom of the frame.",
-  "image_alt": "Wet capitol steps on a grey November morning",
+  "tags": [
+    "Pennsylvania",
+    "Legalization",
+    "Midterms 2026",
+    "Green Thumb"
+  ],
+  "image_prompt": "A fountain pen resting on a thick stack of blank pages on a polished wooden desk, a classical state capitol dome softly blurred through a tall window behind.",
+  "image_alt": "A fountain pen on blank pages, a capitol dome blurred through the window.",
   "x_post": "Pennsylvania Democrats flipped the state Senate and are on track for 26-24. With Gov. Shapiro re-elected, the chamber that blocked adult-use cannabis is gone. The fight now is over how to sell it.",
   "breaking": false
 }

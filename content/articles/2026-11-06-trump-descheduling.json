@@ -35,13 +35,34 @@
     "The first test comes when the new Congress convenes in January and Democratic leaders choose which cannabis bill to put forward: a narrow descheduling measure, a revived MORE Act or a broader regulatory bill. Watch for Republican senators willing to co-sponsor, for any on-the-record statement from the White House, which so far has spoken only through an unnamed adviser, and for the administrative judge's recommendation on Schedule III. Closer in, the challengers' opening brief in the D.C. Circuit case is proposed for 24 November."
   ],
   "sources": [
-    {"name": "The Marijuana Herald (Trump adviser)", "url": "https://themarijuanaherald.com/2026/11/senior-trump-adviser-says-president-would-sign-clean-marijuana-descheduling-bill-passed-by-democrats/"},
-    {"name": "The Marijuana Herald (Titus)", "url": "https://themarijuanaherald.com/2026/11/titus-marijuana-descheduling/"},
-    {"name": "The Marijuana Herald (Joyce)", "url": "https://themarijuanaherald.com/2026/11/u-s-rep-david-joyce-r-oh-calls-for-marijuana-banking-and-states-rights-reforms-as-democrats-prepare-to-take-control-of-congress/"},
-    {"name": "The Marijuana Herald (rescheduling timeline)", "url": "https://themarijuanaherald.com/2026/10/senior-trump-adviser-says-president-is-entirely-confident-dea-will-quickly-finalize-marijuana-rescheduling/"},
-    {"name": "Marijuana Moment (Titus and Stone)", "url": "https://www.marijuanamoment.net/democratic-lawmaker-and-gop-trump-advisor-urge-bipartisan-cooperation-to-federally-legalize-marijuana/"},
-    {"name": "Marijuana Moment (new majorities)", "url": "https://www.marijuanamoment.net/could-democrats-federally-legalize-marijuana-with-their-new-senate-and-house-majorities/"},
-    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"}
+    {
+      "name": "The Marijuana Herald (Trump adviser)",
+      "url": "https://themarijuanaherald.com/2026/11/senior-trump-adviser-says-president-would-sign-clean-marijuana-descheduling-bill-passed-by-democrats/"
+    },
+    {
+      "name": "The Marijuana Herald (Titus)",
+      "url": "https://themarijuanaherald.com/2026/11/titus-marijuana-descheduling/"
+    },
+    {
+      "name": "The Marijuana Herald (Joyce)",
+      "url": "https://themarijuanaherald.com/2026/11/u-s-rep-david-joyce-r-oh-calls-for-marijuana-banking-and-states-rights-reforms-as-democrats-prepare-to-take-control-of-congress/"
+    },
+    {
+      "name": "The Marijuana Herald (rescheduling timeline)",
+      "url": "https://themarijuanaherald.com/2026/10/senior-trump-adviser-says-president-is-entirely-confident-dea-will-quickly-finalize-marijuana-rescheduling/"
+    },
+    {
+      "name": "Marijuana Moment (Titus and Stone)",
+      "url": "https://www.marijuanamoment.net/democratic-lawmaker-and-gop-trump-advisor-urge-bipartisan-cooperation-to-federally-legalize-marijuana/"
+    },
+    {
+      "name": "Marijuana Moment (new majorities)",
+      "url": "https://www.marijuanamoment.net/could-democrats-federally-legalize-marijuana-with-their-new-senate-and-house-majorities/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"
+    }
   ],
   "visual": {
     "motif": "seal",
@@ -52,22 +73,47 @@
   },
   "banner": {
     "title": "Trump Open To Descheduling",
-    "highlight": ["DESCHEDULING"],
+    "highlight": [
+      "DESCHEDULING"
+    ],
     "sub": "Adviser: he would sign a clean bill, likely veto MORE",
     "divider": "Federal desk",
     "points": [
-      {"icon": "doc", "text": "Would sign clean bill"},
-      {"icon": "gavel", "text": "MORE Act: likely veto"},
-      {"icon": "ballot", "text": "Democrats take Congress"}
+      {
+        "icon": "doc",
+        "text": "Would sign clean bill"
+      },
+      {
+        "icon": "gavel",
+        "text": "MORE Act: likely veto"
+      },
+      {
+        "icon": "ballot",
+        "text": "Democrats take Congress"
+      }
     ],
-    "corner": ["FEDERAL", "CONGRESS", "SCHEDULE", "REFORM"]
+    "corner": [
+      "FEDERAL",
+      "CONGRESS",
+      "SCHEDULE",
+      "REFORM"
+    ]
   },
   "watch": [
-    {"date": "2026-11-24", "text": "Challengers' opening brief due in D.C. Circuit case against the April rescheduling order (proposed schedule)"}
+    {
+      "date": "2026-11-24",
+      "text": "Challengers' opening brief due in D.C. Circuit case against the April rescheduling order (proposed schedule)"
+    }
   ],
-  "tags": ["Descheduling", "Congress", "Midterms 2026", "Rescheduling", "DEA"],
-  "image_prompt": "The empty marble corridor of a government office building in early morning light, a stack of bound bill drafts on a wooden bench, an out-of-focus figure walking away at the far end.",
-  "image_alt": "Bound bill drafts on a bench in an empty government corridor",
+  "tags": [
+    "Descheduling",
+    "Congress",
+    "Midterms 2026",
+    "Rescheduling",
+    "DEA"
+  ],
+  "image_prompt": "A fountain pen resting on a closed leather portfolio on a polished dark wooden desk, the white dome of the U.S. Capitol softly blurred through the window behind.",
+  "image_alt": "A fountain pen on a leather portfolio, the Capitol dome blurred behind.",
   "x_post": "A senior Trump adviser says the president would sign a clean bill removing marijuana from federal drug law, but would likely veto the MORE Act. Democrats take Congress in January.",
   "breaking": false
 }

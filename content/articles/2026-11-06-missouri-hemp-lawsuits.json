@@ -32,13 +32,34 @@
     "Missouri's law takes effect on 12 November, the same day the federal synthetic-cannabinoid carve-out applies. Watch for the further lawsuits Hanaway has promised, any renewed challenge by the hemp trade association once enforcement begins, and whether the new Congress moves to delay or rewrite the federal ban before 11 December."
   ],
   "sources": [
-    {"name": "Missouri Independent", "url": "https://missouriindependent.com/2026/11/06/missouri-ag-promises-more-lawsuits-against-retailers-selling-illegal-marijuana"},
-    {"name": "KCTV5", "url": "https://www.kctv5.com/2026/11/05/missouri-ag-sues-4-retailers-including-independence-shop-over-alleged-marijuana-as-hemp-sales/"},
-    {"name": "KY3", "url": "https://www.ky3.com/2026/11/04/missouri-attorney-general-sues-lawrence-county-retailer-3-others-over-unregulated-thc-products-defeats-federal-court-challenge/"},
-    {"name": "MJBizDaily", "url": "https://mjbizdaily.com/news/missouri-ag-sues-retailers-over-alleged-marijuana-as-hemp-sales/619102/"},
-    {"name": "Marijuana Moment (Illinois agenda)", "url": "https://www.marijuanamoment.net/illinois-governor-and-us-senator-push-for-federal-hemp-thc-product-ban-to-take-effect-without-further-delay/"},
-    {"name": "Marijuana Moment (newsletter, 6 November)", "url": "https://marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"},
-    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/06/hemp-cliff/"}
+    {
+      "name": "Missouri Independent",
+      "url": "https://missouriindependent.com/2026/11/06/missouri-ag-promises-more-lawsuits-against-retailers-selling-illegal-marijuana"
+    },
+    {
+      "name": "KCTV5",
+      "url": "https://www.kctv5.com/2026/11/05/missouri-ag-sues-4-retailers-including-independence-shop-over-alleged-marijuana-as-hemp-sales/"
+    },
+    {
+      "name": "KY3",
+      "url": "https://www.ky3.com/2026/11/04/missouri-attorney-general-sues-lawrence-county-retailer-3-others-over-unregulated-thc-products-defeats-federal-court-challenge/"
+    },
+    {
+      "name": "MJBizDaily",
+      "url": "https://mjbizdaily.com/news/missouri-ag-sues-retailers-over-alleged-marijuana-as-hemp-sales/619102/"
+    },
+    {
+      "name": "Marijuana Moment (Illinois agenda)",
+      "url": "https://www.marijuanamoment.net/illinois-governor-and-us-senator-push-for-federal-hemp-thc-product-ban-to-take-effect-without-further-delay/"
+    },
+    {
+      "name": "Marijuana Moment (newsletter, 6 November)",
+      "url": "https://marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/hemp-cliff/"
+    }
   ],
   "visual": {
     "motif": "calendar",
@@ -49,22 +70,51 @@
   },
   "banner": {
     "title": "Missouri Sues Hemp Shops",
-    "highlight": ["MISSOURI"],
+    "highlight": [
+      "MISSOURI"
+    ],
     "sub": "AG Catherine Hanaway targets marijuana sold as hemp",
     "divider": "Hemp desk",
     "points": [
-      {"icon": "gavel", "text": "4 retailers sued"},
-      {"icon": "flask", "text": "0.28% label, 4% tested"},
-      {"icon": "doc", "text": "HB 2641 starts 12 Nov"}
+      {
+        "icon": "gavel",
+        "text": "4 retailers sued"
+      },
+      {
+        "icon": "flask",
+        "text": "0.28% label, 4% tested"
+      },
+      {
+        "icon": "doc",
+        "text": "HB 2641 starts 12 Nov"
+      }
     ],
-    "corner": ["HEMP", "THCA", "ENFORCEMENT", "MISSOURI"]
+    "corner": [
+      "HEMP",
+      "THCA",
+      "ENFORCEMENT",
+      "MISSOURI"
+    ]
   },
   "watch": [
-    {"date": "2026-11-12", "text": "Missouri's House Bill 2641 takes effect; federal synthetic-cannabinoid carve-out applies"},
-    {"date": "2026-12-11", "text": "Federal ban on most intoxicating hemp THC products takes effect"}
+    {
+      "date": "2026-11-12",
+      "text": "Missouri's House Bill 2641 takes effect; federal synthetic-cannabinoid carve-out applies"
+    },
+    {
+      "date": "2026-12-11",
+      "text": "Federal ban on most intoxicating hemp THC products takes effect"
+    }
   ],
-  "tags": ["Missouri", "Hemp", "Hemp-derived THC", "Total THC", "Courts", "Illinois"],
-  "image_prompt": "A small roadside smoke shop at night in a rural Midwestern town, window glass reflecting a parking lot under a sodium streetlight, display shelves blurred inside, no readable signs.",
-  "image_alt": "Roadside shop window at night in a small Midwestern town",
+  "tags": [
+    "Missouri",
+    "Hemp",
+    "Hemp-derived THC",
+    "Total THC",
+    "Courts",
+    "Illinois"
+  ],
+  "image_prompt": "A wooden judge's gavel resting on a dark walnut desk beside a small glass jar of hemp gummies.",
+  "image_alt": "A judge's gavel beside a small jar of hemp gummies on a walnut desk.",
   "breaking": false
 }

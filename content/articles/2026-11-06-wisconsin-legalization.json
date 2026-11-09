@@ -32,12 +32,30 @@
     "Wisconsin's new legislative session begins on 4 January 2027. Watch for Democratic leadership elections, which bill becomes the main vehicle, how it treats existing hemp businesses after the federal ban takes effect on 11 December, and whether Crowley books cannabis revenue in his first budget."
   ],
   "sources": [
-    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/top-wisconsin-lawmakers-say-the-state-will-legalize-marijuana-under-new-democratic-control/"},
-    {"name": "WKOW", "url": "https://www.wkow.com/news/state/wisconsin-democrats-win-control-of-legislature-with-plans-to-cut-costs-and-legalize-marijuana/article_03cc3927-976b-485a-b894-499613913e50.html"},
-    {"name": "WISN", "url": "https://www.wisn.com/article/wisconsin-legislature-shift-could-lead-to-marijuana-legalization/74338557"},
-    {"name": "WBAY", "url": "https://www.wbay.com/2026/11/06/democrats-discuss-legislative-agenda-with-first-state-trifecta-since-2010/"},
-    {"name": "Marijuana Moment (newsletter, 5 November)", "url": "https://www.marijuanamoment.net/federal-cannabis-reform-gets-democratic-boost-newsletter-november-5-2026/"},
-    {"name": "Marijuana Moment (newsletter, 6 November)", "url": "https://marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"}
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/top-wisconsin-lawmakers-say-the-state-will-legalize-marijuana-under-new-democratic-control/"
+    },
+    {
+      "name": "WKOW",
+      "url": "https://www.wkow.com/news/state/wisconsin-democrats-win-control-of-legislature-with-plans-to-cut-costs-and-legalize-marijuana/article_03cc3927-976b-485a-b894-499613913e50.html"
+    },
+    {
+      "name": "WISN",
+      "url": "https://www.wisn.com/article/wisconsin-legislature-shift-could-lead-to-marijuana-legalization/74338557"
+    },
+    {
+      "name": "WBAY",
+      "url": "https://www.wbay.com/2026/11/06/democrats-discuss-legislative-agenda-with-first-state-trifecta-since-2010/"
+    },
+    {
+      "name": "Marijuana Moment (newsletter, 5 November)",
+      "url": "https://www.marijuanamoment.net/federal-cannabis-reform-gets-democratic-boost-newsletter-november-5-2026/"
+    },
+    {
+      "name": "Marijuana Moment (newsletter, 6 November)",
+      "url": "https://marijuanamoment.net/bipartisan-cooperation-could-boost-federal-cannabis-reform-newsletter-november-6-2026"
+    }
   ],
   "visual": {
     "motif": "pins",
@@ -46,21 +64,47 @@
   },
   "banner": {
     "title": "Wisconsin Eyes Legal Cannabis",
-    "highlight": ["WISCONSIN"],
+    "highlight": [
+      "WISCONSIN"
+    ],
     "sub": "Gov.-elect David Crowley and a new Democratic legislature",
     "divider": "State desk",
     "points": [
-      {"icon": "ballot", "text": "Democratic trifecta"},
-      {"icon": "coin", "text": "Up to $170M a year"},
-      {"icon": "pin", "text": "Iowa and Texas shift too"}
+      {
+        "icon": "ballot",
+        "text": "Democratic trifecta"
+      },
+      {
+        "icon": "coin",
+        "text": "Up to $170M a year"
+      },
+      {
+        "icon": "pin",
+        "text": "Iowa and Texas shift too"
+      }
     ],
-    "corner": ["STATES", "MIDWEST", "ADULT-USE", "2027"]
+    "corner": [
+      "STATES",
+      "MIDWEST",
+      "ADULT-USE",
+      "2027"
+    ]
   },
   "watch": [
-    {"date": "2027-01-04", "text": "Wisconsin's new legislative session begins under Democratic control"}
+    {
+      "date": "2027-01-04",
+      "text": "Wisconsin's new legislative session begins under Democratic control"
+    }
   ],
-  "tags": ["Wisconsin", "Legalization", "Midterms 2026", "Iowa", "Texas", "Illinois"],
-  "image_prompt": "A two-lane rural highway at the Wisconsin-Illinois state line at dusk, flat farmland on both sides, a lone car's tail lights in the distance, no signs readable.",
-  "image_alt": "Rural highway crossing flat farmland at dusk",
+  "tags": [
+    "Wisconsin",
+    "Legalization",
+    "Midterms 2026",
+    "Iowa",
+    "Texas",
+    "Illinois"
+  ],
+  "image_prompt": "A single young cannabis plant in a terracotta pot on a wooden windowsill, flat snowy farmland softly blurred outside at dusk.",
+  "image_alt": "A young cannabis plant in a pot on a windowsill, farmland outside at dusk.",
   "breaking": false
 }
