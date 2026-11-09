@@ -1,0 +1,100 @@
+{
+  "id": "germany-greens-hemp-bill",
+  "rank": 5,
+  "cat": "Europe",
+  "headline": "Germany's Greens file bill to raise industrial hemp THC limit to 1%",
+  "dek": "Bundestag bill 21/8942 would scrap the hemp abuse clause, allow indoor farming and ban feeding hemp flowers to livestock, but it has no majority yet.",
+  "key_points": [
+    "The Greens filed bill 21/8942 in the Bundestag on 4 November to amend Germany's Consumer Cannabis Act for industrial hemp.",
+    "Hemp not used for food could hold up to 1% THC, matching Czech law; hemp for food would stay at 0.3%.",
+    "The bill deletes the abuse clause that has let German courts treat hemp tea and CBD flower sales as crimes even under 0.3% THC.",
+    "A new ban on feeding hemp leaves and flowers to animals answers objections the federal risk agency raised at an October hearing."
+  ],
+  "body": [
+    "Germany's Greens have filed a revised bill to loosen the rules on industrial hemp, raising the THC limit for non-food hemp to 1% and deleting the clause that has turned many CBD flower sales into criminal cases. The draft, Bundestag printed paper 21/8942, was submitted on 4 November by six Green MPs including Karl Bär and Kirsten Kappert-Gonther, and amends the Consumer Cannabis Act (KCanG).",
+    "The bill comes from the opposition and has no majority in sight, German trade outlet Hanf Magazin noted. But it reshapes an earlier Green draft, 21/2116, that had a public hearing in the agriculture committee on 14 October, and it answers the main objections raised there. That makes it a marker for where the debate is heading, and a reference point for hemp producers comparing Germany with its neighbours.",
+    "## What the bill would change",
+    "The centrepiece is the removal of the so-called abuse clause in section 1 of the KCanG. Today, handling industrial hemp is lawful only if misuse for intoxication can be ruled out. Two rulings by the Federal Court of Justice on hemp tea and CBD flowers found that trade can be a crime even where the 0.3% THC limit is respected, Hanf Magazin reported. The bill also drops the condition that hemp trade must serve only commercial or scientific purposes.",
+    "On potency, the draft splits the limit. Industrial hemp may contain up to 1% THC as long as it is not used for food; hemp grown for food stays at 0.3%, because the EU has not yet set THC maximums for some food groups. A 1% ceiling is more than three times today's limit and matches the rule in the Czech Republic. The threshold for EU direct farm payments would not change.",
+    "The bill widens who may grow. All agricultural businesses could cultivate industrial hemp, including indoors, which current law does not allow. Indoor growers would have to notify the authorities by the first day of the quarter after sowing and report their area to the square metre. Seed labels could be filed electronically.",
+    "The bill's explanatory text states plainly that edibles meant for getting high would not become legal under it.",
+    "## The livestock feed question",
+    "A new section 32a would ban feeding hemp leaves and flowers to animals, with breaches treated as an administrative offence. The explanation points to ruminants, which could take in active amounts of THC and CBD through feed. Press cake left over from hemp-oil production, made from seeds, remains allowed as protein feed.",
+    "This is a direct response to the Federal Institute for Risk Assessment (BfR). At the October hearing, the institute described the abuse clause as a last line of defence as long as there are no maximum levels for feed, Hanf Magazin reported. The Greens have chosen to remove the ground for that objection rather than argue it. Whether the BfR now considers its concerns met is open; its second objection, on foods made from leaves and flowers, is not addressed.",
+    "> Germany legalised adult cannabis but still treats its farm hemp with suspicion. This bill flips the default, and it does so by conceding the regulators' points rather than fighting them.",
+    "## Why the farm lobby is on board",
+    "At the 14 October hearing, several experts backed the proposals, citing missing evidence of misuse, competitiveness against other European countries and new value chains in bio-based building materials, according to the Baden-Württemberg farmers' association. The German Farmers' Association (DBV) and its Baden-Württemberg branch explicitly welcomed the changes as improving legal certainty and a level playing field in Europe. The bill's own problem statement says German hemp acreage has recently shrunk again, for economic as well as legal and bureaucratic reasons.",
+    "## What it means for the market",
+    "For hemp processors and CBD retailers, the abuse clause is the bigger prize. Its removal would end the legal grey zone that has exposed sellers of low-THC products to prosecution, as in the recent case of a Bavarian hemp trader who was eventually acquitted. The 1% limit would put German growers on equal terms with Czech competitors. Neither change touches Germany's medical cannabis system, where prices have been falling sharply, as we reported on 8 November. At EU level, the Council is separately working to classify hemp flowers as an agricultural product within the common market organisation.",
+    "## What to watch",
+    "Bundestag committees will decide the next steps, and it is not yet clear whether 21/8942 replaces 21/2116 or runs beside it. Watch for the agriculture committee's handling of both drafts, any response from the governing coalition, and the BfR's view on the new feed ban."
+  ],
+  "sources": [
+    {
+      "name": "Deutscher Bundestag, Drucksache 21/8942",
+      "url": "https://dserver.bundestag.de/btd/21/089/2108942.pdf"
+    },
+    {
+      "name": "Synlegis (Drucksache 21/8942 summary and excerpt)",
+      "url": "https://synlegis.de/drucksache/21-8942"
+    },
+    {
+      "name": "Hanf Magazin",
+      "url": "https://www.hanf-magazin.com/recht/rechtslage-deutschland/neuer-nutzhanf-entwurf-gruene-wollen-1-prozent-thc-und-ein-fuetterungsverbot-fuer-blueten/"
+    },
+    {
+      "name": "Landesbauernverband Baden-Württemberg",
+      "url": "https://www.lbv-bw.de/aktuelles/detail/bundestag-diskutiert-nutzhanfliberalisierung?type=28032013"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/germany-medical-squeeze/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "1%",
+    "label": "proposed THC limit for non-food hemp"
+  },
+  "banner": {
+    "title": "Greens Push 1% THC Hemp",
+    "highlight": [
+      "1%"
+    ],
+    "sub": "Bundestag bill would scrap Germany's hemp abuse clause",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "leaf",
+        "text": "Non-food hemp up to 1% THC"
+      },
+      {
+        "icon": "cube",
+        "text": "Indoor growing allowed"
+      },
+      {
+        "icon": "shield",
+        "text": "Flower feed ban for animals"
+      }
+    ],
+    "corner": [
+      "HEMP",
+      "GERMANY",
+      "BUNDESTAG",
+      "FARMING"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Germany",
+    "Hemp",
+    "Czech Republic",
+    "Europe",
+    "CBD"
+  ],
+  "image_prompt": "A tall bundle of dried industrial hemp stalks leaning against a rough barn wall, a coil of hemp fibre on the wooden floor, soft morning light from the right, dark space on the left.",
+  "image_alt": "Dried industrial hemp stalks and a coil of fibre in a barn",
+  "edition": "2026-11-09-am",
+  "published": "2026-11-09T04:10:47+02:00",
+  "breaking": false
+}

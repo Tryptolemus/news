@@ -1,0 +1,104 @@
+{
+  "id": "medipharm-eu-inhaler",
+  "rank": 6,
+  "cat": "Markets",
+  "headline": "MediPharm Labs wins EU device opinion for metered cannabis inhaler",
+  "dek": "BSI's positive Article 117 opinion lets MediPharm Labs and partner Blackpoint plan UK and European launches in 2027, subject to national import permits.",
+  "key_points": [
+    "MediPharm Labs said on 5 November that BSI Group's Dutch notified body issued a positive Article 117 opinion on its metered-dose cannabis inhaler.",
+    "The opinion confirms the device part meets EU safety and performance requirements; it is not a marketing authorisation.",
+    "Blackpoint will sell THC 2.5 mg, THC 5 mg and balanced THC:CBD inhalers as unlicensed medicines in the UK and selected European markets from 2027.",
+    "Germany and the UK made up about 85% of estimated European medical cannabis sales in 2025, a market where flower prices are falling."
+  ],
+  "body": [
+    "MediPharm Labs, the Canadian cannabis pharmaceutical company listed in Toronto, has cleared a regulatory step toward selling its metered-dose cannabis inhaler in Europe. The company said on 5 November that BSI Group The Netherlands, notified body 2797, had issued a positive Article 117 opinion on the product.",
+    "Under EU rules, a medicine that incorporates a device as a single integral product needs a notified body to confirm the device part meets the bloc's safety and performance requirements. MediPharm said the opinion supports plans to introduce the inhaler as an unlicensed medicinal cannabis product in the United Kingdom and selected European markets in 2027, subject to each country's requirements, including regulatory acceptance and import permits.",
+    "## The product and the partners",
+    "The inhaler delivers a fixed dose of cannabinoid with each actuation from a compact, smoke-free device. The initial European range comprises three products: THC 2.5 mg, THC 5 mg and a balanced THC 2.5 mg with CBD 2.5 mg. MediPharm is the exclusive global manufacturer and licensee of the technology under a 2024 agreement with Remidose Aerosols, which supported the application. Blackpoint Limited, MediPharm's exclusive sales and distribution partner for the UK and Europe, will sell the products under its own brand.",
+    "The device is already on sale elsewhere. MediPharm launched inhalers in Canada under its own name in THC, CBD, CBN and CBG formats, available in some provinces and through direct-to-patient medical platforms, and later in Australia under the Beacon Medical brand and through a white-label partner, according to the company.",
+    "Greg Hunter, MediPharm's chief executive, described the opinion as independent confirmation that the device meets EU safety and performance standards, and said prescribers are showing interest in precise, consistent dosing in a familiar pharmaceutical format.",
+    "## Why dosing is the pitch",
+    "The European market MediPharm is entering is crowded with flower. In Germany, the number of medical cannabis flower products listed rose 73% to 2,381 in the year to September 2026, while the average price per gram fell 22% to €6.00, according to Prohibition Partners analysis published by Business of Cannabis. Statutory insurers also stopped reimbursing flower in late July, while standardised extracts and dronabinol remain reimbursable.",
+    "That backdrop favours formats that look and behave like conventional medicines. A metered inhaler gives a prescriber a defined dose per puff, which flower and most vaporiser regimes do not. If insurers and doctors keep steering patients from flower toward standardised products, a device with a pharmaceutical dosing profile is positioned on the right side of that shift.",
+    "> A positive device opinion is a door, not a sale. MediPharm still has to win permits country by country, but it is betting on the part of Europe's medical market that is moving away from commodity flower.",
+    "## The size of the prize",
+    "Prohibition Partners estimates European medicinal cannabis sales at about C$2.1 billion in 2025, rising to about C$3.5 billion in 2027, with Germany and the UK together accounting for roughly 85% of 2025 sales, according to MediPharm's release. On those estimates the market would grow by about two-thirds in two years. Those are third-party projections, not company revenue.",
+    "Canada's export flow shows where Canadian producers are placing their bets. The country exported more than 315,000 kilograms of cannabis in 2025 and more than 332,000 kg in the first nine months of 2026, most bound for Germany, StratCann reported. That means 2026 exports passed the full-year 2025 total before the end of September.",
+    "## The caveats",
+    "The opinion covers the device component only. It does not authorise sale anywhere, and the planned route, as an unlicensed medicinal cannabis product, depends on national rules that differ from country to country. In Germany, pending amendments to the Medical Cannabis Act could also change how patients get prescriptions. Revenue from Europe is a 2027 event at the earliest.",
+    "Supply disruption elsewhere may help. The bankruptcy of Dutch grower Bedrocan, covered in this edition, has left some European patients looking for consistent alternatives, though MediPharm has not linked its plans to that.",
+    "## What to watch",
+    "Watch for MediPharm's next quarterly results and any update on launch countries, the first UK import permits under the Blackpoint brand, and whether the company seeks a full marketing authorisation for the inhaler in any European country."
+  ],
+  "sources": [
+    {
+      "name": "MediPharm Labs via GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/11/06/3397275/0/en/medipharm-labs-achieves-critical-european-regulatory-milestone-supporting-commercialization-of-proprietary-metered-dose-cannabis-inhaler-platform.html"
+    },
+    {
+      "name": "MediPharm Labs (press release)",
+      "url": "https://medipharmlabs.com/news-post/medipharm-labs-achieves-critical-european-regulatory-milestone-supporting-commercialization-of-proprietary-metered-dose-cannabis-inhaler-platform"
+    },
+    {
+      "name": "StratCann",
+      "url": "https://stratcann.com/news/medipharm-secures-key-regulatory-milestone-for-metered-dose-inhaler-in-europe/"
+    },
+    {
+      "name": "Business of Cannabis",
+      "url": "https://businessofcannabis.com/flower-prices-down-22-skus-up-73-germanys-cannabis-market-is-at-an-inflection-point/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/germany-medical-squeeze/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "EU",
+    "sub": "OPINION",
+    "big": "85%",
+    "label": "of 2025 EU medical sales in Germany and UK"
+  },
+  "banner": {
+    "title": "MediPharm Inhaler Clears EU Step",
+    "highlight": [
+      "INHALER"
+    ],
+    "sub": "Positive Article 117 opinion ahead of planned 2027 launch",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "shield",
+        "text": "BSI device opinion"
+      },
+      {
+        "icon": "flask",
+        "text": "2.5 mg and 5 mg THC doses"
+      },
+      {
+        "icon": "globe",
+        "text": "UK and EU launch in 2027"
+      }
+    ],
+    "corner": [
+      "MEDICAL",
+      "DEVICE",
+      "EUROPE",
+      "PHARMA"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "MediPharm Labs",
+    "Canada",
+    "Germany",
+    "United Kingdom",
+    "Medical cannabis",
+    "Europe"
+  ],
+  "image_prompt": "A sleek white metered-dose inhaler standing upright on a pale grey surface beside a small blank pharmacy box, crisp clinical lighting, dark space on the left.",
+  "image_alt": "A white metered-dose inhaler beside a blank pharmacy box",
+  "edition": "2026-11-09-am",
+  "published": "2026-11-09T04:10:47+02:00",
+  "breaking": false
+}

@@ -1,0 +1,103 @@
+{
+  "id": "california-pesticide-testing",
+  "rank": 2,
+  "cat": "States",
+  "headline": "California cannabis tests find pesticides outside the state's list",
+  "dek": "Los Angeles Times testing of 49 legal cannabis products found off-list chemicals in a quarter of them, while the state adds pymetrozine only in April 2028.",
+  "key_points": [
+    "Three state-licensed labs hired by the Los Angeles Times screened 49 inhalable products for a combined 376 pesticides; California's mandatory panel covers 66.",
+    "Most products passed the state's own limits, but a quarter held chemicals hazardous to health that the state does not test for, including a likely carcinogen.",
+    "Pymetrozine, flagged in the paper's 2024 tests, joins California's screening list only on 1 April 2028 under rules that took effect on 1 October 2026.",
+    "The Department of Cannabis Control had tested only 35 shelf products this year through late August, against more than 2,500 licensed cultivators."
+  ],
+  "body": [
+    "Two years after it found heavy pesticide contamination on California dispensary shelves, the Los Angeles Times has run a second round of tests, and the picture is mixed. Most of the 49 inhalable products it bought from legal stores, a mix of flower, pre-rolls and vapes, came back within the limits for chemicals the state screens for. But a quarter of them contained chemicals hazardous to human health that are not on California's screening list, the paper reported on 8 November.",
+    "The findings put fresh pressure on the Department of Cannabis Control (DCC), which oversees more than 2,500 licensed cultivators and, according to the Times, had tested only 35 products pulled from store shelves this year through late August. In a written statement, the agency told the paper that California runs a comprehensive system of testing, surveillance, recalls and enforcement. It declined to make officials available for interviews.",
+    "## What the tests found",
+    "The Times bought the products and sent them, with labels hidden, to three state-licensed labs: Anresco Laboratories in San Francisco, Infinite Chemical Analysis Labs in San Diego and Excelbis Labs in Santa Ana. Between August and October the labs screened for a combined 376 pesticides, depending on each lab's capabilities. California's mandatory panel covers 66, and the state's own lab in Richmond can detect fewer than half of the pesticides found in this year's survey, the paper said.",
+    "Pymetrozine, an insecticide the paper found widely in 2024, appeared again at significant levels in products sold under three brands from a single manufacturer, Green Vibe Inc. According to the Times, one flower product held twice the level California will allow from 2028, a pre-roll three times that level and a vape more than six times. Green Vibe's head grower told the paper the company does not use the chemical and suspected drift from neighbouring vegetable farms in the Salinas Valley, where Monterey County records show 710 pounds of pymetrozine applied to food crops this year and last.",
+    "The most striking result was etridiazole, a soil fungicide the paper described as a likely carcinogen. One product carried it at 125 times the level that would trigger safety testing under federal tobacco standards. The highest levels were in flower from KushCompany, a brand grown indoors in Montebello, whose operators did not respond to the paper. Labs also found dinotefuran, fenazaquin and oxamyl in two brands; the state tests for only one of the three, oxamyl.",
+    "Some brands cleaned up. West Coast Cure, which exceeded limits for eight chemicals in 2024, was within permitted levels this time, and the Times found no pesticides at all in five of eight Stiiizy vapes it tested.",
+    "## A rulebook built to move slowly",
+    "California's testing rules change in large, infrequent steps. The DCC's latest pesticide rulemaking was approved and filed on 27 July and took effect on 1 October 2026. It keeps the current pesticide tables in force until 1 April 2028, when a longer list replaces them, according to the final regulation text. That 2028 list is where pymetrozine first appears, with an action level of 1.0 microgram per gram for inhalable products. Until then, a batch can carry it and still pass.",
+    "The DCC acknowledged in a filing last year that it cannot test for every potential chemical because the number runs into the thousands, the Times reported. Anresco's president argued to the paper that pesticide lists should be updated continuously, so growers gain nothing by switching to chemicals the state does not look for.",
+    "## The enforcement record",
+    "Since 2024 the agency has suspended, revoked or denied the licences of eight cultivators, manufacturers and distributors over pesticide-tainted products and has yet to shut down seven others, some still operating nearly two years after inspectors found illegal pesticides, the paper found. In one San Bernardino County case, inspectors found an insecticide banned on cannabis and failed batches at an indoor grow; the state ordered the crop destroyed and imposed a $35,000 fine, but the company kept its licence. Internal records reviewed by the Times show DCC lab results typically take three to five months.",
+    "The industry has partly filled the gap itself. A nonprofit of labs and brands, ECCO, now has more than 30 member brands screening for 140 pesticides and accepting surprise tests of products on shelves. A state law signed in September requires retailers to give shoppers safety certifications for products and lets regulators spot-check the accuracy of testing labs.",
+    "> California tests for 66 pesticides; one newspaper's labs looked for 376. That gap is where the risk now sits, and the state has scheduled its next fix for 2028.",
+    "## What it means for operators",
+    "For licensed brands, a passing certificate of analysis no longer settles the question of safety in the eyes of consumers or the press. Off-list findings can drive recalls, retailer delistings and lawsuits even when the state's panel was satisfied. Growers in farm belts face drift they do not control, which makes independent screening and buffer planning a cost of doing business. Dispensary chains that already run their own tests, as at least three major chains began doing after 2024, are better placed to answer customers.",
+    "The stakes are large. The Times cited market research valuing California's legal cannabis industry at $5.5 billion, while noting that about half of what Californians consume still comes from the unregulated market, where no testing applies at all.",
+    "## What to watch",
+    "Watch whether the DCC opens investigations or recalls tied to the products the Times named, whether lawmakers push to bring the 2028 list forward or make it a rolling list, and how quickly the September law's certification rules reach store counters. The fixed date on the calendar is 1 April 2028, when pymetrozine and the expanded list become enforceable."
+  ],
+  "sources": [
+    {
+      "name": "Los Angeles Times",
+      "url": "https://www.latimes.com/california/story/2026-11-08/california-losing-quest-for-clean-weed"
+    },
+    {
+      "name": "California Department of Cannabis Control, DCC-2025-03-R pesticide testing rulemaking",
+      "url": "https://www.cannabis.ca.gov/cannabis-laws/rulemaking/dcc-2025-03-r-pesticide-testing/"
+    },
+    {
+      "name": "California Department of Cannabis Control, final regulation text",
+      "url": "https://www.cannabis.ca.gov/cannabis-laws/rulemaking/dcc-2025-03-r-pesticide-testing/final-text/"
+    },
+    {
+      "name": "Cannabis.Inc High Five",
+      "url": "https://cannabis.inc/high-five"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "376",
+    "label": "pesticides screened, vs 66 the state requires"
+  },
+  "banner": {
+    "title": "Pesticides Slip Past California",
+    "highlight": [
+      "PESTICIDES"
+    ],
+    "sub": "LA Times tests find off-list chemicals in legal cannabis",
+    "divider": "States desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "49 products tested"
+      },
+      {
+        "icon": "shield",
+        "text": "State panel covers 66"
+      },
+      {
+        "icon": "doc",
+        "text": "New list due April 2028"
+      }
+    ],
+    "corner": [
+      "TESTING",
+      "SAFETY",
+      "CALIFORNIA",
+      "LABS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2028-04-01",
+      "text": "California's expanded pesticide list, including pymetrozine, takes effect"
+    }
+  ],
+  "tags": [
+    "California",
+    "Product safety",
+    "Testing",
+    "Pesticides"
+  ],
+  "image_prompt": "A row of clear laboratory sample vials holding green plant material on a white lab bench, one vial set slightly apart under a cool spotlight, a blank clipboard nearby, dark negative space on the left.",
+  "image_alt": "Laboratory sample vials of plant material on a white bench, one set apart",
+  "x_post": "California screens cannabis for 66 pesticides. Labs hired by the LA Times looked for 376 and found off-list chemicals in a quarter of 49 legal products. One insecticide joins the state list only in April 2028.",
+  "edition": "2026-11-09-am",
+  "published": "2026-11-09T04:10:47+02:00",
+  "breaking": false
+}

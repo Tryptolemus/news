@@ -1,0 +1,107 @@
+{
+  "id": "south-carolina-hemp-ban",
+  "rank": 4,
+  "cat": "Hemp",
+  "headline": "South Carolina hemp THC sellers brace for 11 December federal ban",
+  "dek": "With no state hemp rules of its own, South Carolina falls under the federal 0.4 mg cap on 11 December, threatening a trade worth up to $1.5 billion a year.",
+  "key_points": [
+    "South Carolina passed no rules on hemp-derived THC this year, so the federal redefinition will govern the state's market in full from 11 December.",
+    "The state's restaurant and lodging association puts the consumable THC trade at $1.2 billion to $1.5 billion a year.",
+    "Common gummies carry 10 or 25 mg of THC, at least 25 times the new 0.4 mg per container federal ceiling.",
+    "Rep. Nancy Mace's bill to repeal the federal change has sat in a House subcommittee since 13 January."
+  ],
+  "body": [
+    "South Carolina never wrote its own rules for hemp-derived THC, so the federal ban will hit the state in full on 11 December. THC drinks, gummies and vapes have spread through its beverage stores, vape shops and independent pharmacies since the 2018 farm bill opened the door, and the South Carolina Restaurant & Lodging Association values the consumable THC trade at $1.2 billion to $1.5 billion a year, the Post and Courier reported on 8 November.",
+    "The federal change, written into the November 2025 funding law, redefines hemp around total THC rather than delta-9 alone and limits finished products to 0.4 milligrams of THC per container. Its start date was later moved from 12 November to 11 December. In a state with no law of its own, that leaves almost every intoxicating hemp product on South Carolina shelves outside the law overnight.",
+    "## What leaves the shelves",
+    "The arithmetic is blunt. Gummies sold in independent pharmacies typically contain 10 or 25 mg of THC each, and beverages usually carry 5 to 10 mg per serving, according to the paper. Against a 0.4 mg ceiling for a whole container, even the smallest common gummy is 25 times over the limit. One multi-store beverage retailer, Bottles Beverage Superstore, told the paper hemp THC products make up about 10% of its retail business and that it sells cans with up to 50 mg per serving. A Charleston beverage maker said the category now accounts for 10% to 35% of adult beverage sales at some stores.",
+    "In-state producers named by the paper include High Rise and Ownly in Charleston, Rebel Rabbit in Greenville, Peak Drift in Columbia and Slightly Elevated in McClellanville. For them, the federal change is not a product reformulation; it is the end of the core line unless Congress acts.",
+    "## Why South Carolina is more exposed than most",
+    "States that already regulate, tax or ban these products have their own frameworks in place, and the federal change lands on top of rules businesses already follow. South Carolina has none. Lawmakers split this year between a full ban and a lighter regime with an age limit and rules on where products may be sold, and neither bill passed, the paper reported. With no state law, the federal definition will be the only rule, a point Ownly's owner made to the paper.",
+    "The customer base skews older than the stereotype. Retailers described buyers in their 40s to 60s, and Daniele Piomelli, a University of California neurobiology professor, told the paper that people aged 55 and over are the fastest-growing group of users, mostly for pain and sleep. The state's law enforcement chief has taken the opposite view, describing high-potency products sold to anyone as dangerous, and school officials have complained about THC vapes on campuses.",
+    "## Fire sales and stockpiling",
+    "Supply is already winding down. Some suppliers have stopped production, according to Bottles' regional manager, and Florida-based Cannabis Life, a large mail-order seller, has halted manufacturing and advertised 70% discounts in November, the paper reported. Shoppers are buying ahead; one 65-year-old customer said she would probably buy a year's supply.",
+    "> In states with no hemp law, 11 December is not a technical federal tweak. It is the whole rulebook changing in one day.",
+    "## Congress has not moved",
+    "Rep. Nancy Mace, a Republican who represents the Charleston area, introduced the American Hemp Protection Act on 20 November 2025 to repeal the federal change outright. Congress.gov shows the bill was referred to the House Agriculture subcommittee on commodity markets, digital assets and rural development on 13 January and has gone no further. Its three cosponsors are Thomas Massie, Zoe Lofgren and James Baird. Other bills to delay or regulate rather than ban have also stalled.",
+    "Industry figures quoted by the paper expect some form of federal regulation within six to 12 months, but nothing is scheduled. Support on Capitol Hill appears strongest for beverages and gummies rather than inhaled products, the paper said.",
+    "## The wider map",
+    "South Carolina is one of more than a dozen states with no restrictions that will feel the change most sharply, according to the Post and Courier. Neighbouring markets are moving earlier: Illinois and Missouri both start their own 0.4 mg per container limits on 12 November, and in Illinois a trade group has asked a federal court to block the state law, as we report in this edition. The federal date also matters for interstate shipping; after 11 December, sellers in states where hemp THC remains legal under state law, such as Florida, could no longer ship it legally across state lines, the paper noted.",
+    "## What to watch",
+    "The hard date is 11 December. Before then, watch for any delay or carve-out in year-end federal legislation, statements from state regulators on how South Carolina will enforce the federal definition, and whether South Carolina lawmakers revive either of this year's competing hemp bills."
+  ],
+  "sources": [
+    {
+      "name": "Post and Courier",
+      "url": "https://www.postandcourier.com/politics/hemp-thc-drinks-gummies-banned-december-sc/article_dbe381b0-d556-4e29-adce-ebe097dff5bd.html"
+    },
+    {
+      "name": "Congress.gov, H.R.6209 American Hemp Protection Act",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6209/all-info"
+    },
+    {
+      "name": "Illinois Department of Revenue, Bulletin FY 2027-04",
+      "url": "https://tax.illinois.gov/research/publications/bulletins/fy-2027-04.html"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/missouri-hemp-lawsuits/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "DEC",
+    "day": "11",
+    "big": "$1.5B",
+    "label": "top estimate of South Carolina's THC trade"
+  },
+  "banner": {
+    "title": "South Carolina Faces Hemp Cliff",
+    "highlight": [
+      "HEMP",
+      "CLIFF"
+    ],
+    "sub": "No state rules means the federal ban applies in full",
+    "divider": "Hemp desk",
+    "points": [
+      {
+        "icon": "coin",
+        "text": "$1.2B to $1.5B a year"
+      },
+      {
+        "icon": "drop",
+        "text": "0.4 mg per container cap"
+      },
+      {
+        "icon": "doc",
+        "text": "Repeal bill stuck since Jan"
+      }
+    ],
+    "corner": [
+      "HEMP",
+      "FEDERAL",
+      "THC",
+      "RETAIL"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "Federal 0.4 mg per container hemp THC limit takes effect"
+    }
+  ],
+  "tags": [
+    "South Carolina",
+    "Hemp",
+    "Hemp-derived THC",
+    "Total THC",
+    "Congress",
+    "Illinois",
+    "Missouri"
+  ],
+  "image_prompt": "A store cooler shelf lined with plain unbranded beverage cans, a paper calendar page pinned beside it, warm low light, dark open space on the left.",
+  "image_alt": "Unbranded beverage cans in a store cooler beside a pinned calendar page",
+  "edition": "2026-11-09-am",
+  "published": "2026-11-09T04:10:47+02:00",
+  "breaking": false
+}
