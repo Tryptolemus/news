@@ -41,6 +41,10 @@ STYLE = (
 )
 
 
+class QuotaSpent(RuntimeError):
+    """Cloudflare's free daily allowance is used up: stop the run (retrying only burns minutes); it resets at 00:00 UTC."""
+
+
 def _post(req, timeout=300):
     for attempt in range(3):
         try:
@@ -48,6 +52,8 @@ def _post(req, timeout=300):
                 return r.read(), r.headers.get("Content-Type", "")
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")[:300]
+            if "4006" in msg or "daily free allocation" in msg:
+                raise QuotaSpent(msg)
             if e.code in (400, 401, 403, 404):
                 raise RuntimeError(f"HTTP {e.code}: {msg}") from None
             print(f"  retry after {e.code}: {msg}")
@@ -122,6 +128,9 @@ def main():
             im = im.resize((1600, round(1600 * im.height / im.width)), Image.LANCZOS)
             im.save(out, "JPEG", quality=86, optimize=True, progressive=True)
             made += 1
+        except QuotaSpent:
+            print("  free daily image allowance is used up; the rest wait for the 00:10 UTC run")
+            break
         except Exception as e:  # noqa: BLE001
             print(f"  failed ({e}); keeping the designed card")
             failed += 1

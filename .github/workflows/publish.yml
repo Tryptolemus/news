@@ -15,6 +15,7 @@ on:
         default: false
   schedule:
     - cron: "20 22 * * 1-5"
+    - cron: "10 0 * * *"  # just after Cloudflare's free image allowance resets: make any story photos still missing
 
 permissions:
   contents: write
