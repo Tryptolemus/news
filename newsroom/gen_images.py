@@ -11,7 +11,7 @@ Providers, first one configured wins:
   Cloudflare Workers AI (free daily allowance)  CF_ACCOUNT_ID + CF_AI_TOKEN; CF_IMAGE_MODEL
                                                  (default @cf/black-forest-labs/flux-2-klein-4b, Apache-2.0 weights)
   OpenAI (paid)                                  OPENAI_API_KEY; IMAGE_MODEL (gpt-image-1), IMAGE_QUALITY (high)
-Skips cleanly when neither is set. MAX_IMAGES (default 50) caps one run so the free allowance is never exceeded.
+Skips cleanly when neither is set. MAX_IMAGES (default 60) caps one run so the free allowance is never exceeded.
 """
 import base64
 import io
@@ -111,7 +111,7 @@ def main():
     if not gen:
         print("No image provider configured (CF_ACCOUNT_ID + CF_AI_TOKEN, or OPENAI_API_KEY); stories keep their designed cards.")
         return 0
-    cap = int(os.environ.get("MAX_IMAGES") or 50)
+    cap = int(os.environ.get("MAX_IMAGES") or 60)
     IMAGES.mkdir(parents=True, exist_ok=True)
     made = failed = 0
     # newest stories first, so a capped run always covers the latest edition
@@ -120,13 +120,18 @@ def main():
             break
         a = json.loads(p.read_text(encoding="utf-8"))
         out = IMAGES / f"{a['id']}.jpg"
-        if out.exists() or not a.get("image_prompt"):
+        # <id>.prompt records the prompt a photo was made from: an edited image_prompt re-renders the photo,
+        # and the old photo stays live until the new one succeeds
+        side = IMAGES / f"{a['id']}.prompt"
+        if not a.get("image_prompt") or (out.exists() and side.exists()
+                                          and side.read_text(encoding="utf-8").strip() == a["image_prompt"].strip()):
             continue
         print(f"Generating photo ({name}): {a['id']}")
         try:
             im = Image.open(io.BytesIO(gen(a["image_prompt"]))).convert("RGB")
             im = im.resize((1600, round(1600 * im.height / im.width)), Image.LANCZOS)
             im.save(out, "JPEG", quality=86, optimize=True, progressive=True)
+            side.write_text(a["image_prompt"].strip() + "\n", encoding="utf-8")
             made += 1
         except QuotaSpent:
             print("  free daily image allowance is used up; the rest wait for the 00:10 UTC run")
