@@ -105,6 +105,15 @@ def nameplate(img, d, x, y):
     return ny + 20
 
 
+def photo_mark(out_png, scale=2):
+    """The nameplate alone on transparency, laid over story photos by CSS (.ph-mark) so it survives any crop."""
+    layer = Image.new("RGBA", (440, 100), (0, 0, 0, 0))
+    nameplate(layer, ImageDraw.Draw(layer), 4, 4)
+    layer = layer.crop(layer.getbbox())
+    Path(out_png).parent.mkdir(parents=True, exist_ok=True)
+    layer.save(out_png, optimize=True)
+
+
 def brand_photo(src, out_jpg):
     """The story photo as shown on the site: the MetaFlora News nameplate top-left over a soft dark corner fade,
     so every photo reads as ours (Greg, 10 Nov 2026). Pure PIL (the CI runner has no numpy)."""

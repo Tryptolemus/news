@@ -69,7 +69,11 @@ p{margin:0}
 time{font-family:var(--mono);font-size:12px;color:var(--meta)}
 .sec-label{font-family:var(--sans);font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--fg);border-top:2px solid var(--lime);padding-top:10px;margin-bottom:20px}
 .sec-label a:hover{text-decoration:none;color:var(--green)}
-.pic{display:block;overflow:hidden;background:var(--surface)}
+.pic{display:block;overflow:hidden;background:var(--surface);position:relative}
+/* MetaFlora News nameplate over story photos (overlay, so no crop can cut it) */
+.story-fig{position:relative}
+.ph-mark{position:absolute;left:0;top:0;width:52%;aspect-ratio:2/1;max-width:420px;pointer-events:none;background:url(/assets/photo-mark.png) no-repeat 7% 14%/48% auto,radial-gradient(ellipse at 0 0,rgba(19,19,19,.72),rgba(19,19,19,0) 68%)}
+@media (max-width:760px){.card-std .ph-mark{display:none}}
 .pic img,.pic svg{width:100%;aspect-ratio:3/2;object-fit:cover;height:auto}
 
 /* market strip */

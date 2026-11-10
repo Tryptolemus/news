@@ -320,14 +320,13 @@ def main():
         if f.is_file() and f.name not in leads:
             f.unlink()
     if IMAGES.exists():
-        # story photos carry the MetaFlora News nameplate on the site (card.brand_photo)
-        from card import brand_photo
+        # photos are served plain; the MetaFlora News nameplate sits over them as a CSS overlay (.ph-mark), so
+        # 3:2 and 1:1 crops never cut it off (a mark baked into the 16:9 photo was clipped on 10 Nov 2026)
+        (OUT / "img").mkdir(parents=True, exist_ok=True)
         for src in IMAGES.glob("*.jpg"):
-            try:
-                brand_photo(src, OUT / "img" / src.name)
-            except Exception as e:  # noqa: BLE001  never block a publish on a photo
-                print(f"WARNING: branding {src.name} failed ({e}); serving it plain")
-                shutil.copy(src, OUT / "img" / src.name)
+            shutil.copy(src, OUT / "img" / src.name)
+        from card import photo_mark
+        photo_mark(OUT / "assets" / "photo-mark.png")
     install_fonts()
     T.ctx.update(photo_path=photo_path, write=write, out=OUT, edition_label=edition_label)
     import hubs

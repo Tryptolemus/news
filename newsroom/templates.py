@@ -202,7 +202,8 @@ def image(a, eager=False, plate=True):
     """Clean lead image, never with text: the AI photo when there is one, else (optionally) the typographic plate."""
     if has_photo(a):
         lazy = "" if eager else ' loading="lazy"'
-        return f'<img src="/img/{a["id"]}.jpg" width="1600" height="900" alt="{escape(a.get("image_alt") or "")}"{lazy}>'
+        return (f'<img src="/img/{a["id"]}.jpg" width="1600" height="900" alt="{escape(a.get("image_alt") or "")}"{lazy}>'
+                '<span class="ph-mark" aria-hidden="true"></span>')
     return plate_svg(a) if plate else ""
 
 
