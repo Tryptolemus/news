@@ -1,0 +1,109 @@
+{
+  "id": "state-desk-nov-10-evening",
+  "rank": 5,
+  "cat": "States",
+  "headline": "State desk: Connecticut sets sales record; Rhode Island tops $102M",
+  "dek": "Connecticut adult-use sales hit a record $20.5 million in October as prices fell to $6.36 a gram; Rhode Island passed $102 million through October.",
+  "key_points": [
+    "Connecticut's adult-use sales reached $20,482,897 in October, beating December 2025's record by about $378,000, in the first month of its new flat tax.",
+    "The average Connecticut gram fell to $6.36, down 24.6% in a year and 43.3% in two.",
+    "Rhode Island's sales reached $102.3 million through October; the year-to-date pace points to a record year above 2025's $120.1 million.",
+    "Portland, Oregon's mayor proposed removing a city ban on drive-through and walk-up cannabis windows and raising the deferred licence fee down payment to 50%."
+  ],
+  "body": [
+    "Two New England markets reported October numbers on 10 November that tell the same story from different angles: more product moving at lower prices. In Oregon, Portland's mayor brought a clean-up of the city's cannabis code to committee. Here is the state desk for the evening.",
+    "## Connecticut: a record month under a new tax",
+    "Connecticut's licensed retailers sold $20,482,897 of adult-use cannabis in October, a new monthly record, according to Department of Consumer Protection figures reported by The Marijuana Herald. The previous high was $20,104,680 in December 2025, so October beat it by about $378,000, or 1.9%. Medical sales added $5,287,794, bringing the month to $25,770,691; combined sales still fell just short of December 2025's $26.06 million.",
+    "Through ten months, Connecticut has sold about $245.8 million, of which $191.3 million was adult-use and $54.5 million medical. Adult-use sales were up about 7.9% on October 2025 and combined sales about 4.5%. Medical sales continue to shrink: October's figure was about 6.9% below the $5.68 million recorded a year earlier, by MetaFlora's comparison with the state's monthly series.",
+    "Price is doing the work. The average price of a gram fell to $6.36 in October, a record low, from $8.43 a year earlier and $11.21 in October 2024: a 24.6% drop in one year and 43.3% in two. Paybotic's analysis of September data showed the same pattern, with stores selling 30% more products than a year earlier at an 18% lower average price per item.",
+    "October was also the first full month under Connecticut's new tax. Public Act 26-68 replaced the THC-based excise tax with a flat 10.75% tax on gross receipts from 1 October, which with the 6.35% sales tax and 3% municipal tax takes the total on adult-use purchases to 20.1%, according to Paybotic. One month is too early to credit the record to the tax change, which removed the potency-based charge on stronger products.",
+    "> Connecticut is selling more cannabis than ever for less money per gram. Record months now come from volume, not price.",
+    "## Rhode Island: on course for a record year",
+    "Rhode Island's retailers sold $102,263,919 of cannabis in the first ten months of 2026, including $10.56 million in October, according to Cannabis Control Commission data reported by The Marijuana Herald. October's adult-use sales were about $9.53 million and medical sales about $1.03 million; the month was 1.7% above October 2025.",
+    "Monthly sales have stayed in a narrow band all year, from $9.32 million in February to a record $10.81 million in July, which the commission's annual report confirmed as the state's best month. At the year-to-date average of about $10.2 million a month, November and December would add roughly $20.5 million, taking 2026 to about $122.7 million, above 2025's $120.1 million. Retailers need about $17.8 million to set the record.",
+    "Pre-packaged flower led product sales at about $40.3 million through October, followed by raw pre-rolls at $21.6 million, vape cartridges at $17.7 million and edibles at $11.7 million. Wholesale transfers between licensees reached $43.9 million, 23% of them between affiliated businesses. The state counted 6,605 active medical patients in October.",
+    "## Portland, Oregon: code catches up with state rules",
+    "Portland Mayor Keith Wilson introduced Ordinance 2026-407, which the City Council's City Life Committee took up on 10 November, to amend the city's cannabis licensing code, Chapter 14B.130. It would strike a city ban on drive-through and walk-up windows built into licensed shops, a restriction the Oregon Liquor and Cannabis Commission relaxed in 2020, first temporarily and then in permanent rules allowing on-site delivery, according to the city's ordinance page. Sales from temporary structures, carts or satellite sites would remain banned, The Marijuana Herald reported.",
+    "The ordinance also tightens the city's Deferred Payment Program, which lets licensees spread the $3,970 annual fee. The down payment rises from $600 under the old code to 50% of the fee, or $1,985 today, with the rest due within six months, and a second late fee charged at 60 days is removed. The city says about 31% of licensees use the programme and that it has seen significant misuse; the changes have been applied since August and the ordinance writes them into code.",
+    "## What to watch",
+    "Connecticut's November data will show whether October's record holds as the flat tax settles in; watch medical sales, which keep falling. Rhode Island needs about $17.8 million over the last two months for a record year. Portland's ordinance goes from committee to the full City Council."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald (Connecticut)",
+      "url": "https://themarijuanaherald.com/2026/11/connecticut-adult-use-marijuana-sales-set-new-monthly-record-in-october-2026-total-tops-245-million/"
+    },
+    {
+      "name": "Connecticut Open Data: Cannabis Retail Sales by Month",
+      "url": "https://data.ct.gov/Health-and-Human-Services/Cannabis-Retail-Sales-by-Month/f382-bnu5"
+    },
+    {
+      "name": "Paybotic",
+      "url": "https://paybotic.com/learn/blog/connecticut-cannabis-sales-september-2026/"
+    },
+    {
+      "name": "The Marijuana Herald (Rhode Island)",
+      "url": "https://themarijuanaherald.com/2026/11/rhode-islands-2026-marijuana-sales-surpass-102-million-through-october/"
+    },
+    {
+      "name": "Rhode Island Cannabis Control Commission annual report 2026",
+      "url": "https://ccc.ri.gov/sites/g/files/xkgbur991/files/2026-09/CCC%20Annual%20Report_2026_Final.pdf"
+    },
+    {
+      "name": "City of Portland: Ordinance 2026-407",
+      "url": "https://www.portland.gov/council/documents/ordinance/amend-title-14b130"
+    },
+    {
+      "name": "The Marijuana Herald (Portland)",
+      "url": "https://themarijuanaherald.com/2026/11/portland-marijuana-drive-through/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$6.36",
+    "label": "average Connecticut gram in October, a record low"
+  },
+  "banner": {
+    "title": "Connecticut Sets Sales Record",
+    "highlight": [
+      "SALES",
+      "RECORD"
+    ],
+    "sub": "Rhode Island tops $102M; Portland updates its code",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "$20.5M adult-use October"
+      },
+      {
+        "icon": "coin",
+        "text": "$6.36 a gram, record low"
+      },
+      {
+        "icon": "pin",
+        "text": "RI on pace for record year"
+      }
+    ],
+    "corner": [
+      "STATES",
+      "SALES",
+      "PRICES",
+      "RULES"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Connecticut",
+    "Rhode Island",
+    "Oregon",
+    "Market data",
+    "Excise tax"
+  ],
+  "image_prompt": "A pyramid of small cannabis pre-roll tubes beside a brass price tag with no writing, on a slate counter, crisp studio lighting.",
+  "image_alt": "Stacked pre-roll tubes beside a blank brass price tag on a slate counter.",
+  "push": true,
+  "edition": "2026-11-10-pm",
+  "published": "2026-11-10T22:15:00+02:00",
+  "breaking": false
+}

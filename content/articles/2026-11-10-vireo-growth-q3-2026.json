@@ -1,0 +1,108 @@
+{
+  "id": "vireo-growth-q3-2026",
+  "rank": 3,
+  "cat": "Markets",
+  "headline": "Vireo Growth Q3 revenue jumps 177% to $253.7M on acquisitions",
+  "dek": "Vireo Growth's third-quarter revenue rose 177% to $253.7 million on acquisitions, but margins thinned and a $34.8 million tax bill left a $24 million loss.",
+  "key_points": [
+    "Vireo Growth's Q3 2026 revenue was $253.7 million, up 177% from $91.7 million, beating the analyst forecast cited by Investing.com of about $229.5 million.",
+    "On a like-for-like basis, retail revenue grew 4%, and Colorado pro forma retail fell 13%.",
+    "Adjusted EBITDA rose 68% to $42.7 million, but the margin fell from 27.7% to 16.8% as a lower-margin non-cannabis business joined.",
+    "Q4 guidance of $250–265 million includes FLUENT from 9 November; Q1 2027 guidance is $280–300 million before pending deals."
+  ],
+  "body": [
+    "Vireo Growth reported third-quarter revenue of $253.7 million on 10 November, up 177% from $91.7 million a year earlier, as a string of acquisitions closed. The Minneapolis-based operator said the quarter puts its annualised revenue run rate above $1 billion, and it guided to revenue of $250 million to $265 million in the fourth quarter, a period that includes Florida's FLUENT from the day that deal closed, 9 November.",
+    "The top line beat expectations. Investing.com put the consensus revenue forecast at about $229.5 million, and reported the shares up 5.2% at $9.68 in premarket trading, close to the bottom of a 52-week range of $9.01 to $30. Profitability looked weaker: Vireo posted a net loss of $24.0 million, or 49 cents a share, and Seeking Alpha described the results as mixed.",
+    "## Where the growth came from",
+    "Almost all of the growth was bought. Cannabis revenue more than doubled to $198.1 million, and a new non-cannabis segment, from what Vireo calls its agricultural markets platform, added $55.6 million. Retail revenue in states Vireo did not own a year ago (Colorado, New Mexico, California and Florida) came to $82.7 million in the quarter, by MetaFlora's sum of the company's state table.",
+    "The like-for-like picture is slower. On a pro forma basis, treating the acquisitions as if they had been owned in both periods, total retail revenue rose 4% to $196.7 million, which chief executive John Mazarakis called a proxy for same-store sales. That figure hides a wide spread. Pro forma retail in Florida rose 81%, Minnesota 43% and New Mexico 16%, while Colorado, now Vireo's largest retail state at $61.7 million on a pro forma basis, fell 13%. California was flat and Maryland slipped 2%.",
+    "Wholesale was a bright spot in New York, where revenue rose 137% to $12.1 million.",
+    "> Vireo has bought its way past $1 billion in run-rate sales. The next test is whether a 4% like-for-like retail number can grow faster than integration costs.",
+    "## Margins and the tax line",
+    "Gross margin improved slightly to 42.5% from 40.8% on a GAAP basis, but adjusted gross margin fell to 43.0% from 55.4%, partly because the non-cannabis business earns an adjusted gross margin of 15%. Adjusted EBITDA rose 68% to $42.7 million, while the adjusted EBITDA margin dropped to 16.8% from 27.7%; for the cannabis business alone it was 20.5%.",
+    "The income statement shows how much of the operating gain was absorbed by deal costs and tax. Transaction, integration and one-time expenses rose to $12.4 million from $0.8 million, and operating income was $7.6 million. Pre-tax income was $4.0 million, but current income tax expense was $34.8 million, more than eight times pre-tax profit, before a $6.8 million deferred tax recovery. That gap is typical of US operators that cannot deduct ordinary business expenses under Section 280E, the tax rule that rescheduling is meant to lift for the businesses it covers.",
+    "Vireo ended the quarter with $106.8 million in cash, said it has added banking partners and expanded financing capacity, and launched a share buyback. It said it expects to remain acquisitive.",
+    "## The deal pipeline",
+    "Once announced transactions close, Vireo expects to run about 270 dispensaries across 15 states. The FLUENT acquisition, which closed on 9 November and took Vireo to about 74 Florida stores as we reported, is included in fourth-quarter guidance; deals that had not closed by 10 November are not. Vireo estimated those pending deals would have added $45 million to $55 million of revenue and $5 million to $6 million of adjusted EBITDA had they closed before the quarter began.",
+    "Fourth-quarter guidance points to adjusted EBITDA of $45 million to $48 million, and the company expects a seasonal sequential decline in the non-cannabis business. For the first quarter of 2027 it guided to revenue of $280 million to $300 million and adjusted EBITDA of $53 million to $56 million, again before pending deals, which it said could add $50 million to $60 million of revenue.",
+    "## What to watch",
+    "The midpoint of fourth-quarter guidance, $257.5 million, is roughly flat on the third quarter even with FLUENT, so the first-quarter 2027 range is the real growth test. Watch Colorado, where pro forma sales are shrinking, and whether integration costs fall from $12.4 million a quarter. Watch the tax line as rescheduling plays out: current tax expense several times pre-tax income is the clearest sign of how much Section 280E relief would matter to Vireo's reported earnings."
+  ],
+  "sources": [
+    {
+      "name": "Vireo Growth Q3 2026 results (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/10/3399282/0/en/vireo-growth-inc-announces-third-quarter-2026-results.html"
+    },
+    {
+      "name": "Investing.com",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vireo-health-tops-revenue-view-in-q3-2026-shares-rise-93CH-5015609"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/news/4669637-vireo-growth-reports-mixed-q3-results-gives-q4-and-q1-outlook"
+    },
+    {
+      "name": "Reuters via TradingView",
+      "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L2N46R0FM:0-cannabis-platform-vireo-growth-s-q3-revenue-jumps-on-acquisitions/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/09/vireo-fluent-closing/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "big": "$253.7M",
+    "label": "Vireo Growth third-quarter 2026 revenue",
+    "vals": [
+      0.31,
+      0.7,
+      0.85,
+      0.86,
+      0.97
+    ]
+  },
+  "banner": {
+    "title": "Vireo Revenue Jumps 177%",
+    "highlight": [
+      "177%"
+    ],
+    "sub": "Deals lift Q3 to $253.7M; margins thin",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "4% like-for-like retail"
+      },
+      {
+        "icon": "coin",
+        "text": "$42.7M adjusted EBITDA"
+      },
+      {
+        "icon": "pin",
+        "text": "About 270 stores planned"
+      }
+    ],
+    "corner": [
+      "EARNINGS",
+      "MSO",
+      "M&A",
+      "VIREO"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Vireo Growth",
+    "Earnings",
+    "M&A",
+    "FLUENT",
+    "Florida",
+    "Section 280E"
+  ],
+  "image_prompt": "A stack of glossy dispensary shopping bags beside a rising row of small glass cannabis jars arranged like a bar chart on a white studio surface.",
+  "image_alt": "Dispensary shopping bags beside cannabis jars arranged like a rising bar chart.",
+  "x_post": "Vireo Growth's Q3 revenue rose 177% to $253.7M on acquisitions, but like-for-like retail grew 4% and a $34.8M current tax bill turned $4M of pre-tax profit into a $24M loss.",
+  "edition": "2026-11-10-pm",
+  "published": "2026-11-10T22:15:00+02:00",
+  "breaking": false
+}

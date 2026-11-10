@@ -1,0 +1,103 @@
+{
+  "id": "science-cbd-jaw-pain-ptsd",
+  "rank": 6,
+  "cat": "Science",
+  "headline": "Cannabis research: topical CBD eases jaw pain in two-trial review",
+  "dek": "A Scientific Reports meta-analysis found topical CBD cut jaw pain in muscle-related TMD; a rat study tied CBD to protection against stress-impaired fear memory.",
+  "key_points": [
+    "Pooling two randomised trials, Egyptian researchers found topical CBD lowered jaw pain by 2.89 points on a visual analogue scale versus control.",
+    "CBD also reduced electrical activity in the masseter muscles on both sides, but the authors rated the certainty of evidence as low.",
+    "A University of São Paulo rat study found seven days of CBD prevented stress-induced fear extinction deficits, through 5-HT1A and CB1 receptors.",
+    "Neither study shows CBD treats TMD or PTSD in routine care; both point to larger human trials."
+  ],
+  "body": [
+    "Two studies published in the past week add to the case for cannabidiol in pain and stress-related conditions, while showing how thin the evidence base still is. A meta-analysis published on 10 November in Scientific Reports found that topical CBD reduced jaw pain and muscle activity in people with muscle-related temporomandibular disorders (TMD). Separately, a rat study published on 6 November in Neuropharmacology found that repeated CBD prevented stress-induced problems in extinguishing fear memories, a core feature of post-traumatic stress disorder.",
+    "Neither result is a treatment recommendation. The jaw-pain analysis rests on two small trials, and the fear-memory work was done only in male rats.",
+    "## Topical CBD and jaw pain",
+    "Researchers affiliated with Alsalam, Mansoura and Alexandria universities in Egypt searched MEDLINE, Scopus, Web of Science and ClinicalTrials.gov for studies published up to September 2026, The Marijuana Herald reported. Of 744 records, only two randomised trials met their criteria. Pooled, the trials showed pain scores favouring CBD by an average of 2.89 points on a visual analogue scale, with a 95% confidence interval of 2.21 to 3.58 points. Surface electromyography, which picks up the electrical signals of working muscles, showed lower activity in the masseter muscles on both sides of the jaw.",
+    "Both trials were judged to be at low risk of bias, but the authors rated the overall certainty of the evidence as low because of the small number of trials, small samples and short follow-up. They called for larger randomised trials to test long-term effect and whether topical CBD belongs in routine care.",
+    "Context helps here. A 2020 meta-analysis of topical treatments for TMD in the Journal of Dental Anesthesia and Pain Medicine found only one CBD trial at the time, and judged the evidence limited. That trial, a 2019 Polish study of 60 patients, reported a 70.2% fall in pain over 14 days with a CBD formulation applied over the masseter, against 9.8% with placebo. Seven years on, the pool of controlled trials has only doubled to two, and a scoping review posted in October noted that muscle-activity readings in topical TMD trials do not yet separate pain relief from true muscle relaxation.",
+    "> Two trials make a signal, not a standard of care. For CBD makers, the jaw is a promising niche with an evidence base that still fits on one page.",
+    "## CBD and stress-impaired fear memory",
+    "The Neuropharmacology study, from the University of São Paulo's Ribeirão Preto campus, used the single prolonged stress model, a standard laboratory procedure meant to reproduce features of PTSD in rats. Stress sensitised conditioned fear, impaired the animals' ability to recall that a threat had become safe, and increased cardiovascular reactivity to trauma cues, according to the paper's abstract on PubMed.",
+    "Seven days of CBD at 5 or 10 mg per kg after the stress prevented the extinction-memory deficits. Blocking serotonin 5-HT1A receptors or cannabinoid CB1 receptors weakened that effect. In the prelimbic region of the prefrontal cortex, stress raised the activation of neuronal nitric oxide synthase, an enzyme involved in nerve signalling, and repeated CBD returned it to normal; a drug that inhibits the enzyme also prevented the fear deficits. A single CBD dose worked only at 30 mg per kg, not at the lower doses, and the protective effects held in a later test using a trauma reminder.",
+    "The authors described CBD as a multi-target candidate for PTSD. The study also tested paroxetine, an SSRI used for PTSD, which prevented the behavioural deficits too; the paper notes that SSRIs show limited efficacy in patients, which is the gap CBD research is trying to fill.",
+    "## What it means",
+    "For the CBD market, the jaw-pain result supports topical products aimed at TMD but does not settle dose, formulation or duration, and the two pooled trials followed patients only briefly. For medical cannabis prescribers in markets such as Germany and the UK, the PTSD work adds mechanism, not clinical proof: findings in rats do not always hold in people.",
+    "## What to watch",
+    "Watch for the full Scientific Reports paper's trial details and any registered TMD trials reporting in 2027. On PTSD, the next step is controlled human studies testing CBD alongside exposure therapy, where improved fear extinction would matter most."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald (TMD meta-analysis)",
+      "url": "https://themarijuanaherald.com/2026/11/new-meta-analysis-of-clinical-trials-finds-topical-cbd-significantly-reduces-jaw-pain-and-muscle-activity/"
+    },
+    {
+      "name": "Nitecka-Buchta et al., 2019 trial (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912397/"
+    },
+    {
+      "name": "Mena et al., 2020 meta-analysis (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33409363/"
+    },
+    {
+      "name": "Scoping review on topical drugs in masticatory myalgia (Zenodo)",
+      "url": "https://doi.org/10.5281/zenodo.23629119"
+    },
+    {
+      "name": "Vila-Verde et al., Neuropharmacology 2026 (PubMed)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42994609/"
+    },
+    {
+      "name": "The Marijuana Herald (PTSD study)",
+      "url": "https://themarijuanaherald.com/2026/11/study-cbd-ptsd/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "2.89",
+    "label": "points lower jaw pain with topical CBD"
+  },
+  "banner": {
+    "title": "Topical CBD Eases Jaw Pain",
+    "highlight": [
+      "JAW",
+      "PAIN"
+    ],
+    "sub": "Two-trial meta-analysis; rat study on fear memory",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "2 randomised trials pooled"
+      },
+      {
+        "icon": "drop",
+        "text": "Topical CBD on jaw muscle"
+      },
+      {
+        "icon": "doc",
+        "text": "Low-certainty evidence"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "CBD",
+      "PAIN",
+      "PTSD"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "CBD",
+    "Research",
+    "Pain",
+    "Mental health"
+  ],
+  "image_prompt": "A frosted glass jar of white CBD balm with its lid off beside a small dropper bottle and a sprig of hemp leaves on a pale stone surface.",
+  "image_alt": "An open jar of CBD balm beside a dropper bottle and hemp leaves.",
+  "push": true,
+  "edition": "2026-11-10-pm",
+  "published": "2026-11-10T22:15:00+02:00",
+  "breaking": false
+}
