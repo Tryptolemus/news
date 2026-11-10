@@ -13,6 +13,10 @@ on:
         description: "Also send push alerts and X-ready posts for the latest 9 stories (normally off: a manual run just rebuilds)"
         type: boolean
         default: false
+      alert_edition:
+        description: "Send push alerts, Discord and X for one edition's stories, e.g. 2026-11-10-am (use when its own run failed)"
+        type: string
+        default: ""
   schedule:
     - cron: "20 22 * * 1-5"
     - cron: "10 0 * * *"  # just after Cloudflare's free image allowance resets: make any story photos still missing
@@ -95,7 +99,10 @@ jobs:
           if [ "${{ github.event_name }}" = "schedule" ]; then
             files=""
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            if [ "${{ inputs.alert_latest }}" = "true" ]; then
+            ed="${{ inputs.alert_edition }}"
+            if [ -n "$ed" ]; then
+              files=$(grep -lE "\"edition\": *\"$ed\"" content/articles/*.json | tr '\n' ' ')
+            elif [ "${{ inputs.alert_latest }}" = "true" ]; then
               files=$(ls content/articles/*.json | tail -n 9 | tr '\n' ' ')
             else
               files=""  # manual rebuild: never re-alert readers about old stories
@@ -123,7 +130,8 @@ jobs:
           git add content/images
           if ! git diff --cached --quiet; then
             git commit -m "Add AI banners [skip ci]"
-            git pull --rebase -q origin main && git push -q origin HEAD:main
+            # another run may have made the same photos meanwhile: keep the copies already on main
+            git pull --rebase -X ours -q origin main && git push -q origin HEAD:main
           fi
       # Lead images (card.write_leads) are redrawn only when a story's visual changes: keep docs/img between runs.
       - name: Restore rendered lead images
