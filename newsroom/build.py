@@ -233,8 +233,9 @@ def build_media(arts, eds):
             if T.LEAD_IMAGES:
                 write_leads(a, OUT / "img")
             else:  # plates are off: remove any cached copies so they are no longer served
-                for old in (OUT / "img").glob(f"{a['id']}-*.jpg"):
-                    old.unlink()
+                # exact names only: a prefix glob for story "science" would delete science-*.jpg photos of other stories
+                for r in ("16x9", "4x3", "1x1", "16x9-960"):
+                    (OUT / "img" / f"{a['id']}-{r}.jpg").unlink(missing_ok=True)
         except Exception as e:  # noqa: BLE001  a missing lead image falls back to the social card; never block a publish
             print(f"WARNING: lead image for {a['id']} failed: {e}")
         ban = OUT / "banners" / f"{a['id']}.jpg"
@@ -319,7 +320,14 @@ def main():
         if f.is_file() and f.name not in leads:
             f.unlink()
     if IMAGES.exists():
-        shutil.copytree(IMAGES, OUT / "img", dirs_exist_ok=True)
+        # story photos carry the MetaFlora News nameplate on the site (card.brand_photo)
+        from card import brand_photo
+        for src in IMAGES.glob("*.jpg"):
+            try:
+                brand_photo(src, OUT / "img" / src.name)
+            except Exception as e:  # noqa: BLE001  never block a publish on a photo
+                print(f"WARNING: branding {src.name} failed ({e}); serving it plain")
+                shutil.copy(src, OUT / "img" / src.name)
     install_fonts()
     T.ctx.update(photo_path=photo_path, write=write, out=OUT, edition_label=edition_label)
     import hubs

@@ -105,6 +105,29 @@ def nameplate(img, d, x, y):
     return ny + 20
 
 
+def brand_photo(src, out_jpg):
+    """The story photo as shown on the site: the MetaFlora News nameplate top-left over a soft dark corner fade,
+    so every photo reads as ours (Greg, 10 Nov 2026). Pure PIL (the CI runner has no numpy)."""
+    from PIL import ImageChops, ImageFilter
+    img = Image.open(src).convert("RGB")
+    w, h = img.size
+    # soft fade into the top-left corner so the nameplate stays legible on light photos
+    hx = Image.linear_gradient("L").rotate(90, expand=True).resize((w, h))  # 255 at left -> 0 at right
+    vy = Image.linear_gradient("L").rotate(180).resize((w, h))              # 255 at top -> 0 at bottom
+    hx = hx.point(lambda v: max(0, (v - 150) * 255 // 105))
+    vy = vy.point(lambda v: max(0, (v - 140) * 255 // 115))
+    mask = ImageChops.multiply(hx, vy).point(lambda v: v * 200 // 255).filter(ImageFilter.GaussianBlur(40))
+    img = Image.composite(Image.new("RGB", (w, h), BG), img, mask)
+    layer = Image.new("RGBA", (440, 100), (0, 0, 0, 0))
+    nameplate(layer, ImageDraw.Draw(layer), 4, 4)
+    s = (w * 0.2) / 440
+    layer = layer.resize((round(440 * s), round(100 * s)), Image.LANCZOS)
+    m = round(w * 0.03)
+    img.paste(layer, (m, m), layer)
+    Path(out_jpg).parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_jpg, "JPEG", quality=86, optimize=True, progressive=True)
+
+
 def render_card(a, out_png, out_jpg=None):
     img = Image.new("RGB", (W, H), BG)
     d = ImageDraw.Draw(img)
