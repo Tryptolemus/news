@@ -1,0 +1,98 @@
+{
+  "id": "science-bleeding-disorders-cbd",
+  "edition": "2026-11-10-am",
+  "rank": 7,
+  "published": "2026-11-10T06:10:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: bleeding disorder patients rate it highly for sleep",
+  "dek": "A Haemophilia study finds 28% of people with bleeding disorders surveyed use cannabis and rate it best for sleep; a lab study tests CBD with a cancer drug.",
+  "key_points": [
+    "Of 88 people with inherited bleeding disorders in a national registry, 25 (28.4%) said they use cannabis to manage symptoms.",
+    "Users rated it 8.35 out of 10 for sleep, 7.06 for anxiety and 6.36 for pain, but also had higher anxiety scores and more opioid use than non-users.",
+    "A Polish cell study in Molecules found CBD made the experimental drug salinomycin more toxic to two cancer-derived cell lines and less toxic to kidney-derived cells.",
+    "Neither study shows cannabis treats anything: one is a small self-reported survey, the other was done only in lab-grown cells."
+  ],
+  "body": [
+    "Two new papers this week look at cannabis in very different settings: a patient survey of people with inherited bleeding disorders, and a laboratory test of how CBD changes the effect of an experimental cancer drug. Both point to questions worth pursuing, and both are early.",
+    "## Bleeding disorders: high ratings, small sample",
+    "The first study, published in the November issue of Haemophilia, the journal of the World Federation of Hemophilia, analysed responses from 88 people with inherited bleeding disorders enrolled in the Community Voices in Research registry. The authors are from Liberty University's School of Nursing, the University of Miami and the National Bleeding Disorders Foundation.",
+    "Twenty-five participants, or 28.4%, said they use cannabis to manage symptoms. Use was reported across hemophilia A, hemophilia B, von Willebrand disease, platelet disorders and rarer bleeding conditions, and users did not differ significantly from non-users by age, sex at birth or diagnosis. Pain, anxiety, sleep and depression were the most common reasons given.",
+    "Asked to rate effectiveness on a scale of 0 to 10, users gave cannabis an average of 8.35 for sleep, 7.06 for anxiety and 6.36 for pain. Sleep ranking first echoes recent trial work: as we reported on 8 November, THC-CBD combinations improved sleep in pain trials.",
+    "The study also found that people who used cannabis had higher anxiety scores and significantly higher opioid use than those who did not. The authors read that as a possible sign of gaps in care, people using cannabis because their symptoms are not well controlled, rather than evidence that cannabis causes either. They call for proactive, non-judgemental questions about cannabis use and broader, patient-centred symptom management.",
+    "The registry data went beyond cannabis. Participants also completed measures of pain, depression, anxiety, resilience and coping, and social support, which let the researchers compare users and non-users on more than symptoms alone.",
+    "> In bleeding disorders, joint damage and pain can last for decades. When more than a quarter of a registry sample is treating itself with cannabis, clinicians need to be asking about it.",
+    "The limits are plain. The sample is small, the data are self-reported and collected at one point in time, and the study cannot say whether cannabis improved anyone's symptoms. The authors' answer is better conversations between clinicians and patients, not a recommendation for or against use.",
+    "## CBD and salinomycin: a lab result",
+    "The second paper, published on 9 November in the journal Molecules by researchers from Poznan University of Life Sciences and other Polish institutions, tested CBD alongside salinomycin, a veterinary antibiotic that has drawn interest as a possible anticancer compound but is limited by its toxicity, The Marijuana Herald reported.",
+    "The team exposed three human cell lines to salinomycin with and without CBD at two concentrations that were not toxic on their own. In liver cancer-derived HepG2 cells and neuroblastoma-derived SH-SY5Y cells, adding CBD increased salinomycin's damage and cell death. In kidney-derived HEK-293 cells, CBD had the opposite effect: higher salinomycin doses were needed to produce the same toxicity. CBD also reduced reactive oxygen species in the kidney-derived cells while raising them in the two cancer-derived lines.",
+    "The CBD doses were 1.56 and 3.125 micrograms per millilitre. To measure the effects, the team used several assays covering mitochondrial and lysosomal activity, cell membrane integrity and DNA synthesis, and the results pointed the same way across methods: CBD changed salinomycin's toxicity differently depending on the cell type.",
+    "The researchers stressed what the result does not show. The work was done entirely in cultured cells, and HEK-293 cells are immortalised and not equivalent to normal kidney tissue, so the study does not establish that CBD would protect healthy organs during cancer treatment. Its value is as a lead: a combination that appears to push toxicity toward cancer-derived cells and away from others, which now needs testing in animal models.",
+    "## What to watch",
+    "For patients, neither study changes practice. For researchers and medical cannabis companies, the bleeding-disorder data argue for a controlled trial of cannabinoids for sleep and pain in this group, and the salinomycin results for animal studies. Watch for whether either team publishes follow-up work in larger or more advanced models. Both papers add to a small but growing evidence base on cannabinoids in specific patient groups, which is where regulators and payers will look first."
+  ],
+  "sources": [
+    {
+      "name": "Haemophilia (DOI 10.1111/hae.70452)",
+      "url": "https://doi.org/10.1111/hae.70452"
+    },
+    {
+      "name": "PubMed record 42968604",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42968604/"
+    },
+    {
+      "name": "The Marijuana Herald (bleeding disorders study)",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-medical-marijuana-users-with-inherited-bleeding-disorders-report-significant-sleep-anxiety-and-pain-relief/"
+    },
+    {
+      "name": "The Marijuana Herald (CBD and salinomycin study)",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-cbd-enhances-cancer-cell-killing-effects-of-experimental-drug-while-reducing-toxicity-in-kidney-derived-cells/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/science-pain-glaucoma/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "8.35",
+    "label": "average sleep rating out of 10 among users"
+  },
+  "banner": {
+    "title": "Cannabis Rated Best For Sleep",
+    "highlight": [
+      "SLEEP"
+    ],
+    "sub": "Bleeding disorder survey and a CBD lab study",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "88 patients surveyed"
+      },
+      {
+        "icon": "chart",
+        "text": "28.4% use cannabis"
+      },
+      {
+        "icon": "drop",
+        "text": "CBD tested with salinomycin"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "MEDICAL",
+      "CBD",
+      "RESEARCH"
+    ]
+  },
+  "tags": [
+    "Research",
+    "Medical cannabis",
+    "CBD",
+    "Sleep",
+    "Pain"
+  ],
+  "image_prompt": "A small amber glass dropper bottle beside a plain glass petri dish on a clean white surface, soft studio light with a faint violet edge.",
+  "image_alt": "An amber dropper bottle beside a petri dish on a white surface.",
+  "breaking": false
+}

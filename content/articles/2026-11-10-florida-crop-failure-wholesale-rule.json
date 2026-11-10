@@ -1,0 +1,104 @@
+{
+  "id": "florida-crop-failure-wholesale-rule",
+  "edition": "2026-11-10-am",
+  "rank": 4,
+  "published": "2026-11-10T06:10:00+02:00",
+  "cat": "States",
+  "headline": "Florida would let cannabis firms buy from rivals after crop failures",
+  "dek": "Florida's health department proposed permanent rules letting medical marijuana treatment centers buy from competitors after losing at least half a harvest.",
+  "key_points": [
+    "Florida's Department of Health published proposed rules on 6 November to replace emergency rules adopted in December 2025; comments close on 27 November.",
+    "A treatment center could buy plants, flower or oil from a competitor only after losing at least 50% of a harvest to causes such as disease, pests, fire or flooding.",
+    "Approval takes two 30-day steps, purchases are capped at the amount lost, and buyers get up to nine months to complete them.",
+    "Bought-in product must be sold under the buyer's own labels and cannot be marketed as coming from the other company."
+  ],
+  "body": [
+    "Florida is moving to make permanent a narrow exception to its vertically integrated medical marijuana system: when a licensed operator loses a crop, it would be able to buy from a competitor. The Department of Health published the proposed rules in the Florida Administrative Register on 6 November, replacing emergency rules that took effect on 22 December 2025, and is taking public comments until 27 November, The Marijuana Herald reported.",
+    "The change is small in scope but unusual for Florida. The state requires each medical marijuana treatment center (MMTC) to grow, process and sell its own product, and generally bars wholesale trading between them. The proposed rule keeps that model and adds a controlled release valve for operators hit by disaster.",
+    "## Who qualifies",
+    "Under proposed Rule 64-4.226, a treatment center could apply to buy marijuana plants, usable flower or marijuana oil from another licensee once it shows that at least 50% of the plants in a harvest were lost or destroyed. Qualifying causes include natural disasters, equipment failures, pests, plant disease, contamination, flooding and fire. Except for natural disasters, the loss must not stem from the company's own negligence, mismanagement or deliberate acts.",
+    "Applicants must also have been dispensing to qualified patients or caregivers for at least eight consecutive weeks before they apply, which keeps new entrants from using the rule to stock shelves before their own grows come online.",
+    "## How the process works",
+    "The approval runs in two steps. A company must document the loss to the department within 30 calendar days of the harvest failure. If the department certifies the loss, the company has another 30 days to request permission for a wholesale purchase. The department then sets a maximum quantity based on the number of plants lost, and the company has up to nine months to complete the purchases.",
+    "By MetaFlora's reading of the timeline, a company that loses a crop could wait two months or more for authorisation, and up to nearly a year in total before replacement stock is fully bought in. Purchases are capped at the amount needed to replace what was lost, so the rule cannot be used to build inventory.",
+    "> Florida is not opening a wholesale market. It is writing down how a vertically integrated operator survives a hurricane without breaking the model.",
+    "## Labels stay with the buyer",
+    "Product bought under an approved transfer stays subject to Florida's testing, tracking, packaging and labelling rules. It would be packaged and labelled under the buying company's approved procedures, and the buyer may not advertise it as coming from another treatment center. For patients, that means a product on the shelf may have been grown by a different company than the one on the label during a recovery period.",
+    "The department is advancing the wholesale-transfer rules alongside a separate proposal on marijuana delivery devices that would set approval requirements, packaging standards and recall procedures.",
+    "The delivery-device proposal builds on definitions already in statute. Florida law defines a marijuana delivery device as an object used to prepare, store or take marijuana, and generally requires such devices to be dispensed by a treatment center, with an exception for devices used for smoking.",
+    "## Why it matters now",
+    "The underlying exception for documented harvest failures already exists in Florida Statute 381.986, the medical marijuana law. What the rulemaking adds is a permanent process in place of an emergency one, and the Florida Administrative Register notice frames it as the department's non-emergency replacement for emergency rules 64ER25-4 and 64ER25-5.",
+    "Florida's licensees are also consolidating. As we reported on 9 November, Vireo Growth has closed its purchase of FLUENT, giving it about 74 Florida dispensaries. Larger networks spread across more cultivation sites are less exposed to a single crop failure; smaller operators with one grow are the ones the rule is most likely to help after a storm season.",
+    "The contrast with other states is sharp. In many markets, independent cultivators routinely sell to several retailers, so a failed harvest is a purchasing problem. In Florida, where each licensee is meant to supply itself, the same failure can empty shelves unless the state signs off on a transfer.",
+    "## What to watch",
+    "Public comments close on 27 November. A public hearing will be held only if someone asks for one within 21 days of the 6 November notice, which is also 27 November. After that, the department can move to adopt the rule in place of the emergency version. Watch whether operators push for a lower loss threshold or a faster approval clock in their comments."
+  ],
+  "sources": [
+    {
+      "name": "Florida Administrative Code: Rule 64-4.226 notice history",
+      "url": "https://www.flrules.org/gateway/ruleNo.asp?id=64-4.226"
+    },
+    {
+      "name": "Florida Statutes s. 381.986",
+      "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0381/Sections/0381.986.html"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/florida-proposes-permanent-rules-allowing-marijuana-companies-to-buy-from-competitors-following-crop-failures/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/09/vireo-fluent-closing/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "NOV",
+    "day": "27",
+    "big": "50%",
+    "label": "share of a harvest that must be lost to qualify"
+  },
+  "banner": {
+    "title": "Florida Crop-Loss Safety Net",
+    "highlight": [
+      "CROP-LOSS"
+    ],
+    "sub": "Treatment centers could buy from rivals after disasters",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "leaf",
+        "text": "50% harvest loss to qualify"
+      },
+      {
+        "icon": "doc",
+        "text": "Comments close 27 Nov"
+      },
+      {
+        "icon": "cube",
+        "text": "Up to nine months to buy"
+      }
+    ],
+    "corner": [
+      "FLORIDA",
+      "MEDICAL",
+      "RULES",
+      "SUPPLY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-27",
+      "text": "Comment deadline on Florida's proposed MMTC harvest-failure wholesale rules"
+    }
+  ],
+  "tags": [
+    "Florida",
+    "Medical cannabis",
+    "Licensing",
+    "Vireo Growth"
+  ],
+  "image_prompt": "A single potted cannabis plant with a few wilted leaves on a plain concrete floor, a soft blurred greenhouse frame behind, faint violet edge light.",
+  "image_alt": "A potted cannabis plant with wilted leaves in a greenhouse.",
+  "breaking": false
+}

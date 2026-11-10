@@ -1,0 +1,110 @@
+{
+  "id": "texas-goodwin-cannabis-options",
+  "edition": "2026-11-10-am",
+  "rank": 3,
+  "published": "2026-11-10T06:10:00+02:00",
+  "cat": "States",
+  "headline": "Texas Lt. Gov.-elect Goodwin weighs legalization or medical expansion",
+  "dek": "Texas Lt. Gov.-elect Vikki Goodwin says the state could expand its medical program or legalize outright, and wants health officials to unwind hemp rules.",
+  "key_points": [
+    "Vikki Goodwin, who beat Dan Patrick on 3 November, said Texas could either expand its Compassionate Use Program or legalize cannabis outright, and that talks are still needed.",
+    "She said the Department of State Health Services should unwind its hemp rules, arguing the agency changed the law without the authority to do so.",
+    "Gov.-elect Gina Hinojosa wants Texas voters to decide on legalization through a referendum put on the ballot by the legislature.",
+    "Hemp drink makers face the federal 0.4 mg limit on 11 December; one Denton brand says its payment processor is already dropping it."
+  ],
+  "body": [
+    "Texas's incoming Democratic lieutenant governor has set out the choices she sees for cannabis policy after last week's election, and full legalization is on the list. In an interview with MS NOW on 7 November, Lt. Gov.-elect Vikki Goodwin said the state could expand the Texas Compassionate Use Program, its narrow medical cannabis scheme, or legalize altogether, and that the question still needs more discussion, including within the industry, Marijuana Moment reported.",
+    "On hemp she was more definite. Goodwin told WFAA-TV she is not in favour of a THC ban like the one outgoing Lt. Gov. Dan Patrick got through the legislature, and said the Department of State Health Services should unwind the hemp rules it adopted this year. In her view the agency changed the law through regulation, which she said it had no authority to do.",
+    "## Why the lieutenant governor's view matters",
+    "In Texas the lieutenant governor presides over the Senate. Patrick used the post to drive the 2025 hemp THC ban through the legislature, and Gov. Greg Abbott vetoed it. After the veto, state agencies adopted restrictive rules that effectively banned many hemp products and are now being challenged in court. A lieutenant governor who opposes those rules changes the arithmetic for any bill in the session that opens in January.",
+    "Goodwin does not run DSHS, so her call to unwind the rules is a political demand rather than an order. Its weight comes from the new balance in Austin. Gov.-elect Gina Hinojosa has said she wants voters to decide on marijuana legalization through a ballot referendum referred by the legislature, and Goodwin says she favours treating THC like alcohol and taxing it to help fund healthcare.",
+    "> Texas has gone from a leadership that wanted hemp gone to one debating how far legal cannabis should go. The rules on the books have not moved yet.",
+    "## The rules still in force",
+    "Nothing has changed for sellers so far. The DSHS consumable hemp rules took effect on 31 March. The department's programme page says hemp products may contain no more than 0.3% delta-9 THC on a dry-weight basis, that the consumable hemp product licence costs $10,000 a year per location and retail registration $5,000, and that sales to anyone under 21 are banned under emergency rules adopted in October 2025. As we reported on 8 November, the 15th Court of Appeals cancelled the 8 December argument in the industry's challenge to the rules, leaving the case for the three Democratic justices who take over in January.",
+    "Goodwin thanked the hemp industry, including the Texas Hemp Business Council, in her victory speech, and campaigned with a rally under a legalization banner, according to Marijuana Moment. Elsewhere on the ballot, Houston voters approved an initiative making misdemeanour marijuana possession the lowest enforcement priority for local police and banning no-knock warrants. Sen.-elect James Talarico has said he wants to work with President Trump on federal legalization.",
+    "## The federal deadline arrives first",
+    "Whatever Austin decides, Washington moves first. On 11 December the federal redefinition of hemp takes effect, and products with more than 0.4 milligrams of total THC per container stop being lawful hemp. That covers the THC drinks that survived the state rules.",
+    "The founders of Wild Revival, a THC beverage maker in Denton, told KERA's NTX Now that their products come in 10, 25 and 50 mg strengths and that nothing they make fits under the new limit. Co-founder Michael Williams said their payment processor, Square, which handles at least 45% of the company's revenue, had told them it would stop working with them because of the coming ban. Co-founder Andrew Martin said about 95% of the company's revenue comes from cannabis products.",
+    "That is the early cost of the federal date: banks and payment firms pulling back before the law changes. Texas brands that hoped a friendlier state government would protect them still face a federal rule that the state cannot override.",
+    "## What to watch",
+    "The legislature convenes on 12 January, with Goodwin presiding over the Senate. Watch for filed bills on TCUP expansion, a legalization referendum and hemp regulation, and for any DSHS move to reopen its rules. Before then, 11 December brings the federal hemp limit, and any deal in Congress to delay or replace it would matter more to Texas drink makers in the short run than anything in Austin."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/incoming-texas-lieutenant-governor-discusses-options-for-cannabis-reform-including-full-legalization-or-medical-expansion/"
+    },
+    {
+      "name": "Houston Public Media / KERA",
+      "url": "https://houstonpublicmedia.org/articles/news/politics/2026/11/09/566575/federal-thc-ban-threatens-texas-businesses"
+    },
+    {
+      "name": "Texas Department of State Health Services: Consumable Hemp Program",
+      "url": "https://www.dshs.texas.gov/consumable-hemp-program"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/texas-hemp-appeal-reset/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/07/texas-hemp-outlook/"
+    }
+  ],
+  "visual": {
+    "motif": "ballot",
+    "big": "12 Jan",
+    "label": "Texas legislature convenes with Goodwin presiding"
+  },
+  "banner": {
+    "title": "Texas Weighs Legal Cannabis",
+    "highlight": [
+      "LEGAL",
+      "CANNABIS"
+    ],
+    "sub": "Lt. Gov.-elect Vikki Goodwin lists the options",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "ballot",
+        "text": "Legalize or expand TCUP"
+      },
+      {
+        "icon": "doc",
+        "text": "Wants hemp rules unwound"
+      },
+      {
+        "icon": "pin",
+        "text": "Session opens 12 January"
+      }
+    ],
+    "corner": [
+      "TEXAS",
+      "HEMP",
+      "MEDICAL",
+      "POLICY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "Federal 0.4 mg total THC hemp limit takes effect"
+    },
+    {
+      "date": "2027-01-12",
+      "text": "Texas legislature convenes with a new lieutenant governor presiding"
+    }
+  ],
+  "tags": [
+    "Texas",
+    "Legalization",
+    "Hemp",
+    "Hemp-derived THC",
+    "Medical cannabis",
+    "Midterms 2026"
+  ],
+  "image_prompt": "A small glass jar of cannabis flower on a plain sandstone ledge, the Texas Capitol dome softly blurred behind, warm light with a faint violet edge.",
+  "image_alt": "A jar of cannabis flower on a stone ledge with a blurred capitol dome behind.",
+  "x_post": "Texas Lt. Gov.-elect Vikki Goodwin says the state could expand its medical program or legalize cannabis outright, and wants health officials to unwind this year's hemp rules.",
+  "breaking": false
+}

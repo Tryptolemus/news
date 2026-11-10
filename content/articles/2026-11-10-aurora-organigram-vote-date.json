@@ -1,0 +1,121 @@
+{
+  "id": "aurora-organigram-vote-date",
+  "edition": "2026-11-10-am",
+  "rank": 2,
+  "published": "2026-11-10T06:10:00+02:00",
+  "cat": "Markets",
+  "headline": "Aurora Cannabis sets 23 December vote on C$561M Organigram takeover",
+  "dek": "Aurora Cannabis shareholders will vote online on 23 December on Organigram's C$7.80-a-share offer, nineteen days after Curaleaf's rival bid is due to expire.",
+  "key_points": [
+    "A Computershare notice filed with the SEC on 9 November sets Aurora's special meeting for 23 December, with a record date of 18 November.",
+    "Organigram offers C$7.80 a share in cash, 5.8626 Organigram shares, or C$3.75 plus 3.0431 shares, valuing Aurora at about C$561 million.",
+    "Curaleaf's hostile offer of US$1 plus 0.4013 Curaleaf shares is due to expire on 4 December unless it is extended.",
+    "Two-thirds of votes cast plus a majority of minority holders must approve; the companies expect to close in January 2027."
+  ],
+  "body": [
+    "Aurora Cannabis has fixed the date on which its shareholders will decide whether to sell the company to Organigram Global. A notice of meeting filed by its transfer agent, Computershare, and furnished to the US Securities and Exchange Commission on 9 November sets a virtual special meeting for 23 December. Shareholders on the register on 18 November will be entitled to vote.",
+    "The vote is the first hard deadline in a takeover fight that started in August. Organigram agreed on 3 November to buy Aurora for C$7.80 a share, about C$561 million on a fully diluted basis (around US$398 million), after Aurora's board rejected a hostile bid from Curaleaf that had already been raised once. The Aurora board unanimously backs the Organigram deal.",
+    "## Three ways to get paid",
+    "Aurora holders will be able to choose their consideration, subject to proration: C$7.80 in cash, 5.8626 Organigram shares, or a mix of C$3.75 in cash and 3.0431 Organigram shares for each Aurora share. By MetaFlora's arithmetic, the all-share option is worth exactly C$7.80 when Organigram trades at about C$1.33; above that price, stock pays more than cash, and below it, cash is the better deal. The mixed option is pitched at the same break-even point.",
+    "That makes Organigram's share price the number to watch between now and 23 December. Aurora holders who elect stock will end up with about 35% of the combined company's economic ownership and 42% of the voting rights, according to the terms reported by The Marijuana Herald.",
+    "> The cash leg puts a floor under the deal. The stock leg turns Aurora shareholders into a bet on whether Organigram can run two Canadian producers better than either ran alone.",
+    "## The hurdles before closing",
+    "The deal is a court-supervised plan of arrangement in British Columbia, so it needs more than a simple majority. At least two-thirds of the votes cast by Aurora shareholders must support it, along with a majority of votes cast once certain holders are excluded under Canadian minority-protection rules. Organigram's own shareholders must separately approve the shares it will issue and the financing behind the deal.",
+    "That financing leans on British American Tobacco. BAT, Organigram's anchor shareholder through BT DE Investments, has agreed to provide about C$187.5 million, and Organigram has lined up additional credit facilities. The companies say they expect more than C$50 million a year in cost savings and operating benefits from combining production, distribution and purchasing. They expect to close in January 2027, subject to court and regulatory approval.",
+    "## Where Curaleaf stands",
+    "Curaleaf's offer is still technically open. Its amended bid, last revised on 6 October, offers US$1 in cash plus 0.4013 Curaleaf shares for each Aurora share, worth US$5 when it was announced. It is scheduled to expire on 4 December unless Curaleaf extends, amends or withdraws it. When Organigram's agreement was signed, its price was a 93% premium to Aurora's unaffected share price in August and a 21% premium to Curaleaf's offer as of 2 November.",
+    "The sequence matters. Curaleaf's bid expires 19 days before Aurora's vote, so Curaleaf has until early December to decide whether to raise its price, let the bid lapse or keep it alive. Any improved offer would first have to win over an Aurora board that has unanimously rejected Curaleaf's terms and recommended Organigram's instead.",
+    "## Why the deal matters beyond Canada",
+    "The combination is a bet on international medical cannabis. Aurora brings EU-GMP certified manufacturing and established medical sales in Europe and Australia; Organigram brings a large Canadian recreational business and its own European medical operations. As we reported on 8 November, Aurora's export sales jumped 44% in its latest quarter on German and Polish demand, which is the business Organigram is paying for. Germany imported 205 tonnes of medical cannabis in 2025, according to federal BfArM figures compiled by Business of Cannabis, and Canada supplied 46% of it.",
+    "## What to watch",
+    "18 November is the record date. Watch for Aurora's management information circular, which should set out the board's case for the deal in full, and for Organigram's separate meeting date. 4 December is the expiry of Curaleaf's offer. 23 December is the Aurora vote, with closing targeted for January 2027."
+  ],
+  "sources": [
+    {
+      "name": "SEC filing: Aurora Cannabis Form 6-K, Computershare notice of meeting",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001683541/000110465926124555/tm2629252d1_ex99-1.htm"
+    },
+    {
+      "name": "Organigram and Aurora press release (Business Wire via BNN Bloomberg)",
+      "url": "https://www.bnnbloomberg.ca/press-releases/2026/11/03/organigram-to-acquire-aurora-and-establish-a-global-cannabis-leader/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/aurora-cannabis-sets-december-23-shareholder-vote-on-c561-million-organigram-acquisition-new-sec-filing-confirms/"
+    },
+    {
+      "name": "Business of Cannabis",
+      "url": "https://businessofcannabis.com/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/aurora-q2-exports/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/aurora-deal/"
+    }
+  ],
+  "visual": {
+    "motif": "merge",
+    "a": "OGI",
+    "b": "ACB",
+    "big": "C$561M",
+    "label": "Organigram's offer for Aurora Cannabis"
+  },
+  "banner": {
+    "title": "Aurora Vote Set For 23 Dec",
+    "highlight": [
+      "23",
+      "DEC"
+    ],
+    "sub": "Shareholders to decide on Organigram's C$561M offer",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "ballot",
+        "text": "Record date 18 November"
+      },
+      {
+        "icon": "coin",
+        "text": "C$7.80 a share"
+      },
+      {
+        "icon": "handshake",
+        "text": "Curaleaf bid ends 4 Dec"
+      }
+    ],
+    "corner": [
+      "MERGER",
+      "CANADA",
+      "MEDICAL",
+      "VOTE"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-18",
+      "text": "Record date for Aurora's special meeting on the Organigram deal"
+    },
+    {
+      "date": "2026-12-04",
+      "text": "Curaleaf's hostile offer for Aurora is due to expire unless extended"
+    },
+    {
+      "date": "2026-12-23",
+      "text": "Aurora shareholders vote on the Organigram acquisition"
+    }
+  ],
+  "tags": [
+    "Aurora Cannabis",
+    "Organigram",
+    "Curaleaf",
+    "M&A",
+    "Canada",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Two plain glass jars of cannabis flower standing side by side and touching on a plain dark slate surface, faint violet edge light.",
+  "image_alt": "Two glass jars of cannabis flower side by side on a slate surface.",
+  "x_post": "Aurora Cannabis shareholders vote on 23 December on Organigram's C$7.80-a-share takeover. Curaleaf's rival bid is due to expire 19 days earlier, on 4 December.",
+  "breaking": false
+}

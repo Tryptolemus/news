@@ -1,0 +1,105 @@
+{
+  "id": "state-desk-nov-10",
+  "edition": "2026-11-10-am",
+  "rank": 5,
+  "published": "2026-11-10T06:10:00+02:00",
+  "cat": "States",
+  "headline": "State desk: Montana sales up 2%; Missouri research rules 30 Nov",
+  "dek": "Montana's cannabis sales reached $277.7 million through October as medical buying fell 16%, and Missouri's research licence rules take effect on 30 November.",
+  "key_points": [
+    "Montana dispensaries sold $277.7 million of cannabis from January to October, up about 2% on the same months of 2025.",
+    "Adult-use sales rose 4.1% to about $251 million while medical sales fell 15.8% to about $26.7 million, under 10% of the market.",
+    "Missouri's marijuana research rules, 19 CSR 100-1.200, take effect on 30 November and allow human and animal studies, cultivation and breeding.",
+    "Missouri regulators say the research licence program itself will be implemented in early 2027."
+  ],
+  "body": [
+    "Two state updates from the last 24 hours, both drawn from regulators' own data and rules: Montana's ten-month sales figures, and the start date for Missouri's cannabis research licences.",
+    "## Montana: a flat market, with medical shrinking",
+    "Montana retailers sold $277,728,735 of cannabis between January and October, according to Department of Revenue figures reported by The Marijuana Herald. That compares with $272,938,344 in the same ten months of 2025, a gain of about 1.8%.",
+    "The growth came entirely from adult-use. Recreational sales rose to about $251 million from $241.2 million, up 4.1%. Medical sales went the other way, falling 15.8% to about $26.7 million from $31.7 million. By MetaFlora's count, medical now accounts for about 9.6% of Montana's cannabis spending this year.",
+    "October itself was flat: $28,487,152 in combined sales, of which $25,919,604 was adult-use and $2,567,548 medical, against $28,550,882 in October 2025. July was the strongest month of 2026 at nearly $30 million, followed by August at $29.2 million, and no month has dipped below $25 million.",
+    "Montana sold $326.9 million in all of 2025, after $324.3 million in 2024 and $319.2 million in 2023. That implies November and December 2025 together brought in about $54 million. If the last two months of this year match that, 2026 would finish near $332 million, about 1.5% above 2025. That is MetaFlora's estimate, not a state forecast, but it describes a mature market growing in low single digits.",
+    "> Montana's medical program is shrinking inside a flat market. Even a tax gap of 4% against 20% has not been enough to stop the slide.",
+    "Since adult-use sales began on 1 January 2022, Montana has recorded $1,551,649,271 in cannabis sales and about $267.8 million in state cannabis taxes. That works out to an effective state take of roughly 17% of sales, below the 20% headline adult-use rate because medical purchases are taxed at 4%. Counties may add a local tax of up to 3%.",
+    "Of the all-time total, $1,286,111,947 came from adult-use sales and $265,537,324 from medical. Adult-use purchases have generated about $257.2 million of the state's cannabis tax take and medical about $10.6 million. Over the longer run the market has barely moved: full-year sales grew about 2.4% between 2023 and 2025.",
+    "## Missouri: research licences take effect 30 November",
+    "Missouri's new rules for cannabis research facilities, 19 CSR 100-1.200, take effect on 30 November, The Marijuana Herald reported. The rules were published in the Missouri Register on 1 October, and the Division of Cannabis Regulation has confirmed the effective date.",
+    "A licensed research facility will be able to grow marijuana, manufacture and process products, run controlled studies and give marijuana to research participants. It may also buy from licensed cultivators and manufacturers, transfer product between research facilities and work with public institutions. Human studies may include adults 21 and over and younger medical patients with a state card, subject to institutional review, a monitoring physician and a principal investigator with at least five years of human-subject research experience. Animal studies need a USDA animal welfare registration, approval from an animal care committee and a monitoring veterinarian.",
+    "The rules also cover breeding. Researchers may develop and test new strains, cultivars and genetic lines, and seeds and clones from approved research may be transferred or sold to licensed cultivators. That gives Missouri's commercial growers a regulated in-state route to new genetics. The rules create a dedicated research licence category alongside the state's commercial licences, rather than asking existing cultivators to run studies on the side.",
+    "Costs are modest: a $500 non-refundable application fee for the licence and $250 for each proposed study, plus a commencement inspection and state approval of each project. The effective date is not a start date for research, though. The division has said it is preparing to implement the licensing program in early 2027.",
+    "The rules arrive as Missouri tightens its position elsewhere. As we reported on 9 November, state regulators told licensees that federal rescheduling does not allow interstate cannabis sales, keeping the market closed at the state line.",
+    "## What to watch",
+    "Montana's next monthly update, covering November, will show whether the year keeps pace with 2025. In Missouri, watch for the research licence application window and guidance from the Division of Cannabis Regulation ahead of the early-2027 launch."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald (Montana sales)",
+      "url": "https://themarijuanaherald.com/2026/11/montana-marijuana-sales-reach-277-million-in-2026-all-time-total-surpasses-1-55-billion/"
+    },
+    {
+      "name": "Montana Department of Revenue: Cannabis Regulation",
+      "url": "https://mtrevenue.gov/cannabis/"
+    },
+    {
+      "name": "The Marijuana Herald (Missouri research rules)",
+      "url": "https://themarijuanaherald.com/2026/11/missouris-new-marijuana-research-rules-take-effect-november-30-allowing-human-and-animal-studies-cultivation-and-genetic-development/"
+    },
+    {
+      "name": "Missouri Division of Cannabis Regulation",
+      "url": "https://health.mo.gov/safety/cannabis/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/09/missouri-interstate-guidance/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$277.7M",
+    "label": "Montana cannabis sales, January to October"
+  },
+  "banner": {
+    "title": "Montana Up, Missouri Research",
+    "highlight": [
+      "MONTANA"
+    ],
+    "sub": "Sales edge up 2% as Missouri opens research rules",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "$277.7M through October"
+      },
+      {
+        "icon": "drop",
+        "text": "Medical sales down 15.8%"
+      },
+      {
+        "icon": "flask",
+        "text": "Research rules 30 Nov"
+      }
+    ],
+    "corner": [
+      "STATES",
+      "SALES",
+      "RESEARCH",
+      "RULES"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-30",
+      "text": "Missouri marijuana research facility rules take effect"
+    }
+  ],
+  "tags": [
+    "Montana",
+    "Missouri",
+    "Market data",
+    "Research",
+    "Medical cannabis"
+  ],
+  "image_prompt": "A neat stack of plain brass coins beside a small glass jar of cannabis flower on a plain walnut surface, faint violet edge light.",
+  "image_alt": "Brass coins stacked beside a small jar of cannabis flower.",
+  "breaking": false
+}
