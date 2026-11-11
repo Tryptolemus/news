@@ -1,0 +1,68 @@
+{
+  "id": "mississippi-medical-cannabis-registry",
+  "edition": "2026-11-11-am",
+  "rank": 4,
+  "published": "2026-11-11T06:15:00+02:00",
+  "cat": "Science",
+  "headline": "Mississippi to track medical cannabis patient outcomes statewide",
+  "dek": "MoreBetter plans a statewide registry of Mississippi's 66,000 medical cannabis patients from early 2027, tracking symptoms and prescription drug use over time.",
+  "key_points": [
+    "Research firm MoreBetter announced on 10 November a statewide program to collect patient-reported outcomes from Mississippi's registered medical cannabis patients.",
+    "The registry will track pain, sleep, anxiety, quality of life and whether patients use more or fewer prescription drugs, with recruitment due in the first quarter of 2027.",
+    "Mississippi had 66,041 active patients in December 2025, up about 33% in a year; chronic pain and PTSD were the most common qualifying conditions.",
+    "MoreBetter says more than a dozen states should follow, including Pennsylvania and Illinois, and plans a public portal for aggregate results."
+  ],
+  "body": [
+    "Mississippi will host the first statewide program to follow medical cannabis patients over time and record how their symptoms, quality of life and prescription drug use change, Philadelphia-based research company MoreBetter announced on 10 November. Patient recruitment is expected to begin in the first quarter of 2027, coordinated with Mississippi industry stakeholders.",
+    "The program is observational. It does not give anyone cannabis, and MoreBetter's announcement says it makes no claim that cannabis treats, prevents or cures any condition. What it promises is something most state medical programmes lack: a continuous, patient-level record that regulators, lawmakers and university researchers can use to judge what their programmes are doing.",
+    "## What will be measured",
+    "According to MoreBetter, the registry is built to answer practical questions. Do patients use fewer or more prescription medications over time? How do pain, sleep, anxiety and overall well-being change? Which products and patterns of use do patients report, and what effects and unwanted effects do they describe? And how do the answers differ by qualifying condition?",
+    "Every participant will answer the same validated questionnaires so responses can be combined into a single statewide dataset. MoreBetter says the protocols are designed for review by an institutional review board, with de-identification and data governance designed for regulated research. MoreBetter will design the protocols, run the study and handle participant contact, then support analysis and publication with academic partners. Selected aggregate, de-identified findings are meant to appear on a public data portal.",
+    "The company is also working with data partners on HIPAA-compliant links between patient answers and electronic health records and insurance claims. Where that is possible, the program could look at hospital and clinic visits, out-of-pocket costs and the cost of care, including for state programmes such as Medicaid.",
+    "> Most states license, tax and track every gram of medical cannabis, and almost none track what happens to the patient.",
+    "## Why Mississippi first",
+    "Mississippi's programme is young and growing fast. Retail sales began in 2023. The state health department's 2025 annual report counted 66,041 active patients as of 15 December 2025, up from 49,626 a year earlier, an increase of about 16,400 patients, or 33%, by MetaFlora's calculation. Chronic pain and post-traumatic stress disorder were the two most commonly certified conditions, according to the report as cited by The Marijuana Herald and MyCannabis.",
+    "MoreBetter says the statewide plan builds on an earlier study that enrolled about 300 Mississippi cardholders in ten days, a sign that patients are willing to take part. The company has not announced an enrolment target.",
+    "The state already funds cannabis research. Senate Bill 2888 created the Mississippi Medical Cannabis Research Program in 2024 at the University of Mississippi's National Center for Cannabis Research and Education, which says it runs its own real-world evidence studies of patient outcomes. MoreBetter's announcement refers to state and university research partners but does not name them.",
+    "## The evidence gap it targets",
+    "Medical cannabis is legal in most US states, yet health departments, pharmacy boards and legislators rarely have patient-level evidence on how their programmes affect health, MoreBetter argues. The gap matters more now. As federal policy moves medical cannabis toward a pharmaceutical-style framework, in the company's words, the questions regulators ask are starting to look like the ones drug regulators ask: who benefits, by how much, and at what risk.",
+    "Observational registries cannot answer those questions the way randomised trials can. Patients who sign up may differ from those who do not, and self-reported improvement can reflect expectation as much as effect. Their strength is scale and duration: thousands of patients followed for months or years, across conditions and products, in the conditions in which people actually use cannabis. Linking those reports to medical and claims records, if it happens, would add harder outcomes such as hospital visits and prescription fills.",
+    "## A template for other states",
+    "MoreBetter calls Mississippi the first in a series and says more than a dozen states are expected to follow, naming Pennsylvania and Illinois. Pennsylvania's medical-only market sold about $160 million of cannabis in October alone, according to The Marijuana Herald's state tally, so a registry there would cover one of the largest patient populations in the country.",
+    "For operators, a working registry is a double-edged tool. Data showing reduced use of opioids or sleep medication would strengthen the case for medical programmes and for insurance coverage. Data showing weak effects or frequent side effects for some products would be public too.",
+    "## What to watch",
+    "Recruitment details are due closer to launch in early 2027. Watch for the names of the university partners and the review board, the first state to sign on after Mississippi, and whether any state health department agrees to the medical-record and claims linkage that would make the data most useful."
+  ],
+  "sources": [
+    {"name": "MoreBetter press release (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/morebetter-announces-statewide-medical-cannabis-registry-and-outcomes-program-with-mississippi-as-first-in-nation-302935075.html"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/mississippi-to-become-first-state-with-statewide-medical-marijuana-research-program-tracking-patient-outcomes-and-prescription-drug-use/"},
+    {"name": "MyCannabis", "url": "https://www.mycannabis.com/morebetter-plans-mississippi-medical-cannabis-outcomes-registry/"},
+    {"name": "University of Mississippi NCCRE", "url": "https://olemiss.edu/nccre/legacy-of-research/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/11/us-cannabis-sales-october-record/"}
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "66K",
+    "label": "active Mississippi medical cannabis patients"
+  },
+  "banner": {
+    "title": "Mississippi Tracks Patients",
+    "highlight": ["TRACKS"],
+    "sub": "MoreBetter registry would follow outcomes from 2027",
+    "divider": "Science desk",
+    "points": [
+      {"icon": "flask", "text": "Recruiting from Q1 2027"},
+      {"icon": "chart", "text": "66,041 active patients"},
+      {"icon": "doc", "text": "Public data portal planned"}
+    ],
+    "corner": ["SCIENCE", "MEDICAL", "DATA", "PATIENTS"]
+  },
+  "watch": [
+    {"date": "2027-01-01", "text": "MoreBetter expects Mississippi patient recruitment to begin in the first quarter of 2027"}
+  ],
+  "tags": ["Mississippi", "Medical cannabis", "Research", "Pennsylvania", "Illinois"],
+  "image_prompt": "A small amber medical cannabis tincture bottle beside a white pill organizer with some compartments empty, on a dark slate surface, faint violet edge light, subject in the right half, dark empty space on the left.",
+  "image_alt": "An amber cannabis tincture bottle next to a partly empty pill organizer on dark slate.",
+  "push": true,
+  "breaking": false
+}

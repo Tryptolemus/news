@@ -1,0 +1,71 @@
+{
+  "id": "netherlands-medical-cannabis-tender",
+  "edition": "2026-11-11-am",
+  "rank": 3,
+  "published": "2026-11-11T06:15:00+02:00",
+  "cat": "Europe",
+  "headline": "Netherlands to tender medical cannabis supply in December after Bedrocan",
+  "dek": "The Dutch state will seek a new medical cannabis supplier in December, aims for deliveries from September 2027, and has shelved its date for ending the state monopoly.",
+  "key_points": [
+    "Health Minister Sophie Hermans told parliament the Office of Medicinal Cannabis will publish a European tender in December 2026 and choose a supplier in May 2027.",
+    "Stock of the Bedrocan varieties runs out between early Q2 and mid-Q3 2027, so Dutch patients will have to switch products at some point.",
+    "There is no spare Bedrolite for export after some harvests came in more than 50% short, which threatens supply to UK children with severe epilepsy.",
+    "The law ending the state's monopoly on medical cannabis will miss its 1 July 2028 target, and the cabinet will not name a new date."
+  ],
+  "body": [
+    "The Netherlands will open a European tender for a new medical cannabis supplier in December 2026, a month after its long-time producer Bedrocan was declared bankrupt. Health Minister Sophie Hermans set out the timetable in a letter to the Tweede Kamer, the lower house of parliament, dated 6 November: tender published in December, supplier selected in May 2027, and a contract signed as soon as possible after that. MMJDaily reported that deliveries are planned from September 2027.",
+    "The same letter delays the bigger reform. The amendment to the Opium Act that would end the state's monopoly on trading medical cannabis and let licensed companies produce and sell it will not take effect on 1 July 2028 as planned. Handling the Bedrocan bankruptcy is absorbing the ministry's capacity, the minister wrote, and the cabinet does not think it responsible to set a new date.",
+    "## How long the stock lasts",
+    "Bedrocan supplied the Dutch state programme from 2003, through the Office of Medicinal Cannabis (BMC), until its service contract ended. A court declared the company bankrupt on 8 October. Because the gap between the old contract and a new supplier was expected, the BMC had built up stock, and the letter says patients should see no immediate effect.",
+    "The stock runs out at different times for each variety. Based on current forecasts, the last deliveries of Bedrocan, Bediol and Bedica to pharmacies can take place until about the middle of the third quarter of 2027. Bedrolite runs until early in the third quarter and Bedrobinol until early in the second quarter. For some varieties the limit is shelf life rather than quantity. A patient receiving product at the last delivery date would still have three months of shelf life left.",
+    "The minister says it is likely that patients will have to move to a different cannabis product at some point. The national medicines coordination centre, LCG, has been asked to map possible alternatives with experts and pharmacists, as it does for other drug shortages.",
+    "> The Dutch state has learned the cost of a single supplier, then delayed the reform that would end it.",
+    "## The UK problem: Bedrolite",
+    "Most of the BMC's stock is reserved for Dutch patients, and some varieties are still exported where supply exceeds what Dutch patients can use before expiry. Bedrolite is the exception. The letter says there is no extra Bedrolite available, partly because most recent harvests of the variety came in well below normal, in some cases by more than 50%.",
+    "That hits countries that buy Bedrolite through the BMC, including the United Kingdom, where it is the base for a cannabis oil given to children with epilepsy for whom other medicines have failed. The Dutch government is looking at whether it can keep the UK supplied a little longer to give British patients time to switch, the letter says.",
+    "In the UK, families have been told supplies could run out within months, the BBC reported on 9 November. The UK is believed to have about six months of Bedrolite. The Department of Health and Social Care told the BBC that access will remain in the short term and that it is working with the UK supplier and the Dutch government on further stock. As we reported on 9 November, the collapse is also straining supply in Italy.",
+    "## What the new supplier must deliver",
+    "The tender will buy a finished product that meets European Pharmacopoeia requirements for packaging and release, MMJDaily reported, because several partners in the old supply chain, which handled irradiation, testing and packaging, have begun dismantling their facilities. Dutch companies can bid, with a preference for suppliers within the EU. A market consultation in August drew several interested parties, according to the letter, and MMJDaily reported that the price indications came in below what the BMC pays now.",
+    "The state refused to rescue Bedrocan. During its suspension of payments the administrator asked whether the state could support the company, for example by paying invoices before quality control. The cabinet declined, judging that it might pay for unusable cannabis with no certainty of a restart, MMJDaily reported. Dutch broadcaster NOS reported that the state did help with the sale of part of the remaining stock to a foreign buyer. Bedrocan's chief executive, Jacob Erkelens, told MMJDaily that export had been about 85% of the business before the government closed the programme.",
+    "The founding Erkelens family is trying to restart the company as an exporter, NOS reported, through a sale and leaseback of its production building in Emmeloord. The plan needs about €3 million at first, according to RTV Noord as cited by NOS, and a rule change, because Dutch producers cannot currently sell medical cannabis directly to foreign pharmacies and wholesalers.",
+    "## Why it matters beyond the Netherlands",
+    "Bedrocan's standardised varieties were sold through the Dutch state since 2003 and exported to other European programmes. A state contract for finished, Pharmacopoeia-compliant product, with a preference for EU suppliers, is a meaningful prize for EU-GMP producers, and for non-EU exporters that work through EU partners. The September 2027 start leaves a narrow window: a winning supplier would need to match current THC and CBD profiles closely enough that patients and prescribers accept the switch.",
+    "## What to watch",
+    "The tender notice in December will show the volumes and product profiles the BMC wants. Supplier selection is due in May 2027. Parliament expects an update on both the tender and the Opium Act amendment in spring 2027. In the UK, watch for any agreement to extend Bedrolite deliveries before British stock runs out."
+  ],
+  "sources": [
+    {"name": "Tweede Kamer: Kamerstuk 29477-986 (6 November 2026)", "url": "https://www.tweedekamer.nl/kamerstukken/detail?id=2026D56164&did=2026D56164"},
+    {"name": "Minister's letter, full text (OpenTK)", "url": "https://berthub.eu/tkconv/document.html?nummer=2026D56164"},
+    {"name": "MMJDaily", "url": "https://www.mmjdaily.com/article/9891336/dutch-medical-cannabis-tender-opens-in-december-after-bedrocan-bankruptcy/"},
+    {"name": "NOS", "url": "https://nos.nl/regio/flevoland/artikel/817734-overheid-weigerde-failliete-wietteler-bedrocan-financieel-te-helpen"},
+    {"name": "BBC News", "url": "https://www.bbc.co.uk/news/articles/ckn9r558el4lo"},
+    {"name": "Bureau voor Medicinale Cannabis", "url": "https://www.cannabisbureau.nl/actueel/nieuws/2026/10/09/beschikbaarheid-medicinale-cannabis"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/09/bedrocan-collapse-supply/"}
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "Sep '27",
+    "label": "planned start of new Dutch supplier deliveries"
+  },
+  "banner": {
+    "title": "Dutch Cannabis Tender Set",
+    "highlight": ["TENDER"],
+    "sub": "New supplier sought after Bedrocan bankruptcy",
+    "divider": "Europe desk",
+    "points": [
+      {"icon": "doc", "text": "Tender opens December"},
+      {"icon": "globe", "text": "Deliveries from Sept 2027"},
+      {"icon": "drop", "text": "No spare Bedrolite"}
+    ],
+    "corner": ["EUROPE", "MEDICAL", "SUPPLY", "TENDER"]
+  },
+  "watch": [
+    {"date": "2027-05-01", "text": "Dutch Office of Medicinal Cannabis due to select a new supplier (May 2027)"},
+    {"date": "2027-09-01", "text": "Planned start of deliveries from the new Dutch supplier"}
+  ],
+  "tags": ["Netherlands", "Bedrocan", "Medical cannabis", "United Kingdom", "Europe"],
+  "image_prompt": "A white pharmacy dispensing tin of medical cannabis flower beside a sealed amber glass oil bottle and a small tulip on a dark marble surface, faint violet edge light, subject in the right half, empty dark space on the left.",
+  "image_alt": "A pharmacy tin of medical cannabis, an amber oil bottle and a tulip on dark marble.",
+  "x_post": "The Netherlands will tender for a new medical cannabis supplier in December after Bedrocan's bankruptcy, with deliveries from September 2027. Spare Bedrolite is gone, and UK families feel it first.",
+  "breaking": false
+}

@@ -1,0 +1,65 @@
+{
+  "id": "supreme-court-pontiac-cannabis-permits",
+  "edition": "2026-11-11-am",
+  "rank": 6,
+  "published": "2026-11-11T06:15:00+02:00",
+  "cat": "Policy",
+  "headline": "Supreme Court turns away Pontiac cannabis permit delay case",
+  "dek": "The Supreme Court declined on 9 November to hear Rubicon v. City of Pontiac, leaving a ruling that slow local cannabis approvals are not a constitutional violation.",
+  "key_points": [
+    "The US Supreme Court denied review on 9 November in Rubicon Real Estate Holdings v. City of Pontiac (No. 26-359), ending the developer's case.",
+    "The Sixth Circuit ruled in June that Pontiac officials at worst lagged on discretionary zoning and licence approvals, which falls short of a constitutional violation.",
+    "Rubicon's planned medical marijuana cultivation and processing site collapsed in 2021 when tenants walked away after about 18 months of licensing back-and-forth.",
+    "The published ruling tells cannabis developers in Michigan, Ohio, Kentucky and Tennessee that federal civil-rights suits are a weak remedy for slow local permits."
+  ],
+  "body": [
+    "The US Supreme Court on 9 November declined to hear a Michigan developer's claim that the city of Pontiac violated its constitutional rights by stalling approvals for a medical marijuana project until it fell apart. The order, in Rubicon Real Estate Holdings, LLC v. City of Pontiac (No. 26-359), leaves in place a published Sixth Circuit decision that ruled for the city.",
+    "The justices gave no reasons, as is usual. The city had waived its right to respond to the petition, and the case was considered at the court's 6 November conference, according to the docket. The denial ends litigation that began in 2023 and sets a clear marker for cannabis businesses that blame local governments for lost projects: delay alone, however costly, is not enough.",
+    "## What happened in Pontiac",
+    "In 2019 Rubicon, a Michigan real estate developer, began redeveloping a run-down commercial property in Pontiac, a Detroit suburb, with plans to lease space to a grocery store and several medical marijuana cultivation and processing businesses, according to the district court's opinion. Approvals for zoning changes lagged. Licensing for Rubicon's prospective tenants went back and forth with the city clerk's office for about a year and a half, the Sixth Circuit wrote.",
+    "The clerk, Garland Doyle, took the view that a further ordinance amendment was required before he could issue the licences. Rubicon and a tenant went to Oakland County Circuit Court, which on 21 May 2021 granted declaratory relief and ordered the city to issue licences. The approvals followed on 27 May and 3 June 2021. By then it was too late: one prospective tenant ended its lease on 18 June 2021, citing lengthy delays, and another pulled out on 11 September, the district court found. Without tenants, Rubicon could not secure financing.",
+    "Rubicon, its managing member Joseph Brown and his design firm sued the city and the clerk in federal court, alleging violations of due process and equal protection, an unconstitutional taking and retaliation. Brown claimed a separate firm of his lost a contract on another Pontiac project after Rubicon's state court win.",
+    "> Courts will not turn a slow city hall into a civil-rights case. For cannabis developers, permit delay is a cost to price in, not a claim to collect.",
+    "## Why the courts said no",
+    "District Judge David M. Lawson of the Eastern District of Michigan granted summary judgment for the city and dismissed the case with prejudice. He wrote that it was unfortunate the project never took root, but that the evidence did not show the collapse resulted from constitutional violations by the defendants.",
+    "A Sixth Circuit panel of Judges Griffin, Larsen and Readler affirmed on 18 June 2026 in an opinion by Judge Readler. The court acknowledged that Rubicon's experience fell short of good governance and called one of the clerk's arguments arguably specious. But it held that the undisputed record showed officials at worst lagged in granting discretionary approvals, which does not clear the high bar for a constitutional claim.",
+    "The key step was on property rights. The panel found that neither Rubicon nor its tenants had a legitimate claim of entitlement to use the site for medical marijuana, because Pontiac awards zoning and permits for such businesses only after discretionary review rather than as of right, an analysis summarised by the land-use blog Inverse Condemnation. Without a protected property interest, a due process claim fails. The opinion also describes Pontiac's system in detail: industrial zoning, overlay districts, special exception permits and city licence applications covering 31 separate topics, on top of a state licence.",
+    "## What it means for operators",
+    "The Sixth Circuit's decision is published, so it binds federal courts in Michigan, Ohio, Kentucky and Tennessee. In practice, it tells cannabis developers and their lenders that where local approval is discretionary, a federal suit for slow processing is unlikely to succeed without evidence of targeted or retaliatory treatment.",
+    "That matters as more cities write their own cannabis rules. Michigan's licensed market sold about $244 million in October, second only to California, according to The Marijuana Herald's state tally, and much of that capacity sits in municipalities with their own zoning and licensing layers. The remedy that worked for Rubicon was state court: the Oakland County order forced the licences out, even if too late to save the deal.",
+    "For financing, the lesson is contractual. Lease commitments, loan conditions and closing dates tied to municipal approvals carry timing risk that courts will not shift back onto the city afterwards. The Pontiac record shows where leverage actually sat: the state court route produced the licences, while the federal claims failed for lack of evidence that the city singled Rubicon out. How much time a project allows for municipal approval is now as much a deal term as a legal question.",
+    "## What to watch",
+    "The denial closes this case. Watch for similar claims in other circuits, where courts may weigh discretionary cannabis licensing differently, and for cities revising cannabis ordinances to make approvals more predictable as state markets mature."
+  ],
+  "sources": [
+    {"name": "Supreme Court docket No. 26-359", "url": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26-359.html"},
+    {"name": "Sixth Circuit opinion, No. 25-1631 (18 June 2026)", "url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0176p-06.pdf"},
+    {"name": "US District Court, E.D. Michigan opinion (via CourtListener)", "url": "https://storage.courtlistener.com/recap/gov.uscourts.mied.367811/gov.uscourts.mied.367811.69.0.pdf"},
+    {"name": "Law360", "url": "https://www.law360.com/articles/2547030/justices-decline-review-in-real-estate-row-over-pot-biz"},
+    {"name": "Inverse Condemnation", "url": "https://www.inversecondemnation.com/2026/07/ca6-you-have-not-yet-crossed-the-rubicon-chump-and-you-have-no-right-to-expect-govt-to-act-in-a-timely-fashion.html"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/dea-increases-psychedelics-quotas-while-previewing-cannabis-move-newsletter-november-10-2026"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/11/us-cannabis-sales-october-record/"}
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "26-359",
+    "label": "Supreme Court docket, review denied 9 November"
+  },
+  "banner": {
+    "title": "Justices Pass on Pontiac",
+    "highlight": ["PONTIAC"],
+    "sub": "Slow cannabis permits not a constitutional violation",
+    "divider": "Courts desk",
+    "points": [
+      {"icon": "gavel", "text": "Review denied 9 November"},
+      {"icon": "doc", "text": "Sixth Circuit ruling stands"},
+      {"icon": "pin", "text": "Binds MI, OH, KY, TN courts"}
+    ],
+    "corner": ["COURTS", "MICHIGAN", "LICENSING", "ZONING"]
+  },
+  "watch": [],
+  "tags": ["Courts", "Michigan", "Licensing"],
+  "image_prompt": "A wooden judge's gavel resting on a rolled architectural site plan beside a small potted cannabis seedling on a dark walnut desk, faint violet edge light, subject in the right half, dark empty space on the left.",
+  "image_alt": "A gavel on a rolled site plan next to a cannabis seedling on a dark desk.",
+  "breaking": false
+}

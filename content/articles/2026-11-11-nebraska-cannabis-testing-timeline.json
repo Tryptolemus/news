@@ -1,0 +1,66 @@
+{
+  "id": "nebraska-cannabis-testing-timeline",
+  "edition": "2026-11-11-am",
+  "rank": 5,
+  "published": "2026-11-11T06:15:00+02:00",
+  "cat": "States",
+  "headline": "Nebraska cannabis regulators say no testing timeline has been set",
+  "dek": "Nebraska's Medical Cannabis Commission denied a two-year wait for product testing rules on 10 November but gave no date, as the first licensed harvest nears.",
+  "key_points": [
+    "The Nebraska Medical Cannabis Commission said on 10 November it has never set or announced a timeline for when lab testing of medical cannabis will be available.",
+    "It called reports of a wait of up to two years incorrect, but offered no new estimate; testing is required before any product can be sold.",
+    "Only one of the four licensed growers had plants in the ground in October, with harvest expected within about seven weeks of 19 October.",
+    "Labs cannot legally hold cannabis unless the Legislature changes the voter-approved law, which needs 33 of 49 senators."
+  ],
+  "body": [
+    "Nebraska's Medical Cannabis Commission said on 10 November that it has not set any timeline for when licensed growers will be able to have their cannabis tested, the step that must come before any product reaches a patient. In a news release, the commission said reports that cultivators could wait up to two years for testing guidelines mischaracterised a discussion at its 19 October meeting.",
+    "The release corrects one number without offering another. The commission gave no estimate for when testing will be possible, saying that some steps depend on other agencies, legislative action and local decisions, and that it wants to avoid creating expectations it cannot meet. For the state's first licensed growers, that leaves harvest dates approaching with no legal path from plant to shelf.",
+    "## What was said in October",
+    "At the October meeting, Garrett Elting, representing Mahamota Cultivation Company, asked the commission for a timeline on testing rules, Nebraska Public Media reported. Mahamota was then the only one of the four licensed growers with plants in the ground, and Elting said they would be harvested within about seven weeks. He warned that dried cannabis can lose potency after three to six months in storage, even in a temperature-controlled unit.",
+    "Commissioner Lorelle Mueting, the interim chair, said the commission had never offered a six-month timeline. She said each cultivator had been asked whether it could store product because the rest of the programme would probably not be ready at harvest, and that each had said storage was not a problem. Commissioners at that meeting advised growers to be prepared to store crops for a year to two years, according to Nebraska Public Media's report.",
+    "In its 10 November release, the commission said the possibility of 12-, 18- or 24-month delays was raised by the cultivator, and that the three-to-six-month window was the company's own assumption based on the pace of licensing, not something the commission had provided.",
+    "> A grower can store a crop for a while. It cannot store it until the Legislature gets round to defining a lab.",
+    "## The legal knot",
+    "The bigger obstacle is in the law itself. Under the medical cannabis measures Nebraska voters approved in 2024, regulatory power over registered cannabis establishments is vested exclusively in the voter-created commission, the Nebraska Examiner reported. A registered establishment is defined as a private entity licensed to possess, manufacture, distribute, deliver or dispense cannabis for medical purposes. Testing is not in that list.",
+    "Unless the Legislature adds testing to the definition, the commission has no authority to let a private in-state lab legally possess cannabis. Changing a voter-approved law requires at least 33 of the 49 state senators. The 2027 session begins on 6 January. The chairs of the two committees that have handled medical cannabis bills, Sen. Rick Holdcroft of General Affairs and Sen. Brian Hardin of Health and Human Services, won re-election last week and will seek those posts again, according to the Examiner.",
+    "The licensed growers asked the commission in October to amend its rules to clarify the testing process, set out who may carry samples to labs and under what conditions, and say whether out-of-state labs could be used. Shipping cannabis to a lab in another state would raise its own legal questions.",
+    "## Rules still waiting on two signatures",
+    "Separately, the commission approved amended regulations in October. They now await a legal review by Attorney General Mike Hilgers and final approval from Gov. Jim Pillen, both re-elected last week to four-year terms. Commissioners estimated in October that the regulations would not be approved before early 2027, with manufacturer licences issued afterwards, Nebraska Public Media reported.",
+    "If the amendments are approved, the commission could begin collecting application fees. Licensees have said the proposed fees are too high and could damage the supply chain. Growers are also urging the commission to back legislation protecting doctors from legal consequences for recommending medical cannabis. As of 19 October, the state health department had not issued any guidance to Nebraska physicians.",
+    "## What it means",
+    "Two years after voters approved medical cannabis, Nebraska has four licensed growers, no licensed manufacturers, no legal route to testing and no doctor guidance. The commission's caution may avoid mistakes, but the cost falls on the licensees carrying crops and fees with no revenue, and on patients who have no legal product. The Legislature, not the commission, now holds the key decision.",
+    "## What to watch",
+    "The commission meets next at 1 p.m. on Monday 16 November at the State Office Building in Lincoln. Watch for any bill filed for the 6 January session to define testing labs, the attorney general's review of the amended rules, and whether Mahamota's harvest goes into storage without a test date."
+  ],
+  "sources": [
+    {"name": "Nebraska Medical Cannabis Commission release, 10 November 2026", "url": "https://mcc.nebraska.gov/sites/default/files/doc/MCC%20Clarifies%20No%20Timeline%20Has%20Been%20Established%20for%20Medical%20Cannabis%20Product%20Testing.pdf"},
+    {"name": "Nebraska Examiner", "url": "https://nebraskaexaminer.com/2026/11/10/nebraska-medical-cannabis-commission-pushes-back-on-testing-timeline-offers-no-new-estimate/"},
+    {"name": "Nebraska Public Media", "url": "https://nebraskapublicmedia.org/en/news/news-articles/nebraska-cannabis-cultivators-could-wait-up-to-two-years-for-testing-sales/"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/nebraska-medical-marijuana-officials-clarify-that-they-havent-set-a-timeline-for-product-testing/"}
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "33/49",
+    "label": "senators needed to change Nebraska's voter law"
+  },
+  "banner": {
+    "title": "Nebraska Testing Still Undated",
+    "highlight": ["TESTING"],
+    "sub": "Commission denies two-year wait, gives no new date",
+    "divider": "State desk",
+    "points": [
+      {"icon": "flask", "text": "No legal lab route yet"},
+      {"icon": "leaf", "text": "Four licensed growers"},
+      {"icon": "ballot", "text": "33 of 49 votes to fix law"}
+    ],
+    "corner": ["STATES", "MEDICAL", "TESTING", "NEBRASKA"]
+  },
+  "watch": [
+    {"date": "2026-11-16", "text": "Nebraska Medical Cannabis Commission meets at 1 p.m. in Lincoln"},
+    {"date": "2027-01-06", "text": "Nebraska Legislature convenes; testing labs need a change to the voter-approved law"}
+  ],
+  "tags": ["Nebraska", "Medical cannabis", "Testing", "Licensing"],
+  "image_prompt": "A sealed glass storage jar of dried cannabis flower beside an empty laboratory test tube rack on a dark slate surface, with a single ear of corn lying nearby, faint violet edge light, subject in the right half, dark empty space on the left.",
+  "image_alt": "A sealed jar of cannabis flower, an empty test tube rack and an ear of corn on dark slate.",
+  "breaking": false
+}
