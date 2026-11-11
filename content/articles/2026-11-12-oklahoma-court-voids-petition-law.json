@@ -1,0 +1,66 @@
+{
+  "id": "oklahoma-court-voids-petition-law",
+  "edition": "2026-11-12-am",
+  "rank": 4,
+  "published": "2026-11-12T00:49:00+02:00",
+  "cat": "States",
+  "headline": "Oklahoma Supreme Court voids petition limits, reopening path to legal cannabis",
+  "dek": "In a 5-4 ruling on 10 November, Oklahoma's Supreme Court struck down SB 1027's county signature caps and funding limits, restoring the route voters used for medical cannabis.",
+  "key_points": [
+    "The Oklahoma Supreme Court ruled 5-4 on 10 November that Senate Bill 1027, the 2025 law restricting citizen initiative petitions, is unconstitutional and void in its entirety.",
+    "The majority found the law's county signature caps would have barred more than 800,000 registered voters in Oklahoma and Tulsa counties from signing a statutory petition.",
+    "The court also struck the ban on out-of-state money for petition circulation, citing Citizens United, and restored the petition statutes as they stood before SB 1027.",
+    "Oklahoma's medical program came from a 2018 initiative and adult-use failed at the ballot in 2023, so the ruling keeps the next legalization attempt on the old, less restrictive rules."
+  ],
+  "body": [
+    "The Oklahoma Supreme Court has struck down the 2025 law that put new limits on citizen-led ballot initiatives, in a ruling that keeps open the route Oklahomans have used to change cannabis policy. In a 5-4 decision filed on Tuesday, 10 November, in McVay v. Lepak, the court held that several key parts of Senate Bill 1027 violate the Oklahoma and U.S. constitutions and that the rest of the law could not stand without them. The whole act is void, and the petition statutes that existed before it remain in force.",
+    "The case was not about cannabis, but cannabis has been one of the main uses of Oklahoma's initiative process. Voters created one of the country's largest medical programs through State Question 788 in 2018, and an adult-use measure, State Question 820, failed at the ballot in 2023. Any future legalization drive would need to gather signatures under the petition rules, and those rules are now the older, less restrictive ones.",
+    "## What SB 1027 would have done",
+    "Signed in May 2025 and put on hold by the court that September, SB 1027 added several new controls on petitions, according to the opinion and reporting by NonDoc and KGOU. It capped the share of signatures that could come from any one county, tied to that county's turnout in the last governor's race: 11.5% for statutory changes and 20.8% for constitutional amendments, NonDoc reported. It required petition circulators to be registered Oklahoma voters, banned incentive-based pay for signature gatherers, barred people and groups outside Oklahoma from funding petition circulation, added disclosure and expense reporting, and imposed new rules on the gist, the short summary printed on each signature sheet.",
+    "Supporters, led by the bill's Senate author, Sen. David Bullard, said the goal was to give rural counties more of a voice. The state's lawyers argued the law protected the integrity of the process and encouraged campaigns to collect signatures outside the two largest counties.",
+    "## Why the court threw it out",
+    "Justice Noma Gurich, writing for the majority with Justices James Winchester, James Edmondson, Douglas Combs and Richard Darby, said the county caps pose broad First Amendment problems and fail even at their stated goal. The opinion uses Harmon County as an example: of its 1,378 registered voters at the start of 2026, only 75 could have signed a given statutory petition. In Oklahoma and Tulsa counties, the caps would have barred more than 800,000 registered voters from signing. The court said Oklahoma voters had never before been prohibited outright from signing a petition.",
+    "The majority also struck the ban on out-of-state contributions, applying the Supreme Court's reasoning in Citizens United that petition circulation is political speech and that the ban was not narrowly tailored. Because the remaining provisions had nothing to do with rural inclusion, the court declined to assume lawmakers would have passed them alone, and voided the act in full. Four members of the court dissented: Chief Justice Rowe, Vice Chief Justice Kuehn, Justice Kane and Special Justice Huber, with three of them writing separately. Kuehn wrote that while some provisions conflict with the state constitution, they do not violate the U.S. Constitution, and the dissenters largely argued that parts of the law, including the county caps, should have survived.",
+    "> Oklahoma's cannabis market was built by petition, and the court just kept the petition door the size it was.",
+    "## What it means for cannabis",
+    "The ruling does not start any cannabis campaign. KGOU reported that it applies to future petitions and that every petition filed since SB 1027 passed was either withdrawn or struck down. But the practical effect for a future legalization drive is large. Under SB 1027, a campaign could not have relied on Oklahoma City and Tulsa for most of its signatures, could not have paid circulators by the signature, and could not have taken money from any donor outside Oklahoma to pay for circulation. All three limits are now gone.",
+    "Some hurdles remain. A separate 2024 law, SB 518, requires each signature to match four of five data points in the voter file, up from three, which KGOU noted has raised questions in another petition campaign. Campaigns still have 90 days to collect signatures equal to 8% of the last governor's race vote for a statute, or 15% for a constitutional amendment, according to KGOU.",
+    "## The market context",
+    "Oklahoma's medical market is unusually large and open. The program has no fixed list of qualifying conditions, more than 8.5% of residents are registered patients, and in 2026 lawmakers extended a moratorium on new business licences and capped edibles at 10 mg per serving, according to MetaFlora's Oklahoma legal guide. Oklahoma also has more pending federal medical registration applications than any other state: 2,442 entries in the DEA's timely-applicant file, about 40% of the national total.",
+    "## What to watch",
+    "The parties have ten days from the filing of the opinion to seek a rehearing, with five more days for a response, so the ruling could still be challenged before it becomes final. Watch for any new adult-use initiative petition filed with the Secretary of State, and for lawmakers to try a narrower set of petition rules in the 2027 session that could survive the court's reasoning."
+  ],
+  "sources": [
+    {"name": "Oklahoma Supreme Court: McVay v. Lepak, 2026 OK 81", "url": "https://statecourtreport.org/sites/default/files/2026-11/mcvay_v-lepak_oklahoma_supreme_ct-11.10.26.pdf"},
+    {"name": "NonDoc", "url": "https://nondoc.com/2026/11/10/prior-restraints-and-compelled-speech-burdens-supreme-court-strikes-sb-1027-on-initiative-petitions/"},
+    {"name": "KGOU", "url": "https://www.kgou.org/politics-and-government/2026-11-11/oklahoma-supreme-court-strikes-down-restrictions-on-citizen-initiative-petitions"},
+    {"name": "KOKH FOX 25", "url": "https://okcfox.com/news/local/oklahoma-supreme-court-strikes-down-law-that-limits-citizen-led-petitions"},
+    {"name": "The Oklahoman", "url": "https://www.oklahoman.com/story/news/politics/2026/11/10/oklahoma-supreme-court-rejects-law-restricting-initiative-petition-limits/92713480007/"},
+    {"name": "DEA Diversion Control: timely applicants", "url": "https://www.deadiversion.usdoj.gov/drugreg/med_marijuana/medical_marijuana_timely_applicants.txt"},
+    {"name": "MetaFlora News: Oklahoma legal guide", "url": "https://news.metaflora.xyz/legal/us/oklahoma/"}
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "5-4",
+    "label": "court vote voiding Oklahoma's petition limits"
+  },
+  "banner": {
+    "title": "Oklahoma Court Voids Petition Law",
+    "highlight": ["VOIDS"],
+    "sub": "Ruling keeps the ballot route open for cannabis",
+    "divider": "State desk",
+    "points": [
+      {"icon": "gavel", "text": "5-4 ruling on SB 1027"},
+      {"icon": "ballot", "text": "County caps struck"},
+      {"icon": "coin", "text": "Out-of-state money allowed"}
+    ],
+    "corner": ["OKLAHOMA", "COURTS", "BALLOT", "LEGALIZATION"]
+  },
+  "watch": [
+    {"date": "2026-11-20", "text": "Deadline for a rehearing petition in the Oklahoma SB 1027 case (ten days from the 10 November filing)"}
+  ],
+  "tags": ["Oklahoma", "Courts", "Ballot measures", "Legalization", "Medical cannabis"],
+  "image_prompt": "A wooden gavel resting on a short stack of blank cream-coloured petition sheets, a small sprig of cannabis leaf beside them, on dark slate, faint violet edge light, subject in the right half, empty dark space on the left.",
+  "image_alt": "A gavel on a stack of blank papers beside a cannabis leaf.",
+  "breaking": false
+}

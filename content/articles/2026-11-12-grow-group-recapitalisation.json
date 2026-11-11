@@ -1,0 +1,62 @@
+{
+  "id": "grow-group-recapitalisation",
+  "edition": "2026-11-12-am",
+  "rank": 6,
+  "published": "2026-11-12T00:49:00+02:00",
+  "cat": "Europe",
+  "headline": "UK's Grow Group completes £12M recapitalisation, names two co-CEOs",
+  "dek": "UK medical cannabis supplier Grow Group swapped or extended £10M of debt, raised £2M from shareholders and named co-CEOs after weighing a sale; it targets positive EBITDA in 2027.",
+  "key_points": [
+    "Grow Group, an MHRA-licensed UK medical cannabis manufacturer and distributor, said on 11 November it closed a £12 million recapitalisation on 3 November: £2 million of new equity and £10 million of debt converted to equity or extended.",
+    "Clare Holliday, formerly head of cannabis at IPS Pharma, and Pierre van Weperen, previously UK managing director, are now co-CEOs; founder Ben Langley moves to a non-executive role.",
+    "Grow says a parallel sale process drew strategic and financial interest but it chose to stay independent, after working with Alvarez & Marsal since the summer, Sky News reported.",
+    "The company says its UK manufacturing site, acquired with Avida Medical in July 2025, is fully running and should take it to strong positive EBITDA in 2027."
+  ],
+  "body": [
+    "Grow Group, one of the UK's biggest suppliers of prescribed cannabis medicines, has completed a £12 million recapitalisation and handed day-to-day control to two co-chief executives, after exploring a sale and deciding to stay independent. The company said on 11 November that the deal, which closed on 3 November, combines £2 million of new cash equity, mostly from existing shareholders, with £10 million of debt that was either converted into shares or had its maturity extended.",
+    "Sky News first reported the refinancing on 10 November, saying Grow had worked with advisers at Alvarez & Marsal since the summer. The package matters beyond one company. It is the latest sign of financial strain among European medical cannabis suppliers in a year that has also seen the bankruptcy of Dutch producer Bedrocan and the insolvency filing of Germany's SynBiotic SE.",
+    "## What the deal does",
+    "The new money is modest. The £2 million of equity is for working capital, according to Grow's announcement. The larger part of the deal is on the liabilities side: £10 million of debt either swapped for equity or pushed out to a later maturity. Grow did not say how the £10 million splits between conversion and extension, what the new terms are, or how much existing shareholders were diluted.",
+    "Grow said the restructuring was backed mainly by existing shareholders and lenders, with some new shareholders. It also ran a parallel M&A process that it says drew strong interest from strategic and financial parties. Instead of selling, it plans to turn that interest into partnerships and further investment.",
+    "## New leadership",
+    "Clare Holliday joins as co-CEO. She was previously head of cannabis at IPS Pharma and, with Pierre van Weperen, ran the Grow Pharma joint venture between the two companies, which Grow describes as one of the UK's largest cannabis importers and distributors. Van Weperen, who had been Grow's UK managing director, becomes the other co-CEO. Ben Langley, who founded Grow in 2017 and has been chief executive since, stays on the board as a non-executive director.",
+    "> In UK medical cannabis, staying independent now means asking lenders for time, and Grow has bought some.",
+    "## The manufacturing bet",
+    "The recapitalisation completes a shift Grow began last year. In July 2025 it dissolved the Grow Pharma joint venture with IPS and bought Avida Medical, gaining a UK manufacturing facility. Grow says that site is now fully running and releasing new products, which it calls generation 2.0 SKUs, every month, alongside its range of imported cannabis flower. Van Weperen said moving manufacturing in-house was the biggest change in the company's history and that volumes are growing quickly.",
+    "The company now expects strong positive EBITDA in 2027. It did not publish current revenue, losses or volume figures. Sky News reported that Grow also sells in Australia and Germany.",
+    "## A crowded and fragile market",
+    "Supply has been a recurring problem for UK prescribers and patients. When Bedrocan went bankrupt this autumn, UK patients relying on its products faced shortages, as we reported on 9 November, and a six-month supply of Bedrolite was secured only as a stopgap, according to Business of Cannabis. Germany, Europe's largest market, is going through sharp price falls: flower prices are down about 22%, Business of Cannabis reported earlier this month.",
+    "Vertical integration is one response. A supplier that makes its own products in the UK is less exposed to an overseas producer failing, and can control costs that imports cannot. The cost is capital, and Grow's restructuring shows how expensive that shift can be for a mid-sized company.",
+    "## What to watch",
+    "Watch for the partnerships Grow says it will pursue now that it has turned down a sale, and whether any of the parties that bid in the M&A process take a minority stake. Its first published numbers under the co-CEOs will test the 2027 EBITDA target. More broadly, watch for further refinancings and consolidation among UK and European medical cannabis suppliers as margins tighten."
+  ],
+  "sources": [
+    {"name": "Grow Group announcement via Business of Cannabis", "url": "https://businessofcannabis.com/grow-group-completes-12m-recapitalisation-and-restructuring-appoints-co-ceos-and-completes-transition-to-full-operations-at-its-uk-manufacturing-facility/"},
+    {"name": "Sky News", "url": "https://news.sky.com/story/medicinal-cannabis-producer-grow-group-weeds-out-new-funding-13610494"},
+    {"name": "Business of Cannabis: news", "url": "https://www.businessofcannabis.com/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/09/bedrocan-collapse-supply/"}
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [0.7, 0.55, 0.4, 0.35, 0.45, 0.6, 0.75],
+    "big": "£12M",
+    "label": "Grow Group recapitalisation"
+  },
+  "banner": {
+    "title": "Grow Group Refinances £12M",
+    "highlight": ["£12M"],
+    "sub": "UK medical cannabis supplier names two co-CEOs",
+    "divider": "Europe desk",
+    "points": [
+      {"icon": "coin", "text": "£2M new equity"},
+      {"icon": "doc", "text": "£10M debt swapped/extended"},
+      {"icon": "cube", "text": "UK plant fully running"}
+    ],
+    "corner": ["UK", "MEDICAL", "FINANCE", "EUROPE"]
+  },
+  "watch": [],
+  "tags": ["United Kingdom", "Grow Group", "Medical cannabis", "Europe", "Bedrocan"],
+  "image_prompt": "A row of three amber glass pharmacy bottles with white caps beside a small stack of gold coins on a dark slate surface, faint violet edge light, subject in the right half, empty dark space on the left.",
+  "image_alt": "Amber pharmacy bottles next to a small stack of gold coins on dark slate.",
+  "breaking": false
+}

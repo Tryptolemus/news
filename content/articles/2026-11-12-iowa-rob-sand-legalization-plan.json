@@ -1,0 +1,119 @@
+{
+  "id": "iowa-rob-sand-legalization-plan",
+  "edition": "2026-11-12-am",
+  "rank": 5,
+  "published": "2026-11-12T00:49:00+02:00",
+  "cat": "States",
+  "headline": "Iowa Gov.-elect Rob Sand pitches cannabis tax: $54M first year, more later",
+  "dek": "Iowa Gov.-elect Rob Sand says legal cannabis taxed like alcohol could raise $54 million in its first year, but he will need a Republican legislature to pass it.",
+  "key_points": [
+    "Rob Sand, the Democrat elected Iowa governor on 3 November, told Iowa PBS that cannabis taxed like alcohol could raise about $54 million in its first year and hundreds of millions after that.",
+    "His campaign plan would put cannabis under Iowa's existing Alcoholic Beverages Division, cap products at 10 mg THC per serving and 100 mg per package, and reverse the 2024 limits on hemp THC drinks.",
+    "Republicans kept control of the Iowa House and Senate, and Sand says budget negotiations will be the route to a deal.",
+    "Iowa now runs a limited medical cannabidiol program with no flower and ten dispensaries; Illinois, Minnesota and Missouri, all neighbours, sell adult-use cannabis."
+  ],
+  "body": [
+    "Iowa's incoming governor says he will push to legalize adult-use cannabis and tax it like alcohol, and he is now putting a number on it. Rob Sand, the Democrat who won the governor's race on 3 November, said on Iowa PBS's Iowa Press that legalization would bring in a smaller sum in year one, perhaps $54 million, and hundreds of millions of dollars a year after that, Marijuana Moment reported on 11 November. He has tied the money to schools and to a state budget he describes as heading for a deficit.",
+    "The hard part is the legislature. Republicans kept their majorities in the Iowa House and Senate, KJAN reported. Sand's answer is leverage: any budget the legislature passes needs his signature, he told Iowa Press, and any budget he wants needs their votes.",
+    "## The revenue pitch",
+    "Sand has used slightly different figures over the campaign. During an October debate, he said legalization would probably raise about $50 million in its first year and more than $100 million in later years. On Iowa Press, he put the first year at around $54 million and the later years at hundreds of millions. At a September town hall, he called legalization a no-brainer and said Iowans were driving to Illinois and Missouri to buy cannabis and spending their money there. His campaign site frames the state's budget gap at $1.4 billion.",
+    "Those numbers are campaign estimates, not a fiscal note from the state, and no bill has been filed. The gap between his first-year and later figures reflects the time any new market needs to license businesses and open stores before tax receipts build.",
+    "## What the plan would do",
+    "Sand's written plan would add cannabis experts to the state's Alcoholic Beverages Division and have it license growers, manufacturers, retailers and testing labs, rather than create a new agency. Sales would be limited to adults 21 and over. Products would be capped at 10 mg of THC per serving and 100 mg per package, which the plan says mirrors limits in neighbouring states, and products could not look like candy such as gummies. Packaging would have to be child-resistant and list cannabinoid and terpene content and health risks. Public consumption would be banned, and the plan would give priority in early grow licences to small and mid-size family farms. It estimates about 7,000 jobs.",
+    "The plan also targets hemp. It would reverse HF 2605, the 2024 law signed by Gov. Kim Reynolds that restricted consumable hemp products, and allow hemp THC drinks, with oversight and sales through cannabis retailers. That puts Iowa's next governor on the opposite side of the national trend: Congress has set a federal 0.4 mg per-container total-THC cap from 11 December, and several states, including neighbouring Missouri and Illinois, start their own restrictions this week.",
+    "> Sand is selling legalization to a Republican legislature as a budget line, not a social cause, and that is the only pitch with a chance in Iowa.",
+    "## Where Iowa starts from",
+    "Iowa is one of the more restrictive states in the region. Its Medical Cannabidiol Program, which grew from a 2014 low-THC oil law, lets registered patients buy up to 4.5 grams of THC every 90 days but bans smokable flower and home growing, according to MetaFlora's Iowa legal guide. In May 2026 the state doubled its medical dispensaries from five to ten and dropped the requirement that patients be permanent residents. Simple possession outside the program remains a jailable misdemeanour.",
+    "Its neighbours have gone further. Illinois, Minnesota and Missouri all run adult-use markets, and Missouri's licensed sales were about $134 million in October alone, according to The Marijuana Herald's monthly tally. A 2023 University of Iowa poll found 59% of Iowa adults supported legalizing marijuana for both medical and adult use, Marijuana Moment noted.",
+    "## How a deal could look",
+    "Sand has campaigned on three revenue moves together: legalizing cannabis, putting an income limit on school vouchers and making data centres pay more tax, KJAN and Radio Iowa reported. That gives him items to trade. Republican leaders could resist all three, take one, or seek a narrower medical expansion instead of adult use. Sand himself has framed the outcome as a negotiation, saying voters chose him and kept Republicans in charge of the legislature in order to force compromise.",
+    "## What to watch",
+    "Sand takes office in January, and his first budget proposal will show whether cannabis revenue is written into it. Watch for a legalization bill in the 2027 session and for how Republican leaders in the House and Senate respond. Watch also for any move to unwind HF 2605 as the federal hemp cap takes effect on 11 December."
+  ],
+  "sources": [
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/iowas-incoming-governor-says-legalizing-marijuana-can-generate-hundreds-of-millions-of-dollars-for-the-state/"
+    },
+    {
+      "name": "Rob Sand for Iowa: cannabis plan",
+      "url": "https://robsand.com/issues/cannabis-plan/"
+    },
+    {
+      "name": "Iowa Legislature: HF 2605 (2024)",
+      "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=90&ba=HF2605"
+    },
+    {
+      "name": "KJAN",
+      "url": "https://www.kjan.com/news/governor-elect-sand-on-budget-priorities/"
+    },
+    {
+      "name": "Radio Iowa",
+      "url": "https://www.radioiowa.com/2026/09/18/sand-asked-in-town-hall-about-legalizing-recreational-marijuana-in-iowa/"
+    },
+    {
+      "name": "Marijuana Moment: October debate",
+      "url": "https://www.marijuanamoment.net/police-would-rather-deal-with-people-high-on-marijuana-than-drunk-on-alcohol-iowa-governor-candidate-says/"
+    },
+    {
+      "name": "The Marijuana Herald: October sales",
+      "url": "https://themarijuanaherald.com/2026/11/u-s-legal-marijuana-sales-hit-record-2-6-billion-in-october-bringing-2026-total-to-24-2-billion/"
+    },
+    {
+      "name": "MetaFlora News: Iowa legal guide",
+      "url": "https://news.metaflora.xyz/legal/us/iowa/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.12,
+      0.3,
+      0.5,
+      0.65,
+      0.78,
+      0.9
+    ],
+    "big": "$54M",
+    "label": "Sand's first-year cannabis tax estimate"
+  },
+  "banner": {
+    "title": "Iowa Governor-Elect Eyes Cannabis",
+    "highlight": [
+      "CANNABIS"
+    ],
+    "sub": "Rob Sand would tax it like alcohol",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "coin",
+        "text": "About $54M in year one"
+      },
+      {
+        "icon": "shield",
+        "text": "10 mg serving cap"
+      },
+      {
+        "icon": "ballot",
+        "text": "GOP holds legislature"
+      }
+    ],
+    "corner": [
+      "IOWA",
+      "LEGALIZATION",
+      "TAX",
+      "BUDGET"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Iowa",
+    "Legalization",
+    "Midterms 2026",
+    "Excise tax",
+    "Hemp-derived THC"
+  ],
+  "image_prompt": "A small clear glass jar of cannabis flower beside a few golden ears of dried corn on a dark wooden surface, faint violet edge light, subject in the right half, empty dark space on the left.",
+  "image_alt": "A jar of cannabis next to dried ears of corn on dark wood.",
+  "breaking": false
+}

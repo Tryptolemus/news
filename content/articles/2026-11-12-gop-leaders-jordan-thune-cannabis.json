@@ -1,0 +1,65 @@
+{
+  "id": "gop-leaders-jordan-thune-cannabis",
+  "edition": "2026-11-12-am",
+  "rank": 3,
+  "published": "2026-11-12T00:49:00+02:00",
+  "cat": "Policy",
+  "headline": "Jim Jordan and John Thune to lead GOP in Congress, both cannabis opponents",
+  "dek": "Republicans picked Jim Jordan as House minority leader and kept John Thune as Senate leader on 10 November, putting two long-time cannabis reform opponents across from Democrats.",
+  "key_points": [
+    "House Republicans elected Rep. Jim Jordan of Ohio as minority leader for the 120th Congress, and Senate Republicans kept Sen. John Thune of South Dakota as their leader as both parties prepare for Democratic majorities.",
+    "Jordan has voted against more than two dozen cannabis reform measures, and Thune signed a 2024 letter urging that marijuana stay in Schedule I.",
+    "The MORE Act, which would remove marijuana from the Controlled Substances Act, gained its 76th sponsor on 11 November, all Democrats, while 16 governors are pressing for SAFE Banking in the lame-duck session.",
+    "Minority leaders cannot set the floor agenda, but in the Senate the filibuster still gives Thune's conference leverage over any cannabis bill."
+  ],
+  "body": [
+    "Republicans in Congress chose leaders on Tuesday, 10 November, for the two years in which they will be the minority party, and both men have long records against cannabis reform. House Republicans elected Rep. Jim Jordan of Ohio, now chair of the Judiciary Committee, as minority leader for the 120th Congress, which begins in January. Senate Republicans kept Sen. John Thune of South Dakota, the current majority leader, as head of their conference, Marijuana Moment reported.",
+    "The choices put two committed opponents of legalization across the table from Democratic majorities that won the chambers in last week's midterm elections and that include many members who back federal reform. They also land as the Trump administration presses ahead with rescheduling, and as the industry tries to use the final weeks of the current Congress to pass a banking bill.",
+    "## Jordan's record",
+    "Jordan has voted against more than two dozen cannabis reform proposals in his House career, according to a tally compiled by Marijuana Moment. They include bills to legalize marijuana, to shield state cannabis programs from federal interference, to open banking to the industry, to help veterans get medical cannabis and to expand research. When House Democrats moved the MORE Act toward a floor vote in 2022, Jordan wrote the Republican minority views in the committee report, arguing that the bill would subsidise the marijuana industry and that it set no limits on THC in marijuana products.",
+    "His home state has moved the other way. Ohio voters approved adult-use legalization at the ballot in 2023, so the new House Republican leader represents a state where adult-use cannabis is legal while opposing the same policy nationally.",
+    "## Thune's record",
+    "Thune's opposition reaches rescheduling itself. In 2024, he joined other Republican senators in a letter urging the Biden administration to withdraw its proposal to move marijuana to Schedule III, saying the rule lacked adequate science and that marijuana has no currently accepted medical use. He has also opposed attaching cannabis banking provisions to other legislation, calling the idea a non-starter in 2024. In August this year, he effectively voted to delay the scheduled federal ban on hemp-derived THC products.",
+    "South Dakota voters approved adult-use legalization in 2020, but the state Supreme Court overturned it, and voters rejected later measures in 2022 and 2024. The state's voter-approved medical program remains in place and now has more than 20,000 registered patients.",
+    "> A minority leader cannot pass a bill, but in the Senate he can still decide how expensive it is to pass one.",
+    "## Why the minority still matters",
+    "In the House, the majority controls the floor, so Jordan's direct power over cannabis legislation will be limited to whipping votes and shaping Republican messaging. The Senate is different. Most legislation needs 60 votes to clear a filibuster, and unless Democrats hold that many seats, a bill such as SAFE Banking would need Republican votes that Thune's leadership can make easier or harder to find. Appropriations riders are another lever: earlier this year a GOP-led House panel approved language to block rescheduling, and such riders become bargaining chips in year-end spending talks.",
+    "The reform side is lining up its own markers. On 11 November, Rep. Yassamin Ansari of Arizona became the 76th sponsor of the MORE Act, H.R. 5068, the first addition since July, according to The Marijuana Herald and the congress.gov record. All 76 sponsors are Democrats. The bill would remove marijuana from the Controlled Substances Act, expunge many federal convictions and fund reinvestment programs through a federal excise tax. It passed the House in 2020 and 2022 but never cleared the Senate.",
+    "A separate push is aimed at the lame-duck weeks before the new Congress. As we reported on 10 November, 16 governors led by Maryland's Wes Moore asked Congress to pass SAFE Banking now. Any bill not enacted by the end of the year has to be reintroduced in January.",
+    "## The White House variable",
+    "Both leaders now head their party's conferences under a Republican president whose administration moved state-licensed medical marijuana to Schedule III in April and is weighing broader rescheduling through a DEA hearing. Their records put them at odds with that policy, which leaves cannabis as one of the few issues where the White House sits closer to the incoming Democratic majorities than to its own party's congressional leaders. For operators, the more direct risks are federal: appropriations riders, the 11 December hemp deadline and how the DEA applies its rules to state programs.",
+    "## What to watch",
+    "Watch whether SAFE Banking gets a vote before the current Congress ends, and whether Thune signals any willingness to let it move. In January, watch which cannabis bills Democratic leaders reintroduce first and whether any Republicans sign on. And watch the year-end spending package for anti-rescheduling or hemp riders, the place where minority leaders often trade votes."
+  ],
+  "sources": [
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/newly-elected-senate-and-house-gop-leaders-oppose-marijuana-reform-as-trump-moves-ahead-with-rescheduling/"},
+    {"name": "Congress.gov: H.R. 5068, MORE Act", "url": "https://www.congress.gov/bill/119th-congress/house-bill/5068/cosponsors"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/u-s-congress-bill-to-deschedule-cannabis-nationwide-and-allow-expungements-gains-76th-sponsor/"},
+    {"name": "Marijuana Moment: House panel rescheduling rider", "url": "https://www.marijuanamoment.net/gop-led-congressional-committee-votes-to-block-marijuana-rescheduling-defying-trump/"},
+    {"name": "The Marijuana Herald: South Dakota patients", "url": "https://themarijuanaherald.com/2026/11/south-dakota-medical-marijuana-oversight-committee-chair-proposes-eliminating-panel-as-patient-enrollment-tops-20000/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/10/governors-safe-banking-letter/"}
+  ],
+  "visual": {
+    "motif": "ballot",
+    "big": "76",
+    "label": "MORE Act sponsors, all Democrats"
+  },
+  "banner": {
+    "title": "GOP Picks Cannabis Skeptics",
+    "highlight": ["CANNABIS", "SKEPTICS"],
+    "sub": "Jim Jordan and John Thune to lead minority",
+    "divider": "Congress desk",
+    "points": [
+      {"icon": "ballot", "text": "Jordan: House minority"},
+      {"icon": "shield", "text": "Thune stays Senate leader"},
+      {"icon": "doc", "text": "MORE Act at 76 sponsors"}
+    ],
+    "corner": ["CONGRESS", "POLICY", "BANKING", "RESCHEDULING"]
+  },
+  "watch": [],
+  "tags": ["Congress", "Rescheduling", "Descheduling", "SAFER Banking", "Midterms 2026", "Ohio", "South Dakota"],
+  "image_prompt": "A wooden gavel lying on a dark walnut desk next to a single cannabis leaf, faint violet edge light, subject in the right half, empty dark space on the left.",
+  "image_alt": "A wooden gavel next to a cannabis leaf on a dark desk.",
+  "x_post": "Congressional Republicans picked Jim Jordan and John Thune to lead them in the minority. Jordan has voted against cannabis reform more than two dozen times; Thune wanted marijuana kept in Schedule I.",
+  "breaking": false
+}
