@@ -1,0 +1,64 @@
+{
+  "id": "wm-technology-q3-2026",
+  "edition": "2026-11-12-am",
+  "rank": 3,
+  "published": "2026-11-12T08:14:00+02:00",
+  "cat": "Tech",
+  "headline": "Weedmaps owner WM Technology swings to Q3 loss as revenue falls 9%",
+  "dek": "WM Technology's 10-Q shows revenue of $38.5M for the quarter to 30 September, down from $42.2M, and a $5.9M net loss after a $3.6M profit a year earlier.",
+  "key_points": [
+    "WM Technology, which runs the Weedmaps marketplace, reported third-quarter revenue of $38.5 million, down 8.8% from $42.2 million a year earlier.",
+    "It swung to a net loss of $5.9 million from net income of $3.6 million, as sales and marketing spending rose 15% and general and administrative costs rose 16%.",
+    "Revenue fell about 9% from the second quarter, a steeper drop than the mid-single-digit decline the company had guided to in August.",
+    "Cash fell to $51.0 million at 30 September from $62.4 million at the end of 2025; the company completed a reduction in force during the quarter."
+  ],
+  "body": [
+    "WM Technology, the company behind the Weedmaps cannabis marketplace, has slipped back into the red. Its quarterly report on Form 10-Q, filed with the US Securities and Exchange Commission, shows revenue of $38.5 million for the three months to 30 September, down from $42.2 million a year earlier, and a net loss of $5.9 million against net income of $3.6 million in the same quarter of 2025.",
+    "Weedmaps sells advertising, listings and software to licensed dispensaries and brands, so its results are a read on how much money US cannabis retailers have left to spend on marketing. The answer this quarter is less than before. Revenue fell faster than the company itself expected, while its own spending rose.",
+    "## The numbers",
+    "By MetaFlora's calculation from the 10-Q, revenue fell 8.8% year on year. For the first nine months of 2026, revenue was $124.5 million, down 5.4% from $131.6 million. The quarter's decline was also sharper than management had forecast: in its second-quarter release on 6 August, the company said it expected third-quarter revenue to fall by a mid-single-digit percentage from the second quarter's $42.4 million. The actual sequential drop was about 9%.",
+    "Costs moved the other way. Total costs and expenses rose to $44.8 million from $40.2 million a year earlier. Sales and marketing spending climbed about 15% to $12.9 million, and general and administrative expenses rose about 16% to $18.1 million. Product development was roughly flat at $8.0 million, and depreciation and amortisation rose to $3.5 million. The result was an operating loss of $6.4 million, compared with operating income of $2.0 million a year earlier.",
+    "The net loss attributable to WM Technology's Class A shareholders was $4.2 million, or 4 cents a share; the rest is attributed to non-controlling interests under the company's dual-class structure. For the nine months, the company is now slightly loss-making, with a net loss of $1.3 million against net income of $8.3 million in the same period of 2025.",
+    "> Weedmaps earns its money from dispensaries' marketing budgets, and those budgets are where squeezed retailers cut first.",
+    "## Why customers are spending less",
+    "The company has been explaining the slide for several quarters. In August, it said the second-quarter decline was driven mainly by a difficult environment for its customers, who face margin compression and cash flow constraints. It reported churn in established markets, partly offset by new clients in developing ones, and lower spending per client because of price deflation and consolidation. Chief executive Doug Francis said then that the industry was entering a more demanding phase, especially in mature markets.",
+    "Those pressures line up with what operators themselves have reported this earnings season. Cresco Labs, for example, said its sales growth came alongside deeper discounting, as we reported on 8 November. When retail prices fall, dispensaries have less margin to spend on paid listings and promotions.",
+    "## Cash, costs and the balance sheet",
+    "WM Technology still has no debt on its balance sheet, but its cash pile is shrinking. Cash and cash equivalents were $51.0 million at 30 September, down from $62.4 million at the end of 2025 and from $60.5 million at the end of June, according to the company's filings. Part of the drop reflects paying down bills: accounts payable and accrued expenses fell to $15.4 million from $24.0 million at the start of the year, and a $2.7 million tax receivable agreement liability was cleared.",
+    "The 10-Q also refers to a reduction in force completed during the third quarter, listing its expected benefits among the company's forward-looking statements. The filing does not, in the sections MetaFlora reviewed, put a figure on the savings. Total liabilities were $43.9 million, mostly payables and lease obligations.",
+    "## A smaller stock, off the Nasdaq",
+    "WM Technology's Class A shares now trade on the OTCQX market under the symbol MAPS, after the company delisted from the Nasdaq Stock Market and deregistered its shares under Section 12(b) of the Exchange Act; the company lists reduced liquidity and higher volatility among the risks of that move. It had about 113.2 million Class A shares and 47.9 million Class V shares outstanding at 30 October, according to the filing.",
+    "## What to watch",
+    "The next marker is the fourth-quarter outlook and whether the reduction in force brings expenses back below revenue. Investors will also watch whether federal rescheduling, and the tax relief it brings some medical operators, eventually frees up marketing budgets at Weedmaps' customers. For now, the 10-Q shows a platform whose revenue tracks the financial health of US dispensaries, and that health has not yet turned."
+  ],
+  "sources": [
+    {"name": "WM Technology Form 10-Q, Q3 2026 (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001779474/000177947426000040/maps-20260930.htm"},
+    {"name": "WM Technology Q2 2026 results release (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001779474/000177947426000031/wmtechnologyincearningsrel.htm"},
+    {"name": "Marijuana Moment newsletter, 11 November", "url": "https://www.marijuanamoment.net/governors-press-congress-for-cannabis-banking-bill-newsletter-november-11-2026/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/08/cresco-labs-q3/"}
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [0.8, 0.78, 0.74, 0.7, 0.66, 0.6],
+    "big": "-8.8%",
+    "label": "Weedmaps Q3 revenue, year on year"
+  },
+  "banner": {
+    "title": "Weedmaps Revenue Slides 9%",
+    "highlight": ["Slides", "9%"],
+    "sub": "WM Technology swings to a $5.9M Q3 loss",
+    "divider": "Tech desk",
+    "points": [
+      {"icon": "chart", "text": "Revenue $38.5M"},
+      {"icon": "coin", "text": "Cash down to $51.0M"},
+      {"icon": "chip", "text": "Staff cuts in Q3"}
+    ],
+    "corner": ["TECH", "EARNINGS", "MARKETPLACE", "RETAIL"]
+  },
+  "watch": [],
+  "tags": ["WM Technology", "Earnings", "Market data"],
+  "image_prompt": "Premium product still life: a sleek smartphone lying face down beside a small glass cannabis jar and a single green map pin, dark reflective surface, soft studio light with faint violet edge glow, subject in the right half, dark empty space on the left, no screen content, no text, no logos, no people",
+  "image_alt": "A smartphone, a small cannabis jar and a green map pin on a dark surface",
+  "x_post": "Weedmaps owner WM Technology: Q3 revenue down 8.8% to $38.5M, a $5.9M net loss after a profit a year ago, and cash down to $51.0M. Its revenue is a read on dispensary marketing budgets.",
+  "breaking": false
+}
