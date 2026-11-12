@@ -1,0 +1,63 @@
+{
+  "id": "cornell-cannselect-cannabis-genotyping",
+  "edition": "2026-11-12-pm",
+  "rank": 6,
+  "published": "2026-11-12T18:15:00+02:00",
+  "cat": "Science",
+  "headline": "Cornell researchers publish CannSelect genotyping tool for cannabis",
+  "dek": "CannSelect, described in PLOS One on 11 November, reads markers across the cannabis genome and mapped autoflowering to a known locus in a 321-plant test.",
+  "key_points": [
+    "Cornell-led researchers have published CannSelect, a targeted genotyping platform designed for diversity studies and trait mapping in Cannabis sativa.",
+    "An early version mapped day-neutral, or autoflowering, behaviour in 321 greenhouse plants to the known Autoflower1 locus.",
+    "The refined version captured an average of 88.5% of reads on target across 15 diverse hemp accessions from the USDA seed bank.",
+    "The processed data and design code are public on GitHub, adding to a public USDA hemp marker panel that costs about $15 a sample."
+  ],
+  "body": [
+    "Cannabis breeders have a new public tool for reading plant DNA. A team led by researchers at Cornell University has described CannSelect, a genotyping platform built specifically for Cannabis sativa, in a paper published on 11 November in the journal PLOS One. The platform is designed to make it cheaper and more reliable to compare varieties and to find the genes behind traits breeders care about.",
+    "The paper reports that an early version of the platform located the genetic basis of autoflowering, a trait that lets plants flower regardless of day length, in a breeding population, and that a refined version performed consistently across a diverse set of hemp samples from the US Department of Agriculture's seed bank.",
+    "## What CannSelect does",
+    "CannSelect is a probe set: a collection of short DNA baits that pull selected regions of the genome out of a sample before sequencing. Reading only those regions is far cheaper than sequencing the whole genome, while still giving breeders thousands of data points per plant.",
+    "The researchers chose their targets in two ways. Most are built around genetic variants that differ between plants, drawn from four datasets: two public whole-genome studies of cannabis diversity, resequencing data from Colorado State University's McKay Lab on accessions held by Germany's Leibniz Institute of Plant Genetics and Crop Plant Research, and genotyping data from Cornell's own hemp breeding programme. The rest target a curated list of genes of interest.",
+    "## The tests",
+    "The first version, CannSelect v0, was tested on 321 plants from two segregating populations grown in a greenhouse at Cornell AgriTech in Geneva, New York. Each plant was scored for day-neutral flowering, and a genome-wide association study mapped the trait to the Autoflower1 locus on chromosome 1, matching earlier research.",
+    "The team then refined the design. CannSelect v1.0 was tested on 96 samples representing 15 diverse hemp accessions from the USDA Agricultural Research Service germplasm repository in Geneva and commercial checks, with five plants per accession. The average share of sequencing reads that landed on target, a measure of capture efficiency, was 88.5%, ranging from 83.5% to 91.7% by accession. The authors note they did not directly test v1.0 for trait mapping, but argue its improved capture supports that use.",
+    "> Genetics is how a crop stops being a gamble. Public tools like this one lower the cost of breeding for the traits regulators and growers both care about.",
+    "## Why it matters for growers and regulators",
+    "Seed identity is a practical problem in hemp. At a USDA hemp stakeholder meeting at Cornell AgriTech in September, researchers from Breeding Insight, a USDA-ARS programme hosted at Cornell, presented a separate public marker panel covering about 3,000 loci for roughly $15 a sample, according to Lancaster Farming. They reported that different seed lots sold under the same accession matched only about 83% of the time, showing the risk of mislabelled parent lines. Their panel also confirms a plant's genetic sex, so breeders can identify female mother plants before making a cross.",
+    "CannSelect is a denser, research-grade complement to that panel. The USDA's national hemp collection, which the tests drew on, has grown to about 800 accessions from 36 countries since 2021, according to Cornell's hemp programme.",
+    "The timing also matters for the licensed hemp sector, which the USDA says numbered 4,010 producers in September. With a federal limit on total THC per container due on 11 December, breeders working on fibre, grain and low-THC varieties need reliable genetics to keep crops within legal limits. Tools that confirm a line's identity and flowering behaviour early help breeders avoid building on seed that will not behave as labelled.",
+    "## Open data",
+    "The authors have posted the processed genotyping data on the Cornell hemp programme's GitHub page and the probe design code on a separate public repository, so other breeders and researchers can test and build on the platform. They describe CannSelect as robust, scalable and expected to work across the diversity of the species.",
+    "## What to watch",
+    "The next steps are independent use: whether commercial labs offer CannSelect as a service, at what price per sample, and whether published trait-mapping studies using v1.0 follow. Watch also for results from the USDA's hemp pre-breeding work at Geneva, which is building improved germplasm from the same national collection."
+  ],
+  "sources": [
+    {"name": "PLOS One: CannSelect, 11 November 2026", "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0357319"},
+    {"name": "Lancaster Farming", "url": "https://www.lancasterfarming.com/farming-news/hemp/usda-hemp-collection-part-2-of-4-measuring-what-matters/article_963b137b-8c8b-4eae-817d-4787623d8fcd.html"},
+    {"name": "Cornell Hemp", "url": "https://hemp.cals.cornell.edu/2026/08/05/usda-hemp-stakeholder-engagement-event-september-10/"},
+    {"name": "Federal Register: USDA AMS hemp survey notice, 12 November 2026", "url": "https://www.federalregister.gov/documents/2026/11/12/2026-22971/domestic-hemp-production-program-notice-of-request-for-extension-of-a-currently-approved-information"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/12/federal-synthetic-hemp-ban-takes-effect/"}
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "88.5%",
+    "label": "average on-target capture across 15 accessions"
+  },
+  "banner": {
+    "title": "A Gene Test for Cannabis",
+    "highlight": ["Gene", "Test"],
+    "sub": "Cornell-led team publishes the CannSelect platform",
+    "divider": "Science desk",
+    "points": [
+      {"icon": "flask", "text": "Autoflower trait mapped"},
+      {"icon": "chart", "text": "88.5% on-target capture"},
+      {"icon": "doc", "text": "Data public on GitHub"}
+    ],
+    "corner": ["SCIENCE", "GENETICS", "HEMP", "BREEDING"]
+  },
+  "watch": [],
+  "tags": ["Research", "Hemp", "Genetics"],
+  "image_prompt": "Premium product still life: a clear laboratory multi-well plate with tiny green-tinted samples beside a single young cannabis seedling in a small glass pot, dark reflective surface, soft studio light with faint violet edge glow, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A laboratory sample plate beside a young cannabis seedling in a glass pot",
+  "breaking": false
+}

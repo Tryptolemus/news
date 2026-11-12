@@ -1,0 +1,68 @@
+{
+  "id": "state-desk-nov-12-evening",
+  "edition": "2026-11-12-pm",
+  "rank": 5,
+  "published": "2026-11-12T18:15:00+02:00",
+  "cat": "States",
+  "headline": "State desk: Montana DUI blood ruling; North Carolina licensing stance",
+  "dek": "Montana's top court tightens proof for THC blood draws, North Carolina's likely speaker rejects a capped medical market, and Texas lawmakers talk cooperation.",
+  "key_points": [
+    "Montana's Supreme Court ruled that a phlebotomist's hospital job alone does not prove the medical supervision state law requires for DUI blood draws, though the THC conviction stood because the objection came too late.",
+    "In a second Montana case decided the same day, the court held that a supervising nurse need not be present at the draw.",
+    "North Carolina's likely next House speaker, Robert Reives, says Democrats are open to medical cannabis but will not back a law that limits the market to a few operators.",
+    "In Texas, Lt. Gov.-elect Vikki Goodwin and Republican Rep. Wes Virdell both signalled bipartisan work on THC regulation for 2027."
+  ],
+  "body": [
+    "Three states produced cannabis developments worth noting on 12 November: a Montana Supreme Court ruling on how prosecutors must prove THC blood tests in driving cases, a clear statement from North Carolina's incoming House leadership on how a medical market should be licensed, and early signs of cross-party cooperation on THC in Texas.",
+    "## Montana: hospital employment is not proof of supervision",
+    "In State v. Rogers, decided on 4 November and reported by the Marijuana Herald on 12 November, the Montana Supreme Court said a trial court abused its discretion when it admitted THC blood evidence on the strength of the phlebotomist's certification and hospital job alone. Montana law says blood drawn at a peace officer's request must be taken by a physician, a registered nurse, or another qualified person acting under the supervision and direction of one of them.",
+    "The case began with a March 2022 stop on US Highway 93 in Ravalli County. The driver told the trooper he had smoked marijuana, and the state crime lab measured delta-9 THC at 8.9 nanograms per millilitre, plus or minus 1.2, against Montana's per se limit of 5 nanograms. At trial, the phlebotomist described her training and the standard DUI kit, but did not identify any physician or nurse supervising her. The trial judge inferred supervision from her employment.",
+    "The Supreme Court disagreed with that inference but still upheld the conviction. The supervision rule governs how blood is collected, not how it is tested, and the defence did not object while the phlebotomist was on the stand, raising the issue only during the toxicologist's testimony. The court held the objection was waived and also upheld the use of a certified driving record to prove at least three prior DUI convictions.",
+    "A separate opinion issued the same day, in an unrelated alcohol case also captioned State v. Rogers, fills in the other half of the rule. There, a certified phlebotomist testified that a named registered nurse, the county public health director, supervised his work at a distance. The court held that the statute does not require the supervisor to be in the room or to watch the draw.",
+    "> Montana's message to prosecutors is simple: name the supervisor. Proximity is optional; proof is not.",
+    "For Montana cannabis consumers and the lawyers who defend them, the practical point is about evidence. The per se THC limit remains in force, but the state must lay a proper foundation for each blood test, and defence lawyers now have a clear rule to object to, provided they do so in time.",
+    "## North Carolina: no 'winners and losers'",
+    "North Carolina House Minority Leader Robert Reives, who has his caucus's backing to become speaker when Democrats take control of the chamber in January, said on 10 November that Democrats have always been interested in medical cannabis legislation, according to The News & Observer. As we reported on 10 November, he also said decriminalization is on everyone's minds.",
+    "The new detail is his view of market structure. Reives said he will not support a law that picks winners and losers, a reference to the Compassionate Care Act that the Republican-led Senate has passed more than once. Those bills, sponsored by Senate Rules Chairman Bill Rabon, would have allowed only a limited number of vertically integrated suppliers, each with a cap on dispensaries. Reives said any programme should give the state's farmers the chance to take part.",
+    "The politics are favourable but not settled. Democrats won at least 66 of the House's 120 seats, according to WRAL, and a WRAL/WSOC poll last month found 74% of voters want medical marijuana legal. Control of the Senate still hinges on one uncalled race; a Democratic win would leave a 25-25 split, with Lt. Gov. Rachel Hunt breaking ties, according to Marijuana Moment. Reives stressed that his caucus has not yet set its legislative programme.",
+    "## Texas: a Republican ally on THC",
+    "In Texas, Lt. Gov.-elect Vikki Goodwin said on 10 November that the state needs regulation around THC and that she is not interested in a full ban, according to Marijuana Moment. Republican Rep. Wes Virdell told KXAN-TV that cannabis is an issue where he can align with Democrats, predicting bipartisan bills from the House. He called for age limits and product quality rules, and said too many people are getting felony records for THC gummies or vape cartridges.",
+    "Virdell also said he voted for the 2025 hemp THC ban only after outgoing Lt. Gov. Dan Patrick promised to expand the state's compassionate use programme. Gov. Greg Abbott vetoed that bill, but state agencies later adopted restrictive hemp rules that are being challenged in court. As we reported on 10 November, Democrats have already filed bills to legalize marijuana for the 2027 session.",
+    "## What to watch",
+    "In North Carolina, the uncalled Senate race decides whether a medical bill must clear a Republican or a tied Senate. In Texas, the regular session opens in January, and the first test is whether a bipartisan THC regulation bill emerges in the House. In Montana, watch whether prosecutors change how they present phlebotomist testimony in pending DUI trials."
+  ],
+  "sources": [
+    {"name": "Montana Supreme Court, State v. Rogers, DA 24-0252 (Justia)", "url": "https://law.justia.com/cases/montana/supreme-court/2026/da-24-0252.html"},
+    {"name": "Montana Supreme Court, State v. Rogers, DA 24-0560 (Justia)", "url": "https://law.justia.com/cases/montana/supreme-court/2026/da-24-0560.html"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/montana-supreme-court-clarifies-requirements-for-admitting-thc-blood-tests-in-marijuana-dui-cases/"},
+    {"name": "The News & Observer", "url": "https://www.newsobserver.com/news/politics-government/state-politics/article318016326.html"},
+    {"name": "WRAL", "url": "https://www.wral.com/news/nccapitol/marijuana-redistrict-north-carolina-house-leader-democrat-majority-november-10/"},
+    {"name": "Ganjapreneur", "url": "https://ganjapreneur.com/north-carolina-house-minority-leader-says-chamber-could-take-up-medical-cannabis-bill-next-year/"},
+    {"name": "Marijuana Moment (North Carolina)", "url": "https://www.marijuanamoment.net/decriminalizing-marijuana-in-north-carolina-is-on-top-of-everybodys-minds-incoming-house-speaker-says/"},
+    {"name": "Marijuana Moment (Texas)", "url": "https://www.marijuanamoment.net/texas-democrats-and-republicans-preview-bipartisan-cooperation-on-cannabis-for-2027-session/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/10/north-carolina-reives-decriminalization/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/10/texas-legalization-bills-2027/"}
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "5 ng",
+    "label": "Montana's per se THC blood limit, per ml"
+  },
+  "banner": {
+    "title": "Montana Tightens THC Tests",
+    "highlight": ["THC", "Tests"],
+    "sub": "Plus North Carolina's licensing stance and Texas talks",
+    "divider": "State desk",
+    "points": [
+      {"icon": "gavel", "text": "Proof of supervision"},
+      {"icon": "pin", "text": "NC: no capped market"},
+      {"icon": "handshake", "text": "Texas: bipartisan THC"}
+    ],
+    "corner": ["STATES", "COURTS", "MEDICAL", "POLICY"]
+  },
+  "watch": [],
+  "tags": ["Montana", "North Carolina", "Texas", "Courts", "Medical cannabis", "Licensing"],
+  "image_prompt": "Premium product still life: a single sealed glass blood collection vial lying beside a small wooden judge's gavel on a dark reflective surface, a sprig of green cannabis leaf behind them, soft studio light with faint violet edge glow, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A sealed collection vial, a wooden gavel and a cannabis leaf on a dark surface",
+  "breaking": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": "science-uk-registry-ptsd-two-year",
+  "edition": "2026-11-12-pm",
+  "rank": 4,
+  "published": "2026-11-12T18:15:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: PTSD scores improve over two years, then plateau",
+  "dek": "A two-year UK Medical Cannabis Registry study of 446 PTSD patients found early gains in symptoms, anxiety and sleep, but most still met the PTSD threshold.",
+  "key_points": [
+    "Among 446 UK patients prescribed cannabis-based medicines for PTSD, average symptom, anxiety, sleep and quality-of-life scores were better than baseline at every check-up up to 24 months.",
+    "Most of the improvement came in the first month and then levelled off, and 55% of patients still met the diagnostic threshold for PTSD at two years.",
+    "Three in four patients already used cannabis before treatment, and almost two-thirds of the 24-month symptom data were statistically imputed.",
+    "Evidence level: uncontrolled observational case series; the authors say it cannot show the treatment works, and a 2026 review found only one of seven trials positive."
+  ],
+  "body": [
+    "A two-year study of patients prescribed medical cannabis for post-traumatic stress disorder in the UK has found lasting improvements in average symptom scores, but with caveats its own authors spell out plainly. The paper, published on 12 November in the journal Psychopharmacology, analysed 446 patients enrolled on the UK Medical Cannabis Registry and followed their self-reported outcomes for up to 24 months.",
+    "The headline result is positive: average scores for PTSD symptoms, anxiety, sleep quality and health-related quality of life were better than at baseline at every follow-up point. The fine print is just as important. The improvement came mostly in the first month and then plateaued, more than half of patients still met the diagnostic threshold for PTSD at two years, and the researchers say their design rules out any conclusion that cannabis caused the change.",
+    "## What the study measured",
+    "The registry collects questionnaires from patients treated with cannabis-based medicinal products at UK clinics. The researchers included every patient whose primary indication was PTSD, who had completed at least one baseline questionnaire and who had been enrolled for at least two years by the data extraction date of 6 January 2025.",
+    "They tracked four standard measures: the Impact of Events Scale-Revised for PTSD symptoms, the GAD-7 anxiety scale, a single-item sleep quality scale and the EQ-5D-5L quality-of-life index, at baseline and at intervals to 24 months. They also recorded adverse events.",
+    "## The results",
+    "The mean PTSD symptom score fell from about 59.6 at baseline to 36.9 at 24 months, on a scale where 33 is the usual diagnostic threshold. The median fell from 63 to 35 but stayed at or above 33 at every time point, and between 55% and 68% of patients met the threshold throughout follow-up. By the two-year mark, 72% of patients showed a clinically meaningful improvement in anxiety and 53% in sleep quality.",
+    "Patients' own ratings of change were favourable: the average global impression score was about 5.3 at one month and 5.8 at 24 months. Seventy-five patients, or about 17%, reported at least one adverse event. Of 578 events, 83 were rated severe and two life-threatening or disabling; insomnia and fatigue were the most common, consistent with the registry's earlier reports.",
+    "> The honest reading is that patients felt better quickly and stayed there, while most of them never stopped meeting the definition of PTSD.",
+    "## Why the authors urge caution",
+    "Three features limit what the study can show. First, there was no control group, so improvements may reflect placebo effects, other treatments or the natural course of the condition. Second, 75% of patients were already using cannabis before they started prescribed treatment, so the sample is not representative of people new to cannabis. Third, attrition was high: only about 35% to 39% of questionnaires were completed at 24 months, and almost two-thirds of the two-year PTSD scores were filled in by multiple imputation.",
+    "The authors tested that last problem. In a sensitivity analysis that carried each patient's baseline score forward instead of imputing, the average PTSD score improved to about 43.6 at three months but drifted back to about 49.9 at 24 months, still better than baseline but a much smaller gain. The paper concludes that the observational design, attrition and imputed data 'preclude any inference of efficacy or causality', and calls for randomised trials with longer follow-up in people who have not used cannabis before.",
+    "## Where it sits in the evidence",
+    "The study is the latest in a series from the same registry. An earlier 18-month analysis of 269 PTSD patients reported similar improvements and found that 26% reported adverse events. Observational data of this kind tend to look favourable. Randomised trials have been less encouraging: a scoping review published in the Journal of Cannabis Research in May 2026 found 26 studies covering 3,598 patients, and only one of seven randomised controlled trials, of nabilone for PTSD-related nightmares, showed a clear benefit over placebo.",
+    "For clinics and producers selling into the UK market, the study adds long-term safety and tolerability data from routine practice but does not change the regulatory picture: cannabis-based medicines for PTSD remain unlicensed products, and the UK's Patient Safety Commissioner has called for safeguards on private prescribing through online platforms, according to the Medical Cannabis Clinicians Society.",
+    "## What to watch",
+    "The gap the authors identify is a well-run randomised trial with long follow-up in cannabis-naive patients. Watch for trial registrations of that kind, for further registry updates that report outcomes for the small cannabis-naive subgroup, and for any government response to calls for tighter safeguards on private prescribing of unlicensed cannabis medicines.",
+    "This report summarises published research and is not medical advice."
+  ],
+  "sources": [
+    {"name": "Psychopharmacology (Springer Nature), 12 November 2026", "url": "https://link.springer.com/article/10.1007/s00213-026-07205-6"},
+    {"name": "Journal of Cannabis Research: PTSD scoping review", "url": "https://link.springer.com/article/10.1186/s42238-026-00451-7"},
+    {"name": "Imperial College London: 18-month UK registry PTSD analysis", "url": "https://spiral.imperial.ac.uk/server/api/core/bitstreams/80305264-86ce-4b51-8af3-8124878a0dde/content"},
+    {"name": "Medical Cannabis Clinicians Society", "url": "https://www.ukmccs.org/medical-cannabis-headlines-sector-update-november/"}
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "446",
+    "label": "UK PTSD patients followed for two years"
+  },
+  "banner": {
+    "title": "PTSD Gains Then Plateau",
+    "highlight": ["Plateau"],
+    "sub": "Two-year UK registry study of medical cannabis for PTSD",
+    "divider": "Science desk",
+    "points": [
+      {"icon": "flask", "text": "446 patients, 24 months"},
+      {"icon": "chart", "text": "Gains mostly in month one"},
+      {"icon": "doc", "text": "No control group"}
+    ],
+    "corner": ["SCIENCE", "PTSD", "REGISTRY", "EVIDENCE"]
+  },
+  "watch": [],
+  "tags": ["Research", "Medical cannabis", "Mental health", "Sleep", "United Kingdom"],
+  "image_prompt": "Premium product still life: a white pharmacy medicine bottle with a dropper cap beside a small open notebook-style clipboard with blank pages and a sprig of cannabis leaf, dark reflective surface, soft studio light with faint violet edge glow, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A pharmacy dropper bottle, a blank clipboard and a cannabis leaf on a dark surface",
+  "breaking": false
+}
