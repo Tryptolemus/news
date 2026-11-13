@@ -1,0 +1,109 @@
+{
+  "id": "massachusetts-cannabis-testing-rules",
+  "edition": "2026-11-13-pm",
+  "rank": 5,
+  "published": "2026-11-13T18:09:00+02:00",
+  "cat": "States",
+  "headline": "Massachusetts advances cannabis lab overhaul with automatic retests",
+  "dek": "The Cannabis Control Commission backed pre-sale testing, automatic retests of failures and remediation labels, with new rules aimed at April 2027.",
+  "key_points": [
+    "On 12 November the Massachusetts Cannabis Control Commission settled key policy choices in draft testing rules that create a new section, 935 CMR 503.000.",
+    "Every product would need compliance testing before any business-to-business or retail sale, and labs would automatically retest failed samples before issuing a certificate.",
+    "Labels would have to say whether a product was sanitized or remediated, and the Standards Laboratory licence type would be scrapped.",
+    "A commission vote is expected on 10 December, public comment opens in January, and the rules would take effect six months after adoption, tentatively April 2027."
+  ],
+  "body": [
+    "Massachusetts regulators have moved a step closer to rewriting how cannabis is tested in the state. At a public meeting in Worcester on 12 November, the Cannabis Control Commission (CCC) settled the main policy questions in a set of draft testing regulations that would move all testing rules into a new, dedicated section of the state code, 935 CMR 503.000.",
+    "The headline changes are testing before any sale, an automatic retest when a sample fails, and labels that tell buyers whether a product has been treated to remove contaminants. The rules are still drafts. The commission expects to vote on them in December, take public comment from January and bring them into force about six months after they are adopted, which it tentatively puts at April 2027.",
+    "## What the commission decided",
+    "According to the CCC's own release, commissioners agreed to require compliance testing before any sale, whether between businesses or to consumers. They chose targeted microbial speciation testing for specific organisms of public-health concern, rather than broader screens. Independent testing labs would automatically retest a failed sample before issuing a certificate, to separate real non-compliance from lab error.",
+    "The commission also voted to eliminate the Standards Laboratory licence type and to require product labels to show whether a product has been sanitized or remediated. The Boston Globe reported that a lab could test a failing sample up to three times in total.",
+    "The draft keeps a record of failure even when a retest passes. Labs would have to report initial failed results alongside later results, and generally upload certificates to the state's seed-to-sale system within 72 hours of finishing a test, according to a summary of the draft by MyCannabis.com. Failures for pesticides or plant growth regulators could not be fixed by remediation, retesting or repurposing and would be referred to the state's agriculture department. Where remediation is allowed, the draft limits it to two attempts on the whole batch, followed by full-panel testing.",
+    "> Automatic retests protect growers from bad lab calls; keeping the first failure on file stops them becoming a way to shop for a pass.",
+    "## Why now",
+    "The rules carry out testing requirements in Chapter 65 of the Acts of 2026, this year's overhaul of the state's cannabis law, and the CCC is fast-tracking a wide set of regulations to meet that law's deadlines, the Globe reported. They also follow several years of problems. The commission ran a THC potency audit that led to corrective action against non-compliant products, and issued a summary suspension order against Assured Testing Laboratories after an investigation into falsified results, according to State and Strain's meeting preview.",
+    "Operators asked for some of this. The Globe described the overhaul as following an industry push, and automatic retests answer a long-running complaint that a single bad result can sink a whole batch. Labs, in turn, face new obligations under the draft, including staff competency standards, verified methods with quality controls and blind testing at least once a year.",
+    "## What the draft does not settle",
+    "Several details remain open. The commission's release says further testing updates, including on sampling and pesticides, are expected in 2027. Earlier coverage of the draft flagged unresolved questions about which products need terpene testing and the product lists for microbial, mycotoxin and pesticide tests. A legal analysis by Green Ark also noted that the release does not explain how automatic retesting fits with the current rule that a passing reanalysis needs a second confirmatory test at a different lab.",
+    "For operators, the practical cost is in the pre-sale testing rule and the new labels. Testing before every business-to-business transfer could add steps for companies that move product between cultivation, manufacturing and retail licences, while remediation labels could affect how treated flower sells. The commission has not published a cost estimate.",
+    "## The state of the Massachusetts market",
+    "The testing rules are part of a broader rewrite of Massachusetts cannabis regulation this autumn. As we reported this morning, the CCC is also targeting March 2027 to open applications for on-site consumption lounges, with licensing for event organisers to follow. Both sets of rules come from the same 2026 law and the same compressed timetable.",
+    "## What to watch",
+    "The commission plans an initial vote on the full draft on 10 December, the Globe reported, alongside other regulations considered in September and October. Public comment opens in January 2027 as part of the wider Chapter 65 process, with a final vote planned for April 2027. Once promulgated, the testing section would take effect six months later. Watch the comment period for push-back from labs on the retest limits and from producers on pre-sale testing between licences."
+  ],
+  "sources": [
+    {
+      "name": "Massachusetts Cannabis Control Commission",
+      "url": "https://masscannabiscontrol.com/2026/11/cannabis-control-commission-advances-new-testing-regulations/"
+    },
+    {
+      "name": "The Boston Globe",
+      "url": "https://www.bostonglobe.com/2026/11/12/business/ccc-cannabis-testing-rules/"
+    },
+    {
+      "name": "MyCannabis.com",
+      "url": "https://www.mycannabis.com/massachusetts-advances-draft-cannabis-rules-requiring-pre-sale-tests/"
+    },
+    {
+      "name": "Green Ark",
+      "url": "https://www.greenark.io/articles/massachusetts-ccc-advances-draft-cannabis-testing-rules-935-cmr-503-000"
+    },
+    {
+      "name": "State and Strain",
+      "url": "https://stateandstrain.com/events/ma-ccc-event-60073/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/13/massachusetts-lounge-licences-march-2027/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "3 tests",
+    "label": "maximum lab attempts on a failing sample"
+  },
+  "banner": {
+    "title": "Massachusetts Rewrites Lab Rules",
+    "highlight": [
+      "LAB",
+      "RULES"
+    ],
+    "sub": "Pre-sale testing and automatic retests advance",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Test before any sale"
+      },
+      {
+        "icon": "doc",
+        "text": "Remediation on the label"
+      },
+      {
+        "icon": "shield",
+        "text": "Vote due 10 December"
+      }
+    ],
+    "corner": [
+      "TESTING",
+      "LABS",
+      "SAFETY",
+      "MASSACHUSETTS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-10",
+      "text": "Massachusetts CCC initial vote on draft testing rules"
+    }
+  ],
+  "tags": [
+    "Massachusetts",
+    "Testing",
+    "Product safety",
+    "Licensing"
+  ],
+  "image_prompt": "Premium product still life: a laboratory glass test tube rack holding three clear vials of pale green liquid beside a small dish of cannabis flower, on a dark glossy surface, soft Apple-advert lighting with a faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A rack of three glass test vials beside a small dish of cannabis flower.",
+  "breaking": false
+}

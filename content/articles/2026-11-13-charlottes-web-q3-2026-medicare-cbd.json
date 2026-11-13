@@ -1,0 +1,66 @@
+{
+  "id": "charlottes-web-q3-2026-medicare-cbd",
+  "edition": "2026-11-13-pm",
+  "rank": 4,
+  "published": "2026-11-13T18:09:00+02:00",
+  "cat": "Markets",
+  "headline": "Charlotte's Web Q3 revenue falls 18%; Medicare CBD pilot yet to pay",
+  "dek": "The CBD maker cut its loss to the smallest since 2019, but says Medicare's hemp program has seen limited uptake and 11 December rules hit its full-spectrum line.",
+  "key_points": [
+    "Charlotte's Web reported Q3 2026 revenue of $9.4 million, down 18.3% from a year earlier, blaming California's July limits on full-spectrum hemp products.",
+    "Gross margin rose to 46.9% from 38.9% and the operating loss narrowed to $3.7 million, the company's smallest since 2019.",
+    "The company has booked no revenue from Medicare's hemp incentive and says adoption has been limited; it is negotiating a pilot for 2027.",
+    "Its full-spectrum products would fall under the federal 0.4mg THC-per-container cap due on 11 December; broad-spectrum and isolate products are expected to remain on sale."
+  ],
+  "body": [
+    "Charlotte's Web Holdings, one of the largest US makers of CBD products, reported third-quarter revenue of $9.4 million on 12 November, down 18.3 percent from $11.5 million a year earlier and 13.5 percent from the second quarter. The Colorado company blamed California's restrictions on full-spectrum hemp products, which took effect in July, along with a deliberate cut in online discounting and a smaller product range.",
+    "The more telling part of the filing was about Washington. Charlotte's Web said adoption of Medicare's new hemp benefit, which the company had positioned as a growth channel, has been limited so far, and that the federal hemp rules due on 11 December would put its full-spectrum products outside the legal definition of hemp.",
+    "## Smaller, but less loss-making",
+    "Gross profit was $4.4 million, essentially flat on a year earlier, but gross margin rose to 46.9 percent from 38.9 percent. The company credited better pricing and mix, lower costs from bringing production in-house and fewer promotions. The margin held up despite a $1.4 million addition to the inventory reserve tied to simplifying the product line.",
+    "Selling, general and administrative costs fell 16.8 percent to $8.1 million. Part of that, the chief financial officer said, reflects spending the company is holding back until the federal outcome is clear. The operating loss narrowed to $3.7 million from $5.3 million, which the company called its smallest since 2019. Net loss was $3.5 million, or one cent a share, against $5.8 million a year earlier, and adjusted EBITDA was a loss of $0.7 million.",
+    "The balance sheet has changed more than the income statement. Total liabilities fell to $19.4 million from $77.3 million at the end of 2025 after a convertible debenture converted in May, and shareholders' equity swung to $53.1 million from a deficit of $2.0 million. Cash was $11.4 million at 30 September, down from $14.0 million at the end of June. Over nine months, revenue fell 14.1 percent to $31.4 million.",
+    "> Charlotte's Web has fixed its margins; what it cannot fix is the legal definition of the product that built its brand.",
+    "## The Medicare channel is slow to open",
+    "The Centers for Medicare & Medicaid Services launched its Substance Access Beneficiary Engagement Incentive on 1 April. It lets organisations in certain CMS Innovation Center models give eligible patients up to $500 a year of hemp products. Medicare does not pay for the products: the participating organisation funds them from its own budget, a physician must decide use is appropriate and review the patient's medicines, and CMS must approve each organisation's plan.",
+    "Charlotte's Web said in December it would supply the program, and in May raised $10 million in a private placement with British American Tobacco partly to support that effort, The Marijuana Herald reported. In its quarterly report, the company said adoption to date has been limited, that it has recognised no revenue from the program, and that it does not expect meaningful program revenue in 2026. It is negotiating with accountable care organisations over a pilot expected to start in 2027.",
+    "That matches what CMS told MJBizDaily in October: only six of 74 accountable care organisations in the ACO REACH model had been approved to offer hemp products, and no physician practices in the Enhancing Oncology Model had applied. ACO REACH ends on 31 December. Its replacement, the LEAD model, picks up the incentive on 1 January 2027, according to CMS.",
+    "## The 11 December problem",
+    "CMS currently allows products with up to 0.3 percent delta-9 THC by dry weight and no more than 3 milligrams of THC per oral serving, and excludes inhalable products and synthetic cannabinoids. That leaves room for full-spectrum CBD. But CMS has said eligible products must also meet any future statutory limits, so a product that loses its federal hemp status also loses eligibility.",
+    "From 11 December, unless Congress acts, federal law will treat finished hemp products with more than 0.4 milligrams of total THC per container as marijuana. Charlotte's Web said its full-spectrum products would fall within those limits, while its broad-spectrum and isolate products are expected to stay generally available. It is weighing reformulation and lobbying through the ONE HEMP coalition for a carve-out for non-intoxicating full-spectrum products, citing bills such as the HEMP Act and the Lawful Hemp Protection Act. It said it cannot predict whether Congress will act.",
+    "California offers a preview of what the switch costs. After the state's July limits, the company reintroduced broad-spectrum versions there and has regained about 40 percent of the lost California sales, it said.",
+    "## What to watch",
+    "The key date is 11 December, when the federal hemp cap is due and current federal funding expires; any hemp fix would most likely ride on a year-end spending bill. Then 1 January 2027, when the LEAD model takes over Medicare's hemp incentive and Charlotte's Web hopes to begin its first pilot. Investors will also watch whether SG&A stays low once the federal picture clears, since the company has said part of this quarter's savings was spending deferred, not cut."
+  ],
+  "sources": [
+    {"name": "Charlotte's Web Q3 2026 earnings release (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/1750155/000175015526000130/q32026earningspressrelease.htm"},
+    {"name": "Charlotte's Web Form 10-Q (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/1750155/000175015526000133/cweb-20260930.htm"},
+    {"name": "Centers for Medicare & Medicaid Services", "url": "https://www.cms.gov/priorities/innovation/substance-access-beneficiary-engagement-incentive"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/federal-medicare-cbd-program-has-seen-limited-participation-new-hemp-restrictions-threaten-product-eligibility/"},
+    {"name": "MJBizDaily", "url": "https://mjbizdaily.com/news/trump-cbd-reimbursement-program-stalls-ahead-of-federal-hemp-ban/618772/"}
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "-18.3%",
+    "label": "Charlotte's Web Q3 revenue, year on year"
+  },
+  "banner": {
+    "title": "CBD Sales Slide 18%",
+    "highlight": ["18%"],
+    "sub": "Charlotte's Web waits on Medicare and Congress",
+    "divider": "Markets desk",
+    "points": [
+      {"icon": "chart", "text": "Revenue $9.4M in Q3"},
+      {"icon": "coin", "text": "Smallest loss since 2019"},
+      {"icon": "doc", "text": "No Medicare revenue yet"}
+    ],
+    "corner": ["CBD", "EARNINGS", "MEDICARE", "HEMP"]
+  },
+  "watch": [
+    {"date": "2026-12-11", "text": "Federal 0.4mg THC-per-container hemp cap due"},
+    {"date": "2027-01-01", "text": "LEAD model takes over Medicare hemp incentive"}
+  ],
+  "tags": ["Charlotte's Web", "CBD", "Hemp", "Total THC", "Earnings", "Medicare"],
+  "image_prompt": "Premium product still life: a single amber glass tincture bottle with a dropper standing beside a small white pill organiser, on a dark matte surface, soft Apple-advert lighting with a faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "An amber tincture bottle with a dropper beside a white pill organiser on a dark surface.",
+  "breaking": false
+}

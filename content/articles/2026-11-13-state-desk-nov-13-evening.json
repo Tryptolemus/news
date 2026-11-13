@@ -1,0 +1,112 @@
+{
+  "id": "state-desk-nov-13-evening",
+  "edition": "2026-11-13-pm",
+  "rank": 6,
+  "published": "2026-11-13T18:09:00+02:00",
+  "cat": "States",
+  "headline": "State desk: Utah eyes cannabis compact; Good Day Farm fights suit",
+  "dek": "A Utah lawmaker is drafting an interstate medical cannabis compact for 2027, and Good Day Farm says Missouri price-fixing claims fail if it is one company.",
+  "key_points": [
+    "Utah House Minority Whip Jennifer Dailey-Provost is drafting an 'Interstate Compact for Medical Cannabis' for the 2027 session, citing federal rescheduling.",
+    "No bill text or number exists yet, and federal registration for medical operators is still tied to each business's state licence.",
+    "Good Day Farm has asked a federal judge to end a consumer class action that accuses it of controlling about a quarter of Missouri's dispensaries.",
+    "The company argues that if it controls those stores as one enterprise, it cannot have conspired with itself; a judge rejected an earlier dismissal bid in September."
+  ],
+  "body": [
+    "Two state stories from the past day point at the same question: what happens to state cannabis markets as federal rules loosen and a handful of companies grow large. In Utah, a lawmaker wants to use federal rescheduling to take the state's medical program across state lines. In Missouri, the state's biggest dispensary group is asking a federal court to throw out a lawsuit claiming it has too much control of the market.",
+    "## Utah: a compact to export the medical program",
+    "Utah Rep. Jennifer Dailey-Provost, the House minority whip, is preparing legislation for the 2027 session to create an interstate compact for medical cannabis. She confirmed the plan in an email to The Marijuana Herald on 12 November, and a request titled 'Interstate Compact for Medical Cannabis' is listed as in development on the legislature's website.",
+    "Dailey-Provost said the idea follows directly from the federal decision to move state-licensed medical marijuana from Schedule I to Schedule III, which she believes removes the bar on moving products across state lines. The compact would let state governments sign agreements allowing Utah's medical program to expand into their states, she told the outlet.",
+    "That reading of federal law is the proposal's weak point. The Justice Department order effective in April created an expedited DEA registration process for state-licensed medical businesses, but those registrations stay limited by each business's state licence, so interstate trade would still need to comply with both state and federal law, The Marijuana Herald noted. One independent analysis of Utah's position also argues that Schedule III does not by itself authorise interstate commerce. A compact could set the state-to-state terms, but would not settle the federal question on its own.",
+    "> An interstate compact is a bet that rescheduling opened the borders; the federal registration rules still say each licence stops at the state line.",
+    "Utah already lets visiting patients from other states get a temporary medical card valid for 21 days. The proposal goes further by imagining Utah's program, with its tight licensing and pharmacy model, operating in partner states. The bill has no number or text yet. It also lands as Utah moves oversight of its medical program from the Department of Health and Human Services to the Department of Agriculture and Food, a transfer that must be complete by 1 January 2027 under this year's law changes, according to the state's medical cannabis program. Dailey-Provost is a Democrat in a legislature with Republican supermajorities, so the idea's prospects depend on Republican support.",
+    "## Missouri: Good Day Farm says it cannot conspire with itself",
+    "Good Day Farm, the Little Rock, Arkansas-based cannabis company, has asked a federal judge to end a consumer class action accusing it of monopolising Missouri's cannabis market, Law360 reported on 12 November. The plaintiffs allege the company controls about a quarter of the state's retail dispensaries. Good Day Farm turns that allegation into its defence: if it controls those stores as a single enterprise, it argues, it cannot have colluded with itself to fix prices.",
+    "This is not the company's first attempt. The case, Frost v. Good Day Farm Retail Management, was filed in state court in Jackson County and moved to the federal court in Kansas City in June. In late September, US District Judge Stephen Bough denied Good Day Farm's first motion to dismiss, while finding the plaintiff had not described his damages in enough detail, the Arkansas Democrat-Gazette reported. The plaintiff, Damon Frost Jr., was ordered to replead his claimed losses.",
+    "The suit, along with a parallel case brought by two Missouri dispensaries in state court, alleges that Good Day Farm runs 61 of Missouri's 229 dispensaries, about 27 percent, through employees and 48 different companies. The dispensaries' case also claims the company holds about 40 percent of the state's wholesale market. Missouri's constitution caps any one owner at 10 percent of dispensary licences. Good Day Farm argues that the cap limits ownership, not how many operations a company controls or manages.",
+    "That wording gap is the heart of the dispute. Missouri's 2018 medical amendment barred more than five dispensaries under substantially common control, ownership or management, but the 2022 adult-use amendment caps ownership at 10 percent without the control and management language, according to an explainer by OpenClassActions.org.",
+    "## Why it matters beyond Missouri",
+    "Many states cap licence ownership to keep markets competitive, and many operators grow through management contracts, partner stores and affiliated entities rather than direct ownership. If a court accepts that one company can control a large share of a market through managed stores without breaching an ownership cap, other operators will take note. If the claims survive, consumer antitrust suits could become a new risk for consolidated state markets.",
+    "## What to watch",
+    "In Missouri, watch Judge Bough's ruling on the new dismissal motion and any move toward class certification; surviving dismissal would not mean any payout. In Utah, watch for the compact bill's text and number before the 2027 general session opens in January, and for whether any Republican leader signs on."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/utah-lawmaker-proposes-expanding-medical-marijuana-program-across-state-lines-following-federal-rescheduling/"
+    },
+    {
+      "name": "Utah Department of Agriculture and Food, medical cannabis program",
+      "url": "https://medicalcannabis.utah.gov/resources/utah-medical-cannabis-law/2026-utah-medical-cannabis-law-updates/"
+    },
+    {
+      "name": "Drug Policy Watch",
+      "url": "https://drugpolicywatch.info/states/utah.html"
+    },
+    {
+      "name": "Law360",
+      "url": "https://www.law360.com/articles/2548701/mo-pot-co-says-consumers-collusion-claims-don-t-add-up"
+    },
+    {
+      "name": "Arkansas Democrat-Gazette",
+      "url": "https://www.arkansasonline.com/news/2026/oct/01/good-day-farms-motion-to-dismiss-denied-in/"
+    },
+    {
+      "name": "OpenClassActions.org",
+      "url": "https://openclassactions.org/missouri-antitrust-suit-against-good-day-farm-remains-in-federal-court/"
+    },
+    {
+      "name": "US District Court docket (Justia)",
+      "url": "https://dockets.justia.com/docket/missouri/mowdce/4:2026cv00511/192130"
+    },
+    {
+      "name": "Business of Cannabis",
+      "url": "https://businessofcannabis.com/cannabis-news-today-friday-13-november-2026-hemp-enforcement-spreads-to-the-states-as-auxly-posts-record-quarter/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "61 of 229",
+    "label": "Missouri dispensaries the suits tie to Good Day Farm"
+  },
+  "banner": {
+    "title": "Compacts and Cartel Claims",
+    "highlight": [
+      "COMPACTS"
+    ],
+    "sub": "Utah eyes interstate deal; Good Day Farm fights suit",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "globe",
+        "text": "Utah compact for 2027"
+      },
+      {
+        "icon": "gavel",
+        "text": "New dismissal motion"
+      },
+      {
+        "icon": "pin",
+        "text": "Missouri 10% licence cap"
+      }
+    ],
+    "corner": [
+      "STATES",
+      "UTAH",
+      "MISSOURI",
+      "ANTITRUST"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Utah",
+    "Missouri",
+    "Medical cannabis",
+    "Courts",
+    "Rescheduling",
+    "Licensing"
+  ],
+  "image_prompt": "Premium product still life: two small glass apothecary jars of cannabis flower connected by a thin brass chain on a dark slate surface, beside a smooth red desert sandstone rock, soft Apple-advert lighting with a faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "Two small glass jars of cannabis flower linked by a brass chain beside a red sandstone rock.",
+  "breaking": false
+}
