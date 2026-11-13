@@ -1,0 +1,91 @@
+{
+  "id": "science-heroin-admissions-oral-cancer",
+  "edition": "2026-11-13-am",
+  "rank": 6,
+  "published": "2026-11-13T07:46:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: legal sales tied to fewer heroin admissions",
+  "dek": "A study of 55.2 million US treatment admissions links legalization to less heroin involvement; a separate review finds no added oral cancer risk from cannabis.",
+  "key_points": [
+    "A study in the International Journal of Drug Policy covering 55.2 million treatment admissions linked adult-use legalization to 107 fewer heroin-involved admissions per 1,000.",
+    "The estimated effect grew to 128 fewer per 1,000 after licensed stores opened, but an alternative weighting method gave smaller results that were not statistically significant.",
+    "A meta-analysis of 11 studies and 245,594 people in Health Science Reports found no evidence that cannabis use raises oral cancer risk.",
+    "Neither study proves cause and effect, and the oral cancer authors call for larger prospective studies."
+  ],
+  "body": [
+    "Two studies reported on 12 November add to the evidence on how cannabis legalization and use relate to other health harms. The first, published in the International Journal of Drug Policy, looked at 55.2 million substance use treatment admissions in the United States and found that adult-use legalization was associated with a lower share of admissions involving heroin, according to The Marijuana Herald.",
+    "The second, a systematic review and meta-analysis in Health Science Reports, pooled 11 studies covering 245,594 people and found no evidence that cannabis use increases the risk of oral cancer. Both are observational and cannot show that cannabis caused the patterns they describe.",
+    "## Heroin and treatment admissions",
+    "The drug policy study asked a specific question: after a state legalizes adult-use cannabis, does the mix of people entering treatment change? Researchers compared actual treatment admissions in legalizing states with what they projected would have happened under continued prohibition.",
+    "Their central estimate was 107 fewer heroin-involved admissions per 1,000 treatment admissions after legalization. After licensed stores opened, the estimated gap widened to 128 fewer per 1,000. In plain terms, heroin made up a noticeably smaller share of treatment cases than the researchers' model of a no-legalization world predicted, and the effect was larger once legal retail was available.",
+    "The result came with an important caveat. Using an alternative statistical weighting method, the reductions were smaller and not statistically significant. That means the finding depends partly on how the comparison states are weighted, and should be read as a signal worth testing rather than settled evidence.",
+    "> Share-of-admissions studies cannot count lives saved, but they do show where treatment demand moves when legal cannabis arrives.",
+    "## What the heroin result does and does not show",
+    "A lower heroin share of treatment admissions could mean fewer people using heroin, fewer people with heroin problems seeking treatment, or more people entering treatment for other substances. The study measures proportions, not total numbers of users or overdoses. It does, however, fit a broader research thread that operators and policymakers watch closely: whether legal cannabis access acts as a substitute for opioids.",
+    "That thread is also running in Washington. As we report in today's edition, the Senate Appropriations Committee's FY2027 veterans report recommends that the VA study whether state medical cannabis programs are tied to lower opioid use and abuse among veterans.",
+    "## Oral cancer: no added risk found",
+    "The oral cancer review was carried out by researchers from the University of Peshawar, the University of Swabi, Makerere University and other institutions in Pakistan, India and Uganda. They screened more than 1,000 papers and kept 11 studies, from the United States, the United Kingdom, Morocco and multinational studies, covering cancers of the lips, tongue, floor of the mouth and oropharynx and several ways of consuming cannabis, including smoking, vaping and edibles.",
+    "Pooled across all studies, cannabis use was associated with 52% lower odds of oral cancer than non-use. In case-control studies, which compare people with cancer to people without it, the odds were 55% lower. But in cohort studies, which follow people over time and are generally less prone to recall bias, there was no statistically significant association either way.",
+    "Most included studies adjusted for tobacco and alcohol, the best-established oral cancer risk factors, as well as age, sex and socioeconomic status. Because the case-control and cohort results disagree, the authors said they cannot conclude that cannabis protects against oral cancer. Their conclusion is narrower: current evidence does not support cannabis use as an independent risk factor, and prospective research is needed.",
+    "## Why it matters for the industry",
+    "Neither study changes what any product may claim. These findings do not support marketing any cannabis product as treating addiction or preventing cancer. What they do is shape the evidence base that regulators, insurers and lawmakers draw on when they weigh medical access, warning labels and public-health messaging.",
+    "## What to watch",
+    "Watch for the full methods of the treatment-admissions study, particularly which states and years it covered, and whether other teams reproduce the result with different weighting. On oral cancer, the next step the authors call for is larger prospective cohort studies that track consumption method and dose over time."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-of-55-2-million-treatment-admissions-links-marijuana-legalization-to-lower-heroin-involvement/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-marijuana-oral-cancer-lower-risk/"
+    },
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/senate-committee-floats-marijuana-as-opioid-alternative-encourages-psychedelic-research-and-raises-concerns-over-cannabis-infused-foods"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "55.2M",
+    "label": "US treatment admissions in the heroin study"
+  },
+  "banner": {
+    "title": "Legal Sales, Less Heroin",
+    "highlight": [
+      "Less Heroin"
+    ],
+    "sub": "55.2M treatment admissions studied; oral cancer review too",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "107 fewer per 1,000"
+      },
+      {
+        "icon": "chart",
+        "text": "128 after stores open"
+      },
+      {
+        "icon": "doc",
+        "text": "No oral cancer link"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "OPIOIDS",
+      "RESEARCH",
+      "HEALTH"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Medical cannabis",
+    "Legalization"
+  ],
+  "image_prompt": "Premium product still life: a laboratory glass beaker and a stack of clear petri dishes beside a single green cannabis leaf on a dark reflective lab bench, soft studio light, faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people.",
+  "image_alt": "A beaker, petri dishes and a cannabis leaf on a dark lab bench.",
+  "breaking": false
+}

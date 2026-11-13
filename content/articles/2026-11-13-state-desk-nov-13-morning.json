@@ -1,0 +1,93 @@
+{
+  "id": "state-desk-nov-13-morning",
+  "edition": "2026-11-13-am",
+  "rank": 7,
+  "published": "2026-11-13T07:46:00+02:00",
+  "cat": "States",
+  "headline": "State desk: Arizona tax tops $151M; WV court rejects store spacing",
+  "dek": "Arizona's adult-use excise tax hit $151.1 million through October, up 2%, and a West Virginia court ruled dispensaries need no minimum spacing.",
+  "key_points": [
+    "Arizona collected $151.1 million in adult-use cannabis excise tax from January to October 2026, up about 2% from $148.2 million a year earlier.",
+    "October excise collections were $13.3 million, up about 6% from $12.5 million in October 2025.",
+    "West Virginia's Intermediate Court of Appeals ruled on 10 November that state law sets no minimum distance between medical cannabis dispensaries.",
+    "The ruling lets Harvest Care Medical keep a dispensary it moved next door to a Cannabis Care of West Virginia store."
+  ],
+  "body": [
+    "Two state markets made news on 12 November for reasons that matter to operators' bottom lines. In Arizona, new state data show adult-use excise tax collections running slightly ahead of last year. In West Virginia, an appeals court ruled that the state's medical cannabis law does not protect a dispensary from a competitor opening right next door.",
+    "Neither story is large on its own. Together they show two pressures on mature and maturing markets: tax revenue that is holding steady rather than growing fast, and competition that regulators will not shield operators from.",
+    "## Arizona: steady tax, small growth",
+    "Arizona collected $151.1 million from its 16% adult-use cannabis excise tax in the first ten months of 2026, according to Arizona Department of Revenue figures reported by The Marijuana Herald. That is up about 2% from $148.2 million in the same period of 2025. October alone brought in $13.3 million, compared with $12.5 million a year earlier, an increase of about 6%.",
+    "The excise is only part of the take. Arizona has also collected $82.6 million in transaction privilege tax on adult-use sales this year and $8.7 million on medical cannabis, bringing the three categories to about $242.4 million through October, including $21.7 million in October. June was the strongest excise month of 2026, at $16.5 million, followed by February and May at roughly $16 million each.",
+    "By MetaFlora's arithmetic, adult-use excise averaged about $15.1 million a month this year. October's $13.3 million was therefore below the year's average even though it beat last October, which suggests the year-on-year gain reflects a weak October 2025 more than a strong October 2026.",
+    "Excise revenue goes to the Smart and Safe Arizona Fund, which, after administrative costs, supports community colleges, public safety agencies, transportation and justice reinvestment programmes. Since sales began in January 2021, Arizona has collected more than $922 million from the excise tax alone.",
+    "> A 2% rise in a percentage-based tax is a market treading water: the money is steady, but it is no longer growing.",
+    "## West Virginia: no buffer between rivals",
+    "West Virginia's Intermediate Court of Appeals ruled on 10 November that the state's medical cannabis law does not require any minimum distance between dispensaries, according to The Marijuana Herald. A three-judge panel unanimously upheld the state Office of Medical Cannabis's approval of Harvest Care Medical's request to move one of its dispensaries to a property directly next to a Cannabis Care of West Virginia store.",
+    "Cannabis Care challenged the move in September 2025. A month later, the West Virginia Office of Inspector General's Board of Review dismissed the challenge. On appeal, Cannabis Care argued that the law requires regulators to consider geographic diversity when approving locations, pointing to how the state's 100 dispensary permits were originally spread around the state.",
+    "The court disagreed. It said the statute requires regulators to weigh geographic location and regional population when granting a new permit, but is silent on how close one dispensary may be to another. The judges also rejected a due process claim, found that Cannabis Care had no legally protected right to be the only dispensary in its area, and noted that it had not shown standing to challenge the state's refusal to revoke a rival's permit.",
+    "For operators in West Virginia, the practical effect is that a permit does not come with a territory. Regulators remain free to approve relocations next to existing stores, and incumbents cannot count on the courts to block a competitor moving in.",
+    "## Briefly",
+    "Colorado regulators published guidance on cannabis vaporizer device rules, Missouri regulators issued guidance on how marijuana businesses may acquire plant material, and Rhode Island regulators issued a statement on public feedback about the state's cannabis testing programme, according to Marijuana Moment's 12 November newsletter. South Dakota's legislative Executive Board approved a report on the Medical Marijuana Oversight Committee.",
+    "## What to watch",
+    "Watch for Arizona's November and December figures to see whether full-year excise revenue finishes above 2025. In West Virginia, watch whether the Office of Medical Cannabis or lawmakers respond to the ruling with spacing rules, and whether other operators now seek relocations into busier areas."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/arizonas-recreational-marijuana-excise-tax-revenue-surpasses-151-million-in-2026/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/west-virginia-appeals-court-rules-state-law-does-not-require-minimum-distance-between-competing-medical-marijuana-dispensaries/"
+    },
+    {
+      "name": "Marijuana Moment newsletter, 12 November 2026",
+      "url": "https://www.marijuanamoment.net/dea-rejects-cannabis-business-registrations-in-multiple-states-newsletter-november-12-2026"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$151.1M",
+    "label": "Arizona adult-use excise tax, January to October"
+  },
+  "banner": {
+    "title": "Arizona Tax Tops $151M",
+    "highlight": [
+      "$151M"
+    ],
+    "sub": "Plus: West Virginia court allows dispensaries side by side",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "coin",
+        "text": "Excise up 2% in 2026"
+      },
+      {
+        "icon": "chart",
+        "text": "October up 6%"
+      },
+      {
+        "icon": "gavel",
+        "text": "No WV spacing rule"
+      }
+    ],
+    "corner": [
+      "STATES",
+      "TAX",
+      "COURTS",
+      "RETAIL"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Arizona",
+    "West Virginia",
+    "Excise tax",
+    "Courts",
+    "Market data",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Premium product still life: a neat stack of coins beside a small desert cactus in a terracotta pot and a glass jar of cannabis flower on a dark surface, soft studio light, faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people.",
+  "image_alt": "A stack of coins, a small cactus and a jar of cannabis flower.",
+  "breaking": false
+}

@@ -1,0 +1,112 @@
+{
+  "id": "new-jersey-hemp-drinks-11-december",
+  "edition": "2026-11-13-am",
+  "rank": 3,
+  "published": "2026-11-13T07:46:00+02:00",
+  "cat": "Hemp",
+  "headline": "New Jersey extends hemp THC drink sales to 11 December",
+  "dek": "Gov. Mikie Sherrill signed S4635 on 12 November, a day before sales were due to stop, tying New Jersey's hemp drink cutoff to the federal compliance date.",
+  "key_points": [
+    "Gov. Mikie Sherrill signed Senate Bill 4635 on 12 November, and it took effect immediately.",
+    "Licensed liquor wholesalers, retailers and cannabis shops can keep selling intoxicating hemp drinks until 11 December instead of 13 November.",
+    "The cutoff now follows the federal compliance date, so New Jersey's deadline moves automatically if Congress delays the federal hemp limits again.",
+    "After the federal limits take effect, drinks above 0.4 mg of total THC per container will generally have to move into the licensed cannabis market."
+  ],
+  "body": [
+    "New Jersey has given liquor stores and cannabis retailers four more weeks to sell intoxicating hemp drinks. Gov. Mikie Sherrill signed Senate Bill 4635 on Thursday, 12 November, one day before state law would have ended those sales, and the measure took effect immediately, according to The Marijuana Herald.",
+    "The new law replaces New Jersey's fixed cutoff of 13 November with the federal compliance date. With Congress's September stopgap bill, that date is now 11 December, when most of the new federal limits on hemp-derived THC are due to apply. If Congress delays again, New Jersey's window moves with it, without another vote in Trenton.",
+    "## What the bill changes",
+    "S4635 was sponsored by Senate President Nicholas Scutari and Assemblyman Robert Karabinchak. Its official synopsis says it aligns state restrictions on the sale of hemp products and intoxicating hemp beverages with federal law. The bill text strikes the date 13 November 2026 in several places and substitutes the phrase the federal compliance date, defined in the state's hemp statute.",
+    "The Senate passed it 37 to 0 on 22 October and the Assembly 75 to 2 on 29 October. That near-unanimous margin reflects how narrow the bill is: it does not create a new market, it only stops the state's own deadline from arriving a month before the federal one.",
+    "Under the extended window, the businesses already allowed to sell these drinks keep that right: holders of plenary wholesale and plenary retail distribution licences from the Division of Alcoholic Beverage Control, and licensed cannabis retailers. The existing rules on potency, testing and sales to people under 21 stay in force, and online and vending machine sales remain banned.",
+    "The bill also extends a narrower allowance for hemp processors. Licensed hemp producers may keep possessing and transporting intermediate hemp material above 0.3% THC while it is being processed, as long as it is not meant for consumption at that stage and the finished product meets the state's THC limits.",
+    "> New Jersey's fix is quiet but clever: by pegging its deadline to Washington's, it stops state law from killing a product line before federal law does.",
+    "## The federal cliff behind it",
+    "The deadline exists because of federal law. In November 2025, Congress rewrote the definition of hemp so that most intoxicating hemp products fall outside it, including any finished product with more than 0.4 milligrams of total THC per container. The change was due on 12 November 2026, but the Continuing Appropriations and Extensions Act, signed on 2 September, pushed most of it to 11 December.",
+    "Not every piece waited. As we reported on 12 November, the federal ban on synthetic hemp cannabinoids took effect that day. New Jersey's own law, passed in 2025, already banned synthesized cannabinoids and products over the state's THC limits from 13 April 2026, with a carve-out for intoxicating hemp drinks sold through licensed channels.",
+    "Once the federal limits apply, drinks above the federal THC limit will generally have to be made and sold through New Jersey's licensed cannabis market rather than liquor stores. That shift matters for both sides: liquor retailers lose a fast-growing category, while licensed cannabis businesses could gain it, if they choose to make and stock beverages.",
+    "## How other states are handling the same date",
+    "New Jersey is one of several states racing the same clock. As we reported on 11 November, Missouri's new hemp THC law took effect on 12 November after a court win, moving many products into the licensed marijuana market. Illinois, as we reported on 10 November, paused enforcement of its Hemp Act for about 250 sellers until 19 November.",
+    "New Jersey's approach differs in one way that matters to businesses: rather than setting a new date that might again fall out of step with Congress, it simply follows whatever date federal law sets. Industry groups and some members of Congress are still pushing for a federal regulatory framework instead of a ban, according to The Marijuana Herald.",
+    "## What to watch",
+    "The key date is 11 December. If Congress passes another delay, New Jersey's hemp drink sales would continue automatically under the new law. If not, liquor stores must stop selling over-limit drinks that day, and New Jersey regulators will need to show how quickly licensed cannabis businesses can pick up the category. Watch also for guidance from the Cannabis Regulatory Commission and the Division of Alcoholic Beverage Control on how the transition will be enforced."
+  ],
+  "sources": [
+    {
+      "name": "New Jersey Legislature, S4635 bill text",
+      "url": "https://pub.njleg.gov/bills/2026/S5000/4635_I1.HTM"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/new-jersey-governor-signs-hemp-beverages/"
+    },
+    {
+      "name": "Congressional Research Service (R49347)",
+      "url": "https://www.everycrsreport.com/reports/R49347.html"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/12/federal-synthetic-hemp-ban-takes-effect/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/11/missouri-hemp-law-takes-effect/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/10/illinois-hemp-enforcement-pause/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "DEC",
+    "day": "11",
+    "big": "+28 days",
+    "label": "added to New Jersey's hemp drink sales window"
+  },
+  "banner": {
+    "title": "NJ Hemp Drinks Get a Reprieve",
+    "highlight": [
+      "Hemp Drinks"
+    ],
+    "sub": "Gov. Mikie Sherrill signs S4635; sales run to 11 December",
+    "divider": "Hemp desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Signed 12 November"
+      },
+      {
+        "icon": "drop",
+        "text": "Drinks sold to 11 Dec"
+      },
+      {
+        "icon": "gavel",
+        "text": "Follows federal date"
+      }
+    ],
+    "corner": [
+      "HEMP",
+      "BEVERAGES",
+      "NEW JERSEY",
+      "THC"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "New Jersey's intoxicating hemp drink sales window ends unless Congress delays the federal hemp THC limits."
+    }
+  ],
+  "tags": [
+    "New Jersey",
+    "Hemp",
+    "Hemp-derived THC",
+    "Total THC",
+    "Congress"
+  ],
+  "image_prompt": "Premium product still life: a single slim unlabelled beverage can with condensation droplets standing beside a fresh hemp leaf on a dark glossy surface, a small desk calendar block blurred behind, soft studio light, faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people.",
+  "image_alt": "A chilled unlabelled beverage can next to a hemp leaf.",
+  "x_post": "New Jersey's hemp THC drinks got four more weeks. Gov. Sherrill signed a bill tying the state's cutoff to the federal date, now 11 December, so it moves if Congress delays again.",
+  "breaking": false
+}

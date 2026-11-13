@@ -1,0 +1,66 @@
+{
+  "id": "ascend-planet-13-q3-2026",
+  "edition": "2026-11-13-am",
+  "rank": 2,
+  "published": "2026-11-13T07:46:00+02:00",
+  "cat": "Markets",
+  "headline": "Ascend Wellness grows Q3 revenue to $130M; Planet 13 trims losses",
+  "dek": "Ascend passed 60 stores and is eyeing a US exchange listing; Planet 13 lifted gross margin to 56% ahead of its 10 December Vireo merger vote.",
+  "key_points": [
+    "Ascend Wellness reported Q3 2026 net revenue of $130.0 million, up 4.2% from a year earlier, with adjusted EBITDA of $31.1 million, a 23.9% margin.",
+    "Ascend now runs 61 stores including partner locations, up from 39 in August 2024, and says a reverse split approved in August could support a major US exchange listing.",
+    "Planet 13's revenue slipped 0.8% to $23.1 million, but gross margin jumped to 56.2% from 21.3% after it left California wholesale and cut Nevada costs.",
+    "Planet 13 shareholders vote on the merger with Vireo Growth on 10 December 2026."
+  ],
+  "body": [
+    "Two US multistate operators reported third-quarter results on 12 November that show the same lesson from opposite ends of the market. Ascend Wellness Holdings, a mid-sized operator focused on Illinois, New Jersey and Massachusetts, grew revenue by opening stores and pushing more sales through its own shelves. Planet 13, a much smaller Las Vegas-based company, cut its way to near break-even and is selling itself to a bigger rival.",
+    "Ascend's net revenue rose to $130.0 million, up 3.1% from the second quarter and 4.2% from a year earlier, with adjusted EBITDA of $31.1 million. Planet 13's revenue was $23.1 million, down 0.8% from a year earlier, but its adjusted EBITDA loss narrowed to $0.2 million from $4.1 million.",
+    "## Ascend: more stores, more of its own product",
+    "Retail drove Ascend's quarter. Retail revenue rose 5.5% from the second quarter to $97.8 million and made up 75.2% of total net revenue, up from 73.5%. Third-party wholesale revenue fell 3.6% to $32.2 million, which the company blamed mainly on a work stoppage at its Barry, Illinois facility that hit July deliveries, along with lower prices.",
+    "Retail transactions reached about 1.7 million, up 14.9% from a year earlier and the most in the company's history. Transactions at its New Jersey locations, including partner stores, rose 37% year over year. Adjusted gross margin improved to 48.4% from 46.2% in the second quarter, which Ascend attributed to a higher retail mix and operating leverage, partly offset by continued price compression.",
+    "The store count is the headline number for the strategy. Ascend ended the quarter with 56 stores and has since opened five more, reaching 61 and beating its year-end target of 60. That is up from 39 stores in August 2024. By MetaFlora's arithmetic, that is a 56% increase in a little over two years; the company itself describes it as roughly 60%. New openings include a seventh Ohio store in Lewis Center, a partner store in Plano, Illinois, and two Massachusetts dispensaries in Worcester and Shrewsbury that Ascend is running under a consulting agreement while it waits for approval to close the purchase. Closing would bring a vertically integrated medical licence, which Ascend plans to extend to all its Massachusetts stores.",
+    "> Ascend is betting that owning the counter beats selling to it, and the quarter's numbers say the bet is paying while wholesale prices keep falling.",
+    "## Cash, debt and a listing option",
+    "Ascend generated $5.4 million of operating cash flow in the quarter, after paying its $19.1 million semi-annual interest bill, and ended September with $63.6 million in cash. It also closed $11 million of mortgage loans with CF Bank at 8.5% a year, maturing in October 2031 and secured by five company-owned properties. The company still reported a GAAP net loss of $28.0 million.",
+    "Shareholders approved a reverse stock split at a special meeting on 28 August. Ascend says it intends to use the split to support a potential listing on a major US exchange, subject to regulatory developments including broader cannabis rescheduling. It has also signed a licensing deal with Atlantic Cultivation, a Canadian craft producer, that is expected to put its High Wired pre-rolls and Ozone vapes on Canadian shelves in the first quarter of 2027.",
+    "## Planet 13: smaller, leaner, merging",
+    "Planet 13's quarter is a story about margins rather than growth. Gross profit rose to $13.0 million, or 56.2% of revenue, from $5.0 million, or 21.3%, a year earlier. The company credited its exit from California wholesale, lower cultivation costs and better purchasing in Nevada, and a $1.1 million reduction in its inventory reserve.",
+    "Florida was the bright spot. Revenue there rose 15.1% from the second quarter and was 45% higher than a year earlier, which co-CEO Larry Scheffler tied to better flower from upgraded cultivation, new concentrates and a more productive store network. Nevada went the other way: lower tourist traffic at the Las Vegas Superstore and pricing pressure weighed on results.",
+    "The net loss narrowed to $6.4 million from $44.0 million; the prior-year figure included a $29.8 million impairment. Excluding that impairment, and $2.4 million of merger-related professional fees and a one-time legal settlement this year, total expenses fell 7.4% to $15.1 million. Cash and restricted cash were $15.7 million, while total liabilities rose to $107.0 million from $101.2 million at the end of 2025. Planet 13 did not hold a conference call because of the pending merger.",
+    "## The Vireo vote",
+    "Planet 13 agreed in July to merge with Vireo Growth. The SEC declared Vireo's Form S-4 registration statement effective on 2 November, and Planet 13 shareholders will vote at a special meeting on 10 December. Co-CEO Bob Groesbeck said the market increasingly rewards scale, purchasing power and balance sheet strength. As we reported on 10 November, Vireo's own third-quarter revenue jumped 177% to $253.7 million on acquisitions, so Planet 13 would join a company roughly eleven times its quarterly size.",
+    "## What to watch",
+    "For Planet 13, the date is 10 December: the shareholder vote decides whether it becomes part of Vireo. For Ascend, watch the Massachusetts licence approval that would let all its stores there serve medical patients, its two New Jersey partner stores expected in early 2027, and the Canadian launch in the first quarter. The reverse split and any exchange listing depend on rescheduling, which remains unfinished."
+  ],
+  "sources": [
+    {"name": "Ascend Wellness Holdings (SEC Form 8-K, Exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0001756390/000162828026073387/awhq32026pressrelease.htm"},
+    {"name": "Planet 13 Holdings (GlobeNewswire)", "url": "https://www.globenewswire.com/news-release/2026/11/12/3402306/0/en/planet-13-announces-q3-2026-financial-results.html"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/10/vireo-growth-q3-2026/"}
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [0.3, 0.35, 0.42, 0.5, 0.58, 0.66, 0.75],
+    "big": "61",
+    "label": "Ascend stores open, up from 39 in August 2024"
+  },
+  "banner": {
+    "title": "Ascend Passes 60 Stores",
+    "highlight": ["60", "Stores"],
+    "sub": "Q3 revenue $130M; Planet 13 votes on Vireo deal 10 Dec",
+    "divider": "Markets desk",
+    "points": [
+      {"icon": "chart", "text": "Revenue up 4.2%"},
+      {"icon": "coin", "text": "23.9% EBITDA margin"},
+      {"icon": "handshake", "text": "Vireo vote 10 December"}
+    ],
+    "corner": ["EARNINGS", "RETAIL", "MERGER", "MSO"]
+  },
+  "watch": [
+    {"date": "2026-12-10", "text": "Planet 13 shareholders vote on the merger with Vireo Growth."}
+  ],
+  "tags": ["Earnings", "Ascend Wellness", "Planet 13", "Vireo Growth", "M&A", "New Jersey", "Massachusetts", "Florida"],
+  "image_prompt": "Premium product still life: a row of small glass dispensary jars of cannabis flower lined up on a polished dark counter, one jar slightly forward and lit, soft studio light, faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people.",
+  "image_alt": "A row of glass cannabis jars on a dark polished counter.",
+  "x_post": "Ascend Wellness grew Q3 revenue 4.2% to $130M and now runs 61 stores. Planet 13 lifted gross margin to 56% before its 10 December vote on merging with Vireo.",
+  "breaking": false
+}
