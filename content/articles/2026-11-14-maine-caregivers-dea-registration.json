@@ -1,0 +1,107 @@
+{
+  "id": "maine-caregivers-dea-registration",
+  "edition": "2026-11-14-am",
+  "rank": 3,
+  "published": "2026-11-14T06:10:00+02:00",
+  "cat": "States",
+  "headline": "Maine caregivers say DEA registration is splitting their supply chain",
+  "dek": "Maine regulators shared DEA's 30 October letter with medical cannabis firms but say federal rules are not their job, as caregivers lose suppliers.",
+  "key_points": [
+    "Maine's Office of Cannabis Policy on 10 November shared DEA correspondence sent on 30 October to medical cannabis businesses that applied for federal registration between 28 April and 26 June.",
+    "The office said federal enforcement is outside its jurisdiction and that it has received no guidance from federal agencies.",
+    "A Milo caregiver told WABI she is losing 90% of her suppliers because registered businesses can no longer deal with unregistered ones.",
+    "Maine's small-caregiver model is the hardest fit for a federal system built on registered, closed supply chains."
+  ],
+  "body": [
+    "Maine's medical cannabis caregivers say the federal registration system that came with rescheduling is splitting their market in two. On 10 November the state's Office of Cannabis Policy (OCP) sent all medical programme participants a copy of correspondence the Drug Enforcement Administration mailed on 30 October to businesses that applied for federal registration between 28 April and 26 June. The office said it was sharing the letter only so everyone had the same information, and that it should not be read as guidance.",
+    "Caregivers interviewed by WABI in Bangor this week described a different problem: businesses that registered with the DEA can no longer trade with those that did not. One small store owner said that has cost her 90 percent of her suppliers. The state, for its part, says federal law is not its job.",
+    "## What the state told participants",
+    "The OCP memo, dated 10 November, says the office has been monitoring the reclassification of medical cannabis under the Controlled Substances Act and the DEA's registration process for qualifying medical businesses. It stresses that administering and enforcing federal cannabis law is outside the office's purview, that it has received no guidance from any federal agency, and that it cannot give legal advice on how federal rules apply to individual businesses. Participants are told to consult their own lawyers, tax professionals and advisers.",
+    "The memo adds a footnote on language: the DEA's letter uses 'marijuana' throughout, while Maine law replaced that word with 'cannabis' in 2021. The office continues to enforce the state's Medical Use of Cannabis Act and its adult-use law as before. An OCP spokesperson repeated the same position to WABI.",
+    "## Why the dates matter",
+    "The 30 October letter lands at the end of a clock set in April. The Justice Department's final order, published on 28 April, created an expedited registration path for holders of state medical licences. It told the DEA to process applications filed within 60 days of publication within six months, and allowed early applicants to keep operating under their state licences while their applications were reviewed. Six months from 28 April is 28 October, two days before the DEA's letter went out to Maine applicants.",
+    "Under the same order, a DEA registration automatically suspends if the underlying state licence is suspended, revoked or expires, so federal status rides on state status. As we reported on 12 November, the DEA has already moved to deny registrations for some medical businesses in California, Illinois and several other states, so the outcome of review is not automatic.",
+    "> Federal registration was sold as protection; for Maine's caregivers, its first effect has been to wall off the businesses that did not apply.",
+    "## The caregiver squeeze",
+    "Maine's medical market is unusual. Much of it runs through small registered caregivers rather than a handful of vertically integrated companies, and they buy and sell among themselves. That is exactly the kind of open trading the federal system restricts, because registered businesses must deal with other registered parties.",
+    "Shannon Lord, who owns Triple Goddess Wellness in Milo, told WABI that vendors had asked whether she was applying before she even knew what the registration was. She said losing most of her suppliers means patients who ask for familiar products will have to start over. Catherine Lewis, director of education for Medical Marijuana Caregivers of Maine, said many small caregivers already operate month to month in a crowded market, and compared the mistrust of federal registration to the raids of 2010. Kristi Shaw, the group's vice chair, said the federal vision seemed to favour bigger companies.",
+    "Lord said she has written to Maine's congressional delegation and drafted a proposal to amend the Controlled Substances Act so state programmes can keep operating as they do. She said Rep. Jared Golden's office responded and put her in touch with an agriculture aide. The DEA did not respond to the station's request for comment.",
+    "## What it means beyond Maine",
+    "Maine is a small market, with about $22 million in combined sales in October according to The Marijuana Herald's state tally, but its problem is a preview for other states with many small medical operators. A two-tier system, in which registered companies gain federal tax and legal relief but can only buy from each other, pressures every unregistered business to either apply or lose access to supply.",
+    "## What to watch",
+    "Watch for the DEA's decisions on the remaining applications filed in the April to June window, and for any second filing window. In Maine, watch whether lawmakers or the delegation take up a fix in the 2027 session, and whether OCP issues further notices. Nationally, the broader DEA hearing on adult-use rescheduling remains the larger unresolved question."
+  ],
+  "sources": [
+    {
+      "name": "Maine Office of Cannabis Policy memo, 10 November 2026",
+      "url": "https://www.maine.gov/dafs/ocp/sites/maine.gov.dafs.ocp/files/inline-files/OCP%20Federal%20Reclassification%20of%20Medical%20Cannabis%20and%20Related%20DEA%20Registration%20Memo.pdf"
+    },
+    {
+      "name": "WABI",
+      "url": "https://www.wabi.tv/2026/11/12/maine-caregivers-report-confusion-over-dea-medical-cannabis-reclassification/"
+    },
+    {
+      "name": "WMTW",
+      "url": "https://www.wmtw.com/article/maine-medical-cannabis-confusion-dea-reclassification/74426859"
+    },
+    {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/u-s-legal-marijuana-sales-hit-record-2-6-billion-in-october-bringing-2026-total-to-24-2-billion/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/12/dea-show-cause-six-states/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "DEA",
+    "sub": "REGISTRATION",
+    "big": "90%",
+    "label": "suppliers one Maine caregiver says she lost"
+  },
+  "banner": {
+    "title": "Maine Caregivers Lose Suppliers",
+    "highlight": [
+      "Maine"
+    ],
+    "sub": "DEA registration splits registered and unregistered sellers",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "DEA letter 30 Oct"
+      },
+      {
+        "icon": "shield",
+        "text": "State: not our remit"
+      },
+      {
+        "icon": "handshake",
+        "text": "Trade split in two"
+      }
+    ],
+    "corner": [
+      "MAINE",
+      "DEA",
+      "MEDICAL",
+      "CAREGIVERS"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Maine",
+    "DEA",
+    "Rescheduling",
+    "Medical cannabis",
+    "Licensing"
+  ],
+  "image_prompt": "Premium product still life: a small glass jar of cannabis flower on a dark wooden surface next to an official-looking blank envelope sealed with red wax, a single pine sprig beside it as a Maine signal, soft violet edge light, subject on the right half, dark space on the left, no text, no logos, no people",
+  "image_alt": "A jar of cannabis flower, a wax-sealed envelope and a pine sprig on dark wood",
+  "x_post": "Maine regulators shared DEA's 30 October letter with medical cannabis businesses but say federal rules aren't their job. One caregiver says registration has cost her 90% of her suppliers.",
+  "breaking": false
+}

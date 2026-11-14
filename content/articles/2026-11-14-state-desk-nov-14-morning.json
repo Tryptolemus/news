@@ -1,0 +1,114 @@
+{
+  "id": "state-desk-nov-14-morning",
+  "edition": "2026-11-14-am",
+  "rank": 6,
+  "published": "2026-11-14T06:10:00+02:00",
+  "cat": "States",
+  "headline": "State desk: Iowa board urges tax cut; New York eyes $2B in sales",
+  "dek": "Iowa's medical cannabis board backs ending patient sales tax, New York projects $2 billion in 2026 sales, and California moves on officer drug tests.",
+  "key_points": [
+    "Iowa's Medical Cannabidiol Board unanimously approved seven recommendations, led by exempting patient purchases from sales tax, ahead of the 2027 session.",
+    "New York's Office of Cannabis Management projects about $2 billion in legal sales and $350 million in tax revenue in 2026, from a total market it puts at $6 billion to $7 billion.",
+    "California proposed removing marijuana from random drug tests for certain state corrections and parole officers, keeping tests when impairment is suspected; comments close 28 December.",
+    "All three show states adjusting tax and employment rules to a market that rescheduling has only partly changed."
+  ],
+  "body": [
+    "Three states moved on cannabis tax and workplace rules this week. Iowa's medical cannabis board renewed its call to stop charging patients sales tax, New York's regulators put a number on how much of the state's demand the legal market captures, and California proposed ending random marijuana testing for a group of senior prison and parole officers.",
+    "None of these is a law yet. Each sets up a decision for lawmakers or regulators in the next few months.",
+    "## Iowa: tax relief for patients, again",
+    "Iowa's Medical Cannabidiol Board voted unanimously to approve seven recommendations for its 2026 annual report, the state's Department of Health and Human Services confirmed to The Marijuana Herald on 13 November. The board must send the report to the legislature by 1 January.",
+    "The headline proposal is to exempt patient purchases from sales tax, treating medical cannabis like prescription drugs. Iowa charges 6 percent state sales tax, plus a 1 percent local option tax in many areas. The board has asked for this before: its recommendations have been essentially the same since 2021, according to a state presentation to lawmakers, and the legislature has not acted.",
+    "This year's report adds a twist. The board has long asked for licensed businesses to get the same state tax treatment as other companies, decoupling Iowa from the federal Section 280E penalty. It now acknowledges that federal rescheduling may resolve that issue, since state-licensed medical marijuana moved to Schedule III in April and out of 280E's reach. The other recommendations include renaming the law the Medical Cannabis Act, letting certifying doctors see their patients' purchase histories, tighter oversight of telehealth certifications, seeking a federal exemption, and keeping the ban on raw flower.",
+    "The programme is small. Iowa had 17,698 active patient cardholders in September, and monthly sales ran from about $1.05 million to $1.16 million through September, the Herald reported. High-THC products make up 92 percent of sales. Governor-elect Rob Sand, as we reported on 12 November, wants to go further and legalise adult use.",
+    "> Iowa's board has asked for the same reforms for years; the difference in 2027 is a governor-elect who wants to go much further.",
+    "## New York: a third of the market",
+    "New York's legal market is on track for about $2 billion in sales and $350 million in tax revenue in 2026, according to a presentation by Office of Cannabis Management executive director John Kagia and chief operating officer Patrick McKeage to North Carolina's Advisory Council on Cannabis, the Herald reported. The officials put the state's total cannabis market at $6 billion to $7 billion a year, which means licensed stores capture slightly under a third of demand.",
+    "Our calculation: $2 billion would be about 18 percent above the $1.69 billion sold in 2025, and sales through September already reached $1.41 billion. Hitting the target means roughly $590 million in the fourth quarter, above the record $512.6 million in the third. The officials said an eighth that cost $70 to $75 before legalisation now sells for about $35, with prices down about 20 percent last year and 15 percent this year, so volume growth is doing the work.",
+    "## California: officers' random tests",
+    "California's Department of Human Resources published proposed regulations on 13 November that would remove marijuana from random drug testing for certain excluded and exempt corrections and parole officers, the Herald reported. Testing would still be allowed on reasonable suspicion of impairment at work, and employers could use oral fluid tests to check for THC in those cases.",
+    "Rank-and-file corrections officers already won this change in a labour agreement that runs to July 2028; the rule would extend it to related managers. The state says it is bringing its rules into line with AB 2188, the law in force since January 2024 that bars most employers from penalising workers for off-duty cannabis use or for tests that only show non-psychoactive metabolites. CalHR said costs would be minimal.",
+    "## What to watch",
+    "Public comments on California's proposal close on 28 December; a hearing will be held only if requested at least 15 days before then. Iowa's board report goes to the legislature by 1 January, ahead of the 2027 session. New York's fourth-quarter sales figures, due early next year, will show whether the $2 billion projection holds."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/iowa-medical-marijuana-board-unanimously-recommends-eliminating-patient-sales-tax-six-other-reforms/"
+    },
+    {
+      "name": "Iowa Legislature: Cannabis Regulation in Iowa (HHS presentation)",
+      "url": "https://www.legis.iowa.gov/docs/publications/CLE/1544022.pdf"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/new-york-marijuana-regulators-project-2-billion-in-sales-and-350-million-in-tax-revenue-in-2026/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/california-proposes-ending-random-marijuana-testing-for-state-corrections-officers-expanding-off-duty-use-protections/"
+    },
+    {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/12/iowa-rob-sand-legalization-plan/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$2B",
+    "label": "New York's projected 2026 legal sales"
+  },
+  "banner": {
+    "title": "Iowa Tax Cut, New York $2B",
+    "highlight": [
+      "$2B"
+    ],
+    "sub": "Plus: California moves to end officers' random THC tests",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "coin",
+        "text": "Iowa: drop sales tax"
+      },
+      {
+        "icon": "chart",
+        "text": "NY: $350M in tax"
+      },
+      {
+        "icon": "shield",
+        "text": "CA comments to 28 Dec"
+      }
+    ],
+    "corner": [
+      "STATES",
+      "TAX",
+      "SALES",
+      "WORKPLACE"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-28",
+      "text": "Comment period closes on California's proposal to end random marijuana tests for some corrections officers"
+    },
+    {
+      "date": "2027-01-01",
+      "text": "Iowa Medical Cannabidiol Board annual report due to the legislature"
+    }
+  ],
+  "tags": [
+    "Iowa",
+    "New York",
+    "California",
+    "Medical cannabis",
+    "Excise tax",
+    "Cannabis employment",
+    "Section 280E"
+  ],
+  "image_prompt": "Premium product still life: three small glass jars of cannabis flower in a row on a dark surface, beside a single ear of dried corn as an Iowa signal and a small brass coin stack, soft violet edge light, subject on the right half, dark space on the left, no text, no logos, no people",
+  "image_alt": "Three jars of cannabis flower beside an ear of corn and a coin stack",
+  "breaking": false
+}

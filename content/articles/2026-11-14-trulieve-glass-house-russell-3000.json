@@ -1,0 +1,129 @@
+{
+  "id": "trulieve-glass-house-russell-3000",
+  "edition": "2026-11-14-am",
+  "rank": 2,
+  "published": "2026-11-14T06:10:00+02:00",
+  "cat": "Markets",
+  "headline": "Trulieve and Glass House make preliminary Russell 3000 additions list",
+  "dek": "FTSE Russell's 13 November list puts two US cannabis operators on track for the Russell indexes on 11 December, opening the door to passive index-fund buying.",
+  "key_points": [
+    "Trulieve and Glass House Brands appear on FTSE Russell's preliminary list of additions to the Russell 3000, published on 13 November.",
+    "If confirmed, the changes take effect after the US market close on 11 December; FTSE Russell updates the lists on 20 November, 27 November and 4 December.",
+    "Trulieve is expected to land in the small-cap Russell 2000, which is tracked by some of the largest index funds in the market.",
+    "Inclusion follows Trulieve's NYSE listing in June and its move from Canada to Delaware, both made possible by April's rescheduling of state medical marijuana."
+  ],
+  "body": [
+    "Two US cannabis operators are on track to join the Russell US equity indexes for the first time. Trulieve Cannabis and Glass House Brands appear on the preliminary list of additions to the Russell 3000 that FTSE Russell published on 13 November for its December reconstitution, according to The Marijuana Herald, which cited The Dales Report.",
+    "If the additions hold, they take effect after the US market closes on 11 December. Trulieve is expected to fall into the Russell 2000, the small-cap benchmark, which means funds that track it would need to buy the shares. FTSE Russell will publish updated lists on 20 November, 27 November and 4 December, so the result is not final.",
+    "## How the Russell indexes choose",
+    "From 2026 FTSE Russell rebuilds its US indexes twice a year, in June and December. For the December round, it ranked all eligible US companies by total market value on 30 October, its rank day. Companies must trade on an eligible US exchange and pass rules on how many shares are freely available to investors. The preliminary lists then go out in mid-November, with a query period before the reconstituted indexes go live.",
+    "The Russell 3000 covers roughly the 3,000 largest listed US companies and contains both the large-cap Russell 1000 and the small-cap Russell 2000. That matters because index funds hold whatever the index holds. One of the largest is BlackRock's iShares Russell 2000 ETF, which the Herald noted manages tens of billions of dollars.",
+    "## Why cannabis stocks were shut out",
+    "Until this year, the large US cannabis operators could not qualify. Because marijuana was a Schedule I drug, the major US exchanges would not list companies that touch the plant, so the multistate operators traded in Toronto or Canada's smaller exchanges and over the counter in the US. Neither route counts for Russell inclusion.",
+    "That changed after the Justice Department's April final order moved marijuana covered by a state medical licence to Schedule III. Trulieve listed on the New York Stock Exchange on 10 June, the first major US operator that grows and sells the plant to do so, and completed its move from a Canadian to a Delaware corporation. In September it was added to the S&P Total Market and S&P Completion indexes. Chief executive Kim Rivers said then that index inclusion raises visibility, improves liquidity and attracts new institutional investors.",
+    "> Index inclusion is the quiet reward of rescheduling: it turns cannabis from a stock investors must choose into one their funds simply own.",
+    "## What it could mean for the shares",
+    "The near-term effect is mechanical. Before Trulieve made the list, one independent analyst, Andrew O'Connell of Pristine Capital, estimated in October that index funds would need to buy roughly 10 to 15 million Trulieve shares on reconstitution day if it was added. That is an outside estimate, not a company or FTSE Russell figure, and actual demand depends on Trulieve's final weight in the index.",
+    "The longer-term effect is liquidity. Passive funds keep trading the stock every time investors move money in or out, which can bring in larger institutions that need deep daily volume. O'Connell also noted Trulieve is the top holding in the MSOS ETF, which tracks US cannabis operators, so a re-rating could spill over to the wider group.",
+    "Trulieve reported third-quarter revenue of $230 million earlier this month, with a 64% gross margin, according to the Herald. It runs 208 dispensaries. Florida remains its anchor: the Herald, citing state figures, said Trulieve accounted for about 35% of medical flower purchases in the latest reporting period.",
+    "## Glass House and who comes next",
+    "Glass House Brands, a California cultivator and retailer, was added to the Herald's report after publication, and fewer details are available. Its inclusion would put a second plant-touching US operator into a major US benchmark.",
+    "For the rest of the sector, the precedent is clear: listing on a major US exchange and having a US corporate home are the price of admission. Most large multistate operators still trade over the counter in the US. Federal registration is also uneven: as we reported on 12 November, the DEA has moved to deny some medical applicants in several states, a reminder that the rescheduling benefits do not reach every company equally.",
+    "## What to watch",
+    "Watch FTSE Russell's updated lists on 20 November, 27 November and 4 December for any change to the two names. The reconstituted indexes take effect after the close on 11 December, the same day the federal hemp THC cap is due. Further out, watch whether Curaleaf, Green Thumb or Verano pursue major US exchange listings that would make them eligible for the June 2027 reconstitution."
+  ],
+  "sources": [
+    {
+      "name": "LSEG / FTSE Russell: Russell Reconstitution",
+      "url": "https://www.lseg.com/en/ftse-russell/russell-reconstitution"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/trulieve-set-to-join-russell-3000-index-in-major-milestone-for-u-s-cannabis-industry/"
+    },
+    {
+      "name": "Trulieve investor relations",
+      "url": "https://investors.trulieve.com/2026-09-22-Trulieve-Cannabis-Corp-Added-to-S-P-Total-Market-and-S-P-Completion-Indices"
+    },
+    {
+      "name": "Pristine Capital",
+      "url": "https://www.pristinecapital.net/p/trulieve-cleared-every-russell-screen"
+    },
+    {
+      "name": "Federal Register",
+      "url": "https://www.federalregister.gov/documents/2026/04/28/2026-08176/schedules-of-controlled-substances-rescheduling-of-food-and-drug-administration-approved-products"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/12/dea-show-cause-six-states/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.2,
+      0.25,
+      0.3,
+      0.45,
+      0.5,
+      0.62,
+      0.75
+    ],
+    "big": "11 Dec",
+    "label": "Russell changes take effect after the close"
+  },
+  "banner": {
+    "title": "Trulieve Heads for Russell",
+    "highlight": [
+      "Russell"
+    ],
+    "sub": "Trulieve and Glass House on FTSE Russell's preliminary list",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "Russell 3000 additions"
+      },
+      {
+        "icon": "doc",
+        "text": "Final list due Dec"
+      },
+      {
+        "icon": "coin",
+        "text": "Index funds may buy"
+      }
+    ],
+    "corner": [
+      "MARKETS",
+      "INDEX",
+      "NYSE",
+      "CANNABIS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-20",
+      "text": "FTSE Russell publishes first update to preliminary Russell additions list"
+    },
+    {
+      "date": "2026-12-04",
+      "text": "Final scheduled update to Russell preliminary lists"
+    },
+    {
+      "date": "2026-12-11",
+      "text": "Reconstituted Russell indexes take effect after US market close"
+    }
+  ],
+  "tags": [
+    "Trulieve",
+    "Glass House Brands",
+    "Listings",
+    "Rescheduling",
+    "Florida",
+    "Market data"
+  ],
+  "image_prompt": "Premium product still life: a glass apothecary jar of cannabis flower on a dark glossy surface beside a small brass stock ticker tape machine with blank paper ribbon, faint violet edge light, subject in right half, dark negative space on left, no text, no logos, no people",
+  "image_alt": "A jar of cannabis flower beside a brass ticker tape machine on a dark surface",
+  "x_post": "Trulieve and Glass House are on FTSE Russell's preliminary additions list. If it holds, both join the Russell indexes after the close on 11 December, and index funds become buyers.",
+  "breaking": false
+}
