@@ -1,0 +1,110 @@
+{
+  "id": "science-uk-daily-use-cbd-lab-studies",
+  "edition": "2026-11-14-pm",
+  "rank": 4,
+  "published": "2026-11-14T18:15:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: 1.2 million Britons use daily; two CBD lab studies",
+  "dek": "A study in Addiction estimates 1.2 million people in Great Britain use cannabis daily or near daily; two new CBD studies report early results in mice and cells.",
+  "key_points": [
+    "Researchers at Bath and King's College London estimate 1.2 million people in Great Britain use cannabis daily or near daily, far above the roughly 470,000 daily users counted by the Crime Survey for England and Wales.",
+    "Among past-year users, people aged 35 to 54 were about twice as likely as 18 to 24-year-olds to use daily or near daily; tobacco smokers, people out of work and those who smoke cannabis were also more likely.",
+    "A Spanish mouse study found repeated CBD eye drops lowered eye pressure in a glaucoma model after an initial rise; the work was funded by the patent holder of the formulation.",
+    "A Waterloo cell study found CBD shrank abnormally large mitochondria in cells from boys with Barth syndrome; neither CBD study involved patients."
+  ],
+  "body": [
+    "Three studies published in the past week add to what is known about how often people use cannabis and what CBD does in the lab. The largest, published in the journal Addiction by researchers at the University of Bath and King's College London, estimates that about 1.2 million people in Great Britain use cannabis every day or nearly every day, more than double the most-cited official figure.",
+    "The other two are early-stage CBD studies: one in mice bred to develop glaucoma, from Spain, and one in cells taken from boys with a rare genetic disorder, from Canada. Both report effects worth following up, and both are a long way from showing anything in patients.",
+    "## How many Britons use cannabis daily",
+    "The Bath and King's team pooled answers from 25,537 adults who took part in Action on Smoking and Health's Smokefree Great Britain survey in February and March of 2023 and 2024. Of those, 7.2% said they had used cannabis in the past year, and 24.2% of that group, or 432 people, said they used it daily or near daily. Scaled to the adult population, that gives the 1.2 million estimate. By MetaFlora's arithmetic, it means about 1.7% of all adults surveyed reported daily or near-daily use.",
+    "The figure is far above the roughly 470,000 adults in England and Wales that the Crime Survey for England and Wales counts as daily users. The authors say much of the gap comes from wording: their survey counted people who use nearly every day as well as every day, while the Crime Survey counts daily use only. They stress that the difference does not show that frequent use has risen.",
+    "The study also looked at who uses most often. Younger adults were the most likely to have used cannabis at all in the past year, but among users, people aged 25 and over were more likely to use daily or near daily. Those aged 35 to 44 and 45 to 54 were about twice as likely as 18 to 24-year-olds. Among past-year users, 35% of tobacco smokers used cannabis daily or near daily, against 15% of non-smokers; 29% of those who smoked cannabis did so, against 13% of those who used edibles or vapes; and 37% of people out of work did, against 21% of those in work. Gender, ethnicity, region, social grade, anxiety and depression were not linked to daily use once other factors were accounted for.",
+    "> The British numbers suggest the heaviest cannabis users are not students but people in mid-life, often out of work and often smokers.",
+    "## CBD eye drops in a glaucoma model",
+    "The second study, published on 10 November in the European Journal of Pharmacology by researchers linked to Rey Juan Carlos University in Spain, tested a new water-soluble CBD formulation applied directly to the eye in mice genetically prone to glaucoma, with a non-glaucoma strain for comparison, The Marijuana Herald reported. The researchers measured eye pressure, tear production, corneal sensitivity and body weight across single and repeated doses.",
+    "CBD first caused a temporary rise in eye pressure. With continued dosing, pressure in the glaucoma-prone mice fell significantly and stayed lower, with the strongest effect from twice-daily drops. Pressure in untreated eyes changed less and inconsistently, which the authors read as a local effect. CBD also reduced corneal sensitivity, an effect that lasted after treatment stopped, while eye pressure went back up when the drops were withdrawn. Tear production and body weight did not change. The study was funded by Laboratoire Laredo, which holds a European patent on the formulation.",
+    "The result sits against a cautious medical consensus. The Glaucoma Research Foundation says current research does not support CBD as a safe or effective way to manage eye pressure, and notes that the American Academy of Ophthalmology has warned CBD may raise it, partly on the basis of a 2018 mouse study. The initial pressure rise in the new study is consistent with that concern; the later fall is the new finding. We covered an earlier glaucoma result in our 8 November research round-up.",
+    "## CBD and a rare mitochondrial disorder",
+    "The third study, published on 5 November in Biochemical and Biophysical Research Communications by researchers at the University of Waterloo, looked at Barth syndrome, a rare genetic disorder caused by mutations in the TAFAZZIN gene that can affect the heart, muscles and immune system. The team examined immune cells derived from boys aged seven to 10, with and without the disorder, under an electron microscope, the Herald reported.",
+    "Untreated cells from boys with Barth syndrome had unusually large mitochondria. After CBD treatment, the share of abnormally large mitochondria fell from 18.2% to 2%, and average size came back to levels seen in healthy cells. The researchers point to a possible mechanism: a protein involved in mitochondrial division, DRP1, carried nearly three times the normal level of an inhibiting chemical tag in the disease cells, and CBD brought that close to normal. CBD did not restore the length of the cristae, the inner membrane folds where energy is produced. The work builds on a March study by the same group.",
+    "## What to watch",
+    "The British estimate is likely to feed into UK debate on treatment services: the authors suggest stop-smoking and employment services may be well placed to reach frequent users. For the two CBD studies, the next step that matters is human research. The glaucoma result would need trials in people, and an independent replication given the funder's patent interest. The Barth syndrome findings come from cells in a dish, and the authors' own data show CBD did not fix every abnormality. None of these studies is a basis for treatment decisions."
+  ],
+  "sources": [
+    {
+      "name": "University of Bath",
+      "url": "https://www.bath.ac.uk/announcements/1-2-million-people-in-great-britain-estimated-to-use-cannabis-every-day-or-nearly-every-day/"
+    },
+    {
+      "name": "King's College London",
+      "url": "https://www.kcl.ac.uk/news/1.2-million-people-in-great-britain-estimated-to-use-cannabis-every-day-or-nearly-every-day"
+    },
+    {
+      "name": "Addiction (DOI 10.1111/add.70614)",
+      "url": "https://doi.org/10.1111/add.70614"
+    },
+    {
+      "name": "King's College London research portal: study record",
+      "url": "https://kclpure.kcl.ac.uk/portal/en/publications/86f420d5-2e4d-448f-b8ee-b9a06e2a1471"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-cbd-eye-drops-produce-sustained-reductions-in-eye-pressure-in-glaucoma-model/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-cbd-reverses-abnormal-mitochondrial-enlargement-associated-with-rare-genetic-disorder/"
+    },
+    {
+      "name": "Glaucoma Research Foundation",
+      "url": "https://glaucoma.org/articles/cbd-and-glaucoma"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/science-pain-glaucoma/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "1.2M",
+    "label": "estimated daily or near-daily users in Great Britain"
+  },
+  "banner": {
+    "title": "1.2 Million Daily Users in Britain",
+    "highlight": [
+      "1.2",
+      "Million"
+    ],
+    "sub": "Plus: early CBD results in mice and cells, not patients",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "25,537 adults surveyed"
+      },
+      {
+        "icon": "flask",
+        "text": "CBD drops tested in mice"
+      },
+      {
+        "icon": "flask",
+        "text": "Barth cells: 18.2% to 2%"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "UK",
+      "CBD",
+      "RESEARCH"
+    ]
+  },
+  "tags": [
+    "Research",
+    "United Kingdom",
+    "CBD",
+    "Glaucoma"
+  ],
+  "image_prompt": "Premium product still life: a glass laboratory dropper bottle of golden CBD oil on a dark surface beside a small porcelain teacup as a British signal, soft violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A dropper bottle of golden oil beside a porcelain teacup",
+  "breaking": false
+}

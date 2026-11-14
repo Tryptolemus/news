@@ -1,0 +1,114 @@
+{
+  "id": "florida-medical-flower-190-million-grams",
+  "edition": "2026-11-14-pm",
+  "rank": 3,
+  "published": "2026-11-14T18:15:00+02:00",
+  "cat": "States",
+  "headline": "Florida medical cannabis flower sales reach 190 million grams in 2026",
+  "dek": "Florida's 13 November data show 190 million grams of medical flower sold in 2026, Trulieve near 35% of the latest week and Green Dragon at 74 stores.",
+  "key_points": [
+    "Florida patients bought about 189.9 million grams of smokable cannabis and 19.38 billion milligrams of THC in other products from 1 January to 12 November, per the state's weekly figures.",
+    "Trulieve dispensed about 35% of the week's flower and over 28% of THC in other products, from 171 locations.",
+    "Green Dragon's store count jumped from 41 to 74 and FLUENT's fell to zero after the 9 November takeover closed.",
+    "Active patients stood at 943,852, just below the 6 November record and about 6,150 short of 950,000."
+  ],
+  "body": [
+    "Florida's medical cannabis market has passed 190 million grams of flower sales for the year, or close to it. Figures from the Office of Medical Marijuana Use (OMMU), compiled by The Marijuana Herald from the state's 13 November weekly update, show patients bought about 189.89 million grams of smokable cannabis from 1 January to 12 November, along with 19.38 billion milligrams of THC in edibles, vapes, oils and other products.",
+    "The same update shows the first full effect of a big ownership change: Green Dragon's store count nearly doubled after Vireo Growth's purchase of FLUENT's Florida assets closed on 9 November, while FLUENT is now listed with no locations.",
+    "## The week in numbers",
+    "Licensed treatment centres dispensed 151,800.572 ounces of flower and 440.6 million milligrams of THC between 6 and 12 November, according to the report. The flower total works out to about 4.3 million grams in seven days. Both figures fell slightly from the week before, by about 2.8% for flower and 1.9% for THC, but stayed above the levels of two weeks earlier, the Herald reported.",
+    "Year to date, flower sales stand at 6,680,431.588 ounces. Since the Herald's previous tally on 30 October, patients bought about 8.73 million more grams of flower and nearly 890 million more milligrams of THC. At the current pace, the state is on course to pass 200 million grams in early December.",
+    "MetaFlora's own arithmetic puts the year in context. The 316 days from 1 January to 12 November are about 45 weeks, which means the average week this year has seen roughly 4.2 million grams of flower sold, very close to the latest week. Spread across the 943,852 active patients, year-to-date flower purchases come to about 200 grams per patient. That is a simple average: many patients buy no flower at all and use other products.",
+    "> Florida's medical market runs at a steady four million grams of flower a week, and one company sells about a third of it.",
+    "## Who sells it",
+    "Trulieve remains far ahead. It dispensed 52,757.237 ounces of flower and 124.9 million milligrams of THC in the week, from 171 locations. That is about 35% of all flower sold and more than 28% of THC in other products, the Herald calculated.",
+    "Behind it, the order depends on the product. In THC products other than flower, MÜV ranked second with 52.2 million milligrams across 88 locations, followed by Curaleaf with 49.0 million across 80 locations and Ayr Cannabis Dispensary with 35.0 million across 65. In flower, Curaleaf was second with 17,567.257 ounces, then MÜV with 16,328.514 and Green Dragon with 9,798.490.",
+    "## Green Dragon absorbs FLUENT",
+    "The weekly report is the first to reflect the end of FLUENT as a Florida retail brand. Green Dragon's listed dispensing locations rose from 41 to 74 in a week, while FLUENT, which had 33 locations, dropped to zero. The OMMU notes that FLUENT's reported sales for the week cover only 6 to 9 November. As we reported on 9 November, Vireo Growth closed its FLUENT deal that day, taking it to about 74 Florida stores. The new figures match that count.",
+    "Across the state there are now 791 dispensing locations, up from 789 a week earlier and 786 two weeks ago. Regulators approved five more over the past fortnight: Bloom Dispensary in Palm Harbor, MÜV in Fernandina Beach and Daytona Beach, The Flowery in Wilton Manors and Trulieve in Tampa.",
+    "## Patients hold near a record",
+    "The number of qualified patients with active ID cards was 943,852, a touch below the record 943,905 reported on 6 November. The programme is about 6,150 patients short of 950,000. Florida allows medical sales only, through vertically integrated treatment centres that grow, process and sell their own products and also run delivery services.",
+    "## What to watch",
+    "The next OMMU weekly updates will show whether flower sales cross 200 million grams in early December, as the current pace suggests, and whether the patient count breaks 950,000. Watch Green Dragon's first full week with all 74 stores, which will show whether Vireo Growth can lift FLUENT's former locations, and Trulieve's share, which has held around a third of flower sales. Florida's medical market is not covered by the 11 December federal hemp cap, but hemp shops that compete with dispensaries for some customers are, and that could shift demand toward licensed stores in the weeks after."
+  ],
+  "sources": [
+    {
+      "name": "Florida Office of Medical Marijuana Use: weekly updates",
+      "url": "https://knowthefactsmmj.com/about/weekly-updates/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/florida-medical-marijuana-190-million-grams/"
+    },
+    {
+      "name": "Reason",
+      "url": "https://reason.com/2026/11/14/95-of-hemp-products-could-soon-be-illegal-floridas-small-businesses-are-feeling-the-fallout/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/09/vireo-fluent-closing/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.2,
+      0.32,
+      0.45,
+      0.57,
+      0.68,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "big": "190M g",
+    "label": "Florida medical flower sold in 2026 so far"
+  },
+  "banner": {
+    "title": "Florida Nears 190M Grams",
+    "highlight": [
+      "190M"
+    ],
+    "sub": "Trulieve holds a third; Green Dragon takes FLUENT stores",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "4.3M grams in one week"
+      },
+      {
+        "icon": "pin",
+        "text": "791 dispensing sites"
+      },
+      {
+        "icon": "leaf",
+        "text": "943,852 patients"
+      }
+    ],
+    "corner": [
+      "FLORIDA",
+      "MEDICAL",
+      "SALES",
+      "DATA"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-20",
+      "text": "Next Florida OMMU weekly update expected, with Green Dragon's first full week at 74 stores"
+    }
+  ],
+  "tags": [
+    "Florida",
+    "Medical cannabis",
+    "Market data",
+    "Trulieve",
+    "Curaleaf",
+    "Vireo Growth",
+    "FLUENT"
+  ],
+  "image_prompt": "Premium product still life: a tall glass apothecary jar filled with cannabis flower on a dark surface, beside a single orange with its leaf as a Florida signal, soft violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A tall jar of cannabis flower next to an orange with a leaf",
+  "x_post": "Florida medical patients have bought about 190 million grams of flower in 2026, per state data. Trulieve sold about 35% of last week's flower, and Green Dragon now runs 74 stores after FLUENT.",
+  "breaking": false
+}
