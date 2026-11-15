@@ -1,0 +1,60 @@
+{
+  "id": "science-colorado-cannabis-labels-worker-safety",
+  "edition": "2026-11-15-am",
+  "rank": 4,
+  "published": "2026-11-15T06:09:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: only 1 in 7 Colorado products carry full labels",
+  "dek": "A CU Boulder audit of 480 dispensary products found most labels missing a required item, and a CDC-funded Oklahoma study will look at cannabis workers' health.",
+  "key_points": [
+    "University of Colorado Boulder researchers bought 480 adult-use products at 52 Colorado dispensaries; only 14% carried every item the state requires on the label.",
+    "Over 99% showed the THC symbol and about 97% carried driving and pregnancy warnings, but only about 51% had an expiration date, and only half of flower products listed THC accurately.",
+    "Pre-rolls fared worst: 60% contained less THC than their labels said, while concentrates were the most accurately labelled.",
+    "Separately, a University of Oklahoma researcher won a CDC occupational health award to study exposures among cannabis cultivation and processing workers."
+  ],
+  "body": [
+    "Two pieces of research this week looked at the legal cannabis industry from the inside: what is printed on the products, and what happens to the people who make them. A team at the University of Colorado Boulder found that most adult-use products sold in Colorado dispensaries were missing at least one piece of required label information, Gizmodo reported on 13 November. And in Oklahoma, a public health researcher received a federal occupational safety award to study health risks among cannabis industry workers, News9 reported on 12 November.",
+    "Neither study changes any rules today. But both go to the core of what regulated markets promise over the illicit trade: products that are tested and labelled correctly, made in workplaces that are safe.",
+    "## What the Colorado audit found",
+    "The CU Boulder team, working with licensed cannabis company MedPharm Holdings, sent a secret shopper to buy 480 products at 52 dispensaries across Colorado, from pre-rolled joints to high-potency concentrates. Medical cannabis and edibles were not included. The results, published in the Journal of Cannabis Research in August and described in a university statement this week, were mixed, according to Gizmodo's account.",
+    "The headline warnings were nearly universal: more than 99% of products carried the universal THC symbol, and about 97% had the required warnings on driving and pregnancy. But only just over 51% had an expiration date, and only 14% had every item the state requires on the label. Lead author Grace Macdonald, a research assistant at the university's Center for Health and Neuroscience, Genes and Environment, called compliance on flower especially poor.",
+    "Potency was the bigger problem for flower. Only half of flower products listed THC content that matched lab testing, and pre-rolls were often weaker than stated: 60% had less THC than the label claimed. Concentrates were the bright spot, more likely to carry expiration dates and THC figures that matched the lab results.",
+    "> A THC number on the label is only useful if it is right. For flower, the most-sold product, it is right only about half the time.",
+    "## The pattern behind it",
+    "This is the same team's second label study. In July 2025, CU Boulder reported that 44% of 178 flower products bought from 52 Colorado dispensaries failed the state's 15% accuracy standard for THC, most of them overstating it, while 96% of concentrates were accurate. That study was published in Scientific Reports and funded by Colorado's Institute of Cannabis Research. The researchers said then that flower is harder to test because plant material varies, unlike the uniform oils in concentrates, and that small changes in testing practice could reduce mislabelling. Earlier research in other states has suggested some labs inflate THC results to win business from brands that sell on potency.",
+    "The new audit broadens the picture from potency to the whole label. Taken together, the two studies suggest Colorado's concentrate supply chain is in good shape, while flower and pre-rolls, the biggest-selling categories, carry the most risk of misleading buyers about what they are getting. Accurate potency matters for medical users managing a dose and for recreational users who may get more THC than they expected.",
+    "## Oklahoma: who protects the workers?",
+    "In Oklahoma, Hongwan Li, an assistant professor in the University of Oklahoma's Hudson College of Public Health, has received an R21 award from the CDC's National Institute for Occupational Safety and Health to study workplace exposures in cannabis cultivation, processing and related work across the state, News9 reported. The project builds on earlier pilot research and aims to find ways to reduce health risks and improve safety practices.",
+    "NIOSH's own guidance lists a wide range of potential hazards in the industry: carbon dioxide, ozone, pesticides and volatile organic compounds; allergens, endotoxins and microbes from plant material; heat, noise and ultraviolet light; and fire, explosion and electrical risks in extraction. The agency has published a framework calling for more research on what health effects cannabis workers actually experience.",
+    "Oklahoma is a fitting place to look. It built one of the country's largest medical cannabis industries with no cap on licences, and its own enforcement officials now describe abandoned grows and banned pesticides, as a separate story in this edition reports.",
+    "## What to watch",
+    "In Colorado, watch whether the Marijuana Enforcement Division responds to the label findings with guidance or audits, particularly on expiration dates and flower potency. The CU Boulder team said in 2025 that it planned to audit edible labels too, a category neither study has yet covered. In Oklahoma, the NIOSH project's first findings will be among the few federally funded data on cannabis worker health."
+  ],
+  "sources": [
+    {"name": "Gizmodo: Scientists bought 480 legal weed products; most labels were missing something", "url": "https://gizmodo.com/scientists-bought-480-legal-weed-products-most-labels-were-missing-something-2000839701"},
+    {"name": "CU Boulder Today: Can weed labels be trusted? Study shows it depends on what you're buying (2025)", "url": "https://www.colorado.edu/today/2025/07/03/can-weed-labels-be-trusted-study-shows-it-depends-what-youre-buying"},
+    {"name": "News9: OU researcher receives CDC award to study health risks in Oklahoma's cannabis industry", "url": "https://news9.com/oklahoma-city-news/researcher-study-health-risks-oklahoma-cannabis-industry"},
+    {"name": "CDC NIOSH: Cannabis workplace safety and health hazards", "url": "https://www.cdc.gov/niosh/cannabis/about/index.html"}
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "14%",
+    "label": "Colorado products with every required label item"
+  },
+  "banner": {
+    "title": "Most Cannabis Labels Fall Short",
+    "highlight": ["Labels"],
+    "sub": "CU Boulder audits 480 Colorado dispensary products",
+    "divider": "Research desk",
+    "points": [
+      {"icon": "flask", "text": "Only 14% fully labelled"},
+      {"icon": "doc", "text": "51% show expiry dates"},
+      {"icon": "shield", "text": "CDC funds worker study"}
+    ],
+    "corner": ["SCIENCE", "LABELS", "TESTING", "SAFETY"]
+  },
+  "tags": ["Research", "Testing", "Product safety", "Colorado", "Oklahoma", "Cannabis employment"],
+  "image_prompt": "Premium product still life: a small glass jar of green cannabis flower with a blank white label tag tied to it with string, beside a laboratory glass test tube in a metal rack, on a dark slate surface, soft Apple-advert lighting with a faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A jar of cannabis flower with a blank tag tied on, next to a lab test tube in a rack.",
+  "breaking": false
+}
