@@ -1,0 +1,104 @@
+{
+  "id": "science-german-doctors-als-trial-kentucky-cancer",
+  "rank": 6,
+  "cat": "Science",
+  "headline": "Cannabis research: 16% of German doctors surveyed had prescribed it",
+  "dek": "A Frankfurt survey finds most doctors have never prescribed medical cannabis; an ALS trial falls short and Kentucky cancer patients report symptom relief.",
+  "key_points": [
+    "Only 16.3% of 153 German doctors surveyed had ever prescribed medical cannabis, and up to 70% got scenario-based knowledge questions wrong, a study published on 10 November found.",
+    "The doctors blamed paperwork, fear of legal recourse and lack of knowledge about indications, and their views did not shift between 2018 and 2024.",
+    "A small randomised trial of a cannabis extract in ALS, published 11 November, enrolled only 17 people and found no effect on disease progression.",
+    "In Kentucky, 15% of 237 radiation patients reported recent unprescribed cannabis use after diagnosis, most for pain, nausea and anxiety."
+  ],
+  "body": [
+    "Germany has one of the world's largest medical cannabis markets, but a new survey suggests most of its doctors still want nothing to do with prescribing it. In a study published on 10 November in the Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen, researchers at Goethe University Frankfurt found that only 16.3% of the doctors they surveyed had ever prescribed medical cannabis, and that knowledge of how it works and what the law allows was generally low.",
+    "Two other papers this week add context from the clinic: a small randomised trial of a cannabis extract in amyotrophic lateral sclerosis (ALS) that did not show a benefit, and a Kentucky survey of cancer patients using cannabis without a prescription.",
+    "## German doctors: interested, but not prescribing",
+    "Elisabeth Rottmann, Johannes Schulze and Daniela Ohlendorf gave a standard questionnaire to doctors attending an occupational health training seminar in 2018, 2020 and 2024. Of 166 questionnaires handed out, 160 came back and 153 were analysed; the doctors were 40 years old on average, with about equal numbers of women and men, according to the PubMed record.",
+    "About a third, 32.7%, said they had personal experience with cannabis, twice the share that had prescribed it. Interest was not the problem: only 3.7% said they had no interest in medical cannabis. But on questions built around clinical scenarios, up to 70% of participants did not know the right answer. The reasons doctors gave for not prescribing were regulatory, such as heavy documentation and fear of legal recourse, and structural, such as not knowing the indications and worrying about attracting drug users. Knowledge and attitudes did not change across the three survey years.",
+    "The authors call for independent, clinically focused training. The sample is small and drawn from one type of seminar, so the 16.3% figure cannot be read as a national rate, as French outlet Cannabis Thérapeutique also noted.",
+    "> Germany's cannabis boom runs through telemedicine because the average doctor's surgery still opts out.",
+    "## Why it matters for the German market",
+    "The finding fits what the industry describes. Business of Cannabis has reported that German market growth has been driven mainly by telemedicine clinics, and that is exactly the channel Berlin's proposed amendments to the medical cannabis law would restrict by requiring in-person first consultations and banning mail-order supply. It reported on 9 November that the package is stalled in the coalition. If it passes, the reluctance this survey documents among ordinary doctors becomes a direct limit on patient numbers.",
+    "## ALS: a trial too small to answer the question",
+    "The EMERALD trial, published on 11 November in BMJ Neurology Open, randomised people with ALS to a cannabis-based medicine extract or placebo for six months. Recruitment was hit by COVID-19 restrictions and driving limits, so only 17 people enrolled and eight finished treatment, four in each group. At the end, functional scores were 31.67 on the extract and 34.33 on placebo, a difference that was not statistically significant, and there were no significant differences in secondary outcomes.",
+    "Post hoc analyses hinted at possible effects on pain and on executive function, but the authors say these should not be read as evidence of a treatment effect and need properly powered trials. The trial was registered as NCT03690791.",
+    "## Kentucky: cancer patients self-treating",
+    "At the University of Kentucky's Markey Cancer Center, researchers surveyed 237 adults receiving radiation between July 2023 and February 2024 at an urban practice and a rural satellite, using a tablet survey with no staff present. The study, published in The Oncologist, found that 51% had used unprescribed cannabis for medical reasons at some point, and 14.7% had used it recently after their diagnosis, compared with 12.7% before, a difference that was not significant.",
+    "Pain, nausea, anxiety, depression, poor appetite and sleep problems were the main reasons. Of the 35 recent users, 80% reported improvement in their main symptom and nearly 89% in overall quality of life, the university said, and 94% said they would discuss cannabis with their doctors if asked. The lead author cautioned that self-reported data cannot show the cannabis caused the improvement.",
+    "## What to watch",
+    "In Germany, watch whether the coalition revives the medical cannabis law amendments before year-end; the survey gives both sides material, as evidence of low prescriber knowledge and of why telemedicine filled the gap. For clinicians, the Kentucky and Frankfurt results point the same way: patients are using cannabis whether or not their doctors are ready to talk about it."
+  ],
+  "sources": [
+    {
+      "name": "PubMed: Rottmann et al., Z Evid Fortbild Qual Gesundhwes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43009399/"
+    },
+    {
+      "name": "BMJ Neurology Open via PMC: EMERALD trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13756276/"
+    },
+    {
+      "name": "University of Kentucky (UKNow)",
+      "url": "https://uknow.uky.edu/research/cancer-patients-say-cannabis-improves-symptoms-study-finds"
+    },
+    {
+      "name": "The Oncologist (DOI)",
+      "url": "https://doi.org/10.1093/oncolo/oyag370"
+    },
+    {
+      "name": "Cannabis Thérapeutique",
+      "url": "https://cannabistherapeutique.com/business-cannabis-semaine-9-13-novembre-2026/"
+    },
+    {
+      "name": "Business of Cannabis",
+      "url": "https://businessofcannabis.com/we-hear-about-the-abuse-we-dont-see-the-data-german-cannabis-industry-challenges-berlins-case-for-restrictions/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "16.3%",
+    "label": "German doctors surveyed who had prescribed"
+  },
+  "banner": {
+    "title": "Few German Doctors Prescribe",
+    "highlight": [
+      "German",
+      "Doctors"
+    ],
+    "sub": "Frankfurt survey; ALS trial too small; Kentucky patients",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "153 doctors surveyed"
+      },
+      {
+        "icon": "doc",
+        "text": "ALS trial: 17 enrolled"
+      },
+      {
+        "icon": "chart",
+        "text": "80% report relief in KY"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "MEDICAL",
+      "GERMANY",
+      "RESEARCH"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Germany",
+    "Medical cannabis",
+    "Kentucky"
+  ],
+  "image_prompt": "Premium product still life: a doctor's stethoscope coiled beside a blank prescription pad and a small amber glass dropper bottle of cannabis oil on a white marble surface, dark background on the left, soft clinical studio light from the right with faint violet edge light, no text, no people",
+  "image_alt": "A stethoscope, a blank prescription pad and an amber cannabis oil bottle on marble",
+  "breaking": false,
+  "edition": "2026-11-15-pm",
+  "published": "2026-11-15T18:10:00+02:00"
+}

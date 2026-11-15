@@ -1,0 +1,109 @@
+{
+  "id": "california-calhr-random-cannabis-testing-corrections",
+  "rank": 3,
+  "cat": "States",
+  "headline": "California moves to drop cannabis from random tests of state workers",
+  "dek": "CalHR's proposed rule would end random THC tests in sensitive state jobs, including prison managers, keeping oral fluid tests for suspected impairment.",
+  "key_points": [
+    "California's Department of Human Resources proposed on 13 November to remove marijuana from random drug tests for state employees in sensitive positions.",
+    "Testing for THC would remain when a supervisor has reasonable suspicion of impairment, using oral fluid tests that detect recent use.",
+    "The change extends to corrections managers what a labour deal already gave rank-and-file prison officers, and aligns the rule with the state's 2024 off-duty cannabis law.",
+    "Public comments close at midnight on 28 December 2026."
+  ],
+  "body": [
+    "California's state personnel agency wants to stop randomly testing its own workers for marijuana. The Department of Human Resources (CalHR) published a proposed amendment on 13 November that would strike marijuana from the random drug-testing panel for state employees in sensitive positions, while keeping the option to test for active THC when a supervisor suspects someone is impaired on the job.",
+    "The change is aimed most directly at managers in the state prison system. A labour agreement for rank-and-file correctional officers already removed marijuana from their random tests; the new rule would give their supervisors and other excluded and exempt peace officers in the corrections department the same treatment, and bring the regulation into line with state law on off-duty cannabis use.",
+    "## What the rule changes",
+    "Today, the list of substances in section 599.963 of the state's civil service rules is the same for random testing and for reasonable-suspicion testing, and marijuana is on both, according to CalHR's notice. The proposal splits that into two lists. Random tests would still cover drugs such as amphetamines, cocaine, opiates and alcohol, but not marijuana, cannabisnews.org reported from the proposed text. Reasonable-suspicion tests would keep a cannabis entry limited to psychoactive THC.",
+    "The rule also adds oral fluid testing as an accepted method and points to federal SAMHSA cutoff levels for cannabis. CalHR's statement of reasons says urine tests, the traditional method, detect only nonpsychoactive metabolites that can linger long after any effect has worn off, and that oral fluid testing is the method that can show recent use. It adds that an oral fluid result will not be used on its own as proof of impairment; it follows observed and documented conduct.",
+    "## Why now",
+    "The legal driver is Assembly Bill 2188, signed by Governor Gavin Newsom in 2022 and in force since 1 January 2024. It bars most California employers from penalising workers for cannabis use off the job, or for drug tests that find only nonpsychoactive metabolites. CalHR's notice says its own regulation conflicts with that law, now codified in Government Code section 12954.",
+    "The immediate trigger was bargaining. The memorandum of understanding for Bargaining Unit 6, which covers officers who guard and supervise people in state custody, eliminated marijuana from random testing, The Marijuana Herald reported; the agreement runs through July 2028. During those talks, CalHR and the corrections department agreed the same protection should cover affiliated managers, but the regulation still requires random testing for them.",
+    "> California is now applying its own off-duty cannabis law to the people who run its prisons.",
+    "## Costs and limits",
+    "CalHR says the change will have minimal cost, because the expense of oral fluid tests for suspected impairment will be offset by dropping marijuana from random screens, according to the Herald. The proposal does not allow anyone to use, possess or be impaired by cannabis at work, and AB 2188 itself keeps exceptions for jobs where federal law requires drug testing.",
+    "## The wider picture",
+    "AB 2188 took effect nearly three years ago, and the state's own testing rule is only now catching up with it. As agencies rewrite testing standards, the practical shift is from asking whether someone has ever used cannabis to asking whether they are impaired now, which is the question oral fluid tests are designed to answer.",
+    "For cannabis businesses, this is a signal rather than a market event: the government of the largest legal market is formally separating past use from present impairment in its own workforce. Employers in newly legal states face the same question.",
+    "## What to watch",
+    "Written comments are due by midnight on 28 December 2026. CalHR has not scheduled a hearing but will hold one if anyone requests it in writing at least 15 days before the comment period closes, which by MetaFlora's count means by 13 December. If CalHR substantially changes the text, it must publish the revision for at least 15 more days of comment. Watch whether other state agencies and large public employers move to separate random and suspicion-based cannabis testing in the same way."
+  ],
+  "sources": [
+    {
+      "name": "California Department of Human Resources",
+      "url": "https://www.calhr.ca.gov/2026/11/13/proposed-amendment-to-substance-testing-regulations/"
+    },
+    {
+      "name": "CalHR notice of proposed action (PDF)",
+      "url": "https://www.calhr.ca.gov/wp-content/uploads/sites/361/2026/11/For-Posting-11.13.26-FINAL-NOPA-599.963-THC-Testing-Standards-rev-11.5.26rt.pdf"
+    },
+    {
+      "name": "CalHR initial statement of reasons (PDF)",
+      "url": "https://www.calhr.ca.gov/wp-content/uploads/sites/361/2026/11/For-Posting-11.13.26-Final-ISOR-THC-Testing-Standards-rev-10.13.26-004-Copy.pdf"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/california-proposes-ending-random-marijuana-testing-for-state-corrections-officers-expanding-off-duty-use-protections/"
+    },
+    {
+      "name": "Cannabisnews.org",
+      "url": "https://www.cannabisnews.org/united-states-cannabis-news/california-calhr-marijuana-random-drug-testing-state-employees-oral-fluid-thc/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "big": "28 Dec",
+    "label": "comment deadline on CalHR's testing rule",
+    "mon": "DEC",
+    "day": "28"
+  },
+  "banner": {
+    "title": "California Ends Random THC Tests",
+    "highlight": [
+      "THC",
+      "Tests"
+    ],
+    "sub": "CalHR proposes rule; prison managers would be covered",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Proposed, not final"
+      },
+      {
+        "icon": "drop",
+        "text": "Oral fluid if impaired"
+      },
+      {
+        "icon": "pin",
+        "text": "Comments close 28 Dec"
+      }
+    ],
+    "corner": [
+      "CALIFORNIA",
+      "WORKPLACE",
+      "TESTING",
+      "POLICY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-13",
+      "text": "Last day to request a public hearing on CalHR's cannabis testing rule"
+    },
+    {
+      "date": "2026-12-28",
+      "text": "Comment period closes on California's proposal to end random THC testing of state workers"
+    }
+  ],
+  "tags": [
+    "California",
+    "Cannabis employment"
+  ],
+  "image_prompt": "Premium product still life: a sealed laboratory specimen tube and a clean oral fluid test swab in a clear case lying on brushed steel, a small sprig of cannabis leaf beside them, a California poppy flower as accent, dark background on the left, soft studio light from the right with faint violet edge light, no text, no people",
+  "image_alt": "A specimen tube and test swab on steel beside a cannabis leaf and a California poppy",
+  "x_post": "California proposes ending random cannabis tests for state workers in sensitive jobs, including prison managers. THC tests would stay only on suspicion of impairment, using oral fluid. Comments close 28 December.",
+  "breaking": false,
+  "edition": "2026-11-15-pm",
+  "published": "2026-11-15T18:10:00+02:00"
+}
