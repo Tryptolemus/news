@@ -1,0 +1,103 @@
+{
+  "id": "science-endometriosis-funding-lebanese-extract",
+  "edition": "2026-11-16-pm",
+  "rank": 8,
+  "published": "2026-11-16T18:11:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: Charité team seeks €300,000 for endometriosis work",
+  "dek": "A Charité endometriosis expert asks industry to fund cannabinoid research; a Lebanese lab tests an extract on cancer cells; a digital trial tests mindfulness.",
+  "key_points": [
+    "Prof. Sylvia Mechsner of Berlin's Charité asked cannabis companies for €300,000 for basic research on cannabinoids in endometriosis, saying surveys will not get cannabis into clinical guidelines.",
+    "Her team's 30-patient pilot of an oral THC:CBD extract, published in PLOS One in September, had no placebo group, so it cannot show how much of the reported improvement came from cannabis.",
+    "A Lebanese laboratory study found a cannabis oil extract killed lung and breast cancer cells in dishes at lower doses than it harmed comparison stem cells; it did not test people.",
+    "In a 301-person randomised trial, adding mindfulness to a digital self-help programme was linked to fewer cannabis use days at six months, though only about a third of participants stayed to the end."
+  ],
+  "body": [
+    "This evening's research round-up has a common thread: how much the evidence can and cannot say. A leading endometriosis researcher told the cannabis industry it must pay for placebo-controlled trials if it wants its products in medical guidelines. A new laboratory paper from Lebanon reports effects of a cannabis extract on cancer cells, with all the limits of dish-based work. And a randomised digital trial tested whether mindfulness helps frequent users cut back. None of these studies support any treatment claim; each shows where the science stands.",
+    "## Endometriosis: a call for industry money",
+    "At the first Cannabis Health Symposium in Germany, held in Frankfurt on 4 November, Prof. Sylvia Mechsner, who leads the endometriosis centre at Berlin's Charité university hospital, asked cannabis companies to fund €300,000 of basic research into how cannabinoids interact with the tissue and nerves affected by endometriosis, Cannabis Health reported on 16 November. The condition affects an estimated 2 million women in Germany, according to the report, and patients can wait eight to ten years for a diagnosis.",
+    "Mechsner described her group's path so far. A survey she co-authored, published in Archives of Gynecology and Obstetrics in 2024, covered 912 women with endometriosis in Germany, Austria and Switzerland; among the 114 who used cannabis, about nine in ten reported better sleep and less menstrual pain. That led to a pilot study, published in PLOS One in September 2026, in which 30 women whose pain had not responded to treatment took an oral extract with equal THC and CBD for three months alongside their usual care; 27 completed it. The researchers reported less pain and less use of other painkillers.",
+    "But Mechsner herself stressed the gap. Without a placebo group, the pilot cannot show how much of the change was due to cannabis. Her message to industry was that surveys will not get cannabis into clinical guidelines and that randomised controlled trials are needed. Dr Shabnam Sarshar, founder of the women's health platform The Recalibration, urged companies to commit real budgets rather than marketing.",
+    "> If the medical cannabis industry wants a place in clinical guidelines, it will have to fund the placebo-controlled trials that guidelines demand.",
+    "## Lebanon: an oil extract against cancer cells in the lab",
+    "Researchers at the Lebanese American University tested a Lebanese cannabis oil extract on human lung cancer cells (A549) and triple-negative breast cancer cells (MDA-MB-231), in a paper in Integrative Cancer Therapies reported by The Marijuana Herald on 15 November. The extract cut cell viability by half at 26.7 micrograms per millilitre for the breast cancer cells and 30.2 for the lung cancer cells, against 42.31 for rat stem cells used as a comparison. That means the cancer cells were somewhat more sensitive, but the margin was modest.",
+    "At 20 and 40 micrograms per millilitre the extract increased programmed cell death in both lines, raised the proteins BAX and cleaved caspase-3 and lowered Bcl-2, the authors reported, pointing to the cell's own intrinsic death pathway. It also slowed cell migration in a scratch test, more so in the lung cells, and caused large bubbles to form inside the cells. An earlier university thesis by one of the authors profiled what appears to be a similar extract as CBD-dominant, at 59.1% CBD to 20.2% THC.",
+    "This is cell-culture work. It used no animals or people, and doses in a dish do not translate into doses in a body. The findings describe what happens inside cells, not whether the extract would treat anyone.",
+    "## Mindfulness and cutting back",
+    "A three-arm randomised trial in Internet Interventions, published on 3 November, tested a fully automated digital self-help programme for frequent cannabis users called CANreduce. Researchers randomised 301 adults to a version with mindfulness added to cognitive behavioural therapy, a standard CBT-only version, or a waitlist control.",
+    "At six weeks both active versions reduced cannabis use days compared with control. At six months only the mindfulness version kept the effect: users reported about half as many use days as the CBT-only group and the control group, with larger improvements in depression and anxiety scores. The authors warn that retention was low, at 51.8% at six weeks and 31.6% at six months, so the results depend on assumptions about the people who dropped out.",
+    "## What to watch",
+    "Whether any company answers Mechsner's funding call, and whether a placebo-controlled endometriosis trial is registered. Women's health returns to the agenda at the Cannabis Health Symposium in London on 26 November. For lab findings like the Lebanese study, the next step would be animal work and, much later, controlled trials in people."
+  ],
+  "sources": [
+    {
+      "name": "Cannabis Health",
+      "url": "https://cannabishealthnews.co.uk/2026/11/16/we-should-do-better-cannabis-industry-urged-to-fund-research-into-womens-pain/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-marijuana-oil-extract-inhibits-lung-and-breast-cancer-cells-induces-cell-death/"
+    },
+    {
+      "name": "Integrative Cancer Therapies abstract (JoVE index)",
+      "url": "https://visualize.jove.com/43034904-lebanese-cannabis-oil-extract-exhibits-anticancer-effects-and-induces-apoptotic-signaling-and-cytoplasmic-vacuolization-in-lung-and-breast-cancer-cells"
+    },
+    {
+      "name": "Lebanese American University repository",
+      "url": "https://laur.lau.edu.lb:8443/xmlui/handle/10725/13662"
+    },
+    {
+      "name": "Internet Interventions (PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13756303/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "€300K",
+    "label": "sought for endometriosis cannabinoid research"
+  },
+  "banner": {
+    "title": "Pay for the Trials",
+    "highlight": [
+      "Trials"
+    ],
+    "sub": "Charité's Sylvia Mechsner asks industry for €300,000",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Pilot had no placebo"
+      },
+      {
+        "icon": "flask",
+        "text": "Cancer work in dishes only"
+      },
+      {
+        "icon": "chip",
+        "text": "Digital trial: 301 users"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "WOMEN",
+      "EVIDENCE",
+      "TRIALS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-26",
+      "text": "Cannabis Health Symposium in London, with a women's health panel"
+    }
+  ],
+  "tags": [
+    "Research",
+    "Germany",
+    "Pain",
+    "Mental health",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Premium product still life: a glass laboratory petri dish and a small amber dropper bottle with no label beside a single fresh cannabis leaf on a white lab bench surface, dark background on the left, soft studio light from the right with faint violet edge light, no text, no logos, no people",
+  "image_alt": "A petri dish and an amber dropper bottle beside a cannabis leaf on a lab bench",
+  "breaking": false
+}

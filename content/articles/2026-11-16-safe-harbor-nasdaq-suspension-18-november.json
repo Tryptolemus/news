@@ -1,0 +1,115 @@
+{
+  "id": "safe-harbor-nasdaq-suspension-18-november",
+  "edition": "2026-11-16-pm",
+  "rank": 3,
+  "published": "2026-11-16T18:11:00+02:00",
+  "cat": "Markets",
+  "headline": "Nasdaq to suspend Safe Harbor on 18 November as share count balloons",
+  "dek": "The cannabis banking firm registered 115.7 million shares for resale after preferred conversions at $0.121 lifted its share count from 1 million to 132 million.",
+  "key_points": [
+    "Nasdaq will suspend trading in Safe Harbor Financial's stock and warrants on 18 November after the shares closed at or below $0.10 for ten straight trading days; an appeal will not stop the suspension.",
+    "On 13 November the company filed to register 115.7 million shares for resale, almost all of them from Series B preferred stock converted at $0.121 a share.",
+    "A 1-for-12 reverse split on 30 September triggered a price reset that cut the conversion price from $18.6336 to $0.121, and shares outstanding rose from about 1.03 million to 132.2 million by 6 November.",
+    "Safe Harbor has helped process more than $38.7 billion in cannabis-related deposits since 2015, so its slide matters for an industry that still lacks federal banking protection."
+  ],
+  "body": [
+    "One of the few listed companies built to bank the cannabis industry is about to lose its Nasdaq listing. Safe Harbor Financial, which trades as SHF Holdings under the ticker SHFS, disclosed that Nasdaq has decided to delist its common stock and warrants after the share price closed at or below $0.10 for ten consecutive trading days. Trading is set to be suspended on Wednesday, 18 November, and the company has said a request for a hearing would not pause that.",
+    "A day after that disclosure, on Friday 13 November, Safe Harbor filed a registration statement with the SEC covering the possible resale of 115,705,691 shares, The Marijuana Herald reported. Nearly all of them came from the conversion of preferred stock at about 12 cents a share. The two filings together tell the story of how a reverse stock split meant to save the listing ended up flooding the market with new shares instead.",
+    "## How a reverse split backfired",
+    "Safe Harbor carried out a 1-for-12 reverse split on 30 September to meet Nasdaq's $1.00 minimum bid rule, according to a shareholder letter from chief executive and chief financial officer Terrance Mendez released on 9 November. The split triggered a price-reset clause in the company's Series B convertible preferred stock. On 22 October the conversion price dropped from $18.6336 to $0.121, the Herald reported.",
+    "Holders converted quickly. Between 22 October and 6 November they turned 19,529 preferred shares into 131,219,818 common shares, the company's letter said. Shares outstanding went from 1,028,702 on 30 September to 132,248,520 on 6 November. By MetaFlora's calculation that is roughly 128 times as many shares in five weeks. As of 6 November, 7,605 preferred shares were still outstanding, convertible into up to about 62.9 million more common shares.",
+    "> The reverse split was meant to lift the share price above $1. The reset clause turned it into a dilution engine instead.",
+    "## What the new filing covers",
+    "The 13 November registration covers 115,417,259 shares linked to Series B conversions at $0.121 and 288,432 shares tied to warrants held by Partner Colorado Credit Union, which carry an exercise price of $18.6336, according to the Herald. Safe Harbor receives nothing when existing investors resell their shares. It could collect about $5.3 million if the credit union exercised all of its warrants for cash, which at the current share price is unlikely.",
+    "Registering shares for resale lets the preferred holders sell freely into the market, which adds supply to a stock already trading near a dime.",
+    "## Why Nasdaq acted early",
+    "Nasdaq had actually given Safe Harbor more time. On 20 October it granted a second 180-day period, to 19 April 2027, to get back above $1.00, the company said. But Nasdaq rules carve out an exception: if a stock closes at $0.10 or less for ten consecutive business days, Nasdaq issues a delisting decision regardless of any remaining grace period. In its 9 November letter the company warned the stock had already closed below $0.10 on eight straight days. The tenth followed.",
+    "Safe Harbor said it would consider a further reverse split, which needs shareholder approval. It also warned that its stock would likely move to over-the-counter quotation and might not qualify for the OTCQB market, leaving OTC Pink. A five-day trading suspension also triggers payments of about $300,000 to Series B holders for every 30-day period until the problem is fixed, the Herald reported from the company's filing.",
+    "## A cannabis banking bellwether",
+    "Safe Harbor's business is helping credit unions and banks serve cannabis companies safely. The Herald notes it has helped process more than $38.7 billion in cannabis-related deposits since 2015.",
+    "The company's troubles come as the industry still waits for federal banking protection. A cannabis banking bill cleared a Senate committee in 2023 but never reached the floor, and governors pressed Congress on the issue again this month, Marijuana Moment reported. For now, operators depend on a small number of specialist providers like Safe Harbor, and a weaker provider means fewer options for cash-heavy businesses.",
+    "The listing problem also affects Safe Harbor's plans. The company has said it still intends to pursue a proposed combination with Opifex Media, but its letter noted that deal requires Nasdaq approval of a continued or initial listing, and that a suspension could count as a triggering event under the preferred-stock terms.",
+    "## What to watch",
+    "Trading is set to be suspended at the open on 18 November. Watch for where the shares are quoted next, whether the company requests a Nasdaq hearing, any shareholder vote on another reverse split, how many of the remaining preferred shares convert, and whether the Opifex deal survives. For the cannabis industry, the bigger signal is whether Safe Harbor's banking partners and deposit services continue unchanged after the move off Nasdaq."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/marijuana-banking-company-safe-harbor-files-to-register-nearly-116-million-shares-for-resale-ahead-of-nasdaq-delisting/"
+    },
+    {
+      "name": "Safe Harbor shareholder letter (Nasdaq)",
+      "url": "https://www.nasdaq.com/press-release/safe-harbor-ceo-issues-letter-shareholders-addressing-capital-structure-nasdaq"
+    },
+    {
+      "name": "StreetInsider",
+      "url": "https://www.streetinsider.com/Corporate+News/Safe+Harbor+faces+Nasdaq+delisting+risk+amid+share+dilution/27310553.html"
+    },
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/governors-press-congress-for-cannabis-banking-bill-newsletter-november-11-2026/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.9,
+      0.75,
+      0.6,
+      0.4,
+      0.25,
+      0.12,
+      0.05
+    ],
+    "big": "128x",
+    "label": "rise in Safe Harbor's share count, 30 Sept-6 Nov"
+  },
+  "banner": {
+    "title": "Safe Harbor Leaves Nasdaq",
+    "highlight": [
+      "Nasdaq"
+    ],
+    "sub": "Trading suspension set for 18 November",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "Stock below $0.10"
+      },
+      {
+        "icon": "doc",
+        "text": "115.7M shares registered"
+      },
+      {
+        "icon": "coin",
+        "text": "$38.7B deposits handled"
+      }
+    ],
+    "corner": [
+      "BANKING",
+      "NASDAQ",
+      "DILUTION",
+      "OTC"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-18",
+      "text": "Nasdaq suspends trading in Safe Harbor (SHFS) shares and warrants"
+    },
+    {
+      "date": "2027-04-19",
+      "text": "End of Safe Harbor's original second Nasdaq compliance period"
+    }
+  ],
+  "tags": [
+    "Listings",
+    "Cannabis banking",
+    "Colorado",
+    "SAFER Banking"
+  ],
+  "image_prompt": "Premium product still life: a small steel bank safe deposit box with its lid open beside a neat stack of blank paper share certificates with no text and a single green cannabis leaf, on a dark marble desk, dark background on the left, soft studio light from the right with faint violet edge light, no text, no logos, no people",
+  "image_alt": "An open steel deposit box beside a stack of blank certificates and a cannabis leaf",
+  "x_post": "Cannabis banker Safe Harbor loses its Nasdaq listing on 18 November. A reverse split reset its preferred conversion price to $0.121, and shares outstanding jumped from 1M to 132M in five weeks.",
+  "breaking": false
+}
