@@ -1,0 +1,117 @@
+{
+  "id": "oregon-hb-4142-hospice-rules-hearing",
+  "edition": "2026-11-16-am",
+  "rank": 5,
+  "published": "2026-11-16T06:10:00+02:00",
+  "cat": "States",
+  "headline": "Oregon hears hospice cannabis rules for Ryan's Law on 16 November",
+  "dek": "Oregon's Health Authority takes comment on rules for Ryan's Law, which from 1 January 2027 makes hospice and palliative care a qualifying medical condition.",
+  "key_points": [
+    "The Oregon Health Authority holds a virtual hearing at 9 a.m. Pacific on 16 November on rules carrying out House Bill 4142, known as Ryan's Law; written comments close on 23 November.",
+    "The law adds the need for hospice, palliative care, comfort care or comprehensive pain management to Oregon's list of qualifying medical cannabis conditions from 1 January 2027.",
+    "Designated hospice, palliative and residential care facilities must allow registered patients to use cannabis on site, write handling policies by 30 June 2027 and offer staff training by 31 December 2027.",
+    "The law also bars the state nursing board from disciplining nurses for discussing medical cannabis with patients."
+  ],
+  "body": [
+    "Oregon is writing the rules that will let people in hospice and residential care keep using medical cannabis where they live. The Oregon Health Authority holds a virtual public hearing at 9 a.m. Pacific on 16 November on proposed rules carrying out House Bill 4142, which lawmakers passed this year, The Marijuana Herald reported. Written comments are accepted until 5 p.m. on 23 November, after which the agency can file final rules.",
+    "The bill's own text calls its core section Ryan's Law. It takes effect on 1 January 2027 and changes three things: who qualifies for a medical card, what care facilities must allow, and what nurses may say.",
+    "## Who qualifies",
+    "HB 4142 adds a new route into Oregon's medical cannabis program. Alongside cancer, glaucoma, severe pain and the other existing conditions, the definition of a debilitating medical condition will include the need for hospice, palliative care, comfort care or other symptom management, including comprehensive pain management, according to the enrolled bill.",
+    "Patients still need a registry card, or a receipt for a pending application issued within the previous 35 days, to use cannabis under the new section.",
+    "## What facilities must do",
+    "The bigger change is for care providers. Hospice, palliative and home health organisations and residential facilities that the state designates as additional caregivers must allow registered patients and residents to use medical cannabis on their premises, the legislature's staff summary says. They must also write a policy covering how cannabis is obtained, stored, administered and disposed of.",
+    "Direct care staff at those facilities must complete training, in person or online, covering cannabis pharmacology, dosing and delivery methods such as edibles, extracts and vaporisation, and possible contraindications and drug interactions. Designated facilities and their staff gain protection from state criminal laws on possession and delivery when acting under the program.",
+    "Some settings are carved out. The requirements do not apply to residential treatment homes and facilities, home health agencies or in-home hospice programs, and hospitals and hospital-affiliated clinics designated as caregivers are not subject to them, according to the enrolled text.",
+    "> Oregon is treating end-of-life cannabis as a care-planning duty for facilities, not only a choice left to patients and families.",
+    "## Deadlines and nurses",
+    "Facilities get time to prepare. The Health Authority may conditionally designate facilities before 1 January 2027; those facilities must have their written policy by 30 June 2027 and make the training available by 31 December 2027, or lose the designation, the bill says. The law also bars the Oregon State Board of Nursing from penalising a nurse for discussing medical cannabis with a patient.",
+    "The proposed rules go further than hospice. According to the Herald, they also update how people petition to add qualifying conditions and clarify security requirements for medical dispensaries and processing sites. The Health Authority's rules page says it is updating its Division 8 rules to carry out HB 4142 alongside other housekeeping changes for patients, caregivers, dispensaries and processing sites.",
+    "## A third attempt",
+    "The bill took several sessions. Anthony Taylor of the patient group Compassionate Oregon, who chairs the Oregon Cannabis Commission, told lawmakers in written testimony that the idea was first filed in 2023 as HB 3567 without a hearing, and again in 2025 as HB 3214, which cleared committee but stalled in the budget committee. He said versions of Ryan's Law already exist in California, Minnesota and Maryland, and that the 2026 version was reworked with the Health Authority to remove its cost to the state. The House health committee backed it 7-1 on 12 February.",
+    "## The federal backdrop",
+    "Oregon's medical program is also in a federal fight. As we reported on 12 November, Oregon is among the jurisdictions where the DEA has moved to deny registrations to medical cannabis businesses, in a set of orders citing dual medical and adult-use licensing and patient certification rules. The hospice rules are a state matter and do not depend on federal registration, but they will be carried out by a program whose businesses face that uncertainty. The program itself has changed shape: the Health Authority merged its medical marijuana and psilocybin offices into one Medical Cannabis and Psilocybin section this year.",
+    "## What to watch",
+    "Watch the final rules after comments close on 23 November, the first conditional facility designations ahead of 1 January 2027, and how many hospice and residential operators apply. Watch also for training providers seeking to meet the new staff requirement, and for the DEA's final decision on Oregon's medical businesses."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/oregon-to-hold-public-hearing-tomorrow-on-expanding-medical-marijuana-access-for-hospice-and-palliative-care-patients/"
+    },
+    {
+      "name": "Oregon Legislature: HB 4142 enrolled",
+      "url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4142/Enrolled"
+    },
+    {
+      "name": "Oregon Legislature: HB 4142 staff measure summary",
+      "url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureAnalysisDocument/94678"
+    },
+    {
+      "name": "Oregon Legislature: testimony on HB 4142",
+      "url": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/PublicTestimonyDocument/241779"
+    },
+    {
+      "name": "Oregon Health Authority",
+      "url": "https://www.oregon.gov/oha/ph/diseasesconditions/chronicdisease/medicalmarijuanaprogram/pages/index.aspx"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/12/dea-show-cause-six-states/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "OHA",
+    "sub": "RULEMAKING",
+    "big": "1 Jan",
+    "label": "Ryan's Law takes effect in Oregon in 2027"
+  },
+  "banner": {
+    "title": "Oregon Writes Hospice Rules",
+    "highlight": [
+      "Hospice",
+      "Rules"
+    ],
+    "sub": "Ryan's Law hearing on 16 November, effective 2027",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Comments close 23 Nov"
+      },
+      {
+        "icon": "shield",
+        "text": "Policies due June 2027"
+      },
+      {
+        "icon": "leaf",
+        "text": "New qualifying condition"
+      }
+    ],
+    "corner": [
+      "OREGON",
+      "MEDICAL",
+      "HOSPICE",
+      "RULES"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-23",
+      "text": "Oregon comment period on HB 4142 rules closes"
+    },
+    {
+      "date": "2027-01-01",
+      "text": "Oregon's Ryan's Law takes effect"
+    }
+  ],
+  "tags": [
+    "Oregon",
+    "Medical cannabis",
+    "Pain",
+    "DEA"
+  ],
+  "image_prompt": "Premium product still life: a small amber glass tincture bottle with a dropper and a folded soft wool blanket beside a sprig of fresh lavender on a dark wooden bedside table, dark background on the left, soft warm studio light from the right with faint violet edge light, no text, no labels, no people",
+  "image_alt": "An amber tincture bottle, a folded blanket and lavender on a bedside table",
+  "breaking": false
+}

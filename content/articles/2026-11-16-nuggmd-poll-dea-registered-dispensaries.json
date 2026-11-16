@@ -1,0 +1,126 @@
+{
+  "id": "nuggmd-poll-dea-registered-dispensaries",
+  "edition": "2026-11-16-am",
+  "rank": 4,
+  "published": "2026-11-16T06:10:00+02:00",
+  "cat": "Federal",
+  "headline": "Poll: 52% of cannabis buyers care if a dispensary is DEA-registered",
+  "dek": "A NuggMD poll of 682 consumers finds a slim majority care about federal registration, two weeks after the DEA registered its first 900-plus dispensaries.",
+  "key_points": [
+    "In a NuggMD poll taken 5 to 9 November, 36.7% of 682 cannabis consumers said they care a lot whether their dispensary is federally registered and 15.7% care a little.",
+    "29.2% said they do not care and 18.5% were not sure; the stated margin of error is plus or minus 3.75 points.",
+    "The DEA has registered more than 900 medical dispensaries in seven states so far; registration does not cover adult-use sales.",
+    "An earlier NuggMD poll found 74% of consumers expect companies to pass rescheduling tax savings on as lower prices."
+  ],
+  "body": [
+    "Federal registration has become something some cannabis shoppers say they notice. In a NuggMD Cannabis Consumer Poll fielded from 5 to 9 November, 36.7% of 682 consumers said they care a lot whether the dispensary they shop at is federally registered, and 15.7% said they care a little, The Marijuana Herald reported on 15 November. Together that is 52.4%, a slim majority.",
+    "On the other side, 17.6% said they don't really care and 11.6% don't care at all, a combined 29.2%. Another 18.5% said they were not sure yet. NuggMD, a medical cannabis telehealth company, draws its panel from consumers who live and shop in state-legal markets, and reported a margin of error of plus or minus 3.75 points.",
+    "## What registration is, and isn't",
+    "The poll lands two weeks into a new federal system. On 30 October the Justice Department said the DEA was issuing its first registrations to state-licensed medical dispensaries under the Attorney General's 23 April order placing qualifying medical marijuana in Schedule III. The first phase covered more than 900 dispensaries in Alabama, Florida, Mississippi, South Dakota, Texas, Virginia and West Virginia, each of which had to pass a DEA pre-registration investigation.",
+    "The department was explicit that state licensure alone does not grant federal registration, and that registered dispensaries take on federal rules for security, recordkeeping and inventory control. The order does not cover adult-use sales, which remain under Schedule I, and the wider proposal to reschedule all marijuana is still in a separate administrative hearing.",
+    "Not everyone is getting in. As we reported on 12 November, the DEA moved to deny registrations to medical businesses in California, Illinois and five other jurisdictions, citing businesses that hold both medical and adult-use licences and state rules that let some patients buy without a written certification.",
+    "## The supply-chain clock",
+    "Registration also changes who a dispensary can buy from. Under the order, businesses that applied in the first 60 days and are still pending may trade with other qualified applicants and with newly registered companies, the Justice Department said. Under DEA guidance described by The Marijuana Herald, the agency expects medical businesses operating under temporary federal authorisation to have compliant supply chains in place by 29 November.",
+    "That turns a consumer-facing question into a business-to-business one. Dispensaries that want to keep their federal status need registered or qualified suppliers, and suppliers that miss out risk losing customers in registration states.",
+    "> Registration is a compliance status first, but stores in mixed markets may find it also becomes a selling point.",
+    "## Prices are the other expectation",
+    "Consumers also expect something back. In an earlier NuggMD poll of 654 consumers, taken from 8 to 15 October, 74% said they expect cannabis companies to pass tax savings from rescheduling on as lower prices, against 26% who expect companies to keep them, Marijuana Moment reported. Those savings depend on Section 280E no longer applying to registered medical sales, and the Treasury and IRS have not yet issued the guidance they promised in April.",
+    "For listed operators, that guidance is a balance-sheet question as well as a pricing one. As we reported on 15 November, Trulieve, Curaleaf and three other multistate operators carry a combined $1.96 billion in uncertain tax positions tied largely to 280E.",
+    "## What it means",
+    "The poll did not ask whether consumers would switch stores based on registration, so it measures attitude, not behaviour. NuggMD's consumer panels also lean toward medical and daily users, as Cannabis Professional has noted, so the result may not reflect occasional buyers. Still, for operators in states where some dispensaries are registered and others are not, the result suggests federal status could become a point of difference, alongside price and product.",
+    "For states shut out of the first phase, the finding adds pressure to align their medical programmes with federal requirements so local stores can apply. Washington regulators, for instance, are consulting until 4 December on a certification programme for medical operators that could help them show their status for federal registration, banking and insurance, the Herald reported.",
+    "## What to watch",
+    "Watch the DEA's next batch of dispensary registrations and its first decisions on manufacturers and distributors, which need facility inspections and quota decisions. Watch the 29 November supply-chain date, the Treasury and IRS 280E guidance, and whether any registered chain starts to advertise its federal status to shoppers."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/poll-majority-of-marijuana-consumers-say-they-care-whether-their-dispensary-is-federally-registered/"
+    },
+    {
+      "name": "US Department of Justice",
+      "url": "https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries"
+    },
+    {
+      "name": "Marijuana Moment",
+      "url": "https://www.marijuanamoment.net/three-out-of-four-consumers-expect-marijuana-businesses-to-lower-prices-as-federal-rescheduling-provides-tax-relief-poll-shows/"
+    },
+    {
+      "name": "The Marijuana Herald (dates to watch)",
+      "url": "https://themarijuanaherald.com/2026/11/15-important-cannabis-policy-dates-to-watch-before-the-end-of-2026/"
+    },
+    {
+      "name": "Cannabis Professional",
+      "url": "https://cannabisprofessional.com/p/david-vs-six-goliaths-what-local-dispensaries-do-better-than-msos"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/12/dea-show-cause-six-states/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/15/mso-uncertain-tax-liabilities-280e-q3-2026/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/06/dea-registration/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.367,
+      0.157,
+      0.176,
+      0.116,
+      0.185
+    ],
+    "big": "52%",
+    "label": "of consumers care about DEA registration"
+  },
+  "banner": {
+    "title": "Shoppers Notice DEA Status",
+    "highlight": [
+      "DEA",
+      "Status"
+    ],
+    "sub": "NuggMD poll of 682 consumers, 5-9 November",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "shield",
+        "text": "36.7% care a lot"
+      },
+      {
+        "icon": "chart",
+        "text": "29.2% don't care"
+      },
+      {
+        "icon": "coin",
+        "text": "74% expect lower prices"
+      }
+    ],
+    "corner": [
+      "DEA",
+      "MEDICAL",
+      "CONSUMERS",
+      "POLL"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-29",
+      "text": "DEA expects compliant medical supply chains"
+    }
+  ],
+  "tags": [
+    "DEA",
+    "Rescheduling",
+    "Medical cannabis",
+    "Section 280E",
+    "Market data"
+  ],
+  "image_prompt": "Premium product still life: a small glass jar of cannabis flower beside a heavy brass notary-style embossing seal press on a dark marble counter, dark background on the left, soft studio light from the right with faint violet edge light, no text, no people",
+  "image_alt": "A jar of cannabis flower beside a brass embossing seal press on marble",
+  "breaking": false
+}

@@ -1,0 +1,109 @@
+{
+  "id": "science-ed-opioids-cbd-dose-mold",
+  "edition": "2026-11-16-am",
+  "rank": 6,
+  "published": "2026-11-16T06:10:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: ER opioid prescribing similar for cannabis users",
+  "dek": "New studies: ER opioid prescribing was similar for cannabis users, CBD dose evidence in animals is inconsistent, and drying cuts mold in flower.",
+  "key_points": [
+    "In 3,159 Southern California emergency patients, those who disclosed cannabis use were prescribed opioids at discharge at a similar rate to those who did not, after adjustment.",
+    "A review of 312 rodent experiments found no stable dose-effect pattern for CBD's effects on anxiety and fear, which the authors blame partly on inconsistent study designs.",
+    "A Simon Fraser University study found up to 26 fungal and yeast species in greenhouse cannabis flower; post-harvest drying cut fungal DNA reads by 50% to 65%.",
+    "A Lebanese cell-culture study reported that a local cannabis oil extract killed lung and breast cancer cells in the lab; it was not tested in animals or people."
+  ],
+  "body": [
+    "This week's research round-up covers four papers indexed in the National Library of Medicine's PubMed database between 12 and 16 November. One looks at how emergency doctors prescribe opioids to cannabis users, one at how well animal studies predict CBD dosing, one at the fungi living inside commercial flower, and one at a cannabis extract tested on cancer cells in a dish. As always, MetaFlora reports what the authors found and how strong the evidence is; none of it is medical advice.",
+    "## Emergency room: no clear link to opioid prescribing",
+    "Researchers at California State University Channel Islands and colleagues reviewed the earliest emergency department visits of 3,159 adults treated between 2021 and 2023 in a Southern California health system for fractures, acute low-back and sciatic conditions, and selected minor musculoskeletal injuries. The study appears in The Journal of Emergency Medicine.",
+    "Of those patients, 507 (16.0%) had cannabis use documented in their record. Opioids were prescribed at discharge to 27.6% of patients who disclosed cannabis use and 31.3% of those documented as not using it, a gap of 3.6 percentage points that was not statistically significant. After adjusting for demographics, diagnosis, other substance use and other factors, disclosure was not linked to opioid prescribing (adjusted odds ratio 0.86, 95% confidence interval 0.67 to 1.11). Among patients who did get opioids, cannabis disclosure was not linked to the size of the dose either.",
+    "The finding cuts both ways in the debate. It offers no sign that clinicians withhold pain relief from cannabis users, and no sign that cannabis users leave with fewer opioids. It is a single health system and an observational design, so it cannot say why doctors prescribed as they did.",
+    "## CBD dosing: the animal evidence does not line up",
+    "A team at the Federal University of Santa Catarina in Brazil pooled effect sizes from 312 experiments in mice and rats that tested CBD on anxiety-like and fear behaviours, publishing in Psychopharmacology. Intermediate doses were more often linked to larger effects, but that pattern did not hold across species or types of behaviour. After adjusting doses for body size and pooling the data, simple straight-line models fit the data better than curved ones.",
+    "The authors concluded that the preclinical literature does not support a stable or general dose-effect relationship for CBD, and that the variation probably reflects differences in how studies were run as well as CBD's complex pharmacology. They call for better-designed studies with balanced dose ranges.",
+    "> If animal studies cannot agree on a CBD dose curve, product labels that imply one are running ahead of the science.",
+    "## Inside the flower: a census of fungi",
+    "Zamir Punja of Simon Fraser University in British Columbia used DNA sequencing to identify the yeasts and moulds living in the flowers of seven THC-containing cannabis genotypes grown in commercial greenhouses, either hydroponically or under organic production. The paper is in the journal Plants.",
+    "He found up to 26 fungal and yeast species. Organically grown flowers carried the most fungal DNA, and the stems supporting the flowers held up to half of all fungal reads. Post-harvest drying cut fungal reads by 50% to 65%, depending on genotype and species. Spraying biological control products during flowering raised reads of the very species those products contain, with some carry-over into dried flower. Species known as potential mycotoxin producers were present, though one important group was rare. Human DNA also turned up in some dried samples, possibly from handling after harvest.",
+    "The work is directly relevant to testing rules. As we reported on 13 November, Massachusetts regulators are moving to require labels on products that have been remediated, for example with radiation, after failing microbial tests. A clearer map of which fungi are present, and where they come from, helps growers and labs decide what to test for and how to prevent failures in the first place.",
+    "## Cancer cells in a dish",
+    "Researchers at the Lebanese American University tested an oil extract of locally grown Lebanese cannabis on human lung and breast cancer cell lines, reporting in Integrative Cancer Therapies on 15 November. The extract was more toxic to the cancer cells than to rat stem cells used for comparison, with the dose needed to halve cell viability at 26.7 micrograms per millilitre for breast cancer cells and 30.2 for lung cancer cells, against 42.31 for the stem cells. It increased markers of programmed cell death and slowed cell migration in lab assays.",
+    "This is early laboratory work on cell lines. It did not test the extract in animals or in people, and lab results of this kind often do not carry over to patients. It should not be read as evidence that cannabis treats cancer.",
+    "## What to watch",
+    "Watch for larger, multi-site studies on cannabis use and pain management in emergency care, and for whether regulators in Massachusetts and elsewhere use mycobiome data like Punja's when they set microbial limits and remediation rules."
+  ],
+  "sources": [
+    {
+      "name": "The Journal of Emergency Medicine (Clobes et al.)",
+      "url": "https://doi.org/10.1016/j.jemermed.2026.10.001"
+    },
+    {
+      "name": "Psychopharmacology (Lewandowski et al.)",
+      "url": "https://doi.org/10.1007/s00213-026-07218-1"
+    },
+    {
+      "name": "Plants (Punja)",
+      "url": "https://doi.org/10.3390/plants15213339"
+    },
+    {
+      "name": "Integrative Cancer Therapies (Shebaby et al.)",
+      "url": "https://doi.org/10.1177/15347354261509182"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-marijuana-oil-extract-inhibits-lung-and-breast-cancer-cells-induces-cell-death/"
+    },
+    {
+      "name": "MJBizDaily",
+      "url": "https://mjbizdaily.com/news/massachusetts-may-require-cannabis-remediated-with-radiation-to-be-labeled/619194/"
+    },
+    {
+      "name": "Massachusetts Cannabis Control Commission",
+      "url": "https://masscannabiscontrol.com/2026/11/cannabis-control-commission-advances-new-testing-regulations/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "3,159",
+    "label": "emergency patients in the opioid study"
+  },
+  "banner": {
+    "title": "Cannabis Research This Week",
+    "highlight": [
+      "Research"
+    ],
+    "sub": "ER opioids, CBD dosing and mold in flower",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "No link after adjustment"
+      },
+      {
+        "icon": "chart",
+        "text": "312 CBD animal experiments"
+      },
+      {
+        "icon": "leaf",
+        "text": "Drying cut fungi 50-65%"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "RESEARCH",
+      "CBD",
+      "TESTING"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Pain",
+    "CBD",
+    "Testing",
+    "Massachusetts"
+  ],
+  "image_prompt": "Premium product still life: a glass petri dish holding a single dried cannabis bud beside a laboratory microscope objective lens on a dark lab bench, dark background on the left, cool studio light from the right with faint violet edge light, no text, no people",
+  "image_alt": "A dried cannabis bud in a petri dish beside a microscope lens on a lab bench",
+  "breaking": false
+}
