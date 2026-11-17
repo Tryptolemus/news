@@ -1,0 +1,109 @@
+{
+  "id": "georgia-medical-cannabis-usps-delivery-botanical-sciences",
+  "rank": 2,
+  "cat": "States",
+  "headline": "Georgia medical cannabis seller starts USPS home delivery on 17 November",
+  "dek": "Botanical Sciences and Edibles.com began shipping medical cannabis to Georgia patients by certified mail on 17 November, though USPS has not said whether it will carry it.",
+  "key_points": [
+    "Botanical Sciences and Edibles.com launched a statewide delivery service for Georgia medical cannabis patients on 17 November 2026.",
+    "Georgia's Rule 351-6-.11, in force since 26 October, lets licensees ship by USPS, FedEx, UPS, DHL and other approved carriers with signature on delivery.",
+    "The Postal Service has not publicly said whether shipping Schedule III medical cannabis meets its own mailing rules.",
+    "Senators James Lankford and Ted Budd asked the Postmaster General in October to keep marijuana out of the mail."
+  ],
+  "body": [
+    "A Georgia medical cannabis company has started shipping products to patients' homes, using a state rule that names the US Postal Service as an approved carrier. Botanical Sciences, one of the state's licensed producers, launched the service on 17 November with Edibles.com, the online sister business of Edible Arrangements, according to The Marijuana Herald, which said Forbes first reported the launch.",
+    "The programme is the first real test of a question the federal government has avoided answering: can medical cannabis that the Justice Department moved into Schedule III in April travel through the mail? Georgia says yes. The Postal Service has not said either way.",
+    "## How the service works",
+    "Botanical Sciences supplies the state-regulated products, and Edibles.com runs the online ordering. Orders go to registered patients by certified mail or an equivalent tracked service, and a patient, caregiver or authorised staff member at a healthcare institution must sign for each package.",
+    "The rules behind it are Georgia's Rule 351-6-.11, which the Georgia Access to Medical Cannabis Commission approved and amended at the start of October. WABE reported at the time that the change made Georgia the 31st state to allow medical cannabis delivery. The rule took effect on 26 October and lists USPS, FedEx, UPS and DHL among permitted carriers.",
+    "Before shipping, a dispensary must check the patient's identity and active registration, send only to an eligible Georgia address and log the shipment in the state's tracking system. Nothing may cross state lines.",
+    "## Why Georgia wanted delivery",
+    "Georgia has about 56,000 people on its medical cannabis registry, according to WABE. The state's commission director, Andrew Turnage, told the station the aim was to reach patients who cannot reasonably travel to a dispensing location. Many live in rural counties where the nearest licensed outlet can be hours away. The state's 2026 law, the Putting Georgia's Patients First Act, also widened the list of qualifying conditions and renamed the old low-THC oil programme simply medical cannabis.",
+    "Botanical Sciences' chief executive, Gary Long, praised the commission's decision in October and described Georgia's approach as a clinical model linking physicians, pharmacists and tested products. The company had earlier been the first in Georgia to dispense through independent pharmacies.",
+    "> Georgia has handed the Postal Service a live parcel and a legal question. Its next move will tell every medical state what Schedule III really allows.",
+    "## The federal gap",
+    "The open issue is the Postal Service's own rulebook. USPS Publication 52 allows controlled substances to be mailed only in narrow cases, such as shipments between DEA registrants and by authorised prescription dispensers. Whether a Georgia-licensed medical cannabis seller fits those categories has not been publicly addressed by USPS, The Marijuana Herald reports.",
+    "There is political pressure on the agency too. In an October letter, Senators James Lankford of Oklahoma and Ted Budd of North Carolina urged Postmaster General David Steiner to keep restrictions on marijuana shipments in place, arguing that a state rule cannot set federal mailing policy.",
+    "The timing links to the DEA's separate registration process. As we reported on 16 November, state regulators in the CANNRA group say the DEA's 29 November deadline is splitting state medical markets into registered and unregistered sellers. If USPS ties mail eligibility to DEA registration, that line could decide who is allowed to ship.",
+    "## What it means for operators",
+    "Private carriers may be the simpler path in the short term, since the open federal question in this case centres on the Postal Service's own mailing rules. But USPS reaches rural addresses that are the whole point of the programme. If the Postal Service stays silent and packages arrive, other medical states will be tempted to copy Georgia's rule. If it refuses or returns packages, the experiment ends quickly and the dispute likely moves to Washington.",
+    "## What to watch",
+    "Watch for any public statement or guidance from USPS on Schedule III medical cannabis. Watch the DEA's 29 November registration deadline and whether Botanical Sciences is on the registered list. And watch whether other Georgia licensees, or states such as Florida and Pennsylvania, move to use carriers in the same way."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/georgia-medical-marijuana-company-partners-with-edibles-com-to-launch-usps-delivery-service/"
+    },
+    {
+      "name": "WABE",
+      "url": "https://www.wabe.org/georgia-medical-cannabis-commission-approves-home-delivery/"
+    },
+    {
+      "name": "Georgia General Assembly: Putting Georgia's Patients First Act",
+      "url": "https://www.legis.ga.gov/legislation/70559"
+    },
+    {
+      "name": "Georgia Department of Public Health: medical cannabis",
+      "url": "https://dph.georgia.gov/health-topics/medical-cannabis"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/16/cannra-dea-supply-chain-29-november/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "NOV",
+    "day": "17",
+    "big": "56,000",
+    "label": "patients on Georgia's medical cannabis registry"
+  },
+  "banner": {
+    "title": "Georgia Cannabis by Mail",
+    "highlight": [
+      "by",
+      "Mail"
+    ],
+    "sub": "Botanical Sciences starts USPS home delivery",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "pin",
+        "text": "Georgia patients only"
+      },
+      {
+        "icon": "doc",
+        "text": "Signature on delivery"
+      },
+      {
+        "icon": "shield",
+        "text": "USPS has not ruled"
+      }
+    ],
+    "corner": [
+      "GEORGIA",
+      "MEDICAL",
+      "DELIVERY",
+      "USPS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-29",
+      "text": "DEA registration deadline for state medical cannabis sellers"
+    }
+  ],
+  "tags": [
+    "Georgia",
+    "Medical cannabis",
+    "Rescheduling",
+    "DEA"
+  ],
+  "image_prompt": "Premium product still life: a plain white cardboard shipping box with its lid open, holding a small amber glass medical cannabis tincture bottle in tissue paper, a single peach blossom branch lying beside it, on a dark surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no labels",
+  "image_alt": "An open shipping box holding an amber tincture bottle beside a peach blossom branch",
+  "x_post": "Georgia's medical cannabis is now going out by certified mail. Botanical Sciences launched USPS home delivery on 17 November. The Postal Service still hasn't said if it will carry it.",
+  "breaking": false,
+  "edition": "2026-11-17-pm",
+  "published": "2026-11-17T18:13:00+02:00"
+}

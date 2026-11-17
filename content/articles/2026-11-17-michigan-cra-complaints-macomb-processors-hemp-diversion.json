@@ -1,0 +1,98 @@
+{
+  "id": "michigan-cra-complaints-macomb-processors-hemp-diversion",
+  "rank": 3,
+  "cat": "States",
+  "headline": "Michigan charges 4 processors after marijuana found at hemp facility",
+  "dek": "Michigan's Cannabis Regulatory Agency filed complaints against four Warren and Center Line processors after state police found Metrc-tagged marijuana at an unlicensed hemp site.",
+  "key_points": [
+    "Michigan's Cannabis Regulatory Agency filed formal complaints on 16 November 2026 against four licensed adult-use processors in Macomb County.",
+    "State police found marijuana carrying Metrc tracking tags at a hemp handler's facility with no marijuana licence during a 7 May search.",
+    "Allegations include about 171,000 grams of unaccounted distillate at one processor and 364 pounds of untagged marijuana at another.",
+    "Each company has 21 days after service to request a hearing; sanctions can include suspension or revocation."
+  ],
+  "body": [
+    "Michigan regulators have moved against four licensed marijuana processors in Macomb County after state police found regulated marijuana inside a hemp business that had no marijuana licence. The Cannabis Regulatory Agency (CRA) announced on 16 November that it had filed formal complaints against processors in Warren and Center Line, giving notice that it intends to fine or sanction their licences.",
+    "The case began with a Michigan State Police search warrant executed on 7 May 2026 at a hemp handler's facility. Investigators found marijuana and marijuana products bearing tags from Metrc, the state's seed-to-sale tracking system, according to the CRA. Those tags led back to the four licensees.",
+    "## What each company is accused of",
+    "The CRA's release sets out separate allegations for each processor. All four complaints allege inaccurate Metrc entries and violations involving written operating procedures and video surveillance. Statements in formal complaints are allegations, the agency notes.",
+    "Dank Headquarters, LLC in Warren: products found by police were listed in Metrc as being at its facility. The CRA also alleges the company could not hand over requested surveillance footage and that its system for alerting staff to camera failures did not work.",
+    "IVP Holding, LLC in Warren: Metrc showed that 21 of the seized packages had been used to make a batch of more than 400,000 grams of distillate. The complaint cites discrepancies on nine transfer manifests and a breach of the rule that processors may transfer only to other licensed marijuana businesses.",
+    "GrassRootsMI, LLC, trading as The Foundry Cannabis Co., in Center Line: infused pre-rolls and vape cartridges seized by police had, according to Metrc, already been processed into distillate. On a follow-up visit, CRA agents could not account for about 171,000 grams of distillate tied to one inventory tag.",
+    "Misspres, LLC, trading as BAG N TAG, in Center Line: agents reported finding 22 untagged bags holding about 364 pounds of marijuana, plus alleged violations on product testing and lab access to a batch.",
+    "> When tagged marijuana turns up in a hemp warehouse, the tracking system worked. The question is why it took a police raid to read it.",
+    "## Why the hemp link matters",
+    "The case lands as the line between hemp and marijuana is about to harden nationally. On 11 December, the narrower federal definition of hemp takes effect, excluding finished products with more than 0.4 milligrams of total THC per container. Once most intoxicating hemp products lose federal cover, a hemp business holding regulated marijuana stands out even more clearly as a diversion risk.",
+    "Michigan's complaints show what that looks like on the ground. Our own tally of the figures in the release: the seized packages at one company fed more than 400 kilograms of distillate, and another company could not account for about 171 kilograms. Distillate is the base for vape cartridges and edibles in both the licensed and unlicensed markets, which is why its whereabouts matter to regulators.",
+    "It also shows the limits of tracking. Metrc recorded where product was supposed to be. It took a police search of an unlicensed site, and months of follow-up visits, for the gaps to surface. Connecticut, as we reported on 17 November, is switching its own tracking system to Metrc in 2027.",
+    "## The CRA's enforcement record",
+    "The agency has been active. Its recent releases include a licence revocation and a $251,250 fine for Muha Meds' Ypsilanti operation and a permanent industry ban for an individual. Under the Michigan Regulation and Taxation of Marijuana Act, the CRA can investigate, fine and suspend, restrict, revoke or refuse to renew licences.",
+    "## What to watch",
+    "Each processor has 21 days after being served to request a hearing in writing. Watch whether any of the four settle, and whether the CRA names the hemp handler or refers the case for prosecution. Watch also for similar cross-checks between hemp and marijuana inventories in other states as the 11 December federal hemp change approaches."
+  ],
+  "sources": [
+    {
+      "name": "Michigan LARA: CRA files formal complaints",
+      "url": "https://www.michigan.gov/lara/news-releases/2026/11/16/press-release-cra-files-formal-complaints-against-four-macomb-county-marijuana-processors"
+    },
+    {
+      "name": "The Marijuana Herald: hemp definition and 11 December",
+      "url": "https://themarijuanaherald.com/2026/11/west-virginia-agriculture-commissioner-calls-on-congress-to-regulate-hemp-rather-than-ban-it/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/17/state-desk-massachusetts-utah-connecticut/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "364 lb",
+    "label": "untagged marijuana found at one processor"
+  },
+  "banner": {
+    "title": "Michigan Charges 4 Processors",
+    "highlight": [
+      "4",
+      "Processors"
+    ],
+    "sub": "Metrc-tagged marijuana found at a hemp facility",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "4 formal complaints"
+      },
+      {
+        "icon": "drop",
+        "text": "171,000 g distillate missing"
+      },
+      {
+        "icon": "chip",
+        "text": "Metrc tags led the way"
+      }
+    ],
+    "corner": [
+      "MICHIGAN",
+      "ENFORCEMENT",
+      "HEMP",
+      "METRC"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "Narrower federal hemp definition takes effect"
+    }
+  ],
+  "tags": [
+    "Michigan",
+    "Hemp",
+    "Licensing",
+    "Product safety"
+  ],
+  "image_prompt": "Premium product still life: a row of small clear glass jars of golden cannabis distillate on a dark steel shelf, one jar tipped over beside a heavy wooden gavel, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no labels",
+  "image_alt": "Glass jars of golden distillate on a steel shelf beside a gavel",
+  "x_post": "Michigan police found Metrc-tagged marijuana at an unlicensed hemp site. Now four Macomb County processors face complaints, one over 171,000 grams of distillate it couldn't account for.",
+  "breaking": false,
+  "edition": "2026-11-17-pm",
+  "published": "2026-11-17T18:13:00+02:00"
+}
