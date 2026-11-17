@@ -1,0 +1,61 @@
+{
+  "id": "glass-house-q3-2026-revenue-biomass-price",
+  "edition": "2026-11-17-am",
+  "rank": 7,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "Markets",
+  "headline": "Glass House Q3 revenue rises to $56.8M as biomass price falls 28%",
+  "dek": "Glass House Brands grew a record 319,052 pounds of cannabis biomass in Q3 2026, but its average price fell to $151 a pound and gross margin slid to 26%.",
+  "key_points": [
+    "Glass House Brands reported Q3 2026 revenue of $56.8 million, up from $47.0 million in Q2 and $26.2 million a year earlier.",
+    "Average selling price fell to $151 a pound from $211 in Q2, a 28% drop, cutting gross margin to 26% from 34%.",
+    "Cost of production fell to a record low $109 a pound on record output of 319,052 equivalent dry pounds.",
+    "Adjusted EBITDA dropped to $0.8 million from $5.7 million, and the net loss widened to $10.1 million from $6.7 million in Q2."
+  ],
+  "body": [
+    "Glass House Brands, the California greenhouse grower that now trades on the New York Stock Exchange, grew more cannabis than ever in the third quarter and sold it for much less. The company reported on 16 November that revenue rose to $56.8 million in the three months to 30 September, up 21% from the second quarter and more than double the $26.2 million of a year earlier, on record production of 319,052 equivalent dry pounds.",
+    "But its average selling price fell to $151 a pound from $211 in the second quarter, and gross margin dropped to 26% from 34%. Adjusted EBITDA shrank to $0.8 million from $5.7 million, and the net loss widened to $10.1 million. Seeking Alpha reported that revenue missed analyst estimates by $4.8 million.",
+    "## Volume up, price down",
+    "Wholesale biomass, the flower, smalls and trim Glass House sells to other California companies, brought in $50.0 million, or 88% of revenue. Its consumer-products business added $6.3 million, up 19% from the second quarter. The company blamed the margin squeeze on seasonally lower prices and a sales mix heavy in trim from second-quarter production, and said the mix improved in the third quarter.",
+    "Our own arithmetic shows how much the price drop cost. In the second quarter Glass House earned about $89 a pound over its production cost; in the third quarter that gap was about $42, even though production cost fell. Gross profit dipped to $14.6 million from $15.8 million despite selling far more product.",
+    "> Glass House is winning the cost race. The question for 2027 is whether California prices let that show up as profit.",
+    "## The cost story",
+    "Cost of production fell to $109 a pound, from $122 in the second quarter and $128 a year earlier. Management said in the release that this was a 37% improvement from $175 a pound in the first quarter. The company reaffirmed its forecast of about 1 million pounds of biomass for 2026 and its long-term target of $95 a pound, and said it expects to exit the year with costs around third-quarter levels.",
+    "Operating expenses rose. General and administrative costs climbed to $16.2 million from $13.4 million, and professional fees doubled to $3.2 million, which the company tied to its NYSE uplisting and Sarbanes-Oxley consulting. Share-based compensation rose to $5.9 million.",
+    "## Cash and dilution",
+    "Cash and restricted cash rose to $39.7 million from $22.1 million at the end of June. Most of that came from the market: Glass House raised $18 million through its at-the-market share programme at an average of $8.11 a share, plus $10 million from warrant exercises. It spent $5.4 million on capital projects, mostly expansion at its Camarillo site, and paid $2.9 million in preferred dividends. Operating cash flow was roughly break-even at negative $0.1 million.",
+    "The results follow the company's deconsolidation of its retail arm, Glass House Retail, in June. Retail results through 11 June are now reported as discontinued operations and prior periods have been recast, so year-on-year comparisons cover the wholesale and brand business only.",
+    "As we reported on 14 November, Glass House was named on the preliminary list of additions to the Russell 3000 index alongside Trulieve, which could widen its pool of index-tracking buyers.",
+    "## What to watch",
+    "Watch fourth-quarter wholesale prices in California, which drive almost nine-tenths of Glass House's revenue. Watch whether cost of production holds near $109 into year-end, as management expects, and how quickly the expanded greenhouse capacity moves it toward $95. And watch the share count: the ATM and warrants funded this quarter's cash build."
+  ],
+  "sources": [
+    {"name": "Glass House Brands: Q3 2026 results (GlobeNewswire)", "url": "https://www.globenewswire.com/news-release/2026/11/16/3404116/0/en/glass-house-brands-reports-third-quarter-2026-financial-results.html"},
+    {"name": "SEC: Glass House Brands Form 6-K", "url": "https://www.sec.gov/Archives/edgar/data/1848731/000184873126000040/glas2026q36-kearningsrelea.htm"},
+    {"name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4673298-glass-house-brands-reports-q3-results"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/14/trulieve-glass-house-russell-3000/"}
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [0.35, 0.5, 0.62, 0.9, 0.55],
+    "big": "-28%",
+    "label": "Glass House average price per pound, Q2 to Q3"
+  },
+  "banner": {
+    "title": "Glass House Grows More, Earns Less",
+    "highlight": ["More", "Less"],
+    "sub": "Record harvest, but price per pound fell to $151",
+    "divider": "Markets desk",
+    "points": [
+      {"icon": "chart", "text": "Revenue $56.8M"},
+      {"icon": "leaf", "text": "319,052 lb produced"},
+      {"icon": "coin", "text": "Cost down to $109/lb"}
+    ],
+    "corner": ["EARNINGS", "CALIFORNIA", "WHOLESALE", "NYSE"]
+  },
+  "watch": [],
+  "tags": ["Glass House Brands", "Earnings", "California", "Market data"],
+  "image_prompt": "Premium product still life: a large clear glass greenhouse-shaped terrarium holding a small cannabis plant, with a neat stack of vacuum-sealed bags of dried flower beside it, on a dark concrete surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A glass greenhouse terrarium with a cannabis plant beside sealed bags of dried flower",
+  "breaking": false
+}

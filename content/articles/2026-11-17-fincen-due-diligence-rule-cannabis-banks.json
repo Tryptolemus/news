@@ -1,0 +1,68 @@
+{
+  "id": "fincen-due-diligence-rule-cannabis-banks",
+  "edition": "2026-11-17-am",
+  "rank": 2,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "Federal",
+  "headline": "FinCEN proposes lighter bank due diligence as cannabis lenders push Fed",
+  "dek": "Treasury's FinCEN would drop repeat ownership checks for existing customers, while cannabis banks ask the Fed to stop calling them high-risk without saying how.",
+  "key_points": [
+    "FinCEN proposed on 16 November that banks no longer re-identify and re-verify a business's beneficial owners each time an existing customer opens another account.",
+    "The proposal does not touch FinCEN's 2014 marijuana guidance, which still sets extra due diligence and suspicious activity reporting for cannabis accounts.",
+    "The Cannabis Financial Industry Group asked the Federal Reserve to rewrite a draft line that labels marijuana businesses higher-risk, and to treat a verified state licence as a risk mitigant.",
+    "Kentucky Gov. Andy Beshear used his state's 30,000-plus medical cardholders to press Congress on the SAFE Banking Act."
+  ],
+  "body": [
+    "The federal rules that decide how hard it is for a bank to serve a cannabis business moved on two fronts this week, neither of them in Congress. The Treasury Department's Financial Crimes Enforcement Network proposed changes to its customer due diligence rule on 16 November that would cut some repeat paperwork for every bank customer, cannabis companies included. The same day, the trade group for banks and credit unions that serve the industry filed comments asking the Federal Reserve to rewrite draft guidance that singles out marijuana businesses as higher-risk.",
+    "Neither move changes the core problem: cannabis remains federally illegal for adult use, and banks that take the accounts still follow FinCEN's 2014 marijuana guidance to the letter. But together they show where the practical fight over cannabis banking now sits, in rule text and examiner guidance, while the SAFE Banking Act waits on a crowded lame-duck calendar.",
+    "## What FinCEN proposed",
+    "Under the proposal, banks would no longer have to identify and verify a business customer's beneficial owners every time that existing customer opens another account, according to the Marijuana Herald, which reported on a FinCEN press release dated 16 November. That change would write into regulation relief FinCEN first granted in February. The proposal would also make clear that banks may collect more information on the people who own or control a business when that helps address risk, and would specify which beneficial-owner details banks must collect.",
+    "Treasury Secretary Scott Bessent said the rule cuts unnecessary burden and gives institutions more flexibility to fight financial crime. FinCEN will take comments for 60 days after the proposal appears in the Federal Register.",
+    "## What it does not change for cannabis",
+    "FinCEN's marijuana guidance, issued in February 2014 and still in force, asks banks serving cannabis businesses to verify state licences, review licence applications, ask regulators for information on the business, understand its expected activity, monitor public sources for adverse news, watch for suspicious activity and refresh all of this periodically. It also requires a suspicious activity report on cannabis customers, with \"Marijuana Limited\" filings for businesses that appear compliant.",
+    "The new proposal does not mention marijuana and does not revise that guidance. Its main practical benefit for the industry is narrow: a cannabis company that opens a second or third account at the same bank would no longer trigger a fresh beneficial-ownership check. For multi-entity operators with many accounts, that is real time saved. For a bank deciding whether to take cannabis clients at all, the calculus barely moves.",
+    "> FinCEN is trimming paperwork for everyone. The cannabis-specific rulebook from 2014 is untouched.",
+    "## Cannabis banks push back on the Fed",
+    "The bigger signal for operators came from the Cannabis Financial Industry Group, a trade association of banks, credit unions and the compliance and technology firms that support them. In a comment letter dated 15 November and logged by the Federal Reserve on 16 November, the group took aim at one sentence in the Fed's proposed third-party risk management guide for community banks. That sentence says that where a bank's clients present higher risk, citing marijuana-related businesses as the example, more advanced tools may be appropriate.",
+    "The group said a bank reading that line cannot tell what the Fed expects, whether its existing programme is enough, or whether it is being warned off the business entirely, and that this uncertainty often decides whether community institutions serve the market at all. It asked the Fed to rewrite the line to describe how the risk can be managed, to recognise verification of an active state licence, and where relevant a DEA registration, as a risk mitigant, and to describe the compliance tools available in proportion to a bank's cannabis exposure.",
+    "Its argument leans on what state licensing already provides. The letter notes, for example, that Florida treats anyone holding 5% or more of a licensee as an owner and requires fingerprint background checks, well below the 25% federal beneficial-ownership threshold. Banks, the group says, can compare deposits with state-reported sales, which makes mismatched cash easier to spot, not harder.",
+    "## Governors keep the pressure on Congress",
+    "Kentucky Gov. Andy Beshear added his voice at a 12 November briefing, saying the SAFE Banking Act is necessary to keep medical cannabis dollars safe and within federal rules. He said Kentucky now has dispensaries open in all 11 licensing regions, 27 in total, more than 30,000 registered cardholders and 500 certified practitioners, Marijuana Moment reported. Beshear was one of 16 governors who signed the letter to congressional leaders led by Maryland Gov. Wes Moore, as we reported on 10 November. That letter said 21 states have collected more than $27.6 billion in cannabis taxes since 2012 while struggling to deposit those payments, the ABA Banking Journal noted.",
+    "## What to watch",
+    "Watch for FinCEN's proposal in the Federal Register, which starts the 60-day comment clock, and for whether cannabis banking groups use it to ask for an update to the 2014 guidance. Watch the Fed's final version of the community bank guide for any change to the marijuana sentence. And watch the lame-duck session for any move on SAFE Banking before the new Congress is seated in January."
+  ],
+  "sources": [
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/u-s-treasury-proposes-easing-bank-compliance-rules-potentially-benefiting-marijuana-businesses/"},
+    {"name": "FinCEN: BSA expectations regarding marijuana-related businesses (2014)", "url": "https://fincen.gov/resources/statutes-regulations/guidance/bsa-expectations-regarding-marijuana-related-businesses"},
+    {"name": "Federal Reserve: Cannabis Financial Industry Group comment, OP-1880", "url": "https://www.federalreserve.gov/apps/proposals/comments/FR-2026-0030-01-C28"},
+    {"name": "Kentucky Office of the Governor", "url": "https://www.kentucky.gov/Pages/Activity-stream.aspx?n=GovernorBeshear&prId=2902"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/kentucky-governor-calls-on-congress-to-pass-marijuana-banking-bill-to-support-his-states-medical-cannabis-program/"},
+    {"name": "ABA Banking Journal", "url": "https://bankingjournal.aba.com/2026/11/governors-press-congress-to-pass-cannabis-banking-bill/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/10/governors-safe-banking-letter/"}
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "FINCEN",
+    "sub": "PROPOSED",
+    "big": "60 days",
+    "label": "comment window on FinCEN's due diligence rule"
+  },
+  "banner": {
+    "title": "Banks Get Lighter Paperwork",
+    "highlight": ["Lighter"],
+    "sub": "FinCEN proposal leaves 2014 cannabis guidance intact",
+    "divider": "Banking desk",
+    "points": [
+      {"icon": "doc", "text": "Fewer repeat owner checks"},
+      {"icon": "shield", "text": "Cannabis rules unchanged"},
+      {"icon": "coin", "text": "Banks press the Fed"}
+    ],
+    "corner": ["FINCEN", "BANKING", "COMPLIANCE", "CANNABIS"]
+  },
+  "watch": [],
+  "tags": ["Cannabis banking", "SAFER Banking", "Kentucky", "Congress"],
+  "image_prompt": "Premium product still life: a heavy steel bank vault door slightly ajar with a small glass jar of cannabis flower resting on the vault threshold, dark graphite background, cool studio lighting with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A steel vault door slightly open with a small jar of cannabis flower at its threshold",
+  "x_post": "FinCEN wants to drop repeat ownership checks when existing customers open new accounts. Handy for multi-entity cannabis operators, but the 2014 marijuana guidance is untouched.",
+  "breaking": false
+}

@@ -1,0 +1,66 @@
+{
+  "id": "virginia-commission-cannabis-proposals-2027-session",
+  "edition": "2026-11-17-am",
+  "rank": 4,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "States",
+  "headline": "Virginia cannabis panel backs ban on lawmakers owning cannabis firms",
+  "dek": "Virginia's cannabis commission voted on 16 November for a lawmaker ownership ban, a lower public-use fine and limits on local rules before July 2027 sales.",
+  "key_points": [
+    "Virginia's joint cannabis commission recommended on 16 November that General Assembly members and their immediate families be barred from owning any part of the cannabis industry.",
+    "It also backed cutting the $250 public consumption fine due on 1 July 2027 and ending double charges for public use and use on school grounds.",
+    "Localities could shorten but not lengthen the 1,000-foot buffer around schools and hospitals, and could not limit stores to fewer than eight hours a day or seven days a week.",
+    "The vote came the same day Senate President Pro Tempore Louise Lucas pleaded not guilty to federal charges tied to a cannabis business."
+  ],
+  "body": [
+    "Virginia lawmakers who will shape the state's first legal cannabis market moved on 16 November to keep themselves out of it. The legislature's Joint Commission to Oversee the Transition of the Commonwealth into a Cannabis Retail Market, chaired by Sen. Lashrecse Aird, voted to recommend that members of the General Assembly and their immediate families be barred from holding any direct or indirect ownership stake in Virginia's cannabis industry.",
+    "The ownership ban was one of six legislative proposals the commission approved for the 2027 session, alongside a lower fine for public consumption, new limits on how far localities can restrict stores, and technical fixes to possession limits. The recommendations are not bills yet; they still have to be drafted and passed when the General Assembly returns in January, ahead of the 1 July 2027 start of retail sales.",
+    "## The ownership ban and the Lucas case",
+    "The commission voted the same afternoon that Senate President Pro Tempore Louise Lucas appeared in federal court and pleaded not guilty to racketeering charges, The Virginian-Pilot reported. Federal prosecutors allege she used her legislative influence to protect and enrich a cannabis business she co-owns, according to Marijuana Moment. Lucas does not sit on the commission.",
+    "Del. Cia Price said the proposal had nothing to do with Lucas, telling WTVR that former Republican Sen. Tommy Norment raised the idea in 2023 and that leaving it out of the cannabis law last year was an oversight. Norment's 2023 bill would have applied the ban during a lawmaker's term and for five years afterward, with violations punishable as a Class 6 felony; staff presented it as a reference, and the commission did not settle on how long any post-office ban should last.",
+    "> Virginia is writing its conflict-of-interest rule after its most powerful senator was charged, not before. The timing will shape how licences are judged.",
+    "## A lower fine for public use",
+    "Under the law passed earlier this year with Gov. Abigail Spanberger, the civil penalty for consuming cannabis in public rises from $25 to $250 on 1 July 2027. The commission agreed that $250 is too high but did not name a new figure. Del. Katrina Callsen said police will not bother enforcing a $25 fine, while Vice Chair Del. Paul Krizek noted that apartment dwellers barred from smoking at home have nowhere legal to go, according to The Virginian-Pilot.",
+    "A related proposal would stop people being charged under both the public-use ban and the ban on consumption on school grounds for the same act. Lawmakers also added language removing the civil penalty for anyone under 18, who would still have to enter a treatment or education programme.",
+    "## Limits on local control",
+    "Two proposals rein in local governments. Localities could shorten the minimum distance between cannabis stores or microbusinesses and schools, colleges, hospitals and child care centres, but could not push it past 1,000 feet. And they could not restrict stores to fewer than eight consecutive hours a day or fewer than seven days a week, the Marijuana Herald reported. For applicants, that sets a floor on trading hours and a ceiling on buffer zones before the first licences are issued.",
+    "The sixth proposal makes technical changes so that the move from a one-ounce to a two-ounce possession limit does not get tangled if retail sales start later than 1 July. Price also won support for directing some cannabis revenue to education, school substance-use programmes and child care, with percentages to come in the bill. The law sets a 6% state sales tax on cannabis that rises to 8% in 2029, with an optional local tax of 1% to 3.5%.",
+    "## The licensing clock",
+    "The Virginia Cannabis Control Authority is due to start accepting certain licence applications by 1 February 2027, issue initial licences by 1 May and open retail sales on 1 July, according to the Marijuana Herald. Adults 21 and over will be able to buy up to two ounces of flower, eight grams of concentrate or edibles containing up to 800 milligrams of THC per transaction. Aird suggested the commission meet again next year on on-site consumption licences and event permits.",
+    "## What to watch",
+    "Watch for bill text when the General Assembly convenes in January, especially the public-use fine and how long any post-office ownership ban would last. Watch 1 February 2027, when the Cannabis Control Authority is due to start taking applications. And watch the Lucas case, which will colour every licensing decision the state makes."
+  ],
+  "sources": [
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/virginia-marijuana-commission-approves-six-legislative-proposals-ahead-of-2027-launch-of-recreational-sales/"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/virginia-legislative-committee-recommends-changes-to-marijuana-legalization-law-for-2027-session/"},
+    {"name": "The Virginian-Pilot via ArcaMax", "url": "https://www.arcamax.com/currentnews/newsheadlines/s-4346069"},
+    {"name": "WTVR", "url": "https://www.wtvr.com/news/local-news/lucas-pleads-not-guilty-virginia-recreational-marijuana-market-nov-16-2026"},
+    {"name": "Virginia Division of Legislative Services: Commission materials", "url": "https://dls.virginia.gov/groups/cannabisretail/2026%20interim%20presentation.pdf"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/08/virginia-lucas-resolution/"}
+  ],
+  "visual": {
+    "motif": "ballot",
+    "big": "6",
+    "label": "proposals sent to Virginia's 2027 session"
+  },
+  "banner": {
+    "title": "Virginia Would Bar Lawmaker Stakes",
+    "highlight": ["Lawmaker"],
+    "sub": "Panel backs ownership ban before July 2027 sales",
+    "divider": "State desk",
+    "points": [
+      {"icon": "gavel", "text": "Ownership ban proposed"},
+      {"icon": "coin", "text": "$250 fine to be cut"},
+      {"icon": "pin", "text": "1,000-foot buffer cap"}
+    ],
+    "corner": ["VIRGINIA", "LICENSING", "ETHICS", "RETAIL"]
+  },
+  "watch": [
+    {"date": "2027-02-01", "text": "Virginia Cannabis Control Authority due to start accepting licence applications"},
+    {"date": "2027-07-01", "text": "Virginia adult-use retail sales due to begin"}
+  ],
+  "tags": ["Virginia", "Licensing", "Legalization", "Courts"],
+  "image_prompt": "Premium product still life: a polished wooden gavel resting beside a small glass jar of cannabis flower and a sprig of dogwood blossom, on a dark walnut desk, warm studio light with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A wooden gavel beside a jar of cannabis flower and a dogwood blossom on a dark desk",
+  "breaking": false
+}

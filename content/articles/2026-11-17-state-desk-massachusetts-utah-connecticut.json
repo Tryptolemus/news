@@ -1,0 +1,68 @@
+{
+  "id": "state-desk-massachusetts-utah-connecticut",
+  "edition": "2026-11-17-am",
+  "rank": 8,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "States",
+  "headline": "State desk: Massachusetts weighs drive-throughs; Connecticut picks Metrc",
+  "dek": "Massachusetts discusses drive-through cannabis sales on 17 November, Utah drafts $150 patient vouchers and Connecticut swaps BioTrack for Metrc in 2027.",
+  "key_points": [
+    "Massachusetts' Cannabis Control Commission lists a discussion of drive-through service at its 17 November meeting, along with its hemp market study due 15 December.",
+    "A LEAP survey of 161 current and retired Massachusetts officers found 92% favour keeping legal sales, though respondents were self-selected.",
+    "Utah published draft rules on 15 November for $150 monthly medical cannabis vouchers for Medicaid and Medicare patients; comments close 15 December.",
+    "Connecticut told licensees on 13 November it will replace BioTrack with Metrc as its seed-to-sale system, starting in 2027."
+  ],
+  "body": [
+    "Three states moved on the plumbing of their cannabis markets over the past few days. Massachusetts regulators put drive-through sales on the agenda, Utah drafted the rules for a small but unusual patient subsidy, and Connecticut picked a new seed-to-sale tracking vendor. None is headline legislation, but each changes how licensed businesses operate day to day.",
+    "## Massachusetts: drive-throughs on the table",
+    "The Cannabis Control Commission's agenda for its 17 November meeting, held remotely from 10 a.m., lists a discussion of drive-throughs at marijuana establishments. It is listed as a discussion, not a vote, and the commission has not published any draft rules saying whether drive-through service would cover adult-use sales, medical sales or both, the Marijuana Herald reported. The same agenda includes the commission's fall regulatory round under the state's new cannabis law and a discussion of its study on regulating hemp-derived cannabinoids, which the law requires by 15 December.",
+    "That new law, signed by Gov. Maura Healey in April, doubled the adult possession limit to two ounces, raised the cap on retail licences one company can hold from three to six and widened delivery. Earlier this month roughly three-quarters of voters rejected Question 8, which would have ended adult-use sales, and the commission has since set March 2027 as its target for opening consumption-lounge applications.",
+    "A survey released on 16 November by the Law Enforcement Action Partnership, a group of current and former officers that backs drug-policy reform, found 92% of 161 current and retired Massachusetts officers favoured keeping licensed sales, with 54% for the current rules and 38% for legal sales under changed rules. Most said ending legal sales would increase unsafe products (84%) and unlicensed sales (79%). The online survey ran from 6 to 18 October and was not a random sample, so it cannot be read as representative of all officers.",
+    "> Drive-throughs, vouchers and tracking contracts are where a cannabis market is actually built, one rule at a time.",
+    "## Utah: $150 a month for low-income patients",
+    "Utah published proposed rule R67-7 in the 15 November State Bulletin, setting out how its new medical cannabis voucher programme would work. Created by Senate Bill 121 this year, the programme can spend up to $300,000 a year, paid from the state's Qualified Patient Enterprise Fund, on $150 monthly vouchers for cardholders enrolled in Medicaid or Medicare.",
+    "Under the draft, vouchers could be redeemed at any licensed medical cannabis pharmacy, including on discounted products, and could also cover home delivery and state transaction fees, the Marijuana Herald reported. A single nonprofit would run the scheme and could not own any cannabis licence. The state wants it to verify eligibility at least annually and to police pharmacies against overcharging voucher holders. Applications to run the programme and comments on the rule both close on 15 December, and the rule could take effect on 22 December.",
+    "Our arithmetic on the cap: at $150 a month, $300,000 a year covers about 166 patients receiving the full amount every month.",
+    "## Connecticut: BioTrack out, Metrc in",
+    "Connecticut's Department of Consumer Protection told licensed cannabis businesses in a 13 November notice that it will move from BioTrack to Metrc as the state's mandatory seed-to-sale system. Implementation is not expected to begin until 2027, and the department has not set a switchover date. Licensees must name a primary contact and list every third-party software system tied to the tracking system, such as point-of-sale and cultivation tools, by 25 November, and should check whether their vendors are approved Metrc integrators. Every establishment must complete Metrc training before getting access.",
+    "The system tracks every plant and product from seed or clone through testing to final sale, and the state says it does not record buyers' details. The Marijuana Herald noted that New York made the same move from BioTrack to Metrc in late 2025 and early 2026.",
+    "## What to watch",
+    "Watch the outcome of the Massachusetts drive-through discussion and whether draft language follows, and the hemp study due 15 December. Watch Utah's choice of a nonprofit after 15 December. And watch Connecticut's training schedule and cut-over date, which will decide how much double data entry licensees face in 2027."
+  ],
+  "sources": [
+    {"name": "Massachusetts Cannabis Control Commission: 17 November agenda", "url": "https://masscannabiscontrol.com/events/cannabis-control-commission-public-meeting-november-17-2026-2/"},
+    {"name": "The Marijuana Herald: Massachusetts drive-throughs", "url": "https://themarijuanaherald.com/2026/11/massachusetts-marijuana-regulators-to-consider-allowing-drive-through-dispensaries-tomorrow/"},
+    {"name": "The Marijuana Herald: Massachusetts officer survey", "url": "https://themarijuanaherald.com/2026/11/survey-vast-majority-of-massachusetts-law-enforcement-officers-support-keeping-marijuana-sales-legal/"},
+    {"name": "Utah State Bulletin, 15 November 2026", "url": "https://rules.utah.gov/wp-content/uploads/b20261115.pdf"},
+    {"name": "Utah Center for Medical Cannabis: Patient voucher grant", "url": "https://medicalcannabis.utah.gov/patient-voucher-program-grant/"},
+    {"name": "The Marijuana Herald: Utah vouchers", "url": "https://themarijuanaherald.com/2026/11/utah-proposes-regulations-for-150-monthly-medical-marijuana-vouchers-including-coverage-for-delivery-fees/"},
+    {"name": "Connecticut DCP: Metrc implementation notice", "url": "https://portal.ct.gov/cannabis/-/media/cannabis/notices/2026/11132026-metrc-implementation-notice.pdf"},
+    {"name": "Connecticut DCP: Seed-to-sale tracking", "url": "https://portal.ct.gov/cannabis/knowledge-base/articles/seed-to-sale"},
+    {"name": "The Marijuana Herald: Connecticut Metrc", "url": "https://themarijuanaherald.com/2026/11/connecticut-to-replace-biotrack-with-metrc-as-statewide-marijuana-tracking-system-in-2027/"}
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "$150",
+    "label": "monthly Utah voucher for low-income patients"
+  },
+  "banner": {
+    "title": "Drive-Throughs, Vouchers, Metrc",
+    "highlight": ["Drive-Throughs"],
+    "sub": "Massachusetts, Utah and Connecticut rework the basics",
+    "divider": "State desk",
+    "points": [
+      {"icon": "pin", "text": "MA drive-throughs on agenda"},
+      {"icon": "coin", "text": "UT $150 patient vouchers"},
+      {"icon": "chip", "text": "CT moves to Metrc"}
+    ],
+    "corner": ["STATES", "RETAIL", "PATIENTS", "TRACKING"]
+  },
+  "watch": [
+    {"date": "2026-11-25", "text": "Connecticut licensees' deadline to return Metrc transition form"},
+    {"date": "2026-12-15", "text": "Massachusetts hemp market study due; Utah voucher rule comments close"}
+  ],
+  "tags": ["Massachusetts", "Utah", "Connecticut", "Medical cannabis", "Hemp"],
+  "image_prompt": "Premium product still life: a small paper takeaway bag with a blank surface standing beside a glass jar of cannabis flower and a set of car keys, on a dark glossy surface, clean studio light with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A blank paper takeaway bag beside a jar of cannabis flower and car keys",
+  "breaking": false
+}

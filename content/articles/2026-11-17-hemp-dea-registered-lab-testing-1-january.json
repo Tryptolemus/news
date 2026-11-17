@@ -1,0 +1,69 @@
+{
+  "id": "hemp-dea-registered-lab-testing-1-january",
+  "edition": "2026-11-17-am",
+  "rank": 3,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "Hemp",
+  "headline": "Hemp growers face DEA lab rule on 1 January 2027 unless USDA acts",
+  "dek": "USDA's six-year delay on testing hemp only at DEA-registered labs ends 31 December, three weeks after federal hemp product THC limits begin on 11 December.",
+  "key_points": [
+    "USDA's enforcement discretion letting hemp be tested at labs without DEA registration runs out on 31 December 2026.",
+    "USDA first delayed the requirement in February 2020 and has extended it repeatedly, most recently on 23 December 2025, citing too few DEA-registered labs.",
+    "As of 16 November no new extension had been announced; the last one came only eight days before the old deadline.",
+    "The lab rule is separate from the federal hemp product limits due on 11 December, but both land on hemp businesses in the same month."
+  ],
+  "body": [
+    "A testing rule that has been on the books for hemp farmers since the US Department of Agriculture set up its hemp programme, and delayed every year since, is due to start biting on 1 January 2027. Under federal hemp regulations, the crop samples that decide whether a field is legal hemp or illegal marijuana must be tested by a laboratory registered with the Drug Enforcement Administration. USDA has never enforced that part. Its current enforcement discretion runs through 31 December 2026.",
+    "As of 16 November, USDA had not announced another extension, the Marijuana Herald reported. If none comes, growers under the US Domestic Hemp Production Program would need DEA-registered labs for their pre-harvest compliance tests from the start of next year. That arrives three weeks after federal limits on hemp-derived cannabinoid products take effect on 11 December, so the two changes will hit the same businesses in the same month.",
+    "## A rule delayed since 2020",
+    "USDA first said it would hold off enforcing the DEA-registration requirement in February 2020, according to the Marijuana Herald. On 14 November 2024 it extended the delay through 31 December 2025, and on 23 December 2025 it pushed it again to 31 December 2026. Each time, the reason was the same: not enough DEA-registered labs.",
+    "In its December 2025 notice, USDA's Agricultural Marketing Service said state and tribal governments and independent testing labs had told it about delays in completing DEA registration, and that it was worried there would not be enough approved testing capacity for the 2026 growing season. It said labs testing hemp must still meet every other regulatory requirement, and it made the delay effective immediately without notice and comment, citing good cause.",
+    "## What the test decides",
+    "The test is the gate for the whole crop. Federal rules require producers to have samples tested to show the hemp is at or below 0.3% THC on a dry-weight basis, and the test has to account for THCA converting to THC. Labs file results with USDA through its Hemp eManagement Platform, known as HeMP. A lab without DEA registration could still be accredited and technically sound; the registration matters because handling a sample that may test above the limit means handling a controlled substance.",
+    "> The lab rule has been delayed for six years for lack of capacity. Nothing public shows that capacity problem has been solved.",
+    "## Reading the silence",
+    "The lack of an announcement by mid-November is not, on its own, a sign USDA will let the rule take effect. The 2025 extension was issued on 23 December, just eight days before the previous deadline, and the 2024 extension came on 14 November. Growers and labs have learned to wait. But they cannot plan on another reprieve either, and USDA's own stated reason for each delay, a shortage of registered labs, has not been publicly reported as fixed.",
+    "For labs, the stakes are commercial. Hemp-testing labs that hold DEA registration would pick up work from those that do not, at least for federal compliance testing. For growers in states with few registered labs, the practical question is distance and turnaround: a pre-harvest sample has to be taken, shipped and tested within tight windows before harvest.",
+    "## Two deadlines, one month",
+    "The lab rule is separate from the federal product limits that start on 11 December, which cap finished hemp-derived cannabinoid products at 0.4 milligrams of total THC per container. One governs how the raw crop is tested in the field; the other governs which consumer products still count as hemp. But a grower who sells into the CBD or cannabinoid-product market faces both at once: a smaller set of legal products to sell into, and, from January, possibly a smaller set of labs allowed to certify the crop.",
+    "States are already reacting to the product limits. As we reported on 16 November, Iowa will automatically drop products above the federal cap from its approved list. Missouri's own ban on hemp THC products has already taken effect, with a temporary exemption for beverages, Marijuana Moment reported.",
+    "## What to watch",
+    "Watch for a USDA notice before 31 December either extending the enforcement discretion again or confirming it will lapse. Watch DEA's pace on lab registrations, which USDA has said is the bottleneck. And watch 11 December, when the federal hemp product limits begin, for how many cannabinoid brands leave the hemp market before the lab rule arrives."
+  ],
+  "sources": [
+    {"name": "USDA AMS: Enforcement deadline extended for DEA-registered labs (23 Dec 2025)", "url": "https://www.ams.usda.gov/content/usda-extends-enforcement-deadline-hemp-be-tested-dea-registered-laboratories-2"},
+    {"name": "USDA AMS: Information for hemp testing laboratories", "url": "https://ams-prod.azureedge.us/rules-regulations/hemp/information-laboratories"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/federal-requirement-for-hemp-testing-at-dea-registered-laboratories-set-to-take-effect-after-years-of-delays/"},
+    {"name": "The Marijuana Herald: Medicare CBD program and hemp limits", "url": "https://themarijuanaherald.com/2026/11/federal-medicare-cbd-program-has-seen-limited-participation-new-hemp-restrictions-threaten-product-eligibility/"},
+    {"name": "Marijuana Moment", "url": "https://www.marijuanamoment.net/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/16/iowa-hemp-master-product-list-federal-cap/"}
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "JAN",
+    "day": "1",
+    "big": "6 yrs",
+    "label": "the DEA lab rule has been delayed since 2020"
+  },
+  "banner": {
+    "title": "Hemp Lab Rule Hits 1 January",
+    "highlight": ["1 January"],
+    "sub": "USDA delay ends 31 December unless extended again",
+    "divider": "Hemp desk",
+    "points": [
+      {"icon": "flask", "text": "DEA-registered labs only"},
+      {"icon": "doc", "text": "Delayed since 2020"},
+      {"icon": "leaf", "text": "Product limits 11 Dec"}
+    ],
+    "corner": ["HEMP", "USDA", "DEA", "TESTING"]
+  },
+  "watch": [
+    {"date": "2026-12-11", "text": "Federal hemp product THC limits take effect"},
+    {"date": "2026-12-31", "text": "USDA enforcement delay on DEA-registered hemp labs expires"}
+  ],
+  "tags": ["Hemp", "Testing", "DEA", "Total THC", "Iowa"],
+  "image_prompt": "Premium product still life: a row of clear laboratory sample vials holding dried green hemp material in a metal rack, with a single fresh hemp leaf lying in front, on a dark lab bench, crisp studio lighting with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "Laboratory vials of dried hemp in a metal rack with a hemp leaf in front",
+  "x_post": "USDA's six-year delay on requiring DEA-registered labs for hemp crop tests runs out on 31 December. No extension yet. It lands three weeks after the federal hemp product limits start on 11 December.",
+  "breaking": false
+}

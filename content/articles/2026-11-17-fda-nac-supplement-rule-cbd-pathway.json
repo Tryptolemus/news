@@ -1,0 +1,68 @@
+{
+  "id": "fda-nac-supplement-rule-cbd-pathway",
+  "edition": "2026-11-17-am",
+  "rank": 1,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "Federal",
+  "headline": "FDA uses supplement exception for first time, a path CBD could follow",
+  "dek": "The FDA proposed on 16 November to let NAC be sold as a supplement, the first use of the rulemaking power that could one day do the same for CBD.",
+  "key_points": [
+    "The FDA proposed on 16 November to let N-acetyl-L-cysteine (NAC) be sold as a dietary supplement even though it was first approved as a drug.",
+    "It is the first time the agency has used its power to carve an ingredient out of the drug-first exclusion in Section 201(ff)(3)(B), the same clause that keeps CBD out of supplements.",
+    "The proposal does not mention CBD, and the FDA's position that CBD cannot be a supplement stands; the rule only proves the mechanism works.",
+    "Comments run for 60 days after Federal Register publication, which the Marijuana Herald reported was set for 17 November."
+  ],
+  "body": [
+    "The US Food and Drug Administration has used, for the first time, a legal power that the CBD industry has spent years asking it to use. On 16 November the agency issued a proposed rule that would allow N-acetyl-L-cysteine, a compound sold for decades as both a prescription drug and a supplement, to be marketed lawfully as a dietary supplement. The FDA said in its announcement that this is its first use of the rulemaking authority written into the exclusion clause of the supplement definition, and that NAC would be the first ingredient on a new list.",
+    "The proposal says nothing about cannabidiol. But the clause it relies on is the same one the FDA has cited for years to say CBD cannot be sold as a supplement. Until this week, no ingredient had ever been moved out from under that clause by regulation. Now there is a working template, a named regulation and, in the FDA's own words, a list that has room for more entries.",
+    "## What the FDA actually proposed",
+    "The rule would create a new regulation titled \"Dietary Ingredients Not Excluded from the Dietary Supplement Definition.\" NAC would be its first entry. The FDA said it carried out a full review and found no safety concerns with NAC in or as a supplement, and noted that NAC products labelled as supplements have been on US shelves for more than 30 years.",
+    "NAC got caught by the exclusion because it was approved as a prescription drug in 1963, before it was sold as a supplement, the Marijuana Herald reported. The FDA has let NAC supplements stay on the market under a temporary enforcement policy since August 2022, and said it will keep that policy in place while the rulemaking runs. The agency also framed the action as deregulatory under President Trump's Executive Order 14192.",
+    "The comment period is 60 days. The Marijuana Herald reported that the rule was scheduled for publication in the Federal Register on 17 November under docket FDA-2025-N-2699, which would put the comment deadline in mid-January 2027.",
+    "## Why CBD is stuck behind the same clause",
+    "Section 201(ff)(3)(B) of the Federal Food, Drug, and Cosmetic Act says that if a substance is the active ingredient in an approved drug, or has been the subject of substantial public clinical investigations as a new drug, products containing it are not dietary supplements, unless the substance was sold as a food or supplement first. CBD is the active ingredient in Epidiolex, the prescription seizure medicine. The FDA's own question-and-answer page on cannabis states that the agency has concluded THC and CBD products are excluded from the supplement definition, and that the pre-market exception does not apply to either.",
+    "The same page spells out the escape hatch: the exclusion applies unless the FDA, after notice and comment, issues a regulation finding the article would be lawful. On that page the FDA says no such regulation has ever been issued for any substance. The NAC proposal is the first attempt to issue one.",
+    "> The FDA has now shown the key turns. Whether it ever turns it for CBD is a policy choice, not a legal impossibility.",
+    "## What has not changed for CBD",
+    "Operators should not read this as a CBD opening. In January 2023 the FDA rejected three citizen petitions asking it to use this exact authority for CBD, saying the evidence did not show how CBD products could meet supplement safety standards and asking Congress to build a new framework instead, according to the Marijuana Herald. The NAC rule does not reverse that decision, and nothing in the FDA's announcement points to a CBD rule next.",
+    "The difference between the two cases is also plain in the FDA's reasoning. For NAC, the agency said it found no safety concerns after a comprehensive review. For CBD, the FDA has repeatedly said existing supplement rules are not adequate to manage its safety questions. A rule for CBD would need the FDA to reach the opposite conclusion on its own evidence, or Congress to act.",
+    "## Why the timing matters for hemp",
+    "The proposal lands in the middle of the toughest stretch for hemp-derived products since the 2018 Farm Bill. New federal limits on hemp-derived cannabinoid products, including a cap of 0.4 milligrams of total THC per container, are due to take effect on 11 December. Many CBD products that carry trace THC will need reformulating or will leave the federal hemp market altogether. A supplement pathway for CBD would give compliant products a clear federal home that they do not have today, with labelling, manufacturing and adverse-event rules that retailers and insurers recognise.",
+    "For now, the practical effect is narrower. Companies and trade groups that want a CBD supplement rule can point to a live, agency-written precedent rather than a theoretical power. Comments on the NAC docket are open to anyone, and the structure of the new regulation, a list that can grow, is the part the CBD industry will study most closely.",
+    "## What to watch",
+    "Watch for the Federal Register version of the rule and the exact comment deadline, roughly 60 days from publication. Watch whether CBD trade groups file comments urging the FDA to name criteria for adding ingredients to the new list. And watch 11 December, when the federal hemp product limits take effect: the more CBD products that fall outside hemp, the louder the call for a supplement route will become."
+  ],
+  "sources": [
+    {"name": "FDA: Proposed rule on NAC products as dietary supplements", "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-issues-proposed-rule-nac-products-dietary-supplements"},
+    {"name": "FDA: Regulation of cannabis and cannabis-derived products (Q&A)", "url": "https://www.fda.gov/news-events/public-health-focus/fda-regulation-cannabis-and-cannabis-derived-products-including-cannabidiol-cbd"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/fda-proposes-allowing-drug-ingredient-to-be-sold-as-dietary-supplement-under-authority-that-could-also-apply-to-cbd/"},
+    {"name": "The Marijuana Herald: Medicare CBD program and hemp limits", "url": "https://themarijuanaherald.com/2026/11/federal-medicare-cbd-program-has-seen-limited-participation-new-hemp-restrictions-threaten-product-eligibility/"}
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "FDA",
+    "sub": "FIRST USE",
+    "big": "1st",
+    "label": "use of the FDA's supplement carve-out power"
+  },
+  "banner": {
+    "title": "FDA Opens a Door CBD Wants",
+    "highlight": ["CBD"],
+    "sub": "NAC rule is first use of the supplement exception",
+    "divider": "Federal desk",
+    "points": [
+      {"icon": "doc", "text": "Proposed 16 November"},
+      {"icon": "flask", "text": "NAC first on new list"},
+      {"icon": "shield", "text": "CBD stance unchanged"}
+    ],
+    "corner": ["FDA", "CBD", "SUPPLEMENTS", "RULEMAKING"]
+  },
+  "watch": [
+    {"date": "2026-12-11", "text": "Federal hemp product THC limits take effect"}
+  ],
+  "tags": ["FDA", "CBD", "Hemp", "Total THC"],
+  "image_prompt": "Premium product still life: a single amber glass supplement bottle with a blank label and a dropper bottle of golden oil beside it, one green hemp leaf resting at the base, on a dark slate surface, soft studio light with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "An amber supplement bottle and a dropper bottle of oil beside a hemp leaf on dark slate",
+  "x_post": "The FDA just used, for the first time, the power that could one day let CBD be sold as a supplement. The ingredient is NAC, not CBD, and the agency's CBD stance hasn't moved. But the template now exists.",
+  "breaking": false
+}

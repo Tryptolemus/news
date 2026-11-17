@@ -1,0 +1,61 @@
+{
+  "id": "france-senate-medical-cannabis-timetable",
+  "edition": "2026-11-17-am",
+  "rank": 5,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "Europe",
+  "headline": "France's Senate demands a timetable for stalled medical cannabis access",
+  "dek": "French senators voted on 16 November to make the government report on the missing decrees that have kept new medical cannabis patients out since March 2024.",
+  "key_points": [
+    "The French Senate adopted amendment 1675 to the 2027 social security budget on 16 November, against the advice of the government and its own committee.",
+    "It would require a report within six months listing the decrees still missing for France's permanent medical cannabis framework, with a publication timetable.",
+    "No new patients have entered France's medical cannabis programme since March 2024, and HAS evaluation hearings set for 20 and 21 October were cancelled for lack of a decree.",
+    "Health Minister Stéphanie Rist said she hopes to send one decree, on the HAS evaluation, to the Council of State in January."
+  ],
+  "body": [
+    "France's Senate has lost patience with its own government over medical cannabis. On 16 November senators adopted an amendment to the 2027 social security financing bill requiring the government to tell Parliament, within six months of the law taking effect, which regulations are still missing for the country's permanent medical cannabis framework and when they will be published. The amendment passed even though both the government and the Senate's social affairs committee advised against it.",
+    "The measure does not admit a single new patient or set a binding date for access. What it does is put a formal reporting duty on a government that has let a law passed in December 2023 sit without its implementing decrees for almost three years. For the companies hoping to supply a French market, it is the clearest parliamentary signal yet that the delay has become a political problem.",
+    "## What the amendment requires",
+    "Amendment 1675, tabled by Socialist Sen. Marion Canalès with more than 20 co-signers, asks for a report on how Article 78 of the 2024 social security financing law, which created permanent access to cannabis-based medicines, has been applied. The report must list the regulatory texts still to be published and a planned timetable, set out the consequences of the delays for patients and for the developing industry, and give a timetable for resuming and completing the evaluation work of the Haute Autorité de santé, France's health technology assessment body.",
+    "The amendment's explanatory note says the work was prepared with the patient group APAISER. It says the delays have left tens of thousands of patients with serious conditions without access.",
+    "## How the experiment stalled",
+    "France's national medical cannabis experiment began on 26 March 2021, with the first prescription written at Clermont-Ferrand University Hospital. It ran across 215 volunteer care centres, for patients with severe conditions that had not responded to other treatment, including multiple sclerosis, drug-resistant epilepsy and palliative care. Parliament then voted a permanent framework in the social security law of 26 December 2023.",
+    "But the decrees needed to run that framework have not appeared. According to the amendment, no new patient has been able to start treatment since March 2024, and a rollout first promised for 2025 has slipped repeatedly. The knock-on effects are concrete: the national medicines agency, ANSM, cannot open applications for product authorisations, and the HAS cannot finish its evaluation until a Council of State decree sets out how it should be done. HAS hearings scheduled for 20 and 21 October were cancelled for that reason.",
+    "> France has a law, a finished trial and willing suppliers. What it lacks is a decree, and a Senate that has now said so on the record.",
+    "## A cross-party push",
+    "The vote drew support beyond the left. Public Sénat reported that centrist senators Nathalie Goulet and Anne-Sophie Romagny backed it, with Romagny saying it was the first time she had ever voted for a report request. The committee's rapporteur, Jean-François Rapin, gave an unfavourable opinion in line with the Senate's usual stance against report requests, but committee chair Philippe Mouiller signalled he would not stand in the way.",
+    "Health Minister Stéphanie Rist told senators the government was trying to move the decrees forward and that she hoped to refer one of them, covering the HAS evaluation, to the Council of State in January.",
+    "## Why it matters for European suppliers",
+    "France still has no commercial route for cannabis-based medicines, while next door Germany imported 205 tonnes of medical cannabis in 2025, according to BfArM figures compiled by Business of Cannabis, with Canada and Portugal the top origins. Any supplier eyeing France has to wait on the same three steps the amendment names: decrees, an HAS evaluation and an ANSM application window. The amendment does not speed any of them up directly, but a written timetable would give patients and industry dates to hold the government to.",
+    "## What to watch",
+    "The amendment must survive the rest of the budget process, including the National Assembly and any joint committee, before the six-month clock can start. Watch January for whether the HAS evaluation decree actually goes to the Council of State, as Rist said she hopes. And watch whether ANSM opens its authorisation window once that decree is published."
+  ],
+  "sources": [
+    {"name": "Sénat: Amendment 1675 (PLFSS 2027)", "url": "https://www.senat.fr/amendements/2026-2027/138/Amdt_1675.html"},
+    {"name": "Public Sénat", "url": "https://www.publicsenat.fr/actualites/sante/je-vous-en-supplie-mes-chers-collegues-votons-cet-amendement-le-senat-demande-au-gouvernement-de-faire-appliquer-la-loi-sur-lexperimentation-du-cannabis-therap"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/french-senate-votes-to-require-a-timetable-for-expanding-medical-marijuana-access/"},
+    {"name": "Business of Cannabis", "url": "https://businessofcannabis.com/"}
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "0",
+    "label": "new French patients admitted since March 2024"
+  },
+  "banner": {
+    "title": "France's Senate Wants a Date",
+    "highlight": ["Date"],
+    "sub": "Senators demand timetable for missing cannabis decrees",
+    "divider": "Europe desk",
+    "points": [
+      {"icon": "ballot", "text": "Amendment 1675 adopted"},
+      {"icon": "doc", "text": "Report due in 6 months"},
+      {"icon": "globe", "text": "No new patients since 2024"}
+    ],
+    "corner": ["FRANCE", "MEDICAL", "SENATE", "ACCESS"]
+  },
+  "watch": [],
+  "tags": ["France", "Medical cannabis", "Europe"],
+  "image_prompt": "Premium product still life: an amber pharmacy medicine bottle with a blank label next to a single green cannabis leaf and a small blue-white-red silk ribbon, on a dark marble surface, soft studio light with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "An amber medicine bottle beside a cannabis leaf and a tricolour ribbon on dark marble",
+  "breaking": false
+}

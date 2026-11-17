@@ -1,0 +1,59 @@
+{
+  "id": "supreme-court-washington-residency-8-december",
+  "edition": "2026-11-17-am",
+  "rank": 6,
+  "published": "2026-11-17T06:08:00+02:00",
+  "cat": "Policy",
+  "headline": "Supreme Court gives Washington 4 days, not 46, in residency case",
+  "dek": "Washington must now answer Peridot Tree's petition by 8 December, keeping alive the chance the justices hear the cannabis licensing residency fight this term.",
+  "key_points": [
+    "The US Supreme Court on 16 November moved Washington's deadline in Peridot Tree WA v. Washington State Liquor and Cannabis Board from 4 December to 8 December.",
+    "Washington had asked for 46 more days, to 19 January 2027; in total it has now had 54 extra days instead of the 96 it sought.",
+    "The case asks whether state residency rules for cannabis licences break the dormant Commerce Clause, an issue on which the Ninth Circuit split from the First and Second Circuits.",
+    "The challengers wanted a schedule that could let the court hear arguments before its summer recess if it takes the case."
+  ],
+  "body": [
+    "The US Supreme Court has kept a closely watched cannabis licensing case on a faster track. On 16 November the court gave Washington State four more days to respond to a petition challenging its residency rule for cannabis licences, moving the deadline in Peridot Tree WA, Inc. v. Washington State Liquor and Cannabis Board from 4 December to 8 December, the Marijuana Herald reported from the court's docket. Washington had asked for 46 days, which would have pushed its brief to 19 January 2027.",
+    "As we reported on 15 November, the challengers objected to the longer delay because it could keep the case from being argued this term even if the justices agree to hear it. The court's order gives them most of what they wanted. Washington has now received 54 extra days in total, after an earlier 50-day extension, instead of the 96 it would have had.",
+    "## What the two sides argued",
+    "Washington's lawyers said their small Supreme Court team faces an unusually heavy load, including three briefs in opposition and a merits argument set for 7 December, plus election-related work. In a reply letter filed on 16 November, Deputy Solicitor General Tera Heintz said the state had understood the challengers' concern to be about when the petition would be considered at conference, not whether it could be argued this term. She added that had the challengers explained that, the state would have argued there is no urgency, given what she called the moving target of national legalization.",
+    "The email exchange attached to that letter shows the challengers' position plainly. Their counsel wrote that they could not agree to a second extension because it risked the petition not going to conference until the autumn, and that they had planned their reply brief for the window between 4 and 14 December. A state lawyer countered that even a January brief would leave at least 15 conferences before the next term.",
+    "> Four days instead of 46 is a small order with a large effect: it keeps a ruling on cannabis residency rules possible by mid-2027.",
+    "## The question in the case",
+    "Washington requires anyone applying for a cannabis retail licence to have lived in the state for at least six months. Peridot Tree WA, majority-owned by Michigan resident Kenneth Gay, was turned down because of that rule. Gay and a second Peridot Tree company also challenged residency-based dispensary rules in Sacramento, California, and the two cases were joined in the Ninth Circuit.",
+    "In January the Ninth Circuit upheld the restrictions, holding that the dormant Commerce Clause, the constitutional principle that bars states from discriminating against interstate commerce, does not need to be stretched to protect commerce that federal law prohibits. That conflicts with rulings from the First and Second Circuits, which applied the clause to state cannabis licensing despite federal prohibition. Peridot Tree asked the Supreme Court in September to settle the split.",
+    "## Why operators should care",
+    "Residency rules like Washington's and Sacramento's decide who can own a cannabis business, and the circuit split means the answer currently depends on where in the country an applicant files. A Supreme Court ruling that the dormant Commerce Clause applies would put many of them in doubt and open state markets to out-of-state owners and capital. A ruling the other way would let states keep their markets closed, at least while cannabis remains federally illegal for adult use. The partial move of medical cannabis into Schedule III this year adds a fresh wrinkle that the justices may be asked to weigh.",
+    "## What to watch",
+    "Washington's brief in opposition is now due 8 December, and the challengers' reply would follow. If the timetable holds, the petition could reach a conference in January. Watch for the justices' decision on whether to take the case, which would set up argument this spring or push it to the autumn."
+  ],
+  "sources": [
+    {"name": "Supreme Court: Washington reply letter, No. 26-343", "url": "https://www.supremecourt.gov/DocketPDF/26/26-343/432850/20261116140705795_State2dExtLtr_Reply.pdf"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/u-s-supreme-court-gives-washington-just-four-more-days-in-marijuana-residency-case-after-state-requests-46/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/15/washington-residency-supreme-court-peridot-tree-delay/"}
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "4 days",
+    "label": "extra time granted, against 46 requested"
+  },
+  "banner": {
+    "title": "Court Grants Washington 4 Days",
+    "highlight": ["4 Days"],
+    "sub": "Peridot Tree brief now due 8 December, not 19 January",
+    "divider": "Courts desk",
+    "points": [
+      {"icon": "gavel", "text": "46-day request cut to 4"},
+      {"icon": "pin", "text": "Residency rules at stake"},
+      {"icon": "doc", "text": "Circuit split unresolved"}
+    ],
+    "corner": ["SCOTUS", "LICENSING", "COMMERCE", "WASHINGTON"]
+  },
+  "watch": [
+    {"date": "2026-12-08", "text": "Washington's brief due in Peridot Tree Supreme Court case"}
+  ],
+  "tags": ["Washington", "California", "Courts", "Licensing"],
+  "image_prompt": "Premium product still life: a dark wooden gavel and sound block beside a small glass jar of cannabis flower and an evergreen fir sprig, on a black stone surface, dramatic studio light with faint violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A gavel and sound block beside a jar of cannabis flower and a fir sprig",
+  "breaking": false
+}
