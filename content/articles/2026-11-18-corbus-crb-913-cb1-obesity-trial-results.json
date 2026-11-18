@@ -1,0 +1,100 @@
+{
+  "id": "corbus-crb-913-cb1-obesity-trial-results",
+  "rank": 4,
+  "cat": "Science",
+  "headline": "Corbus CB1 blocker CRB-913 cuts weight 5% at top dose in 12-week trial",
+  "dek": "Corbus's oral CB1 blocker beat placebo at every dose in a 254-person obesity trial, but about 1 in 8 people on the higher doses quit over side effects.",
+  "key_points": [
+    "Corbus Pharmaceuticals said on 16 November that CRB-913 cut body weight by 2.8%, 3.3% and 5.0% at 20, 40 and 60 mg after 12 weeks, against 0.0% on placebo.",
+    "The trial enrolled 254 adults with obesity at 15 US sites; all doses beat placebo with p<0.0001.",
+    "No suicidality and no serious psychiatric events were reported, but about 13% of people on the two higher doses stopped because of side effects, against 4.5% on placebo.",
+    "Corbus shares fell 10.8% on 17 November; the company plans to talk to the FDA and to test the drug alongside GLP-1 medicines."
+  ],
+  "body": [
+    "Corbus Pharmaceuticals has released fuller results for CRB-913, an experimental obesity pill that works on the same receptor in the body that THC activates, but in the opposite direction. In a 16 November release filed with the SEC, the Massachusetts company said the drug produced dose-dependent weight loss in a 254-person trial, reaching 5.0% at the highest dose after 12 weeks, with no suicidal thoughts reported.",
+    "The data, shown as a poster at ObesityWeek 2026, matter beyond one small-cap biotech. CRB-913 blocks the cannabinoid CB1 receptor, the main target of THC. The last drug of this kind to reach patients was withdrawn in Europe over psychiatric harm, so the safety tables in this trial are being read as closely as the weight numbers.",
+    "## The trial and the numbers",
+    "The CANYON-1 study was a 16-week, double-blind, placebo-controlled trial of adults with obesity and without diabetes at 15 US sites. Participants took a daily pill at 20 mg, 40 mg or 60 mg, or a placebo, for 12 weeks, with doses stepped up gradually, and were followed for four more weeks.",
+    "At week 12, average weight loss was 2.8% on 20 mg, 3.3% on 40 mg and 5.0% on 60 mg, against 0.0% on placebo; every dose beat placebo with p<0.0001. Waist size shrank by about 3 to 4 centimetres on the drug against under 1 centimetre on placebo. In the 60 mg group, 44.4% of participants lost at least 5% of their weight, and the largest individual loss was 13.4%. The company says the weight curve had not flattened by the end of dosing.",
+    "> A cannabis-receptor drug will be judged on mood first and weight second, and Corbus knows it.",
+    "## The safety record",
+    "Corbus reported no severe or serious psychiatric side effects and no suicidality in any group. There was one case of moderate depressive symptoms, in the 60 mg arm. Anxiety was reported by 4.5% on placebo and between 3.1% and 8.2% on the drug, depending on dose. Fifteen participants on CRB-913, about 8%, had mild, passing irritability. The company says these events are in line with published data for GLP-1 drugs.",
+    "The bigger issue is tolerability. Nausea hit 15% to 26% of people on the drug against 4.5% on placebo, and diarrhoea was reported by 26.2% on 40 mg. Discontinuation because of side effects was 3.1% on 20 mg but 13.1% on 40 mg and 12.9% on 60 mg, against 4.5% on placebo. By our count, 18 of the 188 people on the drug, about 9.6%, stopped for that reason; the company's headline 8.3% figure includes the placebo group.",
+    "## Why CB1 carries history",
+    "The European Medicines Agency approved the first drug of this class, Sanofi's rimonabant, sold as Acomplia, in June 2006. Its marketing was suspended across the EU on 13 November 2008, and the authorisation was withdrawn in January 2009 after the company abandoned development. The suspension followed concern about serious psychiatric problems, including suicide. That history is why Corbus reports depression, anxiety and suicidality arm by arm, and why the zero for suicidality is the result it leads with.",
+    "## How the market reacted",
+    "Investors were not persuaded. Corbus shares closed down 10.8% at $3.01 on 17 November, according to Business of Cannabis's daily market report, which found no company explanation for the drop. The release gives no cash figure, and a 5% loss at 12 weeks is modest next to the GLP-1 drugs that dominate the obesity market, even if the two could be paired.",
+    "## What it means",
+    "For the cannabinoid drug field, CRB-913 is a test of whether targeting the cannabis system can produce a mainstream medicine. Blocking CB1 is the mirror image of what THC does, and a clean psychiatric profile at this size of trial is a meaningful, if early, result. It is a Phase 1b study of 254 people over 12 weeks, so it cannot settle long-term safety.",
+    "## What to watch",
+    "Corbus says it will discuss the data and next steps with the FDA and is evaluating CRB-913 with GLP-1 therapies; it gave no dates. Watch for a Phase 2 design, the dose it carries forward, and whether longer studies keep psychiatric side effects at placebo levels."
+  ],
+  "sources": [
+    {
+      "name": "Corbus Pharmaceuticals: CANYON-1 results (SEC exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001595097/000119312526462186/crbp-ex99_1.htm"
+    },
+    {
+      "name": "Corbus: ObesityWeek 2026 poster",
+      "url": "https://www.corbuspharma.com/sites/default/files/2026-11/Bays_ObesityWeek_SUBMITTED_30Oct26_DIGITAL_ONLY.pdf"
+    },
+    {
+      "name": "European Medicines Agency: Acomplia (rimonabant)",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/acomplia"
+    },
+    {
+      "name": "Business of Cannabis: Cannabis stocks today, 18 November",
+      "url": "https://businessofcannabis.com/cannabis-stocks-today-wednesday-18-november-2026-afc-gamma-holds-above-3-50/"
+    },
+    {
+      "name": "Wikipedia: Rimonabant",
+      "url": "https://en.wikipedia.org/wiki/Rimonabant"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "5.0%",
+    "label": "weight loss at 60 mg after 12 weeks"
+  },
+  "banner": {
+    "title": "A CB1 Pill Cuts Weight 5%",
+    "highlight": [
+      "CB1",
+      "5%"
+    ],
+    "sub": "Corbus CRB-913 trial: no suicidality reported",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "254 adults, 15 sites"
+      },
+      {
+        "icon": "chart",
+        "text": "5.0% loss at 60 mg"
+      },
+      {
+        "icon": "shield",
+        "text": "~13% quit on high doses"
+      }
+    ],
+    "corner": [
+      "CB1",
+      "OBESITY",
+      "TRIAL",
+      "FDA"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Corbus Pharmaceuticals",
+    "FDA",
+    "Mental health"
+  ],
+  "image_prompt": "Premium product still life: a single white oval pill on a small glass dish beside a coiled cloth tape measure, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos",
+  "image_alt": "A white pill on a glass dish next to a coiled tape measure",
+  "breaking": false,
+  "edition": "2026-11-18-pm",
+  "published": "2026-11-18T18:14:35+02:00"
+}

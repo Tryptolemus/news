@@ -1,0 +1,103 @@
+{
+  "id": "va-psychedelic-studies-house-hearing-18-november",
+  "rank": 2,
+  "cat": "Federal",
+  "headline": "VA tells House it runs 21 psychedelic studies and has 10 sites ready",
+  "dek": "In testimony for an 18 November House hearing, the VA says it runs 21 psychedelic studies and has 10 sites ready to treat veterans once drugs are approved.",
+  "key_points": [
+    "The VA's written testimony for the House Veterans' Affairs health subcommittee says it had 21 active psychedelic studies as of September 2026, covering MDMA, psilocybin, DMT and LSD.",
+    "The department has picked 10 facilities to act as early implementers, educators or sites in training if the FDA approves a psychedelic treatment.",
+    "VA says it will offer these drugs outside research only after all regulatory approvals, and it discourages veterans from self-medicating with psychedelics.",
+    "The hearing, set for 2:15 pm Eastern on 18 November, also hears from four outside experts; HHS committed up to $4.9 million to ibogaine research on 12 November."
+  ],
+  "body": [
+    "The Department of Veterans Affairs is telling Congress it is building the clinical machinery to give veterans psychedelic treatments the day regulators approve one. In written testimony filed for a House Veterans' Affairs subcommittee hearing on 18 November, the department says it was running 21 active clinical studies of psychedelic treatments for mental health conditions as of September 2026, and has chosen 10 of its facilities to lead the first wave of care.",
+    "The hearing, titled Psychedelic-Assisted Therapies for Veterans: The Path Forward, was scheduled for 2:15 pm Eastern in room 360 of the Cannon House Office Building, after this edition went to press. The facts below come from the written statements and the committee's hearing records, not from what was said in the room.",
+    "## What the VA is studying",
+    "Andrew Gradison, a senior adviser to the VA's Under Secretary for Health, wrote that the 21 active studies cover MDMA, psilocybin, DMT and LSD for conditions including post-traumatic stress disorder, major depression and substance use disorders. One of them is a psilocybin trial for veterans with major depressive disorder, including those who also have PTSD, which the department launched on 5 August 2026. The testimony also names ibogaine among the compounds the VA considers promising.",
+    "The VA serves more than nine million enrolled veterans a year, Gradison wrote, which is why it describes itself as positioned to be the first health system in the country to deliver these treatments once they are approved. Dr. Ilse Wiechers, a senior VA clinical official, was listed to testify with him.",
+    "> The VA is preparing to prescribe psychedelics before any of them has cleared the FDA, so the approval date is now the whole story.",
+    "## Ten sites and a rulebook",
+    "The testimony describes three priorities: safety, building evidence on which treatments work for which veterans, and laying the groundwork for clinical use. That groundwork includes training pathways for clinicians, care delivery models and facility and patient safety standards, which the VA says it is finalising. The 10 facilities were chosen after what the department calls quantitative and qualitative analysis of which sites were best prepared, and lessons from them would guide a phased rollout to other VA centres.",
+    "The VA also set a clear line on access. It will move to clinical use outside research only after all regulatory approvals are complete, and it strongly discourages veterans from self-medicating with psychedelics or any unprescribed substance in place of treatment.",
+    "## The federal push behind it",
+    "Gradison tied the expansion to Executive Order 14401, Accelerating Medical Treatments for Serious Mental Illness, which President Trump issued in April 2026. According to the testimony, the order tells agencies to prioritise psychedelic drugs with Breakthrough Therapy designation for review, encourage access under the federal Right to Try Act, raise trial participation and data sharing between HHS, the FDA and the VA, and speed evaluation and possible rescheduling of psychedelic products after successful Phase 3 trials.",
+    "To carry that out, the VA and HHS signed a five-year memorandum of understanding on 13 July 2026 covering trial participation, researcher training, data sharing on effectiveness, safety and cost, and patient education. The FDA and VA signed a separate agreement on information sharing. Outside the VA, HHS said on 12 November it would put up to $4.9 million over five years, through its ARPA-H research agency, into studying ibogaine as a possible PTSD treatment, according to Legis1.",
+    "## Who else is testifying",
+    "The second panel brings four outside witnesses, according to the committee's hearing page: Dr. Leith States of States Strategies; Dr. Marion Coe of Pinney Associates, who directs clinical development and post-marketing surveillance; Dr. Mark Niciu, a psychiatry professor at the University of Iowa; and Dr. Raquel Halfond of the American Psychological Association. The record also holds written statements from the Special Forces Foundation, the Veterans of Foreign Wars, Disabled American Veterans and the company Mindbloom.",
+    "The subcommittee is chaired by Rep. Mariannette Miller-Meeks, an Iowa Republican, with Rep. Julia Brownley, a California Democrat, as ranking member. Legis1 notes that lobbying disclosures on psychedelic therapy list clients including Compass Pathways and the Veteran Mental Health Leadership Coalition.",
+    "## Why cannabis operators should care",
+    "Psychedelics are following a federal path cannabis never got: a dedicated executive order, interagency agreements and a health system lining up clinics ahead of approval. Meanwhile the hemp products that veterans groups say many veterans use face federal limits on 11 December, as we report in this edition. The contrast shows what a coordinated research-first approach looks like, and veterans groups are pressing for both.",
+    "## What to watch",
+    "Watch for the hearing video and any questions on timelines for FDA decisions. Watch whether the VA names its 10 sites. And watch the FDA's review calendar for the first psychedelic applications, which the executive order tells the agency to prioritise."
+  ],
+  "sources": [
+    {
+      "name": "VA: Statement of Andrew Gradison, 18 November 2026",
+      "url": "http://docs.house.gov/meetings/VR/VR03/20261118/119596/HHRG-119-VR03-Wstate-GradisonA-20261118.pdf"
+    },
+    {
+      "name": "House Committee on Veterans' Affairs: hearing page",
+      "url": "https://veterans.house.gov/calendar/eventsingle.aspx?EventID=7959"
+    },
+    {
+      "name": "House docs: hearing record and witness list",
+      "url": "https://docs.house.gov/Committee/Calendar/ByEvent.aspx?EventID=119596"
+    },
+    {
+      "name": "Legis1: House panel to examine veterans' psychedelic therapy",
+      "url": "https://legis1.com/news/veterans-psychedelic-therapy-house-panel-will"
+    },
+    {
+      "name": "MetaFlora News: Sheehy and Klobuchar hemp bill",
+      "url": "https://news.metaflora.xyz/2026/11/18/sheehy-klobuchar-hemp-guardrails-act-11-december/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "21",
+    "label": "active VA psychedelic studies, September 2026"
+  },
+  "banner": {
+    "title": "VA Readies Psychedelic Care",
+    "highlight": [
+      "Psychedelic"
+    ],
+    "sub": "Testimony to the House on 18 November",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "21 active studies"
+      },
+      {
+        "icon": "pin",
+        "text": "10 sites lined up"
+      },
+      {
+        "icon": "shield",
+        "text": "Only after FDA approval"
+      }
+    ],
+    "corner": [
+      "VA",
+      "PTSD",
+      "RESEARCH",
+      "CONGRESS"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Psychedelics",
+    "Congress",
+    "FDA",
+    "Mental health",
+    "Veterans cannabis"
+  ],
+  "image_prompt": "Premium product still life: a clear glass laboratory vial with a dark amber cap beside a single dried mushroom cap and a folded olive-green military field cap, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos",
+  "image_alt": "A glass lab vial beside a dried mushroom cap and a folded olive field cap",
+  "x_post": "The VA tells a House panel it had 21 active psychedelic studies as of September, and has picked 10 facilities to deliver MDMA or psilocybin care if the FDA approves them.",
+  "breaking": false,
+  "edition": "2026-11-18-pm",
+  "published": "2026-11-18T18:14:35+02:00"
+}

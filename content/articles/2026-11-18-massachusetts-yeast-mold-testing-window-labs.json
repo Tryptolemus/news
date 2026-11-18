@@ -1,0 +1,92 @@
+{
+  "id": "massachusetts-yeast-mold-testing-window-labs",
+  "rank": 5,
+  "cat": "States",
+  "headline": "Massachusetts orders labs to count yeast and mold within 60 to 72 hours",
+  "dek": "A 13 November regulator bulletin tells cannabis testing labs to read culture-based yeast and mold tests in a set window and to use validated sample sizes.",
+  "key_points": [
+    "Massachusetts regulators told independent cannabis labs on 13 November to incubate and count culture-based yeast and mold tests within 60 to 72 hours, effective immediately.",
+    "Labs must use methods validated for each product type and the sample size in the published method unless they validate an alternative.",
+    "Results from unvalidated methods may be thrown out, and labs that do not comply face scrutiny and possible administrative action.",
+    "The bulletin follows a 12 November commission vote to advance proposed rules on compliance testing, automatic retests and labels for remediated products."
+  ],
+  "body": [
+    "Massachusetts has told its cannabis testing labs exactly when to read a test that can decide whether a batch of flower can be sold. In a bulletin dated 13 November, the Cannabis Control Commission's Investigations and Enforcement Department said independent testing labs should incubate culture-based yeast and mold tests, and count the colonies, within a window of 60 to 72 hours. The instruction took effect immediately.",
+    "The bulletin also tightens how labs choose their methods and sample sizes, and warns that results from unvalidated methods may be treated as invalid. It comes a day after the commission voted to move forward with proposed rules on compliance testing, automatic retests and labels for sanitised or remediated products, according to mg Magazine.",
+    "## What the bulletin requires",
+    "The core rule is the timing. Culture tests for yeast and mold work by growing a sample on a plate and counting the colonies that appear, and the count depends on how long the plate incubates. The commission now wants that count taken between 60 and 72 hours. It says the window is its own expectation for Massachusetts cannabis, not a universal requirement of the US Pharmacopeia.",
+    "Labs must also use a method suited to each product type, run it as validated, and test the sample size set out in the published method. A lab that wants a different sample size has to show through a validation study that it gives equivalent results; convenience or assumption is not enough. Records must show that each method is suitable and was followed. The international lab standard ISO 17025:2017 is cited as the benchmark.",
+    "> When the plate is read matters as much as what grows on it, and Massachusetts has now put that in writing.",
+    "## The science behind the window",
+    "The commission grounds the rule in section 7.4 of its Sampling and Analysis Protocol, in US Pharmacopeia chapters 61 and 62, and in three AOAC studies that tested culture methods on cannabis flower against a reference agar. One, for a rapid yeast and mold plate, used a 60 to 72 hour window; another product was checked at 72 hours; and an older plate method used five days of incubation. The bulletin notes that the studies ran under different conditions and do not set one period for every method, which is why it chose a cannabis-specific window.",
+    "The three methods named are the 3M Petrifilm Rapid Yeast and Mold Count Plate, AOAC Official Method 2014.05, whose 2023 cannabis flower study used the 60 to 72 hour window; the CompactDry YMR plate, checked at 72 hours; and the older 3M Petrifilm Yeast and Mold Count Plate, AOAC Official Method 997.02, which uses a five-day incubation. In other words, a lab using the older plate on its standard schedule would fall outside the commission's window, and would need to show its method still fits Massachusetts' expectations. The bulletin also makes clear that the window covers incubation and counting only; sample pickup and reporting are separate steps with their own timelines.",
+    "The commission did not point to any specific failures or disputed results. It frames the bulletin as clarifying expectations and bringing lab practice in line with the cannabis evidence.",
+    "## Enforcement",
+    "The bulletin applies to independent testing labs, not cultivators. Labs that do not follow it may face further scrutiny under the state's cannabis law, chapter 94G, and its regulations. Results produced with a method that has not been validated may be deemed invalid, and the commission may take administrative action to protect public health and safety. For a grower, an invalid result can mean a batch that must be retested before sale.",
+    "## What it means for operators",
+    "If labs read their plates at different times, their counts may not be comparable, and a batch could pass at one lab and fail at another. A fixed window should make results more consistent from lab to lab, which in turn weakens any incentive to shop for a lab that passes more batches. Operators should expect fewer surprises between labs, not easier passes.",
+    "Post-harvest handling still decides most of the outcome. As we reported on 16 November, a study of greenhouse cannabis found that drying cut fungal DNA in flower by 50% to 65%. The proposed rules on retests and remediation labels will determine what happens to batches that still fail.",
+    "## What to watch",
+    "Watch for the formal publication and comment period on the commission's proposed compliance testing, retest and remediation labelling rules. Watch whether lab pass rates for microbial tests shift in the commission's data after the bulletin. And watch for any administrative action against labs under the new expectations."
+  ],
+  "sources": [
+    {
+      "name": "Cannabis Control Commission: Bulletin on yeast and mold testing, 13 November 2026",
+      "url": "https://masscannabiscontrol.com/2026/11/bulletin-microbiological-compliance-testing-yeast-and-mold-enumeration-method-suitability-and-sample-size-november-13-26/"
+    },
+    {
+      "name": "mg Magazine: Massachusetts yeast and mold testing",
+      "url": "https://mgmagazine.com/cannabis-news/massachusetts-cannabis-yeast-mold-testing/"
+    },
+    {
+      "name": "MetaFlora News: Cannabis research, drying and mold",
+      "url": "https://news.metaflora.xyz/2026/11/16/science-ed-opioids-cbd-dose-mold/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "CCC",
+    "sub": "LAB BULLETIN",
+    "big": "60-72h",
+    "label": "window to count yeast and mold colonies"
+  },
+  "banner": {
+    "title": "A Clock for Mold Tests",
+    "highlight": [
+      "Mold"
+    ],
+    "sub": "Massachusetts sets a 60 to 72 hour count window",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Count in 60-72 hours"
+      },
+      {
+        "icon": "doc",
+        "text": "Validated methods only"
+      },
+      {
+        "icon": "gavel",
+        "text": "Invalid results possible"
+      }
+    ],
+    "corner": [
+      "TESTING",
+      "LABS",
+      "MOLD",
+      "MASSACHUSETTS"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Massachusetts",
+    "Testing",
+    "Product safety"
+  ],
+  "image_prompt": "Premium product still life: a clear glass petri dish with a few pale round colonies beside a small dried cannabis bud on a white ceramic tile, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos",
+  "image_alt": "A glass petri dish with pale colonies next to a small cannabis bud",
+  "breaking": false,
+  "edition": "2026-11-18-pm",
+  "published": "2026-11-18T18:14:35+02:00"
+}
