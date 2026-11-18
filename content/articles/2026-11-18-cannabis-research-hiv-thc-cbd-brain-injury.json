@@ -1,0 +1,97 @@
+{
+  "id": "cannabis-research-hiv-thc-cbd-brain-injury",
+  "edition": "2026-11-18-am",
+  "rank": 5,
+  "published": "2026-11-18T06:11:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: THC-CBD capsules shift immune genes in HIV pilot",
+  "dek": "A six-person Montreal study published on 17 November found oral THC-CBD changed immune-cell gene activity in treated HIV, and a 3,365-person brain injury study.",
+  "key_points": [
+    "A Frontiers in Immunology study published on 17 November found that 12 weeks of oral THC-CBD or CBD changed inflammation-related gene activity in immune cells from six people with HIV.",
+    "The THC-CBD combination produced broader changes than CBD alone; the study measured gene expression, not symptoms or clinical outcomes.",
+    "A study of 3,365 adults with brain injuries found cannabis users in states without medical programmes reported more depression and anxiety than users in medical states.",
+    "Both studies are small or observational and cannot show that cannabis caused the differences they found."
+  ],
+  "body": [
+    "Two new papers add detail to long-running questions about medical cannabis: whether cannabinoids can calm the chronic inflammation that persists in people with HIV even when the virus is controlled, and how cannabis use relates to mental health after a traumatic brain injury. Neither offers a treatment answer. Both show where the evidence is heading and how far it still has to go.",
+    "The first, from researchers in Montreal, is a laboratory analysis inside a tiny clinical trial. The second is a large observational study from US brain injury and veterans data. Readers should treat both as early signals, not as proof of benefit or harm.",
+    "## THC and CBD in people with HIV",
+    "The paper, published in Frontiers in Immunology on 17 November, comes from teams at the Université du Québec à Montréal and the McGill University Health Centre Research Institute, with Cecilia Costiniuk as corresponding author. It draws on a Canadian HIV Trials Network pilot, CTN PT028, in which adults who had been on antiretroviral therapy for at least three years, with an undetectable viral load, took oral cannabinoid capsules for 12 weeks.",
+    "The trial was randomized and open-label. Ten people were assigned, five to each arm, and eight finished. One arm took a 1:1 mix of THC and CBD, building from 5 mg of each to a maximum of 15 mg of each a day. The other took CBD alone, starting at 200 mg a day and rising to 400 mg. For this analysis, the researchers took blood immune cells from six participants, three per arm, before and after treatment, and sequenced the RNA of 81,868 single cells across 13 immune cell types.",
+    "The biggest changes were in classical monocytes and CD8+ T cells. Both treatments altered genes linked to the body's own cannabinoid system, including the CB2 receptor gene CNR2. Across several cell types, the authors saw lower activity in interferon signalling and related antiviral genes, and shifts in inflammation and stress-response pathways. The THC-CBD combination changed more genes than CBD alone.",
+    "> Six patients and one blood draw after treatment is a hypothesis, not a therapy.",
+    "## What the HIV study does and does not show",
+    "The authors argue the results support testing cannabinoids as an add-on to reduce chronic immune activation in treated HIV. The study measured gene activity, not inflammation levels in the blood, symptoms or disease outcomes, and changes in RNA do not always mean changes in protein or function. There was no placebo group and no healthy comparison group. The same trial had earlier reported lower circulating inflammatory markers after 12 weeks, according to the paper, which is why the team looked deeper.",
+    "Tilray supplied the capsules, according to the paper; it was funded by the Canadian Institutes of Health Research and a private foundation, and the authors declared no commercial conflicts. For producers, the relevance is that clinical research in this area runs on pharmaceutical-grade, consistent product: the capsules were described as more than 98% pure.",
+    "## Cannabis after brain injury",
+    "The second study, published on 16 November in the Journal of Head Trauma Rehabilitation and summarised by The Marijuana Herald, looked at 3,365 adults living with complicated mild to severe traumatic brain injury between one and 30 years after the injury. The data came from the federal TBI Model Systems programme and the Department of Veterans Affairs, with follow-up between May 2019 and February 2021.",
+    "About 33% of participants in states with medical cannabis programmes reported using cannabis, against 23% in states without one. Among users, those in states without medical programmes scored higher on standard depression and anxiety scales: 1.80 points higher on the PHQ-9 and 1.58 points higher on the GAD-7, differences the Herald reports were statistically significant. Fewer than a quarter of users said they used cannabis only for recreation. Across the whole group, users reported more pain, depression, anxiety and opioid misuse than non-users.",
+    "## Reading the brain injury results",
+    "This is observational data, so it cannot say whether cannabis use, the legal setting, or something else drives the gap. People with worse symptoms may be more likely to use cannabis, and users in states without medical programmes buy from unregulated sources without a clinician involved. One reasonable reading, which the data cannot confirm, is that access to a supervised medical channel matters as much as the substance itself. We could not open the full journal record, so the figures above rest on the Herald's account of the paper.",
+    "## What to watch",
+    "Watch whether the Montreal team or the Canadian HIV Trials Network moves to a larger, placebo-controlled trial with clinical endpoints. Watch for the full text of the brain injury paper and for follow-up work that tracks people over time rather than at one point. Nothing in either study is medical advice; patients should talk to their own clinicians."
+  ],
+  "sources": [
+    {
+      "name": "Frontiers in Immunology: Oral cannabinoid treatment in people with HIV",
+      "url": "https://doi.org/10.3389/fimmu.2026.1958771"
+    },
+    {
+      "name": "The Marijuana Herald: HIV study",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-thc-and-cbd-may-reduce-chronic-inflammation-in-people-with-hiv-with-combination-producing-broader-benefits/"
+    },
+    {
+      "name": "PubMed: Journal of Head Trauma Rehabilitation study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43035867/"
+    },
+    {
+      "name": "The Marijuana Herald: Brain injury study",
+      "url": "https://themarijuanaherald.com/2026/11/study-brain-marijuana-medical/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "81,868",
+    "label": "single immune cells sequenced in HIV pilot"
+  },
+  "banner": {
+    "title": "THC-CBD Shifts Immune Genes",
+    "highlight": [
+      "Immune",
+      "Genes"
+    ],
+    "sub": "Six-person HIV pilot; brain injury study of 3,365",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "12 weeks, oral capsules"
+      },
+      {
+        "icon": "chart",
+        "text": "Broader change with THC"
+      },
+      {
+        "icon": "doc",
+        "text": "Gene data, not outcomes"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "HIV",
+      "THC",
+      "CBD"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Medical cannabis",
+    "Mental health",
+    "CBD",
+    "Tilray"
+  ],
+  "image_prompt": "Premium product still life: a small glass laboratory vial of golden cannabis oil beside a few white softgel capsules and a clear petri dish, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos",
+  "image_alt": "A vial of cannabis oil beside white capsules and a petri dish",
+  "breaking": false
+}
