@@ -1,0 +1,95 @@
+{
+  "id": "courts-desk-new-york-mayers-connecticut-charter-medical-patient",
+  "rank": 6,
+  "cat": "Policy",
+  "headline": "Courts: New York weighs record appeals, Connecticut backs patient",
+  "dek": "New York's Court of Appeals heard a case on appealing partial marijuana record relief, and a Connecticut court upheld a $62,530 award against Charter Communications.",
+  "key_points": [
+    "New York's Court of Appeals heard People v. Mayers on 18 November, on whether people denied full relief for old marijuana convictions can appeal.",
+    "A lower appeals court had dismissed the appeal in 2025, saying the law gives no express right to appeal decisions under the legalisation statute's resentencing provision.",
+    "Connecticut's Appellate Court unanimously upheld a finding that Charter Communications discriminated against an employee with PTSD who was fired days after it learned of her medical cannabis recommendation.",
+    "The Connecticut ruling rests on disability discrimination and pretext, not on a general ban on firing workers who test positive for THC."
+  ],
+  "body": [
+    "Two state appeals courts took up the long tail of cannabis law this week, one on criminal records and one on the workplace. New York's highest court heard argument on 18 November on whether people who win only partial relief from an old marijuana conviction can appeal. In Connecticut, the Appellate Court upheld a discrimination finding against Charter Communications for firing a worker shortly after it learned she had PTSD and a medical cannabis recommendation.",
+    "Neither case changes the cannabis market directly. Both shape how far legalisation's promises reach people with records and patients with jobs, which in turn shapes how states write the next round of laws.",
+    "## New York: can partial relief be appealed?",
+    "The case is People v. Mayers, docket APL-2026-00022. Keston Mayers was convicted of second-degree marijuana possession in 2017 and finished his sentence in 2019, The Marijuana Herald reported. After New York legalised adult-use cannabis in 2021, he asked a court to vacate the conviction under the Marihuana Regulation and Taxation Act, which lets people with some past convictions have them erased or replaced with lesser offences.",
+    "A Nassau County judge vacated the conviction but substituted second-degree cannabis possession under the new law. The judge acknowledged the conviction had caused serious ongoing harm, but found no legal basis to wipe it out without a substitute. Mayers appealed, seeking full relief. In September 2025 the Appellate Division, Second Department, dismissed the appeal, holding that the law does not expressly allow appeals from decisions under Criminal Procedure Law section 440.46-a, and that courts cannot create such a right on their own.",
+    "The Court of Appeals must now decide whether those decisions can be appealed. The case also raises whether judges can erase a past conviction outright, in the interests of justice, rather than replace it. Some New York convictions are expunged automatically; others require a petition, and the line matters most for conduct that is still illegal but now carries lighter penalties. Section 440.46-a itself directs automatic vacatur and expungement where the old conduct would no longer be a crime under the new cannabis article, and separately lets people file petitions for relief. No ruling has been issued.",
+    "> Legalisation statutes are only as strong as the right to appeal when a judge applies them narrowly.",
+    "## Connecticut: a patient's firing was pretext",
+    "In Connecticut, a three-judge Appellate Court panel unanimously upheld a finding that Charter Communications intentionally discriminated against former employee Latoya Council because of a mental disability, according to The Marijuana Herald and a case summary on Laws.com. Council joined Charter in August 2014 as a strategic accounts coordinator and was regarded as an excellent employee, court records showed.",
+    "She was diagnosed with PTSD in May 2016, and her doctor recommended her for the state's medical cannabis programme. The next month, two co-workers said they smelled marijuana from her car in the company lot; neither saw her use or hold it on company property. She told human resources she had used marijuana in the past 30 days but not at work, and mentioned her medical application. Her doctor faxed Charter her diagnosis and recommendation on 9 June 2016. She was given a saliva test the next day, put on paid leave, and fired on 15 June after testing positive, six days after Charter received the medical paperwork.",
+    "A state human rights referee found discrimination in May 2023 and ordered Charter to pay her $62,530 and to repay the state $9,646 for unemployment benefits. A Superior Court judge upheld that in November 2024. The Appellate Court found substantial evidence of pretext, pointing to the timing and to Charter's shifting reasons: it first cited its drug-free workplace policy, then raised lateness and her comments about her medical card. Investigators never showed she used or held cannabis at work or was impaired on the job.",
+    "## What the rulings do and don't do",
+    "The Connecticut decision is narrower than a headline might suggest. It upholds a disability-discrimination finding under the Connecticut Fair Employment Practices Act. It does not say employers can never fire a worker for a positive THC test. For employers, the lesson is procedural: a sudden firing right after medical disclosure, with reasons that change over time, invites a pretext finding.",
+    "In New York, a ruling for Mayers on appealability would let people who get only partial relief seek review in higher courts, which could widen the practical reach of the state's record-clearing law.",
+    "## What to watch",
+    "Watch for the Court of Appeals' decision in Mayers, which could take weeks or months. Watch whether Charter seeks further review in Connecticut's Supreme Court. And watch state legislatures in 2027, where workplace protections for medical patients and record relief are both on the agenda in several states."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald: New York's highest court takes up marijuana conviction appeals case",
+      "url": "https://themarijuanaherald.com/2026/11/new-yorks-highest-court-takes-up-case-that-could-affect-appeals-of-past-marijuana-convictions/"
+    },
+    {
+      "name": "New York Criminal Procedure Law section 440.46-a (NY Senate Open Legislation)",
+      "url": "https://www.nysenate.gov/legislation/laws/CPL/440.46-A"
+    },
+    {
+      "name": "The Marijuana Herald: Connecticut appeals court upholds ruling against employer",
+      "url": "https://themarijuanaherald.com/2026/11/connecticut-appeals-court-upholds-discrimination-ruling-against-employer-that-fired-medical-marijuana-patient/"
+    },
+    {
+      "name": "Laws.com: court upholds ruling against Charter Communications",
+      "url": "https://cases.laws.com/news/civil-rights/court-upholds-ruling-against-charter-communications-for-bias-11062677/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "$62,530",
+    "label": "award upheld against Charter Communications"
+  },
+  "banner": {
+    "title": "Records, Rights and Patients",
+    "highlight": [
+      "Patients"
+    ],
+    "sub": "New York's top court; Connecticut upholds award",
+    "divider": "Courts desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "NY: People v. Mayers"
+      },
+      {
+        "icon": "shield",
+        "text": "CT: firing was pretext"
+      },
+      {
+        "icon": "coin",
+        "text": "$62,530 award upheld"
+      }
+    ],
+    "corner": [
+      "COURTS",
+      "RECORDS",
+      "WORKPLACE",
+      "PATIENTS"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "New York",
+    "Connecticut",
+    "Courts",
+    "Cannabis employment",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Premium product still life: a dark wooden gavel resting on a closed leather-bound law book beside a small amber medicine bottle and a single green cannabis leaf, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A gavel on a law book beside a medicine bottle and a cannabis leaf",
+  "breaking": false,
+  "edition": "2026-11-19-am",
+  "published": "2026-11-19T06:12:43+02:00"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "im-cannabis-3-for-1-consolidation-decibel-ewing-morris-offer",
+  "rank": 7,
+  "cat": "Markets",
+  "headline": "IM Cannabis plans second share consolidation in three months",
+  "dek": "IM Cannabis will consolidate shares 3-for-1 on 23 November to protect its Nasdaq listing, after a 30-for-1 move in August; Ewing Morris closed its Decibel offer.",
+  "key_points": [
+    "IM Cannabis said on 18 November its board approved a 3-for-1 share consolidation, expected to take effect on 23 November, to support Nasdaq's US$1.00 minimum bid rule.",
+    "It follows a 30-for-1 consolidation on 27 August; by our arithmetic the two together turn every 90 original shares into one.",
+    "Because of the August move, Nasdaq rules give IM Cannabis no 180-day grace period: 30 straight business days below US$1.00 would trigger a delisting determination.",
+    "In Canada, Ewing Morris completed its C$2.09-a-share cash offer for Decibel Cannabis, buying about C$4.66 million of stock for a 5.79% stake."
+  ],
+  "body": [
+    "IM Cannabis, the Israel-focused medical cannabis company, is consolidating its shares again to keep its Nasdaq listing. The board approved a one-for-three consolidation, the company said on 18 November, with post-consolidation trading expected to start at the open on 23 November, subject to Nasdaq's final confirmation. The ticker IMCC stays the same; the CUSIP and ISIN change.",
+    "The move comes less than three months after a 30-for-1 consolidation on 27 August. Taken together, by our calculation, an investor who held 90 shares before August will hold one after 23 November. Outstanding shares are expected to fall from 1,844,162 to about 614,721.",
+    "## Why a second consolidation so soon",
+    "Nasdaq requires a minimum bid of US$1.00. A company that falls below it normally gets 180 calendar days to recover. But under Nasdaq Listing Rule 5810(c)(3)(A)(iv), a company that has done a reverse split in the prior year gets no such grace period, the company explained. Because of the August consolidation, if IMCC closes below US$1.00 for 30 consecutive business days, Nasdaq staff would issue a delisting determination straight away.",
+    "The purpose of this consolidation is to lift the per-share price and keep it above that line, IM Cannabis said, while warning that there is no assurance it will work or that the company will keep its listing. Fractions of a share at or above one-half will be rounded up; smaller fractions will be cancelled. Registered holders will receive a letter of transmittal from Computershare; holders through brokers need take no action.",
+    "> Two reverse splits in three months buy time on the share price, not on the business underneath it.",
+    "## The business underneath",
+    "The share action follows a weak quarter. As we reported on 14 November, IM Cannabis posted third-quarter revenue of C$1.65 million, down 68% from a year earlier, and a net loss of C$7.08 million. It ended September with C$2.42 million in cash and restricted cash against a C$5.50 million working-capital deficit, and had sold its European business, including German distributor Adjupharm, on 29 September. The company now describes itself as running a medical cannabis platform for patients in Israel, through import, distribution, pharmacies and online sales.",
+    "A consolidation does not change the value of the company; it changes the number of pieces. What it can change is who is able to own the stock, since some funds and brokers avoid sub-dollar shares, and whether the listing survives. For a company with a working-capital gap, keeping a US listing matters for raising money.",
+    "## Decibel: Ewing Morris completes its offer",
+    "In a separate Canadian deal, Toronto investment firm Ewing Morris said on 18 November it had completed its all-cash offer for shares of Decibel Cannabis at C$2.09 each. It will take up and pay for tendered shares within three business days, for a total cost of about C$4.66 million. After that, Ewing Morris will own 2,230,198 shares, about 5.79% of Decibel.",
+    "The aggregate cost divided by the offer price equals the full 2,230,198 shares, which indicates the whole stake came through this offer. The 5.79% figure also implies about 38.5 million Decibel shares outstanding, and a value of roughly C$80 million at the offer price. Those are our calculations from the release, not figures Ewing Morris stated. The firm said the investment reflects its strategy of bringing a private-equity approach to public markets, with active engagement. As we reported on 14 November, Decibel recently upgraded its US trading to the OTCQX market.",
+    "## What to watch",
+    "Watch IMCC's first trades after the consolidation on 23 November and whether the price holds above US$1.00 for the 30-business-day test. Watch for any new financing, given the working-capital gap. At Decibel, watch whether Ewing Morris seeks board representation or pushes for strategic changes, given its stated active approach."
+  ],
+  "sources": [
+    {
+      "name": "IM Cannabis: 3:1 share consolidation release (PR Newswire, 18 November 2026)",
+      "url": "https://www.prnewswire.com/news-releases/im-cannabis-announces-intention-to-complete-31-share-consolidation-to-support-nasdaq-minimum-bid-price-compliance-302944222.html"
+    },
+    {
+      "name": "Ewing Morris: completion of offer for Decibel shares (Cision, 18 November 2026)",
+      "url": "https://www.newswire.ca/news-releases/ewing-morris-announces-successful-completion-of-its-offer-for-shares-of-decibel-cannabis-company-inc--819935180.html"
+    },
+    {
+      "name": "MetaFlora News: IM Cannabis Q3 results",
+      "url": "https://news.metaflora.xyz/2026/11/14/im-cannabis-q3-2026/"
+    },
+    {
+      "name": "MetaFlora News: Canada desk on Christina Lake and Decibel",
+      "url": "https://news.metaflora.xyz/2026/11/14/canada-desk-christina-lake-decibel/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "big": "90:1",
+    "label": "combined IM Cannabis consolidation since August",
+    "vals": [
+      0.9,
+      0.7,
+      0.5,
+      0.35,
+      0.25,
+      0.6,
+      0.4,
+      0.3
+    ]
+  },
+  "banner": {
+    "title": "IM Cannabis Shrinks Its Shares",
+    "highlight": [
+      "Shares"
+    ],
+    "sub": "3-for-1 on 23 November, after 30-for-1 in August",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "Nasdaq US$1.00 rule"
+      },
+      {
+        "icon": "coin",
+        "text": "No 180-day grace period"
+      },
+      {
+        "icon": "handshake",
+        "text": "Ewing Morris: 5.79% of DB"
+      }
+    ],
+    "corner": [
+      "MARKETS",
+      "NASDAQ",
+      "ISRAEL",
+      "CANADA"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-23",
+      "text": "IM Cannabis shares expected to start trading on a post-consolidation basis on Nasdaq"
+    }
+  ],
+  "tags": [
+    "IM Cannabis",
+    "Decibel",
+    "Listings",
+    "Israel",
+    "Canada"
+  ],
+  "image_prompt": "Premium product still life: three small glass medicine vials merging into one larger polished glass vial with green cannabis extract, beside a small olive branch, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "Three small glass vials beside one larger vial of green extract and an olive branch",
+  "breaking": false,
+  "edition": "2026-11-19-am",
+  "published": "2026-11-19T06:12:43+02:00"
+}

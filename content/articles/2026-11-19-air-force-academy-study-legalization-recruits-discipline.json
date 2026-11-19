@@ -1,0 +1,107 @@
+{
+  "id": "air-force-academy-study-legalization-recruits-discipline",
+  "rank": 4,
+  "cat": "Science",
+  "headline": "Air Force study: legal cannabis states did not lower recruit quality",
+  "dek": "Air Force Academy economists, in a study published 18 November, found state legalization did not weaken recruit quality, though positive THC tests rose in some groups.",
+  "key_points": [
+    "A study by three Air Force Academy economists, published online on 18 November in the Journal of Policy Analysis and Management, found that recreational marijuana laws did not reduce Air Force recruit quality.",
+    "Positive marijuana tests rose among some serving members, especially White enlisted personnel, but overall illicit drug use showed little sign of rising, partly because of substitution between substances.",
+    "The authors found no strong change in overall discipline, but did find more grade reductions, a form of military punishment.",
+    "They also found some evidence of fewer Black recruits from states with legal adult-use cannabis."
+  ],
+  "body": [
+    "Legal adult-use cannabis in a recruit's home state does not appear to make the US Air Force's new airmen any less qualified, according to a peer-reviewed study published online on 18 November. The paper, by three economists at the US Air Force Academy, looks at how state recreational marijuana laws affected recruitment, drug use and discipline in the Department of the Air Force, an employer with some of the strictest drug rules in the country.",
+    "The headline finding is a negative one: recreational marijuana laws did not impede recruit quality. Beneath it sit three more specific results that matter for anyone weighing workplace drug policy: more positive THC tests in some groups, no clear rise in overall drug use, and a shift in how discipline is handed out.",
+    "## Who did the study, and how",
+    "The paper, titled Aim High: The Impacts of Marijuana Legalization on Air Force Recruitment, Drug Use, and Disciplinary Actions, appears in the Journal of Policy Analysis and Management. Its authors are Zachary S. Fone of the Academy's Office of Labor and Economic Analysis, and Aaron Albert and Anne Portlock of its Department of Economics and Geosciences, according to the publisher's record.",
+    "The authors used a difference-in-differences design, comparing outcomes before and after legalisation in states that legalised against those that did not. According to The Marijuana Herald's report, the analysis drew on personnel records from the Office of Labor and Economic Analysis and the Defense Manpower Data Center, so it measured actual military outcomes rather than relying on surveys of self-reported use.",
+    "The authors frame the question as a labour-market one. US military recruiting has grown harder, they write, partly because fewer young adults meet eligibility standards, and drug use is one of the reasons cited.",
+    "> The study points the other way from the fear behind strict hiring rules: legal states did not send the Air Force weaker recruits.",
+    "## What the authors found",
+    "On recruitment, the paper found no evidence that state recreational laws lowered the quality of people joining. It did find some evidence that fewer Black people were recruited from states with recreational laws, a result the authors report without a firm explanation in the abstract.",
+    "Among people already serving, positive marijuana tests increased for some groups, especially White enlisted members. But overall illicit drug use showed little sign of rising. The authors say part of the increase in marijuana positives reflects substitution: some members appear to have used marijuana in place of other substances rather than in addition to them.",
+    "On discipline, the authors found no strong evidence of change overall. The exception was grade reductions, a demotion in rank, which increased. The paper offers two possible reasons: the services may punish marijuana differently from other drugs, or members may respond to legalisation differently.",
+    "## Limits of the evidence",
+    "The study covers one service branch with a strict, testing-based drug policy, so its findings may not carry over to civilian employers with looser rules. It measures detected use through drug tests, not all use. And a natural experiment across states cannot rule out every other difference between states that legalised and those that did not, though the design is built to reduce that problem. We read the abstract and the publisher's record; the full paper sits behind the journal's access controls.",
+    "The result is consistent with earlier military research. A 2021 RAND Corporation study, cited by The Marijuana Herald, found that Army recruits with a history of marijuana use generally performed no worse than other soldiers. The Air Force in 2022 began allowing some applicants who first tested positive for THC to get a waiver and retest, rather than being turned away automatically, the Herald noted.",
+    "## Why it matters beyond the military",
+    "The question the paper tests, whether legal access makes workers less reliable, is the same one behind pre-employment THC screening in many civilian jobs. It lands as state lawmakers debate testing rules. In Texas, for example, Rep. John Bucy has filed HB 507 for the 2027 session, which would bar most state and local government employers from requiring a negative marijuana test, with exceptions for police and federally regulated transport jobs.",
+    "For service members nothing changes: the military's restrictions on marijuana use stay in force for active-duty personnel regardless of state law, as the Herald noted. The study measures how those rules play out, not whether they should change.",
+    "## What to watch",
+    "Watch whether the Pentagon or the other services cite the findings in reviews of enlistment waivers. Watch for follow-up work on the gap in Black recruitment the authors flagged. And watch state legislatures in 2027, where employment testing bills are likely to draw on studies like this one."
+  ],
+  "sources": [
+    {
+      "name": "Journal of Policy Analysis and Management: Aim High (DOI 10.1002/pam.70140)",
+      "url": "https://doi.org/10.1002/pam.70140"
+    },
+    {
+      "name": "Crossref record and abstract for DOI 10.1002/pam.70140",
+      "url": "https://api.crossref.org/works/10.1002/pam.70140"
+    },
+    {
+      "name": "The Marijuana Herald: Air Force study on legalization and recruit quality",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-marijuana-legalization-does-not-reduce-air-force-recruit-quality-or-increase-overall-discipline-problems/"
+    },
+    {
+      "name": "RAND: marijuana use and Army recruits (2021)",
+      "url": "https://www.rand.org/pubs/research_reports/RR4431.html"
+    },
+    {
+      "name": "Texas Legislature: HB 507 (2027 session) text",
+      "url": "https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00507I.htm"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "3",
+    "label": "Air Force Academy economists behind the study"
+  },
+  "banner": {
+    "title": "Legal States, Same Recruits",
+    "highlight": [
+      "Same",
+      "Recruits"
+    ],
+    "sub": "Air Force Academy study published 18 November",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Recruit quality unchanged"
+      },
+      {
+        "icon": "chart",
+        "text": "THC positives up in some"
+      },
+      {
+        "icon": "shield",
+        "text": "No broad drug-use rise"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "MILITARY",
+      "WORKPLACE",
+      "POLICY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2027-01-12",
+      "text": "Texas Legislature convenes, with HB 507 on government-employer marijuana testing pending"
+    }
+  ],
+  "tags": [
+    "Research",
+    "Legalization",
+    "Cannabis employment",
+    "Texas"
+  ],
+  "image_prompt": "Premium product still life: a pair of polished silver aviator wings insignia resting beside a small clear laboratory test tube holding a green cannabis leaf, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "Silver aviator wings beside a test tube with a cannabis leaf",
+  "breaking": false,
+  "edition": "2026-11-19-am",
+  "published": "2026-11-19T06:12:43+02:00"
+}
