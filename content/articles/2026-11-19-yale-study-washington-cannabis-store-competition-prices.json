@@ -1,0 +1,104 @@
+{
+  "id": "yale-study-washington-cannabis-store-competition-prices",
+  "edition": "2026-11-19-pm",
+  "rank": 5,
+  "published": "2026-11-19T18:13:13+02:00",
+  "cat": "Science",
+  "headline": "Yale: 10% more Washington cannabis stores would save buyers $7.6M",
+  "dek": "A Yale, UCLA and Cornell study of Washington's licence lottery finds a nearby rival cuts store markups about 9%, and that licence caps cost buyers.",
+  "key_points": [
+    "Researchers from Yale, UCLA and Cornell used Washington's 2014 licence lottery as a natural experiment to measure how store competition affects cannabis prices.",
+    "Stores with a rival within 0.2 km charged markups about 9% lower than stores whose nearest rival was more than 2.5 km away; the effect vanished beyond about 1 km.",
+    "One or two nearby rivals produced almost the whole price effect; stores also changed their product mix to avoid stocking the same items as neighbours.",
+    "A simulated 10% increase in licences cut markups 1.4%, saving consumers about $7.6 million a year, with nearly double the effect in Seattle."
+  ],
+  "body": [
+    "Capping the number of cannabis stores has a measurable price, according to new research from Yale, UCLA and Cornell. Using Washington State's original licence lottery, the researchers estimate that letting 10% more cannabis retailers open statewide would cut retail markups by 1.4% and save consumers about $7.6 million a year, with the effect nearly doubled in Seattle.",
+    "The working paper, \"Retailer Price Competition and Assortment Differentiation: Evidence from Entry Lotteries\", is by Kosuke Uetake of the Yale School of Management, Brett Hollenbeck of UCLA and Sylvia Hristakeva of Cornell. Yale highlighted the findings on 9 November.",
+    "## A lottery as an experiment",
+    "Studying competition is usually hard because good locations attract both more stores and more spending customers, so it is difficult to tell whether lower prices come from rivals or from the neighbourhood. Washington's 2014 launch gave the researchers a way around that. Where applications outnumbered licences, the state picked winners by lottery, and applicants had already named their proposed addresses. Two equally promising sites could end up with different numbers of nearby rivals purely by chance.",
+    "Because Washington tracks and taxes every legal sale, the team could follow nearly 400 retailers over time and measure their markups and product mix as competition changed, according to Yale's summary of the paper.",
+    "## Competition is block by block",
+    "The price effect is real but very local. Stores whose nearest rival was within 0.2 kilometres charged markups about 9% below stores whose nearest rival was more than 2.5 kilometres away. Once the nearest competitor was more than about a kilometre away, the effect largely disappeared. Uetake told Yale that competition here is block by block, not citywide.",
+    "The number of rivals mattered less than having any at all. One or two nearby competitors accounted for nearly all of the decline in markups; a third, fourth or fifth barely moved prices further.",
+    "> The first rival on the block does most of the work; the fifth adds almost nothing.",
+    "## Shelves, not just prices",
+    "Stores also responded by changing what they stocked. Retailers facing a nearby rival carried more products with less overlap with that rival's range, and the closer two stores were, the less alike their shelves looked. When neighbouring stores did carry exactly the same product, that item's markup came under extra pressure. The researchers read this as stores using assortment as a tool to soften price competition.",
+    "In the 10% expansion scenario, existing stores' assortments grew by about 8% on top of the lower markups, so consumers would get more choice as well as lower prices, the study found.",
+    "## Why it matters beyond Washington",
+    "Many states cap cannabis retail licences, often without hard evidence on what the caps cost consumers. The same applies to liquor stores, pharmacies and tobacco retailers, the Yale summary notes. The paper gives regulators a method and a number: in Washington, a modest increase in licences would lower prices and widen choice, with the biggest gains in dense cities.",
+    "The findings land as several states debate store counts. As we reported this morning, Nebraska's medical programme caps dispensaries at 12, allotted by judicial district. Washington itself is defending its licensing rules at the US Supreme Court in a residency case, where, as we reported on 17 November, its brief is due on 8 December. Neither case turns on prices, but both are about who gets to open a store and where, which this study links directly to what consumers pay.",
+    "The authors also argue that detailed seed-to-sale tracking is what made the analysis possible, and that states without it cannot judge whether their caps should rise or fall. Uetake linked weak tracking to illicit-market risk in some states.",
+    "## Limits of the study",
+    "The paper is a working paper, not yet peer-reviewed, and it measures markups at existing stores, not the full effect of new entrants on prices. The $7.6 million figure is a simulation for Washington's market and may not translate directly to states with different tax rates, store densities or licence systems. Those caveats are ours.",
+    "## What to watch",
+    "Watch for the paper's journal publication, for lawmakers in capped markets citing it as they debate 2027 licensing bills, and for Washington's 8 December Supreme Court brief in the residency case."
+  ],
+  "sources": [
+    {
+      "name": "Yale Insights: How retailers respond when competitors move in next door",
+      "url": "https://insights.som.yale.edu/insights/how-retailers-respond-when-competitors-move-in-next-door"
+    },
+    {
+      "name": "The Marijuana Herald: Yale study finds expanding Washington retail licenses could save consumers $7.6 million",
+      "url": "https://themarijuanaherald.com/2026/11/yale-study-finds-expanding-marijuana-retail-licenses-in-washington-by-10-could-save-consumers-7-6-million-annually/"
+    },
+    {
+      "name": "MetaFlora News: Nebraska sends medical cannabis fees to attorney general",
+      "url": "https://news.metaflora.xyz/2026/11/19/nebraska-medical-cannabis-fees-attorney-general-mckinney-2027/"
+    },
+    {
+      "name": "MetaFlora News: Supreme Court gives Washington 4 days in residency case",
+      "url": "https://news.metaflora.xyz/2026/11/17/supreme-court-washington-residency-8-december/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "-9%",
+    "label": "markups when a rival store is within 0.2 km"
+  },
+  "banner": {
+    "title": "More Stores, Lower Prices",
+    "highlight": [
+      "Lower",
+      "Prices"
+    ],
+    "sub": "Yale study uses Washington's licence lottery",
+    "divider": "Research desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "9% lower markups nearby"
+      },
+      {
+        "icon": "coin",
+        "text": "$7.6M a year in savings"
+      },
+      {
+        "icon": "pin",
+        "text": "Effect fades past 1 km"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "WASHINGTON",
+      "RETAIL",
+      "PRICES"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-08",
+      "text": "Washington's brief due at the Supreme Court in the cannabis residency case"
+    }
+  ],
+  "tags": [
+    "Washington",
+    "Research",
+    "Licensing",
+    "Market data"
+  ],
+  "image_prompt": "Premium product still life: two identical small glass jars of cannabis flower standing close together beside a single evergreen fir sprig on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "Two glass jars of cannabis flower beside a fir sprig",
+  "breaking": false
+}
