@@ -1,0 +1,96 @@
+{
+  "id": "third-circuit-devero-rfra-rastafarian-marijuana-supervised-release",
+  "edition": "2026-11-20-pm",
+  "rank": 3,
+  "published": "2026-11-20T18:14:12+02:00",
+  "cat": "Policy",
+  "headline": "Third Circuit orders new look at Rastafarian's cannabis request",
+  "dek": "A federal appeals court on 18 November vacated a ruling that barred a Pennsylvania man on supervised release from religious marijuana use.",
+  "key_points": [
+    "The Third Circuit vacated a district court's refusal to let Dontae Jamar Devero use marijuana in Rastafarian ceremonies while on federal supervised release, The Marijuana Herald reported.",
+    "The panel said the lower court had to apply the Religious Freedom Restoration Act to Devero's own circumstances, not rely on how other courts ruled for other defendants.",
+    "The ruling does not allow Devero to use marijuana; the case returns to a federal district court in Pennsylvania.",
+    "The decision is about method, and it applies wherever a federal court in the circuit is asked for a religious exemption from a drug condition."
+  ],
+  "body": [
+    "A federal appeals court has told a trial judge to go back and do the legal analysis she skipped when she refused to let a Rastafarian man use marijuana in religious ceremonies while on supervised release. In a decision issued on Wednesday 18 November, the US Court of Appeals for the Third Circuit vacated the ruling against Dontae Jamar Devero and returned his case to a federal district court in Pennsylvania, The Marijuana Herald reported.",
+    "The three-judge panel did not decide whether Devero should get an exemption. It decided that the district court had not properly weighed his claim under the Religious Freedom Restoration Act (RFRA), the 1993 federal law that limits how far the government can burden religious practice. We have not seen the opinion itself; this account relies on two published summaries of it.",
+    "## The request",
+    "Devero was sentenced in 2013 to 120 months in prison and eight years of supervised release after pleading guilty to a federal cocaine distribution conspiracy charge, according to The Marijuana Herald. He began supervised release in October 2022, and his supervision was transferred to Pennsylvania the following year.",
+    "In September 2024 he asked the court for permission to smoke marijuana during Rastafarian ceremonies and for other religious purposes. He argued that a total ban went further than necessary and offered conditions of his own: reporting each instance of religious use, regular testing for other controlled substances, and monthly contact with his supervision officer.",
+    "On our arithmetic from those dates, Devero has roughly four years of supervision left. The condition he is challenging is a standard one. People on federal supervised release are barred from using controlled substances, and marijuana remains one under federal law.",
+    "## What the district court did",
+    "The district judge accepted that Devero appeared sincere in his beliefs and noted that he had obeyed the ban while he pursued permission through the courts. She denied the request anyway. She pointed to earlier decisions that had rejected similar arguments and concluded that existing precedent did not support an exception.",
+    "ReligiousLiberty.TV, which covers religious-freedom litigation, reports that the judge did not apply RFRA's test. Instead she noted that most reported cases had gone against claimants and wrote that she could not \"in good conscience predict\" that the Third Circuit would endorse the exception.",
+    "## What the appeals court said",
+    "The Third Circuit said that was the wrong question. RFRA sets out a sequence. A person must first show that the government has placed a substantial burden on a sincere religious practice. If they do, the government must show that applying the restriction to that person is the least restrictive way of serving a compelling interest. The test is about the individual in front of the court.",
+    "On that basis, the panel held that the district court had to examine Devero's own circumstances rather than rest mainly on outcomes in cases about other defendants. Even if most earlier religious marijuana claims had failed, that did not remove the need for an individual assessment. The panel also criticised the lower court for trying to forecast an appellate ruling instead of carrying out the analysis itself, both outlets report. The Third Circuit had not previously ruled on this specific issue, according to ReligiousLiberty.TV.",
+    "> The court did not say yes to religious cannabis use. It said a judge has to weigh the person asking, not the tally of earlier losses.",
+    "## What it does not do",
+    "The decision does not authorise Devero to use marijuana. The Marijuana Herald reports that the panel expressly declined to say whether his claim deserves an exemption. The district court must now reconsider the request under the correct standard, and the government will have the chance to argue that a full ban is the least restrictive way to supervise him.",
+    "It also says nothing about state cannabis law. Pennsylvania has a medical cannabis programme and no adult-use market, but Devero's request rests on federal religious-freedom law, not on a state patient card. Nor does the ruling touch federal scheduling. State-licensed medical cannabis moved to Schedule III this year; marijuana outside that channel is still a federally controlled substance, which is why a supervised-release condition can ban it.",
+    "## Why it matters beyond one case",
+    "The Third Circuit hears appeals from federal courts in Pennsylvania, New Jersey, Delaware and the US Virgin Islands. A ruling on how district judges must handle RFRA requests gives defence lawyers in those courts a clear procedural argument: a judge cannot dispose of a religious exemption request by counting other courts' denials.",
+    "That is a narrower point than it may sound. Religious marijuana claims have mostly failed in federal courts, a pattern the district judge herself relied on. Individual review does not guarantee a different result. It does mean that facts such as a clean supervision record, a specific and limited request, and proposed safeguards have to be weighed. Devero offered all three.",
+    "The case sits alongside other federal appeals we have covered this month in which courts are working through the gap between federal drug law and changing practice, including the Sixth Circuit's refusal to rehear a US$31.8 million case involving Curaleaf, which we reported on 19 November. This one concerns an individual, not a company, but it turns on the same question of how federal courts treat cannabis while the law is in flux.",
+    "## What to watch",
+    "Watch for the district court's new ruling in Pennsylvania; no date has been reported. Watch whether the government argues that its interest in supervising a person convicted of a drug offence cannot be met with testing and reporting. Watch whether either side asks the full Third Circuit to rehear the case. And watch for similar requests from other people on federal supervision in the circuit, now that the method has been spelled out."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald: Federal appeals court revives Rastafarian's bid to use marijuana for religious ceremonies",
+      "url": "https://themarijuanaherald.com/2026/11/federal-appeals-court-revives-rastafarians-bid-to-use-marijuana-for-religious-ceremonies/"
+    },
+    {
+      "name": "ReligiousLiberty.TV: Third Circuit tells trial judge to do the RFRA analysis",
+      "url": "https://religiouslibertytv.substack.com/p/third-circuit-tells-trial-judge-to"
+    },
+    {
+      "name": "MetaFlora News: Curaleaf keeps win as Sixth Circuit refuses to rehear $31.8M case",
+      "url": "https://news.metaflora.xyz/2026/11/19/curaleaf-hello-farms-sixth-circuit-rehearing-denied/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "18 Nov",
+    "label": "Third Circuit vacates denial, orders RFRA review"
+  },
+  "banner": {
+    "title": "Court Orders Fresh RFRA Review",
+    "highlight": [
+      "RFRA",
+      "Review"
+    ],
+    "sub": "Third Circuit vacates denial of religious cannabis request",
+    "divider": "Courts desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Ruling issued 18 November"
+      },
+      {
+        "icon": "doc",
+        "text": "Sent back to trial court"
+      },
+      {
+        "icon": "shield",
+        "text": "No exemption granted yet"
+      }
+    ],
+    "corner": [
+      "COURTS",
+      "RFRA",
+      "FEDERAL",
+      "RELIGION"
+    ]
+  },
+  "tags": [
+    "Courts",
+    "Pennsylvania",
+    "Religious freedom"
+  ],
+  "image_prompt": "Premium product still life: a wooden judge's gavel beside a brass balance scale holding a single green cannabis leaf in one pan, on a dark stone surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A gavel beside a brass balance scale with a cannabis leaf in one pan",
+  "x_post": "The Third Circuit has vacated a ruling that barred a Rastafarian man on supervised release from religious marijuana use. It did not grant an exemption: the trial court must now apply RFRA to his own case.",
+  "breaking": false
+}
