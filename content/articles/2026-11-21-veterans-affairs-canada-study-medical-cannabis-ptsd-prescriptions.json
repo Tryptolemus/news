@@ -1,0 +1,103 @@
+{
+  "id": "veterans-affairs-canada-study-medical-cannabis-ptsd-prescriptions",
+  "edition": "2026-11-21-am",
+  "rank": 6,
+  "published": "2026-11-21T06:12:13+02:00",
+  "cat": "Science",
+  "headline": "Canada study of 116,815 veterans ties cannabis to fewer opioid claims",
+  "dek": "A paper published 19 November found veterans authorised for medical cannabis had fewer claims for opioids and psychiatric drugs; it does not show cause.",
+  "key_points": [
+    "The study used Veterans Affairs Canada records for 116,815 veterans eligible for medical cannabis reimbursement between 2014 and 2020.",
+    "Among veterans with PTSD, 47% of those in the cannabis programme had antidepressant claims against 65% of those outside it; for opioids the figures were 16% and 19%.",
+    "Programme participants had higher total prescription drug spending than non-participants, not lower.",
+    "The authors say the data show an association only: reimbursement records cannot show whether cannabis replaced, reduced or was added to other medicines."
+  ],
+  "body": [
+    "A large study of Canadian military veterans has found that those authorised to receive medical cannabis were less likely to have claims for opioids, antidepressants, benzodiazepines and antipsychotics. The gap was widest among veterans with post-traumatic stress disorder.",
+    "The paper was published on 19 November in the Journal of Psychiatric Research and reported by The Marijuana Herald, whose account we rely on here; we have linked the journal record but have not read the full text. The finding is an association in administrative records. The authors themselves say it does not show that cannabis caused the difference.",
+    "## What the researchers looked at",
+    "The study drew on administrative health records from Veterans Affairs Canada covering 116,815 veterans who were eligible for medical cannabis reimbursement between 2014 and 2020. It also used the 2019 Life After Service Survey for information on health, medicine use and patterns of cannabis authorisation. It received ethics approval from the University of Ottawa.",
+    "Of the veterans in the data, 10,228, or 8.8%, had been authorised for cannabis reimbursement. A total of 17,335, or 14.8%, had a recognised PTSD-related disability.",
+    "## PTSD and who joins the programme",
+    "Veterans with PTSD were about six times more likely to be in the cannabis programme than those without: 30% against 5%. Applying the 30% rate to the 17,335 veterans with PTSD gives roughly 5,200 people. On that rough count, which is ours, veterans with PTSD made up about half of all programme participants while being about one in seven of the study population.",
+    "They were also authorised for more. Among participants, 24.9% of those with PTSD were approved for more than three grams a day, compared with 9.5% of those without.",
+    "## The prescription gaps",
+    "The headline comparisons are among veterans with PTSD. In that group, 47% of cannabis programme participants had reimbursements for antidepressants, against 65% of non-participants. That is a gap of 18 percentage points. For antipsychotics the figures were 17% and 24%, a gap of 7 points. For opioids they were 16% and 19%, a gap of 3 points.",
+    "Across the wider group with prescription reimbursement records, cannabis authorisation was associated with significantly lower rates of claims for opioids, antidepressants, benzodiazepines and antipsychotics. The differences for antidepressants and antipsychotics were most marked among veterans with PTSD.",
+    "Note the order of those gaps. The opioid difference, which leads most coverage of studies like this, is the smallest of the three. The largest is for antidepressants.",
+    "> The widest gap in this study is for antidepressants, not opioids. And total drug spending was higher among cannabis participants, not lower.",
+    "## The finding that cuts the other way",
+    "Programme participants had higher overall prescription medicine spending than non-participants. The authors put that down to differences in health care use and medical need. In plain terms, the veterans who end up in the cannabis programme may be sicker or more engaged with care to begin with.",
+    "That is the central problem in reading the results. People are not assigned to the programme at random. A veteran who seeks cannabis authorisation may differ in diagnosis, severity, treatment history and preferences from one who does not. Some may have sought cannabis because other medicines did not work for them or caused side effects, which would produce lower claims for those medicines without cannabis having replaced anything.",
+    "## What the data cannot show",
+    "The researchers are explicit about the limits, according to the Herald. The analysis used reimbursement records, not confirmed use. A claim shows that a medicine was paid for, not that it was taken, and the absence of a claim does not show that a medicine was not obtained another way. The study could not determine whether cannabis replaced, reduced or supplemented conventional treatment.",
+    "It is also a Canadian programme with its own rules. Veterans Affairs Canada reimburses medical cannabis directly. Results from a setting where cannabis is paid for may not carry over to one where patients pay themselves.",
+    "The authors' conclusion is modest: the association warrants further investigation, particularly among veterans with PTSD. Nothing in the study is a basis for changing an individual's treatment, and it makes no claim that cannabis treats PTSD.",
+    "## A programme that grew fast",
+    "The paper also documents how quickly the reimbursement programme expanded. The number of veterans authorised rose from 628 in the 2014-2015 fiscal year to 15,369 in 2020-2021. Annual reimbursements rose from about $5.2 million to about $119.3 million over the same period, as reported by the Herald.",
+    "Those figures imply that spending per authorised veteran barely moved. Dividing one by the other gives about $8,300 per veteran in the first year and about $7,800 in the last. The programme became roughly 23 times more expensive because about 24 times as many veterans were in it, not because each one cost more. That is our arithmetic from the reported totals.",
+    "## Why it matters in the United States",
+    "The study lands while American veterans' access to cannabis is under active debate. As we reported on 17 November, the VFW and 25 other veterans groups asked Congress to regulate hemp products instead of banning them. As we reported on 18 November, the VA told a House panel that it is running 21 psychedelic studies.",
+    "Canada's records are unusual: a national dataset in which a veterans' agency pays for cannabis and for conventional medicines, so that both show up in the same system. That makes it one of the few places where the question of substitution can be studied at scale. It does not make this study an answer to it.",
+    "## What to watch",
+    "Watch for follow-up work that tracks the same veterans over time, comparing their prescriptions before and after cannabis authorisation; that design would say more about substitution than a comparison between groups. Watch for analyses that adjust for severity of illness. And watch whether U.S. lawmakers cite the paper in the debates over veterans' access and the 11 December hemp deadline."
+  ],
+  "sources": [
+    {
+      "name": "Journal of Psychiatric Research: study of Veterans Affairs Canada cannabis reimbursement records",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022395626005601"
+    },
+    {
+      "name": "The Marijuana Herald: Study of 116,000 veterans finds medical marijuana linked to fewer opioid and psychiatric drug prescriptions",
+      "url": "https://themarijuanaherald.com/2026/11/study-of-116000-veterans-finds-medical-marijuana-linked-to-fewer-opioid-and-psychiatric-drug-prescriptions/"
+    },
+    {
+      "name": "MetaFlora News: VFW and 25 other veterans groups ask Congress to regulate hemp, not ban it",
+      "url": "https://news.metaflora.xyz/2026/11/17/veterans-groups-letter-congress-regulate-hemp-11-december/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "116,815",
+    "label": "Canadian veterans in the reimbursement records"
+  },
+  "banner": {
+    "title": "Cannabis Tied To Fewer Claims",
+    "highlight": [
+      "Cannabis",
+      "Fewer"
+    ],
+    "sub": "Canadian records show a link, not a cause",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "116,815 veterans studied"
+      },
+      {
+        "icon": "chart",
+        "text": "Antidepressants 47% vs 65%"
+      },
+      {
+        "icon": "doc",
+        "text": "Association, not proof"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "VETERANS",
+      "PTSD",
+      "CANADA"
+    ]
+  },
+  "tags": [
+    "Research",
+    "Veterans cannabis",
+    "Canada",
+    "Mental health",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Premium product still life: an amber dropper bottle of cannabis oil beside a row of three empty orange prescription pill bottles and a small red maple leaf, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "An amber dropper bottle beside empty prescription bottles and a maple leaf",
+  "breaking": false
+}

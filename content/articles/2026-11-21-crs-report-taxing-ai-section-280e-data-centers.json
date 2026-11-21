@@ -1,0 +1,101 @@
+{
+  "id": "crs-report-taxing-ai-section-280e-data-centers",
+  "edition": "2026-11-21-am",
+  "rank": 7,
+  "published": "2026-11-21T06:12:13+02:00",
+  "cat": "Tech",
+  "headline": "CRS report cites cannabis 280E tax as a model for AI data centers",
+  "dek": "A Congressional Research Service report dated 18 November lists Section 280E, the tax rule cannabis firms want gone, among options for taxing AI.",
+  "key_points": [
+    "The CRS report Taxing AI: Alternative Approaches, dated 18 November 2026, has a section headed Marijuana Tax Treatment.",
+    "It describes Section 280E, under which marijuana sellers may deduct only the cost of goods sold, and says the result works like a value-added tax.",
+    "The report lists a tax on data-center receipts minus cost of goods sold, which it calls the regime that currently applies to marijuana, as an option alongside a gross receipts tax.",
+    "CRS says it is not clear whether AI firms' expenses could be disallowed, but notes that 280E has not faced a constitutional challenge."
+  ],
+  "body": [
+    "The tax rule that the cannabis industry has spent years trying to escape has turned up in an unexpected place: a congressional research paper on how to tax artificial intelligence. A Congressional Research Service report dated 18 November, Taxing AI: Alternative Approaches, lists the tax treatment of marijuana businesses among the options Congress could adapt for AI companies and data centers.",
+    "CRS is the non-partisan research arm of Congress. Its reports set out options and do not recommend them, and nothing in this one is a bill. But it shows how lawmakers' advisers now describe Section 280E: as a working example of a tax that denies ordinary business deductions and has stood up in practice. The report was first noted by The Marijuana Herald; we read the report itself.",
+    "## What the report says about marijuana",
+    "The passage sits in a part of the report on general federal tax options, under the heading Marijuana Tax Treatment. It explains that an income tax normally allows deductions for the ordinary and necessary costs of doing business, and that there is one case where many of those deductions are disallowed.",
+    "Marijuana sellers, the report says, can deduct only the cost of goods sold, under Section 280E of the Internal Revenue Code. Its example is a retailer that can deduct what it paid for the marijuana it resells but not labour, depreciation, rent or utilities. That treatment, CRS writes, makes the tax resemble a value-added tax.",
+    "Then comes the link to AI. Whether the business expenses of participants in the AI market could be disallowed in the same way is, in the report's words, \"not clear\". But it adds that the rule has not faced a constitutional challenge, which it says suggests this approach or a gross receipts tax might be feasible.",
+    "## The data-center version",
+    "The idea returns in the report's summary of income tax approaches. After listing options such as denying bonus or accelerated depreciation on data-center equipment and barring data centers from opportunity zone incentives, like-kind deferrals and real estate investment trust status, it names one more: a tax on the gross receipts of AI data centers, or a similar tax on receipts minus the cost of goods sold, which it describes as the regime that currently applies to marijuana.",
+    "The Marijuana Herald points out why the two would be close to the same thing for this industry. A data center does not buy and resell physical inventory the way a dispensary does. With little or no cost of goods sold to subtract, a 280E-style tax on a data center would fall on nearly all of its revenue. The Herald also notes that Sen. Ron Wyden of Oregon has separately proposed a gross receipts tax on data centers along with limits on depreciation.",
+    "> For a decade cannabis operators have called 280E a penalty. A congressional report now cites it as a precedent.",
+    "## The wider menu",
+    "The marijuana model is one item on a long list. The report says tax proposals in the current Congress include a token tax, a tax on computing power and taxes on digital advertising. It also discusses taxes on electricity and water used by data centers, on chips and servers, and on AI-enabled robot services.",
+    "It sets out both sides. Arguments for taxing AI include disruption in labour markets, the need for revenue if wages fall, and the effect of data centers on local electricity prices. Arguments against include that AI raises productivity, that the race to develop it matters for national security, and that data centers can lower as well as raise power prices and add to local property tax revenue.",
+    "The report also flags legal limits. Some designs, such as a tax on computing power, could count as direct taxes that the Constitution requires to be apportioned among the states by population.",
+    "## What 280E has meant for cannabis",
+    "For cannabis readers the description will be familiar. Because rent, wages and marketing are not deductible, a plant-touching business pays federal income tax on something close to its gross profit, not its net profit. As we reported on 15 November, Trulieve, Curaleaf and three other multistate operators carry about $1.96 billion in disputed 280E-related tax positions on their balance sheets.",
+    "The April rescheduling order moved FDA-approved products and marijuana handled under qualifying state medical licences to Schedule III. Section 280E applies to trafficking in Schedule I and II substances, so those medical activities are generally outside it. Adult-use activity is not, and the IRS has not yet said how businesses with both kinds of activity should split their costs, the Herald notes. As we reported on 17 November, Leef Brands said rescheduling cut its third-quarter tax bill by 95%.",
+    "## Why this matters to operators and investors",
+    "Three points, all our reading. First, the report's one-line description, that marijuana is illegal at the federal level and its sellers can deduct only cost of goods sold, does not mention the April order or the Schedule III carve-out for state-licensed medical activity. It describes the rule as it applies to Schedule I activity. That is a simplification in a paper about AI, not a statement of current cannabis tax law.",
+    "Second, the framing is a small warning. The industry's case against 280E has been that it is an anomaly that taxes licensed businesses on income they never keep. A research paper that treats the same mechanism as a usable design for a lawful industry points the other way: it presents denial of deductions as a tool, not a mistake.",
+    "Third, the remark about the constitutional question is worth noting. CRS reads the absence of a successful constitutional challenge as a sign that the approach is feasible. Operators holding large uncertain tax positions are betting on a different reading.",
+    "None of this changes anyone's tax bill. The report proposes nothing and binds no one. It is evidence of how the rule is seen by the people who brief Congress.",
+    "## What to watch",
+    "Watch for IRS guidance on how businesses with both medical and adult-use activity allocate expenses, which is the open question for the 2026 tax year. Watch whether any AI tax bill in the next Congress borrows the receipts-minus-cost-of-goods design. And watch the pending federal decision on whether to move all marijuana to Schedule III, which would take adult-use businesses out of 280E as well."
+  ],
+  "sources": [
+    {
+      "name": "Congressional Research Service: Taxing AI: Alternative Approaches (R49520), via EveryCRSReport",
+      "url": "https://www.everycrsreport.com/reports/R49520.html"
+    },
+    {
+      "name": "The Marijuana Herald: Congressional researchers cite marijuana's 280E tax rules as a model for taxing AI data centers",
+      "url": "https://themarijuanaherald.com/2026/11/congressional-researchers-cite-marijuanas-280e-tax-rules-as-a-model-for-taxing-ai-data-centers/"
+    },
+    {
+      "name": "MetaFlora News: Trulieve, Curaleaf and 3 more MSOs carry $1.96B in disputed 280E tax",
+      "url": "https://news.metaflora.xyz/2026/11/15/mso-uncertain-tax-liabilities-280e-q3-2026/"
+    },
+    {
+      "name": "MetaFlora News: Leef Brands says rescheduling cut its Q3 tax bill by 95%",
+      "url": "https://news.metaflora.xyz/2026/11/17/leef-brands-280e-medical-tax-q3-2026/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "280E",
+    "label": "cannabis tax rule cited as a model for taxing AI"
+  },
+  "banner": {
+    "title": "280E As A Model For AI Tax",
+    "highlight": [
+      "280E",
+      "AI"
+    ],
+    "sub": "CRS report lists cannabis tax rule among options",
+    "divider": "Tech desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "CRS report, 18 November"
+      },
+      {
+        "icon": "chip",
+        "text": "Data centers in scope"
+      },
+      {
+        "icon": "coin",
+        "text": "An option, not a bill"
+      }
+    ],
+    "corner": [
+      "TAX",
+      "280E",
+      "AI",
+      "CONGRESS"
+    ]
+  },
+  "tags": [
+    "Section 280E",
+    "Congress",
+    "Rescheduling"
+  ],
+  "image_prompt": "Premium product still life: a single black server blade with small glowing indicator lights beside a stack of silver coins and one green cannabis leaf, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A server blade beside a stack of coins and a cannabis leaf",
+  "breaking": false
+}
