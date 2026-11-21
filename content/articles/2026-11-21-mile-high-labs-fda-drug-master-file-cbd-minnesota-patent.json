@@ -1,0 +1,114 @@
+{
+  "id": "mile-high-labs-fda-drug-master-file-cbd-minnesota-patent",
+  "edition": "2026-11-21-pm",
+  "rank": 5,
+  "published": "2026-11-21T18:14:33+02:00",
+  "cat": "Science",
+  "headline": "Mile High Labs files FDA master file for CBD; Minnesota wins patent",
+  "dek": "Mile High Labs said on 19 November it filed a Type II Drug Master File for CBD isolate; the University of Minnesota got a crop-sensing patent on 17 November.",
+  "key_points": [
+    "Mile High Labs announced on 19 November that it filed a Type II Drug Master File, DMF #044151, with the FDA for its 98% CBD isolate on 2 October.",
+    "A master file is not an approval: the FDA says such files are neither approved nor disapproved and are reviewed only when a drug application cites them.",
+    "The US Patent and Trademark Office issued patent 12,800,485 to the University of Minnesota on 17 November for detecting nutrient shortages in cannabis by reflected light.",
+    "Neither development is a product on sale; both are groundwork, one for drug developers and one for growers."
+  ],
+  "body": [
+    "Two pieces of technical groundwork were laid in cannabis this week, one in pharmaceuticals and one in cultivation. A Colorado ingredient maker told the Food and Drug Administration how it makes its CBD, so that drug developers can build on it. And a public university secured a US patent on a way to tell when a cannabis plant is short of nutrients before the plant shows it.",
+    "Neither is a product launch. Both are the kind of step that has to happen before one.",
+    "## The filing",
+    "Mile High Labs, based in Loveland, Colorado, announced on Thursday 19 November that it has filed a Type II Drug Master File with the FDA for its CBD isolate, a 98% cannabidiol ingredient. The file is numbered DMF #044151 and was submitted on 2 October, the company said in its release.",
+    "A company developing a drug that contains the ingredient can point to that file in its own FDA submission, provided Mile High Labs gives it a Letter of Authorization. The company said it expects the file to appear on the FDA's public list of master files at the next quarterly update, and that it is preparing for an FDA inspection.",
+    "## What a master file is, and is not",
+    "The FDA's own guideline is plain on this. A Drug Master File is a confidential submission describing the facilities, processes or materials used to make a drug. Filing one is voluntary. It can be used to support an investigational new drug application, a new drug application or a generic application.",
+    "The guideline is equally plain about the limits. A master file is not a substitute for a drug application. It is not approved or disapproved. The FDA reviews its technical contents only when it is reviewing an application that refers to it. Type II is the category that covers drug substances and the materials used to prepare them.",
+    "So the accurate reading of this week's news is narrow. The FDA has not approved Mile High Labs' CBD. It has not reviewed it. It holds a file that a future drug sponsor may cite, at which point the agency will look.",
+    "## Why a supplier bothers",
+    "The file exists so that the supplier can keep its manufacturing methods secret from its customers while still letting the regulator see them. For a drug developer, that removes a job. Instead of assembling and defending the chemistry and quality data for a bought-in ingredient, it references a file that already holds them.",
+    "That matters more in cannabinoids than in most fields. The barrier for many small developers is supply of an ingredient made to pharmaceutical standards with paperwork a regulator will accept. An ingredient with a master file on record is easier to design a trial around than one without.",
+    "It also says something about where hemp ingredient makers think their future lies. Mile High Labs sells CBD, CBG, CBN and CBC in isolate, distillate and water-soluble forms to customers in the United States, United Kingdom, European Union and Japan, according to its release. The consumer hemp market in the US faces a federal ban on most hemp-derived THC products due on 11 December and continued uncertainty over how CBD in foods and supplements is treated. Pharmaceutical supply runs on a different legal track, through the FDA's drug process. The company's chief operating officer, John Davis, described the filing as a milestone in its move into that channel.",
+    "> A master file gets a CBD supplier into the room where drugs are reviewed. It does not get anything approved.",
+    "## The patent",
+    "On Tuesday 17 November the US Patent and Trademark Office issued patent 12,800,485 to the Regents of the University of Minnesota. Its title is 'Hyper-spectral assessment of multiple variants of cannabis'. The Marijuana Herald, which reviewed the patent, reports that it has nine claims, that the application was filed on 3 March 2023 and that it was published in September 2024.",
+    "The problem it addresses is one every grower knows. A cannabis plant can look green and healthy in early growth while already short of nitrogen, phosphorus or potassium. By the time the leaves show it, yield has been lost.",
+    "The patented method measures near-infrared light reflected from living plants and runs the readings through a computer classifier that sorts plants into two groups: short of those nutrients, or adequately fed. According to the Herald's account, the classifier is trained on several varieties of cannabis, because different varieties reflect light differently and a model built on one can misread another. The measurement does not require cutting or destroying plant tissue.",
+    "The claims go beyond diagnosis. They cover using the result to decide how much fertilizer each plant should get, taking planting date and expected harvest into account, and in some versions sending that instruction directly to feeding equipment. Repeat scans can then check whether the correction worked.",
+    "## What it could mean for growers",
+    "Fertilizer is a direct cost, and so is the labour of scouting a crop by eye. A sensor that catches a shortage early and doses only the plants that need it would cut both, and would reduce nutrient run-off. In a market where wholesale prices are under pressure from oversupply, cost per pound is where growers compete.",
+    "The cautions are the usual ones for a patent. It protects an idea; it does not show that a product exists, works at commercial scale or pays for itself. The Herald notes that nothing in the patent indicates the system is commercially available. How the university intends to license it has not been announced in anything we reviewed.",
+    "It is the second piece of university cannabis crop research in a week to reach the news. As we reported in this morning's edition, Texas A&M AgriLife said it has bred a hemp plant with no detectable cannabinoids. Public universities are now producing protected, licensable technology for a crop many of them could not legally study a decade ago.",
+    "## What to watch",
+    "Watch the FDA's next quarterly update of its public Drug Master File list for DMF #044151. Watch for the first drug sponsor to name Mile High Labs as its CBD supplier in a trial or application, which is the point at which the file is actually reviewed. On the patent, watch for a licensing announcement from the University of Minnesota or a sensor maker, and for field data showing the classifier's accuracy across commercial varieties."
+  ],
+  "sources": [
+    {
+      "name": "Mile High Labs (PR Newswire): Mile High Labs files Type II Drug Master File with FDA for CBD isolate",
+      "url": "https://www.prnewswire.com/news-releases/mile-high-labs-files-type-ii-drug-master-file-with-fda-for-cbd-isolate-302946042.html"
+    },
+    {
+      "name": "FDA: Drug Master Files: Guidelines",
+      "url": "https://www.fda.gov/drugs/guidances-drugs/drug-master-files-guidelines"
+    },
+    {
+      "name": "USPTO Official Gazette: US 12,800,485, Hyper-spectral assessment of multiple variants of cannabis",
+      "url": "https://patentsgazette.uspto.gov/week46/OG/html/1552-3/US12800485-20261117.html"
+    },
+    {
+      "name": "The Marijuana Herald: University of Minnesota awarded U.S. patent for technology that detects nutrient deficiencies in marijuana plants",
+      "url": "https://themarijuanaherald.com/2026/11/patent-marijuana-nutrient/"
+    },
+    {
+      "name": "The Marijuana Herald: Colorado company files with FDA to supply CBD for development of new medicines",
+      "url": "https://themarijuanaherald.com/2026/11/fda-cbd/"
+    },
+    {
+      "name": "MetaFlora News: Texas A&M breeds hemp with no detectable THC; seed targeted for 2029",
+      "url": "https://news.metaflora.xyz/2026/11/21/texas-am-agrilife-type-v-hemp-no-detectable-cannabinoids/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "98%",
+    "label": "CBD isolate covered by the FDA master file"
+  },
+  "banner": {
+    "title": "CBD Maker Files With The FDA",
+    "highlight": [
+      "CBD",
+      "FDA"
+    ],
+    "sub": "A master file is a reference, not an approval",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Type II file, 98% CBD"
+      },
+      {
+        "icon": "doc",
+        "text": "Not an FDA approval"
+      },
+      {
+        "icon": "chip",
+        "text": "Minnesota sensing patent"
+      }
+    ],
+    "corner": [
+      "CBD",
+      "FDA",
+      "PATENT",
+      "RESEARCH"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "CBD",
+    "FDA",
+    "Hemp",
+    "Research",
+    "Colorado",
+    "Minnesota"
+  ],
+  "image_prompt": "Premium product still life: a clear glass laboratory jar filled with fine white crystalline powder beside a small handheld optical sensor pointed at a single potted green seedling, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A jar of white crystalline powder beside a handheld sensor aimed at a potted seedling",
+  "breaking": false
+}
