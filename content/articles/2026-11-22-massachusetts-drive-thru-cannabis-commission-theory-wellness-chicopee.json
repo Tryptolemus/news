@@ -1,0 +1,99 @@
+{
+  "id": "massachusetts-drive-thru-cannabis-commission-theory-wellness-chicopee",
+  "edition": "2026-11-22-am",
+  "rank": 3,
+  "published": "2026-11-22T06:09:25+02:00",
+  "cat": "States",
+  "headline": "Massachusetts allows cannabis drive-thrus; Chicopee store set to open",
+  "dek": "Massachusetts regulators voted 3-0 on 17 November to allow drive-thru cannabis sales; Theory Wellness plans to open one on 24 November.",
+  "key_points": [
+    "The Cannabis Control Commission voted 3-0 on 17 November that retailers and medical dispensaries may offer drive-thru service if they meet existing security rules.",
+    "Operators must submit floor plans and procedures for review, check the age of every person in the car twice, and keep products and sales out of public view.",
+    "Theory Wellness told the Boston Globe its Chicopee drive-thru opens on Tuesday 24 November, from 1 p.m. to 7 p.m. daily, for online orders only.",
+    "Local approval is still required, so most towns' stores cannot simply open a window; Chicopee already had one built."
+  ],
+  "body": [
+    "Massachusetts has opened the door to drive-thru cannabis sales without writing a new rule. On Tuesday 17 November the Cannabis Control Commission voted 3-0 that adult-use retailers and medical marijuana treatment centres may serve customers through a drive-thru, provided they comply with the security requirements already in its regulations. The regulations do not mention drive-thrus, but commissioners decided the store security rules can be read to cover drive-thru areas, subject to the commission's review.",
+    "The first operator is moving fast. Theory Wellness announced on Friday 20 November that it will open a drive-thru at its Chicopee store on Tuesday, according to the Boston Globe. That is 24 November, a week after the vote and just before the Thanksgiving weekend.",
+    "## What the commission decided",
+    "The commission's release sets out the conditions. A licensee must submit its drive-thru plans for review by the chief of investigations and enforcement and the executive director, including a floor plan of the drive-thru area and standard operating procedures. Cameras must cover the drive-thru area under the existing surveillance rule. Any departure from the security requirements needs a formal alternative security request.",
+    "The age rules are strict. The operator must check the age of every occupant of the vehicle, both when the car enters the drive-thru and at the point of sale. Transactions must not happen in public view, products must not be visible from the window, and signs outside must list the requirements. Any extra municipal approvals or permits still apply.",
+    "Chair Chris Harding described the vote as a balance between strict security and local control. The release also notes a piece of history: medical dispensaries ran curbside pick-up from March 2020 until December 2023, when it ended. Customers can still order online and pick up in the store.",
+    "> Massachusetts did not change its rules to allow drive-thrus. It decided its rules never forbade them.",
+    "## How Chicopee will work",
+    "Theory's version is narrow. Customers order online and choose drive-thru pick-up. An employee checks the ID of everyone in the car at the entrance, and a second check takes place at the window where the customer pays and collects a sealed order, chief executive Brandon Pollock told the Globe. The drive-thru will run from 1 p.m. to 7 p.m. each day.",
+    "Chicopee is a special case. Pollock said the store already had a drive-thru built, and it was used for pre-order pick-ups during the pandemic under an emergency order from former governor Charlie Baker, which ended in December 2023. As we reported on 16 November, Theory has served medical patients at a window in Chicopee since 2021. Pollock said the company is considering drive-thrus at its Medford and Great Barrington stores, but that those sites are not as ready.",
+    "## Who else is in line",
+    "The vote also settles a dispute. Elysian Cannabis in Quincy began drive-thru service in July, and commissioners asked it to pause in October, according to the Globe, which cited Peter D'Agostino of Tenax Strategies. Elysian now plans to reopen. Capeway Cannabis in Bourne had already won approval from its local board of health for a drive-thru before the vote, as we reported on 16 November.",
+    "For most retailers the hurdles are physical and local rather than regulatory. A drive-thru needs a lane, a window that keeps products out of sight, camera coverage and a second ID station. It also needs the town's blessing, and many Massachusetts host communities have their own permitting rules for cannabis businesses. The Globe described Chicopee as possibly the first drive-thru to open statewide since the vote.",
+    "## Why it matters for operators",
+    "Massachusetts is a mature, crowded market where retailers compete on convenience as much as price. A drive-thru for pre-paid online orders lets a store serve more customers at peak times without adding counter staff, and it appeals to shoppers who want a short stop. The cost is a second layer of ID checks and a security plan the commission must approve. For stores with the right building, the commission has now made that a review process rather than a legal grey area.",
+    "The decision also shows how Massachusetts regulators are handling change in 2026: by interpretation and guidance where the rules allow, rather than through full rulemaking. That is faster, but it leaves the details to case-by-case review, so operators will learn the real standard from the first approvals.",
+    "## What to watch",
+    "On 24 November Theory's Chicopee drive-thru is due to open. Watch for Elysian's reopening in Quincy, for the first new drive-thru plans approved under the commission's review process, and for whether any host town moves to restrict drive-thru sales through local permits. The commission has not published a count of operators that have applied."
+  ],
+  "sources": [
+    {
+      "name": "Cannabis Control Commission: Commission affirms retail drive-thru rules (17 November 2026)",
+      "url": "https://masscannabiscontrol.com/2026/11/cannabis-control-commission-affirms-retail-drive-thru-rules/"
+    },
+    {
+      "name": "The Boston Globe: With go-ahead from state regulators, Chicopee dispensary to open marijuana drive-thru",
+      "url": "https://bostonglobe.com/2026/11/20/business/with-go-ahead-state-regulators-chicopee-dispensary-open-marijuana-drive-thru"
+    },
+    {
+      "name": "MetaFlora News: State desk: North Carolina weighs 400 stores; Alaska may double limits",
+      "url": "https://news.metaflora.xyz/2026/11/16/state-desk-north-carolina-alaska-utah-massachusetts/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "NOV",
+    "day": "24",
+    "big": "3-0",
+    "label": "commission vote allowing drive-thru sales"
+  },
+  "banner": {
+    "title": "Drive-Thru Cannabis Approved",
+    "highlight": [
+      "Drive-Thru"
+    ],
+    "sub": "Massachusetts regulators vote 3-0; Chicopee first in line",
+    "divider": "States desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Unanimous 3-0 vote"
+      },
+      {
+        "icon": "shield",
+        "text": "Two ID checks per car"
+      },
+      {
+        "icon": "pin",
+        "text": "Chicopee opens 24 Nov"
+      }
+    ],
+    "corner": [
+      "MASSACHUSETTS",
+      "RETAIL",
+      "LICENSING",
+      "SECURITY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-24",
+      "text": "Theory Wellness plans to open its Chicopee drive-thru, 1 p.m. to 7 p.m. daily"
+    }
+  ],
+  "tags": [
+    "Massachusetts",
+    "Licensing",
+    "Legalization"
+  ],
+  "image_prompt": "Premium product still life: a sealed white paper pharmacy bag beside a vintage car key and a small cannabis bud on a dark glass surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "A sealed paper bag beside a car key and a cannabis bud",
+  "x_post": "Massachusetts regulators voted 3-0 that cannabis stores may run drive-thrus if they meet existing security rules, with two ID checks per car. Theory Wellness plans to open one in Chicopee on 24 November.",
+  "breaking": false
+}

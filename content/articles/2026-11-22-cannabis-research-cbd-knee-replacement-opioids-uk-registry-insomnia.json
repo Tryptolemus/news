@@ -1,0 +1,100 @@
+{
+  "id": "cannabis-research-cbd-knee-replacement-opioids-uk-registry-insomnia",
+  "edition": "2026-11-22-am",
+  "rank": 6,
+  "published": "2026-11-22T06:09:25+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: 400 mg CBD cut opioid use in knee-surgery pilot",
+  "dek": "A 36-patient pilot found 400 mg CBD lowered opioid use after double knee replacement; a UK registry tracked 126 insomnia patients.",
+  "key_points": [
+    "In a triple-blind pilot of 36 patients having both knees replaced, those given 400 mg doses of the prescription CBD drug Epidiolex used fewer opioids and reported less pain than placebo, according to NORML's summary.",
+    "The 800 mg dose did not show the same opioid-sparing effect, and the authors call the result a preliminary signal that needs dose-finding work.",
+    "A UK Medical Cannabis Registry study of 126 insomnia patients reported improved sleep quality at every check-up to 24 months, with fewer than 10% reporting mild side effects.",
+    "Neither study proves benefit: one is a small pilot and the other has no control group, as its authors acknowledge."
+  ],
+  "body": [
+    "Two studies flagged by NORML on 19 November add to the evidence on cannabinoids for pain after surgery and for sleep. The first, a small randomised trial in The Journal of Pain, tested an FDA-approved cannabidiol (CBD) medicine in people having both knees replaced and found that a moderate dose reduced their use of opioids. The second, from the UK Medical Cannabis Registry in Neuropsychopharmacology Reports, followed 126 people with insomnia for two years.",
+    "Both are early-stage findings. The journal pages for both studies blocked our automated requests, so this account rests on NORML's summaries and the published titles and records; where NORML gives no numbers, we give none. Nothing here is medical advice.",
+    "## The knee-replacement pilot",
+    "The trial was run by investigators linked to the Pain Prevention Research Center in New York, according to NORML. Its title describes it as a randomised, controlled, parallel, triple-blind pilot study. Thirty-six patients undergoing bilateral total knee arthroplasty, the replacement of both knees in one operation, were assigned to receive four doses of either 400 mg of Epidiolex, 800 mg of Epidiolex, or a placebo. Epidiolex is a plant-derived CBD oral solution approved by the FDA as a prescription medicine.",
+    "The researchers measured how much opioid medication patients used and how much pain they reported over the first 72 hours. According to NORML, the 400 mg group used fewer opioids after surgery, reported lower pain scores both at rest and when moving, and needed fewer rescue painkillers than the placebo group. Patients also reported better sleep.",
+    "The higher dose did not do better. The 800 mg group did not show a similar reduction in opioid use. The authors describe their findings as preliminary support for a possible therapeutic signal at moderate doses and call for work to define the right dose range.",
+    "> The striking result is not that CBD helped, but that doubling the dose stopped it helping. That points to dose-finding as the next question.",
+    "## Why the dose result matters",
+    "A dose that works at 400 mg but not at 800 mg is not unusual in pharmacology; some drugs have a window of effect. It may also be chance in a study this small, split three ways. That is why the authors frame the trial as a pilot. NORML's summary gives no effect sizes or p-values, and with roughly a dozen patients per arm, any single difference should be read with care.",
+    "The question being tested is a practical one. Knee replacement is among the more painful common operations, and doing both knees at once adds to that. Opioids are the standard after-surgery painkiller, and reducing the amount patients need is a long-running goal in surgical care. A cheaper, non-intoxicating add-on that lowers opioid use would interest hospitals, but a pilot cannot show that; a larger trial would have to.",
+    "## The UK insomnia registry",
+    "The second study drew on the UK Medical Cannabis Registry, which collects outcomes from patients prescribed cannabis-based medicinal products in the United Kingdom. Its title describes a two-year prospective observational cohort study of clinical outcomes in insomnia. The researchers measured changes from the start of treatment at 1, 3, 6, 12, 18 and 24 months in 126 patients who were prescribed flower, oil extracts or other authorised cannabis formulations.",
+    "According to NORML, the patients reported statistically and clinically significant improvements in sleep quality at every time point up to 24 months, along with lasting improvements in anxiety. Fewer than 10% reported side effects, all mild, such as dry mouth.",
+    "The design limits what can be concluded. There is no comparison group, so the improvements cannot be separated from the placebo effect, other treatments, natural change over time, or the fact that patients who feel worse may stop treatment and drop out of the registry. The authors themselves say randomised controlled trials are needed to establish true long-term efficacy, NORML reports.",
+    "## What to watch",
+    "Look for a larger, dose-ranging trial of CBD after joint replacement, and for the full results tables of the pilot, which would show how big the opioid reduction was. For sleep, the gap remains randomised trials of cannabis-based products in insomnia with follow-up as long as the registry's. Registry studies are useful for safety signals and for spotting where trials are needed, but they do not settle whether a treatment works."
+  ],
+  "sources": [
+    {
+      "name": "NORML: FDA-approved CBD formulation reduces post-operative opioid consumption after knee replacement",
+      "url": "https://norml.org/news/2026/11/19/clinical-trial-fda-approved-cbd-formulation-reduces-post-operative-opioid-consumption-following-knee-replacement-surgery/"
+    },
+    {
+      "name": "The Journal of Pain: Effects of cannabidiol oral solution in patients undergoing bilateral total knee arthroplasty",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1526590026002956"
+    },
+    {
+      "name": "NORML: Insomnia patients report sustained improvements in sleep quality following medical cannabis",
+      "url": "https://norml.org/news/2026/11/19/study-insomnia-patients-report-sustained-improvements-in-sleep-quality-following-use-of-medical-cannabis/"
+    },
+    {
+      "name": "Neuropsychopharmacology Reports: UK Medical Cannabis Registry two-year insomnia cohort (DOI 10.1002/npr2.70180)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/npr2.70180"
+    },
+    {
+      "name": "PubMed record 42935025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42935025/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "400 mg",
+    "label": "CBD dose linked to lower opioid use"
+  },
+  "banner": {
+    "title": "CBD After Knee Surgery",
+    "highlight": [
+      "CBD"
+    ],
+    "sub": "Pilot trial finds lower opioid use at the moderate dose",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "36-patient pilot"
+      },
+      {
+        "icon": "drop",
+        "text": "400 mg beat 800 mg"
+      },
+      {
+        "icon": "doc",
+        "text": "UK sleep registry"
+      }
+    ],
+    "corner": [
+      "CBD",
+      "PAIN",
+      "SLEEP",
+      "RESEARCH"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "CBD",
+    "Pain",
+    "Sleep",
+    "Research",
+    "United Kingdom",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Premium product still life: an amber glass oral solution bottle with a dropper beside a small white anatomical knee joint model and a single green cannabis leaf, on a dark slate surface, bright studio light with faint violet edge light, subject in the right half, dark empty space on the left, no text, no logos, no people",
+  "image_alt": "An amber dropper bottle beside a knee joint model and a cannabis leaf",
+  "breaking": false
+}
