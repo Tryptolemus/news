@@ -1,0 +1,93 @@
+{
+  "id": "cannabis-research-aha-stroke-abstract-uf-ccorc-conference",
+  "rank": 5,
+  "cat": "Science",
+  "headline": "Cannabis research: AHA abstract links use to higher stroke odds",
+  "dek": "A Tulane analysis of 442,906 US adults tied cannabis use to 25–40% higher odds of past stroke, while Florida's cannabis outcomes conference drew 150 scientists.",
+  "key_points": [
+    "A Tulane analysis of survey data from 442,906 US adults, presented at the American Heart Association's 2026 meeting, found 40% higher odds of a past stroke among people who used cannabis 1 to 5 days a month.",
+    "Daily or near-daily users had 25% higher odds of a past stroke and 21% higher odds of any cardiovascular disease history; there was no significant link with heart attack.",
+    "The study is a conference abstract based on self-reported data at a single point in time, so it cannot show that cannabis caused the strokes.",
+    "The University of Florida said on 20 November that its sixth Cannabis Clinical Outcomes Research Conference drew more than 150 scientists and accepted 54 presentations."
+  ],
+  "body": [
+    "This week's research roundup looks at a large US survey analysis that links cannabis use to a history of stroke, and at the meeting where Florida's state-funded cannabis researchers compare their results. Neither changes medical practice. Both show where the evidence base is growing, and where it is still thin.",
+    "## The stroke abstract",
+    "Researchers at Tulane University School of Medicine pooled answers from the Behavioral Risk Factor Surveillance System, a federal telephone survey, for 2020 to 2024. They used states that asked the survey's optional cannabis questions, between 16 and 24 a year. That gave 442,906 adults with an average age of 49, about half of them women, according to the American Heart Association's release of 2 November. The work was presented as poster abstract Mo3041 at the AHA's Scientific Sessions in Chicago from 6 to 9 November. Our previous research roundups did not cover it.",
+    "Participants were grouped by how many of the last 30 days they had used cannabis in any form, smoked, vaped or eaten: none, 1 to 5 days, 6 to 15 days, or 16 to 30 days. The outcome was a self-reported diagnosis, at any time, of heart attack, heart disease, heart-related chest pain or stroke.",
+    "After adjusting for age, sex and other factors including tobacco, alcohol, obesity, diabetes, kidney disease, inactivity, education and income, people who used cannabis on 1 to 5 days had 23% higher odds of any cardiovascular history and 40% higher odds of a past stroke than non-users. Those using on 16 to 30 days had 21% and 25% higher odds respectively. The researchers found no statistically significant link between frequency of use and heart attack.",
+    "The pattern is not a simple dose-response: the lightest users showed the highest stroke odds. The lead author is Aabha Divya, an assistant professor of cardiothoracic surgery at Tulane.",
+    "> A higher odds ratio in a survey is a signal to study, not a finding to act on. The lightest users showing the most risk is the detail most worth testing.",
+    "## What the study cannot say",
+    "The AHA lists the limits itself. The data capture one moment, so the study cannot show cause and effect. Everything is self-reported, so diagnoses and use may be misremembered. There is no information on potency or amount. People may have cut back after a stroke, which could distort the comparison, and the non-user group may include former users. Not every state is included. The release also stresses that abstracts are not peer reviewed and are preliminary until published in full.",
+    "The release notes that about 1 in 6 US adults reported past-month cannabis use in 2024, up from 1 in 10 in 2020. Unhyd, which reviewed the abstract on 8 November, places it alongside a 2024 Journal of the American Heart Association study of 434,104 adults and a 2025 meta-analysis of 24 studies published in Heart, which pooled to roughly 20% higher stroke risk. The new analysis adds more recent years to a picture that points the same way, using the same kind of survey data.",
+    "For the industry, the relevance is labelling and public health messaging. A growing body of survey-based studies gives regulators material to cite. A prospective study with measured exposure would carry much more weight.",
+    "## Florida's outcomes conference",
+    "The University of Florida College of Pharmacy reported on 20 November on its sixth Cannabis Clinical Outcomes Research Conference, held on 5 and 6 November at the UF Research and Academic Center in Orlando. The meeting is run by the Consortium for Medical Marijuana Clinical Outcomes Research, which the university describes as a group of 11 Florida universities.",
+    "More than 150 scientists and clinicians attended. The programme had three keynotes, seven symposia and two poster sessions, and 54 oral and poster presentations by trainees and early-career researchers were accepted. The keynotes covered the behavioural economics of cannabis use and misuse, from James MacKillop of McMaster University; how cannabinoids control food intake and energy metabolism, from Nicholas DiPatrizio of the University of California, Riverside; and tolerance breaks and other forms of controlled use, from Stephen Lankenau of Drexel University. Amie Goodin of UF co-chaired.",
+    "Florida's medical market is one of the largest in the US, and the consortium is one of the few state-funded efforts to turn dispensing data into outcomes research. As we reported on 21 November, Florida patients are on course to buy nearly 200 million grams of flower in 2026.",
+    "## What to watch",
+    "Watch for the Tulane analysis to appear as a full, peer-reviewed paper, which would allow its methods to be checked. Watch for the consortium's posters to reach journals in 2027. And watch whether state regulators cite the AHA findings in any new labelling rules."
+  ],
+  "sources": [
+    {
+      "name": "American Heart Association: Cannabis use linked to an increased risk of cardiovascular disease, especially strokes (2 November 2026)",
+      "url": "https://newsroom.heart.org/news/cannabis-use-linked-to-an-increased-risk-of-cardiovascular-disease-especially-strokes"
+    },
+    {
+      "name": "Unhyd: Cannabis stroke risk, what new 2026 research shows",
+      "url": "https://unhyd.com/article/cannabis-stroke-risk-2026-study/"
+    },
+    {
+      "name": "University of Florida College of Pharmacy: Cannabis Clinical Outcomes Research Conference celebrates sixth year",
+      "url": "https://pharmacy.ufl.edu/2026/11/20/cannabis-clinical-outcomes-research-conference-celebrates-sixth-year-in-orlando/"
+    },
+    {
+      "name": "MetaFlora News: State desk, Georgia e-cards and Florida flower near 200M grams",
+      "url": "https://news.metaflora.xyz/2026/11/21/state-desk-georgia-electronic-cards-florida-795-stores/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "+40%",
+    "label": "stroke odds among 1–5 day a month users"
+  },
+  "banner": {
+    "title": "Cannabis And Stroke Odds",
+    "highlight": [
+      "STROKE"
+    ],
+    "sub": "Tulane survey analysis of 442,906 adults",
+    "divider": "Research desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Abstract, not peer reviewed"
+      },
+      {
+        "icon": "chart",
+        "text": "+25% to +40% stroke odds"
+      },
+      {
+        "icon": "doc",
+        "text": "UF meeting: 54 talks"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "HEART",
+      "SURVEY",
+      "FLORIDA"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Florida",
+    "Medical cannabis"
+  ],
+  "image_prompt": "Premium product still life: a glass laboratory beaker holding a single green cannabis leaf beside a polished steel stethoscope coiled on a white marble surface, subject in the right half, soft Apple-advert lighting with a faint violet edge light, darker space on the left, no text, no logos, no people.",
+  "image_alt": "A lab beaker holding a cannabis leaf beside a steel stethoscope on white marble.",
+  "edition": "2026-11-22-pm",
+  "published": "2026-11-22T18:17:16+02:00"
+}

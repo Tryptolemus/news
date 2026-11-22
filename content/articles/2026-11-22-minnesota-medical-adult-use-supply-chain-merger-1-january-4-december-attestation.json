@@ -1,0 +1,110 @@
+{
+  "id": "minnesota-medical-adult-use-supply-chain-merger-1-january-4-december-attestation",
+  "rank": 3,
+  "cat": "States",
+  "headline": "Minnesota merges medical and adult-use cannabis supply on 1 January",
+  "dek": "Minnesota's cannabis office says medical licensees must file an attestation by 4 December before the medical and adult-use supply chains merge on 1 January 2027.",
+  "key_points": [
+    "A 2026 Minnesota law merges the state's medical and adult-use cannabis supply chains from 1 January 2027, so most products are labelled medical or adult-use only at the point of sale.",
+    "The Office of Cannabis Management's guidance memo GM-2026-09, updated on 18 November, gives medical endorsement holders until 4 December to submit an attestation form.",
+    "Businesses in both supply chains will see one facility kept and one retired in the Metrc tracking system, with legacy lab samples stopping on 18 December and inventory consolidation in January.",
+    "Patients still register, consult a pharmacist or certified consultant and keep their excise tax exemption at medical retailers."
+  ],
+  "body": [
+    "Minnesota is about to stop running two cannabis supply chains. From 1 January 2027, under legislation passed in 2026, medical and adult-use cannabis will move through a single chain of growers, makers and wholesalers, and for most products the medical or adult-use label will be applied only when the product is sold at retail. The state's Office of Cannabis Management (OCM) has set out what licensees must do before then in guidance memo GM-2026-09, first posted on 6 November and updated on 18 November.",
+    "The first hard date is close. Holders of medical endorsements and medical combination businesses must submit an OCM attestation form before 4 December, the memo says. MG Magazine's Operator Bulletin flagged the deadline on 20 November alongside the tracking-system changes that follow it.",
+    "## What changes, and what does not",
+    "The law changes the definitions of medical flower and medical cannabinoid products. The exception is a set of high-medical-need products, which keep a separate track. Everything else becomes medical or adult-use at the register, not in the grow room or the kitchen.",
+    "For patients, the memo stresses continuity. They still enrol in the state registry, still consult a pharmacist or a certified medical cannabis consultant, and enrolment remains valid for three years. Businesses that serve them still need a medical endorsement, and registered patients stay exempt from the cannabis excise tax when they buy from a business with a medical retail endorsement.",
+    "The memo also sets out new obligations on the retail side. Medical retailers must give patients and caregivers priority service and offer consultations, and must employ or contract a pharmacist or certified consultant. Products sold to registered patients need a patient-specific label and the medical cannabis symbol. Smaller retail licence types must make the identified high-medical-need products available on request, while macrobusinesses are expected to keep them in stock.",
+    "> Minnesota is betting that one supply chain with a medical counter is cheaper to run, and to police, than two chains that never meet.",
+    "## The tracking system does the heavy lifting",
+    "Most of the work falls on Metrc, the state's track-and-trace system. Medical combination businesses become cannabis macrobusinesses by 1 January and receive new OCM licence numbers. Where a company operates in both chains, OCM assigns one facility as primary, which stays active, and one as legacy, which is deactivated. The asset lists showing those assignments and the new Metrc licence numbers were posted on 18 November.",
+    "Before the legacy facility is folded in, every package must have an allowed test status and none may be on hold, under recall, on a transfer manifest or in transit. Processing jobs must be finished or abandoned, sales finalised and employee permissions removed. OCM warns that historical data from a legacy facility is lost after consolidation, so businesses should download the records state rules require them to keep first.",
+    "The memo's timetable, on our reading, runs as follows: new Metrc item categories for high-medical-need products on 1 December; the attestation deadline on 4 December; no new lab samples for legacy inventory after 18 December; a Metrc facility-type update on 28 December; the merger itself on 1 January; overnight inventory consolidation windows for retailers on 4 January, manufacturers and wholesalers on 7 January and cultivators on 11 January; and new Metrc licence numbers on 20 January, after which point-of-sale systems must record each sale as either consumer or patient.",
+    "## Why operators should care",
+    "For vertically integrated medical operators, the merger removes the wall between medical and adult-use inventory that has forced duplicate production. That should let them move product to whichever channel has demand. The cost is a compressed changeover in the busiest retail month of the year, with lab sampling for legacy stock stopping a week before Christmas.",
+    "It also sits awkwardly beside federal events. The DEA's supply-chain guidance for medical businesses seeking federal registration takes effect on 29 November, and a merged state chain in which the medical label is applied only at the counter raises the same questions about how medical and adult-use products are kept apart that have come up in the DEA's dealings with dual-licence states, such as Maryland. The OCM memo does not discuss federal registration.",
+    "## What to watch",
+    "Watch how many medical businesses file attestations by 4 December, and whether OCM extends any date if Metrc cutovers slip. Watch the revised high-medical-need product lists manufacturers must submit by 1 March 2027 and start producing from 1 July 2027. And watch whether patient counts or medical sales shift once medical and adult-use products share the same shelves."
+  ],
+  "sources": [
+    {
+      "name": "Minnesota Office of Cannabis Management: Guidance memo GM-2026-09, Streamlining Minnesota's cannabis supply chain",
+      "url": "https://mn.gov/ocm/media/guidance-memos/?id=1202-773616"
+    },
+    {
+      "name": "MG Magazine: The Operator Bulletin, 20 November 2026",
+      "url": "https://mgmagazine.com/cannabis-news/operator-bulletin-november-20-2026/"
+    },
+    {
+      "name": "DEA Diversion Control: Timely Applicant Information for Medical Marijuana Applicants",
+      "url": "https://www.deadiversion.usdoj.gov/drugreg/Timely-Applicant-Information-for-Medical-Marijuana-Applicants.pdf"
+    },
+    {
+      "name": "MetaFlora News: DEA must answer stay request by 23 November as 4 more firms sue",
+      "url": "https://news.metaflora.xyz/2026/11/21/dea-second-lawsuit-pennsylvania-dc-circuit-23-november-response/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "JAN",
+    "day": "1",
+    "big": "4 Dec",
+    "label": "attestation deadline for medical licensees"
+  },
+  "banner": {
+    "title": "Minnesota Merges Supply Chains",
+    "highlight": [
+      "MERGES"
+    ],
+    "sub": "Medical and adult-use become one chain on 1 January",
+    "divider": "States desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Attestation by 4 Dec"
+      },
+      {
+        "icon": "cube",
+        "text": "Metrc cutover in Jan"
+      },
+      {
+        "icon": "shield",
+        "text": "Patients keep tax break"
+      }
+    ],
+    "corner": [
+      "MINNESOTA",
+      "MEDICAL",
+      "METRC",
+      "LICENSING"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-04",
+      "text": "Minnesota medical endorsement attestation deadline"
+    },
+    {
+      "date": "2026-12-18",
+      "text": "Minnesota: last day for legacy lab samples"
+    },
+    {
+      "date": "2027-01-01",
+      "text": "Minnesota medical and adult-use supply chains merge"
+    }
+  ],
+  "tags": [
+    "Minnesota",
+    "Medical cannabis",
+    "Licensing",
+    "Testing",
+    "DEA"
+  ],
+  "image_prompt": "Premium product still life: two small glass jars of cannabis flower, one with a green cap and one with a white cap, joined by a single brass funnel pouring into one larger jar, on a pale stone surface, subject in the right half, soft Apple-advert lighting with a faint violet edge light, darker space on the left, no text, no logos, no people.",
+  "image_alt": "Two small jars of cannabis flower feeding through a brass funnel into one larger jar.",
+  "x_post": "Minnesota's medical and adult-use cannabis supply chains become one on 1 January 2027. Medical licensees must file an attestation by 4 December, then come a Metrc cutover and new licence numbers.",
+  "edition": "2026-11-22-pm",
+  "published": "2026-11-22T18:17:16+02:00"
+}
