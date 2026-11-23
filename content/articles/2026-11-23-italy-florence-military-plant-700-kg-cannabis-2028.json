@@ -1,0 +1,96 @@
+{
+  "id": "italy-florence-military-plant-700-kg-cannabis-2028",
+  "edition": "2026-11-23-am",
+  "rank": 4,
+  "published": "2026-11-23T08:09:44+02:00",
+  "cat": "Europe",
+  "headline": "Italy plans to double military cannabis greenhouses, 700 kg by 2028",
+  "dek": "Italy told parliament on 18 November that its Florence military plant aims for 700 kg of medical cannabis flower a year by 2028, against 2,400 kg needed.",
+  "key_points": [
+    "Italy's government told the Chamber of Deputies on 18 November that funding is ready to double the greenhouses at the military pharmaceutical plant in Florence, aiming for at least 700 kg of medical flower a year by 2028.",
+    "The health ministry estimates Italy needs about 2,400 kg of medical cannabis flower in 2026, so even the expanded plant would cover under a third of current demand.",
+    "The plant plans a standardised cannabis oil extract from the first half of 2027 and two of its own strains, one high in THC and one high in CBD.",
+    "The ministry says it has found no national shortage this year, monitors distributors' stocks monthly and has approved imports from several EU countries."
+  ],
+  "body": [
+    "Italy plans to grow far more of its own medical cannabis. In a written answer to the Chamber of Deputies' social affairs committee on Wednesday 18 November, the government said a funding plan is ready to double the greenhouses at the Stabilimento Chimico Farmaceutico Militare in Florence, the army-run plant that is the country's state producer. The target is at least 700 kilograms of flower a year by 2028.",
+    "The answer, delivered by Health Undersecretary Marcello Gemmato according to The Marijuana Herald, also puts a number on the gap the plant is trying to close. The ministry estimates national demand for medical cannabis flower in 2026 at about 2,400 kilograms. Even at 700 kilograms, domestic state output would cover only about 29% of this year's need, on our calculation.",
+    "## The question that prompted it",
+    "The answer responded to question 5-06002 from deputy Marianna Ricciardi, which asked what the government is doing to keep patients' treatment going amid a crisis in medical cannabis supplies, according to the committee's bulletin for 18 November. The government's reply was that, so far, it has found no national supply problems in 2026.",
+    "The ministry separates domestic production from the overall supply system, which also depends on authorised imports. During 2026 the Central Narcotics Office set up monthly monitoring of the stocks held by authorised distributors. Imports have been approved from several EU countries, based on the clinical needs reported by specialist doctors. The answer did not name the countries.",
+    "> Italy's state plant could double and still meet less than a third of current demand. Imports stay central to Italian supply.",
+    "## Three projects in Florence",
+    "The Ministry of Defence and the Agenzia Industrie Difesa, the agency that runs the military's industrial sites, are working on three projects at the Florence plant, the answer said.",
+    "The first is a standardised cannabis oil extract, with production due to start in the first half of 2027. The second is the greenhouse expansion, for which the financing proposal is already prepared. The third is two proprietary varieties, one high in THC and one high in CBD, to be developed by a new research and development department that is close to completion and will work with universities and research centres.",
+    "The answer gave no cost for the greenhouse expansion and no figure for the plant's current output.",
+    "## Rules are being rewritten too",
+    "The ministry is also updating the health minister's decree of 9 November 2015, which governs medical cannabis prescribing and distribution. A working group on clinical uses of cannabis, which includes representatives of the regions, is handling the revision. The goal, according to The Marijuana Herald's account of the answer, is more consistent standards across Italy's regions.",
+    "## Why it matters beyond Italy",
+    "Europe's state-run medical cannabis models are under strain. As we have reported since early November, the Dutch state supplier Bedrocan has collapsed into bankruptcy, and Germany's insurers stopped paying for flower in July. Italy's answer points the other way: more state production, its own genetics and an extract line.",
+    "For EU-GMP producers that export to Italy, the plan is not a near-term threat. The 2028 target still leaves most of today's demand to imports. It does signal that Rome wants more of its supply under state control, with the work running through the defence ministry's industrial agency.",
+    "## What to watch",
+    "First half of 2027: the start of standardised oil extract production in Florence.",
+    "The decree revision: whether the working group publishes new prescribing and distribution rules, and how far they narrow the differences between regions.",
+    "2028: whether the expanded greenhouses reach 700 kilograms, and how much demand has grown by then."
+  ],
+  "sources": [
+    {
+      "name": "Camera dei Deputati, XII Commissione (bulletin, 18 November 2026)",
+      "url": "https://www.camera.it/leg19/824?anno=2026&commissione=12&giorno=18&mese=11&tipo=A&view="
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/italy-plans-to-double-military-marijuana-greenhouses-produce-at-least-700-kilograms-annually-by-2028/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/09/bedrocan-collapse-supply/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/germany-medical-squeeze/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "700 kg",
+    "label": "yearly flower target for Florence by 2028"
+  },
+  "banner": {
+    "title": "Italy Doubles Military Greenhouses",
+    "highlight": [
+      "Military"
+    ],
+    "sub": "Florence plant aims for 700 kg of flower by 2028",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "leaf",
+        "text": "700 kg target by 2028"
+      },
+      {
+        "icon": "chart",
+        "text": "2,400 kg needed in 2026"
+      },
+      {
+        "icon": "flask",
+        "text": "Oil extract from 2027"
+      }
+    ],
+    "corner": [
+      "ITALY",
+      "MEDICAL",
+      "SUPPLY",
+      "DEFENCE"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Italy",
+    "Medical cannabis",
+    "Europe"
+  ],
+  "image_prompt": "Premium product still life: a small glass greenhouse model containing a single healthy cannabis plant beside an olive-green military-style metal medicine case and a sprig of olive leaves on a dark surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A cannabis plant in a small glass greenhouse beside an olive-green metal case and olive leaves.",
+  "breaking": false
+}

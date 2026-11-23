@@ -1,0 +1,102 @@
+{
+  "id": "germany-bundesrat-notfallreform-20-november-cannabis-flower",
+  "edition": "2026-11-23-am",
+  "rank": 2,
+  "published": "2026-11-23T08:09:44+02:00",
+  "cat": "Europe",
+  "headline": "Germany's Bundesrat clears Notfallreform; cannabis flower stays unpaid",
+  "dek": "Germany's Bundesrat let the emergency-care reform pass on 20 November. It eases a medical cannabis rule but does not restore insurance cover for flower.",
+  "key_points": [
+    "Germany's Bundesrat approved the emergency-care reform (Gesetz zur Reform der Notfallversorgung) on 20 November; a motion to send it to the mediation committee found no majority.",
+    "According to Business of Cannabis, the Bundestag version carries amendments to the GKV savings law, including one that limits the six-month trial of finished cannabis medicines.",
+    "Statutory insurers stopped paying for cannabis flower at the end of July, affecting about 65,000 patients, and nothing in the reform restores that cover.",
+    "Patients' court challenges are split, and the Federal Constitutional Court has declined to take a shortcut case, so the fight over flower moves slowly through the social courts."
+  ],
+  "body": [
+    "Germany's second chamber has let the federal emergency-care reform through. At its 1070th session on Friday 20 November, the Bundesrat approved the Gesetz zur Reform der Notfallversorgung, the Notfallreform. A motion to send the law to the Vermittlungsausschuss, the mediation committee between the two chambers, found no majority. The law can now be signed and published, and it takes effect the day after publication, although many of its provisions start later, the Bundesrat said.",
+    "For medical cannabis, the reform is a small change, not a fix. As we reported on 8 November, the bill passed by the Bundestag on 15 October carries twelve amendments to the GKV savings law, according to Business of Cannabis. One of them softens the rule that new patients must first try a finished cannabis medicine for six months. None of them brings back statutory insurance payment for cannabis flower.",
+    "## What the Bundesrat did, and did not, say",
+    "The Bundesrat's own summary of the session describes the reform as an emergency-care law. It does not mention cannabis. The chamber also passed a resolution alongside the law, warning that letting doctors in the new integrated emergency centres hand out medicines raises unresolved questions under pharmacy law and could hurt pharmacies financially.",
+    "The cannabis change sits in the amendments the Bundestag attached to the law, as Business of Cannabis reported on 2 November. Under the amended rule, the six-month trial of a finished medicine applies only where a licensed cannabis finished medicine exists for the patient's condition, and the doctor decides how long the trial lasts. We have not seen the final text of the cannabis provision in the Bundesrat's published material, so this account of it rests on that reporting.",
+    "> Germany has eased the rule on how patients start cannabis treatment, but has done nothing about who pays for flower.",
+    "## The flower problem stays where it was",
+    "Statutory health insurance stopped paying for dried cannabis flower at the end of July under the GKV savings law (GKV-Beitragssatzstabilisierungsgesetz). Business of Cannabis puts the number of patients affected at about 65,000. Patients who want flower now pay privately, or switch to extracts and finished medicines that insurers still cover.",
+    "Prices have fallen as the private market grows. Business of Cannabis data cited in our 8 November story showed the average listed price of medical flower down about 22% in a year, to €6.00 a gram, while the number of flower products rose 73% to 2,381.",
+    "Some pharmacies are struggling. Business of Cannabis reported that the Lux 99 pharmacy in Hürth filed for insolvency on 24 October and linked the filing to the insurance changes.",
+    "## The courts are split",
+    "Patients have tried to win back cover through emergency applications, with mixed results. The Frankfurt social court ruled against a patient on 21 August (S 14 KR 409/26 ER), and the Leipzig social court did the same on 16 September (S 3 KR 316/26 ER), Business of Cannabis reported. The Landshut social court went the other way in one case (S 16 KR 271/26 ER), ordering cover to continue for the time being for a dialysis patient.",
+    "Those are interim rulings in single cases and do not bind other courts. The Federal Constitutional Court declined to hear an individual complaint because the patient had not yet gone through the lower courts. That leaves patients on a route through the social courts that Business of Cannabis says could take years.",
+    "## A second bill is still waiting",
+    "The Notfallreform is not the only German law that touches medical cannabis. A separate government bill, adopted by the cabinet in October 2025, would require an in-person doctor's visit before a first flower prescription and ban mail-order of flower. It is still before parliament, according to our Germany legal hub. That bill matters more to the telemedicine platforms and online pharmacies that have driven the self-pay market than the Notfallreform does.",
+    "## What it means",
+    "For doctors, the amended trial rule should reduce paperwork for patients whose condition has no licensed cannabis medicine. For insured patients who rely on flower, nothing changes: they still pay themselves or switch products. For producers and importers, the self-pay market remains the main market, and its prices are falling.",
+    "## What to watch",
+    "Publication: the date the Notfallreform appears in the Federal Law Gazette, which starts the clock on its provisions.",
+    "The courts: whether any social court of appeal (Landessozialgericht) rules on flower cover, which would carry more weight than the interim rulings so far.",
+    "Parliament: whether the bill on in-person prescriptions and mail-order bans moves before the end of the year."
+  ],
+  "sources": [
+    {
+      "name": "Bundesrat (session 1070, 20 November 2026)",
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/1070-pk.html"
+    },
+    {
+      "name": "Bundesrat (TOP 6, Notfallreform)",
+      "url": "https://www.bundesrat.de/DE/plenum/bundesrat-kompakt/26/1070/06.html?top=20881766#top-6"
+    },
+    {
+      "name": "Business of Cannabis",
+      "url": "https://www.businessofcannabis.com/germanys-cannabis-flower-patients-face-years-of-litigation-after-constitutional-shortcut-blocked"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/08/germany-medical-squeeze/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "BUNDESRAT",
+    "sub": "APPROVED",
+    "big": "65,000",
+    "label": "patients who lost insurance cover for flower"
+  },
+  "banner": {
+    "title": "Germany Passes Reform, Not Flower",
+    "highlight": [
+      "Flower"
+    ],
+    "sub": "Bundesrat clears Notfallreform on 20 November",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Six-month trial rule eased"
+      },
+      {
+        "icon": "coin",
+        "text": "Flower still not reimbursed"
+      },
+      {
+        "icon": "gavel",
+        "text": "Social courts split"
+      }
+    ],
+    "corner": [
+      "GERMANY",
+      "MEDICAL",
+      "INSURANCE",
+      "PATIENTS"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Germany",
+    "Medical cannabis",
+    "Courts",
+    "Europe"
+  ],
+  "image_prompt": "Premium product still life: a white pharmacy prescription box and a glass apothecary jar of cannabis flower on a dark slate surface, with a small brass desk stamp beside them, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A pharmacy box, a jar of cannabis flower and a brass stamp on dark slate.",
+  "x_post": "Germany's Bundesrat let the Notfallreform pass on 20 November. It eases the six-month trial rule for medical cannabis but does nothing for the 65,000 patients whose insurers stopped paying for flower in July.",
+  "breaking": false
+}

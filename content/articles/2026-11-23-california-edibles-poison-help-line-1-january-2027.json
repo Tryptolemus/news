@@ -1,0 +1,116 @@
+{
+  "id": "california-edibles-poison-help-line-1-january-2027",
+  "edition": "2026-11-23-am",
+  "rank": 3,
+  "published": "2026-11-23T08:09:44+02:00",
+  "cat": "States",
+  "headline": "California edibles must carry Poison Help number from 1 January 2027",
+  "dek": "California will require the Poison Help line on cannabis edible and drink labels from 1 January 2027, enforce it from 1 July, and add drink serving rules.",
+  "key_points": [
+    "From 1 January 2027, labels or package inserts on California cannabis edibles and beverages must show the national Poison Help line, 1-800-222-1222.",
+    "The Department of Cannabis Control will not enforce the label rule until 1 July 2027; until then, retailers must hand the state's consumer brochure to anyone buying an edible or drink without the number.",
+    "From 1 July 2027, multi-serving cannabis drinks need visible serving lines where the liquid can be seen, and retailers must offer a free measuring device of at least one fluid ounce.",
+    "Multi-serving drinks may not be marketed as single-serve or encourage drinking several servings at once."
+  ],
+  "body": [
+    "California is adding a phone number to every cannabis edible and drink sold in the state. From 1 January 2027, labels or package inserts on edibles and beverages must carry the national Poison Help line, 1-800-222-1222, the Department of Cannabis Control told licensees in its 16 November newsletter.",
+    "The regulator is giving the industry room to use up old packaging. It will not enforce the label requirement until 1 July 2027. In the first half of the year, retailers carry the burden instead: they must give a state consumer brochure to every customer who buys an edible or drink in packaging without the number.",
+    "## The six-month bridge",
+    "The brochure is not new. Under SB 540, passed in 2023, the department worked with the Department of Public Health on a single-page consumer guide. Since 1 March 2025, retailers have had to display it at the point of sale or delivery, show it online at the time of an online order, and offer it to each new customer, meaning someone making a first purchase at that store, according to the department's guidance page.",
+    "The format is fixed. Licensees print it themselves, in at least 12-point type, on one side of a letter-size sheet, and they may not change it. Online sellers must show a full-size image of it, not a link or a thumbnail.",
+    "What changes from 1 January is who gets it. Between 1 January and 30 June 2027, every customer buying an edible or a beverage that lacks the Poison Help number must receive the brochure, whether or not they are new to the store.",
+    "> For six months, the checkout counter does the job the label will do later. Stores with old stock will feel it first.",
+    "## New rules for cannabis drinks",
+    "The 16 November newsletter also set out rules for multi-serving cannabis beverages, meaning containers that hold more than one serving. They take effect on 1 July 2027.",
+    "If the container is transparent or otherwise shows how much liquid is left, it must have visible lines marking each serving. Retailers must offer a measuring device at the point of purchase at no extra cost, supplied by the manufacturer as needed. The device must hold at least one fluid ounce and measure to the nearest tenth of a fluid ounce. Multi-serving drinks may not be advertised as single-serve, and their marketing may not encourage people to drink several servings at once. The newsletter points licensees to Assembly Bill 2532 for background.",
+    "## Why this lands on retailers and manufacturers",
+    "The label rule falls on manufacturers, who must reprint packaging or add inserts. The bridge period falls on retailers, who must work out at the till which products lack the number. The beverage rules split the work: manufacturers mark serving lines and supply measuring devices, and retailers hand them out.",
+    "mg Magazine, in its 20 November operator bulletin, suggested that stores flag products still in old packaging in January and train checkout staff on the brochure, and that brands coordinate packaging and measuring devices with retailers before 1 July.",
+    "## Where this sits in California's market",
+    "The changes arrive in a large but slow market. As we reported on 20 November, California's licensed cannabis sales were $987 million in the third quarter of 2026, with $255 million in cannabis tax. The state cut its cannabis excise tax back to 15% in 2025 and passed AB 8, which will bring intoxicating hemp into the licensed cannabis system by 2028, according to our California legal hub.",
+    "That hemp change makes the label rules matter beyond today's licensed brands. Once hemp-derived intoxicating products move into the licensed system, they will face the same packaging rules as cannabis edibles.",
+    "## Other dates in the newsletter",
+    "The department's offices close on 26 and 27 November for the holiday. Written comments on its proposed rules for the A and M licence designations close on Monday 14 December, with a virtual public hearing on Tuesday 15 December. The department also said it is assessing what federal rescheduling of medical cannabis means for California licensees.",
+    "## What to watch",
+    "1 January 2027: the Poison Help label requirement starts, and the brochure handout for non-compliant edibles and drinks begins.",
+    "14 and 15 December: the comment deadline and hearing on the A and M designation rules.",
+    "1 July 2027: label enforcement begins, along with the serving-line and measuring-device rules for multi-serving drinks."
+  ],
+  "sources": [
+    {
+      "name": "California Department of Cannabis Control (licensee newsletter, 16 November 2026)",
+      "url": "https://us20.campaign-archive.com/?id=769e212cd8&u=782ff07f15b74f74286abab9e"
+    },
+    {
+      "name": "California Department of Cannabis Control (SB 540 retailer requirements)",
+      "url": "https://www.cannabis.ca.gov/consumers/responsible-cannabis-use/sb-540-retailer-requirements/"
+    },
+    {
+      "name": "mg Magazine",
+      "url": "https://mgmagazine.com/cannabis-news/operator-bulletin-november-20-2026/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/20/california-cannabis-q3-2026-sales-987m-tax-255m/"
+    }
+  ],
+  "visual": {
+    "motif": "calendar",
+    "mon": "JAN",
+    "day": "1",
+    "big": "1 fl oz",
+    "label": "minimum size of the free drink measuring device"
+  },
+  "banner": {
+    "title": "California Adds Poison Line",
+    "highlight": [
+      "Poison",
+      "Line"
+    ],
+    "sub": "Edible and drink labels change from 1 January 2027",
+    "divider": "State desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Label rule from 1 January"
+      },
+      {
+        "icon": "shield",
+        "text": "Enforced from 1 July"
+      },
+      {
+        "icon": "drop",
+        "text": "Serving lines on drinks"
+      }
+    ],
+    "corner": [
+      "CALIFORNIA",
+      "EDIBLES",
+      "LABELS",
+      "SAFETY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-14",
+      "text": "California DCC comments close on A and M designation rules"
+    },
+    {
+      "date": "2027-01-01",
+      "text": "California Poison Help label rule starts for edibles and drinks"
+    },
+    {
+      "date": "2027-07-01",
+      "text": "California enforces Poison Help labels; multi-serving drink rules begin"
+    }
+  ],
+  "tags": [
+    "California",
+    "Product safety",
+    "Licensing"
+  ],
+  "image_prompt": "Premium product still life: a tall frosted glass cannabis beverage bottle with etched horizontal serving lines next to a small clear measuring cup, a few gummies on a dark stone surface, a small golden poppy flower beside them, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A frosted drink bottle with serving lines, a measuring cup, gummies and a poppy flower.",
+  "x_post": "California cannabis edibles and drinks must carry the Poison Help line from 1 January 2027. Enforcement starts 1 July, when multi-serving drinks also need serving lines and a free measuring cup.",
+  "breaking": false
+}
