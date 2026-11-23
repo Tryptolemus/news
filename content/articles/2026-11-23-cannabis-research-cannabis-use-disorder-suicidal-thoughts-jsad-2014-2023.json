@@ -1,0 +1,97 @@
+{
+  "id": "cannabis-research-cannabis-use-disorder-suicidal-thoughts-jsad-2014-2023",
+  "edition": "2026-11-23-pm",
+  "rank": 4,
+  "published": "2026-11-23T18:16:31+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: disorder tied to higher odds of suicidal thoughts",
+  "dek": "A JSAD study of 415,861 US adults links cannabis use disorder to 57% higher odds of serious suicidal thoughts, a gap that held steady from 2014 to 2023.",
+  "key_points": [
+    "UC Merced researchers pooled ten years of the National Survey on Drug Use and Health, covering 415,861 adults from 2014 to 2023.",
+    "Adults with cannabis use disorder had 1.57 times the odds of serious suicidal thoughts in the past year, after adjusting for depression, distress, heavy drinking and other factors.",
+    "Against the team's expectations, the link did not strengthen over the decade, despite legalization and stronger products.",
+    "The authors stress the finding applies to people with the disorder, not all cannabis users, and cannot show cause and effect."
+  ],
+  "body": [
+    "Adults with cannabis use disorder are more likely than other adults to report serious thoughts of suicide, and that gap has held steady for a decade of legalization, a new study in the Journal of Studies on Alcohol and Drugs (JSAD) has found. The paper, by researchers at the University of California, Merced, pooled ten years of the federal National Survey on Drug Use and Health, from 2014 to 2023, covering 415,861 adults.",
+    "After adjusting for depression, serious psychological distress, alcohol use disorder and a range of social and geographic factors, adults with the disorder had 57% higher odds of reporting serious suicidal thoughts in the past year (odds ratio 1.57, with a 95% confidence interval of 1.44 to 1.72). The study's authors gave further detail in an interview published on 22 November by Earth.com.",
+    "## What the study measured",
+    "Cannabis use disorder is a clinical diagnosis, not a description of all use. It means having trouble controlling cannabis use even when it is clearly causing harm. The researchers counted someone as having the disorder if they met at least two of nine criteria, harmonized across survey years. Because the survey changed its questions over the decade, craving and withdrawal were left out so that every year could be compared, which the authors say probably undercounts the disorder.",
+    "Across the pooled sample, 4.0% of adults met the criteria and 4.6% said they had seriously thought about suicide in the past year, according to Earth.com's account of the paper.",
+    "The team, led by doctoral student Tosin Philip Oyetunji with senior author Sidra Goldman-Mellor, a professor of public health, expected the link to grow stronger as products became more potent and legal access spread. It did not. Formal tests found no evidence that the association changed over time overall, or within groups defined by sex or age. A test suggested some variation among Hispanic respondents, but no single year stood out after correction for multiple testing.",
+    "> Ten years of legalization did not make the link worse. It did not make it go away either.",
+    "## Frequency matters too",
+    "Because the disorder criteria shifted during the decade, the researchers re-ran the analysis using how often people used cannabis. Nondaily users had 1.39 times the odds of reporting suicidal thoughts compared with people who had not used cannabis, and daily or near-daily users had 1.65 times the odds, Earth.com reported. Oyetunji said this raises questions about how frequency of use relates to suicidal thoughts.",
+    "That point connects to research published in Canada on 23 November. As we report in this edition, a CMAJ study found that 5.7% of Canadian adults now use cannabis daily or almost daily, more than drink alcohol daily, and that daily use is far more common among people with mood and anxiety disorders. Together the two papers point health regulators at the same group: the most frequent users.",
+    "## What the study cannot say",
+    "The survey asked each person once, so the study cannot say which came first. The authors are clear that it does not show that cannabis causes suicidal thoughts; a mental health crisis can drive heavier use as easily as heavy use can deepen a crisis. Answers were self-reported, the survey did not record potency or product type, and it excluded people living in institutions and people experiencing homelessness outside shelters. The study looked only at suicidal thoughts, not plans, attempts or deaths.",
+    "The authors also raise a possible reason the link did not grow. As cannabis use became more common, the group meeting the disorder criteria may have shifted toward milder cases, which could mask a rising risk among the most severe.",
+    "## Why it matters for policy and the industry",
+    "Goldman-Mellor called the stable trend reassuring, since suicidal thoughts do not appear to have risen among people with the disorder despite legal and social change. But she said people with the disorder still face a substantially higher likelihood of serious suicidal thoughts, and that this is not widely understood.",
+    "The practical message in the release is aimed at clinicians: ask people seeking help for cannabis use disorder directly about suicidal thoughts, rather than only screening for depression. For regulators and the legal industry, the study adds to a growing body of research on frequent and problematic use, the kind of evidence that feeds debates over potency, warning labels and purchase ages.",
+    "The disorder affects a small share of consumers, but the industry's sales depend heavily on its most frequent buyers. Studies like this one, and the Canadian data published on 23 November, are likely to be cited when lawmakers weigh limits aimed at heavy use.",
+    "## What to watch",
+    "The researchers say the next step is to follow the same people over years, with potency and products recorded, to separate cause from effect. Watch for the next National Survey on Drug Use and Health release, and for whether state regulators cite this work in rulemaking on product warnings. Anyone in the US who is struggling can call or text 988, the Suicide and Crisis Lifeline; in Canada, 9-8-8 offers the same service."
+  ],
+  "sources": [
+    {
+      "name": "UC Merced: study record (Oyetunji et al., JSAD 2026)",
+      "url": "https://sites.ucmerced.edu/sgoldman-mellor/publications/cannabis-use-disorder-and-suicidal-ideation-united-states-persistent-risk-and-stable"
+    },
+    {
+      "name": "JSAD news release (EurekAlert)",
+      "url": "https://www.eurekalert.org/news-releases/1151524"
+    },
+    {
+      "name": "Earth.com (22 November 2026)",
+      "url": "https://earth.com/lifestyle/cannabis-use-disorder-is-linked-to-higher-odds-of-suicidal-thoughts"
+    },
+    {
+      "name": "CMAJ (McDonald et al., 23 November 2026)",
+      "url": "https://www.cmaj.ca/content/198/41/E1547"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "1.57x",
+    "label": "odds of suicidal thoughts with the disorder"
+  },
+  "banner": {
+    "title": "A Steady Mental Health Risk",
+    "highlight": [
+      "Mental",
+      "Health"
+    ],
+    "sub": "UC Merced study of 415,861 US adults, 2014 to 2023",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "57% higher odds"
+      },
+      {
+        "icon": "chart",
+        "text": "No rise over 10 years"
+      },
+      {
+        "icon": "doc",
+        "text": "Not proof of cause"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "JSAD",
+      "NSDUH",
+      "HEALTH"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "Mental health"
+  ],
+  "image_prompt": "Premium product still life: a pale stone hourglass beside a single small glass specimen jar holding one dried cannabis bud on a matte grey surface, soft calm studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A stone hourglass beside a small specimen jar holding one dried cannabis bud.",
+  "breaking": false,
+  "push": false
+}
