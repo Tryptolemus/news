@@ -1,0 +1,59 @@
+{
+  "id": "illinois-treasurer-pauses-deposits-cannabis-banking-3-26-percent",
+  "edition": "2026-11-24-pm",
+  "rank": 3,
+  "published": "2026-11-24T18:09:49+02:00",
+  "cat": "States",
+  "headline": "Illinois Treasurer pauses new cannabis bank deposits at $1.75B cap",
+  "dek": "Illinois lists a 3.26% rate for banks serving cannabis firms, but a 16 November notice froze new requests across its $1.75 billion linked-deposit programs.",
+  "key_points": [
+    "Illinois Treasurer Michael Frerichs' office lists a November rate of 3.26% for its Cannabis Banking Services deposits, against 4.93% for a standard two-year state deposit, The Marijuana Herald reports.",
+    "A 16 November letter to banks paused all new funding requests under Ag Invest, Business Invest and Community Invest, the umbrella that includes cannabis banking.",
+    "The programs hit their $1.75 billion allocation limit after demand rose sharply in 2026; deposits maturing in 2027 can still be renewed if banks apply before maturity.",
+    "On our arithmetic, the 1.67-point discount is worth up to about $835,000 a year on a maximum $50 million placement."
+  ],
+  "body": [
+    "Illinois still offers banks cheap state money to serve cannabis businesses, but for now no new bank can get any. The Illinois State Treasurer's daily rates page lists a Cannabis Banking Services rate for November 2026, which The Marijuana Herald reports is 3.26%, compared with 4.93% for a standard two-year state time deposit. Yet a letter the Treasurer's office sent to financial institutions on 16 November paused new funding requests across all of its Invest in Illinois linked-deposit programs, including the Community Invest family that houses cannabis banking.",
+    "The letter, signed by the office's chief banking officer, says the programs have reached their $1.75 billion funding allocation limit after demand rose substantially during 2026. Until further notice, the office will not accept new deposit requests under Ag Invest, Business Invest or Community Invest.",
+    "## How the cannabis deposit programme works",
+    "The Treasurer's programme page describes Cannabis Banking Services as a community development tool. Qualified banks and credit unions receive two-year state time deposits at variable monthly rates tied to federal overnight funding rates, and in return they offer accounts and services to state-licensed cannabis businesses, ancillary companies and their employees, for whom banking is unavailable or limited because of federal law. The services named include deposits, cheques, payroll, electronic payments and paying taxes and fees.",
+    "To take part, an institution must be an approved programme depository, submit an application with its funding request, and report economic development metrics. The Herald reports that deposits come in $5 million increments up to a maximum of $50 million, and that the programme dates to 2020, the year Illinois adult-use sales began. Those figures do not appear on the programme page itself.",
+    "The value to a bank is the spread. On our arithmetic, the gap between the 3.26% cannabis rate and the 4.93% standard rate is 1.67 percentage points. On a full $50 million placement, that would mean about $835,000 a year less in interest paid to the state, if both rates stayed where they are. The rates move every month, so the real figure will vary.",
+    "> Illinois built a cheap-money bridge for cannabis banking, and has now hit the toll limit just as federal relief stays out of reach.",
+    "## What the pause means",
+    "The 16 November letter does not cancel existing deposits. It says all deposits maturing in calendar year 2027 will be eligible for renewal at their current funding level or at a lower amount, as long as the application arrives before the maturity date. If a bank chooses to renew at a smaller amount, the difference is released and will not be restored later. That last clause matters: a bank that trims its cannabis-related deposit now may not be able to get the capacity back.",
+    "For cannabis operators, the practical effect is that banks already in the programme keep their discounted funding, while new entrants, or existing banks wanting more, must wait. The Treasurer's office gave no date for reopening. Its stated reason is to keep enough liquidity in the state portfolio for the state's other funding needs.",
+    "## Why state help still matters",
+    "Cannabis banking remains a federal problem that states can only partly solve. The partial rescheduling of marijuana for state medical programmes earlier this year did not resolve banks' anti-money-laundering exposure, and the SAFER Banking Act has yet to pass Congress. As we reported on 17 November, the Financial Crimes Enforcement Network has proposed lighter customer due-diligence rules that could ease the compliance load for banks, but the proposal is still at an early stage.",
+    "Illinois is also a growing market for bankable businesses. As we reported on 24 November, the state has just issued 148 new medical cannabis dispensary licences, taking the total to 220. Each new store is a new account somebody has to service, which makes the cap on state deposit support land at an awkward moment.",
+    "## What to watch",
+    "Watch for the Treasurer's office to say when, or whether, new requests will reopen, and whether it raises the $1.75 billion allocation. Watch the monthly rate tables for the December Cannabis Banking Services rate. And for banks with deposits maturing in 2027, the key date is their own maturity date: renewal applications must arrive before it to keep their current funding level."
+  ],
+  "sources": [
+    {"name": "Illinois State Treasurer, letter on Invest in Illinois linked deposit programs, 16 November 2026", "url": "https://illinoistreasurer.gov/wp-content/uploads/2026/11/InvestinIllinoisLinkedDepositProgramUpdates_111726.pdf"},
+    {"name": "Illinois State Treasurer, Invest in Illinois daily rates", "url": "https://illinoistreasurer.gov/home/financial-institutions/community-development-linked-deposits/access-to-capital-daily-rates/"},
+    {"name": "Illinois State Treasurer, Cannabis Banking Services programme", "url": "https://www.illinoistreasurer.gov/home/financial-institutions/invest-in-illinois/community-invest/community-invest-cannabis-banking-services/"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/11/illinois-lists-discounted-3-26-state-deposit-rate-for-financial-institutions-serving-marijuana-businesses/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/17/fincen-due-diligence-rule-cannabis-banks/"},
+    {"name": "MetaFlora News", "url": "https://news.metaflora.xyz/2026/11/24/illinois-148-medical-cannabis-dispensary-licenses-220-total/"}
+  ],
+  "visual": {"motif": "seal", "word": "IL", "sub": "DEPOSITS", "big": "3.26%", "label": "Illinois cannabis banking deposit rate, November"},
+  "banner": {
+    "title": "Illinois Caps Cannabis Bank Aid",
+    "highlight": ["Cannabis", "Bank"],
+    "sub": "Treasurer pauses new requests at $1.75B limit",
+    "divider": "States desk",
+    "points": [
+      {"icon": "coin", "text": "3.26% vs 4.93% standard"},
+      {"icon": "doc", "text": "Pause from 16 November"},
+      {"icon": "shield", "text": "2027 renewals allowed"}
+    ],
+    "corner": ["ILLINOIS", "BANKING", "STATES", "CAPITAL"]
+  },
+  "watch": [],
+  "tags": ["Illinois", "Cannabis banking", "SAFER Banking"],
+  "image_prompt": "Premium product still life: a heavy brass bank vault door slightly open with a small glass jar of cannabis flower in front of it on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A brass bank vault door ajar with a small jar of cannabis flower in front.",
+  "x_post": "Illinois offers banks serving cannabis firms state deposits at 3.26%, well below the 4.93% standard rate. But a 16 November letter paused all new requests after its programs hit a $1.75B cap.",
+  "breaking": false
+}

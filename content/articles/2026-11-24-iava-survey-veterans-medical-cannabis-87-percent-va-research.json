@@ -1,0 +1,105 @@
+{
+  "id": "iava-survey-veterans-medical-cannabis-87-percent-va-research",
+  "edition": "2026-11-24-pm",
+  "rank": 6,
+  "published": "2026-11-24T18:09:49+02:00",
+  "cat": "Policy",
+  "headline": "IAVA survey: 87% of member veterans back legal medical cannabis",
+  "dek": "An Iraq and Afghanistan Veterans of America survey of 470 members found 87% back legal medical cannabis and 88% want the VA to research it as a treatment.",
+  "key_points": [
+    "Iraq and Afghanistan Veterans of America's 2026 member survey, published on 15 October, drew 470 usable responses.",
+    "87% agreed cannabis should be legal for medicinal purposes, 91% said it should be researched for medical uses and 88% said the VA should allow research into it as a treatment.",
+    "61% backed adult-use legalization and 69% agreed with moving cannabis from Schedule I to Schedule III.",
+    "The sample is IAVA members, mostly men with an average age of about 50, so it is not a random sample of all U.S. veterans."
+  ],
+  "body": [
+    "Members of a leading post-9/11 veterans group want medical cannabis legal and studied. A survey by Iraq and Afghanistan Veterans of America, published on 15 October and highlighted by Ganjapreneur on 24 November, found that 87% of responding members agreed cannabis should be legal for medicinal purposes, and that 88% said the Department of Veterans Affairs should allow research into cannabis as a treatment option.",
+    "The findings arrive as Congress weighs several veterans' cannabis bills, three of which IAVA names in the report.",
+    "## What the survey found",
+    "IAVA's report, titled 2026 IAVA Findings Related to Alcohol, Tobacco, and Cannabis Use, covers drinking, smoking and cannabis in one questionnaire. On cannabis, the share of respondents who agreed or strongly agreed with each statement was: 87% that cannabis should be legal for medicinal purposes; 91% that it should be researched for medicinal uses; 88% that the VA should allow research into cannabis as a treatment; and 61% that it should be legal for recreational purposes.",
+    "Ganjapreneur reports further figures from the survey: 69% agreed with reclassifying cannabis from Schedule I to Schedule III, and nearly three-quarters knew about the proposed change. Of 470 respondents, 271 reported past recreational use and 179 past medical use, and 72% of those with prior use were somewhat or very interested in cannabis as a treatment option. Among those interested, 70% were comfortable discussing cannabis with a primary care doctor, but only 29% had done so.",
+    "That last gap is the most practical finding. If seven in ten interested veterans would talk to a doctor about cannabis but fewer than three in ten have, the barrier is less about stigma among veterans and more about whether the conversation happens in the clinic.",
+    "> Veterans' support for medical cannabis is settled in this survey; what is unsettled is whether the VA will study it and whether doctors will raise it.",
+    "## Who answered, and the limits",
+    "The survey is a snapshot of IAVA members, not of all U.S. veterans. IAVA received 493 responses online; after removing one non-consenting respondent and responses less than 10% complete, 470 remained, and the number answering each question varies. Respondents had an average age of about 50, ranging from 32 to 85; 86% were men and 13% women; and 96% lived in a U.S. state, spread across 47 states and Washington, D.C. Support for legal medical cannabis appears as 86% in the report's key findings section and 87% in its data table; we use the table figure.",
+    "Some coverage has described the 87% as support for federal medical legalization. The survey statement itself asks only whether cannabis should be legal for medicinal purposes, without saying at which level of government. The question on federal policy is the separate Schedule III item.",
+    "The report was prepared by Dane Rivas-Koehl and Ryan Gilfillan, with survey support from Columbia University and the Center for Veteran Transition and Integration. Nearly all respondents, 98%, reported an honourable discharge. Because members chose whether to respond, the results show what engaged IAVA members think rather than a weighted estimate for the veteran population, and should be read alongside larger national surveys.",
+    "## The bills in play",
+    "IAVA's report names three pieces of legislation it is tracking: the VA Medicinal Cannabis Research Act of 2026 (H.R. 10655), the Veterans Equal Access Act (H.R. 1384) and the Veterans Cannabis Use for Safe Healing Act (H.R. 966).",
+    "Congress has already signalled interest in the research question. As we reported on 13 November, the Senate Appropriations Committee urged the VA to study medical cannabis as an alternative to opioids in its fiscal 2027 report language. And as we reported on 21 November, a Canadian study of 116,815 veterans tied cannabis to fewer opioid claims, the kind of evidence U.S. advocates want the VA to generate at home.",
+    "Veterans groups have also been active on hemp. As we reported on 17 November, the Veterans of Foreign Wars and 25 other groups asked Congress to regulate hemp-derived THC rather than ban it before the 11 December deadline.",
+    "## What to watch",
+    "Watch the House and Senate Veterans' Affairs Committees for any hearing or markup on H.R. 10655 or the Veterans Equal Access Act in the new Congress, and whether final fiscal 2027 VA spending bills keep the Senate's research language. The 11 December hemp deadline, which veterans groups have lobbied on, is the nearest date with a direct effect on products many veterans use."
+  ],
+  "sources": [
+    {
+      "name": "IAVA, 2026 Findings Related to Alcohol, Tobacco, and Cannabis Use",
+      "url": "https://iava.org/media/2026-iava-findings-related-to-alcohol-tobacco-and-cannabis-use"
+    },
+    {
+      "name": "Ganjapreneur",
+      "url": "https://ganjapreneur.com/survey-87-of-u-s-veterans-support-federal-medical-cannabis-legalization/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/13/senate-appropriations-fy2027-cannabis-reports/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/21/veterans-affairs-canada-study-medical-cannabis-ptsd-prescriptions/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/17/veterans-groups-letter-congress-regulate-hemp-11-december/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "87%",
+    "label": "IAVA members backing legal medical cannabis"
+  },
+  "banner": {
+    "title": "Veterans Back Medical Cannabis",
+    "highlight": [
+      "Veterans"
+    ],
+    "sub": "IAVA member survey also wants VA research",
+    "divider": "Policy desk",
+    "points": [
+      {
+        "icon": "shield",
+        "text": "87% back medical use"
+      },
+      {
+        "icon": "flask",
+        "text": "88% want VA research"
+      },
+      {
+        "icon": "doc",
+        "text": "470 IAVA members"
+      }
+    ],
+    "corner": [
+      "VETERANS",
+      "VA",
+      "POLICY",
+      "RESEARCH"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "Federal hemp-derived THC ban due to take effect unless Congress acts"
+    }
+  ],
+  "tags": [
+    "Veterans cannabis",
+    "Medical cannabis",
+    "Congress",
+    "Rescheduling",
+    "Research"
+  ],
+  "image_prompt": "Premium product still life: a folded military dog tag chain resting beside a small amber medicine bottle with a green cannabis leaf on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A dog tag chain beside an amber medicine bottle and a cannabis leaf.",
+  "breaking": false
+}

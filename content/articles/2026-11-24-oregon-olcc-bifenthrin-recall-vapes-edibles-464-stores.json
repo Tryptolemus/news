@@ -1,0 +1,58 @@
+{
+  "id": "oregon-olcc-bifenthrin-recall-vapes-edibles-464-stores",
+  "edition": "2026-11-24-pm",
+  "rank": 4,
+  "published": "2026-11-24T18:09:49+02:00",
+  "cat": "States",
+  "headline": "Oregon recalls cannabis vapes and edibles over bifenthrin pesticide",
+  "dek": "Oregon's OLCC ordered a mandatory recall on 23 November of vapes and edibles made with extract that failed retests for bifenthrin, sold since 16 June.",
+  "key_points": [
+    "The Oregon Liquor and Cannabis Commission issued a mandatory recall on 23 November of products made with cannabis extract that tested positive for the pesticide bifenthrin.",
+    "Several extract batches passed their first compliance tests and failed on retest; the state's reference lab confirmed bifenthrin above Oregon Health Authority limits in samples from two batches.",
+    "Affected vape cartridges, gummies, taffy, nuts, brownies and chocolate bars were sold at Oregon adult-use stores from 16 June to 23 November 2026.",
+    "By our count, OLCC's recall list covers 8,108 package tags, 230 product names and 464 retail locations."
+  ],
+  "body": [
+    "On 23 November the Oregon Liquor and Cannabis Commission issued a mandatory recall of vape cartridges and edibles made with cannabis extract that tested positive for bifenthrin, a pesticide, after several extract batches that had passed their original compliance tests failed when they were tested again, according to reporting by KOIN and The World.",
+    "The products were sold by Oregon adult-use retailers between 16 June and 23 November 2026. The commission told consumers not to use them and to destroy them, and told licensees to stop sales. The World reports that OLCC said it had received no health complaints so far.",
+    "## How the contamination was found",
+    "The recall grew out of an investigation that began with a complaint, according to The World. Samples from two batches went to the Oregon Department of Agriculture's Cannabis Reference Laboratory, which confirmed bifenthrin at levels above the limits set by the Oregon Health Authority. OLCC is now investigating why the original compliance tests did not catch it, and the reports describe that inquiry as ongoing.",
+    "Bifenthrin is an insecticide for which the Oregon Health Authority sets a limit in cannabis. Its appearance in extract matters more than in flower, because extraction concentrates whatever residues the plant material carried into a much smaller volume of oil.",
+    "> A product that passes its test and fails its retest is not only a contamination problem: it is a question about the testing itself.",
+    "## How big the recall is",
+    "OLCC published the affected packages as an open dataset, the November Recall Product List on the state's data portal, created on 19 November and last updated on 23 November. Our own count of that dataset finds 8,112 rows covering 8,108 distinct package tags, 230 distinct product names and 464 distinct retail locations. The list is a record of packages at retail, not a count of individual units sold.",
+    "The dataset also names the manufacturer of each recalled package. Two names account for most rows: RN Holdings LLC, on 5,050 rows, and Pacific Wave, on 1,331. Avitas, Smoky Flower, Left Hand Labs, Willamette Valley Alchemy, NW Kind and 5th Dimension LLC each account for between about 130 and 680 rows, and a handful of other businesses appear on 15 rows or fewer. A manufacturer appearing on the list means its product used extract covered by the recall; neither OLCC nor the news reports we read have said which company produced the contaminated extract.",
+    "The list also shows which laboratories carried out the original compliance tests, dated between May and October 2026. We are not naming them here: the state's inquiry into why those tests missed the pesticide has not concluded, and the dataset alone does not show fault. The World also notes that tracking numbers in the database may not match the label on a package exactly.",
+    "## What consumers and stores are told to do",
+    "Consumers who bought vape cartridges, flavoured or unflavoured, or gummies, taffy, nuts, brownies or chocolate bars from an Oregon store in the recall window can check the list and should not use matching products. People with health concerns can call the Oregon Poison Center at 800-222-1222 or their doctor.",
+    "Licensees must return recalled products to the processor or the licensee that transferred them, or destroy them under the state's waste rules, and retailers returning stock should record the recall reason in the Cannabis Tracking System. OLCC is using that tracking system to find affected inventory and tell stores to pull it.",
+    "## Why it matters beyond Oregon",
+    "Extract makers in Oregon sell into hundreds of stores: this list alone touches 464. A single contaminated input can therefore spread across a large share of the retail network before anyone notices, as this recall shows. The case also tests the value of state-run checks: Oregon's reference lab is what caught this problem, after the products had already been on shelves for five months.",
+    "## What to watch",
+    "Watch for OLCC to publish findings on why the first tests passed, any action against the extract supplier or testing labs, and whether the recall list grows. Retailers face their own costs from destroyed or returned stock in the busy holiday sales period, so any guidance on credits or returns from processors will matter to stores."
+  ],
+  "sources": [
+    {"name": "OLCC Cannabis November Recall Product List (data.oregon.gov)", "url": "https://data.oregon.gov/dataset/OLCC-Cannabis-November-Recall-Product-List/7hh9-qg55"},
+    {"name": "OLCC product recalls", "url": "https://www.oregon.gov/olcc/Pages/product-recalls.aspx"},
+    {"name": "KOIN via Yahoo News", "url": "https://www.yahoo.com/news/us/articles/pesticide-positive-cannabis-products-recalled-212348739.html"},
+    {"name": "The World (Coos Bay) via Yahoo News", "url": "https://www.yahoo.com/news/us/articles/cannabis-products-recalled-045900192.html"}
+  ],
+  "visual": {"motif": "molecule", "big": "464", "label": "Oregon stores on the pesticide recall list"},
+  "banner": {
+    "title": "Oregon Pulls Tainted Vapes",
+    "highlight": ["Oregon"],
+    "sub": "Extract failed retests for the pesticide bifenthrin",
+    "divider": "States desk",
+    "points": [
+      {"icon": "flask", "text": "Bifenthrin above limits"},
+      {"icon": "pin", "text": "464 stores on the list"},
+      {"icon": "shield", "text": "Sold 16 June–23 November"}
+    ],
+    "corner": ["OREGON", "RECALL", "TESTING", "SAFETY"]
+  },
+  "watch": [],
+  "tags": ["Oregon", "Pesticides", "Product safety", "Testing"],
+  "image_prompt": "Premium product still life: a sleek cannabis vape cartridge and a small laboratory test tube with amber liquid side by side on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A cannabis vape cartridge beside a laboratory test tube of amber liquid.",
+  "breaking": false
+}

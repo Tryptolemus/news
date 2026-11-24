@@ -1,0 +1,62 @@
+{
+  "id": "desk-samhsa-nsduh-using-marijuana-cbp-thanksgiving-sweet-flower",
+  "edition": "2026-11-24-pm",
+  "rank": 7,
+  "published": "2026-11-24T18:09:49+02:00",
+  "cat": "Policy",
+  "headline": "Desk: SAMHSA survey to ask about using, not smoking, marijuana",
+  "dek": "SAMHSA's drug survey would ask about using marijuana from 2027, CBP warns Thanksgiving travellers, and Sweet Flower workers in Los Angeles reach a deal.",
+  "key_points": [
+    "A 23 November Federal Register notice says SAMHSA's National Survey on Drug Use and Health would ask about using marijuana rather than smoking it, to capture vaping and edibles; comments are due 23 December.",
+    "CBP's Detroit field office told Thanksgiving travellers to leave marijuana at home, because it remains illegal under federal law at the border.",
+    "UFCW Local 770 says Sweet Flower dispensary workers in Los Angeles reached a tentative contract with back pay to April, after authorising a strike.",
+    "California collected more than $255 million in cannabis excise and sales tax in the third quarter, Ganjapreneur reports, keeping the state near $1 billion for 2026."
+  ],
+  "body": [
+    "Today's desk gathers four smaller developments that matter to operators: a change in how the federal government will measure cannabis use, a border warning ahead of Thanksgiving travel, a labour settlement in California's largest city, and the state's latest tax take.",
+    "## SAMHSA would ask how people use marijuana, not whether they smoke it",
+    "The Substance Abuse and Mental Health Services Administration published a notice in the Federal Register on 23 November about the 2027 National Survey on Drug Use and Health, the main federal source on how many Americans use cannabis. Among the changes, the agency proposes to revise the survey's risk and availability module to ask about using marijuana rather than smoking it, so that answers reflect other common methods among young people, such as vaping and edibles. Comments are due on 23 December 2026.",
+    "The notice lists other changes for 2027: a question on crisis lines, past-year use of GLP-1 drugs and several classes of psychiatric medicine, polysubstance use over the past 30 days, and the return of questions on workplace drug and alcohol testing. SAMHSA estimates the new items add about a minute per interview. The survey covers people 12 and older in all 50 states and Washington, D.C., with about 378,000 respondents a year.",
+    "The Marijuana Herald reported on the first 60-day notice for the same change in September, so this is a second round of comment. The wording matters more than it looks: risk questions framed only around smoking can understate how many people see edibles or vapes as low-risk, and NSDUH figures feed straight into federal policy debates.",
+    "> When the federal survey changes one verb, the national picture of cannabis risk can shift with it: watch the 2027 data for a break in the trend line.",
+    "## CBP: leave cannabis at home over Thanksgiving",
+    "U.S. Customs and Border Protection's Office of Field Operations in Detroit issued travel advice on 20 November ahead of Thanksgiving. Its message on cannabis was blunt: leave the drugs at home. Marijuana and THC products remain illegal under U.S. federal law at the border, the agency said, even though some places on both sides of the U.S.-Canada border have legalized them. The release also reminded travellers to declare all food and to report currency over $10,000, and warned that failing to declare can bring penalties or seizure.",
+    "The warning applies regardless of this year's partial rescheduling, which covers only marijuana handled under state medical licences or FDA-approved products and does nothing for travellers crossing an international border.",
+    "## Los Angeles: Sweet Flower workers reach a tentative deal",
+    "Workers at Sweet Flower dispensaries in Los Angeles, represented by United Food and Commercial Workers Local 770, have reached a tentative contract, Ganjapreneur reported on 24 November. The agreement still needs ratification by members. According to the bargaining committee's statement, it includes back pay to April, improved wage increases, a guaranteed path to more and full-time hours, more sick time and better health coverage. No wage figures were released, and the company's response was not reported.",
+    "The deal follows a vote earlier this month to authorise an unfair labour practice strike. Ganjapreneur reported on 16 November that the union had filed charges with the National Labor Relations Board, accusing the company of cancelling bargaining sessions and delaying a contract proposal; the previous contract expired on 8 March. The workers had pointed to Green Wednesday, the day before Thanksgiving and one of the industry's busiest sales days, as leverage.",
+    "## California: about $255 million in quarterly cannabis tax",
+    "California collected more than $255 million in cannabis taxes in the third quarter, made up of about $148 million in excise tax and $107 million in sales tax, Ganjapreneur reports, citing data from the California Department of Tax and Fee Administration. The first and second quarters brought in about $249 million and $261 million. On our arithmetic the three quarters total about $765 million, so a fourth quarter near the recent average would take 2026 past $1 billion.",
+    "## What to watch",
+    "Comments on SAMHSA's survey changes close on 23 December. Sweet Flower members' ratification vote, and whether Green Wednesday on 25 November passes without disruption, will show whether the Los Angeles dispute is settled. California's fourth-quarter tax figures, due early next year, will confirm whether the state clears $1 billion in 2026."
+  ],
+  "sources": [
+    {"name": "Federal Register, SAMHSA NSDUH notice, 23 November 2026 (GovInfo)", "url": "https://www.govinfo.gov/content/pkg/FR-2026-11-23/html/2026-23788.htm"},
+    {"name": "U.S. Customs and Border Protection", "url": "https://www.cbp.gov/newsroom/local-media-release/know-you-go-cbp-offers-crucial-border-crossing-advice-ahead"},
+    {"name": "The Marijuana Herald", "url": "https://themarijuanaherald.com/2026/09/government-survey-vaping-edibles/"},
+    {"name": "Ganjapreneur", "url": "https://ganjapreneur.com/los-angeles-dispensary-workers-reach-tentative-agreement-after-authorizing-strike/"},
+    {"name": "Ganjapreneur", "url": "https://ganjapreneur.com/employees-at-sweet-flower-cannabis-dispensary-in-los-angeles-authorize-unfair-labor-practices-strike/"},
+    {"name": "Ganjapreneur", "url": "https://ganjapreneur.com/california-on-track-to-exceed-1b-in-cannabis-taxes-in-2026/"},
+    {"name": "California Department of Tax and Fee Administration, cannabis tax revenues", "url": "https://cdtfa.ca.gov/dataportal/dataset.htm?url=CannabisTaxRevenues"}
+  ],
+  "visual": {"motif": "calendar", "mon": "DEC", "day": "23", "big": "Dec 23", "label": "comment deadline on SAMHSA survey changes"},
+  "banner": {
+    "title": "Feds Rewrite the Cannabis Survey",
+    "highlight": ["Survey"],
+    "sub": "SAMHSA would ask about using, not smoking",
+    "divider": "Policy desk",
+    "points": [
+      {"icon": "doc", "text": "Comments due 23 December"},
+      {"icon": "globe", "text": "CBP: no cannabis at border"},
+      {"icon": "handshake", "text": "Sweet Flower tentative deal"}
+    ],
+    "corner": ["FEDERAL", "SURVEY", "LABOR", "TAX"]
+  },
+  "watch": [
+    {"date": "2026-12-23", "text": "Comments due on SAMHSA's proposed 2027 drug-use survey changes"}
+  ],
+  "tags": ["Research", "Canada", "California", "Cannabis employment", "Excise tax"],
+  "image_prompt": "Premium product still life: a clipboard with a blank survey sheet and a pencil beside a small cannabis gummy and a slim vape pen on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A clipboard and pencil beside a cannabis gummy and a slim vape pen.",
+  "breaking": false
+}
