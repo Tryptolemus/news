@@ -1,0 +1,70 @@
+{
+  "id": "illinois-148-medical-cannabis-dispensary-licenses-220-total",
+  "edition": "2026-11-24-am",
+  "rank": 4,
+  "published": "2026-11-24T06:11:20+02:00",
+  "cat": "States",
+  "headline": "Illinois triples medical cannabis stores to 220 with 148 new licences",
+  "dek": "Illinois regulators have issued 148 medical dispensary licences to adult-use stores since 10 September, taking the state from 72 to 220 medical locations.",
+  "key_points": [
+    "The Illinois Department of Financial and Professional Regulation has issued 148 new medical dispensary licences since 10 September, according to The Marijuana Herald.",
+    "Illinois had 220 medical dispensaries as of 19 November, up from 72 before the new process began; 114 of the licences were approved in the first 30 days.",
+    "The licences come under Senate Bill 3222, which lets adult-use stores in good standing also serve registered patients at the medical tax rate.",
+    "The first round on 10 September covered 37 stores, so roughly 111 more were added in the ten weeks that followed."
+  ],
+  "body": [
+    "Illinois has more than tripled the number of stores where registered medical cannabis patients can shop. The Illinois Department of Financial and Professional Regulation (IDFPR) has issued 148 new medical dispensary licences since 10 September, bringing the statewide total to 220 as of 19 November, up from 72 before the new process began, The Marijuana Herald reported on 23 November.",
+    "All of the new licences went to existing adult-use dispensaries. Under Senate Bill 3222, which Governor JB Pritzker signed in June, an adult-use store with an active licence in good standing can apply for a medical licence and, once approved, sell to registered patients at the lower medical tax rate, up to each patient's purchase allotment. According to the Herald, 114 of the 148 licences were approved within the first 30 days.",
+    "## From 37 stores to 148",
+    "The program started with a first batch. In a release dated 10 September, IDFPR said it had issued medical licences to 37 existing dispensaries, which could begin serving both adult-use customers and patients at the same location that day. The release said the change also lets newer social equity lottery dispensaries serve patients, something they could not do before.",
+    "The later figures were not in that release, and the Herald's report does not link a new one, so the 148 and 220 counts rest on the Herald's account of the department's announcement. Taken together, the two sets of numbers suggest roughly 111 stores were licensed in the ten weeks after the first batch, and that the pace slowed sharply after the first month: 114 approvals in the first 30 days, about 34 in the weeks since.",
+    "IDFPR Secretary Mario Treto Jr. said the department had turned the new law into wider access, so more patients can buy closer to home, according to the Herald. Vaughn G. Bentley, deputy director of the department's Cannabis Control Section, said applications would keep being processed while the department checks that each applicant meets the rules.",
+    "> Illinois did not build new medical stores. It let existing ones open a second door, and that was enough to triple patient access in ten weeks.",
+    "## What it means for patients",
+    "The most visible change is outside Chicago. The department pointed to new medical dispensaries in Metropolis and Grayville, two small towns in far southern Illinois, which it said could cut some patients' travel by up to an hour each way. The Herald notes the state had about 55 medical dispensaries in 2016, so the count has roughly quadrupled over a decade, almost all of it in the last ten weeks.",
+    "For patients the gain is price as well as distance. Adult-use purchases in Illinois carry higher state and local cannabis taxes than medical sales. A patient who can now buy at the medical rate at a nearby adult-use store, rather than paying adult-use taxes or driving to a medical-only location, saves on every purchase.",
+    "## What it means for operators",
+    "For dispensaries, a medical licence is a way to win back patients who had stayed with the older medical-only stores, and to keep patients who might otherwise let their registration lapse. For the 72 stores that already held medical licences, the change ends an exclusive position in patient sales: they now compete with three times as many locations for the same registered patients.",
+    "There is also a federal angle. Since the 28 April rescheduling order, medical cannabis has been in Schedule III for businesses with federal registration, while adult-use sales remain outside federal law. Illinois's dual-licence stores will sell to both groups under one roof. As we reported on 11 November, the DEA has moved to deny some medical applicants in Illinois and other states. How the agency treats stores that serve both markets is a question Illinois operators will need answered, especially as DEA's 29 November supply-chain deadline approaches.",
+    "## What to watch",
+    "IDFPR says it will keep issuing medical licences on a rolling basis, so the count should keep rising. Watch for the department's next public tally and for any patient-registration figures that show whether easier access is bringing new or lapsed patients into the program. Watch also for any DEA guidance on stores that hold both adult-use and medical licences."
+  ],
+  "sources": [
+    {
+      "name": "IDFPR release, 10 September 2026",
+      "url": "https://idfpr.illinois.gov/news/2026/illinois-expands-access-medical-cannabis-patients-and-dispensaries.html"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/illinois-issues-148-new-medical-marijuana-dispensary-licenses-bringing-statewide-total-to-220/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/11/dea-show-cause-six-states/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "220",
+    "label": "Illinois medical dispensaries, up from 72"
+  },
+  "banner": {
+    "title": "Illinois Triples Medical Stores",
+    "highlight": ["Medical"],
+    "sub": "148 adult-use dispensaries now licensed to serve patients",
+    "divider": "State desk",
+    "points": [
+      {"icon": "pin", "text": "72 to 220 stores"},
+      {"icon": "doc", "text": "Senate Bill 3222"},
+      {"icon": "coin", "text": "Medical tax rate"}
+    ],
+    "corner": ["ILLINOIS", "MEDICAL", "LICENSING", "PATIENTS"]
+  },
+  "watch": [
+    {"date": "2026-11-29", "text": "DEA supply-chain deadline for medical cannabis registrants and timely applicants"}
+  ],
+  "tags": ["Illinois", "Medical cannabis", "Licensing"],
+  "image_prompt": "Premium product still life: a white pharmacy-style paper bag with a small glass jar of cannabis flower beside it on a dark polished counter, a small brass key resting in front, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A white pharmacy bag and a jar of cannabis flower with a brass key on a dark counter.",
+  "breaking": false
+}

@@ -1,0 +1,108 @@
+{
+  "id": "crb-monitor-q3-2026-cannabis-licenses-retail-up-205-cultivation-down-322",
+  "edition": "2026-11-24-am",
+  "rank": 5,
+  "published": "2026-11-24T06:11:20+02:00",
+  "cat": "Markets",
+  "headline": "US cannabis retail licences rise by 205 in Q3 2026 as grows shrink",
+  "dek": "CRB Monitor counted 34,680 active US cannabis licences at the end of September: retail rose by 205, cultivation fell by 322 and the grower ratio hit a record low.",
+  "key_points": [
+    "Active US cannabis business licences fell by 147, or 0.4%, to 34,680 in the third quarter of 2026, the smallest drop in eight quarters, CRB Monitor reported.",
+    "Retail licences rose by 205, the biggest quarterly gain in two years, while cultivation licences fell by 322.",
+    "There are now 1.22 cultivation licences for every retail licence, a record low, down from 2.2 to 1 in late 2022.",
+    "Minnesota added a net 136 licences and Georgia 61; Oklahoma accounts for about 84% of the 10.2% fall in licences over two years."
+  ],
+  "body": [
+    "The number of licensed cannabis stores in the United States grew faster in the third quarter of 2026 than at any time in the past two years, while the number of licensed grows kept falling. CRB Monitor, which tracks cannabis business licences across the country, counted 34,680 active licences at the end of September, down 147, or 0.4%, from the previous quarter. That was the smallest quarterly decline in eight quarters.",
+    "Inside that total the market moved in two directions. Retail licences rose by 205, the largest quarterly gain in two years, according to CRB Monitor's review, written by Abby Kaufmann. Cultivation licences fell by 322. The Marijuana Herald reported the figures on 23 November.",
+    "## The grower ratio keeps falling",
+    "The clearest sign of the shift is the ratio of cultivation licences to retail licences. CRB Monitor puts it at 1.22 to 1, a record low, down from 2.2 to 1 in late 2022. In under four years the market has gone from more than two licensed grows per store to barely more than one.",
+    "Some of that likely reflects consolidation: larger, more efficient grows replacing many small ones, and failed operators handing back licences. Some may reflect how new markets are built. States that open adult-use programs often license stores faster than they license new cultivation, because existing medical growers often supply the first wave of retail.",
+    "> A falling grower-to-store ratio is what a maturing market looks like: fewer, bigger farms feeding more shops. The squeeze lands on wholesale prices before it reaches the shelf.",
+    "## Where the new licences came from",
+    "New and expanding programs did most of the work. Minnesota added a net 136 active licences in the quarter and Georgia 61, according to CRB Monitor. Minnesota is still building its adult-use market; as we reported on 22 November, the state will merge its medical and adult-use supply chains on 1 January. Georgia's licences sit in its medical program, the only legal cannabis market the state has.",
+    "Without those two states, the national count would have fallen by about 344 licences in the quarter, on our arithmetic from CRB Monitor's figures, a drop of about 1%. That shows how much the headline figure depends on a handful of growing programs offsetting shrinkage elsewhere.",
+    "## The Oklahoma effect",
+    "Over two years, active licences are still 10.2% lower, CRB Monitor said. Oklahoma explains most of that: it accounts for about 84% of the two-year decline. On our arithmetic, a 10.2% fall to 34,680 means about 3,900 fewer licences than two years ago, so Oklahoma alone lost roughly 3,300. Excluding Oklahoma and New Mexico, active licences in the remaining states rose 0.9% over the same two years.",
+    "The pipeline of future licences is thinning too. Among states that report approved or pending licences, that category fell for a ninth straight quarter, to 4,006. Pre-license applications dropped 5.4% to 4,892, and New York holds about 88% of them. CRB Monitor's reading is that the market is leveling off rather than rebounding, because application windows close and pending files either become active licences or drop out.",
+    "## What it means for operators and investors",
+    "For multi-state operators, the numbers point to more competition at the counter and less at the farm. More stores chasing the same customers in mature states tends to push retail prices down. Fewer grows means less wholesale supply, which can help surviving cultivators, but only if store growth translates into more demand rather than more shops splitting the same sales.",
+    "For lenders, landlords and service providers that track licence counts, the message is that the national total no longer tells the story. A market whose headline count is flat can still be adding stores in one state and losing farms in another. New York's large stock of pre-license applications is the biggest source of future change.",
+    "The quarter's numbers also put a scale on the retail gain. CRB Monitor's 205 new retail licences are fewer than the 322 cultivation licences lost, so the market added stores while still shrinking overall. That pattern, a net decline masking growth at the counter, is likely to persist while new programs such as Minnesota's keep opening stores and older markets keep shedding grows.",
+    "## What to watch",
+    "CRB Monitor's fourth-quarter review, covering October to December, will show whether retail growth continues and whether the grower ratio falls further. Watch New York's licensing pace, since most pending applications sit there, and Minnesota after the 1 January supply-chain merger."
+  ],
+  "sources": [
+    {
+      "name": "CRB Monitor, Q3 2026 Cannabis Business Licensing Activity Review",
+      "url": "https://news.crbmonitor.com/downloads/q3-2026-cannabis-business-licensing-activity-review/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/u-s-marijuana-retail-licenses-increase-by-205-in-third-quarter-largest-gain-in-two-years/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/22/minnesota-medical-adult-use-supply-chain-merger-1-january-4-december-attestation/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      1.0,
+      0.9,
+      0.8,
+      0.68,
+      0.55,
+      0.45,
+      0.35
+    ],
+    "big": "1.22:1",
+    "label": "US grow-to-store licence ratio, a record low"
+  },
+  "banner": {
+    "title": "More Stores, Fewer Farms",
+    "highlight": [
+      "Stores"
+    ],
+    "sub": "CRB Monitor counts 34,680 active US cannabis licences",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "pin",
+        "text": "Retail up 205"
+      },
+      {
+        "icon": "leaf",
+        "text": "Cultivation down 322"
+      },
+      {
+        "icon": "chart",
+        "text": "Ratio at 1.22 to 1"
+      }
+    ],
+    "corner": [
+      "MARKETS",
+      "LICENSING",
+      "RETAIL",
+      "DATA"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2027-01-01",
+      "text": "Minnesota merges its medical and adult-use cannabis supply chains"
+    }
+  ],
+  "tags": [
+    "Market data",
+    "Licensing",
+    "Minnesota",
+    "Georgia",
+    "Oklahoma",
+    "New York"
+  ],
+  "image_prompt": "Premium product still life: three small glass jars of cannabis flower standing in a row beside a single potted young cannabis plant on a dark polished surface, the plant smaller than the jars, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "Three jars of cannabis flower beside a single small potted cannabis plant.",
+  "breaking": false
+}

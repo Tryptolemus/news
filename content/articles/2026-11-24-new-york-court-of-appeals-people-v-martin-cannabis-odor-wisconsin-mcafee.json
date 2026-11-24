@@ -1,0 +1,98 @@
+{
+  "id": "new-york-court-of-appeals-people-v-martin-cannabis-odor-wisconsin-mcafee",
+  "edition": "2026-11-24-am",
+  "rank": 3,
+  "published": "2026-11-24T06:11:20+02:00",
+  "cat": "Policy",
+  "headline": "New York top court, 4-3, extends cannabis odor rule to older searches",
+  "dek": "New York's Court of Appeals ruled on 23 November that odor alone cannot justify a search at hearings held after 2021, as Wisconsin weighs the same question.",
+  "key_points": [
+    "In People v. Martin, decided 23 November, New York's Court of Appeals held 4-3 that Penal Law section 222.05(3) applies at suppression hearings held after the law took effect, even for searches made before it.",
+    "The section bars courts from finding reasonable cause based solely on the odor of cannabis, burnt cannabis, or possession of a legal amount.",
+    "The three dissenters warned the ruling changes the result of searches that were lawful when made, including in weapons and violent-crime cases.",
+    "In Wisconsin, an ACLU-backed amicus brief asks the state Supreme Court in State v. McAfee to rule that odor alone no longer gives probable cause, because legal hemp smells the same."
+  ],
+  "body": [
+    "New York's highest court has ruled that the state's ban on searches based only on the smell of cannabis reaches back to cases that began before legalization. In People v. Martin, decided on 23 November, the Court of Appeals held 4-3 that Penal Law section 222.05(3) governs any suppression hearing held after the law took effect on 31 March 2021, even when the police search took place earlier.",
+    "The ruling comes as courts in states without legal adult-use sales face the same question from a different angle. In Wisconsin, the state Supreme Court has agreed to decide whether odor alone still gives police probable cause now that legal hemp, which smells the same as marijuana, is sold across the state. A brief filed there this month makes that argument directly.",
+    "## What the New York court decided",
+    "Section 222.05(3) was added by the Marihuana Regulation and Taxation Act. It says that in any criminal proceeding, including a motion to suppress evidence, no finding of reasonable cause may rest solely on the odor of cannabis, the odor of burnt cannabis, or possession of a legally allowed amount. Writing for the majority, Judge Jenny Rivera said the plain words 'any criminal proceeding' cover a pre-conviction suppression hearing held after enactment, whatever the date of the search.",
+    "The facts were simple. On 30 September 2020, a state trooper stopped a car for excessively tinted windows, smelled cannabis, and searched the car and its occupants. Cocaine and drug paraphernalia were found in a backpack belonging to the passenger, Darnell Martin. He was indicted on 25 March 2021, six days before the MRTA was enacted. The trial court refused to suppress the evidence; Martin pleaded guilty to third-degree possession of a controlled substance and was sentenced to five years' probation.",
+    "In 2025 an Appellate Division panel reversed, vacated the plea and suppressed the evidence, over two dissents that called the result impermissibly retroactive. The Court of Appeals has now affirmed. The majority stressed limits: the rule applies to cases still pending when the MRTA took effect, where the suppression ruling came afterwards, and where the only justification offered was the kind of evidence the statute lists. Other evidence can still establish reasonable cause.",
+    "Judge Michael Garcia, joined by Judges Madeline Singas and Anthony Cannataro, dissented. According to The Marijuana Herald, the dissent argued the majority's reading changes the consequences of searches that were lawful when they were made, and could lead to evidence being suppressed in serious cases involving weapons and violent crime. The decision builds on People v. Pastrana (2023), where the court declined to apply the protection to a case in which both the search and the conviction came before legalization.",
+    "> New York has now decided that the date of the hearing, not the date of the search, decides which cannabis rules apply. Prosecutors with old odor-only cases have run out of road.",
+    "## How many cases are affected",
+    "The ruling's reach is limited by time. It covers only cases that were pending but not final on 31 March 2021 and that had suppression hearings afterwards. More than five and a half years later, many such cases are likely to have been resolved already. The practical effect will be felt mainly in appeals still working through the courts, and in any remaining prosecutions where the record shows odor was the only reason for the search.",
+    "For police in New York, nothing changes going forward: the odor rule has applied to new searches since 2021. What the court has settled is that prosecutors cannot rescue older odor-only searches by pointing to the law in force on the day of the stop.",
+    "## The Wisconsin case",
+    "Wisconsin has no legal adult-use market, but it does have legal hemp. In State v. McAfee (No. 2024AP1635-CR), police searched a car and found about 250 grams of marijuana, $10,000 in cash and a loaded gun, according to the Herald. The circuit court accepted expert testimony that CBD hemp and illegal marijuana smell the same, but upheld the search anyway. The passenger, Ayanna McAfee, pleaded guilty to possession of THC with intent to deliver. The Court of Appeals affirmed in October 2025, and the Supreme Court agreed in August to review the probable-cause question.",
+    "The ACLU of Wisconsin filed a 13-page amicus brief for Black Leaders Organizing for Communities, a Milwaukee group, which the court accepted on 18 November. The brief asks the court to overturn State v. Secrist and State v. Moore, the precedents that let officers rely on marijuana odor alone. Its argument is that the legal line between hemp and marijuana is THC concentration, which no nose can detect, and that cannabis is legal in neighbouring Illinois, Michigan and Minnesota. It also cites data showing Black Wisconsinites were 5.29 times more likely than white residents to be arrested for marijuana possession in 2022.",
+    "## Why it matters to the industry",
+    "The two cases show the odor question being decided on two tracks. In legal states such as New York, legislatures wrote odor protections into statute, and courts are now settling the edges. In states without adult-use sales, the hemp market itself is undermining the old rule: if legal and illegal products smell the same, odor alone says little. A Wisconsin ruling against odor-only probable cause would be a sign that hemp's spread is changing criminal procedure even where cannabis remains illegal.",
+    "## What to watch",
+    "Watch for the Wisconsin Supreme Court to schedule argument in State v. McAfee, and for similar challenges in other states with legal hemp and no adult-use market. In New York, watch for lower courts applying People v. Martin to pending appeals."
+  ],
+  "sources": [
+    {
+      "name": "New York Court of Appeals, People v. Martin (No. 76, 23 November 2026)",
+      "url": "https://coappeals.blob.core.usgovcloudapi.net/coappeals/2026-11/76opn26-decision.pdf"
+    },
+    {
+      "name": "Amicus brief of BLOC, State v. McAfee, No. 2024AP1635-CR (ACLU of Wisconsin)",
+      "url": "https://www.aclu-wi.org/app/uploads/2026/11/2026.11.17-State-v-McAfee-Amicus-Brief-1-1.pdf"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/new-yorks-highest-court-rules-marijuana-odor-search-protections-apply-to-cases-predating-legalization/"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/wisconsin-aclu-asks-state-supreme-court-to-overturn-rulings-allowing-police-searches-based-on-marijuana-odor/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "4-3",
+    "label": "New York Court of Appeals vote in People v. Martin"
+  },
+  "banner": {
+    "title": "Odor Rule Reaches Older Cases",
+    "highlight": [
+      "Odor"
+    ],
+    "sub": "New York's top court splits 4-3 in People v. Martin",
+    "divider": "Courts desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Decided 23 November"
+      },
+      {
+        "icon": "doc",
+        "text": "Penal Law 222.05(3)"
+      },
+      {
+        "icon": "pin",
+        "text": "Wisconsin weighs odor too"
+      }
+    ],
+    "corner": [
+      "COURTS",
+      "NEW YORK",
+      "SEARCH",
+      "HEMP"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "New York",
+    "Wisconsin",
+    "Courts",
+    "Hemp",
+    "Legalization"
+  ],
+  "image_prompt": "Premium product still life: an open glass jar of cannabis flower with faint wisps of vapor rising from it, beside a dark wooden gavel on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "An open jar of cannabis flower with faint vapor rising, beside a gavel.",
+  "x_post": "New York's top court ruled 4-3 that its ban on odor-only cannabis searches applies at any suppression hearing after 31 March 2021, even if the search came first. Wisconsin is weighing the same question.",
+  "breaking": false
+}
