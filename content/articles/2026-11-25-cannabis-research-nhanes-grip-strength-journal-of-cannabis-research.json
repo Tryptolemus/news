@@ -1,0 +1,93 @@
+{
+  "id": "cannabis-research-nhanes-grip-strength-journal-of-cannabis-research",
+  "edition": "2026-11-25-am",
+  "rank": 5,
+  "published": "2026-11-25T06:13:30+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: frequent use tied to stronger grip in NHANES data",
+  "dek": "A Journal of Cannabis Research study of 2,971 U.S. adults, published on 24 November, links frequent cannabis use to higher grip strength, but cannot show cause.",
+  "key_points": [
+    "The cross-sectional study, published on 24 November 2026, used U.S. NHANES survey data from 2011 to 2014 on 2,971 adults aged 20 to 59.",
+    "Adults who used cannabis on 5 or more of the past 30 days had higher handgrip strength than non-users after adjustment, The Marijuana Herald reported, by about 2.6 kg combined.",
+    "Light use showed no link in most models, and results for lean muscle mass were inconsistent.",
+    "The authors say the design cannot show cause and the findings should not be read as a reason to use cannabis."
+  ],
+  "body": [
+    "A new analysis of U.S. government health survey data finds that adults who use cannabis often tend to have a stronger grip than adults who do not, a result its authors say ran against what they expected. The study, published on 24 November 2026 in the Journal of Cannabis Research, looked at 2,971 adults aged 20 to 59 who took part in the National Health and Nutrition Examination Survey (NHANES) between 2011 and 2014.",
+    "The link held after the researchers accounted for age, sex, physical activity, smoking, diet and health conditions. But the study takes a single snapshot of each person, so it cannot say whether cannabis has anything to do with strength, and the authors caution against reading it as a recommendation.",
+    "## What the researchers did",
+    "The paper, titled Association of marijuana use with muscle strength and lean mass in adults, is by researchers at the Federal University of Uberlandia and the University of Sao Paulo in Brazil and the University of Illinois Urbana-Champaign, including Rafaela Nehme, Erick P. de Oliveira, Hamilton Roschel, Bruno Gualano and Pedro C. Hallal. It was received on 8 June and accepted on 3 November.",
+    "NHANES is a long-running federal program that pairs interviews with physical exams. In the 2011 to 2014 cycles, participants were asked how many days in the past month they had used cannabis, had their grip strength measured with a dynamometer, and had body composition measured with a DXA scan, an X-ray method that estimates lean mass.",
+    "The team sorted participants into three groups: non-users (75.1%), light users who reported 1 to 4 days of use in the past 30 (9.3%), and heavy users who reported 5 to 30 days (15.6%).",
+    "## What they found",
+    "Before adjustment, the gap was visible in the raw averages. According to The Marijuana Herald, combined grip strength across both hands averaged 83.2 kg in frequent users, 78.6 kg in occasional users and 74.9 kg in non-users.",
+    "After adjusting for demographic, lifestyle and health factors, frequent use was still associated with higher grip strength, though the gap narrowed. The Herald puts the adjusted difference at 2.6 kg of combined grip strength, which was statistically significant. Light use showed no association in most models.",
+    "The lean-mass results were less stable. In the fullest model, the Herald reports, frequent users had about 1.1 kg more total lean mass and 0.4 kg more lean mass in the arms and legs, but the paper notes that lean-mass estimates changed direction across the different adjusted models. That inconsistency is a reason to treat the muscle-mass finding as unresolved.",
+    "> A stronger grip among frequent users is a statistical pattern in 2011 to 2014 survey data, not evidence that cannabis builds strength.",
+    "## Why caution is warranted",
+    "The authors list the main limits themselves. The design is cross-sectional, so it shows association, not cause. Residual confounding is possible: people who use cannabis frequently may differ in occupation, sport or other habits in ways the survey does not fully capture. They call for longitudinal studies that follow people over time.",
+    "Three further points matter for readers. First, the data are 12 to 15 years old. They predate most state adult-use markets and the high-potency products common today, so the population of users in 2026 may look quite different. Second, cannabis use was self-reported in a government survey, which can lead some people to under-report. Third, grip strength is a widely used marker of overall muscle function, but it is one measure; the study did not test athletic performance or health outcomes.",
+    "The finding also cuts against a common assumption that regular cannabis use goes with lower physical fitness, which is why it has drawn attention. That does not make it a health benefit. Other recent research points the other way on different outcomes: as we reported on 22 November, an American Heart Association conference abstract linked cannabis use to higher odds of stroke.",
+    "## Where it fits",
+    "Research on cannabis and the body is growing as legal access spreads and federal barriers ease. Observational studies like this one rely on existing survey data rather than trials, which is why they can find patterns quickly but cannot settle cause and effect.",
+    "For the cannabis industry, the study is a reminder of the rules on health claims. Businesses that cite it would need to describe it as an association in old survey data. Regulators in most states, and the Federal Trade Commission, treat claims that a product improves health or performance as claims that need proof, and this study does not supply it.",
+    "## What to watch",
+    "The authors' call for longitudinal work is the key next step: studies that track the same people's cannabis use and strength over years would show whether the pattern holds. Newer NHANES cycles that include both cannabis questions and strength measures, if released, would show whether the link appears in today's market."
+  ],
+  "sources": [
+    {
+      "name": "Journal of Cannabis Research (DOI 10.1186/s42238-026-00534-5)",
+      "url": "https://link.springer.com/article/10.1186/s42238-026-00534-5"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/study-finds-frequent-marijuana-use-associated-with-greater-muscle-strength/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/22/cannabis-research-aha-stroke-abstract-uf-ccorc-conference/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "2,971",
+    "label": "adults in the NHANES grip strength analysis"
+  },
+  "banner": {
+    "title": "Cannabis Use and Grip Strength",
+    "highlight": [
+      "Grip",
+      "Strength"
+    ],
+    "sub": "NHANES study finds a link, not a cause",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "2,971 adults, 2011-2014"
+      },
+      {
+        "icon": "chart",
+        "text": "Frequent users stronger"
+      },
+      {
+        "icon": "doc",
+        "text": "Cross-sectional only"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "RESEARCH",
+      "NHANES",
+      "STUDY"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Research",
+    "NHANES"
+  ],
+  "image_prompt": "Premium product still life: a steel hand-grip strength dynamometer lying beside a small glass jar of cannabis flower on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A steel hand-grip dynamometer beside a small glass jar of cannabis flower on a dark surface.",
+  "breaking": false
+}

@@ -1,0 +1,110 @@
+{
+  "id": "atf-form-4473-medical-marijuana-warning-review-24-november",
+  "edition": "2026-11-25-am",
+  "rank": 3,
+  "published": "2026-11-25T06:13:30+02:00",
+  "cat": "Federal",
+  "headline": "ATF says it is still reviewing medical marijuana change to Form 4473",
+  "dek": "ATF told The Marijuana Herald on 24 November it is actively reviewing its May proposal to drop medical marijuana from the gun-buyer warning, but gave no date.",
+  "key_points": [
+    "The Bureau of Alcohol, Tobacco, Firearms and Explosives confirmed on 24 November that it is actively reviewing the Form 4473 changes it proposed on 8 May 2026.",
+    "The draft form would stop warning that medical marijuana use bars a gun purchase, and keep the warning for recreational use.",
+    "The change follows the 28 April rescheduling order that moved state-licensed medical marijuana to Schedule III; recreational marijuana remains in Schedule I.",
+    "Until a final form is approved, every buyer still answers the current version, which treats all marijuana use as federally unlawful."
+  ],
+  "body": [
+    "The federal agency that writes the form every U.S. gun buyer must sign says it has not shelved its plan to treat medical marijuana patients differently. The Bureau of Alcohol, Tobacco, Firearms and Explosives told The Marijuana Herald on 24 November that it is actively reviewing the changes to Form 4473 it proposed in May, and that it is \"committed to completing the final rulemaking process efficiently.\" It would not give a timeline.",
+    "More than six months after the proposal was published, the form in use at gun counters is unchanged. It still warns that using or possessing marijuana remains unlawful under federal law even where a state has legalized it for medical or recreational use.",
+    "## What ATF proposed",
+    "ATF published a notice of proposed rulemaking titled Revising Firearms Transaction Record, Form 4473, in the Federal Register on 8 May 2026 (91 FR 25432, docket ATF-2026-0001, RIN 1140-AA82). The rule itself amends ATF's firearms regulations in 27 CFR Part 478 and sets out the revised form; its comment deadline was 6 August 2026. The marijuana wording sits in the draft form, which ATF released through a separate paperwork notice under OMB control number 1140-0020.",
+    "In the draft, the medical reference is gone. Instead of warning that marijuana is unlawful whatever the state's rules, the proposed text says federal law does not allow recreational marijuana use or possession. NORML, which reviewed the draft when it appeared in May, said it revises the definition of an unlawful drug user so the federal gun ban would no longer reach people who use only state-authorized medical cannabis. Recreational users are not covered by the change.",
+    "According to the Herald, the first comment period on the draft form closed on 7 July. On 29 July ATF asked to keep the existing form in use, unchanged, while it considers the comments, and said a further 30-day comment period would follow. That second round has not yet been announced.",
+    "> The form has not caught up with the schedule: medical cannabis moved to Schedule III in April, but the gun counter still treats every patient as an unlawful user.",
+    "## Why the schedule matters",
+    "The legal hook is the rescheduling order that took effect on 28 April 2026. It moved state-licensed medical marijuana, and FDA-approved marijuana products, from Schedule I to Schedule III. Recreational marijuana stayed in Schedule I.",
+    "Federal law, at 18 U.S.C. section 922(g)(3), bars anyone who is an unlawful user of a controlled substance from buying or possessing a gun. ATF's reasoning, as reflected in the draft, is that a patient using a Schedule III product within a state-licensed medical program is no longer automatically an unlawful user. Someone using marijuana bought in an adult-use store remains one, because that product is still in Schedule I.",
+    "This produces a two-track system that mirrors the DEA's own split. As we have reported this month, the DEA is registering state-licensed medical dispensaries and their suppliers, while adult-use businesses stay outside the federal system altogether. A patient's gun rights would, under the draft, follow the same line.",
+    "## The Supreme Court backdrop",
+    "The proposal also sits alongside the Supreme Court's June ruling in United States v. Hemani. On 18 June 2026 the justices, unanimous in the judgment, held that prosecuting a man under section 922(g)(3) solely because he used marijuana about every other day, without individual evidence such as dangerousness, violated the Second Amendment. According to a Congressional Research Service summary, Justice Neil Gorsuch wrote for the majority and the ruling was narrow: it left open cases involving addiction, present intoxication, individual proof of danger or particularly dangerous drugs, and any new law Congress might pass.",
+    "Hemani limits how prosecutors can use the statute against marijuana users. It did not change the form, and it did not tell ATF how to word the warning. The form change is a separate, administrative track, and ATF has not said whether the ruling will affect its final text.",
+    "## Who is affected",
+    "The numbers are large. Arkansas alone counted 120,075 active medical cards as of 21 November, its health department reports, and as we reported on 23 November, Oklahoma had more than 302,000 active patient licenses earlier this month. Oklahoma lawmakers have filed Senate Bill 1 for 2027 to stop the state refusing handgun licenses to patients solely because of their status, a state-level move that would sit beside any federal change.",
+    "For gun retailers, the practical point is that nothing has changed yet. They must use the form ATF has approved, and the version in force today still asks every buyer the same marijuana question. The change, when it comes, would take effect only once ATF finalizes the rule and the Office of Management and Budget approves the revised form.",
+    "## What to watch",
+    "The next signal will be ATF's announcement of the further 30-day comment period on the revised form, followed by a final rule in the Federal Register. Watch also for any lower-court rulings applying Hemani to marijuana users charged under section 922(g)(3), and for the DEA's separate hearing process on the broader rescheduling of marijuana, which could change which users count as unlawful."
+  ],
+  "sources": [
+    {
+      "name": "Federal Register via GovInfo: Revising Firearms Transaction Record, Form 4473 (91 FR 25432, 8 May 2026)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-08/html/2026-09182.htm"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/atf-confirms-active-review-of-proposed-changes-to-federal-gun-purchase-forms-that-would-remove-medical-marijuana-warning/"
+    },
+    {
+      "name": "NORML",
+      "url": "https://norml.org/blog/2026/05/12/atf-posts-draft-document-acknowledging-medical-cannabis-scheduling-change/"
+    },
+    {
+      "name": "Congressional Research Service, Legal Sidebar LSB11450",
+      "url": "https://www.everycrsreport.com/reports/LSB11450.html"
+    },
+    {
+      "name": "Arkansas Department of Health, Medical marijuana",
+      "url": "https://healthy.arkansas.gov/programs-services/data-statistics-registries/medical-marijuana"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/23/oklahoma-senate-bill-1-medical-marijuana-patients-handgun-licenses-2027/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "ATF",
+    "sub": "FORM 4473",
+    "big": "6+ mos",
+    "label": "since ATF proposed the medical marijuana change"
+  },
+  "banner": {
+    "title": "ATF Still Reviewing Gun Form",
+    "highlight": [
+      "Gun",
+      "Form"
+    ],
+    "sub": "Draft would drop medical marijuana from the warning",
+    "divider": "Federal desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "Proposed 8 May 2026"
+      },
+      {
+        "icon": "shield",
+        "text": "Recreational warning stays"
+      },
+      {
+        "icon": "gavel",
+        "text": "No final date yet"
+      }
+    ],
+    "corner": [
+      "FEDERAL",
+      "ATF",
+      "MEDICAL",
+      "PATIENTS"
+    ]
+  },
+  "watch": [],
+  "tags": [
+    "Medical cannabis",
+    "Rescheduling",
+    "Courts",
+    "Arkansas",
+    "Oklahoma"
+  ],
+  "image_prompt": "Premium product still life: a blank clipboard with an unprinted paper form and a pen beside a small amber medicine bottle of cannabis flower on a polished black surface, soft studio lighting with faint violet edge light, subject in the right half, darker empty space on the left, no text, no logos, no people",
+  "image_alt": "A clipboard with a blank paper form and a pen beside an amber medicine bottle of cannabis flower.",
+  "x_post": "ATF says it is still actively reviewing its May plan to drop medical marijuana from the Form 4473 gun-buyer warning. No timeline. Until it is final, every buyer answers the old question.",
+  "breaking": false
+}
