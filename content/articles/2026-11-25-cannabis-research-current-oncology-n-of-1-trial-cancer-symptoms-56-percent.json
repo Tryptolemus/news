@@ -1,0 +1,90 @@
+{
+  "id": "cannabis-research-current-oncology-n-of-1-trial-cancer-symptoms-56-percent",
+  "edition": "2026-11-25-pm",
+  "rank": 4,
+  "published": "2026-11-25T18:12:40+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: extracts eased cancer symptoms for 56% in trial",
+  "dek": "A triple-blind Canadian trial in Current Oncology found 50 of 89 cancer patients responded to at least one cannabis extract, mostly via better sleep.",
+  "key_points": [
+    "A placebo-controlled, triple-blind trial at eight Canadian cancer centres found 56% of evaluated patients (50 of 89) had a clinically meaningful response to at least one cannabis extract.",
+    "No single extract won overall: THC, CBD and a combined oil were each preferred about equally, and only 9% of patients preferred the placebo.",
+    "Better sleep, less tiredness and less anxiety contributed most, more than pain relief; moderate or severe side effects were rare and linked to higher THC doses.",
+    "Each extract was tested for only 4 to 12 days, so the study cannot speak to long-term benefit, tolerance or delayed side effects."
+  ],
+  "body": [
+    "A Canadian clinical trial has found that more than half of the cancer patients who took part got a meaningful benefit from at least one type of medical cannabis extract compared with placebo. The study, published on 24 November 2026 in the peer-reviewed journal Current Oncology, tested THC, CBD and combined oils in each patient, one after another, with patients and researchers blinded.",
+    "Of the 89 participants evaluated for the main outcome, 50, or 56%, cleared the researchers' bar for a clinically meaningful response with at least one extract. The authors, led by Philippa Hawley of BC Cancer and the University of British Columbia, concluded that cannabis extracts can help 'at least half of eligible patients', and that treatment needs to be personalised.",
+    "## How the trial worked",
+    "The study used an unusual 'aggregate n-of-1' design. Instead of splitting patients into groups, each person tried every treatment: a THC-dominant oil, a CBD-dominant oil, a roughly 1:1 THC and CBD oil, and a placebo oil, for four days each, in random order, for up to three cycles. Each patient served as their own control. The researchers say this design can match the statistical power of a conventional trial with far fewer people and avoids comparing mismatched groups.",
+    "Patients were outpatients from seven symptom-management and palliative-care clinics in Canadian cancer centres and a medical cannabis clinic in Montreal. They had to be clinically stable, with pain, poor sleep or anxiety as their most troublesome symptom. Ages ranged from 27 to 86, with a mean of 60. Breast cancer was the most common diagnosis, and 36% had stage 4 disease. The protocol was approved by Health Canada in December 2019.",
+    "The main measure was a 7-point patient rating of overall change. A meaningful response meant at least 1.4 points, or 20%, better than placebo for at least one extract. A separate symptom score and patients' blinded preferences pointed the same way.",
+    "## What drove the benefit",
+    "No extract was best on average. Most participants had a clear favourite, but THC, CBD and combined oils were each chosen about equally often. Two-thirds of patients named a single preferred extract, and only 9% preferred placebo, which the authors say suggests their 1.4-point threshold may understate the true response rate.",
+    "The gains came mostly from sleep. Better sleep, less tiredness and less anxiety contributed most to overall improvement, whatever the patient's main complaint, while pain relief played a smaller part. Among patients whose main problem was anxiety, 60% met the response threshold, The Marijuana Herald reported.",
+    "Mild side effects were common with every oil, including placebo, and eased quickly when the dose was cut. Moderate or severe effects were rare and associated with higher THC doses. None was life-threatening or required hospital care. The authors found a starting dose of 2.5 mg of THC, CBD or both, up to three times a day, was safe and well tolerated by most participants.",
+    "> The most useful finding is not that cannabis works on average, but that patients respond to different extracts, so a single-product trial can miss them.",
+    "## Limits of the study",
+    "The authors are clear about the limits. Each extract was given for only 4 to 12 days in total, so the trial says nothing about long-term effectiveness, tolerance or delayed side effects. The response scale did not include gradations of worsening, although the separate symptom score did capture any decline. Patients with recent cannabis use, a cannabis use disorder, or a personal or family history of schizophrenia were excluded, so the results apply to a screened group.",
+    "The study was funded by the BC Cancer Foundation through donations from the Hecht Foundation and the Kaatza Foundation. One author disclosed book royalties and past speaking fees from a cannabis company; the others reported no conflicts.",
+    "## Why it matters for the medical market",
+    "The trial products came from three licensed Canadian suppliers over the years of the study: Whistler Medical Marijuana Corp., which has since closed, Aurora Cannabis, and MediPharm Labs, which supplied the final batches after Aurora withdrew. The authors note that equivalent non-GMP products are widely available in Canada.",
+    "For medical cannabis producers and clinics, the finding that patients sort themselves across THC, CBD and balanced products supports offering a range rather than one standard formula. It also adds a placebo-controlled result to a field where systematic reviews have repeatedly called for more clinical trial evidence. The Herald first reported the findings in June, when they appeared as a preprint.",
+    "## What to watch",
+    "The authors call for longer studies and suggest future trials start each patient with a short n-of-1 run-in to find their best extract. Watch whether cancer-care guidelines in Canada cite the results, and whether the design is picked up in other trials of medical cannabis, where small, single-product studies have often produced mixed results."
+  ],
+  "sources": [
+    {
+      "name": "Current Oncology: Comparing Cannabinoid Extracts for Treating Cancer-Related Symptoms (Hawley et al., 2026, doi:10.3390/curroncol33120727)",
+      "url": "https://www.mdpi.com/1718-7729/33/12/727"
+    },
+    {
+      "name": "The Marijuana Herald: Triple-blind clinical trial finds marijuana extracts provide meaningful cancer symptom relief",
+      "url": "https://themarijuanaherald.com/2026/11/triple-blind-clinical-trial-finds-marijuana-extracts-provide-meaningful-cancer-symptom-relief-in-majority-of-patients/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "56%",
+    "label": "patients with a meaningful response to an extract"
+  },
+  "banner": {
+    "title": "Extracts Helped 56% in Trial",
+    "highlight": [
+      "56%"
+    ],
+    "sub": "Triple-blind Canadian study in Current Oncology",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "89 patients evaluated"
+      },
+      {
+        "icon": "drop",
+        "text": "THC, CBD, combined oils"
+      },
+      {
+        "icon": "shield",
+        "text": "Only 9% chose placebo"
+      }
+    ],
+    "corner": [
+      "RESEARCH",
+      "ONCOLOGY",
+      "CANADA",
+      "TRIAL"
+    ]
+  },
+  "tags": [
+    "Research",
+    "Medical cannabis",
+    "Canada",
+    "Sleep",
+    "Aurora Cannabis",
+    "MediPharm Labs"
+  ],
+  "image_prompt": "A premium clinical still life of three small amber dropper bottles of cannabis oil lined up on a white lab tray beside a single folded hospital blanket corner, soft cool lighting with a faint violet edge light, subject in the right half, dark negative space on the left, no text, no labels, no people",
+  "image_alt": "Three amber dropper bottles of cannabis oil on a white lab tray.",
+  "breaking": false
+}
