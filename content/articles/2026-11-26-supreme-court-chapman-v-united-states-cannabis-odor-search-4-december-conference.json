@@ -1,0 +1,102 @@
+{
+  "id": "supreme-court-chapman-v-united-states-cannabis-odor-search-4-december-conference",
+  "rank": 4,
+  "cat": "Policy",
+  "headline": "Supreme Court to weigh cannabis odor searches on 4 December",
+  "dek": "The Supreme Court will consider on 4 December whether to hear Chapman v. United States, which asks if the smell of cannabis alone still justifies a car search.",
+  "key_points": [
+    "The Supreme Court distributed Chapman v. United States, No. 26-6002, on 18 November for its private conference on 4 December 2026.",
+    "The petition asks whether widespread legalization has undermined the rule that cannabis odor alone gives police probable cause to search a vehicle.",
+    "The federal government waived its right to respond on 10 November, a routine step that often precedes a denial but does not guarantee one.",
+    "State high courts in New York, Pennsylvania and Michigan have already limited odor-only searches, and Wisconsin's is reviewing the question."
+  ],
+  "body": [
+    "The U.S. Supreme Court will decide in early December whether to take up a case that asks if the smell of cannabis is still enough, on its own, to justify a warrantless search of a car. The petition in Chapman v. United States, No. 26-6002, was distributed on 18 November for the justices' private conference on 4 December, the court's docket shows.",
+    "The case comes from a federal prosecution in Pennsylvania, and it lands as state courts are reworking the same rule one jurisdiction at a time. If the justices agree to hear it, the court would be addressing for the first time how a decade of state legalization affects one of the most common grounds for roadside searches.",
+    "## The case",
+    "Randale Chapman was stopped in Pittsburgh in April 2020 and is serving a 35-year federal sentence, according to The Marijuana Herald. The U.S. Court of Appeals for the Third Circuit upheld his convictions on 22 April 2026 in consolidated appeals Nos. 24-1309, 24-1310 and 24-1311, relying on existing federal precedent on cannabis odor and on Chapman's admission that he had smoked in the car, the Herald reported. The appeals court denied rehearing on 29 June.",
+    "Justice Samuel Alito granted Chapman an extension to file, and the petition arrived on 27 October with a request to proceed as a pauper. Chapman is represented by Timothy Michael Shepherd of the Federal Public Defender's office in Trenton, New Jersey. The United States, represented by Solicitor General D. John Sauer, filed a waiver of its right to respond on 10 November.",
+    "## The question",
+    "The petition asks whether the spread of legalization and decriminalization has undermined the doctrine that cannabis odor alone supplies probable cause to search a vehicle, according to the Herald's summary. The argument is that when many people may lawfully possess cannabis under state law, and legal hemp smells the same as marijuana, the smell no longer points reliably to a crime.",
+    "The Herald reports that the supreme courts of Pennsylvania and Michigan have already rejected an odor-only approach. New York went further on 23 November, when its Court of Appeals ruled 4-3 that the state's statutory ban on odor-only searches applies to suppression hearings held after legalization even when the search came earlier, as we reported on 24 November. Wisconsin's Supreme Court is weighing the same issue in State v. McAfee, where an amicus brief argues that hemp and marijuana cannot be told apart by smell.",
+    "> State courts are retiring the odor rule one by one. Chapman asks whether federal courts should follow, and federal law has not moved.",
+    "## How the court decides",
+    "At the 4 December conference the justices will vote on whether to grant review. Under the court's practice it takes four votes to hear a case. The Herald says an order could come as early as 7 December.",
+    "The government's waiver is worth reading carefully. A waiver means the Solicitor General chose not to file a brief in opposition for now. In practice, the court denies most petitions that reach conference without a response; if a justice is interested, the court can instead ask the government to respond, which would push any decision into 2027. That request, not a grant, is the first signal to look for.",
+    "There is also a federal-law problem for the petitioner. Cannabis remains illegal under federal law for most uses, and state-licensed medical cannabis only moved to Schedule III this year. A federal court can argue that, whatever states allow, the odor of a federally controlled substance still suggests a federal crime. That is a harder argument to make in a state court that applies a state legalization statute.",
+    "## Why it matters to the industry",
+    "For the legal industry, the odor rule is a daily friction point. Customers carrying lawfully bought products can be searched on the strength of smell alone in many places, and drivers carrying hemp face the same risk. A Supreme Court ruling limiting odor-only searches would apply nationwide in federal cases and would weigh heavily on state courts that have not yet acted. A denial would leave the patchwork in place, with the answer depending on the state and the court.",
+    "## What to watch",
+    "Watch the 4 December conference and the order list that follows. A grant would put the case on the court's calendar for argument; a request for the government's response would delay the decision; a denial would leave the issue to the states. In Wisconsin, watch for argument in State v. McAfee, and in New York, for lower courts applying the Court of Appeals' 23 November ruling to pending cases."
+  ],
+  "sources": [
+    {
+      "name": "Supreme Court of the United States: docket No. 26-6002, Chapman v. United States",
+      "url": "https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26-6002.html"
+    },
+    {
+      "name": "The Marijuana Herald: U.S. Supreme Court schedules December 4 conference on marijuana odor searches",
+      "url": "https://themarijuanaherald.com/2026/11/u-s-supreme-court-schedules-december-4-conference-on-whether-marijuana-odor-alone-justifies-warrantless-vehicle-searches/"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/24/new-york-court-of-appeals-people-v-martin-cannabis-odor-wisconsin-mcafee/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "4 Dec",
+    "label": "Supreme Court conference on the odor case"
+  },
+  "banner": {
+    "title": "Supreme Court Weighs Odor Rule",
+    "highlight": [
+      "Odor Rule"
+    ],
+    "sub": "Chapman v. United States goes to the 4 December conference",
+    "divider": "Courts desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Docket No. 26-6002"
+      },
+      {
+        "icon": "doc",
+        "text": "U.S. waived its response"
+      },
+      {
+        "icon": "ballot",
+        "text": "Four votes needed to hear"
+      }
+    ],
+    "corner": [
+      "COURTS",
+      "POLICING",
+      "LEGAL",
+      "RIGHTS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-04",
+      "text": "Supreme Court conference considers whether to hear Chapman v. United States"
+    },
+    {
+      "date": "2026-12-07",
+      "text": "Earliest likely order list on the Chapman petition"
+    }
+  ],
+  "tags": [
+    "Courts",
+    "Pennsylvania",
+    "New York",
+    "Wisconsin",
+    "Michigan",
+    "Legalization"
+  ],
+  "image_prompt": "A premium product still life of a classic car key with a leather fob resting beside a small sealed glass jar of cannabis flower on a dark marble ledge, soft violet edge light, subject in the right half, dark negative space on the left, no text, no logos, no people",
+  "image_alt": "A car key beside a sealed jar of cannabis flower on dark marble.",
+  "x_post": "The Supreme Court will consider on 4 December whether to hear Chapman v. United States, which asks if the smell of cannabis alone still justifies a warrantless car search after a decade of state legalization.",
+  "edition": "2026-11-26-am",
+  "published": "2026-11-26T06:14:16+02:00"
+}
