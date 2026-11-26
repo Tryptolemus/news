@@ -1,0 +1,94 @@
+{
+  "id": "cannabis-research-legalization-polysubstance-opioid-alcohol-disorders-older-canadians",
+  "edition": "2026-11-26-pm",
+  "rank": 4,
+  "published": "2026-11-26T18:11:49+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: legalization tied to fewer new opioid diagnoses",
+  "dek": "A Kentucky study of 2010-2022 insurance claims links state legalization to fewer new opioid and alcohol disorders among people with cannabis use disorder.",
+  "key_points": [
+    "University of Kentucky researchers found adult-use legalization was associated with a 44.61% drop in new opioid use disorder diagnoses among patients with cannabis use disorder in the prior year.",
+    "Medical and adult-use legalization were also associated with 14.43% and 22.68% fewer new alcohol use disorder diagnoses in that group.",
+    "Adult-use legalization was linked to 34.44% more new cannabis use disorder diagnoses among patients with a past-year tobacco use disorder.",
+    "A separate survey of 1,615 Canadians aged 50 and over found 60.1% want cannabis information from health providers, but only 19.3% see them as good sources."
+  ],
+  "body": [
+    "A new study in Drug and Alcohol Dependence finds that the mix of substance use disorders people are diagnosed with shifted after US states legalized cannabis, and mostly in a direction public health officials would welcome. Researchers at the University of Kentucky's College of Public Health found that, among adults diagnosed with cannabis use disorder in the previous year, state legalization was associated with fewer new diagnoses of opioid and alcohol use disorders.",
+    "The study, by Jialin Hou and Jayani Jayawardhana, was published online on 18 November and indexed this week. It also found one signal in the other direction: adult-use legalization was linked to more new cannabis use disorder diagnoses among people already diagnosed with a tobacco use disorder.",
+    "## How the study worked",
+    "The authors used Merative MarketScan commercial insurance claims for adults aged 18 to 64 from 2010 to 2022. They applied a difference-in-differences design with staggered adoption, which compares changes in states that legalized medical or adult-use cannabis with changes in states that did not, over the same period, while accounting for states legalizing at different times.",
+    "They looked at three outcomes: how often cannabis use disorder occurred alongside alcohol, opioid or tobacco use disorders in the same quarter; new cannabis use disorder diagnoses among patients with a past-year alcohol, opioid or tobacco disorder; and new alcohol, opioid or tobacco disorder diagnoses among patients with past-year cannabis use disorder. A new case was defined using a six-month look-back.",
+    "## What it found",
+    "Legalization was not associated with any significant change in how often cannabis use disorder co-occurred with alcohol or tobacco use disorders. But adult-use legalization was associated with a 66.93% lower prevalence of co-occurring cannabis and opioid use disorders, compared with states without legal cannabis.",
+    "The clearest results were among patients who already had a cannabis use disorder diagnosis. In that group, medical legalization was associated with a 14.43% reduction in new alcohol use disorder diagnoses and adult-use legalization with a 22.68% reduction. For new opioid use disorder diagnoses, the reductions were 20.73% under medical legalization and 44.61% under adult-use legalization. On our reading, the adult-use effect on new opioid diagnoses was roughly double the medical-only effect.",
+    "Running the other way, adult-use legalization was associated with a 34.44% increase in new cannabis use disorder diagnoses among patients with a past-year tobacco use disorder.",
+    "> The study does not show cannabis treats addiction. It shows that where cannabis is legal, the diagnoses that follow a cannabis disorder look less like opioids and alcohol.",
+    "## The limits",
+    "This is an association study, not a trial. Claims data capture only people with commercial insurance who sought care and received a diagnosis, so they miss the uninsured, people on Medicaid and anyone never diagnosed. A change in diagnosis rates can reflect changes in how doctors screen and code, not only in how people use substances. The authors frame their conclusion carefully: polysubstance disorder patterns shifted after legalization. They do not claim cannabis caused the declines.",
+    "That caution matters for screening. A separate study in the same journal this month, from Kaiser Permanente Washington, tested a single question on how often a patient used cannabis in the past year as a primary-care screen for cannabis use disorder in 1,688 patients. It found the one-item screen worked about as well in routine care as in research conditions, and adding a question about times used per day added little.",
+    "## What older Canadians want to know",
+    "A third paper, in Patient Education and Counseling from researchers at the University of British Columbia and Interior Health, surveyed 1,615 Canadians aged 50 and over. Friends and family were the most common source of cannabis information (66.6%), followed by media (38.1%), cannabis retail staff (21.1%) and health providers (19.3%). Most respondents (60.1%) wanted information from health providers, but only 19.3% saw them as good sources, and 20.5% perceived stigma about cannabis among providers. Almost half wanted more information, mostly on clinical benefits and safety. The authors note cannabis use is rising faster among older Canadians than any other age group; the sample was a convenience sample, not a representative one.",
+    "## What to watch",
+    "For policymakers, the Kentucky findings will feed debates over whether legal access changes the path of substance use disorders, especially opioids. The next test is whether studies using Medicaid data and more recent years, after more states opened adult-use markets, find the same pattern."
+  ],
+  "sources": [
+    {
+      "name": "Hou J, Jayawardhana J. The association of state cannabis legalization with polysubstance use disorders involving cannabis use disorder. Drug and Alcohol Dependence, 2026 (PubMed 43077788)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43077788/"
+    },
+    {
+      "name": "DOI: 10.1016/j.drugalcdep.2026.113444",
+      "url": "https://doi.org/10.1016/j.drugalcdep.2026.113444"
+    },
+    {
+      "name": "Matson TE et al. Comparing the single-item screen-cannabis (SIS-C) with brief cannabis screening questions. Drug and Alcohol Dependence, 2026 (PubMed 43077789)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43077789/"
+    },
+    {
+      "name": "Kwok R, Bolt J, Jakobi JM. Cannabis-related educational needs and information-seeking behaviours of older Canadians. Patient Education and Counseling, 2026 (PubMed 43077920)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43077920/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "-44.6%",
+    "label": "new opioid disorder diagnoses, adult-use states"
+  },
+  "banner": {
+    "title": "Legal States, Fewer Opioid Cases",
+    "highlight": [
+      "Fewer"
+    ],
+    "sub": "Kentucky claims study, 2010 to 2022",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Insurance claims, ages 18-64"
+      },
+      {
+        "icon": "chart",
+        "text": "Opioid diagnoses down 44.6%"
+      },
+      {
+        "icon": "doc",
+        "text": "Association, not cause"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "PUBLIC",
+      "HEALTH",
+      "RESEARCH"
+    ]
+  },
+  "tags": [
+    "Research",
+    "Legalization",
+    "Mental health",
+    "Canada"
+  ],
+  "image_prompt": "A premium product still life of a clear glass laboratory beaker holding a single green cannabis leaf beside an empty amber prescription pill bottle lying on its side, on a dark glossy lab bench, soft violet edge light, subject in the right half, dark negative space on the left, no text, no logos, no people",
+  "image_alt": "A glass beaker with a cannabis leaf next to an empty pill bottle on a dark bench.",
+  "breaking": false
+}

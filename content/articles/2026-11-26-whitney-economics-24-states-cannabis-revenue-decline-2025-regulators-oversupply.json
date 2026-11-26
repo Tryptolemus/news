@@ -1,0 +1,107 @@
+{
+  "id": "whitney-economics-24-states-cannabis-revenue-decline-2025-regulators-oversupply",
+  "edition": "2026-11-26-pm",
+  "rank": 5,
+  "published": "2026-11-26T18:11:49+02:00",
+  "cat": "Markets",
+  "headline": "Whitney: 24 states saw cannabis revenue fall in 2025, up from 16",
+  "dek": "Beau Whitney told The Marijuana Herald on 25 November that state licensing and taxes, not hemp, are driving a cannabis 'death spiral'.",
+  "key_points": [
+    "Whitney Economics says 24 states saw legal cannabis revenue fall in 2025, up from 16 in 2024, 15 in 2023, 14 in 2022 and two in 2021.",
+    "Founder Beau Whitney blamed regulators who licensed too much cultivation, and taxes such as Michigan's 24% wholesale tax, rather than intoxicating hemp.",
+    "His figures put authorised cultivation capacity above 122 million pounds against total US demand of 48 million to 50 million pounds, of which 15 million to 20 million pounds is sold legally.",
+    "The firm still forecasts national legal sales rising from $29.1 billion in 2025 to $43.3 billion in 2030, growth of about 8% a year."
+  ],
+  "body": [
+    "The number of US states where legal cannabis revenue is shrinking has jumped. Whitney Economics says 24 states saw marijuana revenue decline in 2025, compared with 16 in 2024, 15 in 2023 and 14 in 2022, and only two in 2021. Founder and chief economist Beau Whitney set out the figures in an interview with The Marijuana Herald published on 25 November, warning that the industry shows signs of a death spiral.",
+    "His diagnosis is pointed. Whitney rejects the idea that intoxicating hemp is the main reason licensed cannabis businesses are struggling. Instead he blames state policy: licensing far more cultivation than the market can absorb, and taxing the regulated product until it cannot compete. \"What's killing the marijuana businesses is the marijuana regulators,\" he told the Herald.",
+    "## From growth to contraction",
+    "The revenue count is the new element in Whitney's argument. For several years, he said, new adult-use markets in Illinois, Missouri, Maryland and New Jersey kept national sales growing at double-digit rates and hid the fact that prices were falling in older markets. With fewer big launches left, the price decline now shows up directly in state revenue.",
+    "On our count, the number of states with falling revenue rose by half in a single year, from 16 to 24, after barely moving between 2022 and 2024. That is the steepest one-year increase in the series he gave, and it means falling revenue is now the norm in a large share of the legal states rather than a problem confined to a few saturated Western markets.",
+    "> A shrinking market used to be an Oregon story. In 2025 it became the national pattern.",
+    "## The capacity math",
+    "Whitney repeated the supply figures behind his view. Regulators across the country have authorised more than 122 million pounds of cultivation capacity, he said, while total annual demand, legal and illicit, is 48 million to 50 million pounds. Only 15 million to 20 million pounds is sold through licensed stores. The analysis, provided to the Herald by Whitney Economics, covers indoor, outdoor and greenhouse licences and demand for edibles and concentrates as well as flower and pre-rolls.",
+    "On those numbers, authorised capacity is about 2.4 to 2.5 times total national demand, and six to eight times what the legal market actually sells. Even if every consumer bought legally, Whitney argues, licensed capacity would still be more than double what they could use. As we reported on 21 November, he put the capacity figure at about 123 million pounds in an earlier interview; the new 122 million figure is consistent with that.",
+    "## Taxes and the price gap",
+    "The second half of Whitney's argument is about price. He said consumers will pay a premium of 10% to 15% for regulated products, but not much more. Where taxes push legal prices beyond that gap, buyers drift to cheaper sources. He singled out Michigan's 24% wholesale marijuana tax as an example of policy that worsens the squeeze on licensed businesses already selling into a glutted market.",
+    "That puts Whitney at odds with much of the licensed industry's lobbying this year, which has focused on intoxicating hemp as the main competitive threat ahead of the 11 December federal hemp change. In his earlier work, Whitney Economics found that gas stations hold about 15% of hemp retail licences but only 2.6% of hemp revenue, an argument that hemp's reach is narrower than its critics claim.",
+    "## The forecast still rises",
+    "Despite the warning, Whitney Economics' national forecast, first released in March, still shows growth: legal sales of $30.5 billion in 2026, up from $29.1 billion in 2025, then $33 billion in 2027, $35.1 billion in 2028, $39 billion in 2029 and $43.3 billion in 2030. On our arithmetic, that is growth of about 4.8% in 2026 and about 8% a year on average to 2030. The two views fit together: national sales can keep rising as new states open while more existing states shrink, which is exactly the pattern that squeezes operators in mature markets.",
+    "## What to watch",
+    "Watch the 2026 state revenue reports as they arrive early next year: if the count of declining states rises again, Whitney's death-spiral reading gains weight. Watch whether any state moves to cap or cut cultivation licences, or to lower taxes, in 2027 sessions. And watch whether the 11 December hemp change lifts licensed sales at all; if it does not, that would support his view that the problem lies inside the licensed system."
+  ],
+  "sources": [
+    {
+      "name": "The Marijuana Herald: Whitney Economics chief economist warns of marijuana industry 'death spiral' (25 November 2026)",
+      "url": "https://themarijuanaherald.com/2026/11/whitney-economics-chief-economist-warns-of-marijuana-industry-death-spiral-blames-regulators-and-oversupply-rather-than-hemp/"
+    },
+    {
+      "name": "Whitney Economics: reports and research",
+      "url": "https://www.whitneyeconomics.com/"
+    },
+    {
+      "name": "MetaFlora News: Whitney says gas stations hold 15% of hemp licences, 2.6% of revenue (21 November 2026)",
+      "url": "https://news.metaflora.xyz/2026/11/21/whitney-economics-gas-stations-hemp-revenue-oversupply/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "big": "24",
+    "label": "states with falling cannabis revenue in 2025",
+    "vals": [
+      0.08,
+      0.58,
+      0.63,
+      0.67,
+      1.0
+    ]
+  },
+  "banner": {
+    "title": "Revenue Falls in 24 States",
+    "highlight": [
+      "24",
+      "States"
+    ],
+    "sub": "Beau Whitney blames regulators and oversupply, not hemp",
+    "divider": "Markets desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "Up from 16 states in 2024"
+      },
+      {
+        "icon": "leaf",
+        "text": "122M lb capacity"
+      },
+      {
+        "icon": "coin",
+        "text": "Michigan 24% wholesale tax"
+      }
+    ],
+    "corner": [
+      "MARKETS",
+      "SUPPLY",
+      "TAXES",
+      "DATA"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-11",
+      "text": "Federal hemp THC cap takes effect, a test of whether licensed sales recover"
+    }
+  ],
+  "tags": [
+    "Market data",
+    "Michigan",
+    "Excise tax",
+    "Hemp",
+    "Illinois",
+    "Missouri",
+    "Maryland",
+    "New Jersey"
+  ],
+  "image_prompt": "A premium product still life of an overflowing glass apothecary jar of cannabis flower beside a second nearly empty glass jar, both on a dark matte surface with a few loose buds spilled between them, soft violet edge light, subject in the right half, dark negative space on the left, no text, no logos, no people",
+  "image_alt": "An overflowing jar of cannabis flower beside a nearly empty jar.",
+  "breaking": false
+}
