@@ -1,0 +1,103 @@
+{
+  "id": "netherlands-coffeeshop-experiment-edibles-review-tobacco-cronos-2027",
+  "edition": "2026-11-27-am",
+  "rank": 3,
+  "published": "2026-11-27T06:12:00+02:00",
+  "cat": "Europe",
+  "headline": "Netherlands to review edibles in its legal coffeeshop pilot in 2027",
+  "dek": "Health minister Sophie Hermans ruled out an edibles ban without evidence of extra harm, and will study barring tobacco firms from the pilot's licensed growers.",
+  "key_points": [
+    "The share of pilot coffeeshops selling edibles rose from 34% to 94%, according to the experiment's first interim evaluation, and there is no THC cap on edibles in the pilot.",
+    "Health minister Sophie Hermans rejected a ban without scientific evidence of added harm; a Trimbos study and a cabinet letter on edibles are due in 2027.",
+    "The cabinet will explore by early 2027 whether tobacco companies can be kept out of licensed cultivation, after MPs raised Altria's 41% stake in Cronos Group, which controls grower CanAdelaar.",
+    "The pilot's final evaluation is due in summer 2028; the interim findings are a central theme at the PCN Cannabis Congress on 27 November."
+  ],
+  "body": [
+    "The Dutch government will take a second look at edibles in its experiment with legal cannabis supply to coffeeshops, but it has refused calls to ban them. In a committee debate in the Tweede Kamer on the experiment's first interim evaluation, reported by Business of Cannabis on 13 November from the Dutch trade site cannabisindustrie.nl, Health Minister Sophie Hermans said she would not back a ban without scientific evidence that edibles cause additional harm.",
+    "The debate also opened a second front: the role of the tobacco industry in the pilot's licensed supply chain. At the request of Christian Union MP Mirjam Bikker, the cabinet will explore whether tobacco companies can be excluded from regulated Dutch cannabis cultivation, with a target of the first quarter of 2027. The findings of the interim evaluation are a central theme at the PCN Cannabis Congress, held today, 27 November.",
+    "## The experiment in brief",
+    "The Netherlands has tolerated coffeeshop sales since the 1970s but never legalised the supply behind them. According to the government's own description of the experiment, there are about 570 coffeeshops across 102 municipalities. The controlled supply chain experiment lets coffeeshops in up to 10 municipalities sell regulated, quality-tested cannabis produced by up to 10 designated growers, with the food and consumer product safety authority, the NVWA, monitoring quality and packaging.",
+    "The legislation sets the experimental phase at four years, and it can only be ended early by an act of parliament repealing it. The main phase began on 7 April 2025, according to our Netherlands legal hub, which on our arithmetic puts the end of the four-year phase in spring 2029. The pilot's supervision and evaluation committee is due to report in summer 2028, and the cabinet will decide the experiment's long-term future on that basis, as agreed in the coalition agreement.",
+    "## Edibles: the numbers behind the debate",
+    "The sharpest exchange was over edibles. According to Business of Cannabis, the first interim evaluation puts the share of coffeeshops in participating municipalities selling edibles at 94%, up from 34%. Christian Democrat MP Tijs van den Brink cited a rise from about 20% to 90% and called it normalisation rather than the denormalisation of drugs. There is no maximum THC level for edibles in the pilot.",
+    "Hermans said the pilot deliberately allows the same product range as tolerated coffeeshops so that the experiment and its control group stay comparable. The Trimbos Institute, the national drugs expertise centre, is studying very high-THC products, with results due in the first half of 2027 and a cabinet letter on edibles in the second quarter. From early 2027, pilot packaging will also have to show average THC percentages. The cabinet is still weighing whether to restrict sweet flavours in the rosin vapes sold in the pilot, which already ban artificial flavouring, added terpenes and solvent-based extracts.",
+    "> The Dutch pilot is being tested on two fronts at once: whether a legal supply chain works, and who is allowed to own it.",
+    "## Tobacco money in a legal supply chain",
+    "MPs from the CDA, Christian Union and the SGP questioned the tobacco industry's foothold. Altria, the parent of Philip Morris USA, holds a 41% stake in Canadian producer Cronos Group, which controls CanAdelaar, one of the licensed Dutch growers. Hermans said current law gives no basis to revoke a cultivation licence because of a company's shareholders; growers must report ownership changes and pass periodic Bibob integrity screenings. Asked for her personal view, she said she would preferably not have wanted it.",
+    "CanAdelaar also drew fire over odour. A letter from the municipality of Voorne aan Zee dated 3 November reported 3,100 complaints about its greenhouses in Hellevoetsluis, according to the report. Enforcement sits with the municipality, which has issued a conditional penalty order now under appeal. Hermans agreed under pressure to a listening visit with residents.",
+    "## The politics are thin on both sides",
+    "Attendance at the debate was low. The three Christian parties that pushed hardest hold 24 of 150 seats, far short of the 76 needed for a majority, and two of them want the pilot ended outright. D66's Joost Sneller, who chaired the session, argued the evaluation shows the closed chain works. Justice Minister David van Weel could not say how much money still flows to organised crime through supply to non-participating coffeeshops, pointing instead to a Statistics Netherlands estimate of EUR 1.4 billion in added value for the Dutch cannabis market.",
+    "## What to watch",
+    "Watch the outcome of Bikker's motion on the tobacco industry and youth use, and the cabinet's exploration of a tobacco exclusion in the first quarter of 2027. Then the Trimbos results on high-THC products in the first half of 2027, the cabinet letter on edibles in the second quarter, and the new THC labelling early in the year. The decisive date remains the evaluation committee's report in summer 2028."
+  ],
+  "sources": [
+    {
+      "name": "Business of Cannabis: Dutch cabinet to review prevalence of edibles in coffeeshop pilot (13 November 2026)",
+      "url": "https://businessofcannabis.com/dutch-cabinet-to-review-prevalence-of-edibles-in-coffeeshop-pilot/"
+    },
+    {
+      "name": "Government of the Netherlands: controlled cannabis supply chain experiment, background and design",
+      "url": "https://www.government.nl/themes/family-health-and-care/controlled-cannabis-supply-chain-experiment/background-information-and-experiment-design"
+    },
+    {
+      "name": "MetaFlora News: Netherlands legal status hub",
+      "url": "https://news.metaflora.xyz/legal/world/netherlands/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "vals": [
+      0.34,
+      0.5,
+      0.66,
+      0.8,
+      0.94
+    ],
+    "big": "94%",
+    "label": "pilot coffeeshops selling edibles, up from 34%"
+  },
+  "banner": {
+    "title": "Dutch Pilot Reviews Edibles",
+    "highlight": [
+      "EDIBLES"
+    ],
+    "sub": "Minister Hermans rejects a ban; tobacco owners under review",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "Edibles in 94% of shops"
+      },
+      {
+        "icon": "flask",
+        "text": "Trimbos study due 2027"
+      },
+      {
+        "icon": "doc",
+        "text": "Final evaluation 2028"
+      }
+    ],
+    "corner": [
+      "NETHERLANDS",
+      "PILOT",
+      "EDIBLES",
+      "POLICY"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-11-27",
+      "text": "PCN Cannabis Congress in the Netherlands, with the coffeeshop pilot's interim evaluation as a central theme"
+    }
+  ],
+  "tags": [
+    "Netherlands",
+    "Europe",
+    "Cronos Group",
+    "Legalization"
+  ],
+  "image_prompt": "Premium product still life: a small stack of square cannabis chocolate pieces on a dark wooden board beside a single blue-and-white Delft-style ceramic tile, warm low light with faint violet edge light, subject in the right half, deep shadow on the left, no text, no logos, no people",
+  "image_alt": "Square chocolate pieces on a dark board next to a blue-and-white Delft tile",
+  "x_post": "The share of Dutch pilot coffeeshops selling edibles rose from 34% to 94%. Health minister Hermans won't ban them without evidence of extra harm, but the cabinet will study keeping tobacco firms out of licensed growing.",
+  "breaking": false
+}

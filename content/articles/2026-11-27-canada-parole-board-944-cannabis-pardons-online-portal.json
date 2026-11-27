@@ -1,0 +1,88 @@
+{
+  "id": "canada-parole-board-944-cannabis-pardons-online-portal",
+  "edition": "2026-11-27-am",
+  "rank": 4,
+  "published": "2026-11-27T06:12:00+02:00",
+  "cat": "Policy",
+  "headline": "Canada has granted 944 cannabis pardons, a tenth of the forecast",
+  "dek": "The Parole Board has received 1,477 cannabis record suspension applications since 2019 and returned 526, as it opens an online portal to simplify the process.",
+  "key_points": [
+    "The Parole Board of Canada has granted 944 cannabis pardons since 2019, against a government estimate of about 10,000 eligible Canadians.",
+    "It has received 1,477 applications for cannabis record suspensions; 526 were returned as ineligible or incomplete.",
+    "In 2024-25, cannabis-only applications were 117 of 17,072 record suspension applications, under 1% of the total.",
+    "A new online portal lets applicants file, save and track applications, which the board says reduces reliance on paper and mail."
+  ],
+  "body": [
+    "Eight years after Canada legalised recreational cannabis, the federal programme meant to clear old possession records has reached only a small share of the people it was built for. The Parole Board of Canada has granted 944 pardons for cannabis possession, The Canadian Press reported on 24 November, less than a tenth of the roughly 10,000 Canadians the government estimated would be eligible.",
+    "The board has received 1,477 applications for cannabis record suspensions since 2019, a spokesperson told the news agency, and returned 526 because the applicant was ineligible or the application was incomplete. On our arithmetic, that means about 64% of applications have ended in a pardon and about 36% were sent back. The board has now launched an online service portal for pardon applications, which it says will simplify the process.",
+    "## What the programme was meant to do",
+    "Canada ended its prohibition on recreational cannabis on 17 October 2018, becoming the second country to legalise it after Uruguay. The following year the government brought in legislation offering a free and streamlined way to apply for a record suspension for simple possession of cannabis. A record suspension, the formal term for a pardon, effectively clears a criminal record that can block travel, jobs, housing, education and volunteering.",
+    "The board's own figures show how small the cannabis stream is. In its report to Parliament for 2024-25, the board said it received 17,072 record suspension applications of all kinds and accepted 12,130, or 71%, as eligible and complete. Applications containing only simple possession of cannabis convictions numbered 117 that year; 80 were accepted and 80 ordered, while 34 were ineligible or incomplete. On our arithmetic, cannabis-only cases were less than 1% of the year's applications.",
+    "The wider programme is busy by comparison. The board received 17,572 applications in 2023-24 and accepted 12,785 of them, and it attributes the sustained volume to a lower application fee and more people becoming eligible. Since a Federal Court decision in March 2020, it has assessed eligibility under the rules in place at the time of an applicant's first offence, so most applications are now processed as pardons under older versions of the Criminal Records Act. Against that flow of general applications, the cannabis stream has stayed a trickle.",
+    "> Canada made cannabis pardons free. The low uptake shows that cost was never the only barrier; paperwork and indifference matter more.",
+    "## Why so few people apply",
+    "Eugene Oscapella, a lawyer and drug policy expert at the University of Ottawa, told The Canadian Press that the process itself may be putting people off, because applicants must gather conviction records and contact courts and police forces. He suggested a new streamlined route could be read as the government acknowledging the existing process is awkward.",
+    "He also offered a second explanation: that the stigma has faded. Attitudes to cannabis have normalised, he said, and many people may see little advantage in clearing a simple possession record. He noted that while most employers would probably not object to such a record, it can still matter for jobs that need a security clearance and for travel abroad.",
+    "## What the new portal changes",
+    "According to the board's news release, quoted by The Canadian Press, the PBC Service Portal lets applicants and their designated representatives submit record suspension applications online. Applicants can save an incomplete application and return to it later, and track it once filed. The board said the secure platform reduces reliance on paper-based processes and mail delivery while maintaining the integrity of the record suspension and cannabis record suspension processes.",
+    "The portal will not change who is eligible, and it cannot by itself retrieve court and police records, which Oscapella identified as the hard part. Its value will show up in two numbers the board already publishes: how many cannabis applications arrive each year, and how many are returned as incomplete.",
+    "## Why it matters beyond Canada",
+    "Record clearing is one of the less visible costs of legalisation, and Canada's experience is a caution for other markets. An application-based model puts the work on the person with the record; automatic schemes put it on the state. As US states and countries in Europe weigh their own reforms, Canada's numbers show how far an opt-in model can fall short of its own estimates even when it is free.",
+    "## What to watch",
+    "Watch the board's next annual report to Parliament, due within three months of the end of the fiscal year on 31 March, for 2025-26 cannabis applications and whether incomplete returns fall after the portal launch. Watch too for any federal move toward automatic sealing of simple possession records, the alternative to an application-based model."
+  ],
+  "sources": [
+    {
+      "name": "The Canadian Press via CTV News: parole board launches online portal for pot pardons, only 944 granted (24 November 2026)",
+      "url": "https://www.ctvnews.ca/canada/article/parole-board-launches-online-portal-for-pot-pardons-only-944-granted-so-far/"
+    },
+    {
+      "name": "Parole Board of Canada: Record Suspension Program 2024-2025 Report to Parliament",
+      "url": "https://www.canada.ca/en/parole-board/corporate/transparency/reporting-to-canadians/record-suspension-program/record-suspension-report-to-parliament-2024-2025.html"
+    },
+    {
+      "name": "MetaFlora News: Canada legal status hub",
+      "url": "https://news.metaflora.xyz/legal/world/canada/"
+    }
+  ],
+  "visual": {
+    "motif": "leaf",
+    "big": "944",
+    "label": "cannabis pardons granted in Canada since 2019"
+  },
+  "banner": {
+    "title": "Canada's Pot Pardons Lag",
+    "highlight": [
+      "PARDONS"
+    ],
+    "sub": "944 granted against a 10,000 estimate; new portal opens",
+    "divider": "Policy desk",
+    "points": [
+      {
+        "icon": "doc",
+        "text": "1,477 applications"
+      },
+      {
+        "icon": "gavel",
+        "text": "526 returned"
+      },
+      {
+        "icon": "chip",
+        "text": "Online portal launched"
+      }
+    ],
+    "corner": [
+      "CANADA",
+      "PARDONS",
+      "RECORDS",
+      "POLICY"
+    ]
+  },
+  "tags": [
+    "Canada",
+    "Pardons"
+  ],
+  "image_prompt": "Premium product still life: a single cream-coloured paper file folder lying on a dark desk with a heavy brass rubber stamp resting on top of it, a small red maple leaf placed beside the stamp, soft directional light with faint violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A brass stamp resting on a closed file folder beside a red maple leaf",
+  "breaking": false
+}
