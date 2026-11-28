@@ -1,0 +1,109 @@
+{
+  "id": "germany-cannabis-act-no-rise-in-use-ijdp-debra-35957",
+  "edition": "2026-11-28-am",
+  "rank": 2,
+  "published": "2026-11-28T06:12:00+02:00",
+  "cat": "Europe",
+  "headline": "Germany: Cannabis Act not tied to more use after two years, study says",
+  "dek": "A study of 35,957 people across 23 survey waves found past-year use steady at about 6% after April 2024; the authors say effects may come later.",
+  "key_points": [
+    "Researchers analysed 23 survey waves from April/May 2022 to March/April 2026, covering about two years either side of the Cannabis Act.",
+    "Of 35,957 respondents aged 14 to 64, 6.4% reported cannabis use in the past 12 months, and 11.7% of those used daily or almost daily.",
+    "Neither past-year use nor heavy use changed trend after the law took effect on 1 April 2024; no slope change was statistically significant.",
+    "The authors say longer monitoring is needed, noting US data suggest legalisation effects can build for about five years."
+  ],
+  "body": [
+    "Two years into Germany's Cannabis Act, the first long-run survey evidence shows no jump in how many people use cannabis. A study published in the November issue of the International Journal of Drug Policy found that the share of adults and older teenagers using cannabis, and the share of users consuming it daily or almost daily, stayed largely stable before and after the law took effect on 1 April 2024.",
+    "The paper, by Daniel Kotz, Jakob Manthey, Stephanie Klosterhalfen, Paula Steinhoff and Wolfgang Viechtbauer, comes from a team at German and Dutch institutions, among them Maastricht University. Its conclusion is careful: the reform was not associated with changes in 12-month use or heavy use in the first two years, but longer monitoring across more data sources is needed because effects may appear later.",
+    "## How the study worked",
+    "The researchers used 23 repeated, representative household surveys conducted between April/May 2022 and March/April 2026, which gives roughly two years of data on each side of the reform. Forbes, which reported the study on 26 November, noted that respondents counted as past-year users if they reported any use in the last 12 months, from less than monthly to daily, and that the questionnaire also recorded age and gender.",
+    "Among 35,957 respondents aged 14 to 64, 2,302 people, or 6.4%, said they had used cannabis in the previous 12 months. Of those past-year users, 11.7% used daily or almost daily, according to Forbes' account of the paper. On our arithmetic, that is roughly 270 heavy users in the sample, or about 0.75% of all respondents.",
+    "The team fitted regression models that allowed the trend to bend at the first full survey wave after April 2024, then tested whether the bend was real. None of the coefficients for a change in slope was statistically significant (all p of 0.15 or higher), for the whole sample or for subgroups by gender and age (14 to 24 versus 25 to 64). The only significant pre-reform trend was a decline in the share of heavy users among past-year users. Placebo tests using false reform dates supported the result.",
+    "> Germany legalised possession without legal shops. Two years on, that model has not moved the use numbers; the test is whether it holds over five.",
+    "## Why Germany's model may behave differently",
+    "Germany legalised possession and home growing for adults and allowed non-profit cannabis associations, but it did not create commercial retail. That makes it a different experiment from the US and Canadian models, which license stores. The authors acknowledge that US studies suggest the effects of legalisation can build over time, with the largest effects reported around five years after a law change, so shifts in Germany may show up only in the coming years.",
+    "The study also lists its limits. It had no control group, it could not separate the effects of the recreational reform from Germany's parallel medical-cannabis changes, vulnerable groups were underrepresented, and self-reported use may have been understated both before and after the law.",
+    "## How it fits the wider evidence",
+    "The finding sits alongside other early German data. Forbes noted a separate study, published about two months earlier, which found cannabis use among young adults in Germany had been rising steadily for 15 years, a trend that predates legalisation. The European Union Drugs Agency's 2026 European Drug Report estimates that 8.7% of European adults, about 25 million people aged 15 to 64, used cannabis in the past year, and stresses that national trends are mixed.",
+    "The policy timing matters. As MetaFlora News reported on 25 November, German pharmacies have proposed an adult-use sales pilot, and Forbes notes that Germany is also trying to restrict online medical-cannabis sales and telemedicine prescriptions. Evidence that the first stage of reform did not raise use will be cited by those arguing for regulated sales pilots, and challenged by those who point to the five-year lag.",
+    "## What it means for operators",
+    "For medical-cannabis producers and importers supplying Germany, the study is a reminder that demand growth there has come through prescriptions, not through a wider pool of consumers. A stable user base, combined with tighter telemedicine rules, points to competition for existing patients rather than a fast-growing market. For investors watching other European reforms, the German data offer an early benchmark for a non-commercial model.",
+    "## What to watch",
+    "Watch for any decision on regional or pharmacy sales pilots, which would change the market structure this study measured, and for the outcome of the telemedicine restrictions. Watch for further waves of the same survey, which will show whether the trend holds into a third and fourth year, and for the next European Drug Report, which will put Germany's numbers beside its neighbours'."
+  ],
+  "sources": [
+    {
+      "name": "International Journal of Drug Policy: Cannabis use prevalence before and early after partial legalisation in Germany (Kotz et al., 2026)",
+      "url": "https://doi.org/10.1016/j.drugpo.2026.105501"
+    },
+    {
+      "name": "Maastricht University research record for the study",
+      "url": "https://cris.maastrichtuniversity.nl/en/publications/cannabis-use-prevalence-before-and-early-after-partial-legalisati/"
+    },
+    {
+      "name": "Forbes via Yahoo News: Germany's cannabis legalization not linked to higher use, study finds (26 November 2026)",
+      "url": "https://www.yahoo.com/news/world/articles/germanys-cannabis-legalization-not-linked-110038057.html"
+    },
+    {
+      "name": "EUDA: Cannabis, the current situation in Europe (European Drug Report 2026)",
+      "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/cannabis_en"
+    },
+    {
+      "name": "MetaFlora News: Germany pharmacies propose adult-use sales pilot (25 November 2026)",
+      "url": "https://news.metaflora.xyz/2026/11/25/europe-desk-germany-vca-pharmacy-cannabis-pilot-france-decree-january-2027/"
+    }
+  ],
+  "visual": {
+    "motif": "chart",
+    "big": "6.4%",
+    "label": "past-year cannabis use, ages 14 to 64",
+    "vals": [
+      0.5,
+      0.52,
+      0.49,
+      0.51,
+      0.5,
+      0.52,
+      0.5,
+      0.51
+    ]
+  },
+  "banner": {
+    "title": "Germany's Use Holds Steady",
+    "highlight": [
+      "STEADY"
+    ],
+    "sub": "Study of 35,957 finds no rise two years after the Cannabis Act",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "chart",
+        "text": "6.4% past-year use"
+      },
+      {
+        "icon": "flask",
+        "text": "23 survey waves"
+      },
+      {
+        "icon": "doc",
+        "text": "Effects may come later"
+      }
+    ],
+    "corner": [
+      "GERMANY",
+      "POLICY",
+      "DATA",
+      "EUROPE"
+    ]
+  },
+  "tags": [
+    "Germany",
+    "Europe",
+    "Legalization",
+    "Research"
+  ],
+  "image_prompt": "Premium product still life: a small glass apothecary jar of cannabis flower standing beside a flat brass balance scale whose two pans sit perfectly level, a single black, red and gold ribbon laid in front, soft directional light with faint violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A glass jar of cannabis beside a level brass balance scale and a ribbon in German colours",
+  "x_post": "Germany's Cannabis Act has not raised use so far. A study of 35,957 people across 23 survey waves found past-year use steady at about 6% and no change in heavy use. Authors say effects may take five years.",
+  "breaking": false
+}

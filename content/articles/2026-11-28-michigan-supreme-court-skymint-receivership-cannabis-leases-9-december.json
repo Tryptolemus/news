@@ -1,0 +1,102 @@
+{
+  "id": "michigan-supreme-court-skymint-receivership-cannabis-leases-9-december",
+  "edition": "2026-11-28-am",
+  "rank": 1,
+  "published": "2026-11-28T06:12:00+02:00",
+  "cat": "States",
+  "headline": "Michigan Supreme Court to hear Skymint receivership case on 9 December",
+  "dek": "Justices will decide if a receiver for the failed cannabis firm can strike landlords' cross-default terms, a test of how distressed operators unwind.",
+  "key_points": [
+    "The Michigan Supreme Court will hear Tropics, LP v Green Peak Industries, the Skymint receivership case, in its afternoon session on 9 December 2026.",
+    "The question is whether a receiver under the Michigan Receivership Act can strike language, such as cross-default clauses, from a commercial lease.",
+    "Lower courts let the receiver reject leases with landlords Koach and 3Fifteen while barring them from declaring defaults on other leases.",
+    "Because federal bankruptcy is closed to marijuana businesses, state receiverships are how failing operators restructure, so the ruling reaches lenders and landlords statewide."
+  ],
+  "body": [
+    "Michigan's highest court is about to rule on one of the few tools a failing cannabis company has. On 9 December 2026 the Michigan Supreme Court will hear argument in Tropics, LP v Green Peak Industries, the receivership of Skymint, a Michigan group that grew, processed and sold cannabis. The court's own case notice frames the question narrowly: whether a receiver appointed under the Michigan Receivership Act has the power, by statute or in equity, to strike language from a commercial lease.",
+    "The answer matters well beyond one company. The court's summary states plainly that because marijuana remains illegal under federal law, a marijuana business cannot file under the US Bankruptcy Code. State receivership has filled that gap in Michigan, and the scope of a receiver's powers decides how much value creditors, landlords and buyers recover when a licensed operator collapses.",
+    "## The case in brief",
+    "According to the Supreme Court's summary, Green Peak Industries, District Bay, The District Park and GPIMD Corp, together known as Skymint, cultivated, manufactured and sold cannabis. Tropics, LP, a Skymint creditor, asked a trial court to appoint a receiver, and the court did so under the Michigan Receivership Act. Gene R. Kohut is named as the receiver.",
+    "The receiver then moved to reject a lease in Ypsilanti between Skymint and two landlord entities, Koach GR II and Koach Ypsilanti I, and to stop Koach from declaring a breach or default on a separate Grand Rapids lease because of cross-default provisions that tied the leases together. The trial court agreed. It also let the receiver reject leases with a second group of landlords, known in the case as the 3Fifteen Parties, without allowing 3Fifteen to declare a default under cross-default language in those leases.",
+    "Koach and 3Fifteen appealed. In a published opinion, the Court of Appeals affirmed the receiver's cancellation of the 3Fifteen leases and the Koach Ypsilanti lease despite the cross-default clauses. The Supreme Court has now ordered oral argument on the landlords' application. The listing appears in the court's 19 November notice of its 8 to 10 December sitting, in the Wednesday afternoon session that begins at 12:30 p.m. in Lansing.",
+    "> In cannabis, a receiver's toolkit is the bankruptcy code. How far that toolkit stretches decides who gets paid when an operator fails.",
+    "## Why cross-default clauses matter",
+    "A cross-default clause lets a landlord treat a breach of one lease as a breach of another. For a landlord that rents several sites to the same operator, it is a way to keep leverage: if the tenant walks away from one property, the landlord can threaten the others. For a receiver trying to sell the viable parts of a business, the same clause can be an obstacle, because it lets one rejected lease unravel the leases the receiver wants to keep and sell.",
+    "The question the justices have set is whether a state-court receiver can override that kind of clause at all, either because the Receivership Act allows it or because a court sitting in equity can. It is a question about statutory text and equity powers, not about cannabis. But cannabis operators are among the businesses most dependent on the answer, because, as the court's summary notes, they have no federal bankruptcy option to fall back on.",
+    "## Bankruptcy is still mostly closed to the plant",
+    "The federal door has opened only a crack. In a guest column for MJBizDaily in July, restructuring lawyers Mark Salzberg and Katherine Catanese described how the US Trustee has secured the dismissal of virtually every reported cannabis bankruptcy case, on the view that a business violating the Controlled Substances Act cannot use the bankruptcy courts. They also described an exception: in The Cannabist Company Holdings case, a US bankruptcy court recognised the Canadian parent's insolvency proceeding under Chapter 15 and extended some protection to its US subsidiaries, after the Trustee did not file a written objection.",
+    "That route depends on a foreign holding company sitting between the debtor and the licences, and its limits are untested. For a Michigan-only operator such as Skymint, a state receivership or an assignment for the benefit of creditors remains the realistic path. The authors noted that these alternatives have generally destroyed more value than a bankruptcy would. This year's move of state-licensed medical marijuana into Schedule III does not, on its face, change that: Schedule III drugs are still controlled substances, and the court's November summary still describes marijuana as illegal under federal law.",
+    "## Who is watching",
+    "Landlords and lenders are the obvious audience. Many cannabis operators lease cultivation and retail sites from real-estate investors who underwrote those leases expecting cross-default protection. A ruling that receivers can strip such clauses would shift risk toward landlords and could make them price leases to struggling operators more cautiously. A ruling the other way would give landlords more leverage in future receiverships and could make it harder for receivers to sell operating businesses as going concerns.",
+    "Michigan is a fitting test bed. According to CRB Monitor data reported by MJBizDaily on 24 November, it is one of the five states with the most active cannabis business licences, alongside California, Oklahoma, Washington and Oregon; together those five hold 58.7% of US licences. With that many licensed businesses, and with federal bankruptcy closed, distress in Michigan surfaces in state court. A precedent from the state's top court will guide judges handling the next receiverships.",
+    "## What to watch",
+    "Argument is set for the afternoon of 9 December 2026 and will be livestreamed by the court. A decision usually follows months later. Watch whether the justices treat the receiver's powers as limited to the Receivership Act's text or as including broad equitable authority, and whether they address cross-default clauses specifically or rule on narrower grounds. Watch also for the court's decision to be cited in other states that rely on receiverships for distressed cannabis businesses."
+  ],
+  "sources": [
+    {
+      "name": "Michigan Supreme Court: oral arguments 8 to 10 December 2026, case summaries (19 November 2026)",
+      "url": "https://www.courts.michigan.gov/news-releases/2026/november/supreme-court-will-hold-oral-arguments-december-8-10/"
+    },
+    {
+      "name": "MJBizDaily: US cannabis retail licences post largest quarterly gain in two years (CRB Monitor data, 24 November 2026)",
+      "url": "https://mjbizdaily.com/news/us-cannabis-retail-licenses-post-largest-quarterly-gain-in-two-years/619343/"
+    },
+    {
+      "name": "MJBizDaily guest column: cannabis companies and US bankruptcy access (3 July 2026)",
+      "url": "https://mjbizdaily.com/news/cannabis-companies-gain-bankruptcy-access/616780/"
+    },
+    {
+      "name": "MetaFlora News: Michigan legal status hub",
+      "url": "https://news.metaflora.xyz/legal/us/michigan/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "9 Dec",
+    "label": "Michigan Supreme Court hears Skymint case"
+  },
+  "banner": {
+    "title": "Skymint Case Reaches Top Court",
+    "highlight": [
+      "TOP",
+      "COURT"
+    ],
+    "sub": "Can a receiver strike cross-default terms from leases?",
+    "divider": "Courts desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Argument 9 December"
+      },
+      {
+        "icon": "doc",
+        "text": "Lease cross-default clauses"
+      },
+      {
+        "icon": "coin",
+        "text": "No federal bankruptcy"
+      }
+    ],
+    "corner": [
+      "MICHIGAN",
+      "COURTS",
+      "LEASES",
+      "CREDIT"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-09",
+      "text": "Michigan Supreme Court hears Skymint receivership lease case"
+    }
+  ],
+  "tags": [
+    "Michigan",
+    "Courts",
+    "Bankruptcy"
+  ],
+  "image_prompt": "Premium product still life: a heavy dark wooden judge's gavel resting across a thick bound commercial lease document on a dark stone surface, a single brass door key lying beside the document, soft directional light with faint violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A gavel resting on a bound lease document beside a brass key",
+  "x_post": "Federal bankruptcy is closed to cannabis, so Michigan uses receiverships. On 9 December its Supreme Court decides if a receiver can strike cross-default terms from landlords' leases in the Skymint case.",
+  "breaking": false
+}

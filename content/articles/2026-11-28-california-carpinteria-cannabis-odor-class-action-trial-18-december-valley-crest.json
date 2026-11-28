@@ -1,0 +1,95 @@
+{
+  "id": "california-carpinteria-cannabis-odor-class-action-trial-18-december-valley-crest",
+  "edition": "2026-11-28-am",
+  "rank": 4,
+  "published": "2026-11-28T06:12:00+02:00",
+  "cat": "States",
+  "headline": "California: Carpinteria odor class action goes to trial 18 December",
+  "dek": "About 200 Santa Barbara County homeowners take grower Valley Crest Farms to trial over smell after a second farm settled, testing odor scrubbers.",
+  "key_points": [
+    "A class action by neighbours of two Carpinteria Valley cannabis greenhouses is set for trial on 18 December 2026 before Judge Donna Geck.",
+    "The class covers people living within a mile of Valley Crest and Ceres Farms who bought before 19 January 2016; about 200 homeowners have joined.",
+    "Ceres Farms settled for an undisclosed sum, so the trial proceeds against Valley Crest Farms alone.",
+    "Valley Crest's Genesis scrubbers tested 41% effective at the vents versus 85% for the Evinity units some rivals use, the plaintiffs' group says."
+  ],
+  "body": [
+    "A three-year fight over the smell of cannabis greenhouses in California's Carpinteria Valley is headed to a courtroom. A class action brought by neighbours of two Santa Barbara County farms is set for trial on 18 December 2026, Noozhawk reported, after a delay caused by the retirement of the judge who had been handling the case. Judge Donna Geck will now hear it.",
+    "The case is narrower than it began. One of the two growers, Ceres Farms, has settled with the plaintiffs for an undisclosed amount, according to the plaintiffs' spokesperson, leaving Valley Crest Farms as the only defendant. The outcome will be read well beyond the valley, because odor complaints are one of the most common sources of friction between large cannabis cultivators and their neighbours.",
+    "## Who is suing, and over what",
+    "The Santa Barbara Coalition for Responsible Cannabis, a nearby rose farm and a neighbour filed the lawsuit in September 2023 against cannabis farms on Casitas Pass Road, alleging an ever-present, noxious odor that interfered with the use of nearby properties. The complaint targeted both the cannabis itself and the farms' vapor-phase systems, which released a masking scent that plaintiffs compared to a laundromat.",
+    "The previous judge, Thomas Anderle, certified the case as a class action last year. He defined the class as residents living within a mile of Valley Crest, a 9-acre site at 5980 Casitas Pass Road, or Ceres Farms, a 9.5-acre site at 6030 Casitas Pass Road, who bought their properties before 19 January 2016. Coalition spokesperson Lionel Neff told Noozhawk the class now includes about 200 homeowners. State records list Philip Fagundes as chief executive of Valley Crest Farms LLC, which leases the property; Valley Crest's lawyers did not respond to Noozhawk's request for comment.",
+    "## Scrubbers on trial",
+    "Since the suit was filed, the rules have changed. At the direction of the county Board of Supervisors, all operating Carpinteria farms have dropped the vapor-phase systems and installed multi-technology carbon scrubbers or an equivalent. MJBizDaily reported that growers had until the end of March to install the equipment or risk their permits. A county spokesperson said in October that 16 operators had approved odor-abatement plans and eight were still under review.",
+    "How well the equipment works is now the heart of the dispute. Some farms, including Ceres, installed Evinity scrubbers, at about $22,000 each with a recommended 10 per acre. Valley Crest installed Genesis scrubbers at 12 per acre and bought 45 units, according to Superior Court records cited by Noozhawk. Neff said the Genesis units contain no carbon, cost $10,000 to $12,000 each, and tested 41% effective at greenhouse vents, against 85% for Evinity.",
+    "On our arithmetic, at the recommended density an acre of Evinity scrubbers costs about $220,000, while 12 Genesis units cost $120,000 to $144,000. For Valley Crest's 9 acres, that is roughly $1.98 million for Evinity at the recommended density against about $1.08 million to $1.30 million for Genesis. Those are equipment figures only, before installation and running costs.",
+    "> Odor is now an engineering spec with a price per acre. Growers who buy the cheaper scrubber may be buying a lawsuit.",
+    "## What the county's data show",
+    "The county measures odor at property lines with nasal rangers, portable devices that gauge odor strength. Its limit is 4 dilutions-to-threshold for less than three minutes. A test on 2 September detected cannabis odor for exactly three minutes, and a county employee testified that month that Valley Crest's system had not eliminated odors to the required level, according to court records. No other test from April 2025 onward found a Valley Crest violation of that standard, Noozhawk said. The county's odor dashboard shows 34 complaints about Valley Crest from October 2025 to 13 November 2026, nine of them in the final month.",
+    "Neff summed up the coalition's view to Noozhawk: the smell is better than before, but still unacceptable.",
+    "## Why operators elsewhere should care",
+    "Santa Barbara County has more licensed cannabis cultivation than any other California county, MJBizDaily noted, and is home to large greenhouse operators including Glass House Brands, which is not a party to the case. A plaintiffs' win could become a template for nuisance suits near large cultivation sites in other states. A defence win would suggest that compliance with county abatement rules is a meaningful shield.",
+    "## What to watch",
+    "Watch the 18 December trial before Judge Geck, any damages or injunction sought against Valley Crest, and whether the county's dashboard data and nasal-ranger readings are accepted as evidence. Watch also for further settlements before trial, and for other counties adopting Santa Barbara's scrubber requirements."
+  ],
+  "sources": [
+    {
+      "name": "Noozhawk: Carpinteria cannabis-odor class-action lawsuit set for December trial",
+      "url": "https://www.noozhawk.com/carpinteria-cannabis-odor-class-action-lawsuit-set-for-december-trial/"
+    },
+    {
+      "name": "MJBizDaily: class-action lawsuit against California cannabis cultivator goes to trial (20 November 2026)",
+      "url": "https://mjbizdaily.com/news/the-smell-test-class-action-lawsuit-against-california-cannabis-cultivator-goes-to-trial/619306/"
+    },
+    {
+      "name": "MetaFlora News: California legal status hub",
+      "url": "https://news.metaflora.xyz/legal/us/california/"
+    }
+  ],
+  "visual": {
+    "motif": "gavel",
+    "big": "200",
+    "label": "homeowners in the Carpinteria odor class"
+  },
+  "banner": {
+    "title": "Cannabis Odor Case Heads to Trial",
+    "highlight": [
+      "ODOR"
+    ],
+    "sub": "Carpinteria neighbours v Valley Crest Farms, 18 December",
+    "divider": "States desk",
+    "points": [
+      {
+        "icon": "gavel",
+        "text": "Trial set 18 December"
+      },
+      {
+        "icon": "pin",
+        "text": "200 homeowners in class"
+      },
+      {
+        "icon": "chip",
+        "text": "Scrubbers 41% vs 85%"
+      }
+    ],
+    "corner": [
+      "CALIFORNIA",
+      "COURTS",
+      "ODOR",
+      "GROWERS"
+    ]
+  },
+  "watch": [
+    {
+      "date": "2026-12-18",
+      "text": "Carpinteria cannabis odor class action trial against Valley Crest Farms"
+    }
+  ],
+  "tags": [
+    "California",
+    "Courts",
+    "Cultivation"
+  ],
+  "image_prompt": "Premium product still life: a sleek cylindrical industrial carbon air filter standing on a dark greenhouse bench beside a potted flowering cannabis plant, a single pink rose laid in front, soft directional light with faint violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "An industrial air filter beside a flowering cannabis plant and a pink rose",
+  "breaking": false
+}

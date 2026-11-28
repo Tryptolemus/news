@@ -1,0 +1,100 @@
+{
+  "id": "cannabis-research-psychosis-onset-meta-analysis-thclv-aged-cannabis",
+  "edition": "2026-11-28-am",
+  "rank": 5,
+  "published": "2026-11-28T06:12:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: psychosis came 2.5 years earlier in users",
+  "dek": "A 149-study UNSW meta-analysis finds the gap widens to 6.3 years after age 30; chemists also isolate a new cannabinoid from ten-year-old cannabis.",
+  "key_points": [
+    "A Biological Psychiatry meta-analysis of 149 studies, 18,272 cannabis users and 52,801 non-users found psychosis began 2.5 years earlier on average in users.",
+    "The gap grew with age at onset: 1.6 years at 20 to 24, 4.43 years at 25 to 29 and 6.3 years at 30 and over, with no difference under 20.",
+    "The authors say the studies are observational and cannot prove cause, but argue the pattern supports warnings across the lifespan.",
+    "Italian and Austrian chemists isolated a new THCV-derived compound, tetrahydrocannabilactolvarin (THCLV), from cannabis stored for a decade."
+  ],
+  "body": [
+    "Two recent studies add to what is known about cannabis and the mind, and about what happens to the plant itself over time. The first, a large meta-analysis from UNSW Sydney published in Biological Psychiatry, finds that people who use cannabis experience their first psychotic episode years earlier than those who do not, and that the gap grows with age. The second, from a group of Italian and Austrian chemists, identifies a previously unknown cannabinoid formed in cannabis kept in storage for ten years.",
+    "Neither study changes the law, but both bear on issues regulators and operators face: how health warnings are written, and how cannabis products change on the shelf.",
+    "## Psychosis onset: what the meta-analysis found",
+    "Carly Stevens, Hannah Pincham and Matthew Large searched three major databases up to April 2025 and pooled 181 samples from 149 studies, covering 18,272 cannabis users and 52,801 non-users, according to the paper's abstract on PubMed. Most of the studies were conducted since 2011 in Europe, North America and Australia and mainly involved people with schizophrenia, ScienceDaily reported.",
+    "On average, cannabis users' psychosis began 2.50 years earlier. The effect depended strongly on when psychosis typically started in each sample. In samples with an average onset under 20, there was no difference between users and non-users. In samples with onset between 20 and 25, users were 1.60 years earlier; between 25 and 30, 4.43 years earlier; and at 30 or older, 6.30 years earlier. The authors report that mean onset age was a strong, independent moderator of the effect.",
+    "Large told ScienceDaily the pattern suggests a cumulative effect, with harm building over time in a way he likened to alcohol or nicotine. The team also offered a reason for the null result in teenagers: psychosis rarely begins before the mid-teens, so there is little room for onset to move earlier.",
+    "> The message is shifting from protecting the teenage brain to cumulative exposure. That matters for how adult-use labels are written.",
+    "## The limits of the evidence",
+    "The authors are clear that the studies they pooled were observational, so the analysis cannot show that cannabis causes psychosis or brings it forward. People who go on to develop psychosis may differ from others in many ways, including genetics and other drug use. Large argued that the consistency of the findings, especially in older adults with longer exposure, supports a causal role, but that is an interpretation, not a demonstrated effect. The paper's conclusion calls for considering public health warnings about psychiatric risks across the lifespan.",
+    "For context, an earlier 2011 meta-analysis led by Large put the average gap at about 2.7 years, ScienceDaily noted. The new study is larger and is the first to show how the gap changes by age group. It was first published online in August and drew wide coverage this month.",
+    "## A new cannabinoid from aged cannabis",
+    "The second study looks at the plant. Researchers analysed a chemotype rich in tetrahydrocannabivarin (THCV) that had been stored under controlled conditions for ten years. They isolated cannabinovarinic acid, found that THCA and THCVA decarboxylated and aromatised at different rates, and isolated and characterised a new compound they named tetrahydrocannabilactolvarin, or THCLV, according to the team's preprint on Research Square.",
+    "The Marijuana Herald reported that the paper has now been published in Scientific Reports, by researchers from the University of Eastern Piedmont, the University of Naples Federico II, the University of Modena and Reggio Emilia and the University of Graz. The team also tested several compounds for their ability to protect human liver-derived cells from ferroptosis, an iron-dependent form of cell death. The preprint attributed that protection mainly to cannabinol (CBN) and cannabinovarin (CBNV) rather than to THCLV. These are cell experiments, not evidence of any effect in people.",
+    "## Why storage chemistry matters",
+    "The preprint's abstract notes that degradation of THC into CBN matters from both pharmacological and legal standpoints. For operators, that is practical: cannabinoid levels on a label can drift as products age, which affects potency testing, shelf-life claims and, for hemp, whether a product stays within legal THC limits. A better map of what forms during storage helps labs know what to look for.",
+    "## What to watch",
+    "Watch for regulators who write product warnings, such as state cannabis agencies and Health Canada, to cite the psychosis findings when they review label language. Watch for further work on THCLV's properties, and for testing labs adding aged-product markers to their methods. As MetaFlora News reported on 22 November, an American Heart Association abstract this month linked even occasional use to higher odds of stroke, another input to that debate."
+  ],
+  "sources": [
+    {
+      "name": "Biological Psychiatry: Cannabis use and age-related acceleration of psychosis onset, a meta-analysis (Stevens, Pincham, Large, 2026)",
+      "url": "https://doi.org/10.1016/j.biopsych.2026.06.025"
+    },
+    {
+      "name": "PubMed record 42610992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42610992/"
+    },
+    {
+      "name": "ScienceDaily: cannabis users develop psychosis years earlier (24 November 2026)",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261123005346.htm"
+    },
+    {
+      "name": "Research Square preprint: isolation and anti-ferroptotic activity of the new tetrahydrocannabilactolvarin (Salamone et al.)",
+      "url": "https://www.researchsquare.com/article/rs-10525667/v1"
+    },
+    {
+      "name": "The Marijuana Herald: researchers discover previously unidentified cannabinoid in marijuana stored for 10 years",
+      "url": "https://themarijuanaherald.com/2026/11/researchers-discover-previously-unidentified-cannabinoid-in-marijuana-stored-for-10-years/"
+    },
+    {
+      "name": "MetaFlora News: Cannabis research, AHA stroke abstract (22 November 2026)",
+      "url": "https://news.metaflora.xyz/2026/11/22/cannabis-research-aha-stroke-abstract-uf-ccorc-conference/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "2.5 yrs",
+    "label": "earlier psychosis onset in cannabis users"
+  },
+  "banner": {
+    "title": "Psychosis Starts Earlier in Users",
+    "highlight": [
+      "EARLIER"
+    ],
+    "sub": "149-study review; plus a new cannabinoid from aged flower",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "149 studies pooled"
+      },
+      {
+        "icon": "chart",
+        "text": "6.3 years at 30+"
+      },
+      {
+        "icon": "leaf",
+        "text": "New THCLV compound"
+      }
+    ],
+    "corner": [
+      "SCIENCE",
+      "MENTAL",
+      "HEALTH",
+      "RESEARCH"
+    ]
+  },
+  "tags": [
+    "Research",
+    "Mental health"
+  ],
+  "image_prompt": "Premium product still life: a glass laboratory vial of amber cannabis extract standing beside a small brass hourglass on a dark lab bench, a single dried cannabis bud resting in front, soft directional light with faint violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A vial of cannabis extract beside a brass hourglass and a dried bud",
+  "breaking": false
+}

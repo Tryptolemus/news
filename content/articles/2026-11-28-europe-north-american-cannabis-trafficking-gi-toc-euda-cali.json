@@ -1,0 +1,96 @@
+{
+  "id": "europe-north-american-cannabis-trafficking-gi-toc-euda-cali",
+  "edition": "2026-11-28-am",
+  "rank": 3,
+  "published": "2026-11-28T06:12:00+02:00",
+  "cat": "Europe",
+  "headline": "Europe: GI-TOC says US and Canadian cannabis is a key illicit supply",
+  "dek": "A GI-TOC report says North American cannabis is a significant share of Europe's illicit supply, as seizures from France to the Netherlands rise.",
+  "key_points": [
+    "The Global Initiative Against Transnational Organized Crime says US, Canadian and Thai cannabis has become a significant part of European supply, Newsweek reported on 27 November.",
+    "French investigators traced at least 21 shipments of California cannabis between June 2025 and May 2026, hidden in furniture, arcade machines and gym equipment.",
+    "The EU drugs agency says herbal cannabis seizures rose 1,075% in Belgium and 278% in the Netherlands in 2024, with large North American consignments.",
+    "Oversupply and falling prices in legal North American markets are the pull factor regulators point to; GI-TOC says the link to legalisation should be read with caution."
+  ],
+  "body": [
+    "Cannabis grown in North America is turning up across Europe's illicit market in volumes that law enforcement agencies now treat as a trend rather than a curiosity. A new European drug trends report from the Global Initiative Against Transnational Organized Crime (GI-TOC) says cannabis from the United States, Canada and Thailand has become a significant component of European supply, according to Newsweek, which reported the findings on 27 November.",
+    "The report ties the growth in North American supply to the liberalisation of cannabis laws in Canada and some US states over the past decade, but adds that the link should be interpreted with caution. Seizures and networks have been reported in Britain, France, Germany, Poland, Belgium and the Netherlands, Newsweek said.",
+    "## What the seizures show",
+    "The most detailed case is French. Investigators found at least 21 shipments of California cannabis between June 2025 and May 2026, concealed in commercial cargoes of furniture, arcade machines and fitness equipment, and believe the network probably imported more than a tonne, Newsweek reported. Similar consignments turned up in Luxembourg, Germany and Switzerland.",
+    "Other figures cited in the coverage: Poland intercepted 147 pounds of US cannabis last year, and Dutch authorities found 1,241 pounds in postal parcels in the Eindhoven region in the first four months of this year, largely from the US and Canada. In Britain, authorities seized more than 881 pounds from passengers on Los Angeles to London flights over eight days in January 2023 and arrested 11 US nationals. On our conversion, the Eindhoven haul is about 563 kilograms and the French network's estimated imports exceed 1,000 kilograms.",
+    "The EU Drugs Agency's own data point the same way. Its 2026 European Drug Report says herbal cannabis seizures in the EU were stable overall in 2024 but rose 1,075% in Belgium and 278% in the Netherlands, where large consignments from North America and other non-European regions were seized. In November 2025 the agency issued its first alert through the European Drug Alert System, warning of harms from North American cannabis on European markets because of higher potency and contamination with potentially hazardous pesticides.",
+    "> Oversupply in legal US markets does not stay in the US. Every unsold pound is a pricing problem at home and a trafficking opportunity abroad.",
+    "## Why North America, and why now",
+    "The EUDA has said, as quoted by Newsweek, that increased competition, overproduction and falling prices in North America are likely to entice European traffickers. Newsweek also reported that some licensed US growers may be producing beyond their permitted amounts and diverting the surplus, while other producers operate entirely outside the regulated industry.",
+    "That fits what US operators already know about their own markets. As MetaFlora News reported on 26 November, Whitney Economics found that 24 states saw cannabis revenue fall in 2025, a sign of oversupply and price compression. Falling wholesale prices squeeze licensed growers and make unlicensed production cheaper still, and a European street market valued by the EUDA at more than EUR 12 billion offers far higher prices.",
+    "The branding is part of the trade. Newsweek found UK dealers marketing 'Cali' cannabis, including through a London poster with a QR code. It is unclear whether such product is genuinely Californian or simply sold under a premium label; the report treats US-grown cannabis as a real and growing share, but the label itself proves nothing.",
+    "## What it means for legal operators",
+    "For licensed US companies the issue is reputational and regulatory. Evidence that state-licensed product may be leaking abroad, even if only a share of it, is the kind of finding that could shape how regulators think about track-and-trace, production caps and enforcement. For legal European suppliers, including EU-GMP producers and importers into Germany's medical market, high-potency illicit imports compete directly for consumers and complicate the case that regulated supply displaces the illicit market.",
+    "Policy responses are already visible. The EUDA warning flagged potency and pesticide risks, and Newsweek noted that in a September presidential determination to Congress, President Trump named 23 countries as major drug transit or drug-producing nations. Newsweek said it had contacted UK and US agencies and the California Department of Cannabis Control, and reported no responses.",
+    "## What to watch",
+    "Watch for GI-TOC's full report and any follow-up from Europol or the EUDA on North American routes. Watch for prosecutions in France and the Netherlands that name US sources, and for any response from California regulators on diversion. In the US, watch whether evidence of export diversion feeds into federal scrutiny of state markets as DEA registration of medical operators proceeds."
+  ],
+  "sources": [
+    {
+      "name": "Newsweek via Yahoo News: US grown 'Cali' cannabis keeps turning up in Europe (27 November 2026)",
+      "url": "https://www.yahoo.com/news/us/articles/us-grown-cali-cannabis-keeps-174640209.html"
+    },
+    {
+      "name": "EUDA: Cannabis, the current situation in Europe (European Drug Report 2026)",
+      "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/cannabis_en"
+    },
+    {
+      "name": "Wisevoter: US-grown cannabis flows into European markets (27 November 2026)",
+      "url": "https://wisevoter.com/world/2026/11/27/us-grown-cannabis-flows-into-europe"
+    },
+    {
+      "name": "MetaFlora News: Whitney Economics, 24 states saw cannabis revenue fall in 2025 (26 November 2026)",
+      "url": "https://news.metaflora.xyz/2026/11/26/whitney-economics-24-states-cannabis-revenue-decline-2025-regulators-oversupply/"
+    }
+  ],
+  "visual": {
+    "motif": "pins",
+    "big": "21",
+    "label": "California shipments traced by French investigators"
+  },
+  "banner": {
+    "title": "North American Weed in Europe",
+    "highlight": [
+      "EUROPE"
+    ],
+    "sub": "GI-TOC report flags North American supply in six countries",
+    "divider": "Europe desk",
+    "points": [
+      {
+        "icon": "cube",
+        "text": "21 French shipments"
+      },
+      {
+        "icon": "globe",
+        "text": "Six countries hit"
+      },
+      {
+        "icon": "chart",
+        "text": "Belgian seizures +1,075%"
+      }
+    ],
+    "corner": [
+      "EUROPE",
+      "TRAFFICKING",
+      "SUPPLY",
+      "ENFORCEMENT"
+    ]
+  },
+  "tags": [
+    "Europe",
+    "Illicit market",
+    "California",
+    "Canada",
+    "France",
+    "Netherlands"
+  ],
+  "image_prompt": "Premium product still life: an open wooden shipping crate on a dark warehouse floor with a vacuum-sealed clear pouch of cannabis flower half hidden among packing straw, a small brass ship's compass resting on the crate's edge, soft directional light with faint violet edge light, subject in the right half, darker space on the left, no text, no logos, no people",
+  "image_alt": "A sealed pouch of cannabis hidden in a shipping crate beside a brass compass",
+  "x_post": "US and Canadian cannabis is now a significant share of Europe's illicit supply, says a GI-TOC report. French investigators traced 21 California shipments hidden in furniture and arcade machines.",
+  "breaking": false
+}
