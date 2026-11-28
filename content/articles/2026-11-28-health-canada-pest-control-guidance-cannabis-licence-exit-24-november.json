@@ -1,0 +1,101 @@
+{
+  "id": "health-canada-pest-control-guidance-cannabis-licence-exit-24-november",
+  "edition": "2026-11-28-pm",
+  "rank": 3,
+  "published": "2026-11-28T18:12:00+02:00",
+  "cat": "Policy",
+  "headline": "Health Canada updates cannabis pesticide and licence-exit guidance",
+  "dek": "Guidance listed on 24 November says only products registered for cannabis may be used, warns off neem oil and sanitizers, and notes fines up to $1 million.",
+  "key_points": [
+    "Health Canada listed updated guidance on pest control products for cannabis on 24 November, alongside refreshed guidance on ceasing activities and revoking a licence.",
+    "Licence holders may only use products registered or authorized for cannabis under the Pest Control Products Act; a label that does not mention cannabis or marijuana generally means the use is non-compliant.",
+    "The guidance warns against common shortcuts, including household disinfectants, dish soap, hydrogen peroxide products, sulfur powder and neem oil, and notes penalties of up to $1 million.",
+    "Producers leaving the market must give 30 days' notice, account for remaining inventory, and still file a revenue statement and pay the annual fee for that fiscal year."
+  ],
+  "body": [
+    "Health Canada has refreshed two pieces of guidance that matter to every licensed producer: what pest control products may be used on cannabis, and what a company must do when it stops operating or gives up its licence. Both were listed on the regulator's updates page for cannabis and industrial hemp on 24 November.",
+    "Neither document changes the law. Health Canada says the Cannabis Act and Cannabis Regulations take precedence over its guidance. But the pesticide guidance spells out in plain terms which everyday products growers must not reach for, and the licence-exit guidance sets out the paperwork for companies winding down, a live issue in a market that continues to consolidate.",
+    "## Only products registered for cannabis",
+    "The pesticide guidance applies to standard and micro-cultivation, nursery, and standard and micro-processing licence holders. Its core rule is simple: a pest control product must be registered or authorized under the Pest Control Products Act for use on cannabis. Cannabis treated with anything else does not meet Good Production Practices and cannot be sold, distributed or exported.",
+    "Health Canada says a label registered for cannabis should show the directions for use, the registration number, the target pest, the treatment location such as a greenhouse or open field, and a reference to cannabis or marijuana. If the label does not mention cannabis or marijuana, using the product on cannabis is generally non-compliant. Products must also be used only for the pests and areas on the label, and in line with its directions.",
+    "The regulator points growers to its Pesticide Product Information Database to check registrations, and adds a pointed caution that wide availability of a product does not mean it can be used on cannabis.",
+    "## The shortcuts it warns against",
+    "The guidance names non-conventional products that growers may assume are harmless but that fall under pesticide rules. They include household disinfectants, dish soap and surfactants, water-line and room sanitizers, hydrogen peroxide and peracetic acid products, bulk industrial chemicals such as sulfur powder, plant oils such as neem oil, and antimicrobial devices using UV light, ozone or chemical treatments that are subject to registration.",
+    "Health Canada also suggests, without requiring, a full pest management programme: restricted access to products, monitoring of their use, and records showing that registrations were checked.",
+    "> Pesticide rules are now a balance-sheet risk: one unregistered spray can mean a recall, a stop-sale and a fine that dwarfs a small producer's margin.",
+    "## Testing and penalties",
+    "Since 2 January 2019, licence holders have had to test cannabis for pesticide active ingredients before it is sold, distributed or exported, and must test for unauthorized pesticide use under the terms of their licence. Health Canada also carries out unannounced sampling and testing of licensees' products.",
+    "Where it finds unauthorized pesticide use on product meant for sale, the regulator lists a range of options: destroying the product, recalling what has been sold, ordering a stop to sales, seizing and detaining product, suspending or revoking the licence, and issuing an administrative monetary penalty of up to $1 million. Action can also be taken under the Pest Control Products Act.",
+    "The timing is apt. As we reported on 24 November, Oregon regulators ordered recalls of cannabis vapes and edibles over the pesticide bifenthrin. Canada's rules aim to stop that problem at the grow, before testing becomes the only line of defence.",
+    "## Leaving the market: the paperwork",
+    "The second guidance page covers two routes out. A licence holder that wants to cease activities, including holding cannabis at the site, must notify Health Canada at least 30 calendar days in advance through the Cannabis Tracking and Licensing System. It must give the expected date and reason, the quantity of cannabis left and how it will be disposed of (with the buyer's name and address if sold, or the date, location and quantity if destroyed), and where records will be kept.",
+    "Ceasing activities does not end the obligations. Companies must keep paying fees, file monthly inventory reports, maintain physical security, keep security-cleared staff in key roles and retain documents. A paused licence can be reactivated in the system.",
+    "Revoking all licences at a site also requires 30 days' notice and Health Canada's approval. The regulator sends a notice, then allows a period in which the holder can make representations or stop the process, before confirming revocation. Until then the licence stays valid and all regulations apply. After revocation, the company must file a statement of cannabis revenue for that fiscal year, which runs from 1 April to 31 March, and pay the annual regulatory fee even if it held the licence for a single day. It must notify local authorities within 30 days of Health Canada's confirmation.",
+    "## What to watch",
+    "Watch Health Canada's next compliance and enforcement report for how many pesticide findings lead to recalls or penalties, and whether provinces tighten retail checks. For producers, the practical step is an audit of every product in the pesticide store against the cannabis-specific registration list. For investors, licence revocations filed through the system are an early signal of which smaller producers are leaving the market."
+  ],
+  "sources": [
+    {
+      "name": "Health Canada: Updates for cannabis and industrial hemp",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/updates-cannabis-industrial-hemp.html"
+    },
+    {
+      "name": "Health Canada: Pest control products for use on cannabis",
+      "url": "https://www.canada.ca/en/health-canada/services/cannabis-regulations-licensed-producers/pest-control-products.html"
+    },
+    {
+      "name": "Health Canada: Cease activities and revoke your licence",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-medication/cannabis/industry-licensees-applicants/manage-licence-cultivation-processing-sale-medical-purposes/cease-activities-revoke-licence.html"
+    },
+    {
+      "name": "MetaFlora News",
+      "url": "https://news.metaflora.xyz/2026/11/24/oregon-olcc-bifenthrin-recall-vapes-edibles-464-stores/"
+    }
+  ],
+  "visual": {
+    "motif": "seal",
+    "word": "HC",
+    "sub": "GUIDANCE",
+    "big": "$1M",
+    "label": "maximum penalty for unauthorized pesticide use"
+  },
+  "banner": {
+    "title": "Canada Tightens Pesticide Guidance",
+    "highlight": [
+      "Pesticide"
+    ],
+    "sub": "Health Canada guidance listed 24 November",
+    "divider": "Policy desk",
+    "points": [
+      {
+        "icon": "shield",
+        "text": "Cannabis-registered only"
+      },
+      {
+        "icon": "drop",
+        "text": "No neem oil or dish soap"
+      },
+      {
+        "icon": "coin",
+        "text": "Fines up to $1 million"
+      }
+    ],
+    "corner": [
+      "CANADA",
+      "PESTICIDES",
+      "TESTING",
+      "LICENCES"
+    ]
+  },
+  "tags": [
+    "Canada",
+    "Pesticides",
+    "Testing",
+    "Licensing",
+    "Product safety"
+  ],
+  "image_prompt": "Premium product still life: a plain white unlabeled spray bottle beside a healthy potted cannabis seedling on a dark reflective surface, a single red maple leaf lying in front, soft violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A plain spray bottle next to a cannabis seedling with a red maple leaf on a dark surface",
+  "x_post": "Health Canada's updated cannabis pesticide guidance: if the label doesn't mention cannabis, don't use it. Neem oil, dish soap and room sanitizers are on the warning list, and fines run up to $1 million.",
+  "breaking": false
+}

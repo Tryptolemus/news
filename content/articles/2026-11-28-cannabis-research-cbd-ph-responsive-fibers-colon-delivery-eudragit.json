@@ -1,0 +1,91 @@
+{
+  "id": "cannabis-research-cbd-ph-responsive-fibers-colon-delivery-eudragit",
+  "edition": "2026-11-28-pm",
+  "rank": 4,
+  "published": "2026-11-28T18:12:00+02:00",
+  "cat": "Science",
+  "headline": "Cannabis research: coated CBD fibers held their dose until pH 7.4",
+  "dek": "A North Macedonian lab study published 26 November made CBD fibers that stayed shut at stomach-like pH 1.2 and opened at intestinal pH.",
+  "key_points": [
+    "Researchers in North Macedonia built electrospun fibers with a CBD-loaded polyethylene oxide core and a pH-sensitive Eudragit S shell.",
+    "In lab tests, all three versions released negligible CBD at pH 1.2, like the stomach, and released it rapidly at pH 7.4, like the lower intestine.",
+    "The 10% shell formulation gave the most uniform fibers and the most efficient release; drug loading ranged from 93.77% to 105.24%.",
+    "This is an in-vitro materials study: no animals or patients were tested, and the authors say safety and efficacy still need study."
+  ],
+  "body": [
+    "A team in North Macedonia has built a CBD delivery material designed to survive the stomach and release its dose further down the gut, where it might one day be used against inflammatory bowel disease. The study, published on 26 November in the peer-reviewed Journal of Bioactive and Compatible Polymers, tested ultra-thin fibers made of two layers: a CBD-loaded core and an outer shell that dissolves only at the higher pH found in the intestine.",
+    "In laboratory release tests, the fibers let out almost no CBD under acidic, stomach-like conditions and released it quickly once the pH rose. The authors, Aleksandra Ivanoska-Dacikj, Petre Makreski, Jasmina Petreska Stanoeva, Lina Livrinska Trpeska and Nikola Geskovski, say the design could be tuned to control where and how fast CBD is released. The Marijuana Herald, which reported the study on 27 November, said the work involved the Macedonian Academy of Sciences and Arts, Goce Delcev University and Ss. Cyril and Methodius University.",
+    "## The problem it tries to solve",
+    "CBD dissolves poorly in water, which makes it hard to deliver reliably by mouth. The paper's abstract notes that CBD may be relevant to inflammatory disorders including inflammatory bowel disease, the umbrella term for conditions such as ulcerative colitis and Crohn's disease, and that delivering it locally in the intestine may be an advantage for those conditions.",
+    "The usual route for gut-targeted drugs is a coating that resists stomach acid. The team applied that idea at the scale of a fiber rather than a tablet, using a technique called coaxial electrospinning, which draws two polymer solutions through nested needles to form a fiber with a core and a sheath.",
+    "## How the fibers were made",
+    "The core was polyethylene oxide, a water-soluble polymer, loaded with CBD. The shell was Eudragit S, a pH-sensitive polymer that stays intact in acid and dissolves at higher pH. The researchers made three versions, with shell concentrations of 5%, 10% and 15% by weight, to see how the amount of coating changed the result.",
+    "Under the electron microscope, more shell polymer produced thicker fibers that were less uniform and began to branch at higher viscosities. The middle formulation, at 10%, gave the most even fibers with the best structural integrity. Infrared and Raman spectroscopy and X-ray diffraction confirmed that CBD was encapsulated and molecularly dispersed in the core. Drug loading was consistent across all three, between 93.77% and 105.24%, which the authors read as a sign the process was stable.",
+    "> Getting CBD to the right part of the gut is a formulation problem before it is a medical one. This study works on the formulation.",
+    "## What the release tests showed",
+    "At pH 1.2, roughly the acidity of the stomach, all three formulations released negligible CBD. At pH 7.4, the shell dissolved and CBD was released rapidly. The 10% formulation released most efficiently, which the authors put down to a balance between the pathways the drug can diffuse through and the barrier the polymer shell provides.",
+    "Their conclusion is that tuning the shell concentration gives precise control over fiber shape and release speed, and that the system could carry other poorly water-soluble drugs that need to reach the colon.",
+    "## What this study does not show",
+    "The work is entirely in vitro. It used buffer solutions at set pH values, not living tissue. There were no animal tests and no patients, so it says nothing yet about whether the fibers reduce inflammation, how much CBD reaches the bloodstream, or whether the material is safe to swallow in repeated doses. The Herald noted that the researchers say further work is needed on safety and efficacy before any use in patients.",
+    "Two practical questions also remain open: how such fibers would be packed into a swallowable product, and how they would behave in the real gut, where pH, transit time and food vary from person to person.",
+    "## Why it matters for the industry",
+    "Most CBD products sold today are oils, capsules and edibles with little control over where the compound is absorbed. Pharmaceutical developers working on gut conditions need the opposite: a predictable dose at a defined site. Materials work like this sits upstream of that goal. It is a signal of where CBD formulation research is heading, not evidence of a treatment, and it supports no health claim for CBD.",
+    "## What to watch",
+    "Watch for follow-up studies from the same group testing the fibers in simulated intestinal fluids or animal models of colitis, and for any move to turn the material into a capsule or tablet. Wider signals include clinical trials of CBD in inflammatory bowel disease and regulators' decisions on how CBD medicines are approved."
+  ],
+  "sources": [
+    {
+      "name": "Journal of Bioactive and Compatible Polymers (DOI)",
+      "url": "https://journals.sagepub.com/doi/10.1177/08839115261507806"
+    },
+    {
+      "name": "Crossref record",
+      "url": "https://api.crossref.org/works/10.1177/08839115261507806"
+    },
+    {
+      "name": "The Marijuana Herald",
+      "url": "https://themarijuanaherald.com/2026/11/researchers-develop-cbd-delivery-system-designed-to-release-the-compound-in-the-intestines/"
+    }
+  ],
+  "visual": {
+    "motif": "molecule",
+    "big": "pH 7.4",
+    "label": "where the coated fibers released their CBD"
+  },
+  "banner": {
+    "title": "CBD Fibers Built for the Gut",
+    "highlight": [
+      "CBD",
+      "Gut"
+    ],
+    "sub": "Lab study tests pH-triggered release",
+    "divider": "Science desk",
+    "points": [
+      {
+        "icon": "flask",
+        "text": "Shut at stomach pH 1.2"
+      },
+      {
+        "icon": "drop",
+        "text": "Released at pH 7.4"
+      },
+      {
+        "icon": "doc",
+        "text": "Lab study, no patients"
+      }
+    ],
+    "corner": [
+      "CBD",
+      "RESEARCH",
+      "DELIVERY",
+      "LAB"
+    ]
+  },
+  "tags": [
+    "CBD",
+    "Research"
+  ],
+  "image_prompt": "Premium product still life: a single clear gel capsule filled with fine white fibers lying beside a glass laboratory petri dish on a dark reflective surface, a tiny cannabis leaf next to the dish, soft violet edge light, subject in the right half, dark empty space on the left",
+  "image_alt": "A clear capsule filled with white fibers beside a petri dish and a small cannabis leaf",
+  "breaking": false
+}
